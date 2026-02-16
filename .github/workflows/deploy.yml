@@ -3,8 +3,13 @@ on:
   workflow_dispatch:
     inputs:
       app_path:
-        description: 'Path to app (e.g., marketing/blog)'
+        description: 'Path to app (e.g., marketing/blog) or type "all" to deploy all apps'
         required: true
+      deploy_all:
+        description: 'Deploy all apps'
+        type: boolean
+        required: false
+        default: false
       environment:
         description: 'Target Environment'
         type: choice
@@ -37,21 +42,47 @@ jobs:
           cache: "pnpm"
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-      - name: Build all apps
+      - name: Build and deploy single app
+        if: ${{ github.event.inputs.deploy_all != 'true' && github.event.inputs.app_path != 'all' }}
         run: |
           TEAM_NAME=$(echo "${{ github.event.inputs.app_path }}" | cut -d'/' -f1)
           APP_NAME=$(echo "${{ github.event.inputs.app_path }}" | cut -d'/' -f2)
           DEPLOY_ID="${TEAM_NAME}/${APP_NAME}"
           NEXT_PUBLIC_BASE_PATH="/$DEPLOY_ID" pnpm --filter "./apps/${{ github.event.inputs.app_path }}" build
-      - name: Sync to R2
-        run: |
-          TEAM_NAME=$(echo "${{ github.event.inputs.app_path }}" | cut -d'/' -f1)
-          APP_NAME=$(echo "${{ github.event.inputs.app_path }}" | cut -d'/' -f2)
-          DEPLOY_ID="${TEAM_NAME}/${APP_NAME}"
+
           R2_ENDPOINT="https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com"
-          # Target: s3://bucket/staging/marketing-blog/
           DEST="s3://${{ secrets.R2_BUCKET_NAME }}/${{ github.event.inputs.environment }}/${DEPLOY_ID}/"
-          
+
           aws s3 sync "apps/${{ github.event.inputs.app_path }}/out" "$DEST" \
             --endpoint-url "$R2_ENDPOINT" \
             --region auto
+      - name: Build and deploy all apps
+        if: ${{ github.event.inputs.deploy_all == 'true' || github.event.inputs.app_path == 'all' }}
+        run: |
+          R2_ENDPOINT="https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com"
+
+          # Find all apps in the apps directory
+          for APP_DIR in apps/*/*/; do
+            if [ -d "$APP_DIR" ]; then
+              # Extract team and app name from path (e.g., apps/core/home/)
+              RELATIVE_PATH="${APP_DIR#apps/}"
+              TEAM_NAME=$(echo "$RELATIVE_PATH" | cut -d'/' -f1)
+              APP_NAME=$(echo "$RELATIVE_PATH" | cut -d'/' -f2)
+              DEPLOY_ID="${TEAM_NAME}/${APP_NAME}"
+
+              echo "Building and deploying $DEPLOY_ID..."
+
+              # Build the app
+              NEXT_PUBLIC_BASE_PATH="/$DEPLOY_ID" pnpm --filter "./apps/${TEAM_NAME}/${APP_NAME}" build
+
+              # Sync to R2
+              DEST="s3://${{ secrets.R2_BUCKET_NAME }}/${{ github.event.inputs.environment }}/${DEPLOY_ID}/"
+              aws s3 sync "apps/${TEAM_NAME}/${APP_NAME}/out" "$DEST" \
+                --endpoint-url "$R2_ENDPOINT" \
+                --region auto
+
+              echo "✓ Deployed $DEPLOY_ID"
+            fi
+          done
+
+          echo "All apps deployed successfully!"
