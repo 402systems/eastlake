@@ -382,12 +382,18 @@ importers:
 
   libs/core/supabase-auth:
     dependencies:
+      '@402systems/lib-core-ui':
+        specifier: workspace:*
+        version: link:../ui
       '@supabase/ssr':
         specifier: ^0.8.0
         version: 0.8.0(@supabase/supabase-js@2.95.3)
       '@supabase/supabase-js':
         specifier: ^2.95.3
         version: 2.95.3
+      lucide-react:
+        specifier: ^0.562.0
+        version: 0.562.0(react@19.2.4)
       react:
         specifier: ^18.2.0 || ^19.0.0
         version: 19.2.4
@@ -7520,6 +7526,10 @@ snapshots:
   lucide-react@0.562.0(react@19.2.3):
     dependencies:
       react: 19.2.3
+
+  lucide-react@0.562.0(react@19.2.4):
+    dependencies:
+      react: 19.2.4
 
   magic-string@0.30.21:
     dependencies:
