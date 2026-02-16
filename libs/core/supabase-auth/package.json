@@ -8,7 +8,7 @@
     "./types": "./src/types.ts"
   },
   "scripts": {
-    "lint": "eslint . --max-warnings 0",
+    "lint": "eslint src/ --max-warnings 0",
     "check-types": "tsc --noEmit"
   },
   "peerDependencies": {
@@ -22,7 +22,7 @@
     "@402systems/lib-core-eslint": "workspace:*",
     "@402systems/lib-core-tsconfig": "workspace:*",
     "@types/react": "^18.2.61",
-    "eslint": "^8.57.0",
+    "eslint": "^9.39.2",
     "typescript": "^5.3.3"
   }
 }

@@ -16,6 +16,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@402systems/core-ui/components/ui/dropdown-menu';
+import Link from 'next/link';
 
 export default function BingoPage() {
   const { user, loading, signOut } = useAuth();
@@ -103,7 +104,7 @@ export default function BingoPage() {
     <div className="flex min-h-screen flex-col items-center gap-6 bg-slate-50 p-4 sm:gap-8 sm:p-8">
       <div className="w-full max-w-5xl">
         <div className="flex items-center justify-between">
-          <div className="space-y-2 text-center flex-1">
+          <div className="flex-1 space-y-2 text-center">
             <h1 className="text-4xl font-bold tracking-tight text-slate-900">
               Bingo Builder
             </h1>
@@ -131,7 +132,7 @@ export default function BingoPage() {
               </DropdownMenu>
             ) : (
               <Button variant="outline" asChild>
-                <a href="/">Sign In</a>
+                <Link href="/">Sign In</Link>
               </Button>
             )}
           </div>

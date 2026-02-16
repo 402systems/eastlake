@@ -7,7 +7,6 @@ import type { UseAuthReturn } from '../types';
 
 export function useAuth(): UseAuthReturn {
   const [user, setUser] = useState<User | null>(null);
-  const [loading, setLoading] = useState(true);
 
   // Create client lazily only on the client side
   const supabase = useMemo(() => {
@@ -15,9 +14,11 @@ export function useAuth(): UseAuthReturn {
     return createClient();
   }, []);
 
+  // Initialize loading based on whether we have a client
+  const [loading, setLoading] = useState(supabase !== null);
+
   useEffect(() => {
     if (!supabase) {
-      setLoading(false);
       return;
     }
 

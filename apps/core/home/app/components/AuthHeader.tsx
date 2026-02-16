@@ -93,7 +93,7 @@ export function AuthHeader() {
   if (loading) {
     return (
       <div className="fixed top-4 right-4 z-50">
-        <Loader2 className="h-5 w-5 animate-spin text-muted-foreground" />
+        <Loader2 className="text-muted-foreground h-5 w-5 animate-spin" />
       </div>
     );
   }
@@ -171,10 +171,10 @@ export function AuthHeader() {
               />
             </div>
             {error && (
-              <p className="text-sm text-destructive font-medium">{error}</p>
+              <p className="text-destructive text-sm font-medium">{error}</p>
             )}
             {success && (
-              <p className="text-sm text-green-500 font-medium">{success}</p>
+              <p className="text-sm font-medium text-green-500">{success}</p>
             )}
             <Button type="submit" className="w-full" disabled={isSubmitting}>
               {isSubmitting ? (
@@ -231,10 +231,10 @@ export function AuthHeader() {
               />
             </div>
             {error && (
-              <p className="text-sm text-destructive font-medium">{error}</p>
+              <p className="text-destructive text-sm font-medium">{error}</p>
             )}
             {success && (
-              <p className="text-sm text-green-500 font-medium">{success}</p>
+              <p className="text-sm font-medium text-green-500">{success}</p>
             )}
             <Button type="submit" className="w-full" disabled={isSubmitting}>
               {isSubmitting ? (
