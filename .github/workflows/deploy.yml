@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       app_path:
-        description: 'Path to app (e.g., marketing/blog)'
+        description: 'Path to app (e.g., core/home) or "all" to deploy everything'
         required: true
       environment:
         description: 'Target Environment'
@@ -37,21 +37,72 @@ jobs:
           cache: "pnpm"
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-      - name: Build all apps
+      - name: Build and deploy single app
+        if: ${{ github.event.inputs.app_path != 'all' }}
         run: |
           TEAM_NAME=$(echo "${{ github.event.inputs.app_path }}" | cut -d'/' -f1)
           APP_NAME=$(echo "${{ github.event.inputs.app_path }}" | cut -d'/' -f2)
           DEPLOY_ID="${TEAM_NAME}/${APP_NAME}"
           NEXT_PUBLIC_BASE_PATH="/$DEPLOY_ID" pnpm --filter "./apps/${{ github.event.inputs.app_path }}" build
-      - name: Sync to R2
-        run: |
-          TEAM_NAME=$(echo "${{ github.event.inputs.app_path }}" | cut -d'/' -f1)
-          APP_NAME=$(echo "${{ github.event.inputs.app_path }}" | cut -d'/' -f2)
-          DEPLOY_ID="${TEAM_NAME}/${APP_NAME}"
+
           R2_ENDPOINT="https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com"
-          # Target: s3://bucket/staging/marketing-blog/
           DEST="s3://${{ secrets.R2_BUCKET_NAME }}/${{ github.event.inputs.environment }}/${DEPLOY_ID}/"
-          
+
           aws s3 sync "apps/${{ github.event.inputs.app_path }}/out" "$DEST" \
             --endpoint-url "$R2_ENDPOINT" \
             --region auto
+      - name: Build and deploy all apps
+        if: ${{ github.event.inputs.app_path == 'all' }}
+        run: |
+          R2_ENDPOINT="https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com"
+          DEPLOYED_COUNT=0
+          SKIPPED_COUNT=0
+
+          # Find all apps in the apps directory
+          for APP_DIR in apps/*/*/; do
+            if [ -d "$APP_DIR" ]; then
+              # Extract team and app name from path (e.g., apps/core/home/)
+              RELATIVE_PATH="${APP_DIR#apps/}"
+              TEAM_NAME=$(echo "$RELATIVE_PATH" | cut -d'/' -f1)
+              APP_NAME=$(echo "$RELATIVE_PATH" | cut -d'/' -f2)
+              DEPLOY_ID="${TEAM_NAME}/${APP_NAME}"
+
+              # Check if package.json exists and has a build script
+              if [ -f "apps/${TEAM_NAME}/${APP_NAME}/package.json" ]; then
+                HAS_BUILD=$(cat "apps/${TEAM_NAME}/${APP_NAME}/package.json" | grep -c '"build"' || echo "0")
+
+                if [ "$HAS_BUILD" -gt 0 ]; then
+                  echo "Building and deploying $DEPLOY_ID..."
+
+                  # Build the app
+                  NEXT_PUBLIC_BASE_PATH="/$DEPLOY_ID" pnpm --filter "./apps/${TEAM_NAME}/${APP_NAME}" build
+
+                  # Check if build output exists
+                  if [ -d "apps/${TEAM_NAME}/${APP_NAME}/out" ]; then
+                    # Sync to R2
+                    DEST="s3://${{ secrets.R2_BUCKET_NAME }}/${{ github.event.inputs.environment }}/${DEPLOY_ID}/"
+                    aws s3 sync "apps/${TEAM_NAME}/${APP_NAME}/out" "$DEST" \
+                      --endpoint-url "$R2_ENDPOINT" \
+                      --region auto
+
+                    echo "✓ Deployed $DEPLOY_ID"
+                    DEPLOYED_COUNT=$((DEPLOYED_COUNT + 1))
+                  else
+                    echo "⚠ Skipping $DEPLOY_ID - no output directory found"
+                    SKIPPED_COUNT=$((SKIPPED_COUNT + 1))
+                  fi
+                else
+                  echo "⊘ Skipping $DEPLOY_ID - no build script (likely a Worker or API)"
+                  SKIPPED_COUNT=$((SKIPPED_COUNT + 1))
+                fi
+              else
+                echo "⊘ Skipping $DEPLOY_ID - no package.json found"
+                SKIPPED_COUNT=$((SKIPPED_COUNT + 1))
+              fi
+            fi
+          done
+
+          echo ""
+          echo "✓ Deployment complete!"
+          echo "  Deployed: $DEPLOYED_COUNT apps"
+          echo "  Skipped: $SKIPPED_COUNT apps"
