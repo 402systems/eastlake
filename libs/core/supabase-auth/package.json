@@ -5,13 +5,16 @@
   "exports": {
     "./client": "./src/client.ts",
     "./hooks/useAuth": "./src/hooks/useAuth.ts",
-    "./types": "./src/types.ts"
+    "./types": "./src/types.ts",
+    "./components": "./src/components/index.ts"
   },
   "scripts": {
     "lint": "eslint src/ --max-warnings 0",
     "check-types": "tsc --noEmit"
   },
   "peerDependencies": {
+    "@402systems/lib-core-ui": "workspace:*",
+    "lucide-react": "^0.562.0",
     "react": "^18.2.0 || ^19.0.0"
   },
   "dependencies": {
@@ -21,7 +24,7 @@
   "devDependencies": {
     "@402systems/lib-core-eslint": "workspace:*",
     "@402systems/lib-core-tsconfig": "workspace:*",
-    "@types/react": "^18.2.61",
+    "@types/react": "latest",
     "eslint": "^9.39.2",
     "typescript": "^5.3.3"
   }

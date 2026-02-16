@@ -1,21 +1,19 @@
 'use client';
 
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState } from 'react';
 import type { User } from '@supabase/supabase-js';
 import { createClient } from '../client';
 import type { UseAuthReturn } from '../types';
 
 export function useAuth(): UseAuthReturn {
   const [user, setUser] = useState<User | null>(null);
+  const [loading, setLoading] = useState(true);
 
-  // Create client lazily only on the client side
-  const supabase = useMemo(() => {
+  // Lazy initialization - only creates client once on first render
+  const [supabase] = useState<ReturnType<typeof createClient> | null>(() => {
     if (typeof window === 'undefined') return null;
     return createClient();
-  }, []);
-
-  // Initialize loading based on whether we have a client
-  const [loading, setLoading] = useState(supabase !== null);
+  });
 
   useEffect(() => {
     if (!supabase) {
