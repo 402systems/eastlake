@@ -9,6 +9,7 @@ import {
 } from '@402systems/core-ui/components/ui/card';
 import { Badge } from '@402systems/core-ui/components/ui/badge';
 import { Gamepad2, Wrench, Target, PartyPopper } from 'lucide-react';
+import { AuthHeader } from './components/AuthHeader';
 
 interface AppTile {
   name: string;
@@ -105,6 +106,7 @@ export default function Page() {
 
   return (
     <div className="min-h-screen">
+      <AuthHeader />
       {/* Animated background elements */}
       <div className="fixed inset-0 -z-10 overflow-hidden">
         <div className="bg-primary/5 absolute top-1/4 -left-20 h-72 w-72 animate-pulse rounded-full blur-3xl" />

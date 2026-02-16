@@ -1,0 +1,28 @@
+{
+  "name": "@402systems/lib-core-supabase-auth",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./client": "./src/client.ts",
+    "./hooks/useAuth": "./src/hooks/useAuth.ts",
+    "./types": "./src/types.ts"
+  },
+  "scripts": {
+    "lint": "eslint src/ --max-warnings 0",
+    "check-types": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0 || ^19.0.0"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.8.0",
+    "@supabase/supabase-js": "^2.95.3"
+  },
+  "devDependencies": {
+    "@402systems/lib-core-eslint": "workspace:*",
+    "@402systems/lib-core-tsconfig": "workspace:*",
+    "@types/react": "^18.2.61",
+    "eslint": "^9.39.2",
+    "typescript": "^5.3.3"
+  }
+}
