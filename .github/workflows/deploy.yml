@@ -55,6 +55,8 @@ jobs:
         if: ${{ github.event.inputs.app_path == 'all' }}
         run: |
           R2_ENDPOINT="https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com"
+          DEPLOYED_COUNT=0
+          SKIPPED_COUNT=0
 
           # Find all apps in the apps directory
           for APP_DIR in apps/*/*/; do
@@ -65,19 +67,42 @@ jobs:
               APP_NAME=$(echo "$RELATIVE_PATH" | cut -d'/' -f2)
               DEPLOY_ID="${TEAM_NAME}/${APP_NAME}"
 
-              echo "Building and deploying $DEPLOY_ID..."
+              # Check if package.json exists and has a build script
+              if [ -f "apps/${TEAM_NAME}/${APP_NAME}/package.json" ]; then
+                HAS_BUILD=$(cat "apps/${TEAM_NAME}/${APP_NAME}/package.json" | grep -c '"build"' || echo "0")
 
-              # Build the app
-              NEXT_PUBLIC_BASE_PATH="/$DEPLOY_ID" pnpm --filter "./apps/${TEAM_NAME}/${APP_NAME}" build
+                if [ "$HAS_BUILD" -gt 0 ]; then
+                  echo "Building and deploying $DEPLOY_ID..."
 
-              # Sync to R2
-              DEST="s3://${{ secrets.R2_BUCKET_NAME }}/${{ github.event.inputs.environment }}/${DEPLOY_ID}/"
-              aws s3 sync "apps/${TEAM_NAME}/${APP_NAME}/out" "$DEST" \
-                --endpoint-url "$R2_ENDPOINT" \
-                --region auto
+                  # Build the app
+                  NEXT_PUBLIC_BASE_PATH="/$DEPLOY_ID" pnpm --filter "./apps/${TEAM_NAME}/${APP_NAME}" build
 
-              echo "✓ Deployed $DEPLOY_ID"
+                  # Check if build output exists
+                  if [ -d "apps/${TEAM_NAME}/${APP_NAME}/out" ]; then
+                    # Sync to R2
+                    DEST="s3://${{ secrets.R2_BUCKET_NAME }}/${{ github.event.inputs.environment }}/${DEPLOY_ID}/"
+                    aws s3 sync "apps/${TEAM_NAME}/${APP_NAME}/out" "$DEST" \
+                      --endpoint-url "$R2_ENDPOINT" \
+                      --region auto
+
+                    echo "✓ Deployed $DEPLOY_ID"
+                    DEPLOYED_COUNT=$((DEPLOYED_COUNT + 1))
+                  else
+                    echo "⚠ Skipping $DEPLOY_ID - no output directory found"
+                    SKIPPED_COUNT=$((SKIPPED_COUNT + 1))
+                  fi
+                else
+                  echo "⊘ Skipping $DEPLOY_ID - no build script (likely a Worker or API)"
+                  SKIPPED_COUNT=$((SKIPPED_COUNT + 1))
+                fi
+              else
+                echo "⊘ Skipping $DEPLOY_ID - no package.json found"
+                SKIPPED_COUNT=$((SKIPPED_COUNT + 1))
+              fi
             fi
           done
 
-          echo "All apps deployed successfully!"
+          echo ""
+          echo "✓ Deployment complete!"
+          echo "  Deployed: $DEPLOYED_COUNT apps"
+          echo "  Skipped: $SKIPPED_COUNT apps"
