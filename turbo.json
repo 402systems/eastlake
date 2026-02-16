@@ -1,5 +1,9 @@
 {
   "$schema": "https://turbo.build/schema.json",
+  "globalEnv": [
+    "NEXT_PUBLIC_SUPABASE_URL",
+    "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY"
+  ],
   "tasks": {
     "build": {
       "dependsOn": [
@@ -9,6 +13,10 @@
         ".next/**",
         "dist/**",
         "worker-configuration.d.ts"
+      ],
+      "env": [
+        "NEXT_PUBLIC_SUPABASE_URL",
+        "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY"
       ]
     },
     "format:check": {

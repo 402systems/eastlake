@@ -2,9 +2,12 @@ import process from 'node:process';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Required in 2025 for monorepos: 
+  // Required in 2025 for monorepos:
   // Tells Next.js to look for source code in these local packages
-  transpilePackages: ["@402systems/lib/core/ui"],
+  transpilePackages: [
+    "@402systems/lib/core/ui",
+    "@402systems/lib-core-supabase-auth"
+  ],
   
   // Clean URLs and production optimizations
   reactStrictMode: true,

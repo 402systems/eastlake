@@ -6,9 +6,19 @@ import { Button } from '@402systems/core-ui/components/ui/button';
 import { Card } from '@402systems/core-ui/components/ui/card';
 import { Textarea } from '@402systems/core-ui/components/ui/textarea';
 import { Kbd } from '@402systems/core-ui/components/ui/kbd';
-import { Download, Share2, Printer } from 'lucide-react';
+import { Download, Share2, Printer, User, LogOut, Loader2 } from 'lucide-react';
+import { useAuth } from '@402systems/lib-core-supabase-auth/hooks/useAuth';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from '@402systems/core-ui/components/ui/dropdown-menu';
 
 export default function BingoPage() {
+  const { user, loading, signOut } = useAuth();
   const [grid, setGrid] = useState<string[]>(Array(25).fill(''));
   const [isPreview, setIsPreview] = useState(false);
   const boardRef = useRef<HTMLDivElement>(null);
@@ -91,11 +101,41 @@ export default function BingoPage() {
 
   return (
     <div className="flex min-h-screen flex-col items-center gap-6 bg-slate-50 p-4 sm:gap-8 sm:p-8">
-      <div className="space-y-2 text-center">
-        <h1 className="text-4xl font-bold tracking-tight text-slate-900">
-          Bingo Builder
-        </h1>
-        <p className="text-slate-500">Create your custom 5x5 bingo board</p>
+      <div className="w-full max-w-5xl">
+        <div className="flex items-center justify-between">
+          <div className="space-y-2 text-center flex-1">
+            <h1 className="text-4xl font-bold tracking-tight text-slate-900">
+              Bingo Builder
+            </h1>
+            <p className="text-slate-500">Create your custom 5x5 bingo board</p>
+          </div>
+          <div>
+            {loading ? (
+              <Loader2 className="h-5 w-5 animate-spin text-slate-500" />
+            ) : user ? (
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="outline" className="gap-2">
+                    <User className="h-4 w-4" />
+                    {user.email?.split('@')[0]}
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end" className="w-56">
+                  <DropdownMenuLabel>My Account</DropdownMenuLabel>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem onClick={() => signOut()} className="gap-2">
+                    <LogOut className="h-4 w-4" />
+                    Sign Out
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            ) : (
+              <Button variant="outline" asChild>
+                <a href="/">Sign In</a>
+              </Button>
+            )}
+          </div>
+        </div>
       </div>
 
       <div className="flex flex-wrap items-center justify-center gap-3">

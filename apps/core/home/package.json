@@ -15,7 +15,8 @@
     "react": "latest",
     "react-dom": "latest",
     "lucide-react": "^0.474.0",
-    "@402systems/lib-core-ui": "workspace:*"
+    "@402systems/lib-core-ui": "workspace:*",
+    "@402systems/lib-core-supabase-auth": "workspace:*"
   },
   "devDependencies": {
     "@402systems/lib-core-tsconfig": "workspace:*",
