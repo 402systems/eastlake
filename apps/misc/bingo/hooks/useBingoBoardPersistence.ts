@@ -1,12 +1,13 @@
 import { useState, useCallback, useEffect } from 'react';
 import { createClient } from '@402systems/lib-core-supabase-auth/client';
 import type { User } from '@supabase/supabase-js';
+import type { CellData } from './useBingoBoard';
 
 interface UseBingoBoardPersistenceProps {
   user: User | null;
   loading: boolean;
-  grid: string[];
-  onBoardLoaded: (grid: string[]) => void;
+  grid: CellData[];
+  onBoardLoaded: (grid: CellData[]) => void;
 }
 
 export function useBingoBoardPersistence({
