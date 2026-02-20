@@ -2,12 +2,13 @@ import { forwardRef } from 'react';
 import { Card } from '@402systems/core-ui/components/ui/card';
 import { Loader2 } from 'lucide-react';
 import { BingoCell } from './BingoCell';
+import type { CellData } from '../hooks/useBingoBoard';
 
 interface BingoGridProps {
-  grid: string[];
+  grid: CellData[];
   isPreview: boolean;
   isLoadingBoard: boolean;
-  onUpdateCell: (index: number, value: string) => void;
+  onUpdateCell: (index: number, patch: Partial<CellData>) => void;
 }
 
 export const BingoGrid = forwardRef<HTMLDivElement, BingoGridProps>(
@@ -30,7 +31,7 @@ export const BingoGrid = forwardRef<HTMLDivElement, BingoGridProps>(
           {grid.map((cell, i) => (
             <div key={i} className="aspect-square w-full">
               <BingoCell
-                value={cell}
+                cell={cell}
                 index={i}
                 isPreview={isPreview}
                 onUpdate={onUpdateCell}
