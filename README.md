@@ -74,9 +74,9 @@ build-artifacts
 
 ### Deployment Workflows
 
-| Workflow | What it deploys | When to run |
-|----------|-----------------|-------------|
-| **Manual Deploy** | App content (e.g., `core/home`) | When you update application code |
+| Workflow              | What it deploys                     | When to run                       |
+| --------------------- | ----------------------------------- | --------------------------------- |
+| **Manual Deploy**     | App content (e.g., `core/home`)     | When you update application code  |
 | **Deploy Dispatcher** | Routing logic (`router-dispatcher`) | When you update routing/URL logic |
 
 ### How to deploy
@@ -84,4 +84,3 @@ build-artifacts
 1. Head to the **Actions** tab in GitHub.
 2. **For Apps**: Select `Manual Deploy`, enters the path (e.g., `core/home`), select environment, and run.
 3. **For Routing**: Select `Deploy Dispatcher` and run.
-

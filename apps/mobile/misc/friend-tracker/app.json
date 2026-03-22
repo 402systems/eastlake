@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Friend Tracker",
+    "slug": "friend-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "friend-tracker",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.402systems.friendtracker"
+    },
+    "android": {
+      "package": "com.fourzerotwo.friendtracker",
+      "adaptiveIcon": {
+        "backgroundColor": "#f8fafc"
+      }
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

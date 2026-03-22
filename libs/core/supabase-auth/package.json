@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./client": "./src/client.ts",
-    "./hooks/useAuth": "./src/hooks/useAuth.ts",
-    "./types": "./src/types.ts",
-    "./components": "./src/components/index.ts"
+    "./web/client": "./src/web/client.ts",
+    "./web/hooks/useAuth": "./src/web/useAuth.ts",
+    "./web/components": "./src/web/components/index.ts",
+    "./native/client": "./src/native/client.ts",
+    "./native/hooks/useAuth": "./src/native/useAuth.ts",
+    "./types": "./src/types.ts"
   },
   "scripts": {
     "lint": "eslint src/ --max-warnings 0",
@@ -14,8 +16,20 @@
   },
   "peerDependencies": {
     "@402systems/lib-core-ui": "workspace:*",
+    "@react-native-async-storage/async-storage": ">=1.0.0",
     "lucide-react": "^0.562.0",
     "react": "^18.2.0 || ^19.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@react-native-async-storage/async-storage": {
+      "optional": true
+    },
+    "@402systems/lib-core-ui": {
+      "optional": true
+    },
+    "lucide-react": {
+      "optional": true
+    }
   },
   "dependencies": {
     "@supabase/ssr": "^0.8.0",
