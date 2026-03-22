@@ -1,86 +1,179 @@
-# 📦 402 Frontend Monorepo
+# 402systems Monorepo
 
-This repository is a high-performance monorepo powered by `pnpm` workspaces and Turborepo. We use a team-based directory structure to organize our frontend applications.
+Unified monorepo for web apps, mobile apps, API workers, and shared libraries.
 
-Prerequisites:
+## Structure
 
-- `nodejs` -> v24.12 or higher. This may work with something lower but its not been tested
-- `pnpm` -> `corepack enable pnpm`
+```
+402systems/
+  apps/
+    web/           Next.js apps (deployed to web.402systems.com)
+      core/        home, design, db-demo, db-demo-supabase
+      games/       dobble
+      misc/        bingo, personal-tracker
+    api/           Cloudflare Workers
+      core/        api-gateway, db-demo-api
+      misc/        friend-tracker-api
+    mobile/        Expo / React Native apps
+      misc/        friend-tracker
+  libs/core/       Shared libraries
+    eslint/        ESLint config
+    prettier/      Prettier config (ESM + tailwind plugin)
+    tsconfig/      Base tsconfig + expo.json + worker.json
+    supabase-auth/ Auth client & hooks (./web/* and ./native/*)
+    ui/            UI components (./components/* for web, ./native/* for RN)
+    router-dispatcher/  CF Worker that routes web.402systems.com requests
+```
+
+## Prerequisites
+
+- Node.js v24.12+
+- pnpm: `corepack enable pnpm`
 
 ## Getting Started
 
-1. `pnpm install`
-2. Start an app in dev mode: `pnpm dev --filter @402systems/app-games-dobble`
-3. Install a new package: `pnpm install <pkg> --filter @402systems/app-games-dobble`
-4. Install a workspace wide package: `pnpm i -wD <pkg>`. WARN: You should almost never need to do this, unless you are installing a build tool
-5. Run all preflight checks `pnpm checkall`
+```bash
+pnpm install
+```
+
+### Dev mode
+
+```bash
+# Web app
+pnpm dev --filter @402systems/app-core-home
+
+# API worker (starts wrangler dev on localhost:8787)
+pnpm dev --filter @402systems/app-misc-friend-tracker-api
+
+# Mobile app (starts Expo)
+pnpm dev --filter @402systems/app-misc-friend-tracker
+```
+
+### Install a package
+
+```bash
+# To a specific app/lib
+pnpm install <pkg> --filter @402systems/app-games-dobble
+
+# Workspace-wide dev dependency (rarely needed)
+pnpm i -wD <pkg>
+```
+
+### Create a new project
+
+```bash
+pnpm gen:package
+```
 
 ## Scripts
 
-### Create New Project
+| Command | Description |
+|---------|-------------|
+| `pnpm build` | Build all packages |
+| `pnpm lint` | Lint all packages |
+| `pnpm lint:fix` | Lint and autofix |
+| `pnpm format:check` | Check formatting |
+| `pnpm format:fix` | Fix formatting |
+| `pnpm checkall` | Lint + format check |
+| `pnpm fixall` | Lint fix + format fix |
 
-1. `pnpm gen:package`
+Use `--filter <package>` to scope any command to a single package.
 
-### Running scripts
+## UI Framework
 
-- Use `--filter` to scope `pnpm` to your package.
-- Lint: `pnpm <cmd> --filter @402systems/app-core-design`
+- Web components live in `libs/core/ui/src/components/` — import as `@402systems/core-ui/components/ui/<name>`
+- Native components live in `libs/core/ui/src/native/components/` — import as `@402systems/lib-core-ui/native/components/<name>`
+- Add new web primitives via `pnpm dlx shadcn@latest add <name>`
+- See https://ui.shadcn.com/docs/components for all components
 
-### UI Framework
+## Supabase Auth
 
-- All UI components are in the libs/core/ui package. The package must be referenced as `@402systems/core-ui/*`
-  in UI code. If you use the generated templates, the compiler will be aware of this.
-- UI primitives are made using ShadCN. Add new primitives via `pnpm dlx shadcn@latest add <name>`.
-- See <https://ui.shadcn.com/docs/components> for all components
+The `supabase-auth` lib has platform-specific subpath exports:
 
-### Linting
+```ts
+// Web (Next.js)
+import { createClient } from '@402systems/lib-core-supabase-auth/web/client';
+import { useAuth } from '@402systems/lib-core-supabase-auth/web/hooks/useAuth';
+import { AuthButtons } from '@402systems/lib-core-supabase-auth/web/components';
 
-- `pnpm lint` to lint the entire repo. Use `--filter <pkg>` to scope down
-- `pnpm lint:fix` to lint and autofix the entire repo. Use `--filter <pkg>` to scope down
+// Native (Expo / React Native)
+import { createClient } from '@402systems/lib-core-supabase-auth/native/client';
+import { useAuth } from '@402systems/lib-core-supabase-auth/native/hooks/useAuth';
 
-### Formatting
-
-- `pnpm format:check`
-- `pnpm format:fix`
-
-### Lint + Formatting
-
-- `pnpm fixall` to autofix linting and formatting issues
-- `pnpm checkall` to check all formatting is correct
+// Shared types
+import type { UseAuthReturn } from '@402systems/lib-core-supabase-auth/types';
+```
 
 ## Deployment
 
-### Overview
+### Web Apps
 
-402systems works on an app granular biphase deployment strategy. Each app can have a staging, and a production variant deployed at once.
-Apps are all deployed to `web.402systems.com` and accessed via `[staging.]web.402systems.com/<category>-<app_name>`.
-R2 KV Workers read the requested path at edge distribution centers and decide which artifacts to vend out
+Web apps are deployed as static exports to Cloudflare R2, served via `[staging.]web.402systems.com/<category>/<app>`.
 
-### Artifact Storage
+1. Go to **Actions** > **Manual Deploy**
+2. Enter the app path (e.g., `web/core/home`) or `all` to deploy everything
+3. Select environment (`staging` or `production`)
+4. Run the workflow
 
-Build artifacts from `app/**/*` projects are emitted to an `out` directory within each app.
-These static assets must be stored in Cloudflare R2 within a `staging` and `production` prefix.
-For example,
+### API Workers (Cloudflare Workers)
 
+Workers are deployed directly to Cloudflare via wrangler.
+
+1. Go to **Actions** > **Deploy Worker**
+2. Enter the package name (e.g., `@402systems/app-misc-friend-tracker-api`)
+3. Run the workflow
+
+Available workers:
+- `@402systems/app-misc-friend-tracker-api` — Friend tracker API
+- `@402systems/app-core-api-gateway` — API gateway
+- `@402systems/app-core-db-demo-api` — DB demo API
+
+To deploy locally: `pnpm run deploy --filter @402systems/app-misc-friend-tracker-api`
+
+### Router Dispatcher
+
+The dispatcher routes requests on `web.402systems.com` to the correct app artifacts in R2.
+
+1. Go to **Actions** > **Deploy Dispatcher**
+2. Run the workflow
+
+### CI
+
+The **Build and Lint** workflow runs on every push/PR to `main`. It runs `pnpm lint` and `pnpm build` across all packages.
+
+## Friend Tracker API
+
+The friend-tracker API is a Cloudflare Worker at `apps/api/misc/friend-tracker-api/`.
+
+### Local testing
+
+```bash
+cd apps/api/misc/friend-tracker-api
+
+# Create .dev.vars with your Supabase credentials
+echo 'SUPABASE_URL=https://sgsbfelkbsoueiickbrk.supabase.co
+SUPABASE_PUBLISHABLE_KEY=sb_publishable_BIXr0dVqTzDWsXnfblaIvg_kp2gHCdZ' > .dev.vars
+
+# Start dev server
+pnpm dev
+
+# Get a JWT token
+npx tsx scripts/get-token.ts <email> <password>
+
+# Run the full test suite
+npx tsx scripts/test-api.ts <email> <password>
 ```
-build-artifacts
-- staging
-   - games-dobble
-      - index.html (from commit #10)
-- production
-   - games-dobble
-      - index.html (from commit #7)
-```
 
-### Deployment Workflows
+### Endpoints
 
-| Workflow              | What it deploys                     | When to run                       |
-| --------------------- | ----------------------------------- | --------------------------------- |
-| **Manual Deploy**     | App content (e.g., `core/home`)     | When you update application code  |
-| **Deploy Dispatcher** | Routing logic (`router-dispatcher`) | When you update routing/URL logic |
+All endpoints require `Authorization: Bearer <token>` header.
 
-### How to deploy
-
-1. Head to the **Actions** tab in GitHub.
-2. **For Apps**: Select `Manual Deploy`, enters the path (e.g., `core/home`), select environment, and run.
-3. **For Routing**: Select `Deploy Dispatcher` and run.
+| Method | Path | Description |
+|--------|------|-------------|
+| `GET` | `/friends` | List all friends |
+| `POST` | `/friends` | Create a friend (`{name, phone_number?, birthday?}`) |
+| `POST` | `/friends/:id/hangout` | Record a hangout (sets last_action to today) |
+| `DELETE` | `/friends/:id` | Delete a friend |
+| `PUT` | `/friends/:id/groups/:name` | Add friend to a group |
+| `DELETE` | `/friends/:id/groups/:name` | Remove friend from a group |
+| `DELETE` | `/groups/:name` | Remove a group from all friends |
