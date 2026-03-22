@@ -123,11 +123,6 @@ Workers are deployed directly to Cloudflare via wrangler.
 2. Enter the package name (e.g., `@402systems/app-misc-friend-tracker-api`)
 3. Run the workflow
 
-Available workers:
-- `@402systems/app-misc-friend-tracker-api` — Friend tracker API
-- `@402systems/app-core-api-gateway` — API gateway
-- `@402systems/app-core-db-demo-api` — DB demo API
-
 To deploy locally: `pnpm run deploy --filter @402systems/app-misc-friend-tracker-api`
 
 ### Router Dispatcher
@@ -140,40 +135,3 @@ The dispatcher routes requests on `web.402systems.com` to the correct app artifa
 ### CI
 
 The **Build and Lint** workflow runs on every push/PR to `main`. It runs `pnpm lint` and `pnpm build` across all packages.
-
-## Friend Tracker API
-
-The friend-tracker API is a Cloudflare Worker at `apps/api/misc/friend-tracker-api/`.
-
-### Local testing
-
-```bash
-cd apps/api/misc/friend-tracker-api
-
-# Create .dev.vars with your Supabase credentials
-echo 'SUPABASE_URL=https://sgsbfelkbsoueiickbrk.supabase.co
-SUPABASE_PUBLISHABLE_KEY=sb_publishable_BIXr0dVqTzDWsXnfblaIvg_kp2gHCdZ' > .dev.vars
-
-# Start dev server
-pnpm dev
-
-# Get a JWT token
-npx tsx scripts/get-token.ts <email> <password>
-
-# Run the full test suite
-npx tsx scripts/test-api.ts <email> <password>
-```
-
-### Endpoints
-
-All endpoints require `Authorization: Bearer <token>` header.
-
-| Method | Path | Description |
-|--------|------|-------------|
-| `GET` | `/friends` | List all friends |
-| `POST` | `/friends` | Create a friend (`{name, phone_number?, birthday?}`) |
-| `POST` | `/friends/:id/hangout` | Record a hangout (sets last_action to today) |
-| `DELETE` | `/friends/:id` | Delete a friend |
-| `PUT` | `/friends/:id/groups/:name` | Add friend to a group |
-| `DELETE` | `/friends/:id/groups/:name` | Remove friend from a group |
-| `DELETE` | `/groups/:name` | Remove a group from all friends |
