@@ -4,8 +4,8 @@ const path = require('path');
 const fs = require('fs');
 
 const projectRoot = __dirname;
-// Walk up to the monorepo root (apps/misc/friend-tracker → ../../..)
-const workspaceRoot = path.resolve(projectRoot, '../../..');
+// Walk up to the monorepo root (apps/mobile/misc/friend-tracker → ../../../..)
+const workspaceRoot = path.resolve(projectRoot, '../../../..');
 
 const config = getDefaultConfig(projectRoot);
 
@@ -24,14 +24,23 @@ const appModules = path.resolve(projectRoot, 'node_modules');
 const rootModules = path.resolve(workspaceRoot, 'node_modules');
 const singletonPackages = ['react', 'react-native', 'react-dom'];
 
+// Force React singletons to always resolve from the app — must use resolveRequest
+// because extraNodeModules is only a fallback and fires too late (after dir traversal).
+config.resolver.resolveRequest = (context, moduleName, platform) => {
+  if (singletonPackages.includes(moduleName)) {
+    return context.resolveRequest(
+      { ...context, originModulePath: path.join(appModules, '_placeholder_') },
+      moduleName,
+      platform
+    );
+  }
+  return context.resolveRequest(context, moduleName, platform);
+};
+
 config.resolver.extraNodeModules = new Proxy(
   {},
   {
     get: (_target, name) => {
-      // React family always resolves from the app
-      if (singletonPackages.includes(name)) {
-        return path.resolve(appModules, name);
-      }
       // Everything else: try app node_modules first, then workspace root
       const appPath = path.resolve(appModules, name);
       if (fs.existsSync(appPath)) return appPath;

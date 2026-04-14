@@ -18,3 +18,23 @@ export interface NewFriend {
   phone_number?: string | null;
   birthday?: string | null;
 }
+
+export interface Event {
+  id: string;
+  name: string;
+  date: string;
+  created_at: string;
+}
+
+export interface EventFriend {
+  friend_id: string;
+}
+
+export interface EventWithFriends extends Event {
+  event_friends: EventFriend[];
+}
+
+export interface NewEvent {
+  name: string;
+  date: string;
+}

@@ -9,8 +9,9 @@ import {
   ActivityIndicator,
 } from 'react-native';
 import * as Contacts from 'expo-contacts';
-import { Modal } from '@402systems/lib-core-ui/components/Modal';
+import { Modal } from '@402systems/lib-core-ui/native/components/Modal';
 import type { NewFriend } from '../hooks/useFriends';
+import { colors } from '../utils/colors';
 
 interface ContactPickerModalProps {
   visible: boolean;
@@ -31,16 +32,13 @@ function formatBirthday(bday: Contacts.Date | undefined): string | null {
   if (!bday) return null;
   const { year, month, day } = bday;
   if (!month || !day) return null;
-  // year may be 0 or undefined if not set
   const y = year && year > 0 ? String(year).padStart(4, '0') : null;
   const m = String(month).padStart(2, '0');
   const d = String(day).padStart(2, '0');
   return y ? `${y}-${m}-${d}` : `0000-${m}-${d}`;
 }
 
-function getPrimaryPhone(
-  phones: Contacts.PhoneNumber[] | undefined
-): string | null {
+function getPrimaryPhone(phones: Contacts.PhoneNumber[] | undefined): string | null {
   if (!phones || phones.length === 0) return null;
   return phones[0].number ?? null;
 }
@@ -71,11 +69,7 @@ export function ContactPickerModal({
     }
 
     const { data } = await Contacts.getContactsAsync({
-      fields: [
-        Contacts.Fields.Name,
-        Contacts.Fields.PhoneNumbers,
-        Contacts.Fields.Birthday,
-      ],
+      fields: [Contacts.Fields.Name, Contacts.Fields.PhoneNumbers, Contacts.Fields.Birthday],
       sort: Contacts.SortTypes.FirstName,
     });
 
@@ -105,9 +99,7 @@ export function ContactPickerModal({
   }, [contacts, search]);
 
   const toggleContact = (id: string) => {
-    setContacts((prev) =>
-      prev.map((c) => (c.id === id ? { ...c, selected: !c.selected } : c))
-    );
+    setContacts((prev) => prev.map((c) => (c.id === id ? { ...c, selected: !c.selected } : c)));
   };
 
   const selectedCount = contacts.filter((c) => c.selected).length;
@@ -115,12 +107,7 @@ export function ContactPickerModal({
   const handleImport = () => {
     const selected = contacts.filter((c) => c.selected);
     if (selected.length === 0) return;
-    const friends: NewFriend[] = selected.map((c) => ({
-      name: c.name,
-      phone_number: c.phone,
-      birthday: c.birthday,
-    }));
-    onImport(friends);
+    onImport(selected.map((c) => ({ name: c.name, phone_number: c.phone, birthday: c.birthday })));
     onClose();
     setContacts([]);
   };
@@ -133,22 +120,21 @@ export function ContactPickerModal({
 
   return (
     <Modal visible={visible} onClose={handleClose} title="Import from contacts">
-      {/* Search */}
       {!loading && !error && contacts.length > 0 && (
         <TextInput
           style={styles.searchInput}
           placeholder="Search contacts..."
-          placeholderTextColor="#94a3b8"
+          placeholderTextColor={colors.textMuted}
           value={search}
           onChangeText={setSearch}
           autoCorrect={false}
         />
       )}
 
-      <View style={styles.body}>
+      <View style={{ maxHeight: 240 }}>
         {loading ? (
           <View style={styles.centered}>
-            <ActivityIndicator size="large" color="#94a3b8" />
+            <ActivityIndicator size="large" color={colors.textMuted} />
             <Text style={styles.loadingText}>Loading contacts...</Text>
           </View>
         ) : error ? (
@@ -166,49 +152,31 @@ export function ContactPickerModal({
               return (
                 <Pressable
                   onPress={() => !alreadyAdded && toggleContact(item.id)}
-                  style={({ pressed }) => [
-                    styles.row,
-                    alreadyAdded && styles.rowDisabled,
-                    pressed && !alreadyAdded && { backgroundColor: '#f8fafc' },
-                  ]}
+                  style={alreadyAdded ? [styles.row, styles.rowDisabled] : styles.row}
                   disabled={alreadyAdded}
                 >
-                  <View
-                    style={[
-                      styles.checkbox,
-                      item.selected && styles.checkboxSelected,
-                    ]}
-                  >
+                  <View style={[styles.checkbox, item.selected && styles.checkboxSelected]}>
                     {item.selected && <Text style={styles.checkmark}>✓</Text>}
                   </View>
                   <View style={styles.contactInfo}>
                     <Text
-                      style={[
-                        styles.contactName,
-                        alreadyAdded && styles.contactNameDisabled,
-                      ]}
+                      style={[styles.contactName, alreadyAdded && styles.contactNameDisabled]}
                       numberOfLines={1}
                     >
                       {item.name}
                     </Text>
                     {item.phone && (
-                      <Text style={styles.contactDetail} numberOfLines={1}>
-                        {item.phone}
-                      </Text>
+                      <Text style={styles.contactDetail} numberOfLines={1}>{item.phone}</Text>
                     )}
                   </View>
-                  {alreadyAdded && (
-                    <Text style={styles.alreadyLabel}>Added</Text>
-                  )}
+                  {alreadyAdded && <Text style={styles.alreadyLabel}>Added</Text>}
                 </Pressable>
               );
             }}
             ItemSeparatorComponent={() => <View style={styles.separator} />}
             ListEmptyComponent={
               <View style={styles.centered}>
-                <Text style={styles.emptyText}>
-                  {search ? 'No matches' : 'No contacts found'}
-                </Text>
+                <Text style={styles.emptyText}>{search ? 'No matches' : 'No contacts found'}</Text>
               </View>
             }
           />
@@ -216,15 +184,11 @@ export function ContactPickerModal({
       </View>
 
       <Pressable
-        style={({ pressed }) => [
-          styles.importButton,
-          selectedCount === 0 && styles.disabled,
-          pressed && selectedCount > 0 && { opacity: 0.8 },
-        ]}
         onPress={handleImport}
         disabled={selectedCount === 0}
+        style={[styles.importBtn, selectedCount === 0 && styles.importBtnDisabled]}
       >
-        <Text style={styles.importButtonText}>
+        <Text style={styles.importBtnText}>
           {selectedCount === 0
             ? 'Select contacts'
             : `Import ${selectedCount} friend${selectedCount !== 1 ? 's' : ''}`}
@@ -237,30 +201,17 @@ export function ContactPickerModal({
 const styles = StyleSheet.create({
   searchInput: {
     borderWidth: 1,
-    borderColor: '#e2e8f0',
+    borderColor: colors.border,
     borderRadius: 10,
     paddingHorizontal: 14,
     paddingVertical: 11,
     fontSize: 15,
-    color: '#0f172a',
-    backgroundColor: '#ffffff',
+    color: colors.primary,
+    backgroundColor: colors.bgCard,
   },
-  body: {
-    maxHeight: 320,
-  },
-  centered: {
-    height: 150,
-    alignItems: 'center',
-    justifyContent: 'center',
-    gap: 8,
-  },
-  loadingText: {
-    fontSize: 13,
-    color: '#94a3b8',
-  },
-  list: {
-    flexGrow: 0,
-  },
+  centered: { height: 150, alignItems: 'center', justifyContent: 'center', gap: 8 },
+  loadingText: { fontSize: 13, color: colors.textMuted },
+  list: { flexGrow: 0 },
   row: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -269,73 +220,32 @@ const styles = StyleSheet.create({
     gap: 12,
     borderRadius: 8,
   },
-  rowDisabled: {
-    opacity: 0.4,
-  },
+  rowDisabled: { opacity: 0.4 },
   checkbox: {
     width: 22,
     height: 22,
     borderRadius: 6,
     borderWidth: 2,
-    borderColor: '#cbd5e1',
+    borderColor: colors.borderMuted,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  checkboxSelected: {
-    backgroundColor: '#0f172a',
-    borderColor: '#0f172a',
-  },
-  checkmark: {
-    color: '#ffffff',
-    fontSize: 13,
-    fontWeight: '700',
-  },
-  contactInfo: {
-    flex: 1,
-    gap: 2,
-  },
-  contactName: {
-    fontSize: 15,
-    color: '#0f172a',
-  },
-  contactNameDisabled: {
-    color: '#94a3b8',
-  },
-  contactDetail: {
-    fontSize: 12,
-    color: '#94a3b8',
-  },
-  alreadyLabel: {
-    fontSize: 11,
-    color: '#94a3b8',
-    fontWeight: '500',
-  },
-  separator: {
-    height: 1,
-    backgroundColor: '#f1f5f9',
-    marginLeft: 38,
-  },
-  errorText: {
-    fontSize: 14,
-    color: '#b91c1c',
-    textAlign: 'center',
-  },
-  emptyText: {
-    fontSize: 14,
-    color: '#94a3b8',
-  },
-  importButton: {
-    backgroundColor: '#0f172a',
+  checkboxSelected: { backgroundColor: colors.primary, borderColor: colors.primary },
+  checkmark: { color: colors.bgCard, fontSize: 13, fontWeight: '700' },
+  contactInfo: { flex: 1, gap: 2 },
+  contactName: { fontSize: 15, color: colors.primary },
+  contactNameDisabled: { color: colors.textMuted },
+  contactDetail: { fontSize: 12, color: colors.textMuted },
+  alreadyLabel: { fontSize: 11, color: colors.textMuted, fontWeight: '500' },
+  separator: { height: 1, backgroundColor: colors.bgInput, marginLeft: 38 },
+  errorText: { fontSize: 14, color: colors.error, textAlign: 'center' },
+  emptyText: { fontSize: 14, color: colors.textMuted },
+  importBtn: {
+    backgroundColor: colors.primary,
     borderRadius: 10,
     paddingVertical: 14,
     alignItems: 'center',
   },
-  importButtonText: {
-    color: '#ffffff',
-    fontSize: 16,
-    fontWeight: '600',
-  },
-  disabled: {
-    opacity: 0.35,
-  },
+  importBtnDisabled: { opacity: 0.35 },
+  importBtnText: { color: colors.bgCard, fontSize: 16, fontWeight: '600' },
 });

@@ -5,7 +5,7 @@ const corsHeaders = {
   'Access-Control-Allow-Headers': 'Content-Type, Authorization',
   'Access-Control-Max-Age': '86400',
 };
-const ALLOWED_ORIGINS = ['https://web.402systems.com', 'http://localhost:3000'];
+const ALLOWED_ORIGINS = ['https://web.402systems.com', 'http://localhost:3000', 'http://localhost:8081'];
 
 interface Env {
   DB_DEMO_API: Fetcher;

@@ -2,8 +2,21 @@ import { Router, type IRequest } from 'itty-router';
 import type { Env } from './types';
 import { friendsRouter } from './friends';
 import { groupsRouter, deleteGroupFromAllFriends } from './groups';
+import { eventsRouter } from './events';
 
 const router = Router();
+
+// CORS preflight
+router.options('*', () =>
+  new Response(null, {
+    status: 204,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+    },
+  })
+);
 
 // Friend CRUD
 router.all('/friends/*', (request: IRequest, env: Env) =>
@@ -13,6 +26,11 @@ router.all('/friends/*', (request: IRequest, env: Env) =>
 // Group membership on friends
 router.all('/friends/*', (request: IRequest, env: Env) =>
   groupsRouter.handle(request, env)
+);
+
+// Events CRUD
+router.all('/events/*', (request: IRequest, env: Env) =>
+  eventsRouter.handle(request, env)
 );
 
 // Delete a group from all friends
@@ -29,8 +47,13 @@ export default {
     env: Env,
     ctx: ExecutionContext
   ): Promise<Response> {
+    const corsHeaders = { 'Access-Control-Allow-Origin': '*' };
     try {
-      return await router.handle(request, env, ctx);
+      const response = await router.handle(request, env, ctx);
+      // Add CORS header to every response
+      const newResponse = new Response(response.body, response);
+      newResponse.headers.set('Access-Control-Allow-Origin', '*');
+      return newResponse;
     } catch (err: unknown) {
       const message =
         err instanceof Error ? err.message : 'Internal server error';
@@ -38,7 +61,7 @@ export default {
         message.includes('Authorization') || message.includes('token')
           ? 401
           : 500;
-      return Response.json({ error: message }, { status });
+      return Response.json({ error: message }, { status, headers: corsHeaders });
     }
   },
 } satisfies ExportedHandler<Env>;
