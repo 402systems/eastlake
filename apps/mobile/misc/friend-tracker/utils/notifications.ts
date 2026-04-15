@@ -6,6 +6,7 @@ const isExpoGo = Constants.appOwnership === 'expo';
 export async function requestNotificationPermission(): Promise<boolean> {
   if (isExpoGo) return false;
   try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
     const Notifications = require('expo-notifications');
     const { status } = await Notifications.requestPermissionsAsync();
     return status === 'granted';
@@ -17,6 +18,7 @@ export async function requestNotificationPermission(): Promise<boolean> {
 export async function scheduleEventReminder(event: AppEvent): Promise<void> {
   if (isExpoGo) return;
   try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
     const Notifications = require('expo-notifications');
     const [year, month, day] = event.date.split('-').map(Number);
     const triggerDate = new Date(year, month - 1, day - 1, 9, 0, 0);
@@ -41,6 +43,7 @@ export async function scheduleEventReminder(event: AppEvent): Promise<void> {
 export async function cancelEventReminder(eventId: string): Promise<void> {
   if (isExpoGo) return;
   try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
     const Notifications = require('expo-notifications');
     await Notifications.cancelScheduledNotificationAsync(`event-${eventId}`);
   } catch {

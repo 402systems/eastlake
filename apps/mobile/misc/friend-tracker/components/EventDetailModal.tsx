@@ -41,6 +41,7 @@ export function EventDetailModal({
   const [dateValue, setDateValue] = useState('');
   const [pickerVisible, setPickerVisible] = useState(false);
 
+  /* eslint-disable react-hooks/set-state-in-effect */
   useEffect(() => {
     if (visible && event) {
       setEditingName(false);
@@ -48,7 +49,7 @@ export function EventDetailModal({
       setNameValue(event.name);
       setDateValue(event.date);
     }
-  }, [visible, event?.id]);
+  }, [visible, event?.id]); /* eslint-enable react-hooks/set-state-in-effect */
 
   if (!event) return null;
 
@@ -63,7 +64,10 @@ export function EventDetailModal({
   };
 
   const saveDate = () => {
-    if (/^\d{4}-\d{2}-\d{2}$/.test(dateValue.trim()) && dateValue.trim() !== event.date) {
+    if (
+      /^\d{4}-\d{2}-\d{2}$/.test(dateValue.trim()) &&
+      dateValue.trim() !== event.date
+    ) {
       onUpdate(event.id, { date: dateValue.trim() });
     }
     setEditingDate(false);
@@ -85,25 +89,52 @@ export function EventDetailModal({
       >
         <KeyboardAvoidingView
           behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
-          style={{ flex: 1, justifyContent: 'flex-end', backgroundColor: 'rgba(0,0,0,0.25)' }}
+          style={{
+            flex: 1,
+            justifyContent: 'flex-end',
+            backgroundColor: 'rgba(0,0,0,0.25)',
+          }}
         >
           <Pressable
-            style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+            }}
             onPress={onClose}
           />
 
-          <View style={{
-            backgroundColor: colors.bgCard,
-            borderTopLeftRadius: 20,
-            borderTopRightRadius: 20,
-            paddingHorizontal: 24,
-            paddingTop: 24,
-            paddingBottom: 40,
-            maxHeight: '80%',
-          }}>
+          <View
+            style={{
+              backgroundColor: colors.bgCard,
+              borderTopLeftRadius: 20,
+              borderTopRightRadius: 20,
+              paddingHorizontal: 24,
+              paddingTop: 24,
+              paddingBottom: 40,
+              maxHeight: '80%',
+            }}
+          >
             {/* Header */}
-            <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
-              <Text style={{ fontSize: 20, fontWeight: '700', color: colors.primary }}>Event Details</Text>
+            <View
+              style={{
+                flexDirection: 'row',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                marginBottom: 16,
+              }}
+            >
+              <Text
+                style={{
+                  fontSize: 20,
+                  fontWeight: '700',
+                  color: colors.primary,
+                }}
+              >
+                Event Details
+              </Text>
               <Pressable onPress={onClose} style={{ padding: 4 }}>
                 <Text style={{ fontSize: 20, color: colors.textMuted }}>✕</Text>
               </Pressable>
@@ -115,9 +146,14 @@ export function EventDetailModal({
                 {editingName ? (
                   <TextInput
                     style={{
-                      backgroundColor: colors.bgInput, borderRadius: 10, paddingHorizontal: 14,
-                      paddingVertical: 12, fontSize: 15, color: colors.primary,
-                      borderWidth: 2, borderColor: colors.primary,
+                      backgroundColor: colors.bgInput,
+                      borderRadius: 10,
+                      paddingHorizontal: 14,
+                      paddingVertical: 12,
+                      fontSize: 15,
+                      color: colors.primary,
+                      borderWidth: 2,
+                      borderColor: colors.primary,
                     }}
                     value={nameValue}
                     onChangeText={setNameValue}
@@ -129,12 +165,28 @@ export function EventDetailModal({
                   <Pressable
                     onPress={() => setEditingName(true)}
                     style={{
-                      flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
-                      backgroundColor: colors.bgScreen, borderRadius: 10, paddingHorizontal: 14, paddingVertical: 12,
+                      flexDirection: 'row',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      backgroundColor: colors.bgScreen,
+                      borderRadius: 10,
+                      paddingHorizontal: 14,
+                      paddingVertical: 12,
                     }}
                   >
-                    <Text style={{ fontSize: 17, fontWeight: '600', color: colors.primary, flex: 1 }}>{event.name}</Text>
-                    <Text style={{ fontSize: 13, color: colors.textMuted }}>Edit</Text>
+                    <Text
+                      style={{
+                        fontSize: 17,
+                        fontWeight: '600',
+                        color: colors.primary,
+                        flex: 1,
+                      }}
+                    >
+                      {event.name}
+                    </Text>
+                    <Text style={{ fontSize: 13, color: colors.textMuted }}>
+                      Edit
+                    </Text>
                   </Pressable>
                 )}
               </View>
@@ -144,9 +196,14 @@ export function EventDetailModal({
                 {editingDate ? (
                   <TextInput
                     style={{
-                      backgroundColor: colors.bgInput, borderRadius: 10, paddingHorizontal: 14,
-                      paddingVertical: 12, fontSize: 15, color: colors.primary,
-                      borderWidth: 2, borderColor: colors.primary,
+                      backgroundColor: colors.bgInput,
+                      borderRadius: 10,
+                      paddingHorizontal: 14,
+                      paddingVertical: 12,
+                      fontSize: 15,
+                      color: colors.primary,
+                      borderWidth: 2,
+                      borderColor: colors.primary,
                     }}
                     value={dateValue}
                     onChangeText={setDateValue}
@@ -159,60 +216,145 @@ export function EventDetailModal({
                   <Pressable
                     onPress={() => setEditingDate(true)}
                     style={{
-                      flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
-                      backgroundColor: colors.bgScreen, borderRadius: 10, paddingHorizontal: 14, paddingVertical: 12,
+                      flexDirection: 'row',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      backgroundColor: colors.bgScreen,
+                      borderRadius: 10,
+                      paddingHorizontal: 14,
+                      paddingVertical: 12,
                     }}
                   >
-                    <Text style={{ fontSize: 15, color: colors.blue, fontWeight: '500', flex: 1 }}>{formatDate(event.date)}</Text>
-                    <Text style={{ fontSize: 13, color: colors.textMuted }}>Edit</Text>
+                    <Text
+                      style={{
+                        fontSize: 15,
+                        color: colors.blue,
+                        fontWeight: '500',
+                        flex: 1,
+                      }}
+                    >
+                      {formatDate(event.date)}
+                    </Text>
+                    <Text style={{ fontSize: 13, color: colors.textMuted }}>
+                      Edit
+                    </Text>
                   </Pressable>
                 )}
               </View>
 
               {/* Attendees header */}
-              <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: 8 }}>
-                <Text style={{ fontSize: 15, fontWeight: '600', color: colors.textSecondary }}>
+              <View
+                style={{
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  marginBottom: 8,
+                }}
+              >
+                <Text
+                  style={{
+                    fontSize: 15,
+                    fontWeight: '600',
+                    color: colors.textSecondary,
+                  }}
+                >
                   Friends ({attendees.length})
                 </Text>
                 <Pressable
                   onPress={() => setPickerVisible(true)}
-                  style={{ backgroundColor: colors.primary, borderRadius: 20, paddingHorizontal: 14, paddingVertical: 6 }}
+                  style={{
+                    backgroundColor: colors.primary,
+                    borderRadius: 20,
+                    paddingHorizontal: 14,
+                    paddingVertical: 6,
+                  }}
                 >
-                  <Text style={{ fontSize: 13, fontWeight: '600', color: colors.bgCard }}>+ Add</Text>
+                  <Text
+                    style={{
+                      fontSize: 13,
+                      fontWeight: '600',
+                      color: colors.bgCard,
+                    }}
+                  >
+                    + Add
+                  </Text>
                 </Pressable>
               </View>
 
               {/* Attendees list */}
               {attendees.length === 0 ? (
-                <Text style={{ fontSize: 14, color: colors.textMuted, textAlign: 'center', paddingVertical: 16 }}>
+                <Text
+                  style={{
+                    fontSize: 14,
+                    color: colors.textMuted,
+                    textAlign: 'center',
+                    paddingVertical: 16,
+                  }}
+                >
                   No friends added yet
                 </Text>
               ) : (
                 attendees.map((item, i) => (
                   <View key={item.id}>
-                    <View style={{
-                      flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
-                      paddingVertical: 10,
-                    }}>
-                      <Text style={{ fontSize: 15, color: colors.primary, flex: 1 }}>{item.name}</Text>
-                      <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                    <View
+                      style={{
+                        flexDirection: 'row',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                        paddingVertical: 10,
+                      }}
+                    >
+                      <Text
+                        style={{ fontSize: 15, color: colors.primary, flex: 1 }}
+                      >
+                        {item.name}
+                      </Text>
+                      <View
+                        style={{
+                          flexDirection: 'row',
+                          alignItems: 'center',
+                          gap: 10,
+                        }}
+                      >
                         <Pressable
                           onPress={() => onRecordHangout(item.id)}
-                          style={{ backgroundColor: colors.primary, borderRadius: 8, paddingHorizontal: 12, paddingVertical: 6 }}
+                          style={{
+                            backgroundColor: colors.primary,
+                            borderRadius: 8,
+                            paddingHorizontal: 12,
+                            paddingVertical: 6,
+                          }}
                         >
-                          <Text style={{ fontSize: 12, fontWeight: '600', color: colors.bgCard }}>Hung out</Text>
+                          <Text
+                            style={{
+                              fontSize: 12,
+                              fontWeight: '600',
+                              color: colors.bgCard,
+                            }}
+                          >
+                            Hung out
+                          </Text>
                         </Pressable>
                         <Pressable
                           onPress={() => onRemoveFriend(event.id, item.id)}
                           hitSlop={8}
-                          style={{ width: 28, height: 28, alignItems: 'center', justifyContent: 'center' }}
+                          style={{
+                            width: 28,
+                            height: 28,
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                          }}
                         >
-                          <Text style={{ fontSize: 16, color: colors.danger }}>✕</Text>
+                          <Text style={{ fontSize: 16, color: colors.danger }}>
+                            ✕
+                          </Text>
                         </Pressable>
                       </View>
                     </View>
                     {i < attendees.length - 1 && (
-                      <View style={{ height: 1, backgroundColor: colors.bgInput }} />
+                      <View
+                        style={{ height: 1, backgroundColor: colors.bgInput }}
+                      />
                     )}
                   </View>
                 ))

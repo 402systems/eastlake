@@ -7,10 +7,18 @@ import { colors } from '../utils/colors';
 interface AddFriendModalProps {
   visible: boolean;
   onClose: () => void;
-  onAdd: (friend: { name: string; phone_number?: string; birthday?: string }) => void;
+  onAdd: (friend: {
+    name: string;
+    phone_number?: string;
+    birthday?: string;
+  }) => void;
 }
 
-export function AddFriendModal({ visible, onClose, onAdd }: AddFriendModalProps) {
+export function AddFriendModal({
+  visible,
+  onClose,
+  onAdd,
+}: AddFriendModalProps) {
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
   const [birthday, setBirthday] = useState('');
@@ -72,7 +80,11 @@ export function AddFriendModal({ visible, onClose, onAdd }: AddFriendModalProps)
           <Text style={styles.cancelText}>Cancel</Text>
         </Pressable>
         <Pressable
-          style={canSubmit ? styles.submitButton : [styles.submitButton, styles.disabled]}
+          style={
+            canSubmit
+              ? styles.submitButton
+              : [styles.submitButton, styles.disabled]
+          }
           onPress={handleAdd}
           disabled={!canSubmit}
         >

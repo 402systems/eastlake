@@ -38,21 +38,18 @@ export default function EventsScreen() {
     ...(upcoming.length > 0
       ? [{ type: 'header', key: 'upcoming-header', label: 'Upcoming' } as const]
       : []),
-    ...upcoming.map((e) => ({ type: 'event', key: e.id, event: e } as const)),
+    ...upcoming.map((e) => ({ type: 'event', key: e.id, event: e }) as const),
     ...(past.length > 0
       ? [{ type: 'header', key: 'past-header', label: 'Past' } as const]
       : []),
-    ...past.map((e) => ({ type: 'event', key: e.id, event: e } as const)),
+    ...past.map((e) => ({ type: 'event', key: e.id, event: e }) as const),
   ];
 
   return (
     <SafeAreaView style={styles.safe}>
       <View style={styles.header}>
         <Text style={styles.title}>Events</Text>
-        <Pressable
-          onPress={() => setCreateVisible(true)}
-          style={styles.newBtn}
-        >
+        <Pressable onPress={() => setCreateVisible(true)} style={styles.newBtn}>
           <Text style={styles.newBtnText}>+ New</Text>
         </Pressable>
       </View>
@@ -65,8 +62,13 @@ export default function EventsScreen() {
         <View style={styles.center}>
           <Text style={styles.emptyIcon}>📅</Text>
           <Text style={styles.emptyTitle}>No events yet</Text>
-          <Text style={styles.emptyBody}>Create an event and invite your friends.</Text>
-          <Pressable onPress={() => setCreateVisible(true)} style={styles.emptyBtn}>
+          <Text style={styles.emptyBody}>
+            Create an event and invite your friends.
+          </Text>
+          <Pressable
+            onPress={() => setCreateVisible(true)}
+            style={styles.emptyBtn}
+          >
             <Text style={styles.emptyBtnText}>+ Create event</Text>
           </Pressable>
         </View>
@@ -123,14 +125,45 @@ const styles = StyleSheet.create({
     paddingTop: 16,
     paddingBottom: 12,
   },
-  title: { fontSize: 28, fontWeight: '700', color: colors.primary, letterSpacing: -0.5 },
-  newBtn: { backgroundColor: colors.primary, borderRadius: 20, paddingHorizontal: 16, paddingVertical: 8 },
+  title: {
+    fontSize: 28,
+    fontWeight: '700',
+    color: colors.primary,
+    letterSpacing: -0.5,
+  },
+  newBtn: {
+    backgroundColor: colors.primary,
+    borderRadius: 20,
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+  },
   newBtnText: { fontSize: 14, fontWeight: '600', color: colors.bgCard },
-  center: { flex: 1, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 40 },
+  center: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 40,
+  },
   emptyIcon: { fontSize: 48, marginBottom: 12 },
-  emptyTitle: { fontSize: 20, fontWeight: '600', color: colors.primary, marginBottom: 6 },
-  emptyBody: { fontSize: 15, color: colors.textMuted, textAlign: 'center', lineHeight: 22 },
-  emptyBtn: { backgroundColor: colors.primary, borderRadius: 14, paddingHorizontal: 32, paddingVertical: 16, marginTop: 16 },
+  emptyTitle: {
+    fontSize: 20,
+    fontWeight: '600',
+    color: colors.primary,
+    marginBottom: 6,
+  },
+  emptyBody: {
+    fontSize: 15,
+    color: colors.textMuted,
+    textAlign: 'center',
+    lineHeight: 22,
+  },
+  emptyBtn: {
+    backgroundColor: colors.primary,
+    borderRadius: 14,
+    paddingHorizontal: 32,
+    paddingVertical: 16,
+    marginTop: 16,
+  },
   emptyBtnText: { fontSize: 17, fontWeight: '600', color: colors.bgCard },
   sectionLabel: {
     fontSize: 13,

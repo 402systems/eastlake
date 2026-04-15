@@ -8,7 +8,10 @@ export function getDaysSince(lastAction: string | null): number {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
   const last = new Date(lastAction + 'T00:00:00');
-  return Math.max(0, Math.floor((today.getTime() - last.getTime()) / 86_400_000));
+  return Math.max(
+    0,
+    Math.floor((today.getTime() - last.getTime()) / 86_400_000)
+  );
 }
 
 export function getUrgencyColor(days: number): string {

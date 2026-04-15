@@ -12,7 +12,11 @@ interface FriendDetailModalProps {
   friend: Friend | null;
 }
 
-export function FriendDetailModal({ visible, onClose, friend }: FriendDetailModalProps) {
+export function FriendDetailModal({
+  visible,
+  onClose,
+  friend,
+}: FriendDetailModalProps) {
   const { events } = useAppContext();
 
   const friendEvents = useMemo(() => {
@@ -33,32 +37,49 @@ export function FriendDetailModal({ visible, onClose, friend }: FriendDetailModa
         {friendEvents.length === 0 ? (
           <View style={{ alignItems: 'center', paddingVertical: 40 }}>
             <Text style={{ fontSize: 32, marginBottom: 8 }}>📭</Text>
-            <Text style={{ fontSize: 15, color: colors.textMuted, textAlign: 'center' }}>
+            <Text
+              style={{
+                fontSize: 15,
+                color: colors.textMuted,
+                textAlign: 'center',
+              }}
+            >
               No events with {friend.name} yet
             </Text>
           </View>
         ) : (
           <FlatList
             data={[
-              ...(upcomingEvents.length > 0 ? [{ type: 'header' as const, label: 'Upcoming' }] : []),
-              ...upcomingEvents.map((e) => ({ type: 'event' as const, event: e })),
-              ...(pastEvents.length > 0 ? [{ type: 'header' as const, label: 'Past' }] : []),
+              ...(upcomingEvents.length > 0
+                ? [{ type: 'header' as const, label: 'Upcoming' }]
+                : []),
+              ...upcomingEvents.map((e) => ({
+                type: 'event' as const,
+                event: e,
+              })),
+              ...(pastEvents.length > 0
+                ? [{ type: 'header' as const, label: 'Past' }]
+                : []),
               ...pastEvents.map((e) => ({ type: 'event' as const, event: e })),
             ]}
-            keyExtractor={(item, i) => (item.type === 'header' ? `h-${item.label}` : item.event.id)}
+            keyExtractor={(item) =>
+              item.type === 'header' ? `h-${item.label}` : item.event.id
+            }
             showsVerticalScrollIndicator={false}
             renderItem={({ item }) => {
               if (item.type === 'header') {
                 return (
-                  <Text style={{
-                    fontSize: 12,
-                    fontWeight: '700',
-                    color: colors.textMuted,
-                    textTransform: 'uppercase',
-                    letterSpacing: 0.5,
-                    paddingTop: 12,
-                    paddingBottom: 6,
-                  }}>
+                  <Text
+                    style={{
+                      fontSize: 12,
+                      fontWeight: '700',
+                      color: colors.textMuted,
+                      textTransform: 'uppercase',
+                      letterSpacing: 0.5,
+                      paddingTop: 12,
+                      paddingBottom: 6,
+                    }}
+                  >
                     {item.label}
                   </Text>
                 );
@@ -66,29 +87,43 @@ export function FriendDetailModal({ visible, onClose, friend }: FriendDetailModa
               const e = item.event;
               const past = isPast(e.date);
               return (
-                <View style={{
-                  flexDirection: 'row',
-                  alignItems: 'center',
-                  paddingVertical: 12,
-                  borderBottomWidth: 1,
-                  borderBottomColor: colors.bgInput,
-                }}>
-                  <View style={{
-                    width: 8,
-                    height: 8,
-                    borderRadius: 4,
-                    backgroundColor: past ? colors.borderMuted : colors.indigo,
-                    marginRight: 12,
-                  }} />
+                <View
+                  style={{
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                    paddingVertical: 12,
+                    borderBottomWidth: 1,
+                    borderBottomColor: colors.bgInput,
+                  }}
+                >
+                  <View
+                    style={{
+                      width: 8,
+                      height: 8,
+                      borderRadius: 4,
+                      backgroundColor: past
+                        ? colors.borderMuted
+                        : colors.indigo,
+                      marginRight: 12,
+                    }}
+                  />
                   <View style={{ flex: 1 }}>
-                    <Text style={{
-                      fontSize: 15,
-                      fontWeight: '600',
-                      color: past ? colors.textMuted : colors.primary,
-                    }}>
+                    <Text
+                      style={{
+                        fontSize: 15,
+                        fontWeight: '600',
+                        color: past ? colors.textMuted : colors.primary,
+                      }}
+                    >
                       {e.name}
                     </Text>
-                    <Text style={{ fontSize: 13, color: colors.textMuted, marginTop: 2 }}>
+                    <Text
+                      style={{
+                        fontSize: 13,
+                        color: colors.textMuted,
+                        marginTop: 2,
+                      }}
+                    >
                       {formatDate(e.date)}
                       {e.event_friends.length > 1
                         ? ` · ${e.event_friends.length - 1} other${e.event_friends.length - 1 !== 1 ? 's' : ''}`
@@ -103,7 +138,13 @@ export function FriendDetailModal({ visible, onClose, friend }: FriendDetailModa
       </View>
 
       {friend.last_action && (
-        <Text style={{ fontSize: 12, color: colors.borderMuted, textAlign: 'center' }}>
+        <Text
+          style={{
+            fontSize: 12,
+            color: colors.borderMuted,
+            textAlign: 'center',
+          }}
+        >
           Last hung out: {formatDate(friend.last_action)}
         </Text>
       )}

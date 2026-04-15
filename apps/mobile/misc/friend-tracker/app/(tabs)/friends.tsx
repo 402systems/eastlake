@@ -43,7 +43,9 @@ export default function FriendsScreen() {
   const [addModalVisible, setAddModalVisible] = useState(false);
   const [contactPickerVisible, setContactPickerVisible] = useState(false);
   const [manageGroupsVisible, setManageGroupsVisible] = useState(false);
-  const [assignGroupsFriend, setAssignGroupsFriend] = useState<Friend | null>(null);
+  const [assignGroupsFriend, setAssignGroupsFriend] = useState<Friend | null>(
+    null
+  );
   const [detailFriend, setDetailFriend] = useState<Friend | null>(null);
   const [activeGroup, setActiveGroup] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
@@ -73,8 +75,10 @@ export default function FriendsScreen() {
   const sortedFriends = useMemo(
     () =>
       [...friends].sort((a, b) => {
-        const dA = a.last_action === null ? Infinity : getDaysSince(a.last_action);
-        const dB = b.last_action === null ? Infinity : getDaysSince(b.last_action);
+        const dA =
+          a.last_action === null ? Infinity : getDaysSince(a.last_action);
+        const dB =
+          b.last_action === null ? Infinity : getDaysSince(b.last_action);
         return dB - dA;
       }),
     [friends]
@@ -82,7 +86,8 @@ export default function FriendsScreen() {
 
   const filteredFriends = useMemo(() => {
     let result = sortedFriends;
-    if (activeGroup) result = result.filter((f) => f.groups?.includes(activeGroup));
+    if (activeGroup)
+      result = result.filter((f) => f.groups?.includes(activeGroup));
     if (searchQuery.trim())
       result = result.filter((f) =>
         f.name.toLowerCase().includes(searchQuery.toLowerCase())
@@ -112,16 +117,21 @@ export default function FriendsScreen() {
       {upcomingBirthdays.length > 0 && (
         <View style={styles.birthdayBanner}>
           <Text style={styles.birthdayText}>
-            🎂{' '}
-            {upcomingBirthdays.map((f) => f.name).join(', ')}{' '}
-            {upcomingBirthdays.length === 1 ? 'has' : 'have'} a birthday this week
+            🎂 {upcomingBirthdays.map((f) => f.name).join(', ')}{' '}
+            {upcomingBirthdays.length === 1 ? 'has' : 'have'} a birthday this
+            week
           </Text>
         </View>
       )}
 
       {/* Search */}
       <View style={styles.searchRow}>
-        <Ionicons name="search-outline" size={16} color={colors.textMuted} style={styles.searchIcon} />
+        <Ionicons
+          name="search-outline"
+          size={16}
+          color={colors.textMuted}
+          style={styles.searchIcon}
+        />
         <TextInput
           style={styles.searchInput}
           placeholder="Search friends…"
@@ -143,7 +153,8 @@ export default function FriendsScreen() {
       {/* Count */}
       {friends.length > 0 && (
         <Text style={styles.countLabel}>
-          {filteredFriends.length} {filteredFriends.length !== 1 ? 'friends' : 'friend'}
+          {filteredFriends.length}{' '}
+          {filteredFriends.length !== 1 ? 'friends' : 'friend'}
         </Text>
       )}
 
@@ -156,12 +167,22 @@ export default function FriendsScreen() {
         <View style={styles.center}>
           <Text style={styles.emptyIcon}>🫂</Text>
           <Text style={styles.emptyTitle}>No friends yet</Text>
-          <Text style={styles.emptyBody}>Add your first friend to start tracking.</Text>
-          <Pressable onPress={() => setAddModalVisible(true)} style={styles.emptyPrimaryBtn}>
+          <Text style={styles.emptyBody}>
+            Add your first friend to start tracking.
+          </Text>
+          <Pressable
+            onPress={() => setAddModalVisible(true)}
+            style={styles.emptyPrimaryBtn}
+          >
             <Text style={styles.emptyPrimaryBtnText}>+ Add a friend</Text>
           </Pressable>
-          <Pressable onPress={() => setContactPickerVisible(true)} style={styles.emptySecondaryBtn}>
-            <Text style={styles.emptySecondaryBtnText}>Import from contacts</Text>
+          <Pressable
+            onPress={() => setContactPickerVisible(true)}
+            style={styles.emptySecondaryBtn}
+          >
+            <Text style={styles.emptySecondaryBtnText}>
+              Import from contacts
+            </Text>
           </Pressable>
         </View>
       ) : (
@@ -254,14 +275,23 @@ const styles = StyleSheet.create({
     paddingTop: 16,
     paddingBottom: 12,
   },
-  title: { fontSize: 28, fontWeight: '700', color: colors.primary, letterSpacing: -0.5 },
+  title: {
+    fontSize: 28,
+    fontWeight: '700',
+    color: colors.primary,
+    letterSpacing: -0.5,
+  },
   userPill: {
     backgroundColor: colors.bgInput,
     borderRadius: 20,
     paddingHorizontal: 14,
     paddingVertical: 8,
   },
-  userPillText: { fontSize: 13, fontWeight: '600', color: colors.textSecondary },
+  userPillText: {
+    fontSize: 13,
+    fontWeight: '600',
+    color: colors.textSecondary,
+  },
 
   errorBanner: {
     flexDirection: 'row',
@@ -298,7 +328,12 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
   },
   searchIcon: { marginRight: 6 },
-  searchInput: { flex: 1, paddingVertical: 10, fontSize: 15, color: colors.primary },
+  searchInput: {
+    flex: 1,
+    paddingVertical: 10,
+    fontSize: 15,
+    color: colors.primary,
+  },
 
   countLabel: {
     paddingHorizontal: 20,
@@ -310,10 +345,26 @@ const styles = StyleSheet.create({
     letterSpacing: 0.5,
   },
 
-  center: { flex: 1, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 40 },
+  center: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 40,
+  },
   emptyIcon: { fontSize: 48, marginBottom: 12 },
-  emptyTitle: { fontSize: 18, fontWeight: '700', color: colors.primary, marginBottom: 6 },
-  emptyBody: { fontSize: 14, color: colors.textMuted, textAlign: 'center', lineHeight: 20, marginBottom: 24 },
+  emptyTitle: {
+    fontSize: 18,
+    fontWeight: '700',
+    color: colors.primary,
+    marginBottom: 6,
+  },
+  emptyBody: {
+    fontSize: 14,
+    color: colors.textMuted,
+    textAlign: 'center',
+    lineHeight: 20,
+    marginBottom: 24,
+  },
   emptyPrimaryBtn: {
     backgroundColor: colors.primary,
     borderRadius: 20,
@@ -321,7 +372,11 @@ const styles = StyleSheet.create({
     paddingVertical: 11,
     marginBottom: 16,
   },
-  emptyPrimaryBtnText: { fontSize: 14, fontWeight: '600', color: colors.bgCard },
+  emptyPrimaryBtnText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: colors.bgCard,
+  },
   emptySecondaryBtn: {
     backgroundColor: colors.bgInput,
     borderRadius: 20,
@@ -330,7 +385,11 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: colors.borderMuted,
   },
-  emptySecondaryBtnText: { fontSize: 14, fontWeight: '600', color: colors.textSecondary },
+  emptySecondaryBtnText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: colors.textSecondary,
+  },
 
   listContent: { paddingHorizontal: 20, paddingBottom: 100 },
 

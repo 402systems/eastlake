@@ -10,7 +10,12 @@ interface EventCardProps {
   onDelete: () => void;
 }
 
-export function EventCard({ event, friends, onPress, onDelete }: EventCardProps) {
+export function EventCard({
+  event,
+  friends,
+  onPress,
+  onDelete,
+}: EventCardProps) {
   const attendeeIds = event.event_friends.map((ef) => ef.friend_id);
   const attendees = friends.filter((f) => attendeeIds.includes(f.id));
   const past = isPast(event.date);
@@ -25,7 +30,9 @@ export function EventCard({ event, friends, onPress, onDelete }: EventCardProps)
       <View style={[styles.accent, { backgroundColor: accentColor }]} />
       <View style={styles.body}>
         <View style={styles.topRow}>
-          <Text style={styles.name} numberOfLines={1}>{event.name}</Text>
+          <Text style={styles.name} numberOfLines={1}>
+            {event.name}
+          </Text>
           {past && (
             <View style={styles.pastBadge}>
               <Text style={styles.pastBadgeText}>PAST</Text>
@@ -33,13 +40,17 @@ export function EventCard({ event, friends, onPress, onDelete }: EventCardProps)
           )}
         </View>
 
-        <Text style={[styles.date, { color: accentColor }]}>{formatDate(event.date)}</Text>
+        <Text style={[styles.date, { color: accentColor }]}>
+          {formatDate(event.date)}
+        </Text>
 
         {attendees.length > 0 ? (
           <View style={styles.attendeePills}>
             {visibleAttendees.map((f) => (
               <View key={f.id} style={styles.pill}>
-                <Text style={styles.pillText} numberOfLines={1}>{f.name}</Text>
+                <Text style={styles.pillText} numberOfLines={1}>
+                  {f.name}
+                </Text>
               </View>
             ))}
             {overflow > 0 && (
@@ -86,16 +97,47 @@ const styles = StyleSheet.create({
     gap: 6,
   },
   topRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
-  name: { fontSize: 17, fontWeight: '600', color: colors.primary, flexShrink: 1 },
-  pastBadge: { backgroundColor: colors.bgInput, borderRadius: 6, paddingHorizontal: 8, paddingVertical: 2 },
-  pastBadgeText: { fontSize: 10, fontWeight: '700', color: colors.textMuted, letterSpacing: 0.5 },
+  name: {
+    fontSize: 17,
+    fontWeight: '600',
+    color: colors.primary,
+    flexShrink: 1,
+  },
+  pastBadge: {
+    backgroundColor: colors.bgInput,
+    borderRadius: 6,
+    paddingHorizontal: 8,
+    paddingVertical: 2,
+  },
+  pastBadgeText: {
+    fontSize: 10,
+    fontWeight: '700',
+    color: colors.textMuted,
+    letterSpacing: 0.5,
+  },
   date: { fontSize: 13, fontWeight: '500' },
   attendeePills: { flexDirection: 'row', flexWrap: 'wrap', gap: 6 },
-  pill: { backgroundColor: colors.blueBg, borderRadius: 6, paddingHorizontal: 8, paddingVertical: 2 },
+  pill: {
+    backgroundColor: colors.blueBg,
+    borderRadius: 6,
+    paddingHorizontal: 8,
+    paddingVertical: 2,
+  },
   pillText: { fontSize: 11, fontWeight: '600', color: colors.blueMid },
   noAttendees: { fontSize: 13, color: colors.textMuted },
-  bottomRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginTop: 2 },
+  bottomRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: 2,
+  },
   attendeeCount: { fontSize: 13, color: colors.textMuted },
-  deleteBtn: { width: 32, height: 32, alignItems: 'center', justifyContent: 'center', borderRadius: 8 },
+  deleteBtn: {
+    width: 32,
+    height: 32,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 8,
+  },
   deleteBtnText: { fontSize: 16, color: colors.borderMuted },
 });

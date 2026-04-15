@@ -10,14 +10,22 @@ interface GroupCardProps {
   onRemoveMember: (friendId: string) => void;
 }
 
-export function GroupCard({ name, members, onDelete, onRemoveMember }: GroupCardProps) {
+export function GroupCard({
+  name,
+  members,
+  onDelete,
+  onRemoveMember,
+}: GroupCardProps) {
   const [expanded, setExpanded] = useState(false);
 
   return (
     <View style={styles.card}>
       <View style={styles.accent} />
       <View style={styles.body}>
-        <Pressable onPress={() => setExpanded((v) => !v)} style={styles.headerRow}>
+        <Pressable
+          onPress={() => setExpanded((v) => !v)}
+          style={styles.headerRow}
+        >
           <View style={styles.headerLeft}>
             <Text style={styles.name}>{name}</Text>
             <Text style={styles.count}>
@@ -40,7 +48,10 @@ export function GroupCard({ name, members, onDelete, onRemoveMember }: GroupCard
               members.map((f, i) => (
                 <View
                   key={f.id}
-                  style={[styles.memberRow, i < members.length - 1 && styles.memberBorder]}
+                  style={[
+                    styles.memberRow,
+                    i < members.length - 1 && styles.memberBorder,
+                  ]}
                 >
                   <Text style={styles.memberName}>{f.name}</Text>
                   <Pressable onPress={() => onRemoveMember(f.id)} hitSlop={8}>
@@ -70,16 +81,30 @@ const styles = StyleSheet.create({
   },
   accent: { width: 4, backgroundColor: colors.violet },
   body: { flex: 1, paddingVertical: 14, paddingLeft: 14, paddingRight: 12 },
-  headerRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+  headerRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
   headerLeft: { flex: 1 },
   name: { fontSize: 17, fontWeight: '600', color: colors.primary },
   count: { fontSize: 13, color: colors.textMuted, marginTop: 2 },
   headerRight: { flexDirection: 'row', alignItems: 'center', gap: 12 },
   chevron: { fontSize: 11, color: colors.textMuted },
-  deleteBtn: { width: 28, height: 28, alignItems: 'center', justifyContent: 'center' },
+  deleteBtn: {
+    width: 28,
+    height: 28,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
   deleteBtnText: { fontSize: 16, color: colors.borderMuted },
   memberList: { marginTop: 12 },
-  memberRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingVertical: 10 },
+  memberRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingVertical: 10,
+  },
   memberBorder: { borderBottomWidth: 1, borderBottomColor: colors.bgInput },
   memberName: { fontSize: 15, color: colors.primary, flex: 1 },
   removeText: { fontSize: 13, color: colors.textMuted, fontWeight: '500' },

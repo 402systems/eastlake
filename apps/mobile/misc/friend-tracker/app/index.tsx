@@ -1,5 +1,11 @@
 import { useState } from 'react';
-import { View, Text, Pressable, StyleSheet, ActivityIndicator } from 'react-native';
+import {
+  View,
+  Text,
+  Pressable,
+  StyleSheet,
+  ActivityIndicator,
+} from 'react-native';
 import { Redirect } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useAppContext } from '../context/AppContext';
@@ -30,7 +36,10 @@ export default function WelcomeScreen() {
         <Text style={styles.subtitle}>
           See who you haven&apos;t hung out with lately.
         </Text>
-        <Pressable onPress={() => setAuthModalVisible(true)} style={styles.button}>
+        <Pressable
+          onPress={() => setAuthModalVisible(true)}
+          style={styles.button}
+        >
           <Text style={styles.buttonText}>Get started</Text>
         </Pressable>
       </View>
@@ -46,12 +55,39 @@ export default function WelcomeScreen() {
 }
 
 const styles = StyleSheet.create({
-  center: { flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.bgScreen },
+  center: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: colors.bgScreen,
+  },
   safe: { flex: 1, backgroundColor: colors.bgScreen },
-  content: { flex: 1, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 40 },
+  content: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 40,
+  },
   icon: { fontSize: 56, marginBottom: 16 },
-  title: { fontSize: 32, fontWeight: '700', color: colors.primary, letterSpacing: -0.5, marginBottom: 8 },
-  subtitle: { fontSize: 16, color: colors.textTertiary, textAlign: 'center', lineHeight: 24, marginBottom: 32 },
-  button: { backgroundColor: colors.primary, borderRadius: 14, paddingHorizontal: 36, paddingVertical: 16 },
+  title: {
+    fontSize: 32,
+    fontWeight: '700',
+    color: colors.primary,
+    letterSpacing: -0.5,
+    marginBottom: 8,
+  },
+  subtitle: {
+    fontSize: 16,
+    color: colors.textTertiary,
+    textAlign: 'center',
+    lineHeight: 24,
+    marginBottom: 32,
+  },
+  button: {
+    backgroundColor: colors.primary,
+    borderRadius: 14,
+    paddingHorizontal: 36,
+    paddingVertical: 16,
+  },
   buttonText: { fontSize: 16, fontWeight: '600', color: colors.bgCard },
 });

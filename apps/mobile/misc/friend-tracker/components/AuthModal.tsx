@@ -1,18 +1,36 @@
 import { useState } from 'react';
-import { View, Text, TextInput, Pressable, StyleSheet, ActivityIndicator } from 'react-native';
+import {
+  View,
+  Text,
+  TextInput,
+  Pressable,
+  StyleSheet,
+  ActivityIndicator,
+} from 'react-native';
 import { Modal } from '@402systems/lib-core-ui/native/components/Modal';
 import { colors } from '../utils/colors';
 
 interface AuthModalProps {
   visible: boolean;
   onClose: () => void;
-  onSignIn: (email: string, password: string) => Promise<{ error: Error | null }>;
-  onSignUp: (email: string, password: string) => Promise<{ error: Error | null }>;
+  onSignIn: (
+    email: string,
+    password: string
+  ) => Promise<{ error: Error | null }>;
+  onSignUp: (
+    email: string,
+    password: string
+  ) => Promise<{ error: Error | null }>;
 }
 
 type Mode = 'signin' | 'signup';
 
-export function AuthModal({ visible, onClose, onSignIn, onSignUp }: AuthModalProps) {
+export function AuthModal({
+  visible,
+  onClose,
+  onSignIn,
+  onSignUp,
+}: AuthModalProps) {
   const [mode, setMode] = useState<Mode>('signin');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -47,22 +65,41 @@ export function AuthModal({ visible, onClose, onSignIn, onSignUp }: AuthModalPro
   };
 
   const isSignIn = mode === 'signin';
-  const canSubmit = email.trim().length > 0 && password.trim().length > 0 && !loading;
+  const canSubmit =
+    email.trim().length > 0 && password.trim().length > 0 && !loading;
 
   return (
-    <Modal visible={visible} onClose={handleClose} title={isSignIn ? 'Sign in' : 'Create account'}>
+    <Modal
+      visible={visible}
+      onClose={handleClose}
+      title={isSignIn ? 'Sign in' : 'Create account'}
+    >
       <View style={styles.toggle}>
         <Pressable
           style={[styles.toggleTab, isSignIn && styles.toggleTabActive]}
-          onPress={() => { setMode('signin'); setError(null); }}
+          onPress={() => {
+            setMode('signin');
+            setError(null);
+          }}
         >
-          <Text style={[styles.toggleText, isSignIn && styles.toggleTextActive]}>Sign in</Text>
+          <Text
+            style={[styles.toggleText, isSignIn && styles.toggleTextActive]}
+          >
+            Sign in
+          </Text>
         </Pressable>
         <Pressable
           style={[styles.toggleTab, !isSignIn && styles.toggleTabActive]}
-          onPress={() => { setMode('signup'); setError(null); }}
+          onPress={() => {
+            setMode('signup');
+            setError(null);
+          }}
         >
-          <Text style={[styles.toggleText, !isSignIn && styles.toggleTextActive]}>Sign up</Text>
+          <Text
+            style={[styles.toggleText, !isSignIn && styles.toggleTextActive]}
+          >
+            Sign up
+          </Text>
         </Pressable>
       </View>
 
@@ -96,14 +133,20 @@ export function AuthModal({ visible, onClose, onSignIn, onSignUp }: AuthModalPro
       )}
 
       <Pressable
-        style={canSubmit ? styles.submitButton : [styles.submitButton, styles.disabled]}
+        style={
+          canSubmit
+            ? styles.submitButton
+            : [styles.submitButton, styles.disabled]
+        }
         onPress={handleSubmit}
         disabled={!canSubmit}
       >
         {loading ? (
           <ActivityIndicator color={colors.bgCard} size="small" />
         ) : (
-          <Text style={styles.submitText}>{isSignIn ? 'Sign in' : 'Create account'}</Text>
+          <Text style={styles.submitText}>
+            {isSignIn ? 'Sign in' : 'Create account'}
+          </Text>
         )}
       </Pressable>
     </Modal>
@@ -111,8 +154,18 @@ export function AuthModal({ visible, onClose, onSignIn, onSignUp }: AuthModalPro
 }
 
 const styles = StyleSheet.create({
-  toggle: { flexDirection: 'row', backgroundColor: colors.bgInput, borderRadius: 10, padding: 3 },
-  toggleTab: { flex: 1, paddingVertical: 9, alignItems: 'center', borderRadius: 8 },
+  toggle: {
+    flexDirection: 'row',
+    backgroundColor: colors.bgInput,
+    borderRadius: 10,
+    padding: 3,
+  },
+  toggleTab: {
+    flex: 1,
+    paddingVertical: 9,
+    alignItems: 'center',
+    borderRadius: 8,
+  },
   toggleTabActive: {
     backgroundColor: colors.bgCard,
     shadowColor: '#000',
@@ -134,9 +187,19 @@ const styles = StyleSheet.create({
     color: colors.primary,
     backgroundColor: colors.bgCard,
   },
-  errorBox: { backgroundColor: colors.errorBg, borderRadius: 8, paddingHorizontal: 12, paddingVertical: 10 },
+  errorBox: {
+    backgroundColor: colors.errorBg,
+    borderRadius: 8,
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+  },
   errorText: { fontSize: 13, color: colors.error },
-  submitButton: { backgroundColor: colors.primary, borderRadius: 10, paddingVertical: 14, alignItems: 'center' },
+  submitButton: {
+    backgroundColor: colors.primary,
+    borderRadius: 10,
+    paddingVertical: 14,
+    alignItems: 'center',
+  },
   submitText: { color: colors.bgCard, fontSize: 16, fontWeight: '600' },
   disabled: { opacity: 0.35 },
 });

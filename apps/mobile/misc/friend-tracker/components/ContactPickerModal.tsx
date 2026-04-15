@@ -38,7 +38,9 @@ function formatBirthday(bday: Contacts.Date | undefined): string | null {
   return y ? `${y}-${m}-${d}` : `0000-${m}-${d}`;
 }
 
-function getPrimaryPhone(phones: Contacts.PhoneNumber[] | undefined): string | null {
+function getPrimaryPhone(
+  phones: Contacts.PhoneNumber[] | undefined
+): string | null {
   if (!phones || phones.length === 0) return null;
   return phones[0].number ?? null;
 }
@@ -69,7 +71,11 @@ export function ContactPickerModal({
     }
 
     const { data } = await Contacts.getContactsAsync({
-      fields: [Contacts.Fields.Name, Contacts.Fields.PhoneNumbers, Contacts.Fields.Birthday],
+      fields: [
+        Contacts.Fields.Name,
+        Contacts.Fields.PhoneNumbers,
+        Contacts.Fields.Birthday,
+      ],
       sort: Contacts.SortTypes.FirstName,
     });
 
@@ -99,7 +105,9 @@ export function ContactPickerModal({
   }, [contacts, search]);
 
   const toggleContact = (id: string) => {
-    setContacts((prev) => prev.map((c) => (c.id === id ? { ...c, selected: !c.selected } : c)));
+    setContacts((prev) =>
+      prev.map((c) => (c.id === id ? { ...c, selected: !c.selected } : c))
+    );
   };
 
   const selectedCount = contacts.filter((c) => c.selected).length;
@@ -107,7 +115,13 @@ export function ContactPickerModal({
   const handleImport = () => {
     const selected = contacts.filter((c) => c.selected);
     if (selected.length === 0) return;
-    onImport(selected.map((c) => ({ name: c.name, phone_number: c.phone, birthday: c.birthday })));
+    onImport(
+      selected.map((c) => ({
+        name: c.name,
+        phone_number: c.phone,
+        birthday: c.birthday,
+      }))
+    );
     onClose();
     setContacts([]);
   };
@@ -152,31 +166,47 @@ export function ContactPickerModal({
               return (
                 <Pressable
                   onPress={() => !alreadyAdded && toggleContact(item.id)}
-                  style={alreadyAdded ? [styles.row, styles.rowDisabled] : styles.row}
+                  style={
+                    alreadyAdded ? [styles.row, styles.rowDisabled] : styles.row
+                  }
                   disabled={alreadyAdded}
                 >
-                  <View style={[styles.checkbox, item.selected && styles.checkboxSelected]}>
+                  <View
+                    style={[
+                      styles.checkbox,
+                      item.selected && styles.checkboxSelected,
+                    ]}
+                  >
                     {item.selected && <Text style={styles.checkmark}>✓</Text>}
                   </View>
                   <View style={styles.contactInfo}>
                     <Text
-                      style={[styles.contactName, alreadyAdded && styles.contactNameDisabled]}
+                      style={[
+                        styles.contactName,
+                        alreadyAdded && styles.contactNameDisabled,
+                      ]}
                       numberOfLines={1}
                     >
                       {item.name}
                     </Text>
                     {item.phone && (
-                      <Text style={styles.contactDetail} numberOfLines={1}>{item.phone}</Text>
+                      <Text style={styles.contactDetail} numberOfLines={1}>
+                        {item.phone}
+                      </Text>
                     )}
                   </View>
-                  {alreadyAdded && <Text style={styles.alreadyLabel}>Added</Text>}
+                  {alreadyAdded && (
+                    <Text style={styles.alreadyLabel}>Added</Text>
+                  )}
                 </Pressable>
               );
             }}
             ItemSeparatorComponent={() => <View style={styles.separator} />}
             ListEmptyComponent={
               <View style={styles.centered}>
-                <Text style={styles.emptyText}>{search ? 'No matches' : 'No contacts found'}</Text>
+                <Text style={styles.emptyText}>
+                  {search ? 'No matches' : 'No contacts found'}
+                </Text>
               </View>
             }
           />
@@ -186,7 +216,10 @@ export function ContactPickerModal({
       <Pressable
         onPress={handleImport}
         disabled={selectedCount === 0}
-        style={[styles.importBtn, selectedCount === 0 && styles.importBtnDisabled]}
+        style={[
+          styles.importBtn,
+          selectedCount === 0 && styles.importBtnDisabled,
+        ]}
       >
         <Text style={styles.importBtnText}>
           {selectedCount === 0
@@ -209,7 +242,12 @@ const styles = StyleSheet.create({
     color: colors.primary,
     backgroundColor: colors.bgCard,
   },
-  centered: { height: 150, alignItems: 'center', justifyContent: 'center', gap: 8 },
+  centered: {
+    height: 150,
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+  },
   loadingText: { fontSize: 13, color: colors.textMuted },
   list: { flexGrow: 0 },
   row: {
@@ -230,7 +268,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  checkboxSelected: { backgroundColor: colors.primary, borderColor: colors.primary },
+  checkboxSelected: {
+    backgroundColor: colors.primary,
+    borderColor: colors.primary,
+  },
   checkmark: { color: colors.bgCard, fontSize: 13, fontWeight: '700' },
   contactInfo: { flex: 1, gap: 2 },
   contactName: { fontSize: 15, color: colors.primary },

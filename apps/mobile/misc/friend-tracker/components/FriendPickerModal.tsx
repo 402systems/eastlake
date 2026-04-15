@@ -1,5 +1,12 @@
 import { useState, useMemo, useEffect } from 'react';
-import { View, Text, FlatList, Pressable, TextInput, StyleSheet } from 'react-native';
+import {
+  View,
+  Text,
+  FlatList,
+  Pressable,
+  TextInput,
+  StyleSheet,
+} from 'react-native';
 import { Modal } from '@402systems/lib-core-ui/native/components/Modal';
 import type { Friend } from '../context/AppContext';
 import { colors } from '../utils/colors';
@@ -25,16 +32,20 @@ export function FriendPickerModal({
   const [search, setSearch] = useState('');
 
   const filtered = useMemo(
-    () => friends.filter((f) => f.name.toLowerCase().includes(search.toLowerCase())),
+    () =>
+      friends.filter((f) =>
+        f.name.toLowerCase().includes(search.toLowerCase())
+      ),
     [friends, search]
   );
 
+  /* eslint-disable react-hooks/set-state-in-effect */
   useEffect(() => {
     if (visible) {
       setSelected(new Set(selectedIds));
       setSearch('');
     }
-  }, [visible]);
+  }, [visible]); /* eslint-enable react-hooks/set-state-in-effect */
 
   const toggle = (id: string) => {
     setSelected((prev) => {
@@ -68,7 +79,9 @@ export function FriendPickerModal({
           return (
             <Pressable onPress={() => toggle(item.id)} style={styles.row}>
               <Text style={styles.rowName}>{item.name}</Text>
-              <View style={[styles.checkbox, checked && styles.checkboxChecked]}>
+              <View
+                style={[styles.checkbox, checked && styles.checkboxChecked]}
+              >
                 {checked && <Text style={styles.checkmark}>✓</Text>}
               </View>
             </Pressable>
@@ -78,7 +91,10 @@ export function FriendPickerModal({
       />
       <Pressable onPress={handleConfirm} style={styles.confirmBtn}>
         <Text style={styles.confirmBtnText}>
-          Add {selected.size > 0 ? `${selected.size} friend${selected.size !== 1 ? 's' : ''}` : 'friends'}
+          Add{' '}
+          {selected.size > 0
+            ? `${selected.size} friend${selected.size !== 1 ? 's' : ''}`
+            : 'friends'}
         </Text>
       </Pressable>
     </Modal>
@@ -96,7 +112,12 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   list: { maxHeight: 240 },
-  row: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingVertical: 12 },
+  row: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingVertical: 12,
+  },
   rowName: { fontSize: 16, color: colors.primary, flex: 1 },
   checkbox: {
     width: 22,
@@ -107,7 +128,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  checkboxChecked: { backgroundColor: colors.primary, borderColor: colors.primary },
+  checkboxChecked: {
+    backgroundColor: colors.primary,
+    borderColor: colors.primary,
+  },
   checkmark: { color: colors.bgCard, fontSize: 13, fontWeight: '700' },
   separator: { height: 1, backgroundColor: colors.bgInput },
   confirmBtn: {

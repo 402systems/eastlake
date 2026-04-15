@@ -69,8 +69,14 @@ interface AppContextValue {
   deleteFriend: (friendId: string) => Promise<void>;
 
   // Groups (stored on friend rows)
-  addFriendToGroup: (friendId: string, groupName: string) => Promise<string[] | null>;
-  removeFriendFromGroup: (friendId: string, groupName: string) => Promise<string[] | null>;
+  addFriendToGroup: (
+    friendId: string,
+    groupName: string
+  ) => Promise<string[] | null>;
+  removeFriendFromGroup: (
+    friendId: string,
+    groupName: string
+  ) => Promise<string[] | null>;
   deleteGroup: (groupName: string) => Promise<string | undefined>;
   updateFriendGroupsLocally: (friendId: string, groups: string[]) => void;
 
@@ -112,6 +118,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   }, []);
 
   // Load friends when user logs in
+  /* eslint-disable react-hooks/set-state-in-effect */
   useEffect(() => {
     if (user && !authLoading) {
       setIsLoadingFriends(true);
@@ -138,6 +145,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
         .finally(() => setIsLoadingEvents(false));
     }
   }, [user, authLoading]);
+  /* eslint-enable react-hooks/set-state-in-effect */
 
   // ── Friend actions ──
 
@@ -186,7 +194,9 @@ export function AppProvider({ children }: { children: ReactNode }) {
       setEvents((prev) =>
         prev.map((e) => ({
           ...e,
-          event_friends: e.event_friends.filter((ef) => ef.friend_id !== friendId),
+          event_friends: e.event_friends.filter(
+            (ef) => ef.friend_id !== friendId
+          ),
         }))
       );
     } catch (err: unknown) {
@@ -259,34 +269,34 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
   // ── Event actions ──
 
-  const createEvent = useCallback(async (e: NewEvent): Promise<AppEvent | null> => {
-    try {
-      const data = await api.post<AppEvent>('/events', e);
-      if (data) {
-        setEvents((prev) => [...prev, data]);
-        scheduleEventReminder(data);
-      }
-      return data;
-    } catch (err: unknown) {
-      setError(err instanceof Error ? err.message : 'Failed to create event');
-      return null;
-    }
-  }, []);
-
-  const updateEvent = useCallback(
-    async (id: string, e: Partial<NewEvent>) => {
+  const createEvent = useCallback(
+    async (e: NewEvent): Promise<AppEvent | null> => {
       try {
-        const data = await api.put<AppEvent>(`/events/${id}`, e);
+        const data = await api.post<AppEvent>('/events', e);
         if (data) {
-          setEvents((prev) => prev.map((ev) => (ev.id === id ? data : ev)));
+          setEvents((prev) => [...prev, data]);
           scheduleEventReminder(data);
         }
+        return data;
       } catch (err: unknown) {
-        setError(err instanceof Error ? err.message : 'Failed to update event');
+        setError(err instanceof Error ? err.message : 'Failed to create event');
+        return null;
       }
     },
     []
   );
+
+  const updateEvent = useCallback(async (id: string, e: Partial<NewEvent>) => {
+    try {
+      const data = await api.put<AppEvent>(`/events/${id}`, e);
+      if (data) {
+        setEvents((prev) => prev.map((ev) => (ev.id === id ? data : ev)));
+        scheduleEventReminder(data);
+      }
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : 'Failed to update event');
+    }
+  }, []);
 
   const deleteEvent = useCallback(async (id: string) => {
     try {
@@ -304,9 +314,12 @@ export function AppProvider({ children }: { children: ReactNode }) {
         const data = await api.post<AppEvent>(`/events/${eventId}/friends`, {
           friend_ids: friendIds,
         });
-        if (data) setEvents((prev) => prev.map((e) => (e.id === eventId ? data : e)));
+        if (data)
+          setEvents((prev) => prev.map((e) => (e.id === eventId ? data : e)));
       } catch (err: unknown) {
-        setError(err instanceof Error ? err.message : 'Failed to add friends to event');
+        setError(
+          err instanceof Error ? err.message : 'Failed to add friends to event'
+        );
       }
     },
     []
@@ -329,7 +342,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
           )
         );
       } catch (err: unknown) {
-        setError(err instanceof Error ? err.message : 'Failed to remove friend from event');
+        setError(
+          err instanceof Error
+            ? err.message
+            : 'Failed to remove friend from event'
+        );
       }
     },
     []
