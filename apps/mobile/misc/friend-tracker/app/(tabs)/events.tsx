@@ -102,6 +102,7 @@ export default function EventsScreen() {
       />
 
       <EventDetailModal
+        key={selectedEvent?.id ?? 'none'}
         visible={!!selectedEvent}
         onClose={() => setSelectedEvent(null)}
         event={selectedEvent}

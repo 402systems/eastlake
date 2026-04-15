@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import {
   View,
   Text,
@@ -37,19 +37,9 @@ export function EventDetailModal({
 }: EventDetailModalProps) {
   const [editingName, setEditingName] = useState(false);
   const [editingDate, setEditingDate] = useState(false);
-  const [nameValue, setNameValue] = useState('');
-  const [dateValue, setDateValue] = useState('');
+  const [nameValue, setNameValue] = useState(event?.name ?? '');
+  const [dateValue, setDateValue] = useState(event?.date ?? '');
   const [pickerVisible, setPickerVisible] = useState(false);
-
-  /* eslint-disable react-hooks/set-state-in-effect */
-  useEffect(() => {
-    if (visible && event) {
-      setEditingName(false);
-      setEditingDate(false);
-      setNameValue(event.name);
-      setDateValue(event.date);
-    }
-  }, [visible, event?.id]); /* eslint-enable react-hooks/set-state-in-effect */
 
   if (!event) return null;
 
@@ -365,6 +355,7 @@ export function EventDetailModal({
       </RNModal>
 
       <FriendPickerModal
+        key={pickerVisible ? 'open' : 'closed'}
         visible={pickerVisible}
         onClose={() => setPickerVisible(false)}
         friends={friends.filter((f) => !attendeeIds.includes(f.id))}

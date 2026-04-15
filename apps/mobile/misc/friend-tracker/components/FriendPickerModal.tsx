@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo } from 'react';
 import {
   View,
   Text,
@@ -28,7 +28,9 @@ export function FriendPickerModal({
   onConfirm,
   title = 'Add Friends',
 }: FriendPickerModalProps) {
-  const [selected, setSelected] = useState<Set<string>>(new Set(selectedIds));
+  const [selected, setSelected] = useState<Set<string>>(
+    () => new Set(selectedIds)
+  );
   const [search, setSearch] = useState('');
 
   const filtered = useMemo(
@@ -38,14 +40,6 @@ export function FriendPickerModal({
       ),
     [friends, search]
   );
-
-  /* eslint-disable react-hooks/set-state-in-effect */
-  useEffect(() => {
-    if (visible) {
-      setSelected(new Set(selectedIds));
-      setSearch('');
-    }
-  }, [visible]); /* eslint-enable react-hooks/set-state-in-effect */
 
   const toggle = (id: string) => {
     setSelected((prev) => {

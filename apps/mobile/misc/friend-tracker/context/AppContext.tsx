@@ -106,11 +106,23 @@ export function useAppContext() {
 export function AppProvider({ children }: { children: ReactNode }) {
   const { user, loading: authLoading, signIn, signUp, signOut } = useAuth();
 
-  const [friends, setFriends] = useState<Friend[]>([]);
-  const [isLoadingFriends, setIsLoadingFriends] = useState(false);
-  const [events, setEvents] = useState<AppEvent[]>([]);
-  const [isLoadingEvents, setIsLoadingEvents] = useState(false);
+  // null = not yet fetched; [] = fetched but empty; Friend[] = loaded
+  const [friends, setFriends] = useState<Friend[] | null>(null);
+  const [events, setEvents] = useState<AppEvent[] | null>(null);
   const [error, setError] = useState<string | null>(null);
+
+  // Track previous user ID to reset data when the user changes.
+  // setState-during-render is the React-recommended pattern for derived state
+  // resets: React re-renders immediately with the new state, no effect needed.
+  const [prevUserId, setPrevUserId] = useState(user?.id);
+  if (prevUserId !== user?.id) {
+    setPrevUserId(user?.id);
+    setFriends(null);
+    setEvents(null);
+  }
+
+  const isLoadingFriends = !!user && !authLoading && friends === null;
+  const isLoadingEvents = !!user && !authLoading && events === null;
 
   // Request notification permission once on mount
   useEffect(() => {
@@ -118,41 +130,31 @@ export function AppProvider({ children }: { children: ReactNode }) {
   }, []);
 
   // Load friends when user logs in
-  /* eslint-disable react-hooks/set-state-in-effect */
   useEffect(() => {
     if (user && !authLoading) {
-      setIsLoadingFriends(true);
       api
         .get<Friend[]>('/friends')
         .then((data) => setFriends(data ?? []))
-        .catch((err) => setError(err.message))
-        .finally(() => setIsLoadingFriends(false));
-    }
-    if (!user) {
-      setFriends([]);
-      setEvents([]);
+        .catch((err) => setError(err.message));
     }
   }, [user, authLoading]);
 
   // Load events when user logs in
   useEffect(() => {
     if (user && !authLoading) {
-      setIsLoadingEvents(true);
       api
         .get<AppEvent[]>('/events')
         .then((data) => setEvents(data ?? []))
-        .catch((err) => setError(err.message))
-        .finally(() => setIsLoadingEvents(false));
+        .catch((err) => setError(err.message));
     }
   }, [user, authLoading]);
-  /* eslint-enable react-hooks/set-state-in-effect */
 
   // ── Friend actions ──
 
   const addFriend = useCallback(async (f: NewFriend) => {
     try {
       const data = await api.post<Friend>('/friends', f);
-      if (data) setFriends((prev) => [...prev, data]);
+      if (data) setFriends((prev) => [...(prev ?? []), data]);
     } catch (err: unknown) {
       setError(err instanceof Error ? err.message : 'Failed to add friend');
     }
@@ -163,7 +165,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
     for (const f of fs) {
       try {
         const data = await api.post<Friend>('/friends', f);
-        if (data) setFriends((prev) => [...prev, data]);
+        if (data) setFriends((prev) => [...(prev ?? []), data]);
       } catch {
         failed.push(f.name);
       }
@@ -179,7 +181,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
         `/friends/${friendId}/hangout`
       );
       setFriends((prev) =>
-        prev.map((f) => (f.id === friendId ? { ...f, last_action } : f))
+        (prev ?? []).map((f) => (f.id === friendId ? { ...f, last_action } : f))
       );
     } catch (err: unknown) {
       setError(err instanceof Error ? err.message : 'Failed to record hangout');
@@ -189,10 +191,10 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const deleteFriend = useCallback(async (friendId: string) => {
     try {
       await api.delete(`/friends/${friendId}`);
-      setFriends((prev) => prev.filter((f) => f.id !== friendId));
+      setFriends((prev) => (prev ?? []).filter((f) => f.id !== friendId));
       // Also remove from any events locally
       setEvents((prev) =>
-        prev.map((e) => ({
+        (prev ?? []).map((e) => ({
           ...e,
           event_friends: e.event_friends.filter(
             (ef) => ef.friend_id !== friendId
@@ -213,7 +215,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
           `/friends/${friendId}/groups/${encodeURIComponent(groupName)}`
         );
         setFriends((prev) =>
-          prev.map((f) => (f.id === friendId ? { ...f, groups } : f))
+          (prev ?? []).map((f) => (f.id === friendId ? { ...f, groups } : f))
         );
         return groups;
       } catch {
@@ -230,7 +232,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
           `/friends/${friendId}/groups/${encodeURIComponent(groupName)}`
         );
         setFriends((prev) =>
-          prev.map((f) => (f.id === friendId ? { ...f, groups } : f))
+          (prev ?? []).map((f) => (f.id === friendId ? { ...f, groups } : f))
         );
         return groups;
       } catch {
@@ -245,7 +247,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
       try {
         await api.delete(`/groups/${encodeURIComponent(groupName)}`);
         setFriends((prev) =>
-          prev.map((f) => ({
+          (prev ?? []).map((f) => ({
             ...f,
             groups: f.groups?.filter((g) => g !== groupName) ?? [],
           }))
@@ -261,7 +263,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const updateFriendGroupsLocally = useCallback(
     (friendId: string, groups: string[]) => {
       setFriends((prev) =>
-        prev.map((f) => (f.id === friendId ? { ...f, groups } : f))
+        (prev ?? []).map((f) => (f.id === friendId ? { ...f, groups } : f))
       );
     },
     []
@@ -274,7 +276,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
       try {
         const data = await api.post<AppEvent>('/events', e);
         if (data) {
-          setEvents((prev) => [...prev, data]);
+          setEvents((prev) => [...(prev ?? []), data]);
           scheduleEventReminder(data);
         }
         return data;
@@ -290,7 +292,9 @@ export function AppProvider({ children }: { children: ReactNode }) {
     try {
       const data = await api.put<AppEvent>(`/events/${id}`, e);
       if (data) {
-        setEvents((prev) => prev.map((ev) => (ev.id === id ? data : ev)));
+        setEvents((prev) =>
+          (prev ?? []).map((ev) => (ev.id === id ? data : ev))
+        );
         scheduleEventReminder(data);
       }
     } catch (err: unknown) {
@@ -301,7 +305,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const deleteEvent = useCallback(async (id: string) => {
     try {
       await api.delete(`/events/${id}`);
-      setEvents((prev) => prev.filter((e) => e.id !== id));
+      setEvents((prev) => (prev ?? []).filter((e) => e.id !== id));
       cancelEventReminder(id);
     } catch (err: unknown) {
       setError(err instanceof Error ? err.message : 'Failed to delete event');
@@ -315,7 +319,9 @@ export function AppProvider({ children }: { children: ReactNode }) {
           friend_ids: friendIds,
         });
         if (data)
-          setEvents((prev) => prev.map((e) => (e.id === eventId ? data : e)));
+          setEvents((prev) =>
+            (prev ?? []).map((e) => (e.id === eventId ? data : e))
+          );
       } catch (err: unknown) {
         setError(
           err instanceof Error ? err.message : 'Failed to add friends to event'
@@ -330,7 +336,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
       try {
         await api.delete(`/events/${eventId}/friends/${friendId}`);
         setEvents((prev) =>
-          prev.map((e) =>
+          (prev ?? []).map((e) =>
             e.id === eventId
               ? {
                   ...e,
@@ -360,7 +366,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
         signIn,
         signUp,
         signOut,
-        friends,
+        friends: friends ?? [],
         isLoadingFriends,
         addFriend,
         addFriends,
@@ -370,7 +376,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
         removeFriendFromGroup,
         deleteGroup,
         updateFriendGroupsLocally,
-        events,
+        events: events ?? [],
         isLoadingEvents,
         createEvent,
         updateEvent,
