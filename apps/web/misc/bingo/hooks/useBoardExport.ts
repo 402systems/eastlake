@@ -1,7 +1,7 @@
 import { useCallback } from 'react';
 import { toPng, toBlob } from 'html-to-image';
 
-export function useBoardExport(boardRef: React.RefObject<HTMLDivElement>) {
+export function useBoardExport(boardRef: React.RefObject<HTMLDivElement | null>) {
   const handleDownloadImage = useCallback(async () => {
     if (!boardRef.current) return;
     try {
