@@ -75,6 +75,8 @@
     "./postcss.config": "./postcss.config.mjs",
     "./lib/*": "./src/lib/*.ts",
     "./components/*": "./src/components/*.tsx",
-    "./hooks/*": "./src/hooks/*.ts"
+    "./hooks/*": "./src/hooks/*.ts",
+    "./native": "./src/native/index.ts",
+    "./native/components/*": "./src/native/components/*.tsx"
   }
 }

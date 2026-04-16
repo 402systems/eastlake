@@ -9,7 +9,7 @@ import prettierPlugin from "eslint-plugin-prettier";
 
 export const baseConfig = tseslint.config(
   {
-    ignores: ["**/.next/**", "**/dist/**", "**/node_modules/**", "**/out/**"]
+    ignores: ["**/.next/**", "**/dist/**", "**/node_modules/**", "**/out/**", "**/next-env.d.ts"]
   },
   js.configs.recommended,
   ...tseslint.configs.recommended,

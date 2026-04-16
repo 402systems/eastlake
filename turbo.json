@@ -2,18 +2,14 @@
   "$schema": "https://turbo.build/schema.json",
   "globalEnv": [
     "NEXT_PUBLIC_SUPABASE_URL",
-    "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY"
+    "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY",
+    "EXPO_PUBLIC_SUPABASE_URL",
+    "EXPO_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY"
   ],
   "tasks": {
     "build": {
-      "dependsOn": [
-        "^build"
-      ],
-      "outputs": [
-        ".next/**",
-        "dist/**",
-        "worker-configuration.d.ts"
-      ],
+      "dependsOn": ["^build"],
+      "outputs": [".next/**", "dist/**", "worker-configuration.d.ts"],
       "env": [
         "NEXT_PUBLIC_SUPABASE_URL",
         "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY"
@@ -21,19 +17,11 @@
     },
     "format:check": {
       "cache": true,
-      "inputs": [
-        "**/*.{ts,tsx,js,jsx,json,md,css}",
-        ".prettierrc.js"
-      ]
+      "inputs": ["**/*.{ts,tsx,js,jsx,json,md,css}", ".prettierrc.js"]
     },
     "deploy": {
-      "dependsOn": [
-        "^build"
-      ],
-      "env": [
-        "CLOUDFLARE_API_TOKEN",
-        "CLOUDFLARE_ACCOUNT_ID"
-      ]
+      "dependsOn": ["^build"],
+      "env": ["CLOUDFLARE_API_TOKEN", "CLOUDFLARE_ACCOUNT_ID"]
     },
     "lint": {},
     "dev": {

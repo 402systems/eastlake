@@ -48,4 +48,5 @@ next-env.d.ts
 
 # --- Wrangler
 **/.wrangler/
+**/.dev.vars
 libs/core/router-dispatcher/worker-configuration.d.ts

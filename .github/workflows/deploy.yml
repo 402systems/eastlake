@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       app_path:
-        description: 'Path to app (e.g., core/home) or "all" to deploy everything'
+        description: 'Path to web app (e.g., web/core/home) or "all" to deploy everything'
         required: true
       environment:
         description: 'Target Environment'
@@ -58,30 +58,30 @@ jobs:
           DEPLOYED_COUNT=0
           SKIPPED_COUNT=0
 
-          # Find all apps in the apps directory
-          for APP_DIR in apps/*/*/; do
+          # Find all web apps in the apps/web directory
+          for APP_DIR in apps/web/*/*/; do
             if [ -d "$APP_DIR" ]; then
-              # Extract team and app name from path (e.g., apps/core/home/)
-              RELATIVE_PATH="${APP_DIR#apps/}"
-              TEAM_NAME=$(echo "$RELATIVE_PATH" | cut -d'/' -f1)
+              # Extract category and app name from path (e.g., apps/web/core/home/)
+              RELATIVE_PATH="${APP_DIR#apps/web/}"
+              CATEGORY=$(echo "$RELATIVE_PATH" | cut -d'/' -f1)
               APP_NAME=$(echo "$RELATIVE_PATH" | cut -d'/' -f2)
-              DEPLOY_ID="${TEAM_NAME}/${APP_NAME}"
+              DEPLOY_ID="${CATEGORY}/${APP_NAME}"
 
               # Check if package.json exists and has a build script
-              if [ -f "apps/${TEAM_NAME}/${APP_NAME}/package.json" ]; then
-                HAS_BUILD=$(cat "apps/${TEAM_NAME}/${APP_NAME}/package.json" | grep -c '"build"' || echo "0")
+              if [ -f "apps/web/${CATEGORY}/${APP_NAME}/package.json" ]; then
+                HAS_BUILD=$(cat "apps/web/${CATEGORY}/${APP_NAME}/package.json" | grep -c '"build"' || echo "0")
 
                 if [ "$HAS_BUILD" -gt 0 ]; then
                   echo "Building and deploying $DEPLOY_ID..."
 
                   # Build the app
-                  NEXT_PUBLIC_BASE_PATH="/$DEPLOY_ID" pnpm --filter "./apps/${TEAM_NAME}/${APP_NAME}" build
+                  NEXT_PUBLIC_BASE_PATH="/$DEPLOY_ID" pnpm --filter "./apps/web/${CATEGORY}/${APP_NAME}" build
 
                   # Check if build output exists
-                  if [ -d "apps/${TEAM_NAME}/${APP_NAME}/out" ]; then
+                  if [ -d "apps/web/${CATEGORY}/${APP_NAME}/out" ]; then
                     # Sync to R2
                     DEST="s3://${{ secrets.R2_BUCKET_NAME }}/${{ github.event.inputs.environment }}/${DEPLOY_ID}/"
-                    aws s3 sync "apps/${TEAM_NAME}/${APP_NAME}/out" "$DEST" \
+                    aws s3 sync "apps/web/${CATEGORY}/${APP_NAME}/out" "$DEST" \
                       --endpoint-url "$R2_ENDPOINT" \
                       --region auto
 
