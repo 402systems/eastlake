@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'eastlake | Games & Tools',
-  description: 'A collection of fun games and useful tools built by eastlake',
+  title: '402systems | Games & Tools',
+  description: 'A collection of fun games and useful tools built by 402systems',
 };
 
 export default function RootLayout({

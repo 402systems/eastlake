@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'core/design',
-  description: 'eastlake design test',
+  description: '402systems design test',
 };
 
 export default function RootLayout({

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'eastlake | DB Demo Supabase',
+  title: '402systems | DB Demo Supabase',
   description: 'A demo application for Supabase integration',
 };
 
