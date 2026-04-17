@@ -7,7 +7,7 @@ import {
   StyleSheet,
   ActivityIndicator,
 } from 'react-native';
-import { Modal } from '@402systems/lib-core-ui/native/components/Modal';
+import { Modal } from '@eastlake/lib-core-ui/native/components/Modal';
 import { colors } from '../utils/colors';
 
 interface AuthModalProps {

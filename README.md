@@ -1,11 +1,11 @@
-# 402systems Monorepo
+# eastlake Monorepo
 
 Unified monorepo for web apps, mobile apps, API workers, and shared libraries.
 
 ## Structure
 
 ```
-402systems/
+eastlake/
   apps/
     web/           Next.js apps (deployed to web.402systems.com)
       core/        home, design, db-demo, db-demo-supabase
@@ -40,20 +40,20 @@ pnpm install
 
 ```bash
 # Web app
-pnpm dev --filter @402systems/app-core-home
+pnpm dev --filter @eastlake/app-core-home
 
 # API worker (starts wrangler dev on localhost:8787)
-pnpm dev --filter @402systems/app-misc-friend-tracker-api
+pnpm dev --filter @eastlake/app-misc-friend-tracker-api
 
 # Mobile app (starts Expo)
-pnpm dev --filter @402systems/app-misc-friend-tracker
+pnpm dev --filter @eastlake/app-misc-friend-tracker
 ```
 
 ### Install a package
 
 ```bash
 # To a specific app/lib
-pnpm install <pkg> --filter @402systems/app-games-dobble
+pnpm install <pkg> --filter @eastlake/app-games-dobble
 
 # Workspace-wide dev dependency (rarely needed)
 pnpm i -wD <pkg>
@@ -81,8 +81,8 @@ Use `--filter <package>` to scope any command to a single package.
 
 ## UI Framework
 
-- Web components live in `libs/core/ui/src/components/` — import as `@402systems/core-ui/components/ui/<name>`
-- Native components live in `libs/core/ui/src/native/components/` — import as `@402systems/lib-core-ui/native/components/<name>`
+- Web components live in `libs/core/ui/src/components/` — import as `@eastlake/core-ui/components/ui/<name>`
+- Native components live in `libs/core/ui/src/native/components/` — import as `@eastlake/lib-core-ui/native/components/<name>`
 - Add new web primitives via `pnpm dlx shadcn@latest add <name>`
 - See https://ui.shadcn.com/docs/components for all components
 
@@ -92,16 +92,16 @@ The `supabase-auth` lib has platform-specific subpath exports:
 
 ```ts
 // Web (Next.js)
-import { createClient } from '@402systems/lib-core-supabase-auth/web/client';
-import { useAuth } from '@402systems/lib-core-supabase-auth/web/hooks/useAuth';
-import { AuthButtons } from '@402systems/lib-core-supabase-auth/web/components';
+import { createClient } from '@eastlake/lib-core-supabase-auth/web/client';
+import { useAuth } from '@eastlake/lib-core-supabase-auth/web/hooks/useAuth';
+import { AuthButtons } from '@eastlake/lib-core-supabase-auth/web/components';
 
 // Native (Expo / React Native)
-import { createClient } from '@402systems/lib-core-supabase-auth/native/client';
-import { useAuth } from '@402systems/lib-core-supabase-auth/native/hooks/useAuth';
+import { createClient } from '@eastlake/lib-core-supabase-auth/native/client';
+import { useAuth } from '@eastlake/lib-core-supabase-auth/native/hooks/useAuth';
 
 // Shared types
-import type { UseAuthReturn } from '@402systems/lib-core-supabase-auth/types';
+import type { UseAuthReturn } from '@eastlake/lib-core-supabase-auth/types';
 ```
 
 ## Deployment
@@ -120,10 +120,10 @@ Web apps are deployed as static exports to Cloudflare R2, served via `[staging.]
 Workers are deployed directly to Cloudflare via wrangler.
 
 1. Go to **Actions** > **Deploy Worker**
-2. Enter the package name (e.g., `@402systems/app-misc-friend-tracker-api`)
+2. Enter the package name (e.g., `@eastlake/app-misc-friend-tracker-api`)
 3. Run the workflow
 
-To deploy locally: `pnpm run deploy --filter @402systems/app-misc-friend-tracker-api`
+To deploy locally: `pnpm run deploy --filter @eastlake/app-misc-friend-tracker-api`
 
 ### Router Dispatcher
 

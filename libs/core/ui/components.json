@@ -11,11 +11,11 @@
     "prefix": ""
   },
   "aliases": {
-    "components": "@402systems/core-ui/components",
-    "utils": "@402systems/core-ui/lib/utils",
-    "ui": "@402systems/core-ui/components/ui",
-    "lib": "@402systems/core-ui/lib",
-    "hooks": "@402systems/core-ui/hooks"
+    "components": "@eastlake/core-ui/components",
+    "utils": "@eastlake/core-ui/lib/utils",
+    "ui": "@eastlake/core-ui/components/ui",
+    "lib": "@eastlake/core-ui/lib",
+    "hooks": "@eastlake/core-ui/hooks"
   },
   "iconLibrary": "lucide"
 }

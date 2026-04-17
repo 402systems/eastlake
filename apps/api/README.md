@@ -20,8 +20,8 @@ All traffic goes through `api-gateway`. Individual workers are not called direct
 
 | Worker | Package name |
 |--------|-------------|
-| api-gateway | `@402systems/app-core-api-gateway` |
-| friend-tracker-api | `@402systems/app-misc-friend-tracker-api` |
+| api-gateway | `@eastlake/app-core-api-gateway` |
+| friend-tracker-api | `@eastlake/app-misc-friend-tracker-api` |
 
 Always redeploy `api-gateway` if you add a new worker or change routing.
 

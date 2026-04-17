@@ -7,7 +7,7 @@ import {
   type ReactNode,
 } from 'react';
 import type { User } from '@supabase/supabase-js';
-import { useAuth } from '@402systems/lib-core-supabase-auth/native/hooks/useAuth';
+import { useAuth } from '@eastlake/lib-core-supabase-auth/native/hooks/useAuth';
 import { api } from '../api/client';
 import {
   requestNotificationPermission,

@@ -5,25 +5,25 @@ import { Slot } from '@radix-ui/react-slot';
 import { cva, type VariantProps } from 'class-variance-authority';
 import { PanelLeftIcon } from 'lucide-react';
 
-import { useIsMobile } from '@402systems/core-ui/hooks/use-mobile';
-import { cn } from '@402systems/core-ui/lib/utils';
-import { Button } from '@402systems/core-ui/components/ui/button';
-import { Input } from '@402systems/core-ui/components/ui/input';
-import { Separator } from '@402systems/core-ui/components/ui/separator';
+import { useIsMobile } from '@eastlake/core-ui/hooks/use-mobile';
+import { cn } from '@eastlake/core-ui/lib/utils';
+import { Button } from '@eastlake/core-ui/components/ui/button';
+import { Input } from '@eastlake/core-ui/components/ui/input';
+import { Separator } from '@eastlake/core-ui/components/ui/separator';
 import {
   Sheet,
   SheetContent,
   SheetDescription,
   SheetHeader,
   SheetTitle,
-} from '@402systems/core-ui/components/ui/sheet';
-import { Skeleton } from '@402systems/core-ui/components/ui/skeleton';
+} from '@eastlake/core-ui/components/ui/sheet';
+import { Skeleton } from '@eastlake/core-ui/components/ui/skeleton';
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from '@402systems/core-ui/components/ui/tooltip';
+} from '@eastlake/core-ui/components/ui/tooltip';
 
 const SIDEBAR_COOKIE_NAME = 'sidebar_state';
 const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7;

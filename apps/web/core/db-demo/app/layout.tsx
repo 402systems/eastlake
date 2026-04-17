@@ -1,4 +1,4 @@
-import '@402systems/lib-core-ui/globals.css';
+import '@eastlake/lib-core-ui/globals.css';
 import type { Metadata } from 'next';
 import { ThemeProvider } from './ThemeProvider';
 import { ThemeToggle } from '../components/ThemeToggle';

@@ -5,9 +5,9 @@ import {
   DialogHeader,
   DialogTitle,
   DialogDescription,
-} from '@402systems/core-ui/components/ui/dialog';
-import { Textarea } from '@402systems/core-ui/components/ui/textarea';
-import { Button } from '@402systems/core-ui/components/ui/button';
+} from '@eastlake/core-ui/components/ui/dialog';
+import { Textarea } from '@eastlake/core-ui/components/ui/textarea';
+import { Button } from '@eastlake/core-ui/components/ui/button';
 
 const MAX_CHARS = 500;
 

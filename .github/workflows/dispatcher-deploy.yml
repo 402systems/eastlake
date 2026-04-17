@@ -22,5 +22,5 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Deploy dispatcher
         run: |
-          pnpm run deploy --filter @402systems/lib-router-dispatcher
+          pnpm run deploy --filter @eastlake/lib-router-dispatcher
 

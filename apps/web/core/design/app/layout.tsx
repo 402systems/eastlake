@@ -1,9 +1,9 @@
-import '@402systems/lib-core-ui/globals.css';
+import '@eastlake/lib-core-ui/globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'core/design',
-  description: '402systems design test',
+  description: 'eastlake design test',
 };
 
 export default function RootLayout({

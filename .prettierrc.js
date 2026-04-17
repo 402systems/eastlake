@@ -1,3 +1,3 @@
-import config from '@402systems/lib-core-prettier';
+import config from '@eastlake/lib-core-prettier';
 
 export default config;

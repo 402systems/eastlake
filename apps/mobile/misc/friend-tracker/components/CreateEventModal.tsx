@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 import { View, Text, TextInput, Pressable } from 'react-native';
-import { Modal } from '@402systems/lib-core-ui/native/components/Modal';
+import { Modal } from '@eastlake/lib-core-ui/native/components/Modal';
 import type { NewEvent } from '../context/AppContext';
 import { colors } from '../utils/colors';
 

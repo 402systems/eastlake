@@ -1,5 +1,5 @@
 {
-  "name": "@402systems/lib-core-ui",
+  "name": "@eastlake/lib-core-ui",
   "version": "0.0.1",
   "private": true,
   "sideEffects": false,
@@ -11,8 +11,8 @@
     "format:fix": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,css}\" --ignore-path ../.../../.prettierignore"
   },
   "devDependencies": {
-    "@402systems/lib-core-eslint": "workspace:*",
-    "@402systems/lib-core-tsconfig": "workspace:*",
+    "@eastlake/lib-core-eslint": "workspace:*",
+    "@eastlake/lib-core-tsconfig": "workspace:*",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "react": "^19.2.3",

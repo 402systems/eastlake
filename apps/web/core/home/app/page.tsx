@@ -6,8 +6,8 @@ import {
   CardTitle,
   CardDescription,
   CardContent,
-} from '@402systems/core-ui/components/ui/card';
-import { Badge } from '@402systems/core-ui/components/ui/badge';
+} from '@eastlake/core-ui/components/ui/card';
+import { Badge } from '@eastlake/core-ui/components/ui/badge';
 import { Gamepad2, Wrench, Target, PartyPopper } from 'lucide-react';
 import { AuthHeader } from './components/AuthHeader';
 
@@ -125,7 +125,7 @@ export default function Page() {
         <div className="mx-auto max-w-4xl space-y-6 text-center">
           <div className="bg-secondary/50 border-border/50 text-muted-foreground animate-fade-in inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm">
             <span className="h-2 w-2 animate-pulse rounded-full bg-green-500" />
-            Welcome to 402systems
+            Welcome to eastlake
           </div>
 
           <h1 className="animate-fade-in text-5xl font-bold tracking-tight md:text-7xl">
@@ -162,7 +162,7 @@ export default function Page() {
       {/* Footer */}
       <footer className="border-border/50 border-t px-6 py-8">
         <div className="text-muted-foreground mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-sm md:flex-row">
-          <p>© 2026 402systems. All rights reserved.</p>
+          <p>© 2026 eastlake. All rights reserved.</p>
           <p className="flex items-center gap-1">
             Built with <span className="text-rose-500">♥</span> and modern web
             tech

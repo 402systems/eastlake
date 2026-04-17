@@ -1,12 +1,12 @@
 {
-  "extends": "@402systems/lib-core-tsconfig/tsconfig.json",
+  "extends": "@eastlake/lib-core-tsconfig/tsconfig.json",
   "compilerOptions": {
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "baseUrl": ".",
     "jsx": "react-jsx",
     "paths": {
-      "@402systems/core-ui/*": ["./src/*"]
+      "@eastlake/core-ui/*": ["./src/*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"],

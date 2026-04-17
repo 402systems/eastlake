@@ -1,9 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Button } from '@402systems/core-ui/components/ui/button';
-import { Input } from '@402systems/core-ui/components/ui/input';
-import { Label } from '@402systems/core-ui/components/ui/label';
+import { Button } from '@eastlake/core-ui/components/ui/button';
+import { Input } from '@eastlake/core-ui/components/ui/input';
+import { Label } from '@eastlake/core-ui/components/ui/label';
 import {
   Card,
   CardContent,
@@ -11,7 +11,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@402systems/core-ui/components/ui/card';
+} from '@eastlake/core-ui/components/ui/card';
 import { createClient } from '@/utils/supabase/client';
 import type { User } from '@supabase/supabase-js';
 

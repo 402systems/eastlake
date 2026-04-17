@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
-import '@402systems/core-ui/styles/globals.css';
+import '@eastlake/core-ui/styles/globals.css';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: '402systems | DB Demo Supabase',
+  title: 'eastlake | DB Demo Supabase',
   description: 'A demo application for Supabase integration',
 };
 

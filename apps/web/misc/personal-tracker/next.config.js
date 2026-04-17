@@ -3,8 +3,8 @@ import process from 'node:process';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   transpilePackages: [
-    '@402systems/lib/core/ui',
-    '@402systems/lib-core-supabase-auth',
+    '@eastlake/lib/core/ui',
+    '@eastlake/lib-core-supabase-auth',
   ],
 
   reactStrictMode: true,

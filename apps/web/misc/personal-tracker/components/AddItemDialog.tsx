@@ -5,10 +5,10 @@ import {
   DialogHeader,
   DialogTitle,
   DialogFooter,
-} from '@402systems/core-ui/components/ui/dialog';
-import { Input } from '@402systems/core-ui/components/ui/input';
-import { Label } from '@402systems/core-ui/components/ui/label';
-import { Button } from '@402systems/core-ui/components/ui/button';
+} from '@eastlake/core-ui/components/ui/dialog';
+import { Input } from '@eastlake/core-ui/components/ui/input';
+import { Label } from '@eastlake/core-ui/components/ui/label';
+import { Button } from '@eastlake/core-ui/components/ui/button';
 import { config } from '../tracker.config';
 
 interface AddItemDialogProps {

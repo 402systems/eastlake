@@ -1,5 +1,5 @@
 {
-  "name": "@402systems/lib-core-prettier",
+  "name": "@eastlake/lib-core-prettier",
   "version": "0.0.1",
   "main": "index.js",
   "type": "module",

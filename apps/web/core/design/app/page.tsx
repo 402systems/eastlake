@@ -1,4 +1,4 @@
-import { Button } from '@402systems/lib-core-ui/components/ui/button';
+import { Button } from '@eastlake/lib-core-ui/components/ui/button';
 
 export default function Page() {
   return (

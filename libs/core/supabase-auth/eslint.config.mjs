@@ -1,3 +1,3 @@
-import { baseConfig } from '@402systems/lib-core-eslint';
+import { baseConfig } from '@eastlake/lib-core-eslint';
 
 export default baseConfig;

@@ -7,7 +7,7 @@ import {
   FlatList,
   StyleSheet,
 } from 'react-native';
-import { Modal } from '@402systems/lib-core-ui/native/components/Modal';
+import { Modal } from '@eastlake/lib-core-ui/native/components/Modal';
 import type { Friend } from '../hooks/useFriends';
 import { colors } from '../utils/colors';
 

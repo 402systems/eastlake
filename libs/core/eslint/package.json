@@ -1,5 +1,5 @@
 {
-  "name": "@402systems/lib-core-eslint",
+  "name": "@eastlake/lib-core-eslint",
   "version": "0.0.0",
   "private": true,
   "sideEffects": false,

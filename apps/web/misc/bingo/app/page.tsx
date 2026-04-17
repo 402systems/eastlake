@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef } from 'react';
-import { useAuth } from '@402systems/lib-core-supabase-auth/web/hooks/useAuth';
+import { useAuth } from '@eastlake/lib-core-supabase-auth/web/hooks/useAuth';
 import { useBingoBoard } from '../hooks/useBingoBoard';
 import { useBingoBoardPersistence } from '../hooks/useBingoBoardPersistence';
 import { useBoardExport } from '../hooks/useBoardExport';

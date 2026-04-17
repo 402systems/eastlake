@@ -1,5 +1,5 @@
 // eslint.config.js
 import { defineConfig } from 'eslint/config';
-import { nextConfig } from '@402systems/lib-core-eslint';
+import { nextConfig } from '@eastlake/lib-core-eslint';
 
 export default defineConfig([...nextConfig]);

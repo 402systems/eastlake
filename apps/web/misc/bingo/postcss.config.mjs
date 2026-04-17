@@ -1,1 +1,1 @@
-export { default } from '@402systems/lib-core-ui/postcss.config'
+export { default } from '@eastlake/lib-core-ui/postcss.config'

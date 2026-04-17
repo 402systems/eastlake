@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
-import '@402systems/core-ui/styles/globals.css';
+import '@eastlake/core-ui/styles/globals.css';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: '402systems | Games & Tools',
-  description: 'A collection of fun games and useful tools built by 402systems',
+  title: 'eastlake | Games & Tools',
+  description: 'A collection of fun games and useful tools built by eastlake',
 };
 
 export default function RootLayout({

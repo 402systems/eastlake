@@ -1,13 +1,13 @@
 'use client';
 
 import { useTheme } from 'next-themes';
-import { Button } from '@402systems/core-ui/components/ui/button';
+import { Button } from '@eastlake/core-ui/components/ui/button';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@402systems/core-ui/components/ui/dropdown-menu';
+} from '@eastlake/core-ui/components/ui/dropdown-menu';
 import { Moon, Sun } from 'lucide-react';
 
 export function ThemeToggle() {

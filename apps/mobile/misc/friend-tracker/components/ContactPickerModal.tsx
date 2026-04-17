@@ -9,7 +9,7 @@ import {
   ActivityIndicator,
 } from 'react-native';
 import * as Contacts from 'expo-contacts';
-import { Modal } from '@402systems/lib-core-ui/native/components/Modal';
+import { Modal } from '@eastlake/lib-core-ui/native/components/Modal';
 import type { NewFriend } from '../hooks/useFriends';
 import { colors } from '../utils/colors';
 
