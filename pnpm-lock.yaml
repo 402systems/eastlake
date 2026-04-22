@@ -11,7 +11,7 @@ importers:
 
   .:
     devDependencies:
-      '@402systems/lib-core-prettier':
+      '@eastlake/lib-core-prettier':
         specifier: workspace:*
         version: link:libs/core/prettier
       eslint:
@@ -32,15 +32,15 @@ importers:
 
   apps/api/core/api-gateway:
     devDependencies:
-      '@402systems/lib-core-eslint':
-        specifier: workspace:*
-        version: link:../../../../libs/core/eslint
-      '@402systems/lib-core-tsconfig':
-        specifier: workspace:*
-        version: link:../../../../libs/core/tsconfig
       '@cloudflare/workers-types':
         specifier: latest
         version: 4.20260408.1
+      '@eastlake/lib-core-eslint':
+        specifier: workspace:*
+        version: link:../../../../libs/core/eslint
+      '@eastlake/lib-core-tsconfig':
+        specifier: workspace:*
+        version: link:../../../../libs/core/tsconfig
       '@types/node':
         specifier: latest
         version: 25.5.2
@@ -60,15 +60,15 @@ importers:
         specifier: ^4.0.23
         version: 4.2.2
     devDependencies:
-      '@402systems/lib-core-eslint':
-        specifier: workspace:*
-        version: link:../../../../libs/core/eslint
-      '@402systems/lib-core-tsconfig':
-        specifier: workspace:*
-        version: link:../../../../libs/core/tsconfig
       '@cloudflare/workers-types':
         specifier: latest
         version: 4.20260408.1
+      '@eastlake/lib-core-eslint':
+        specifier: workspace:*
+        version: link:../../../../libs/core/eslint
+      '@eastlake/lib-core-tsconfig':
+        specifier: workspace:*
+        version: link:../../../../libs/core/tsconfig
       '@types/node':
         specifier: latest
         version: 25.5.2
@@ -88,12 +88,12 @@ importers:
         specifier: ^4.0.23
         version: 4.2.2
     devDependencies:
-      '@402systems/lib-core-prettier':
-        specifier: workspace:*
-        version: link:../../../../libs/core/prettier
       '@cloudflare/workers-types':
         specifier: latest
         version: 4.20260408.1
+      '@eastlake/lib-core-prettier':
+        specifier: workspace:*
+        version: link:../../../../libs/core/prettier
       '@types/node':
         specifier: latest
         version: 25.5.2
@@ -109,10 +109,10 @@ importers:
 
   apps/mobile/misc/friend-tracker:
     dependencies:
-      '@402systems/lib-core-supabase-auth':
+      '@eastlake/lib-core-supabase-auth':
         specifier: workspace:*
         version: link:../../../../libs/core/supabase-auth
-      '@402systems/lib-core-ui':
+      '@eastlake/lib-core-ui':
         specifier: workspace:*
         version: link:../../../../libs/core/ui
       '@expo/vector-icons':
@@ -176,18 +176,18 @@ importers:
         specifier: ^3.4.17
         version: 3.4.19(yaml@2.8.3)
     devDependencies:
-      '@402systems/lib-core-eslint':
-        specifier: workspace:*
-        version: link:../../../../libs/core/eslint
-      '@402systems/lib-core-prettier':
-        specifier: workspace:*
-        version: link:../../../../libs/core/prettier
-      '@402systems/lib-core-tsconfig':
-        specifier: workspace:*
-        version: link:../../../../libs/core/tsconfig
       '@babel/core':
         specifier: ^7.25.2
         version: 7.29.0
+      '@eastlake/lib-core-eslint':
+        specifier: workspace:*
+        version: link:../../../../libs/core/eslint
+      '@eastlake/lib-core-prettier':
+        specifier: workspace:*
+        version: link:../../../../libs/core/prettier
+      '@eastlake/lib-core-tsconfig':
+        specifier: workspace:*
+        version: link:../../../../libs/core/tsconfig
       '@types/react':
         specifier: ^19.2.7
         version: 19.2.14
@@ -203,7 +203,7 @@ importers:
 
   apps/web/core/db-demo:
     dependencies:
-      '@402systems/lib-core-ui':
+      '@eastlake/lib-core-ui':
         specifier: workspace:*
         version: link:../../../../libs/core/ui
       lucide-react:
@@ -222,10 +222,10 @@ importers:
         specifier: latest
         version: 19.2.4(react@19.2.4)
     devDependencies:
-      '@402systems/lib-core-eslint':
+      '@eastlake/lib-core-eslint':
         specifier: workspace:*
         version: link:../../../../libs/core/eslint
-      '@402systems/lib-core-tsconfig':
+      '@eastlake/lib-core-tsconfig':
         specifier: workspace:*
         version: link:../../../../libs/core/tsconfig
       '@types/node':
@@ -243,7 +243,7 @@ importers:
 
   apps/web/core/db-demo-supabase:
     dependencies:
-      '@402systems/lib-core-ui':
+      '@eastlake/lib-core-ui':
         specifier: workspace:*
         version: link:../../../../libs/core/ui
       '@supabase/ssr':
@@ -262,10 +262,10 @@ importers:
         specifier: latest
         version: 19.2.4(react@19.2.4)
     devDependencies:
-      '@402systems/lib-core-eslint':
+      '@eastlake/lib-core-eslint':
         specifier: workspace:*
         version: link:../../../../libs/core/eslint
-      '@402systems/lib-core-tsconfig':
+      '@eastlake/lib-core-tsconfig':
         specifier: workspace:*
         version: link:../../../../libs/core/tsconfig
       '@types/node':
@@ -283,7 +283,7 @@ importers:
 
   apps/web/core/design:
     dependencies:
-      '@402systems/lib-core-ui':
+      '@eastlake/lib-core-ui':
         specifier: workspace:*
         version: link:../../../../libs/core/ui
       '@tailwindcss/postcss':
@@ -305,10 +305,10 @@ importers:
         specifier: ^4.1.18
         version: 4.2.2
     devDependencies:
-      '@402systems/lib-core-eslint':
+      '@eastlake/lib-core-eslint':
         specifier: workspace:*
         version: link:../../../../libs/core/eslint
-      '@402systems/lib-core-tsconfig':
+      '@eastlake/lib-core-tsconfig':
         specifier: workspace:*
         version: link:../../../../libs/core/tsconfig
       '@types/node':
@@ -326,10 +326,10 @@ importers:
 
   apps/web/core/home:
     dependencies:
-      '@402systems/lib-core-supabase-auth':
+      '@eastlake/lib-core-supabase-auth':
         specifier: workspace:*
         version: link:../../../../libs/core/supabase-auth
-      '@402systems/lib-core-ui':
+      '@eastlake/lib-core-ui':
         specifier: workspace:*
         version: link:../../../../libs/core/ui
       lucide-react:
@@ -345,10 +345,10 @@ importers:
         specifier: latest
         version: 19.2.4(react@19.2.4)
     devDependencies:
-      '@402systems/lib-core-eslint':
+      '@eastlake/lib-core-eslint':
         specifier: workspace:*
         version: link:../../../../libs/core/eslint
-      '@402systems/lib-core-tsconfig':
+      '@eastlake/lib-core-tsconfig':
         specifier: workspace:*
         version: link:../../../../libs/core/tsconfig
       '@types/node':
@@ -366,7 +366,7 @@ importers:
 
   apps/web/games/dobble:
     dependencies:
-      '@402systems/lib-core-ui':
+      '@eastlake/lib-core-ui':
         specifier: workspace:*
         version: link:../../../../libs/core/ui
       '@tailwindcss/postcss':
@@ -388,10 +388,10 @@ importers:
         specifier: ^4.1.18
         version: 4.2.2
     devDependencies:
-      '@402systems/lib-core-eslint':
+      '@eastlake/lib-core-eslint':
         specifier: workspace:*
         version: link:../../../../libs/core/eslint
-      '@402systems/lib-core-tsconfig':
+      '@eastlake/lib-core-tsconfig':
         specifier: workspace:*
         version: link:../../../../libs/core/tsconfig
       '@types/node':
@@ -409,10 +409,10 @@ importers:
 
   apps/web/misc/bingo:
     dependencies:
-      '@402systems/lib-core-supabase-auth':
+      '@eastlake/lib-core-supabase-auth':
         specifier: workspace:*
         version: link:../../../../libs/core/supabase-auth
-      '@402systems/lib-core-ui':
+      '@eastlake/lib-core-ui':
         specifier: workspace:*
         version: link:../../../../libs/core/ui
       '@supabase/supabase-js':
@@ -434,10 +434,10 @@ importers:
         specifier: latest
         version: 19.2.4(react@19.2.4)
     devDependencies:
-      '@402systems/lib-core-eslint':
+      '@eastlake/lib-core-eslint':
         specifier: workspace:*
         version: link:../../../../libs/core/eslint
-      '@402systems/lib-core-tsconfig':
+      '@eastlake/lib-core-tsconfig':
         specifier: workspace:*
         version: link:../../../../libs/core/tsconfig
       '@types/node':
@@ -455,10 +455,10 @@ importers:
 
   apps/web/misc/personal-tracker:
     dependencies:
-      '@402systems/lib-core-supabase-auth':
+      '@eastlake/lib-core-supabase-auth':
         specifier: workspace:*
         version: link:../../../../libs/core/supabase-auth
-      '@402systems/lib-core-ui':
+      '@eastlake/lib-core-ui':
         specifier: workspace:*
         version: link:../../../../libs/core/ui
       '@supabase/supabase-js':
@@ -477,10 +477,10 @@ importers:
         specifier: latest
         version: 19.2.4(react@19.2.4)
     devDependencies:
-      '@402systems/lib-core-eslint':
+      '@eastlake/lib-core-eslint':
         specifier: workspace:*
         version: link:../../../../libs/core/eslint
-      '@402systems/lib-core-tsconfig':
+      '@eastlake/lib-core-tsconfig':
         specifier: workspace:*
         version: link:../../../../libs/core/tsconfig
       '@types/node':
@@ -538,10 +538,10 @@ importers:
 
   libs/core/router-dispatcher:
     devDependencies:
-      '@402systems/lib-core-eslint':
+      '@eastlake/lib-core-eslint':
         specifier: workspace:*
         version: link:../eslint
-      '@402systems/lib-core-tsconfig':
+      '@eastlake/lib-core-tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       typescript:
@@ -553,7 +553,7 @@ importers:
 
   libs/core/supabase-auth:
     dependencies:
-      '@402systems/lib-core-ui':
+      '@eastlake/lib-core-ui':
         specifier: workspace:*
         version: link:../ui
       '@react-native-async-storage/async-storage':
@@ -572,10 +572,10 @@ importers:
         specifier: ^18.2.0 || ^19.0.0
         version: 19.2.4
     devDependencies:
-      '@402systems/lib-core-eslint':
+      '@eastlake/lib-core-eslint':
         specifier: workspace:*
         version: link:../eslint
-      '@402systems/lib-core-tsconfig':
+      '@eastlake/lib-core-tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       '@types/react':
@@ -725,10 +725,10 @@ importers:
         specifier: ^4.3.4
         version: 4.3.6
     devDependencies:
-      '@402systems/lib-core-eslint':
+      '@eastlake/lib-core-eslint':
         specifier: workspace:*
         version: link:../eslint
-      '@402systems/lib-core-tsconfig':
+      '@eastlake/lib-core-tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       '@types/react':

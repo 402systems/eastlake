@@ -9,10 +9,7 @@ import { AddItemDialog } from '../components/AddItemDialog';
 import { config } from '../tracker.config';
 import { Button } from '@eastlake/core-ui/components/ui/button';
 import { Skeleton } from '@eastlake/core-ui/components/ui/skeleton';
-import {
-  Alert,
-  AlertDescription,
-} from '@eastlake/core-ui/components/ui/alert';
+import { Alert, AlertDescription } from '@eastlake/core-ui/components/ui/alert';
 import { TooltipProvider } from '@eastlake/core-ui/components/ui/tooltip';
 import { UserPlus } from 'lucide-react';
 

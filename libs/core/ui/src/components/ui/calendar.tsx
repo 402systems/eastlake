@@ -13,10 +13,7 @@ import {
 } from 'react-day-picker';
 
 import { cn } from '@eastlake/core-ui/lib/utils';
-import {
-  Button,
-  buttonVariants,
-} from '@eastlake/core-ui/components/ui/button';
+import { Button, buttonVariants } from '@eastlake/core-ui/components/ui/button';
 
 function Calendar({
   className,
