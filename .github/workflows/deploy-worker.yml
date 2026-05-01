@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       worker:
-        description: 'Worker package name (e.g. @402systems/app-misc-friend-tracker-api)'
+        description: 'Worker package name (e.g. @eastlake/app-misc-friend-tracker-api)'
         required: true
 jobs:
   deploy:

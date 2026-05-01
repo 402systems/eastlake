@@ -1,5 +1,5 @@
 {
-  "name": "@402systems/lib-core-tsconfig",
+  "name": "@eastlake/lib-core-tsconfig",
   "version": "0.0.0",
   "private": true,
   "sideEffects": false,

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { StickyNote } from 'lucide-react';
-import { Textarea } from '@402systems/core-ui/components/ui/textarea';
+import { Textarea } from '@eastlake/core-ui/components/ui/textarea';
 import { CellNoteDialog } from './CellNoteDialog';
 import type { CellData } from '../hooks/useBingoBoard';
 

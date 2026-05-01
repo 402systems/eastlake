@@ -1,5 +1,5 @@
 {
-  "name": "@402systems/app-misc-friend-tracker",
+  "name": "@eastlake/app-misc-friend-tracker",
   "version": "0.0.0",
   "private": true,
   "main": "expo-router/entry",
@@ -13,8 +13,8 @@
     "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\""
   },
   "dependencies": {
-    "@402systems/lib-core-supabase-auth": "workspace:*",
-    "@402systems/lib-core-ui": "workspace:*",
+    "@eastlake/lib-core-supabase-auth": "workspace:*",
+    "@eastlake/lib-core-ui": "workspace:*",
     "@expo/vector-icons": "*",
     "@react-native-async-storage/async-storage": "2.2.0",
     "@supabase/supabase-js": "^2.95.3",
@@ -37,9 +37,9 @@
     "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
-    "@402systems/lib-core-eslint": "workspace:*",
-    "@402systems/lib-core-prettier": "workspace:*",
-    "@402systems/lib-core-tsconfig": "workspace:*",
+    "@eastlake/lib-core-eslint": "workspace:*",
+    "@eastlake/lib-core-prettier": "workspace:*",
+    "@eastlake/lib-core-tsconfig": "workspace:*",
     "@babel/core": "^7.25.2",
     "@types/react": "~19.1.17",
     "eslint": "^9.39.2",

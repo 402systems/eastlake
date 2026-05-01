@@ -1,6 +1,6 @@
 import { useState, useCallback, useEffect } from 'react';
 import type React from 'react';
-import { createClient } from '@402systems/lib-core-supabase-auth/web/client';
+import { createClient } from '@eastlake/lib-core-supabase-auth/web/client';
 import type { User } from '@supabase/supabase-js';
 import { config } from '../tracker.config';
 

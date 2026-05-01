@@ -1,7 +1,7 @@
 'use client';
 
-import { useAuth } from '@402systems/lib-core-supabase-auth/web/hooks/useAuth';
-import { Button } from '@402systems/core-ui/components/ui/button';
+import { useAuth } from '@eastlake/lib-core-supabase-auth/web/hooks/useAuth';
+import { Button } from '@eastlake/core-ui/components/ui/button';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -9,8 +9,8 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@402systems/core-ui/components/ui/dropdown-menu';
-import { AuthButtons } from '@402systems/lib-core-supabase-auth/web/components';
+} from '@eastlake/core-ui/components/ui/dropdown-menu';
+import { AuthButtons } from '@eastlake/lib-core-supabase-auth/web/components';
 import { User, LogOut, Loader2 } from 'lucide-react';
 
 export function AuthHeader() {

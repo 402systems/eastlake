@@ -1,19 +1,16 @@
 'use client';
 
 import { useState } from 'react';
-import { useAuth } from '@402systems/lib-core-supabase-auth/web/hooks/useAuth';
+import { useAuth } from '@eastlake/lib-core-supabase-auth/web/hooks/useAuth';
 import { useItems } from '../hooks/useItems';
 import { Header } from '../components/Header';
 import { ItemCard } from '../components/ItemCard';
 import { AddItemDialog } from '../components/AddItemDialog';
 import { config } from '../tracker.config';
-import { Button } from '@402systems/core-ui/components/ui/button';
-import { Skeleton } from '@402systems/core-ui/components/ui/skeleton';
-import {
-  Alert,
-  AlertDescription,
-} from '@402systems/core-ui/components/ui/alert';
-import { TooltipProvider } from '@402systems/core-ui/components/ui/tooltip';
+import { Button } from '@eastlake/core-ui/components/ui/button';
+import { Skeleton } from '@eastlake/core-ui/components/ui/skeleton';
+import { Alert, AlertDescription } from '@eastlake/core-ui/components/ui/alert';
+import { TooltipProvider } from '@eastlake/core-ui/components/ui/tooltip';
 import { UserPlus } from 'lucide-react';
 
 export default function PersonalTrackerPage() {

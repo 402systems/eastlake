@@ -1,16 +1,16 @@
 'use client';
 
 import { useState } from 'react';
-import { Button } from '@402systems/lib-core-ui/components/ui/button';
+import { Button } from '@eastlake/lib-core-ui/components/ui/button';
 import {
   Dialog,
   DialogContent,
   DialogDescription,
   DialogHeader,
   DialogTitle,
-} from '@402systems/lib-core-ui/components/ui/dialog';
-import { Input } from '@402systems/lib-core-ui/components/ui/input';
-import { Label } from '@402systems/lib-core-ui/components/ui/label';
+} from '@eastlake/lib-core-ui/components/ui/dialog';
+import { Input } from '@eastlake/lib-core-ui/components/ui/input';
+import { Label } from '@eastlake/lib-core-ui/components/ui/label';
 import { Loader2 } from 'lucide-react';
 
 interface AuthButtonsProps {

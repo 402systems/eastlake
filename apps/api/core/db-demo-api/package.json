@@ -1,5 +1,5 @@
 {
-  "name": "@402systems/app-core-db-demo-api",
+  "name": "@eastlake/app-core-db-demo-api",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -14,8 +14,8 @@
     "itty-router": "^4.0.23"
   },
   "devDependencies": {
-    "@402systems/lib-core-eslint": "workspace:*",
-    "@402systems/lib-core-tsconfig": "workspace:*",
+    "@eastlake/lib-core-eslint": "workspace:*",
+    "@eastlake/lib-core-tsconfig": "workspace:*",
     "@cloudflare/workers-types": "latest",
     "@types/node": "latest",
     "typescript": "latest",

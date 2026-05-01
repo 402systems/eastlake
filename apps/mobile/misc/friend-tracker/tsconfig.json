@@ -1,5 +1,5 @@
 {
-  "extends": "@402systems/lib-core-tsconfig/expo",
+  "extends": "@eastlake/lib-core-tsconfig/expo",
   "compilerOptions": {
     "types": ["nativewind/types"]
   },

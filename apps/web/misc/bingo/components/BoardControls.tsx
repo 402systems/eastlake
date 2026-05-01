@@ -1,5 +1,5 @@
-import { Button } from '@402systems/core-ui/components/ui/button';
-import { Kbd } from '@402systems/core-ui/components/ui/kbd';
+import { Button } from '@eastlake/core-ui/components/ui/button';
+import { Kbd } from '@eastlake/core-ui/components/ui/kbd';
 import { Download, Share2, Printer, Loader2 } from 'lucide-react';
 import Link from 'next/link';
 

@@ -1,4 +1,4 @@
-import { createClient } from '@402systems/lib-core-supabase-auth/native/client';
+import { createClient } from '@eastlake/lib-core-supabase-auth/native/client';
 
 const API_BASE =
   process.env.EXPO_PUBLIC_FRIEND_TRACKER_API_URL ??

@@ -1,10 +1,10 @@
-import { Button } from '@402systems/core-ui/components/ui/button';
-import { Badge } from '@402systems/core-ui/components/ui/badge';
+import { Button } from '@eastlake/core-ui/components/ui/button';
+import { Badge } from '@eastlake/core-ui/components/ui/badge';
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from '@402systems/core-ui/components/ui/tooltip';
+} from '@eastlake/core-ui/components/ui/tooltip';
 import { Trash2 } from 'lucide-react';
 import { getDaysSince, getItemStyles } from '../hooks/useItems';
 import { config } from '../tracker.config';

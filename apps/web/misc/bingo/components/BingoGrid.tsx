@@ -1,5 +1,5 @@
 import { forwardRef } from 'react';
-import { Card } from '@402systems/core-ui/components/ui/card';
+import { Card } from '@eastlake/core-ui/components/ui/card';
 import { Loader2 } from 'lucide-react';
 import { BingoCell } from './BingoCell';
 import type { CellData } from '../hooks/useBingoBoard';

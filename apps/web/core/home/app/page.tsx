@@ -6,8 +6,8 @@ import {
   CardTitle,
   CardDescription,
   CardContent,
-} from '@402systems/core-ui/components/ui/card';
-import { Badge } from '@402systems/core-ui/components/ui/badge';
+} from '@eastlake/core-ui/components/ui/card';
+import { Badge } from '@eastlake/core-ui/components/ui/badge';
 import { Gamepad2, Wrench, Target, PartyPopper } from 'lucide-react';
 import { AuthHeader } from './components/AuthHeader';
 

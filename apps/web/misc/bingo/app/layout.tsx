@@ -1,4 +1,4 @@
-import '@402systems/lib-core-ui/globals.css';
+import '@eastlake/lib-core-ui/globals.css';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 

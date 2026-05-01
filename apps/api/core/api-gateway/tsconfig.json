@@ -1,5 +1,5 @@
 {
-  "extends": "@402systems/lib-core-tsconfig/tsconfig.json",
+  "extends": "@eastlake/lib-core-tsconfig/tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
     "lib": ["es2017"],
@@ -13,7 +13,7 @@
     ],
     "paths": {
       "@/*": ["./*"],
-      "@402systems/core-ui/*": ["../../../../libs/core/ui/src/*"]
+      "@eastlake/core-ui/*": ["../../../../libs/core/ui/src/*"]
     },
     "types": ["@cloudflare/workers-types"]
   },

@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { View, Text, FlatList } from 'react-native';
-import { Modal } from '@402systems/lib-core-ui/native/components/Modal';
+import { Modal } from '@eastlake/lib-core-ui/native/components/Modal';
 import { useAppContext } from '../context/AppContext';
 import type { Friend } from '../context/AppContext';
 import { formatDate, isPast } from '../utils/date';

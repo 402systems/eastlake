@@ -58,7 +58,7 @@ npx tsx scripts/test-api.ts <email> <password>
 
 ```bash
 # Via GitHub Actions
-# Go to Actions > Deploy Worker > enter @402systems/app-misc-friend-tracker-api
+# Go to Actions > Deploy Worker > enter @eastlake/app-misc-friend-tracker-api
 
 # Locally
 pnpm run deploy

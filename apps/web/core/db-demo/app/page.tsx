@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { Button } from '@402systems/core-ui/components/ui/button';
-import { Input } from '@402systems/core-ui/components/ui/input';
+import { Button } from '@eastlake/core-ui/components/ui/button';
+import { Input } from '@eastlake/core-ui/components/ui/input';
 import { Trash2 } from 'lucide-react';
 import {
   Table,
@@ -11,7 +11,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@402systems/core-ui/components/ui/table';
+} from '@eastlake/core-ui/components/ui/table';
 import {
   type Player,
   getPlayers,

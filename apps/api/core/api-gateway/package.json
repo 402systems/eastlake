@@ -1,5 +1,5 @@
 {
-  "name": "@402systems/app-core-api-gateway",
+  "name": "@eastlake/app-core-api-gateway",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,8 +10,8 @@
     "format:fix": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,css}\" --ignore-path ../../../../.prettierignore"
   },
   "devDependencies": {
-    "@402systems/lib-core-eslint": "workspace:*",
-    "@402systems/lib-core-tsconfig": "workspace:*",
+    "@eastlake/lib-core-eslint": "workspace:*",
+    "@eastlake/lib-core-tsconfig": "workspace:*",
     "@cloudflare/workers-types": "latest",
     "@types/node": "latest",
     "typescript": "latest",

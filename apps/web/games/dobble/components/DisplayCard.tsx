@@ -4,7 +4,7 @@ import {
   CardContent,
   CardHeader,
   CardTitle,
-} from '@402systems/core-ui/components/ui/card';
+} from '@eastlake/core-ui/components/ui/card';
 import { DobbleCardDisplay } from './DobbleCardDisplay';
 
 export interface DisplayCardProps {

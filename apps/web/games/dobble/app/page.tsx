@@ -6,8 +6,8 @@ import {
   generateDobbleDeck,
   type DobbleCard,
 } from '@/lib/dobble';
-import { Button } from '@402systems/core-ui/components/ui/button';
-import { Slider } from '@402systems/core-ui/components/ui/slider';
+import { Button } from '@eastlake/core-ui/components/ui/button';
+import { Slider } from '@eastlake/core-ui/components/ui/slider';
 import { useState, useEffect, useRef } from 'react';
 
 export default function Home() {
