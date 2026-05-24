@@ -51,7 +51,7 @@ friendsRouter.post('/', async (request: IRequest, env: Env) => {
   return Response.json(data, { status: 201 });
 });
 
-/** POST /friends/:id/hangout — record a hangout */
+/** POST /friends/:id/hangout — record a hangout, optional body: { date: "YYYY-MM-DD" } */
 friendsRouter.post('/:id/hangout', async (request: IRequest, env: Env) => {
   const userId = await getUserId(request, env);
   const supabase = createSupabaseClient(
@@ -59,16 +59,21 @@ friendsRouter.post('/:id/hangout', async (request: IRequest, env: Env) => {
     request.headers.get('Authorization')!.slice(7)
   );
   const { id } = request.params;
-  const today = new Date().toISOString().split('T')[0];
+
+  let date = new Date().toISOString().split('T')[0];
+  try {
+    const body = await request.json() as { date?: string };
+    if (body.date && /^\d{4}-\d{2}-\d{2}$/.test(body.date)) date = body.date;
+  } catch { /* no body */ }
 
   const { error } = await supabase
     .from(TABLE)
-    .update({ last_action: today })
+    .update({ last_action: date })
     .eq('id', id)
     .eq('user_id', userId);
 
   if (error) return Response.json({ error: error.message }, { status: 500 });
-  return Response.json({ last_action: today });
+  return Response.json({ last_action: date });
 });
 
 /** DELETE /friends/:id — delete a friend */

@@ -1,19 +1,25 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import {
   View,
   Text,
   FlatList,
   ActivityIndicator,
+  Pressable,
   StyleSheet,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { Ionicons } from '@expo/vector-icons';
 import { useAppContext } from '../../context/AppContext';
+
 import { GroupCard } from '../../components/GroupCard';
+import { CreateGroupModal } from '../../components/CreateGroupModal';
 import { colors } from '../../utils/colors';
 
 export default function GroupsScreen() {
-  const { friends, isLoadingFriends, removeFriendFromGroup, deleteGroup } =
+  const { friends, isLoadingFriends, addFriendToGroup, removeFriendFromGroup, deleteGroup, refresh, isRefreshing } =
     useAppContext();
+
+  const [createModalVisible, setCreateModalVisible] = useState(false);
 
   const groups = useMemo(
     () => [...new Set(friends.flatMap((f) => f.groups ?? []))].sort(),
@@ -28,15 +34,20 @@ export default function GroupsScreen() {
     await deleteGroup(groupName);
   };
 
+  const handleCreateGroup = async (groupName: string, friendIds: string[]) => {
+    await Promise.all(friendIds.map((id) => addFriendToGroup(id, groupName)));
+  };
+
   return (
     <SafeAreaView style={styles.safe}>
       <View style={styles.header}>
         <Text style={styles.title}>Groups</Text>
+        <Pressable onPress={refresh} disabled={isRefreshing} style={styles.refreshBtn}>
+          {isRefreshing
+            ? <ActivityIndicator size="small" color={colors.textMuted} />
+            : <Ionicons name="reload-outline" size={18} color={colors.textMuted} />}
+        </Pressable>
       </View>
-
-      <Text style={styles.hint}>
-        Assign groups to friends from the Friends tab using the 🏷 button.
-      </Text>
 
       {isLoadingFriends ? (
         <View style={styles.center}>
@@ -47,7 +58,7 @@ export default function GroupsScreen() {
           <Text style={styles.emptyIcon}>🏷️</Text>
           <Text style={styles.emptyTitle}>No groups yet</Text>
           <Text style={styles.emptyBody}>
-            Tag friends with groups from the Friends tab to organize them here.
+            Tap + to create a group and add friends to it.
           </Text>
         </View>
       ) : (
@@ -65,22 +76,43 @@ export default function GroupsScreen() {
               <GroupCard
                 name={groupName}
                 members={members}
+                allFriends={friends}
                 onDelete={() => handleDeleteGroup(groupName)}
                 onRemoveMember={(friendId) =>
                   handleRemoveMember(groupName, friendId)
+                }
+                onAddMembers={(friendIds) =>
+                  Promise.all(
+                    friendIds.map((id) => addFriendToGroup(id, groupName))
+                  )
                 }
               />
             );
           }}
         />
       )}
+
+      <Pressable
+        onPress={() => setCreateModalVisible(true)}
+        style={styles.fab}
+      >
+        <Ionicons name="add" size={28} color="#fff" />
+      </Pressable>
+
+      <CreateGroupModal
+        visible={createModalVisible}
+        onClose={() => setCreateModalVisible(false)}
+        friends={friends}
+        onCreate={handleCreateGroup}
+      />
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: colors.bgScreen },
-  header: { paddingHorizontal: 20, paddingTop: 16, paddingBottom: 12 },
+  header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 20, paddingTop: 16, paddingBottom: 12 },
+  refreshBtn: { padding: 6 },
   title: {
     fontSize: 28,
     fontWeight: '700',
@@ -112,5 +144,21 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     lineHeight: 22,
   },
-  listContent: { paddingHorizontal: 20, paddingBottom: 40 },
+  listContent: { paddingHorizontal: 20, paddingBottom: 100 },
+  fab: {
+    position: 'absolute',
+    bottom: 24,
+    right: 24,
+    width: 58,
+    height: 58,
+    borderRadius: 29,
+    backgroundColor: colors.indigo,
+    alignItems: 'center',
+    justifyContent: 'center',
+    shadowColor: colors.indigo,
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.4,
+    shadowRadius: 8,
+    elevation: 6,
+  },
 });

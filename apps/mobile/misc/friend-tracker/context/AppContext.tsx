@@ -89,6 +89,8 @@ interface AppContextValue {
   addFriendsToEvent: (eventId: string, friendIds: string[]) => Promise<void>;
   removeFriendFromEvent: (eventId: string, friendId: string) => Promise<void>;
 
+  refresh: () => Promise<void>;
+  isRefreshing: boolean;
   error: string | null;
   clearError: () => void;
 }
@@ -110,6 +112,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [friends, setFriends] = useState<Friend[] | null>(null);
   const [events, setEvents] = useState<AppEvent[] | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [isRefreshing, setIsRefreshing] = useState(false);
 
   // Track previous user ID to reset data when the user changes.
   // setState-during-render is the React-recommended pattern for derived state
@@ -260,6 +263,57 @@ export function AppProvider({ children }: { children: ReactNode }) {
     []
   );
 
+  const refresh = useCallback(async () => {
+    if (!user) return;
+    setIsRefreshing(true);
+    try {
+      const [friendsData, eventsData] = await Promise.all([
+        api.get<Friend[]>('/friends'),
+        api.get<AppEvent[]>('/events'),
+      ]);
+      if (!friendsData || !eventsData) return;
+
+      const today = new Date().toISOString().split('T')[0];
+
+      // For each friend, find the most recent past event they attended
+      const latestEventDate: Record<string, string> = {};
+      for (const event of eventsData) {
+        if (event.date > today) continue;
+        for (const { friend_id } of event.event_friends) {
+          if (!latestEventDate[friend_id] || event.date > latestEventDate[friend_id]) {
+            latestEventDate[friend_id] = event.date;
+          }
+        }
+      }
+
+      // Backfill last_action where the event date is more recent
+      const updates = friendsData
+        .filter((f) => {
+          const eventDate = latestEventDate[f.id];
+          if (!eventDate) return false;
+          return !f.last_action || eventDate > f.last_action;
+        })
+        .map((f) =>
+          api.post<{ last_action: string }>(
+            `/friends/${f.id}/hangout`,
+            { date: latestEventDate[f.id] }
+          ).then(({ last_action }) => ({ id: f.id, last_action }))
+        );
+
+      const updated = await Promise.all(updates);
+      const updatedMap = Object.fromEntries(updated.map((u) => [u.id, u.last_action]));
+
+      setFriends(friendsData.map((f) =>
+        updatedMap[f.id] ? { ...f, last_action: updatedMap[f.id] } : f
+      ));
+      setEvents(eventsData);
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : 'Failed to refresh');
+    } finally {
+      setIsRefreshing(false);
+    }
+  }, [user]);
+
   const updateFriendGroupsLocally = useCallback(
     (friendId: string, groups: string[]) => {
       setFriends((prev) =>
@@ -383,6 +437,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
         deleteEvent,
         addFriendsToEvent,
         removeFriendFromEvent,
+        refresh,
+        isRefreshing,
         error,
         clearError: () => setError(null),
       }}

@@ -7,6 +7,7 @@ import {
   ActivityIndicator,
   StyleSheet,
 } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useAppContext, type AppEvent } from '../../context/AppContext';
 import { EventCard } from '../../components/EventCard';
@@ -26,6 +27,8 @@ export default function EventsScreen() {
     addFriendsToEvent,
     removeFriendFromEvent,
     recordHangout,
+    refresh,
+    isRefreshing,
   } = useAppContext();
 
   const [createVisible, setCreateVisible] = useState(false);
@@ -49,9 +52,16 @@ export default function EventsScreen() {
     <SafeAreaView style={styles.safe}>
       <View style={styles.header}>
         <Text style={styles.title}>Events</Text>
-        <Pressable onPress={() => setCreateVisible(true)} style={styles.newBtn}>
-          <Text style={styles.newBtnText}>+ New</Text>
-        </Pressable>
+        <View style={styles.headerRight}>
+          <Pressable onPress={refresh} disabled={isRefreshing} style={styles.refreshBtn}>
+            {isRefreshing
+              ? <ActivityIndicator size="small" color={colors.textMuted} />
+              : <Ionicons name="reload-outline" size={18} color={colors.textMuted} />}
+          </Pressable>
+          <Pressable onPress={() => setCreateVisible(true)} style={styles.newBtn}>
+            <Text style={styles.newBtnText}>+ New</Text>
+          </Pressable>
+        </View>
       </View>
 
       {isLoadingEvents ? (
@@ -110,7 +120,6 @@ export default function EventsScreen() {
         onUpdate={updateEvent}
         onAddFriends={addFriendsToEvent}
         onRemoveFriend={removeFriendFromEvent}
-        onRecordHangout={recordHangout}
       />
     </SafeAreaView>
   );
@@ -132,6 +141,8 @@ const styles = StyleSheet.create({
     color: colors.primary,
     letterSpacing: -0.5,
   },
+  headerRight: { flexDirection: 'row', alignItems: 'center', gap: 8 },
+  refreshBtn: { padding: 6 },
   newBtn: {
     backgroundColor: colors.primary,
     borderRadius: 20,

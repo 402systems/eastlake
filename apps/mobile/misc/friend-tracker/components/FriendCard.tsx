@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { getDaysSince, getUrgencyColor } from '../hooks/useFriends';
 import { config } from '../tracker.config';
@@ -6,10 +7,10 @@ import { colors } from '../utils/colors';
 
 interface FriendCardProps {
   friend: Friend;
-  onPress: (id: string) => void;
+  onPress: (friend: Friend) => void;
   onHangout: (id: string) => void;
   onDelete: (id: string) => void;
-  onAssignGroups: (friendId: string) => void;
+  onAssignGroups: (friend: Friend) => void;
 }
 
 function getBadgeLabel(days: number): string | null {
@@ -28,7 +29,7 @@ function getDaysLabel(days: number): string {
   return `${days} days ago`;
 }
 
-export function FriendCard({
+export const FriendCard = memo(function FriendCard({
   friend,
   onPress,
   onHangout,
@@ -41,7 +42,7 @@ export function FriendCard({
   const daysLabel = getDaysLabel(days);
 
   return (
-    <Pressable style={styles.card} onPress={() => onPress(friend.id)}>
+    <Pressable style={styles.card} onPress={() => onPress(friend)}>
       <View style={[styles.accent, { backgroundColor: urgencyColor }]} />
 
       <View style={styles.body}>
@@ -89,7 +90,7 @@ export function FriendCard({
           <Text style={styles.daysLabel}>{daysLabel}</Text>
           <View style={styles.actions}>
             <Pressable
-              onPress={() => onAssignGroups(friend.id)}
+              onPress={() => onAssignGroups(friend)}
               style={styles.tagBtn}
               hitSlop={8}
             >
@@ -113,7 +114,7 @@ export function FriendCard({
       </View>
     </Pressable>
   );
-}
+});
 
 const styles = StyleSheet.create({
   card: {

@@ -22,7 +22,6 @@ interface EventDetailModalProps {
   onUpdate: (id: string, changes: { name?: string; date?: string }) => void;
   onAddFriends: (eventId: string, friendIds: string[]) => void;
   onRemoveFriend: (eventId: string, friendId: string) => void;
-  onRecordHangout: (friendId: string) => void;
 }
 
 export function EventDetailModal({
@@ -33,7 +32,6 @@ export function EventDetailModal({
   onUpdate,
   onAddFriends,
   onRemoveFriend,
-  onRecordHangout,
 }: EventDetailModalProps) {
   const [editingName, setEditingName] = useState(false);
   const [editingDate, setEditingDate] = useState(false);
@@ -299,47 +297,20 @@ export function EventDetailModal({
                       >
                         {item.name}
                       </Text>
-                      <View
+                      <Pressable
+                        onPress={() => onRemoveFriend(event.id, item.id)}
+                        hitSlop={8}
                         style={{
-                          flexDirection: 'row',
+                          width: 28,
+                          height: 28,
                           alignItems: 'center',
-                          gap: 10,
+                          justifyContent: 'center',
                         }}
                       >
-                        <Pressable
-                          onPress={() => onRecordHangout(item.id)}
-                          style={{
-                            backgroundColor: colors.primary,
-                            borderRadius: 8,
-                            paddingHorizontal: 12,
-                            paddingVertical: 6,
-                          }}
-                        >
-                          <Text
-                            style={{
-                              fontSize: 12,
-                              fontWeight: '600',
-                              color: colors.bgCard,
-                            }}
-                          >
-                            Hung out
-                          </Text>
-                        </Pressable>
-                        <Pressable
-                          onPress={() => onRemoveFriend(event.id, item.id)}
-                          hitSlop={8}
-                          style={{
-                            width: 28,
-                            height: 28,
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                          }}
-                        >
-                          <Text style={{ fontSize: 16, color: colors.danger }}>
-                            ✕
-                          </Text>
-                        </Pressable>
-                      </View>
+                        <Text style={{ fontSize: 16, color: colors.danger }}>
+                          ✕
+                        </Text>
+                      </Pressable>
                     </View>
                     {i < attendees.length - 1 && (
                       <View
