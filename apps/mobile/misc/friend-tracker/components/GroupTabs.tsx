@@ -36,7 +36,9 @@ export function GroupTabs({
 
       {groups.map((name) => (
         <Pressable key={name} onPress={() => onSelect(name)}>
-          <View style={[styles.chip, activeGroup === name && styles.chipActive]}>
+          <View
+            style={[styles.chip, activeGroup === name && styles.chipActive]}
+          >
             <Text
               style={[
                 styles.chipText,

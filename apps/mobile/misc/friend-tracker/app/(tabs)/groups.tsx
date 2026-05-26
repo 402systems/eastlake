@@ -16,8 +16,15 @@ import { CreateGroupModal } from '../../components/CreateGroupModal';
 import { colors } from '../../utils/colors';
 
 export default function GroupsScreen() {
-  const { friends, isLoadingFriends, addFriendToGroup, removeFriendFromGroup, deleteGroup, refresh, isRefreshing } =
-    useAppContext();
+  const {
+    friends,
+    isLoadingFriends,
+    addFriendToGroup,
+    removeFriendFromGroup,
+    deleteGroup,
+    refresh,
+    isRefreshing,
+  } = useAppContext();
 
   const [createModalVisible, setCreateModalVisible] = useState(false);
 
@@ -42,10 +49,20 @@ export default function GroupsScreen() {
     <SafeAreaView style={styles.safe}>
       <View style={styles.header}>
         <Text style={styles.title}>Groups</Text>
-        <Pressable onPress={refresh} disabled={isRefreshing} style={styles.refreshBtn}>
-          {isRefreshing
-            ? <ActivityIndicator size="small" color={colors.textMuted} />
-            : <Ionicons name="reload-outline" size={18} color={colors.textMuted} />}
+        <Pressable
+          onPress={refresh}
+          disabled={isRefreshing}
+          style={styles.refreshBtn}
+        >
+          {isRefreshing ? (
+            <ActivityIndicator size="small" color={colors.textMuted} />
+          ) : (
+            <Ionicons
+              name="reload-outline"
+              size={18}
+              color={colors.textMuted}
+            />
+          )}
         </Pressable>
       </View>
 
@@ -92,10 +109,7 @@ export default function GroupsScreen() {
         />
       )}
 
-      <Pressable
-        onPress={() => setCreateModalVisible(true)}
-        style={styles.fab}
-      >
+      <Pressable onPress={() => setCreateModalVisible(true)} style={styles.fab}>
         <Ionicons name="add" size={28} color="#fff" />
       </Pressable>
 
@@ -111,7 +125,14 @@ export default function GroupsScreen() {
 
 const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: colors.bgScreen },
-  header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 20, paddingTop: 16, paddingBottom: 12 },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 20,
+    paddingTop: 16,
+    paddingBottom: 12,
+  },
   refreshBtn: { padding: 6 },
   title: {
     fontSize: 28,

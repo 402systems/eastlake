@@ -98,7 +98,9 @@ export function CreateGroupModal({
           return (
             <Pressable onPress={() => toggle(item.id)} style={styles.row}>
               <Text style={styles.rowName}>{item.name}</Text>
-              <View style={[styles.checkbox, checked && styles.checkboxChecked]}>
+              <View
+                style={[styles.checkbox, checked && styles.checkboxChecked]}
+              >
                 {checked && <Text style={styles.checkmark}>✓</Text>}
               </View>
             </Pressable>

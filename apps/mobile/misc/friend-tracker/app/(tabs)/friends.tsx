@@ -13,8 +13,6 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useAppContext } from '../../context/AppContext';
 import type { Friend } from '../../context/AppContext';
-
-const Separator = () => <View style={{ height: 10 }} />;
 import { FriendCard } from '../../components/FriendCard';
 import { GroupTabs } from '../../components/GroupTabs';
 import { AddFriendModal } from '../../components/AddFriendModal';
@@ -24,6 +22,8 @@ import { AssignGroupsModal } from '../../components/AssignGroupsModal';
 import { FriendDetailModal } from '../../components/FriendDetailModal';
 import { getDaysSince } from '../../hooks/useFriends';
 import { colors } from '../../utils/colors';
+
+const Separator = () => <View style={{ height: 10 }} />;
 
 export default function FriendsScreen() {
   const {
@@ -128,21 +128,37 @@ export default function FriendsScreen() {
       <View style={styles.header}>
         <Text style={styles.title}>Friends</Text>
         <View style={styles.headerRight}>
-          <Pressable onPress={refresh} disabled={isRefreshing} style={styles.refreshBtn}>
-            {isRefreshing
-              ? <ActivityIndicator size="small" color={colors.textMuted} />
-              : <Ionicons name="reload-outline" size={18} color={colors.textMuted} />}
+          <Pressable
+            onPress={refresh}
+            disabled={isRefreshing}
+            style={styles.refreshBtn}
+          >
+            {isRefreshing ? (
+              <ActivityIndicator size="small" color={colors.textMuted} />
+            ) : (
+              <Ionicons
+                name="reload-outline"
+                size={18}
+                color={colors.textMuted}
+              />
+            )}
           </Pressable>
           <Pressable
             onPress={() =>
               Alert.alert('Sign out', 'Are you sure?', [
                 { text: 'Cancel', style: 'cancel' },
-                { text: 'Sign out', style: 'destructive', onPress: () => signOut() },
+                {
+                  text: 'Sign out',
+                  style: 'destructive',
+                  onPress: () => signOut(),
+                },
               ])
             }
             style={styles.userPill}
           >
-          <Text style={styles.userPillText}>{user?.email?.split('@')[0]}</Text>
+            <Text style={styles.userPillText}>
+              {user?.email?.split('@')[0]}
+            </Text>
           </Pressable>
         </View>
       </View>
@@ -244,27 +260,43 @@ export default function FriendsScreen() {
       {friends.length > 0 && (
         <>
           {fabExpanded && (
-            <Pressable style={styles.fabBackdrop} onPress={() => setFabExpanded(false)} />
+            <Pressable
+              style={styles.fabBackdrop}
+              onPress={() => setFabExpanded(false)}
+            />
           )}
           <View style={styles.fabContainer}>
             {fabExpanded && (
               <>
                 <Pressable
                   style={styles.fabOption}
-                  onPress={() => { setFabExpanded(false); setContactPickerVisible(true); }}
+                  onPress={() => {
+                    setFabExpanded(false);
+                    setContactPickerVisible(true);
+                  }}
                 >
                   <Text style={styles.fabOptionText}>Import from contacts</Text>
                 </Pressable>
                 <Pressable
                   style={styles.fabOption}
-                  onPress={() => { setFabExpanded(false); setAddModalVisible(true); }}
+                  onPress={() => {
+                    setFabExpanded(false);
+                    setAddModalVisible(true);
+                  }}
                 >
                   <Text style={styles.fabOptionText}>Add friend</Text>
                 </Pressable>
               </>
             )}
-            <Pressable onPress={() => setFabExpanded((v) => !v)} style={styles.fab}>
-              <Ionicons name={fabExpanded ? 'close' : 'add'} size={28} color="#fff" />
+            <Pressable
+              onPress={() => setFabExpanded((v) => !v)}
+              style={styles.fab}
+            >
+              <Ionicons
+                name={fabExpanded ? 'close' : 'add'}
+                size={28}
+                color="#fff"
+              />
             </Pressable>
           </View>
         </>

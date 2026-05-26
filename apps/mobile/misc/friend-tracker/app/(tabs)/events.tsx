@@ -26,7 +26,6 @@ export default function EventsScreen() {
     deleteEvent,
     addFriendsToEvent,
     removeFriendFromEvent,
-    recordHangout,
     refresh,
     isRefreshing,
   } = useAppContext();
@@ -53,12 +52,25 @@ export default function EventsScreen() {
       <View style={styles.header}>
         <Text style={styles.title}>Events</Text>
         <View style={styles.headerRight}>
-          <Pressable onPress={refresh} disabled={isRefreshing} style={styles.refreshBtn}>
-            {isRefreshing
-              ? <ActivityIndicator size="small" color={colors.textMuted} />
-              : <Ionicons name="reload-outline" size={18} color={colors.textMuted} />}
+          <Pressable
+            onPress={refresh}
+            disabled={isRefreshing}
+            style={styles.refreshBtn}
+          >
+            {isRefreshing ? (
+              <ActivityIndicator size="small" color={colors.textMuted} />
+            ) : (
+              <Ionicons
+                name="reload-outline"
+                size={18}
+                color={colors.textMuted}
+              />
+            )}
           </Pressable>
-          <Pressable onPress={() => setCreateVisible(true)} style={styles.newBtn}>
+          <Pressable
+            onPress={() => setCreateVisible(true)}
+            style={styles.newBtn}
+          >
             <Text style={styles.newBtnText}>+ New</Text>
           </Pressable>
         </View>

@@ -280,7 +280,10 @@ export function AppProvider({ children }: { children: ReactNode }) {
       for (const event of eventsData) {
         if (event.date > today) continue;
         for (const { friend_id } of event.event_friends) {
-          if (!latestEventDate[friend_id] || event.date > latestEventDate[friend_id]) {
+          if (
+            !latestEventDate[friend_id] ||
+            event.date > latestEventDate[friend_id]
+          ) {
             latestEventDate[friend_id] = event.date;
           }
         }
@@ -294,18 +297,23 @@ export function AppProvider({ children }: { children: ReactNode }) {
           return !f.last_action || eventDate > f.last_action;
         })
         .map((f) =>
-          api.post<{ last_action: string }>(
-            `/friends/${f.id}/hangout`,
-            { date: latestEventDate[f.id] }
-          ).then(({ last_action }) => ({ id: f.id, last_action }))
+          api
+            .post<{
+              last_action: string;
+            }>(`/friends/${f.id}/hangout`, { date: latestEventDate[f.id] })
+            .then(({ last_action }) => ({ id: f.id, last_action }))
         );
 
       const updated = await Promise.all(updates);
-      const updatedMap = Object.fromEntries(updated.map((u) => [u.id, u.last_action]));
+      const updatedMap = Object.fromEntries(
+        updated.map((u) => [u.id, u.last_action])
+      );
 
-      setFriends(friendsData.map((f) =>
-        updatedMap[f.id] ? { ...f, last_action: updatedMap[f.id] } : f
-      ));
+      setFriends(
+        friendsData.map((f) =>
+          updatedMap[f.id] ? { ...f, last_action: updatedMap[f.id] } : f
+        )
+      );
       setEvents(eventsData);
     } catch (err: unknown) {
       setError(err instanceof Error ? err.message : 'Failed to refresh');
