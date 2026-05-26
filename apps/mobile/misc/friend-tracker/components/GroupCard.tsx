@@ -1,22 +1,32 @@
 import { useState } from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import type { Friend } from '../context/AppContext';
+import { FriendPickerModal } from './FriendPickerModal';
 import { colors } from '../utils/colors';
 
 interface GroupCardProps {
   name: string;
   members: Friend[];
+  allFriends: Friend[];
   onDelete: () => void;
   onRemoveMember: (friendId: string) => void;
+  onAddMembers: (friendIds: string[]) => void;
 }
 
 export function GroupCard({
   name,
   members,
+  allFriends,
   onDelete,
   onRemoveMember,
+  onAddMembers,
 }: GroupCardProps) {
   const [expanded, setExpanded] = useState(false);
+  const [pickerVisible, setPickerVisible] = useState(false);
+
+  const nonMembers = allFriends.filter(
+    (f) => !members.some((m) => m.id === f.id)
+  );
 
   return (
     <View style={styles.card}>
@@ -60,8 +70,25 @@ export function GroupCard({
                 </View>
               ))
             )}
+            {nonMembers.length > 0 && (
+              <Pressable
+                onPress={() => setPickerVisible(true)}
+                style={styles.addFriendsBtn}
+              >
+                <Text style={styles.addFriendsBtnText}>+ Add friends</Text>
+              </Pressable>
+            )}
           </View>
         )}
+
+        <FriendPickerModal
+          visible={pickerVisible}
+          onClose={() => setPickerVisible(false)}
+          friends={nonMembers}
+          selectedIds={[]}
+          onConfirm={onAddMembers}
+          title={`Add to ${name}`}
+        />
       </View>
     </View>
   );
@@ -109,4 +136,10 @@ const styles = StyleSheet.create({
   memberName: { fontSize: 15, color: colors.primary, flex: 1 },
   removeText: { fontSize: 13, color: colors.textMuted, fontWeight: '500' },
   emptyText: { fontSize: 14, color: colors.textMuted, paddingVertical: 8 },
+  addFriendsBtn: { paddingVertical: 10, alignSelf: 'flex-start' },
+  addFriendsBtnText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: colors.indigo,
+  },
 });

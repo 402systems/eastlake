@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useCallback } from 'react';
 import {
   View,
   Text,
@@ -6,6 +6,7 @@ import {
   ActivityIndicator,
   Pressable,
   TextInput,
+  Alert,
   StyleSheet,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -21,6 +22,8 @@ import { AssignGroupsModal } from '../../components/AssignGroupsModal';
 import { FriendDetailModal } from '../../components/FriendDetailModal';
 import { getDaysSince } from '../../hooks/useFriends';
 import { colors } from '../../utils/colors';
+
+const Separator = () => <View style={{ height: 10 }} />;
 
 export default function FriendsScreen() {
   const {
@@ -38,10 +41,13 @@ export default function FriendsScreen() {
     removeFriendFromGroup,
     deleteGroup,
     updateFriendGroupsLocally,
+    refresh,
+    isRefreshing,
   } = useAppContext();
 
   const [addModalVisible, setAddModalVisible] = useState(false);
   const [contactPickerVisible, setContactPickerVisible] = useState(false);
+  const [fabExpanded, setFabExpanded] = useState(false);
   const [manageGroupsVisible, setManageGroupsVisible] = useState(false);
   const [assignGroupsFriend, setAssignGroupsFriend] = useState<Friend | null>(
     null
@@ -49,6 +55,27 @@ export default function FriendsScreen() {
   const [detailFriend, setDetailFriend] = useState<Friend | null>(null);
   const [activeGroup, setActiveGroup] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
+
+  const handlePress = useCallback((friend: Friend) => {
+    setDetailFriend(friend);
+  }, []);
+
+  const handleAssignGroups = useCallback((friend: Friend) => {
+    setAssignGroupsFriend(friend);
+  }, []);
+
+  const renderItem = useCallback(
+    ({ item }: { item: Friend }) => (
+      <FriendCard
+        friend={item}
+        onPress={handlePress}
+        onHangout={recordHangout}
+        onDelete={deleteFriend}
+        onAssignGroups={handleAssignGroups}
+      />
+    ),
+    [handlePress, handleAssignGroups, recordHangout, deleteFriend]
+  );
 
   const groups = useMemo(
     () => [...new Set(friends.flatMap((f) => f.groups ?? []))].sort(),
@@ -100,9 +127,40 @@ export default function FriendsScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Text style={styles.title}>Friends</Text>
-        <Pressable onPress={() => signOut()} style={styles.userPill}>
-          <Text style={styles.userPillText}>{user?.email?.split('@')[0]}</Text>
-        </Pressable>
+        <View style={styles.headerRight}>
+          <Pressable
+            onPress={refresh}
+            disabled={isRefreshing}
+            style={styles.refreshBtn}
+          >
+            {isRefreshing ? (
+              <ActivityIndicator size="small" color={colors.textMuted} />
+            ) : (
+              <Ionicons
+                name="reload-outline"
+                size={18}
+                color={colors.textMuted}
+              />
+            )}
+          </Pressable>
+          <Pressable
+            onPress={() =>
+              Alert.alert('Sign out', 'Are you sure?', [
+                { text: 'Cancel', style: 'cancel' },
+                {
+                  text: 'Sign out',
+                  style: 'destructive',
+                  onPress: () => signOut(),
+                },
+              ])
+            }
+            style={styles.userPill}
+          >
+            <Text style={styles.userPillText}>
+              {user?.email?.split('@')[0]}
+            </Text>
+          </Pressable>
+        </View>
       </View>
 
       {/* Error banner */}
@@ -189,32 +247,59 @@ export default function FriendsScreen() {
         <FlatList
           data={filteredFriends}
           keyExtractor={(f) => f.id}
-          renderItem={({ item }) => (
-            <FriendCard
-              friend={item}
-              onPress={(id) => {
-                const f = friends.find((fr) => fr.id === id);
-                if (f) setDetailFriend(f);
-              }}
-              onHangout={recordHangout}
-              onDelete={deleteFriend}
-              onAssignGroups={(id) => {
-                const f = friends.find((fr) => fr.id === id);
-                if (f) setAssignGroupsFriend(f);
-              }}
-            />
-          )}
+          renderItem={renderItem}
           contentContainerStyle={styles.listContent}
-          ItemSeparatorComponent={() => <View style={{ height: 10 }} />}
+          ItemSeparatorComponent={Separator}
           showsVerticalScrollIndicator={false}
+          initialNumToRender={10}
+          windowSize={5}
         />
       )}
 
       {/* FAB */}
       {friends.length > 0 && (
-        <Pressable onPress={() => setAddModalVisible(true)} style={styles.fab}>
-          <Ionicons name="add" size={28} color="#fff" />
-        </Pressable>
+        <>
+          {fabExpanded && (
+            <Pressable
+              style={styles.fabBackdrop}
+              onPress={() => setFabExpanded(false)}
+            />
+          )}
+          <View style={styles.fabContainer}>
+            {fabExpanded && (
+              <>
+                <Pressable
+                  style={styles.fabOption}
+                  onPress={() => {
+                    setFabExpanded(false);
+                    setContactPickerVisible(true);
+                  }}
+                >
+                  <Text style={styles.fabOptionText}>Import from contacts</Text>
+                </Pressable>
+                <Pressable
+                  style={styles.fabOption}
+                  onPress={() => {
+                    setFabExpanded(false);
+                    setAddModalVisible(true);
+                  }}
+                >
+                  <Text style={styles.fabOptionText}>Add friend</Text>
+                </Pressable>
+              </>
+            )}
+            <Pressable
+              onPress={() => setFabExpanded((v) => !v)}
+              style={styles.fab}
+            >
+              <Ionicons
+                name={fabExpanded ? 'close' : 'add'}
+                size={28}
+                color="#fff"
+              />
+            </Pressable>
+          </View>
+        </>
       )}
 
       <AddFriendModal
@@ -281,6 +366,8 @@ const styles = StyleSheet.create({
     color: colors.primary,
     letterSpacing: -0.5,
   },
+  headerRight: { flexDirection: 'row', alignItems: 'center', gap: 8 },
+  refreshBtn: { padding: 6 },
   userPill: {
     backgroundColor: colors.bgInput,
     borderRadius: 20,
@@ -393,10 +480,35 @@ const styles = StyleSheet.create({
 
   listContent: { paddingHorizontal: 20, paddingBottom: 100 },
 
-  fab: {
+  fabBackdrop: {
+    ...StyleSheet.absoluteFillObject,
+    zIndex: 10,
+  },
+  fabContainer: {
     position: 'absolute',
     bottom: 24,
     right: 24,
+    alignItems: 'flex-end',
+    gap: 10,
+    zIndex: 11,
+  },
+  fabOption: {
+    backgroundColor: colors.bgCard,
+    borderRadius: 20,
+    paddingHorizontal: 16,
+    paddingVertical: 10,
+    shadowColor: colors.primary,
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.12,
+    shadowRadius: 6,
+    elevation: 4,
+  },
+  fabOptionText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: colors.primary,
+  },
+  fab: {
     width: 58,
     height: 58,
     borderRadius: 29,
