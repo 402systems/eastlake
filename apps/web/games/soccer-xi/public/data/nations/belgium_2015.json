@@ -1,0 +1,220 @@
+{
+  "clubId": "belgium",
+  "era": "2015",
+  "label": "2015",
+  "players": [
+    {
+      "id": "183277",
+      "name": "Eden Hazard",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 88,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/183/277/15_120.png"
+    },
+    {
+      "id": "139720",
+      "name": "Vincent Jean Mpoy Kompany",
+      "position": "RCB",
+      "positionGroup": "DEF",
+      "rating": 86,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/139/720/15_120.png"
+    },
+    {
+      "id": "192119",
+      "name": "Thibaut Courtois",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 86,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/192/119/15_120.png"
+    },
+    {
+      "id": "172871",
+      "name": "Jan Vertonghen",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 82,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/172/871/15_120.png"
+    },
+    {
+      "id": "173426",
+      "name": "Simon Luc Hildebert Mignolet",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 82,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/173/426/15_120.png"
+    },
+    {
+      "id": "175943",
+      "name": "Dries Mertens",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 82,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/175/943/15_120.png"
+    },
+    {
+      "id": "192985",
+      "name": "Kevin De Bruyne",
+      "position": "RCM",
+      "positionGroup": "MID",
+      "rating": 81,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/192/985/15_120.png"
+    },
+    {
+      "id": "162240",
+      "name": "Mousa Sidi Yaya Dembélé",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 80,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/162/240/15_120.png"
+    },
+    {
+      "id": "172175",
+      "name": "Kevin Mirallas",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 80,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/172/175/15_120.png"
+    },
+    {
+      "id": "177413",
+      "name": "Axel Witsel",
+      "position": "CDM",
+      "positionGroup": "MID",
+      "rating": 80,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/177/413/15_120.png"
+    },
+    {
+      "id": "192505",
+      "name": "Romelu Lukaku Menama",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 80,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/192/505/15_120.png"
+    },
+    {
+      "id": "157304",
+      "name": "Thomas Vermaelen",
+      "position": "LCB",
+      "positionGroup": "DEF",
+      "rating": 79,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/157/304/15_120.png"
+    },
+    {
+      "id": "178518",
+      "name": "Radja Nainggolan",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 79,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/178/518/15_120.png"
+    },
+    {
+      "id": "184087",
+      "name": "Toby Alderweireld",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 78,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/184/087/15_120.png"
+    },
+    {
+      "id": "163492",
+      "name": "Nicolas Lombaerts",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 77,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/163/492/15_120.png"
+    },
+    {
+      "id": "200529",
+      "name": "Nacer Chadli",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 77,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/200/529/15_120.png"
+    },
+    {
+      "id": "170815",
+      "name": "Steven Arnold Defour",
+      "position": "LCM",
+      "positionGroup": "MID",
+      "rating": 76,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/170/815/15_120.png"
+    },
+    {
+      "id": "208330",
+      "name": "Adnan Januzaj",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 75,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/208/330/15_120.png"
+    },
+    {
+      "id": "213135",
+      "name": "Divock Okoth Origi",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 75,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/213/135/15_120.png"
+    },
+    {
+      "id": "105308",
+      "name": "Jean-François Gillet",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 74,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/105/308/15_120.png"
+    },
+    {
+      "id": "53630",
+      "name": "Jelle Van Damme",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 73,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/053/630/15_120.png"
+    },
+    {
+      "id": "157678",
+      "name": "Laurent Ciman",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 73,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/157/678/15_120.png"
+    },
+    {
+      "id": "163186",
+      "name": "Guillaume Olivier Gillet",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 72,
+      "nationality": "Belgium",
+      "photoUrl": "https://cdn.sofifa.net/players/163/186/15_120.png"
+    }
+  ],
+  "stats": {
+    "min": 72,
+    "max": 88,
+    "mean": 78.91304347826087,
+    "samples": []
+  }
+}

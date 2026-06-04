@@ -1,0 +1,220 @@
+{
+  "clubId": "austria",
+  "era": "2019",
+  "label": "2019",
+  "players": [
+    {
+      "id": "197445",
+      "name": "David Olatukunbo Alaba",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 85,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/197/445/19_120.png"
+    },
+    {
+      "id": "184200",
+      "name": "Marko Arnautović",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 82,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/184/200/19_120.png"
+    },
+    {
+      "id": "204923",
+      "name": "Marcel Sabitzer",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 81,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/204/923/19_120.png"
+    },
+    {
+      "id": "193584",
+      "name": "Guido Burgstaller",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 79,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/193/584/19_120.png"
+    },
+    {
+      "id": "199439",
+      "name": "Michael Gregoritsch",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 79,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/199/439/19_120.png"
+    },
+    {
+      "id": "189606",
+      "name": "Julian Baumgartlinger",
+      "position": "RDM",
+      "positionGroup": "MID",
+      "rating": 78,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/189/606/19_120.png"
+    },
+    {
+      "id": "189060",
+      "name": "Aleksandar Dragović",
+      "position": "LCB",
+      "positionGroup": "DEF",
+      "rating": 77,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/189/060/19_120.png"
+    },
+    {
+      "id": "201922",
+      "name": "Martin Hinteregger",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 77,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/201/922/19_120.png"
+    },
+    {
+      "id": "211147",
+      "name": "Valentino Lazaro",
+      "position": "RAM",
+      "positionGroup": "MID",
+      "rating": 77,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/211/147/19_120.png"
+    },
+    {
+      "id": "220925",
+      "name": "Alessandro Schöpf",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 77,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/220/925/19_120.png"
+    },
+    {
+      "id": "195038",
+      "name": "Florian Kainz",
+      "position": "LAM",
+      "positionGroup": "MID",
+      "rating": 76,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/195/038/19_120.png"
+    },
+    {
+      "id": "228336",
+      "name": "Florian Grillitsch",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 76,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/228/336/19_120.png"
+    },
+    {
+      "id": "177578",
+      "name": "Sebastian Prödl",
+      "position": "RCB",
+      "positionGroup": "DEF",
+      "rating": 75,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/177/578/19_120.png"
+    },
+    {
+      "id": "194665",
+      "name": "Stefan Ilsanker",
+      "position": "LDM",
+      "positionGroup": "MID",
+      "rating": 75,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/194/665/19_120.png"
+    },
+    {
+      "id": "204904",
+      "name": "Moritz Bauer",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 75,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/204/904/19_120.png"
+    },
+    {
+      "id": "210489",
+      "name": "Louis Schaub",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 75,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/210/489/19_120.png"
+    },
+    {
+      "id": "193247",
+      "name": "Heinz Lindner",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 74,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/193/247/19_120.png"
+    },
+    {
+      "id": "223724",
+      "name": "Stefan Lainer",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 74,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/223/724/19_120.png"
+    },
+    {
+      "id": "169324",
+      "name": "Andreas Ulmer",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 73,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/169/324/19_120.png"
+    },
+    {
+      "id": "231838",
+      "name": "Maximilian Wöber",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 73,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/231/838/19_120.png"
+    },
+    {
+      "id": "233195",
+      "name": "Xaver Schlager",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 72,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/233/195/19_120.png"
+    },
+    {
+      "id": "193277",
+      "name": "Jörg Siebenhandl",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 71,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/193/277/19_120.png"
+    },
+    {
+      "id": "210476",
+      "name": "Markus Kuster",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 68,
+      "nationality": "Austria",
+      "photoUrl": "https://cdn.sofifa.net/players/210/476/19_120.png"
+    }
+  ],
+  "stats": {
+    "min": 68,
+    "max": 85,
+    "mean": 76.04347826086956,
+    "samples": []
+  }
+}

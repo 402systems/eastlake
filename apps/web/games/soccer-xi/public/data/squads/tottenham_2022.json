@@ -1,0 +1,310 @@
+{
+  "clubId": "tottenham",
+  "era": "2022",
+  "label": "2022",
+  "players": [
+    {
+      "id": "202126",
+      "name": "Harry Kane",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 90,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/202/126/22_120.png"
+    },
+    {
+      "id": "200104",
+      "name": "손흥민 孙兴慜",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 89,
+      "nationality": "Korea Republic",
+      "photoUrl": "https://cdn.sofifa.net/players/200/104/22_120.png"
+    },
+    {
+      "id": "167948",
+      "name": "Hugo Lloris",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 87,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/167/948/22_120.png"
+    },
+    {
+      "id": "213648",
+      "name": "Pierre-Emile Kordt Højbjerg",
+      "position": "CDM",
+      "positionGroup": "MID",
+      "rating": 83,
+      "nationality": "Denmark",
+      "photoUrl": "https://cdn.sofifa.net/players/213/648/22_120.png"
+    },
+    {
+      "id": "211515",
+      "name": "Pierluigi Gollini",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 82,
+      "nationality": "Italy",
+      "photoUrl": "https://cdn.sofifa.net/players/211/515/22_120.png"
+    },
+    {
+      "id": "232488",
+      "name": "Cristian Gabriel Romero",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 82,
+      "nationality": "Argentina",
+      "photoUrl": "https://cdn.sofifa.net/players/232/488/22_120.png"
+    },
+    {
+      "id": "235569",
+      "name": "Tanguy Ndombèlé Alvaro",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 82,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/235/569/22_120.png"
+    },
+    {
+      "id": "200949",
+      "name": "Lucas Rodrigues Moura da Silva",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 81,
+      "nationality": "Brazil",
+      "photoUrl": "https://cdn.sofifa.net/players/200/949/22_120.png"
+    },
+    {
+      "id": "226226",
+      "name": "Giovani Lo Celso",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 81,
+      "nationality": "Argentina",
+      "photoUrl": "https://cdn.sofifa.net/players/226/226/22_120.png"
+    },
+    {
+      "id": "245279",
+      "name": "Sergio Reguilón Rodríguez",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 81,
+      "nationality": "Spain",
+      "photoUrl": "https://cdn.sofifa.net/players/245/279/22_120.png"
+    },
+    {
+      "id": "211117",
+      "name": "Bamidele Alli",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 80,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/211/117/22_120.png"
+    },
+    {
+      "id": "225953",
+      "name": "Steven Charles Bergwijn",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 80,
+      "nationality": "Netherlands",
+      "photoUrl": "https://cdn.sofifa.net/players/225/953/22_120.png"
+    },
+    {
+      "id": "202335",
+      "name": "Eric Dier",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 79,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/202/335/22_120.png"
+    },
+    {
+      "id": "205923",
+      "name": "Benjamin Thomas Davies",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 79,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/205/923/22_120.png"
+    },
+    {
+      "id": "220793",
+      "name": "Davinson Sánchez Mina",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 79,
+      "nationality": "Colombia",
+      "photoUrl": "https://cdn.sofifa.net/players/220/793/22_120.png"
+    },
+    {
+      "id": "247204",
+      "name": "Emerson Aparecido Leite de Souza Junior",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 79,
+      "nationality": "Brazil",
+      "photoUrl": "https://cdn.sofifa.net/players/247/204/22_120.png"
+    },
+    {
+      "id": "201417",
+      "name": "Matthew James Doherty",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 78,
+      "nationality": "Republic of Ireland",
+      "photoUrl": "https://cdn.sofifa.net/players/201/417/22_120.png"
+    },
+    {
+      "id": "222400",
+      "name": "Harry Winks",
+      "position": "CDM",
+      "positionGroup": "MID",
+      "rating": 77,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/222/400/22_120.png"
+    },
+    {
+      "id": "246785",
+      "name": "Bryan Gil Salvatierra",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 76,
+      "nationality": "Spain",
+      "photoUrl": "https://cdn.sofifa.net/players/246/785/22_120.png"
+    },
+    {
+      "id": "235883",
+      "name": "Kouassi Ryan Sessegnon",
+      "position": "LWB",
+      "positionGroup": "DEF",
+      "rating": 75,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/235/883/22_120.png"
+    },
+    {
+      "id": "241042",
+      "name": "Oliver Skipp",
+      "position": "CDM",
+      "positionGroup": "MID",
+      "rating": 75,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/241/042/22_120.png"
+    },
+    {
+      "id": "236600",
+      "name": "Japhet Tanganga",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 74,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/236/600/22_120.png"
+    },
+    {
+      "id": "229266",
+      "name": "Joe Rodon",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 72,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/229/266/22_120.png"
+    },
+    {
+      "id": "242908",
+      "name": "Jack Clarke",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 67,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/242/908/22_120.png"
+    },
+    {
+      "id": "261025",
+      "name": "Dane Pharrell Scarlett",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 63,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/261/025/22_120.png"
+    },
+    {
+      "id": "245903",
+      "name": "Harvey David White",
+      "position": "CDM",
+      "positionGroup": "MID",
+      "rating": 62,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/245/903/22_120.png"
+    },
+    {
+      "id": "245906",
+      "name": "Malachi Fagan-Walcott",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 61,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/245/906/22_120.png"
+    },
+    {
+      "id": "261133",
+      "name": "Nile Omari Mckenzi John",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 61,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/261/133/22_120.png"
+    },
+    {
+      "id": "264189",
+      "name": "Maksim Paskotsi",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 60,
+      "nationality": "Estonia",
+      "photoUrl": "https://cdn.sofifa.net/players/264/189/22_120.png"
+    },
+    {
+      "id": "246349",
+      "name": "Dilan Kumar Markanday",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 58,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/246/349/22_120.png"
+    },
+    {
+      "id": "248472",
+      "name": "Marcel Edwin Rodrigues Lavinier",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 58,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/248/472/22_120.png"
+    },
+    {
+      "id": "243848",
+      "name": "Brooklyn Lyons-Foster",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 57,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/243/848/22_120.png"
+    },
+    {
+      "id": "264180",
+      "name": "Alfie Devine",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 57,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/264/180/22_120.png"
+    }
+  ],
+  "stats": {
+    "min": 57,
+    "max": 90,
+    "mean": 74.0909090909091,
+    "samples": []
+  }
+}

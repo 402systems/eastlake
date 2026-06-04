@@ -1,0 +1,220 @@
+{
+  "clubId": "wales",
+  "era": "2022",
+  "label": "2022",
+  "players": [
+    {
+      "id": "173731",
+      "name": "Gareth Frank Bale",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 82,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/173/731/22_120.png"
+    },
+    {
+      "id": "186561",
+      "name": "Aaron Ramsey",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 80,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/186/561/22_120.png"
+    },
+    {
+      "id": "205923",
+      "name": "Benjamin Thomas Davies",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 79,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/205/923/22_120.png"
+    },
+    {
+      "id": "232104",
+      "name": "Daniel James",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 77,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/232/104/22_120.png"
+    },
+    {
+      "id": "220196",
+      "name": "David Robert Brooks",
+      "position": "RW",
+      "positionGroup": "FWD",
+      "rating": 76,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/220/196/22_120.png"
+    },
+    {
+      "id": "220710",
+      "name": "Harry Wilson",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 75,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/220/710/22_120.png"
+    },
+    {
+      "id": "225147",
+      "name": "Connor Roberts",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 75,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/225/147/22_120.png"
+    },
+    {
+      "id": "170084",
+      "name": "Wayne Robert Hennessey",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 74,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/170/084/22_120.png"
+    },
+    {
+      "id": "207998",
+      "name": "Danny Ward",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 74,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/207/998/22_120.png"
+    },
+    {
+      "id": "216627",
+      "name": "Kieffer Roberto Francisco Moore",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 74,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/216/627/22_120.png"
+    },
+    {
+      "id": "228815",
+      "name": "Tyler Roberts",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 73,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/228/815/22_120.png"
+    },
+    {
+      "id": "229266",
+      "name": "Joe Rodon",
+      "position": "RCB",
+      "positionGroup": "DEF",
+      "rating": 72,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/229/266/22_120.png"
+    },
+    {
+      "id": "233201",
+      "name": "Christopher James Mepham",
+      "position": "LCB",
+      "positionGroup": "DEF",
+      "rating": 72,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/233/201/22_120.png"
+    },
+    {
+      "id": "200715",
+      "name": "Adam Rhys Davies",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 71,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/200/715/22_120.png"
+    },
+    {
+      "id": "184716",
+      "name": "Joseph Michael Allen",
+      "position": "RDM",
+      "positionGroup": "MID",
+      "rating": 70,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/184/716/22_120.png"
+    },
+    {
+      "id": "211363",
+      "name": "Thomas Alun Lockyer",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 69,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/211/363/22_120.png"
+    },
+    {
+      "id": "235735",
+      "name": "Ethan Ampadu",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 68,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/235/735/22_120.png"
+    },
+    {
+      "id": "240773",
+      "name": "Rhys Llewelyn Norrington-Davies",
+      "position": "LWB",
+      "positionGroup": "DEF",
+      "rating": 68,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/240/773/22_120.png"
+    },
+    {
+      "id": "243057",
+      "name": "Neco Williams",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 68,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/243/057/22_120.png"
+    },
+    {
+      "id": "198776",
+      "name": "Jonathan Peter Williams",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 67,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/198/776/22_120.png"
+    },
+    {
+      "id": "220677",
+      "name": "Joseff John Morrell",
+      "position": "LDM",
+      "positionGroup": "MID",
+      "rating": 66,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/220/677/22_120.png"
+    },
+    {
+      "id": "173752",
+      "name": "Christopher Ross Gunter",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 64,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/173/752/22_120.png"
+    },
+    {
+      "id": "243349",
+      "name": "Dylan James Christopher Levitt",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 63,
+      "nationality": "Wales",
+      "photoUrl": "https://cdn.sofifa.net/players/243/349/22_120.png"
+    }
+  ],
+  "stats": {
+    "min": 63,
+    "max": 82,
+    "mean": 72.04347826086956,
+    "samples": []
+  }
+}

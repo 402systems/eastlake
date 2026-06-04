@@ -1,0 +1,310 @@
+{
+  "clubId": "dortmund",
+  "era": "2015",
+  "label": "2015",
+  "players": [
+    {
+      "id": "178603",
+      "name": "Mats Hummels",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 86,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/178/603/15_120.png"
+    },
+    {
+      "id": "188350",
+      "name": "Marco Reus",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 86,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/188/350/15_120.png"
+    },
+    {
+      "id": "2196",
+      "name": "Roman Weidenfeller",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 83,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/002/196/15_120.png"
+    },
+    {
+      "id": "186942",
+      "name": "İlkay Gündoğan",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 83,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/186/942/15_120.png"
+    },
+    {
+      "id": "189358",
+      "name": "香川 真司",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 83,
+      "nationality": "Japan",
+      "photoUrl": "https://cdn.sofifa.net/players/189/358/15_120.png"
+    },
+    {
+      "id": "164994",
+      "name": "Jakub Błaszczykowski",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 82,
+      "nationality": "Poland",
+      "photoUrl": "https://cdn.sofifa.net/players/164/994/15_120.png"
+    },
+    {
+      "id": "172879",
+      "name": "Sokratis Papastathopoulos",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 82,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/172/879/15_120.png"
+    },
+    {
+      "id": "173771",
+      "name": "Łukasz Piszczek",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 82,
+      "nationality": "Poland",
+      "photoUrl": "https://cdn.sofifa.net/players/173/771/15_120.png"
+    },
+    {
+      "id": "183556",
+      "name": "Neven Subotić",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 82,
+      "nationality": "Serbia",
+      "photoUrl": "https://cdn.sofifa.net/players/183/556/15_120.png"
+    },
+    {
+      "id": "170797",
+      "name": "Nuri Şahin",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 81,
+      "nationality": "Turkey",
+      "photoUrl": "https://cdn.sofifa.net/players/170/797/15_120.png"
+    },
+    {
+      "id": "177458",
+      "name": "Sven Bender",
+      "position": "CDM",
+      "positionGroup": "MID",
+      "rating": 81,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/177/458/15_120.png"
+    },
+    {
+      "id": "192883",
+      "name": "Henrikh Mkhitaryan",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 81,
+      "nationality": "Armenia",
+      "photoUrl": "https://cdn.sofifa.net/players/192/883/15_120.png"
+    },
+    {
+      "id": "192387",
+      "name": "Ciro Immobile",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 80,
+      "nationality": "Italy",
+      "photoUrl": "https://cdn.sofifa.net/players/192/387/15_120.png"
+    },
+    {
+      "id": "176619",
+      "name": "Gustavo Adrián Ramos Vásquez",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 79,
+      "nationality": "Colombia",
+      "photoUrl": "https://cdn.sofifa.net/players/176/619/15_120.png"
+    },
+    {
+      "id": "188567",
+      "name": "Pierre-Emerick Emiliano François Aubameyang",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 79,
+      "nationality": "Gabon",
+      "photoUrl": "https://cdn.sofifa.net/players/188/567/15_120.png"
+    },
+    {
+      "id": "5485",
+      "name": "Sebastian Kehl",
+      "position": "CDM",
+      "positionGroup": "MID",
+      "rating": 78,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/005/485/15_120.png"
+    },
+    {
+      "id": "188802",
+      "name": "Marcel Schmelzer",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 78,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/188/802/15_120.png"
+    },
+    {
+      "id": "188352",
+      "name": "Kevin Großkreutz",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 77,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/188/352/15_120.png"
+    },
+    {
+      "id": "207862",
+      "name": "Matthias Ginter",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 77,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/207/862/15_120.png"
+    },
+    {
+      "id": "221838",
+      "name": "Miloš Jojić",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 75,
+      "nationality": "Serbia",
+      "photoUrl": "https://cdn.sofifa.net/players/221/838/15_120.png"
+    },
+    {
+      "id": "207920",
+      "name": "Erik Durm",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 73,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/207/920/15_120.png"
+    },
+    {
+      "id": "122048",
+      "name": "Oliver Kirch",
+      "position": "CDM",
+      "positionGroup": "MID",
+      "rating": 71,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/122/048/15_120.png"
+    },
+    {
+      "id": "182435",
+      "name": "Mitchell James Langerak",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 71,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/182/435/15_120.png"
+    },
+    {
+      "id": "199266",
+      "name": "지동원 池东沅",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 71,
+      "nationality": "Korea Republic",
+      "photoUrl": "https://cdn.sofifa.net/players/199/266/15_120.png"
+    },
+    {
+      "id": "207892",
+      "name": "Joseph-Claude Agyeman Gyau",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 65,
+      "nationality": "United States",
+      "photoUrl": "https://cdn.sofifa.net/players/207/892/15_120.png"
+    },
+    {
+      "id": "208764",
+      "name": "Zlatan Alomerović",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 64,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/208/764/15_120.png"
+    },
+    {
+      "id": "190826",
+      "name": "Marc Hornschuh",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 63,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/190/826/15_120.png"
+    },
+    {
+      "id": "199002",
+      "name": "Mustafa Amini",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 63,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/199/002/15_120.png"
+    },
+    {
+      "id": "212628",
+      "name": "Marian Sarr",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 63,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/212/628/15_120.png"
+    },
+    {
+      "id": "225205",
+      "name": "丸岡 満",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 60,
+      "nationality": "Japan",
+      "photoUrl": "https://cdn.sofifa.net/players/225/205/15_120.png"
+    },
+    {
+      "id": "225206",
+      "name": "Khaled Narey",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 60,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/225/206/15_120.png"
+    },
+    {
+      "id": "216535",
+      "name": "Jannik Bandowski",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 58,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/216/535/15_120.png"
+    },
+    {
+      "id": "216518",
+      "name": "Hendrik Bonmann",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 56,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/216/518/15_120.png"
+    }
+  ],
+  "stats": {
+    "min": 56,
+    "max": 86,
+    "mean": 74.33333333333333,
+    "samples": []
+  }
+}

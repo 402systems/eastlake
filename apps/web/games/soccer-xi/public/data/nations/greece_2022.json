@@ -1,0 +1,220 @@
+{
+  "clubId": "greece",
+  "era": "2022",
+  "label": "2022",
+  "players": [
+    {
+      "id": "211990",
+      "name": "Odisseas Vlachodimos",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 81,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/211/990/22_120.png"
+    },
+    {
+      "id": "208250",
+      "name": "Anastasios Bakasetas",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 77,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/208/250/22_120.png"
+    },
+    {
+      "id": "168621",
+      "name": "José Carlos Gonçalves Rodrigues",
+      "position": "RDM",
+      "positionGroup": "MID",
+      "rating": 76,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/168/621/22_120.png"
+    },
+    {
+      "id": "208053",
+      "name": "Dimitrios Pelkas",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 76,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/208/053/22_120.png"
+    },
+    {
+      "id": "208224",
+      "name": "Petros Mantalos",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 76,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/208/224/22_120.png"
+    },
+    {
+      "id": "246708",
+      "name": "Giorgios Masouras",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 76,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/246/708/22_120.png"
+    },
+    {
+      "id": "207683",
+      "name": "Sokratis Dioudis",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 75,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/207/683/22_120.png"
+    },
+    {
+      "id": "223922",
+      "name": "Andreas Bouchalakis",
+      "position": "LDM",
+      "positionGroup": "MID",
+      "rating": 75,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/223/922/22_120.png"
+    },
+    {
+      "id": "199060",
+      "name": "Georgios Tzavellas",
+      "position": "LCB",
+      "positionGroup": "DEF",
+      "rating": 74,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/199/060/22_120.png"
+    },
+    {
+      "id": "232223",
+      "name": "Konstantinos Tsimikas",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 74,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/232/223/22_120.png"
+    },
+    {
+      "id": "236457",
+      "name": "Dimitris Giannoulis",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 74,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/236/457/22_120.png"
+    },
+    {
+      "id": "256948",
+      "name": "Christos Tzolis",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 74,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/256/948/22_120.png"
+    },
+    {
+      "id": "206469",
+      "name": "Taxiarchis Fountas",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 73,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/206/469/22_120.png"
+    },
+    {
+      "id": "229188",
+      "name": "Vangelis Pavlidis",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 73,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/229/188/22_120.png"
+    },
+    {
+      "id": "234986",
+      "name": "Panagiotis Retsos",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 73,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/234/986/22_120.png"
+    },
+    {
+      "id": "242000",
+      "name": "Konstantinos Mavropanos",
+      "position": "RCB",
+      "positionGroup": "DEF",
+      "rating": 73,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/242/000/22_120.png"
+    },
+    {
+      "id": "236773",
+      "name": "Emmanouil Siopis",
+      "position": "CDM",
+      "positionGroup": "MID",
+      "rating": 72,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/236/773/22_120.png"
+    },
+    {
+      "id": "239106",
+      "name": "Leonardo Pablo Koutris",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 72,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/239/106/22_120.png"
+    },
+    {
+      "id": "240493",
+      "name": "Alexandros Paschalakis",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 72,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/240/493/22_120.png"
+    },
+    {
+      "id": "184477",
+      "name": "Kyriakos Papadopoulos",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 71,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/184/477/22_120.png"
+    },
+    {
+      "id": "244287",
+      "name": "Marios Vrousai",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 71,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/244/287/22_120.png"
+    },
+    {
+      "id": "234987",
+      "name": "Athanasios Androutsos",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 69,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/234/987/22_120.png"
+    },
+    {
+      "id": "261478",
+      "name": "Anastasios Douvikas",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 69,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/261/478/22_120.png"
+    }
+  ],
+  "stats": {
+    "min": 69,
+    "max": 81,
+    "mean": 73.73913043478261,
+    "samples": []
+  }
+}

@@ -8,7 +8,7 @@ import {
   CardContent,
 } from '@eastlake/core-ui/components/ui/card';
 import { Badge } from '@eastlake/core-ui/components/ui/badge';
-import { Gamepad2, Wrench, Target, PartyPopper } from 'lucide-react';
+import { Gamepad2, Wrench, Target, PartyPopper, Trophy } from 'lucide-react';
 import { AuthHeader } from './components/AuthHeader';
 
 interface AppTile {
@@ -21,6 +21,15 @@ interface AppTile {
 }
 
 const apps: AppTile[] = [
+  {
+    name: 'Soccer XI',
+    description:
+      'Draft the perfect squad — 11 random clubs, pick one player each, score by percentile',
+    href: '/games/soccer-xi',
+    icon: <Trophy className="h-8 w-8" />,
+    gradient: 'from-green-500 to-emerald-600',
+    category: 'games',
+  },
   {
     name: 'Dobble',
     description: 'Test your reflexes in this fast-paced symbol matching game',

@@ -1,0 +1,310 @@
+{
+  "clubId": "west-ham",
+  "era": "2022",
+  "label": "2022",
+  "players": [
+    {
+      "id": "164835",
+      "name": "Łukasz Fabiański",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 82,
+      "nationality": "Poland",
+      "photoUrl": "https://cdn.sofifa.net/players/164/835/22_120.png"
+    },
+    {
+      "id": "193105",
+      "name": "Alphonse Areola",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 82,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/193/105/22_120.png"
+    },
+    {
+      "id": "234378",
+      "name": "Declan Rice",
+      "position": "CDM",
+      "positionGroup": "MID",
+      "rating": 82,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/234/378/22_120.png"
+    },
+    {
+      "id": "236792",
+      "name": "Tomáš Souček",
+      "position": "CDM",
+      "positionGroup": "MID",
+      "rating": 82,
+      "nationality": "Czech Republic",
+      "photoUrl": "https://cdn.sofifa.net/players/236/792/22_120.png"
+    },
+    {
+      "id": "204311",
+      "name": "Kurt Happy Zouma",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 81,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/204/311/22_120.png"
+    },
+    {
+      "id": "183855",
+      "name": "Angelo Obinze Ogbonna",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 80,
+      "nationality": "Italy",
+      "photoUrl": "https://cdn.sofifa.net/players/183/855/22_120.png"
+    },
+    {
+      "id": "241095",
+      "name": "Nikola Vlašić",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 80,
+      "nationality": "Croatia",
+      "photoUrl": "https://cdn.sofifa.net/players/241/095/22_120.png"
+    },
+    {
+      "id": "244470",
+      "name": "Vladimír Coufal",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 80,
+      "nationality": "Czech Republic",
+      "photoUrl": "https://cdn.sofifa.net/players/244/470/22_120.png"
+    },
+    {
+      "id": "189615",
+      "name": "Aaron Cresswell",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 79,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/189/615/22_120.png"
+    },
+    {
+      "id": "190717",
+      "name": "Michail Antonio",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 79,
+      "nationality": "Jamaica",
+      "photoUrl": "https://cdn.sofifa.net/players/190/717/22_120.png"
+    },
+    {
+      "id": "226456",
+      "name": "Pablo Fornals Malla",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 79,
+      "nationality": "Spain",
+      "photoUrl": "https://cdn.sofifa.net/players/226/456/22_120.png"
+    },
+    {
+      "id": "224371",
+      "name": "Jarrod Bowen",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 78,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/224/371/22_120.png"
+    },
+    {
+      "id": "188988",
+      "name": "Manuel Lanzini",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 77,
+      "nationality": "Argentina",
+      "photoUrl": "https://cdn.sofifa.net/players/188/988/22_120.png"
+    },
+    {
+      "id": "194806",
+      "name": "Craig Dawson",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 77,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/194/806/22_120.png"
+    },
+    {
+      "id": "212491",
+      "name": "Arthur Masuaku",
+      "position": "LWB",
+      "positionGroup": "DEF",
+      "rating": 77,
+      "nationality": "Congo DR",
+      "photoUrl": "https://cdn.sofifa.net/players/212/491/22_120.png"
+    },
+    {
+      "id": "220621",
+      "name": "Mohamed Saïd Benrahma",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 77,
+      "nationality": "Algeria",
+      "photoUrl": "https://cdn.sofifa.net/players/220/621/22_120.png"
+    },
+    {
+      "id": "231633",
+      "name": "Issa Diop",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 77,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/231/633/22_120.png"
+    },
+    {
+      "id": "194794",
+      "name": "Andriy Yarmolenko",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 76,
+      "nationality": "Ukraine",
+      "photoUrl": "https://cdn.sofifa.net/players/194/794/22_120.png"
+    },
+    {
+      "id": "205346",
+      "name": "Ryan Fredericks",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 76,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/205/346/22_120.png"
+    },
+    {
+      "id": "152879",
+      "name": "Mark Noble",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 75,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/152/879/22_120.png"
+    },
+    {
+      "id": "169697",
+      "name": "Darren Randolph",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 75,
+      "nationality": "Republic of Ireland",
+      "photoUrl": "https://cdn.sofifa.net/players/169/697/22_120.png"
+    },
+    {
+      "id": "247028",
+      "name": "Alex Král",
+      "position": "CDM",
+      "positionGroup": "MID",
+      "rating": 75,
+      "nationality": "Czech Republic",
+      "photoUrl": "https://cdn.sofifa.net/players/247/028/22_120.png"
+    },
+    {
+      "id": "176285",
+      "name": "Winston Wiremu Reid",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 72,
+      "nationality": "New Zealand",
+      "photoUrl": "https://cdn.sofifa.net/players/176/285/22_120.png"
+    },
+    {
+      "id": "241842",
+      "name": "Benjamin Johnson",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 68,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/241/842/22_120.png"
+    },
+    {
+      "id": "116314",
+      "name": "David Edward Martin",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 65,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/116/314/22_120.png"
+    },
+    {
+      "id": "253729",
+      "name": "Armstrong Okoflex",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 59,
+      "nationality": "Republic of Ireland",
+      "photoUrl": "https://cdn.sofifa.net/players/253/729/22_120.png"
+    },
+    {
+      "id": "258805",
+      "name": "Harrison Ashby",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 59,
+      "nationality": "Scotland",
+      "photoUrl": "https://cdn.sofifa.net/players/258/805/22_120.png"
+    },
+    {
+      "id": "240867",
+      "name": "Ajibola Alese",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 57,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/240/867/22_120.png"
+    },
+    {
+      "id": "261640",
+      "name": "Jamal Baptiste",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 57,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/261/640/22_120.png"
+    },
+    {
+      "id": "234571",
+      "name": "Mésaque Geremias Djú",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 56,
+      "nationality": "Portugal",
+      "photoUrl": "https://cdn.sofifa.net/players/234/571/22_120.png"
+    },
+    {
+      "id": "248473",
+      "name": "Pierre-Emmanuel Ekwah Elimby",
+      "position": "CDM",
+      "positionGroup": "MID",
+      "rating": 56,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/248/473/22_120.png"
+    },
+    {
+      "id": "247622",
+      "name": "Bernardo Costa da Rosa",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 55,
+      "nationality": "Brazil",
+      "photoUrl": "https://cdn.sofifa.net/players/247/622/22_120.png"
+    },
+    {
+      "id": "251516",
+      "name": "Ossama Ashley",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 52,
+      "nationality": "England",
+      "photoUrl": "https://cdn.sofifa.net/players/251/516/22_120.png"
+    }
+  ],
+  "stats": {
+    "min": 52,
+    "max": 82,
+    "mean": 72.18181818181819,
+    "samples": []
+  }
+}
