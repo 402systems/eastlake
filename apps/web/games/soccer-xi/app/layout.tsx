@@ -6,10 +6,14 @@ export const metadata: Metadata = {
   description: 'Build the perfect historical squad',
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
-      <body className="bg-slate-950 min-h-screen antialiased">{children}</body>
+      <body className="min-h-screen bg-slate-950 antialiased">{children}</body>
     </html>
   );
 }

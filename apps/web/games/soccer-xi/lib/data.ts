@@ -6,7 +6,10 @@ export async function fetchClubs(): Promise<Club[]> {
   return res.json();
 }
 
-export async function fetchSquad(clubId: string, era: string): Promise<Squad | null> {
+export async function fetchSquad(
+  clubId: string,
+  era: string
+): Promise<Squad | null> {
   const res = await fetch(`/data/squads/${clubId}_${era}.json`);
   if (!res.ok) return null;
   return res.json();
@@ -18,7 +21,10 @@ export async function fetchNations(): Promise<Nation[]> {
   return res.json();
 }
 
-export async function fetchNationSquad(nationId: string, era: string): Promise<Squad | null> {
+export async function fetchNationSquad(
+  nationId: string,
+  era: string
+): Promise<Squad | null> {
   const res = await fetch(`/data/nations/${nationId}_${era}.json`);
   if (!res.ok) return null;
   return res.json();

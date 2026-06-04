@@ -3,7 +3,7 @@ import { FORMATION_SLOTS } from './constants';
 
 export interface ScoreResult {
   avgRating: number;
-  percentile: number;  // 0-100
+  percentile: number; // 0-100
   maxPossibleAvg: number;
   minPossibleAvg: number;
   slotScores: Record<string, { rating: number; rank: number; total: number }>;
@@ -25,7 +25,12 @@ export function scoreLineup(lineup: Lineup, squad: Squad): ScoreResult {
   let scoredSlots = 0;
 
   // Build per-group sorted rating lists for ranking
-  const byGroup: Record<string, number[]> = { GK: [], DEF: [], MID: [], FWD: [] };
+  const byGroup: Record<string, number[]> = {
+    GK: [],
+    DEF: [],
+    MID: [],
+    FWD: [],
+  };
   for (const p of squad.players) {
     const g = p.positionGroup;
     if (byGroup[g]) byGroup[g].push(p.rating);
@@ -56,19 +61,26 @@ export function scoreLineup(lineup: Lineup, squad: Squad): ScoreResult {
   }
 
   const avgRating = filledCount > 0 ? totalRating / filledCount : 0;
-  const percentile = scoredSlots > 0 ? Math.round(totalPercentile / scoredSlots) : 0;
+  const percentile =
+    scoredSlots > 0 ? Math.round(totalPercentile / scoredSlots) : 0;
 
   // Best/worst possible: top/bottom N in each group
   const maxAvg = computeGroupAvg(byGroup, [1, 4, 3, 3], 'top');
   const minAvg = computeGroupAvg(byGroup, [1, 4, 3, 3], 'bottom');
 
-  return { avgRating, percentile, maxPossibleAvg: maxAvg, minPossibleAvg: minAvg, slotScores };
+  return {
+    avgRating,
+    percentile,
+    maxPossibleAvg: maxAvg,
+    minPossibleAvg: minAvg,
+    slotScores,
+  };
 }
 
 function computeGroupAvg(
   byGroup: Record<string, number[]>,
   counts: [number, number, number, number],
-  mode: 'top' | 'bottom',
+  mode: 'top' | 'bottom'
 ): number {
   const groups: Array<[string, number]> = [
     ['GK', counts[0]],

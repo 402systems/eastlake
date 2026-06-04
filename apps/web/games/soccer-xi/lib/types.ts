@@ -1,4 +1,9 @@
-export type League = 'Premier League' | 'La Liga' | 'Bundesliga' | 'Serie A' | 'Ligue 1';
+export type League =
+  | 'Premier League'
+  | 'La Liga'
+  | 'Bundesliga'
+  | 'Serie A'
+  | 'Ligue 1';
 
 export type PositionGroup = 'GK' | 'DEF' | 'MID' | 'FWD';
 

@@ -25,30 +25,37 @@ const GROUP_EMPTY: Record<string, string> = {
   FWD: 'border-red-400 text-red-300',
 };
 
-export function PositionSlot({ slot, player, onClick, highlight, blind, compact }: Props) {
+export function PositionSlot({
+  slot,
+  player,
+  onClick,
+  highlight,
+  blind,
+  compact,
+}: Props) {
   const filled = !!player;
 
   if (compact) {
     return (
       <button
         onClick={onClick}
-        className={`
-          relative flex flex-col items-center justify-center
-          w-12 h-14 rounded-md border transition-all duration-150
-          cursor-pointer select-none text-center
-          ${filled
+        className={`relative flex h-14 w-12 cursor-pointer flex-col items-center justify-center rounded-md border text-center transition-all duration-150 select-none ${
+          filled
             ? `${GROUP_COLORS[slot.positionGroup]} border-transparent shadow`
             : `bg-white/5 ${GROUP_EMPTY[slot.positionGroup]} border-dashed`
-          }
-        `}
+        } `}
       >
-        <span className="text-[8px] font-bold uppercase tracking-wider opacity-70 leading-none mb-0.5">
+        <span className="mb-0.5 text-[8px] leading-none font-bold tracking-wider uppercase opacity-70">
           {slot.label}
         </span>
         {filled ? (
           <>
-            {!blind && <span className="text-sm font-black leading-none">{player!.rating}</span>}
-            <span className="text-[7px] font-semibold px-0.5 leading-tight line-clamp-1 w-full text-center">
+            {!blind && (
+              <span className="text-sm leading-none font-black">
+                {player!.rating}
+              </span>
+            )}
+            <span className="line-clamp-1 w-full px-0.5 text-center text-[7px] leading-tight font-semibold">
               {player!.name.split(' ').pop()}
             </span>
           </>
@@ -62,24 +69,23 @@ export function PositionSlot({ slot, player, onClick, highlight, blind, compact 
   return (
     <button
       onClick={onClick}
-      className={`
-        relative flex flex-col items-center justify-center
-        w-20 h-24 rounded-lg border-2 transition-all duration-150
-        cursor-pointer select-none
-        ${filled
+      className={`relative flex h-24 w-20 cursor-pointer flex-col items-center justify-center rounded-lg border-2 transition-all duration-150 select-none ${
+        filled
           ? `${GROUP_COLORS[slot.positionGroup]} border-transparent shadow-lg`
           : `bg-white/5 ${GROUP_EMPTY[slot.positionGroup]} border-dashed hover:bg-white/10`
-        }
-        ${highlight ? 'ring-2 ring-white ring-offset-1 ring-offset-transparent' : ''}
-      `}
+      } ${highlight ? 'ring-2 ring-white ring-offset-1 ring-offset-transparent' : ''} `}
     >
-      <span className="text-[10px] font-bold uppercase tracking-widest opacity-70 mb-1">
+      <span className="mb-1 text-[10px] font-bold tracking-widest uppercase opacity-70">
         {slot.label}
       </span>
       {filled ? (
         <>
-          {!blind && <span className="text-2xl font-black leading-none">{player!.rating}</span>}
-          <span className="text-[9px] font-semibold mt-1 px-1 text-center leading-tight line-clamp-2">
+          {!blind && (
+            <span className="text-2xl leading-none font-black">
+              {player!.rating}
+            </span>
+          )}
+          <span className="mt-1 line-clamp-2 px-1 text-center text-[9px] leading-tight font-semibold">
             {player!.name.split(' ').slice(-1)[0]}
           </span>
         </>

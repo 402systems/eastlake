@@ -34,7 +34,9 @@ export function GameClient({ clubId, era }: Props) {
         setClub(found);
         setSquad(squadData);
         if (!squadData || squadData.players.length === 0) {
-          setError('No player data for this era yet. Run the data pipeline first.');
+          setError(
+            'No player data for this era yet. Run the data pipeline first.'
+          );
         }
       })
       .catch(() => setError('Failed to load data.'))
@@ -42,8 +44,13 @@ export function GameClient({ clubId, era }: Props) {
   }, [clubId, era]);
 
   const usedPlayerIds = useMemo(
-    () => new Set(Object.values(lineup).filter(Boolean).map((p) => p!.id)),
-    [lineup],
+    () =>
+      new Set(
+        Object.values(lineup)
+          .filter(Boolean)
+          .map((p) => p!.id)
+      ),
+    [lineup]
   );
 
   const allFilled = FORMATION_SLOTS.every((s) => lineup[s.id]);
@@ -75,7 +82,7 @@ export function GameClient({ clubId, era }: Props) {
 
   if (loading) {
     return (
-      <main className="min-h-screen flex items-center justify-center">
+      <main className="flex min-h-screen items-center justify-center">
         <p className="text-slate-400">Loading squad...</p>
       </main>
     );
@@ -83,11 +90,11 @@ export function GameClient({ clubId, era }: Props) {
 
   if (error) {
     return (
-      <main className="min-h-screen flex flex-col items-center justify-center gap-4 px-4">
-        <p className="text-red-400 text-center">{error}</p>
+      <main className="flex min-h-screen flex-col items-center justify-center gap-4 px-4">
+        <p className="text-center text-red-400">{error}</p>
         <button
           onClick={() => router.push('/')}
-          className="text-slate-400 hover:text-white text-sm"
+          className="text-sm text-slate-400 hover:text-white"
         >
           ← Back to home
         </button>
@@ -98,18 +105,20 @@ export function GameClient({ clubId, era }: Props) {
   const score = submitted && squad ? scoreLineup(lineup, squad) : null;
 
   return (
-    <main className="min-h-screen flex flex-col items-center px-4 py-8 max-w-lg mx-auto">
+    <main className="mx-auto flex min-h-screen max-w-lg flex-col items-center px-4 py-8">
       {/* Header */}
-      <div className="w-full flex items-center justify-between mb-6">
+      <div className="mb-6 flex w-full items-center justify-between">
         <button
           onClick={() => router.push('/')}
-          className="text-slate-500 hover:text-white text-sm transition-colors"
+          className="text-sm text-slate-500 transition-colors hover:text-white"
         >
           ← Home
         </button>
         <div className="text-center">
-          <p className="text-white font-black text-lg">{club?.name ?? clubId}</p>
-          <p className="text-slate-400 text-xs">{eraLabel} · 4-3-3</p>
+          <p className="text-lg font-black text-white">
+            {club?.name ?? clubId}
+          </p>
+          <p className="text-xs text-slate-400">{eraLabel} · 4-3-3</p>
         </div>
         <div className="w-12" />
       </div>
@@ -117,26 +126,30 @@ export function GameClient({ clubId, era }: Props) {
       {!submitted ? (
         <>
           {/* Fill counter */}
-          <div className="flex items-center gap-2 mb-4">
+          <div className="mb-4 flex items-center gap-2">
             {FORMATION_SLOTS.map((slot) => (
               <div
                 key={slot.id}
-                className={`w-2 h-2 rounded-full transition-colors ${
+                className={`h-2 w-2 rounded-full transition-colors ${
                   lineup[slot.id] ? 'bg-green-400' : 'bg-slate-700'
                 }`}
               />
             ))}
-            <span className="text-slate-500 text-xs ml-1">
+            <span className="ml-1 text-xs text-slate-500">
               {Object.keys(lineup).length}/11
             </span>
           </div>
 
           {/* Formation */}
           <div className="w-full">
-            <Formation lineup={lineup} onSlotClick={handleSlotClick} activeSlotId={activeSlot?.id} />
+            <Formation
+              lineup={lineup}
+              onSlotClick={handleSlotClick}
+              activeSlotId={activeSlot?.id}
+            />
           </div>
 
-          <p className="text-slate-500 text-xs mt-3 text-center">
+          <p className="mt-3 text-center text-xs text-slate-500">
             Tap a slot to pick · tap again to clear
           </p>
 
@@ -144,16 +157,15 @@ export function GameClient({ clubId, era }: Props) {
           <button
             disabled={!allFilled}
             onClick={() => setSubmitted(true)}
-            className={`
-              mt-6 w-full py-4 rounded-xl font-black text-lg transition-all
-              ${
-                allFilled
-                  ? 'bg-green-500 text-white hover:bg-green-400 shadow-lg shadow-green-900/40'
-                  : 'bg-slate-800 text-slate-600 cursor-not-allowed'
-              }
-            `}
+            className={`mt-6 w-full rounded-xl py-4 text-lg font-black transition-all ${
+              allFilled
+                ? 'bg-green-500 text-white shadow-lg shadow-green-900/40 hover:bg-green-400'
+                : 'cursor-not-allowed bg-slate-800 text-slate-600'
+            } `}
           >
-            {allFilled ? 'Submit Squad →' : `Pick ${11 - Object.keys(lineup).length} more`}
+            {allFilled
+              ? 'Submit Squad →'
+              : `Pick ${11 - Object.keys(lineup).length} more`}
           </button>
         </>
       ) : (
