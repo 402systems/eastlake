@@ -23,7 +23,8 @@ interface AppTile {
 const apps: AppTile[] = [
   {
     name: 'Soccer XI',
-    description: 'Draft the perfect squad — 11 random clubs, pick one player each, score by percentile',
+    description:
+      'Draft the perfect squad — 11 random clubs, pick one player each, score by percentile',
     href: '/games/soccer-xi',
     icon: <Trophy className="h-8 w-8" />,
     gradient: 'from-green-500 to-emerald-600',
