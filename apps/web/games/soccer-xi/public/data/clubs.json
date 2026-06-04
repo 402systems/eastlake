@@ -1,0 +1,302 @@
+[
+  {
+    "id": "arsenal",
+    "name": "Arsenal",
+    "league": "Premier League",
+    "color": "#EF0107"
+  },
+  {
+    "id": "aston-villa",
+    "name": "Aston Villa",
+    "league": "Premier League",
+    "color": "#95BFE5"
+  },
+  {
+    "id": "chelsea",
+    "name": "Chelsea",
+    "league": "Premier League",
+    "color": "#034694"
+  },
+  {
+    "id": "everton",
+    "name": "Everton",
+    "league": "Premier League",
+    "color": "#003399"
+  },
+  {
+    "id": "liverpool",
+    "name": "Liverpool",
+    "league": "Premier League",
+    "color": "#C8102E"
+  },
+  {
+    "id": "man-city",
+    "name": "Manchester City",
+    "league": "Premier League",
+    "color": "#6CABDD"
+  },
+  {
+    "id": "man-utd",
+    "name": "Manchester United",
+    "league": "Premier League",
+    "color": "#DA291C"
+  },
+  {
+    "id": "newcastle",
+    "name": "Newcastle United",
+    "league": "Premier League",
+    "color": "#241F20"
+  },
+  {
+    "id": "tottenham",
+    "name": "Tottenham Hotspur",
+    "league": "Premier League",
+    "color": "#132257"
+  },
+  {
+    "id": "west-ham",
+    "name": "West Ham United",
+    "league": "Premier League",
+    "color": "#7A263A"
+  },
+  {
+    "id": "real-madrid",
+    "name": "Real Madrid",
+    "league": "La Liga",
+    "color": "#FEBE10"
+  },
+  {
+    "id": "barcelona",
+    "name": "FC Barcelona",
+    "league": "La Liga",
+    "color": "#A50044"
+  },
+  {
+    "id": "atletico-madrid",
+    "name": "Atlético Madrid",
+    "league": "La Liga",
+    "color": "#CB3524"
+  },
+  {
+    "id": "sevilla",
+    "name": "Sevilla FC",
+    "league": "La Liga",
+    "color": "#D4AF37"
+  },
+  {
+    "id": "valencia",
+    "name": "Valencia CF",
+    "league": "La Liga",
+    "color": "#FF7900"
+  },
+  {
+    "id": "athletic-bilbao",
+    "name": "Athletic Club",
+    "league": "La Liga",
+    "color": "#EE2523"
+  },
+  {
+    "id": "real-sociedad",
+    "name": "Real Sociedad",
+    "league": "La Liga",
+    "color": "#004C9C"
+  },
+  {
+    "id": "villarreal",
+    "name": "Villarreal CF",
+    "league": "La Liga",
+    "color": "#FFE000"
+  },
+  {
+    "id": "real-betis",
+    "name": "Real Betis",
+    "league": "La Liga",
+    "color": "#00954C"
+  },
+  {
+    "id": "celta-vigo",
+    "name": "Celta Vigo",
+    "league": "La Liga",
+    "color": "#6BB4E6"
+  },
+  {
+    "id": "bayern",
+    "name": "FC Bayern München",
+    "league": "Bundesliga",
+    "color": "#DC052D"
+  },
+  {
+    "id": "dortmund",
+    "name": "Borussia Dortmund",
+    "league": "Bundesliga",
+    "color": "#FDE100"
+  },
+  {
+    "id": "leverkusen",
+    "name": "Bayer Leverkusen",
+    "league": "Bundesliga",
+    "color": "#E32221"
+  },
+  {
+    "id": "rb-leipzig",
+    "name": "RB Leipzig",
+    "league": "Bundesliga",
+    "color": "#DD0741"
+  },
+  {
+    "id": "gladbach",
+    "name": "Borussia M'gladbach",
+    "league": "Bundesliga",
+    "color": "#000000"
+  },
+  {
+    "id": "schalke",
+    "name": "Schalke 04",
+    "league": "Bundesliga",
+    "color": "#004D9D"
+  },
+  {
+    "id": "frankfurt",
+    "name": "Eintracht Frankfurt",
+    "league": "Bundesliga",
+    "color": "#E1000F"
+  },
+  {
+    "id": "werder-bremen",
+    "name": "Werder Bremen",
+    "league": "Bundesliga",
+    "color": "#1D9053"
+  },
+  {
+    "id": "stuttgart",
+    "name": "VfB Stuttgart",
+    "league": "Bundesliga",
+    "color": "#E32219"
+  },
+  {
+    "id": "wolfsburg",
+    "name": "VfL Wolfsburg",
+    "league": "Bundesliga",
+    "color": "#65B32E"
+  },
+  {
+    "id": "juventus",
+    "name": "Juventus",
+    "league": "Serie A",
+    "color": "#000000"
+  },
+  {
+    "id": "inter",
+    "name": "Inter Milan",
+    "league": "Serie A",
+    "color": "#010E80"
+  },
+  {
+    "id": "ac-milan",
+    "name": "AC Milan",
+    "league": "Serie A",
+    "color": "#FB090B"
+  },
+  {
+    "id": "napoli",
+    "name": "SSC Napoli",
+    "league": "Serie A",
+    "color": "#087FC1"
+  },
+  {
+    "id": "roma",
+    "name": "AS Roma",
+    "league": "Serie A",
+    "color": "#8E1F2F"
+  },
+  {
+    "id": "lazio",
+    "name": "SS Lazio",
+    "league": "Serie A",
+    "color": "#87D8F7"
+  },
+  {
+    "id": "atalanta",
+    "name": "Atalanta BC",
+    "league": "Serie A",
+    "color": "#1E3F7A"
+  },
+  {
+    "id": "fiorentina",
+    "name": "Fiorentina",
+    "league": "Serie A",
+    "color": "#4C2D8E"
+  },
+  {
+    "id": "torino",
+    "name": "Torino FC",
+    "league": "Serie A",
+    "color": "#8B1C24"
+  },
+  {
+    "id": "parma",
+    "name": "Parma Calcio",
+    "league": "Serie A",
+    "color": "#FFDD00"
+  },
+  {
+    "id": "psg",
+    "name": "Paris Saint-Germain",
+    "league": "Ligue 1",
+    "color": "#004170"
+  },
+  {
+    "id": "marseille",
+    "name": "Olympique Marseille",
+    "league": "Ligue 1",
+    "color": "#2FAEE0"
+  },
+  {
+    "id": "lyon",
+    "name": "Olympique Lyonnais",
+    "league": "Ligue 1",
+    "color": "#FF6600"
+  },
+  {
+    "id": "monaco",
+    "name": "AS Monaco",
+    "league": "Ligue 1",
+    "color": "#E8192C"
+  },
+  {
+    "id": "lille",
+    "name": "LOSC Lille",
+    "league": "Ligue 1",
+    "color": "#DA291C"
+  },
+  {
+    "id": "nice",
+    "name": "OGC Nice",
+    "league": "Ligue 1",
+    "color": "#000000"
+  },
+  {
+    "id": "rennes",
+    "name": "Stade Rennais",
+    "league": "Ligue 1",
+    "color": "#D60812"
+  },
+  {
+    "id": "bordeaux",
+    "name": "Girondins Bordeaux",
+    "league": "Ligue 1",
+    "color": "#003DA5"
+  },
+  {
+    "id": "saint-etienne",
+    "name": "AS Saint-Étienne",
+    "league": "Ligue 1",
+    "color": "#007236"
+  },
+  {
+    "id": "lens",
+    "name": "RC Lens",
+    "league": "Ligue 1",
+    "color": "#E30613"
+  }
+]

@@ -1,0 +1,220 @@
+{
+  "clubId": "russia",
+  "era": "2019",
+  "label": "2019",
+  "players": [
+    {
+      "id": "187491",
+      "name": "Fedor Smolov",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 81,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/187/491/19_120.png"
+    },
+    {
+      "id": "193525",
+      "name": "Mário Figueira Fernandes",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 81,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/193/525/19_120.png"
+    },
+    {
+      "id": "148119",
+      "name": "Igor Akinfeev",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 80,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/148/119/19_120.png"
+    },
+    {
+      "id": "187735",
+      "name": "Alan Dzagoev",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 80,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/187/735/19_120.png"
+    },
+    {
+      "id": "187347",
+      "name": "Igor Smolnikov",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 79,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/187/347/19_120.png"
+    },
+    {
+      "id": "213160",
+      "name": "Roman Zobnin",
+      "position": "LDM",
+      "positionGroup": "MID",
+      "rating": 79,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/213/160/19_120.png"
+    },
+    {
+      "id": "225663",
+      "name": "Aleksandr Golovin",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 79,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/225/663/19_120.png"
+    },
+    {
+      "id": "229909",
+      "name": "Andrey Lunev",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 79,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/229/909/19_120.png"
+    },
+    {
+      "id": "147621",
+      "name": "Aleksandr Samedov",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 78,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/147/621/19_120.png"
+    },
+    {
+      "id": "187607",
+      "name": "Artem Dzyuba",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 78,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/187/607/19_120.png"
+    },
+    {
+      "id": "206225",
+      "name": "Denis Cheryshev",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 77,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/206/225/19_120.png"
+    },
+    {
+      "id": "214092",
+      "name": "Aleksey Miranchuk",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 77,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/214/092/19_120.png"
+    },
+    {
+      "id": "223058",
+      "name": "Daler Kuzyaev",
+      "position": "RDM",
+      "positionGroup": "MID",
+      "rating": 77,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/223/058/19_120.png"
+    },
+    {
+      "id": "154950",
+      "name": "Yuriy Zhirkov",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 76,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/154/950/19_120.png"
+    },
+    {
+      "id": "216335",
+      "name": "Yuriy Gazinskiy",
+      "position": "CDM",
+      "positionGroup": "MID",
+      "rating": 75,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/216/335/19_120.png"
+    },
+    {
+      "id": "203629",
+      "name": "Aleksandr Erokhin",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 74,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/203/629/19_120.png"
+    },
+    {
+      "id": "210468",
+      "name": "Ilya Kutepov",
+      "position": "RCB",
+      "positionGroup": "DEF",
+      "rating": 74,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/210/468/19_120.png"
+    },
+    {
+      "id": "211592",
+      "name": "Andrey Semenov",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 74,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/211/592/19_120.png"
+    },
+    {
+      "id": "181795",
+      "name": "Fedor Kudryashov",
+      "position": "LCB",
+      "positionGroup": "DEF",
+      "rating": 73,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/181/795/19_120.png"
+    },
+    {
+      "id": "187492",
+      "name": "Dmitriy Kombarov",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 73,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/187/492/19_120.png"
+    },
+    {
+      "id": "222368",
+      "name": "Anton Miranchuk",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 73,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/222/368/19_120.png"
+    },
+    {
+      "id": "147579",
+      "name": "Vladimir Gabulov",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 72,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/147/579/19_120.png"
+    },
+    {
+      "id": "187415",
+      "name": "Vladimir Granat",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 72,
+      "nationality": "Russia",
+      "photoUrl": "https://cdn.sofifa.net/players/187/415/19_120.png"
+    }
+  ],
+  "stats": {
+    "min": 72,
+    "max": 81,
+    "mean": 76.56521739130434,
+    "samples": []
+  }
+}

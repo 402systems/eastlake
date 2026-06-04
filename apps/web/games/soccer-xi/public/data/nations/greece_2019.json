@@ -1,0 +1,220 @@
+{
+  "clubId": "greece",
+  "era": "2019",
+  "label": "2019",
+  "players": [
+    {
+      "id": "192774",
+      "name": "Konstantinos Manolas",
+      "position": "LCB",
+      "positionGroup": "DEF",
+      "rating": 85,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/192/774/19_120.png"
+    },
+    {
+      "id": "172879",
+      "name": "Sokratis Papastathopoulos",
+      "position": "RCB",
+      "positionGroup": "DEF",
+      "rating": 84,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/172/879/19_120.png"
+    },
+    {
+      "id": "183497",
+      "name": "Orestis Spyridon Karnezis",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 79,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/183/497/19_120.png"
+    },
+    {
+      "id": "183483",
+      "name": "Konstantinos Mitroglou",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 78,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/183/483/19_120.png"
+    },
+    {
+      "id": "184477",
+      "name": "Kyriakos Papadopoulos",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 78,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/184/477/19_120.png"
+    },
+    {
+      "id": "178115",
+      "name": "Lazaros Christodoulopoulos",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 76,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/178/115/19_120.png"
+    },
+    {
+      "id": "203980",
+      "name": "Konstantinos Fortounis",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 76,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/203/980/19_120.png"
+    },
+    {
+      "id": "208053",
+      "name": "Dimitrios Pelkas",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 76,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/208/053/19_120.png"
+    },
+    {
+      "id": "208230",
+      "name": "Andreas Samaris",
+      "position": "LDM",
+      "positionGroup": "MID",
+      "rating": 76,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/208/230/19_120.png"
+    },
+    {
+      "id": "168621",
+      "name": "José Carlos Gonçalves Rodrigues",
+      "position": "RDM",
+      "positionGroup": "MID",
+      "rating": 75,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/168/621/19_120.png"
+    },
+    {
+      "id": "202151",
+      "name": "Konstantinos Stafylidis",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 75,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/202/151/19_120.png"
+    },
+    {
+      "id": "234986",
+      "name": "Panagiotis Retsos",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 75,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/234/986/19_120.png"
+    },
+    {
+      "id": "190084",
+      "name": "Panagiotis Tachtsidis",
+      "position": "CDM",
+      "positionGroup": "MID",
+      "rating": 74,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/190/084/19_120.png"
+    },
+    {
+      "id": "181459",
+      "name": "Vassilis Torosidis",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 73,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/181/459/19_120.png"
+    },
+    {
+      "id": "205878",
+      "name": "Stefanos Kapino",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 73,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/205/878/19_120.png"
+    },
+    {
+      "id": "210327",
+      "name": "Andreas Gianniotis",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 73,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/210/327/19_120.png"
+    },
+    {
+      "id": "227732",
+      "name": "Anastasios Donis",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 73,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/227/732/19_120.png"
+    },
+    {
+      "id": "208250",
+      "name": "Anastasios Bakasetas",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 72,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/208/250/19_120.png"
+    },
+    {
+      "id": "210947",
+      "name": "Nikolaos Karelis",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 72,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/210/947/19_120.png"
+    },
+    {
+      "id": "226075",
+      "name": "Michalis Bakakis",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 72,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/226/075/19_120.png"
+    },
+    {
+      "id": "142329",
+      "name": "Alexandros Tziolis",
+      "position": "CDM",
+      "positionGroup": "MID",
+      "rating": 71,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/142/329/19_120.png"
+    },
+    {
+      "id": "199060",
+      "name": "Georgios Tzavellas",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 71,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/199/060/19_120.png"
+    },
+    {
+      "id": "207684",
+      "name": "Giannis Gianniotas",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 70,
+      "nationality": "Greece",
+      "photoUrl": "https://cdn.sofifa.net/players/207/684/19_120.png"
+    }
+  ],
+  "stats": {
+    "min": 70,
+    "max": 85,
+    "mean": 75.08695652173913,
+    "samples": []
+  }
+}

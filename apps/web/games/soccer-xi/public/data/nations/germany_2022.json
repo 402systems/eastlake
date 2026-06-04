@@ -1,0 +1,220 @@
+{
+  "clubId": "germany",
+  "era": "2022",
+  "label": "2022",
+  "players": [
+    {
+      "id": "167495",
+      "name": "Manuel Peter Neuer",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 90,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/167/495/22_120.png"
+    },
+    {
+      "id": "212622",
+      "name": "Joshua Walter Kimmich",
+      "position": "RDM",
+      "positionGroup": "MID",
+      "rating": 89,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/212/622/22_120.png"
+    },
+    {
+      "id": "209658",
+      "name": "Leon Christoph Goretzka",
+      "position": "LDM",
+      "positionGroup": "MID",
+      "rating": 87,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/209/658/22_120.png"
+    },
+    {
+      "id": "186942",
+      "name": "İlkay Gündoğan",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 85,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/186/942/22_120.png"
+    },
+    {
+      "id": "206113",
+      "name": "Serge David Gnabry",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 85,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/206/113/22_120.png"
+    },
+    {
+      "id": "212188",
+      "name": "Timo Werner",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 84,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/212/188/22_120.png"
+    },
+    {
+      "id": "222492",
+      "name": "Leroy Aziz Sané",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 84,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/222/492/22_120.png"
+    },
+    {
+      "id": "235790",
+      "name": "Kai Lukas Havertz",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 84,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/235/790/22_120.png"
+    },
+    {
+      "id": "192563",
+      "name": "Bernd Leno",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 83,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/192/563/22_120.png"
+    },
+    {
+      "id": "205452",
+      "name": "Antonio Rüdiger",
+      "position": "LCB",
+      "positionGroup": "DEF",
+      "rating": 83,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/205/452/22_120.png"
+    },
+    {
+      "id": "223697",
+      "name": "Robin Everardus Gosens",
+      "position": "LWB",
+      "positionGroup": "DEF",
+      "rating": 83,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/223/697/22_120.png"
+    },
+    {
+      "id": "188943",
+      "name": "Kevin Trapp",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 82,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/188/943/22_120.png"
+    },
+    {
+      "id": "212190",
+      "name": "Niklas Süle",
+      "position": "RCB",
+      "positionGroup": "DEF",
+      "rating": 82,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/212/190/22_120.png"
+    },
+    {
+      "id": "234943",
+      "name": "Florian Christian Neuhaus",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 82,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/234/943/22_120.png"
+    },
+    {
+      "id": "222331",
+      "name": "Lukas Manuel Klostermann",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 80,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/222/331/22_120.png"
+    },
+    {
+      "id": "210324",
+      "name": "Jonas Hofmann",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 79,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/210/324/22_120.png"
+    },
+    {
+      "id": "218339",
+      "name": "Mahmoud Dahoud",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 79,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/218/339/22_120.png"
+    },
+    {
+      "id": "256630",
+      "name": "Florian Richard Wirtz",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 78,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/256/630/22_120.png"
+    },
+    {
+      "id": "226229",
+      "name": "Jan Thilo Kehrer",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 76,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/226/229/22_120.png"
+    },
+    {
+      "id": "256790",
+      "name": "Jamal Musiala",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 75,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/256/790/22_120.png"
+    },
+    {
+      "id": "236703",
+      "name": "David Raum",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 73,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/236/703/22_120.png"
+    },
+    {
+      "id": "247819",
+      "name": "Nico Schlotterbeck",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 73,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/247/819/22_120.png"
+    },
+    {
+      "id": "251852",
+      "name": "Karim-David Adeyemi",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 71,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/251/852/22_120.png"
+    }
+  ],
+  "stats": {
+    "min": 71,
+    "max": 90,
+    "mean": 81.17391304347827,
+    "samples": []
+  }
+}

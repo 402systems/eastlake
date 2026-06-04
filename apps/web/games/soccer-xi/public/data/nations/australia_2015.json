@@ -1,0 +1,220 @@
+{
+  "clubId": "australia",
+  "era": "2015",
+  "label": "2015",
+  "players": [
+    {
+      "id": "181483",
+      "name": "Mile Jedinák",
+      "position": "LDM",
+      "positionGroup": "MID",
+      "rating": 75,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/181/483/15_120.png"
+    },
+    {
+      "id": "51412",
+      "name": "Tim Cahill",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 74,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/051/412/15_120.png"
+    },
+    {
+      "id": "182440",
+      "name": "Robbie Kruse",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 74,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/182/440/15_120.png"
+    },
+    {
+      "id": "199005",
+      "name": "Mathew David Ryan",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 73,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/199/005/15_120.png"
+    },
+    {
+      "id": "182435",
+      "name": "Mitchell James Langerak",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 71,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/182/435/15_120.png"
+    },
+    {
+      "id": "51813",
+      "name": "Mark Bresciano",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 70,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/051/813/15_120.png"
+    },
+    {
+      "id": "183545",
+      "name": "Christopher Herd",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 70,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/183/545/15_120.png"
+    },
+    {
+      "id": "188071",
+      "name": "Thomas Oar",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 70,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/188/071/15_120.png"
+    },
+    {
+      "id": "195033",
+      "name": "Mathew Allan Leckie",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 70,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/195/033/15_120.png"
+    },
+    {
+      "id": "176992",
+      "name": "Mark Milligan",
+      "position": "RDM",
+      "positionGroup": "MID",
+      "rating": 68,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/176/992/15_120.png"
+    },
+    {
+      "id": "160295",
+      "name": "Eugene Galeković",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 67,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/160/295/15_120.png"
+    },
+    {
+      "id": "179840",
+      "name": "Matthew Špiranović",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 67,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/179/840/15_120.png"
+    },
+    {
+      "id": "197831",
+      "name": "Jason Davidson",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 67,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/197/831/15_120.png"
+    },
+    {
+      "id": "181479",
+      "name": "Alex Wilkinson",
+      "position": "RCB",
+      "positionGroup": "DEF",
+      "rating": 66,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/181/479/15_120.png"
+    },
+    {
+      "id": "199000",
+      "name": "Trent Lucas Sainsbury",
+      "position": "LCB",
+      "positionGroup": "DEF",
+      "rating": 66,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/199/000/15_120.png"
+    },
+    {
+      "id": "198330",
+      "name": "Ivan Franjić",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 65,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/198/330/15_120.png"
+    },
+    {
+      "id": "203309",
+      "name": "Benjamin Halloran",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 65,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/203/309/15_120.png"
+    },
+    {
+      "id": "213321",
+      "name": "Tomi Jurić",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 65,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/213/321/15_120.png"
+    },
+    {
+      "id": "149270",
+      "name": "Carl Valeri",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 64,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/149/270/15_120.png"
+    },
+    {
+      "id": "198810",
+      "name": "Bailey Colin Wright",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 64,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/198/810/15_120.png"
+    },
+    {
+      "id": "205347",
+      "name": "Massimo Corey Luongo",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 64,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/205/347/15_120.png"
+    },
+    {
+      "id": "203308",
+      "name": "Joshua Brillante",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 62,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/203/308/15_120.png"
+    },
+    {
+      "id": "210389",
+      "name": "Bradley Shaun Smith",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 54,
+      "nationality": "Australia",
+      "photoUrl": "https://cdn.sofifa.net/players/210/389/15_120.png"
+    }
+  ],
+  "stats": {
+    "min": 54,
+    "max": 75,
+    "mean": 67.43478260869566,
+    "samples": []
+  }
+}

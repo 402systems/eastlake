@@ -1,0 +1,117 @@
+[
+  {
+    "id": "argentina",
+    "name": "Argentina",
+    "flag": "🇦🇷"
+  },
+  {
+    "id": "brazil",
+    "name": "Brazil",
+    "flag": "🇧🇷"
+  },
+  {
+    "id": "england",
+    "name": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+  },
+  {
+    "id": "france",
+    "name": "France",
+    "flag": "🇫🇷"
+  },
+  {
+    "id": "germany",
+    "name": "Germany",
+    "flag": "🇩🇪"
+  },
+  {
+    "id": "spain",
+    "name": "Spain",
+    "flag": "🇪🇸"
+  },
+  {
+    "id": "italy",
+    "name": "Italy",
+    "flag": "🇮🇹"
+  },
+  {
+    "id": "netherlands",
+    "name": "Netherlands",
+    "flag": "🇳🇱"
+  },
+  {
+    "id": "portugal",
+    "name": "Portugal",
+    "flag": "🇵🇹"
+  },
+  {
+    "id": "belgium",
+    "name": "Belgium",
+    "flag": "🇧🇪"
+  },
+  {
+    "id": "denmark",
+    "name": "Denmark",
+    "flag": "🇩🇰"
+  },
+  {
+    "id": "sweden",
+    "name": "Sweden",
+    "flag": "🇸🇪"
+  },
+  {
+    "id": "poland",
+    "name": "Poland",
+    "flag": "🇵🇱"
+  },
+  {
+    "id": "czech-republic",
+    "name": "Czech Republic",
+    "flag": "🇨🇿"
+  },
+  {
+    "id": "russia",
+    "name": "Russia",
+    "flag": "🇷🇺"
+  },
+  {
+    "id": "greece",
+    "name": "Greece",
+    "flag": "🇬🇷"
+  },
+  {
+    "id": "austria",
+    "name": "Austria",
+    "flag": "🇦🇹"
+  },
+  {
+    "id": "scotland",
+    "name": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+  },
+  {
+    "id": "wales",
+    "name": "Wales",
+    "flag": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
+  },
+  {
+    "id": "norway",
+    "name": "Norway",
+    "flag": "🇳🇴"
+  },
+  {
+    "id": "usa",
+    "name": "United States",
+    "flag": "🇺🇸"
+  },
+  {
+    "id": "mexico",
+    "name": "Mexico",
+    "flag": "🇲🇽"
+  },
+  {
+    "id": "australia",
+    "name": "Australia",
+    "flag": "🇦🇺"
+  }
+]

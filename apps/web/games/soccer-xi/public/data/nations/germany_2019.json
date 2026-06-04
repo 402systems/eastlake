@@ -1,0 +1,220 @@
+{
+  "clubId": "germany",
+  "era": "2019",
+  "label": "2019",
+  "players": [
+    {
+      "id": "167495",
+      "name": "Manuel Peter Neuer",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 90,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/167/495/19_120.png"
+    },
+    {
+      "id": "182521",
+      "name": "Toni Kroos",
+      "position": "LDM",
+      "positionGroup": "MID",
+      "rating": 90,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/182/521/19_120.png"
+    },
+    {
+      "id": "178603",
+      "name": "Mats Hummels",
+      "position": "LCB",
+      "positionGroup": "DEF",
+      "rating": 89,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/178/603/19_120.png"
+    },
+    {
+      "id": "192448",
+      "name": "Marc-André ter Stegen",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 89,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/192/448/19_120.png"
+    },
+    {
+      "id": "183907",
+      "name": "Jérôme Boateng",
+      "position": "RCB",
+      "positionGroup": "DEF",
+      "rating": 86,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/183/907/19_120.png"
+    },
+    {
+      "id": "189596",
+      "name": "Thomas Müller",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 86,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/189/596/19_120.png"
+    },
+    {
+      "id": "222492",
+      "name": "Leroy Aziz Sané",
+      "position": "LW",
+      "positionGroup": "FWD",
+      "rating": 86,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/222/492/19_120.png"
+    },
+    {
+      "id": "179846",
+      "name": "Sami Khedira",
+      "position": "RDM",
+      "positionGroup": "MID",
+      "rating": 85,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/179/846/19_120.png"
+    },
+    {
+      "id": "188350",
+      "name": "Marco Reus",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 85,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/188/350/19_120.png"
+    },
+    {
+      "id": "212622",
+      "name": "Joshua Walter Kimmich",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 85,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/212/622/19_120.png"
+    },
+    {
+      "id": "186942",
+      "name": "İlkay Gündoğan",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 84,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/186/942/19_120.png"
+    },
+    {
+      "id": "212190",
+      "name": "Niklas Süle",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 84,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/212/190/19_120.png"
+    },
+    {
+      "id": "202166",
+      "name": "Julian Draxler",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 83,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/202/166/19_120.png"
+    },
+    {
+      "id": "209658",
+      "name": "Leon Christoph Goretzka",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 83,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/209/658/19_120.png"
+    },
+    {
+      "id": "212188",
+      "name": "Timo Werner",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 83,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/212/188/19_120.png"
+    },
+    {
+      "id": "213331",
+      "name": "Jonathan Tah",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 83,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/213/331/19_120.png"
+    },
+    {
+      "id": "212194",
+      "name": "Julian Brandt",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 82,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/212/194/19_120.png"
+    },
+    {
+      "id": "189251",
+      "name": "Sebastian Rudy",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 81,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/189/251/19_120.png"
+    },
+    {
+      "id": "205452",
+      "name": "Antonio Rüdiger",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 81,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/205/452/19_120.png"
+    },
+    {
+      "id": "188943",
+      "name": "Kevin Trapp",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 80,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/188/943/19_120.png"
+    },
+    {
+      "id": "207862",
+      "name": "Matthias Ginter",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 80,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/207/862/19_120.png"
+    },
+    {
+      "id": "208334",
+      "name": "Jonas Hector",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 79,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/208/334/19_120.png"
+    },
+    {
+      "id": "192557",
+      "name": "Marvin Plattenhardt",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 78,
+      "nationality": "Germany",
+      "photoUrl": "https://cdn.sofifa.net/players/192/557/19_120.png"
+    }
+  ],
+  "stats": {
+    "min": 78,
+    "max": 90,
+    "mean": 84.0,
+    "samples": []
+  }
+}

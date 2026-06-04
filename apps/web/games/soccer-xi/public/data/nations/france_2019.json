@@ -1,0 +1,220 @@
+{
+  "clubId": "france",
+  "era": "2019",
+  "label": "2019",
+  "players": [
+    {
+      "id": "194765",
+      "name": "Antoine Griezmann",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 89,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/194/765/19_120.png"
+    },
+    {
+      "id": "215914",
+      "name": "N'Golo Kanté",
+      "position": "LDM",
+      "positionGroup": "MID",
+      "rating": 89,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/215/914/19_120.png"
+    },
+    {
+      "id": "167948",
+      "name": "Hugo Lloris",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 88,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/167/948/19_120.png"
+    },
+    {
+      "id": "195864",
+      "name": "Paul Pogba",
+      "position": "RDM",
+      "positionGroup": "MID",
+      "rating": 88,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/195/864/19_120.png"
+    },
+    {
+      "id": "205600",
+      "name": "Samuel Yves Umtiti",
+      "position": "LCB",
+      "positionGroup": "DEF",
+      "rating": 87,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/205/600/19_120.png"
+    },
+    {
+      "id": "231747",
+      "name": "Kylian Mbappé Lottin",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 87,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/231/747/19_120.png"
+    },
+    {
+      "id": "201535",
+      "name": "Raphaël Varane",
+      "position": "RCB",
+      "positionGroup": "DEF",
+      "rating": 86,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/201/535/19_120.png"
+    },
+    {
+      "id": "170890",
+      "name": "Blaise Matuidi",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 85,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/170/890/19_120.png"
+    },
+    {
+      "id": "216594",
+      "name": "Nabil Fekir",
+      "position": "CAM",
+      "positionGroup": "MID",
+      "rating": 85,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/216/594/19_120.png"
+    },
+    {
+      "id": "204970",
+      "name": "Florian Tristan Mariano Thauvin",
+      "position": "RM",
+      "positionGroup": "MID",
+      "rating": 84,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/204/970/19_120.png"
+    },
+    {
+      "id": "163705",
+      "name": "Steve Mandanda",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 83,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/163/705/19_120.png"
+    },
+    {
+      "id": "213565",
+      "name": "Thomas Lemar",
+      "position": "LM",
+      "positionGroup": "MID",
+      "rating": 83,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/213/565/19_120.png"
+    },
+    {
+      "id": "219683",
+      "name": "Corentin Tolisso",
+      "position": "CM",
+      "positionGroup": "MID",
+      "rating": 83,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/219/683/19_120.png"
+    },
+    {
+      "id": "225850",
+      "name": "Presnel Kimpembe",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 83,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/225/850/19_120.png"
+    },
+    {
+      "id": "165229",
+      "name": "Laurent Koscielny",
+      "position": "CB",
+      "positionGroup": "DEF",
+      "rating": 82,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/165/229/19_120.png"
+    },
+    {
+      "id": "178509",
+      "name": "Olivier Giroud",
+      "position": "ST",
+      "positionGroup": "FWD",
+      "rating": 82,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/178/509/19_120.png"
+    },
+    {
+      "id": "187936",
+      "name": "Steven N'Kemboanza Mike Christopher Nzonzi",
+      "position": "CDM",
+      "positionGroup": "MID",
+      "rating": 82,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/187/936/19_120.png"
+    },
+    {
+      "id": "220814",
+      "name": "Lucas François Bernard Hernández Pi",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 82,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/220/814/19_120.png"
+    },
+    {
+      "id": "231443",
+      "name": "Ousmane Dembélé",
+      "position": "RW",
+      "positionGroup": "FWD",
+      "rating": 82,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/231/443/19_120.png"
+    },
+    {
+      "id": "193105",
+      "name": "Alphonse Areola",
+      "position": "GK",
+      "positionGroup": "GK",
+      "rating": 81,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/193/105/19_120.png"
+    },
+    {
+      "id": "204884",
+      "name": "Benjamin Mendy",
+      "position": "LB",
+      "positionGroup": "DEF",
+      "rating": 81,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/204/884/19_120.png"
+    },
+    {
+      "id": "201042",
+      "name": "Djibril Sidibé",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 80,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/201/042/19_120.png"
+    },
+    {
+      "id": "226851",
+      "name": "Benjamin Pavard",
+      "position": "RB",
+      "positionGroup": "DEF",
+      "rating": 80,
+      "nationality": "France",
+      "photoUrl": "https://cdn.sofifa.net/players/226/851/19_120.png"
+    }
+  ],
+  "stats": {
+    "min": 80,
+    "max": 89,
+    "mean": 84.0,
+    "samples": []
+  }
+}
