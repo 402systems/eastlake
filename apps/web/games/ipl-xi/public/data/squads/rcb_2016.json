@@ -1,0 +1,164 @@
+{
+  "teamId": "rcb",
+  "year": "2016",
+  "label": "Royal Challengers Bangalore 2016",
+  "players": [
+    {
+      "id": "ch-gayle",
+      "name": "CH Gayle",
+      "role": "PACE_BOWLER",
+      "rating": 67,
+      "matches": 10,
+      "runs": 227,
+      "average": 22.7,
+      "strikeRate": 151.3,
+      "wickets": 2,
+      "economy": 6.5,
+      "bowlingAverage": 32.5,
+      "globalPercentile": 48
+    },
+    {
+      "id": "v-kohli",
+      "name": "V Kohli",
+      "role": "OPENER",
+      "rating": 93,
+      "matches": 16,
+      "runs": 973,
+      "average": 81.1,
+      "strikeRate": 152.7,
+      "globalPercentile": 97
+    },
+    {
+      "id": "ab-de-villiers",
+      "name": "AB de Villiers",
+      "role": "MIDDLE_ORDER",
+      "rating": 98,
+      "matches": 16,
+      "runs": 687,
+      "average": 52.8,
+      "strikeRate": 169.6,
+      "globalPercentile": 99
+    },
+    {
+      "id": "sr-watson",
+      "name": "SR Watson",
+      "role": "PACE_BOWLER",
+      "rating": 75,
+      "matches": 16,
+      "runs": 179,
+      "average": 13.8,
+      "strikeRate": 133.6,
+      "wickets": 20,
+      "economy": 8.67,
+      "bowlingAverage": 24.5,
+      "globalPercentile": 72
+    },
+    {
+      "id": "hv-patel",
+      "name": "HV Patel",
+      "role": "PACE_BOWLER",
+      "rating": 45,
+      "matches": 5,
+      "wickets": 1,
+      "economy": 10.5,
+      "bowlingAverage": 147.0,
+      "globalPercentile": 2
+    },
+    {
+      "id": "ys-chahal",
+      "name": "YS Chahal",
+      "role": "SPIN_BOWLER",
+      "rating": 85,
+      "matches": 13,
+      "wickets": 21,
+      "economy": 8.32,
+      "bowlingAverage": 19.5,
+      "globalPercentile": 90
+    },
+    {
+      "id": "s-aravind",
+      "name": "S Aravind",
+      "role": "PACE_BOWLER",
+      "rating": 81,
+      "matches": 9,
+      "wickets": 11,
+      "economy": 7.61,
+      "bowlingAverage": 20.2,
+      "globalPercentile": 86
+    },
+    {
+      "id": "kl-rahul",
+      "name": "KL Rahul",
+      "role": "MIDDLE_ORDER",
+      "rating": 85,
+      "matches": 12,
+      "runs": 397,
+      "average": 44.1,
+      "strikeRate": 146.5,
+      "globalPercentile": 84
+    },
+    {
+      "id": "str-binny",
+      "name": "STR Binny",
+      "role": "PACE_BOWLER",
+      "rating": 52,
+      "matches": 11,
+      "runs": 63,
+      "average": 15.8,
+      "strikeRate": 161.5,
+      "wickets": 1,
+      "economy": 7.88,
+      "bowlingAverage": 134.0,
+      "globalPercentile": 11
+    },
+    {
+      "id": "vr-aaron",
+      "name": "VR Aaron",
+      "role": "PACE_BOWLER",
+      "rating": 48,
+      "matches": 8,
+      "wickets": 2,
+      "economy": 9.68,
+      "bowlingAverage": 114.5,
+      "globalPercentile": 5
+    },
+    {
+      "id": "iqbal-abdulla",
+      "name": "Iqbal Abdulla",
+      "role": "SPIN_BOWLER",
+      "rating": 61,
+      "matches": 8,
+      "wickets": 6,
+      "economy": 8.64,
+      "bowlingAverage": 36.0,
+      "globalPercentile": 23
+    },
+    {
+      "id": "sachin-baby",
+      "name": "Sachin Baby",
+      "role": "ALL_ROUNDER",
+      "rating": 74,
+      "matches": 6,
+      "runs": 119,
+      "average": 29.8,
+      "strikeRate": 154.5,
+      "globalPercentile": 71
+    },
+    {
+      "id": "cj-jordan",
+      "name": "CJ Jordan",
+      "role": "PACE_BOWLER",
+      "rating": 72,
+      "matches": 9,
+      "wickets": 11,
+      "economy": 9.5,
+      "bowlingAverage": 24.2,
+      "globalPercentile": 64
+    }
+  ],
+  "stats": {
+    "min": 45,
+    "max": 98,
+    "mean": 72.0
+  }
+}

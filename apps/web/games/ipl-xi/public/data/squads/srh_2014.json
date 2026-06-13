@@ -1,0 +1,156 @@
+{
+  "teamId": "srh",
+  "year": "2014",
+  "label": "Sunrisers Hyderabad 2014",
+  "players": [
+    {
+      "id": "aj-finch",
+      "name": "AJ Finch",
+      "role": "OPENER",
+      "rating": 62,
+      "matches": 13,
+      "runs": 309,
+      "average": 28.1,
+      "strikeRate": 118.4,
+      "globalPercentile": 25
+    },
+    {
+      "id": "da-warner",
+      "name": "DA Warner",
+      "role": "MIDDLE_ORDER",
+      "rating": 88,
+      "matches": 14,
+      "runs": 528,
+      "average": 48.0,
+      "strikeRate": 142.3,
+      "globalPercentile": 88
+    },
+    {
+      "id": "s-dhawan",
+      "name": "S Dhawan",
+      "role": "OPENER",
+      "rating": 66,
+      "matches": 14,
+      "runs": 377,
+      "average": 31.4,
+      "strikeRate": 118.9,
+      "globalPercentile": 38
+    },
+    {
+      "id": "kl-rahul",
+      "name": "KL Rahul",
+      "role": "MIDDLE_ORDER",
+      "rating": 53,
+      "matches": 8,
+      "runs": 166,
+      "average": 20.8,
+      "strikeRate": 101.2,
+      "globalPercentile": 12
+    },
+    {
+      "id": "djg-sammy",
+      "name": "DJG Sammy",
+      "role": "PACE_BOWLER",
+      "rating": 45,
+      "matches": 9,
+      "runs": 108,
+      "average": 15.4,
+      "strikeRate": 118.7,
+      "wickets": 3,
+      "economy": 11.36,
+      "bowlingAverage": 53.0,
+      "globalPercentile": 2
+    },
+    {
+      "id": "y-venugopal-rao",
+      "name": "Y Venugopal Rao",
+      "role": "ALL_ROUNDER",
+      "rating": 54,
+      "matches": 5,
+      "runs": 71,
+      "average": 23.7,
+      "strikeRate": 112.7,
+      "globalPercentile": 19
+    },
+    {
+      "id": "kv-sharma",
+      "name": "KV Sharma",
+      "role": "SPIN_BOWLER",
+      "rating": 75,
+      "matches": 14,
+      "runs": 42,
+      "average": 14.0,
+      "strikeRate": 144.8,
+      "wickets": 15,
+      "economy": 7.76,
+      "bowlingAverage": 26.2,
+      "globalPercentile": 61
+    },
+    {
+      "id": "dw-steyn",
+      "name": "DW Steyn",
+      "role": "PACE_BOWLER",
+      "rating": 62,
+      "matches": 14,
+      "runs": 22,
+      "average": 11.0,
+      "strikeRate": 84.6,
+      "wickets": 11,
+      "economy": 7.88,
+      "bowlingAverage": 40.1,
+      "globalPercentile": 35
+    },
+    {
+      "id": "b-kumar",
+      "name": "B Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 88,
+      "matches": 14,
+      "wickets": 20,
+      "economy": 6.81,
+      "bowlingAverage": 18.1,
+      "globalPercentile": 95
+    },
+    {
+      "id": "a-mishra",
+      "name": "A Mishra",
+      "role": "SPIN_BOWLER",
+      "rating": 57,
+      "matches": 10,
+      "wickets": 7,
+      "economy": 9.12,
+      "bowlingAverage": 48.9,
+      "globalPercentile": 11
+    },
+    {
+      "id": "ik-pathan",
+      "name": "IK Pathan",
+      "role": "PACE_BOWLER",
+      "rating": 53,
+      "matches": 10,
+      "runs": 55,
+      "average": 27.5,
+      "strikeRate": 101.9,
+      "wickets": 4,
+      "economy": 8.83,
+      "bowlingAverage": 52.2,
+      "globalPercentile": 13
+    },
+    {
+      "id": "nv-ojha",
+      "name": "NV Ojha",
+      "role": "MIDDLE_ORDER",
+      "rating": 77,
+      "matches": 10,
+      "runs": 232,
+      "average": 38.7,
+      "strikeRate": 145.0,
+      "globalPercentile": 66
+    }
+  ],
+  "stats": {
+    "min": 45,
+    "max": 88,
+    "mean": 65.0
+  }
+}

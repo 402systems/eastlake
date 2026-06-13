@@ -1,0 +1,164 @@
+{
+  "teamId": "lsg",
+  "year": "2025",
+  "label": "Lucknow Super Giants 2025",
+  "players": [
+    {
+      "id": "ak-markram",
+      "name": "AK Markram",
+      "role": "PACE_BOWLER",
+      "rating": 66,
+      "matches": 13,
+      "runs": 445,
+      "average": 34.2,
+      "strikeRate": 149.3,
+      "wickets": 4,
+      "economy": 9.27,
+      "bowlingAverage": 25.5,
+      "globalPercentile": 45
+    },
+    {
+      "id": "mr-marsh",
+      "name": "MR Marsh",
+      "role": "OPENER",
+      "rating": 92,
+      "matches": 13,
+      "runs": 627,
+      "average": 48.2,
+      "strikeRate": 164.6,
+      "globalPercentile": 95
+    },
+    {
+      "id": "n-pooran",
+      "name": "N Pooran",
+      "role": "MIDDLE_ORDER",
+      "rating": 96,
+      "matches": 14,
+      "runs": 524,
+      "average": 47.6,
+      "strikeRate": 197.7,
+      "globalPercentile": 97
+    },
+    {
+      "id": "rr-pant",
+      "name": "RR Pant",
+      "role": "MIDDLE_ORDER",
+      "rating": 64,
+      "matches": 13,
+      "runs": 269,
+      "average": 24.5,
+      "strikeRate": 133.2,
+      "globalPercentile": 30
+    },
+    {
+      "id": "da-miller",
+      "name": "DA Miller",
+      "role": "ALL_ROUNDER",
+      "rating": 63,
+      "matches": 10,
+      "runs": 153,
+      "average": 30.6,
+      "strikeRate": 128.6,
+      "globalPercentile": 40
+    },
+    {
+      "id": "a-badoni",
+      "name": "A Badoni",
+      "role": "ALL_ROUNDER",
+      "rating": 80,
+      "matches": 11,
+      "runs": 329,
+      "average": 32.9,
+      "strikeRate": 148.9,
+      "globalPercentile": 84
+    },
+    {
+      "id": "sn-thakur",
+      "name": "SN Thakur",
+      "role": "PACE_BOWLER",
+      "rating": 65,
+      "matches": 10,
+      "runs": 18,
+      "average": 6.0,
+      "strikeRate": 150.0,
+      "wickets": 13,
+      "economy": 11.06,
+      "bowlingAverage": 28.9,
+      "globalPercentile": 41
+    },
+    {
+      "id": "ravi-bishnoi",
+      "name": "Ravi Bishnoi",
+      "role": "SPIN_BOWLER",
+      "rating": 52,
+      "matches": 11,
+      "wickets": 9,
+      "economy": 10.86,
+      "bowlingAverage": 44.7,
+      "globalPercentile": 2
+    },
+    {
+      "id": "ds-rathi",
+      "name": "DS Rathi",
+      "role": "PACE_BOWLER",
+      "rating": 70,
+      "matches": 13,
+      "wickets": 14,
+      "economy": 8.37,
+      "bowlingAverage": 31.1,
+      "globalPercentile": 58
+    },
+    {
+      "id": "prince-yadav",
+      "name": "Prince Yadav",
+      "role": "PACE_BOWLER",
+      "rating": 51,
+      "matches": 6,
+      "wickets": 3,
+      "economy": 9.9,
+      "bowlingAverage": 75.3,
+      "globalPercentile": 9
+    },
+    {
+      "id": "abdul-samad",
+      "name": "Abdul Samad",
+      "role": "ALL_ROUNDER",
+      "rating": 74,
+      "matches": 12,
+      "runs": 164,
+      "average": 20.5,
+      "strikeRate": 176.3,
+      "globalPercentile": 71
+    },
+    {
+      "id": "avesh-khan",
+      "name": "Avesh Khan",
+      "role": "PACE_BOWLER",
+      "rating": 58,
+      "matches": 13,
+      "runs": 21,
+      "average": 21.0,
+      "strikeRate": 175.0,
+      "wickets": 13,
+      "economy": 10.29,
+      "bowlingAverage": 37.5,
+      "globalPercentile": 25
+    },
+    {
+      "id": "akash-deep",
+      "name": "Akash Deep",
+      "role": "PACE_BOWLER",
+      "rating": 47,
+      "matches": 6,
+      "wickets": 3,
+      "economy": 12.11,
+      "bowlingAverage": 76.7,
+      "globalPercentile": 4
+    }
+  ],
+  "stats": {
+    "min": 47,
+    "max": 96,
+    "mean": 67.5
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "teamId": "dc",
+  "year": "2024",
+  "label": "Delhi Capitals 2024",
+  "players": [
+    {
+      "id": "da-warner",
+      "name": "DA Warner",
+      "role": "OPENER",
+      "rating": 61,
+      "matches": 8,
+      "runs": 168,
+      "average": 21.0,
+      "strikeRate": 135.5,
+      "globalPercentile": 23
+    },
+    {
+      "id": "sd-hope",
+      "name": "SD Hope",
+      "role": "MIDDLE_ORDER",
+      "rating": 70,
+      "matches": 9,
+      "runs": 183,
+      "average": 26.1,
+      "strikeRate": 150.0,
+      "globalPercentile": 46
+    },
+    {
+      "id": "rr-pant",
+      "name": "RR Pant",
+      "role": "ALL_ROUNDER",
+      "rating": 87,
+      "matches": 13,
+      "runs": 446,
+      "average": 40.5,
+      "strikeRate": 155.4,
+      "globalPercentile": 94
+    },
+    {
+      "id": "t-stubbs",
+      "name": "T Stubbs",
+      "role": "ALL_ROUNDER",
+      "rating": 96,
+      "matches": 13,
+      "runs": 378,
+      "average": 63.0,
+      "strikeRate": 192.9,
+      "globalPercentile": 100
+    },
+    {
+      "id": "ar-patel",
+      "name": "AR Patel",
+      "role": "SPIN_BOWLER",
+      "rating": 68,
+      "matches": 14,
+      "runs": 235,
+      "average": 29.4,
+      "strikeRate": 131.3,
+      "wickets": 11,
+      "economy": 7.73,
+      "bowlingAverage": 30.9,
+      "globalPercentile": 41
+    },
+    {
+      "id": "abishek-porel",
+      "name": "Abishek Porel",
+      "role": "MIDDLE_ORDER",
+      "rating": 81,
+      "matches": 12,
+      "runs": 327,
+      "average": 32.7,
+      "strikeRate": 160.3,
+      "globalPercentile": 74
+    },
+    {
+      "id": "kuldeep-yadav",
+      "name": "Kuldeep Yadav",
+      "role": "SPIN_BOWLER",
+      "rating": 79,
+      "matches": 11,
+      "runs": 47,
+      "average": 23.5,
+      "strikeRate": 114.6,
+      "wickets": 16,
+      "economy": 8.74,
+      "bowlingAverage": 23.5,
+      "globalPercentile": 73
+    },
+    {
+      "id": "kk-ahmed",
+      "name": "KK Ahmed",
+      "role": "PACE_BOWLER",
+      "rating": 68,
+      "matches": 14,
+      "wickets": 17,
+      "economy": 9.86,
+      "bowlingAverage": 29.0,
+      "globalPercentile": 51
+    },
+    {
+      "id": "i-sharma",
+      "name": "I Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 68,
+      "matches": 9,
+      "wickets": 10,
+      "economy": 9.85,
+      "bowlingAverage": 26.6,
+      "globalPercentile": 51
+    },
+    {
+      "id": "mukesh-kumar",
+      "name": "Mukesh Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 76,
+      "matches": 10,
+      "wickets": 17,
+      "economy": 10.68,
+      "bowlingAverage": 22.3,
+      "globalPercentile": 75
+    },
+    {
+      "id": "a-nortje",
+      "name": "A Nortje",
+      "role": "PACE_BOWLER",
+      "rating": 57,
+      "matches": 6,
+      "wickets": 7,
+      "economy": 13.55,
+      "bowlingAverage": 42.6,
+      "globalPercentile": 23
+    },
+    {
+      "id": "pp-shaw",
+      "name": "PP Shaw",
+      "role": "OPENER",
+      "rating": 72,
+      "matches": 8,
+      "runs": 198,
+      "average": 24.8,
+      "strikeRate": 163.6,
+      "globalPercentile": 55
+    },
+    {
+      "id": "rasikh-salam",
+      "name": "Rasikh Salam",
+      "role": "PACE_BOWLER",
+      "rating": 62,
+      "matches": 8,
+      "runs": 28,
+      "average": 7.0,
+      "strikeRate": 93.3,
+      "wickets": 9,
+      "economy": 11.06,
+      "bowlingAverage": 30.1,
+      "globalPercentile": 35
+    },
+    {
+      "id": "j-fraser-mcgurk",
+      "name": "J Fraser-McGurk",
+      "role": "OPENER",
+      "rating": 88,
+      "matches": 9,
+      "runs": 330,
+      "average": 41.2,
+      "strikeRate": 237.4,
+      "globalPercentile": 89
+    }
+  ],
+  "stats": {
+    "min": 57,
+    "max": 96,
+    "mean": 73.8
+  }
+}

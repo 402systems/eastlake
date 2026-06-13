@@ -1,0 +1,156 @@
+{
+  "teamId": "rr",
+  "year": "2013",
+  "label": "Rajasthan Royals 2013",
+  "players": [
+    {
+      "id": "am-rahane",
+      "name": "AM Rahane",
+      "role": "OPENER",
+      "rating": 65,
+      "matches": 18,
+      "runs": 488,
+      "average": 34.9,
+      "strikeRate": 106.6,
+      "globalPercentile": 34
+    },
+    {
+      "id": "r-dravid",
+      "name": "R Dravid",
+      "role": "OPENER",
+      "rating": 63,
+      "matches": 17,
+      "runs": 471,
+      "average": 29.4,
+      "strikeRate": 111.1,
+      "globalPercentile": 28
+    },
+    {
+      "id": "str-binny",
+      "name": "STR Binny",
+      "role": "PACE_BOWLER",
+      "rating": 68,
+      "matches": 16,
+      "runs": 293,
+      "average": 36.6,
+      "strikeRate": 147.2,
+      "wickets": 6,
+      "economy": 6.79,
+      "bowlingAverage": 27.2,
+      "globalPercentile": 51
+    },
+    {
+      "id": "bj-hodge",
+      "name": "BJ Hodge",
+      "role": "ALL_ROUNDER",
+      "rating": 74,
+      "matches": 14,
+      "runs": 293,
+      "average": 41.9,
+      "strikeRate": 135.0,
+      "globalPercentile": 71
+    },
+    {
+      "id": "kk-cooper",
+      "name": "KK Cooper",
+      "role": "PACE_BOWLER",
+      "rating": 78,
+      "matches": 14,
+      "runs": 39,
+      "average": 9.8,
+      "strikeRate": 177.3,
+      "wickets": 19,
+      "economy": 8.44,
+      "bowlingAverage": 24.0,
+      "globalPercentile": 81
+    },
+    {
+      "id": "s-sreesanth",
+      "name": "S Sreesanth",
+      "role": "PACE_BOWLER",
+      "rating": 65,
+      "matches": 7,
+      "wickets": 5,
+      "economy": 7.89,
+      "bowlingAverage": 34.2,
+      "globalPercentile": 41
+    },
+    {
+      "id": "sk-trivedi",
+      "name": "SK Trivedi",
+      "role": "PACE_BOWLER",
+      "rating": 66,
+      "matches": 17,
+      "wickets": 12,
+      "economy": 7.1,
+      "bowlingAverage": 35.4,
+      "globalPercentile": 45
+    },
+    {
+      "id": "sr-watson",
+      "name": "SR Watson",
+      "role": "SPIN_BOWLER",
+      "rating": 75,
+      "matches": 16,
+      "runs": 543,
+      "average": 38.8,
+      "strikeRate": 143.7,
+      "wickets": 13,
+      "economy": 7.66,
+      "bowlingAverage": 24.5,
+      "globalPercentile": 61
+    },
+    {
+      "id": "dh-yagnik",
+      "name": "DH Yagnik",
+      "role": "ALL_ROUNDER",
+      "rating": 58,
+      "matches": 9,
+      "runs": 125,
+      "average": 17.9,
+      "strikeRate": 134.4,
+      "globalPercentile": 28
+    },
+    {
+      "id": "jp-faulkner",
+      "name": "JP Faulkner",
+      "role": "PACE_BOWLER",
+      "rating": 94,
+      "matches": 16,
+      "runs": 57,
+      "average": 11.4,
+      "strikeRate": 100.0,
+      "wickets": 28,
+      "economy": 6.9,
+      "bowlingAverage": 15.6,
+      "globalPercentile": 99
+    },
+    {
+      "id": "sv-samson",
+      "name": "SV Samson",
+      "role": "MIDDLE_ORDER",
+      "rating": 59,
+      "matches": 10,
+      "runs": 206,
+      "average": 25.8,
+      "strikeRate": 115.7,
+      "globalPercentile": 18
+    },
+    {
+      "id": "a-chandila",
+      "name": "A Chandila",
+      "role": "PACE_BOWLER",
+      "rating": 75,
+      "matches": 8,
+      "wickets": 6,
+      "economy": 6.32,
+      "bowlingAverage": 26.3,
+      "globalPercentile": 72
+    }
+  ],
+  "stats": {
+    "min": 58,
+    "max": 94,
+    "mean": 70.0
+  }
+}

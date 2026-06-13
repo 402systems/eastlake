@@ -1,0 +1,162 @@
+{
+  "teamId": "srh",
+  "year": "2024",
+  "label": "Sunrisers Hyderabad 2024",
+  "players": [
+    {
+      "id": "abhishek-sharma",
+      "name": "Abhishek Sharma",
+      "role": "OPENER",
+      "rating": 81,
+      "matches": 16,
+      "runs": 484,
+      "average": 32.3,
+      "strikeRate": 206.0,
+      "wickets": 2,
+      "economy": 7.29,
+      "bowlingAverage": 25.5,
+      "globalPercentile": 78
+    },
+    {
+      "id": "ra-tripathi",
+      "name": "RA Tripathi",
+      "role": "MIDDLE_ORDER",
+      "rating": 76,
+      "matches": 6,
+      "runs": 165,
+      "average": 33.0,
+      "strikeRate": 146.0,
+      "globalPercentile": 64
+    },
+    {
+      "id": "ak-markram",
+      "name": "AK Markram",
+      "role": "MIDDLE_ORDER",
+      "rating": 62,
+      "matches": 11,
+      "runs": 220,
+      "average": 24.4,
+      "strikeRate": 125.7,
+      "globalPercentile": 25
+    },
+    {
+      "id": "h-klaasen",
+      "name": "H Klaasen",
+      "role": "ALL_ROUNDER",
+      "rating": 93,
+      "matches": 15,
+      "runs": 479,
+      "average": 39.9,
+      "strikeRate": 172.9,
+      "globalPercentile": 99
+    },
+    {
+      "id": "shahbaz-ahmed",
+      "name": "Shahbaz Ahmed",
+      "role": "PACE_BOWLER",
+      "rating": 50,
+      "matches": 15,
+      "runs": 215,
+      "average": 23.9,
+      "strikeRate": 129.5,
+      "wickets": 7,
+      "economy": 10.07,
+      "bowlingAverage": 39.6,
+      "globalPercentile": 8
+    },
+    {
+      "id": "pj-cummins",
+      "name": "PJ Cummins",
+      "role": "PACE_BOWLER",
+      "rating": 67,
+      "matches": 16,
+      "runs": 136,
+      "average": 27.2,
+      "strikeRate": 144.7,
+      "wickets": 18,
+      "economy": 9.36,
+      "bowlingAverage": 31.7,
+      "globalPercentile": 48
+    },
+    {
+      "id": "b-kumar",
+      "name": "B Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 54,
+      "matches": 16,
+      "runs": 23,
+      "average": 7.7,
+      "strikeRate": 79.3,
+      "wickets": 11,
+      "economy": 9.74,
+      "bowlingAverage": 50.5,
+      "globalPercentile": 16
+    },
+    {
+      "id": "t-natarajan",
+      "name": "T Natarajan",
+      "role": "PACE_BOWLER",
+      "rating": 75,
+      "matches": 14,
+      "wickets": 19,
+      "economy": 9.14,
+      "bowlingAverage": 24.7,
+      "globalPercentile": 72
+    },
+    {
+      "id": "m-markande",
+      "name": "M Markande",
+      "role": "SPIN_BOWLER",
+      "rating": 61,
+      "matches": 7,
+      "wickets": 8,
+      "economy": 11.77,
+      "bowlingAverage": 32.4,
+      "globalPercentile": 23
+    },
+    {
+      "id": "tm-head",
+      "name": "TM Head",
+      "role": "OPENER",
+      "rating": 89,
+      "matches": 15,
+      "runs": 567,
+      "average": 40.5,
+      "strikeRate": 192.9,
+      "globalPercentile": 92
+    },
+    {
+      "id": "jd-unadkat",
+      "name": "JD Unadkat",
+      "role": "PACE_BOWLER",
+      "rating": 53,
+      "matches": 11,
+      "runs": 24,
+      "average": 12.0,
+      "strikeRate": 92.3,
+      "wickets": 8,
+      "economy": 10.3,
+      "bowlingAverage": 40.1,
+      "globalPercentile": 13
+    },
+    {
+      "id": "nithish-kumar-reddy",
+      "name": "Nithish Kumar Reddy",
+      "role": "PACE_BOWLER",
+      "rating": 46,
+      "matches": 11,
+      "runs": 303,
+      "average": 33.7,
+      "strikeRate": 142.9,
+      "wickets": 3,
+      "economy": 11.7,
+      "bowlingAverage": 51.3,
+      "globalPercentile": 3
+    }
+  ],
+  "stats": {
+    "min": 46,
+    "max": 93,
+    "mean": 67.2
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "teamId": "dcan",
+  "year": "2011",
+  "label": "Deccan Chargers 2011",
+  "players": [
+    {
+      "id": "s-dhawan",
+      "name": "S Dhawan",
+      "role": "OPENER",
+      "rating": 72,
+      "matches": 14,
+      "runs": 400,
+      "average": 36.4,
+      "strikeRate": 129.4,
+      "globalPercentile": 55
+    },
+    {
+      "id": "kc-sangakkara",
+      "name": "KC Sangakkara",
+      "role": "MIDDLE_ORDER",
+      "rating": 66,
+      "matches": 13,
+      "runs": 358,
+      "average": 27.5,
+      "strikeRate": 123.0,
+      "globalPercentile": 39
+    },
+    {
+      "id": "b-chipli",
+      "name": "B Chipli",
+      "role": "ALL_ROUNDER",
+      "rating": 59,
+      "matches": 13,
+      "runs": 207,
+      "average": 25.9,
+      "strikeRate": 121.8,
+      "globalPercentile": 30
+    },
+    {
+      "id": "jp-duminy",
+      "name": "JP Duminy",
+      "role": "PACE_BOWLER",
+      "rating": 58,
+      "matches": 10,
+      "runs": 205,
+      "average": 20.5,
+      "strikeRate": 118.5,
+      "wickets": 4,
+      "economy": 8.28,
+      "bowlingAverage": 37.2,
+      "globalPercentile": 25
+    },
+    {
+      "id": "dt-christian",
+      "name": "DT Christian",
+      "role": "PACE_BOWLER",
+      "rating": 67,
+      "matches": 14,
+      "runs": 190,
+      "average": 19.0,
+      "strikeRate": 121.0,
+      "wickets": 11,
+      "economy": 7.82,
+      "bowlingAverage": 32.5,
+      "globalPercentile": 48
+    },
+    {
+      "id": "db-ravi-teja",
+      "name": "DB Ravi Teja",
+      "role": "ALL_ROUNDER",
+      "rating": 64,
+      "matches": 9,
+      "runs": 183,
+      "average": 26.1,
+      "strikeRate": 128.0,
+      "globalPercentile": 42
+    },
+    {
+      "id": "dw-steyn",
+      "name": "DW Steyn",
+      "role": "PACE_BOWLER",
+      "rating": 83,
+      "matches": 12,
+      "runs": 36,
+      "average": 12.0,
+      "strikeRate": 102.9,
+      "wickets": 14,
+      "economy": 6.68,
+      "bowlingAverage": 21.7,
+      "globalPercentile": 89
+    },
+    {
+      "id": "a-mishra",
+      "name": "A Mishra",
+      "role": "SPIN_BOWLER",
+      "rating": 86,
+      "matches": 14,
+      "runs": 68,
+      "average": 17.0,
+      "strikeRate": 138.8,
+      "wickets": 19,
+      "economy": 6.92,
+      "bowlingAverage": 19.4,
+      "globalPercentile": 92
+    },
+    {
+      "id": "i-sharma",
+      "name": "I Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 72,
+      "matches": 12,
+      "runs": 4,
+      "average": 4,
+      "strikeRate": 80.0,
+      "wickets": 11,
+      "economy": 7.36,
+      "bowlingAverage": 29.5,
+      "globalPercentile": 64
+    },
+    {
+      "id": "pp-ojha",
+      "name": "PP Ojha",
+      "role": "SPIN_BOWLER",
+      "rating": 73,
+      "matches": 10,
+      "wickets": 10,
+      "economy": 7.63,
+      "bowlingAverage": 28.1,
+      "globalPercentile": 54
+    },
+    {
+      "id": "s-sohal",
+      "name": "S Sohal",
+      "role": "OPENER",
+      "rating": 66,
+      "matches": 10,
+      "runs": 249,
+      "average": 27.7,
+      "strikeRate": 131.1,
+      "globalPercentile": 38
+    },
+    {
+      "id": "cl-white",
+      "name": "CL White",
+      "role": "MIDDLE_ORDER",
+      "rating": 54,
+      "matches": 6,
+      "runs": 104,
+      "average": 26.0,
+      "strikeRate": 95.4,
+      "globalPercentile": 13
+    }
+  ],
+  "stats": {
+    "min": 54,
+    "max": 86,
+    "mean": 68.3
+  }
+}

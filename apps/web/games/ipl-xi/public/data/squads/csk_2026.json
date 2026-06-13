@@ -1,0 +1,189 @@
+{
+  "teamId": "csk",
+  "year": "2026",
+  "label": "Chennai Super Kings 2026",
+  "players": [
+    {
+      "id": "sv-samson",
+      "name": "SV Samson",
+      "role": "OPENER",
+      "rating": 87,
+      "matches": 14,
+      "runs": 477,
+      "average": 43.4,
+      "strikeRate": 167.4,
+      "globalPercentile": 88
+    },
+    {
+      "id": "rd-gaikwad",
+      "name": "RD Gaikwad",
+      "role": "OPENER",
+      "rating": 64,
+      "matches": 14,
+      "runs": 337,
+      "average": 28.1,
+      "strikeRate": 123.9,
+      "globalPercentile": 30
+    },
+    {
+      "id": "a-mhatre",
+      "name": "A Mhatre",
+      "role": "MIDDLE_ORDER",
+      "rating": 91,
+      "matches": 6,
+      "runs": 201,
+      "average": 40.2,
+      "strikeRate": 179.5,
+      "globalPercentile": 92
+    },
+    {
+      "id": "sn-khan",
+      "name": "SN Khan",
+      "role": "MIDDLE_ORDER",
+      "rating": 77,
+      "matches": 7,
+      "runs": 161,
+      "average": 23.0,
+      "strikeRate": 171.3,
+      "globalPercentile": 66
+    },
+    {
+      "id": "kartik-sharma",
+      "name": "Kartik Sharma",
+      "role": "ALL_ROUNDER",
+      "rating": 74,
+      "matches": 11,
+      "runs": 295,
+      "average": 32.8,
+      "strikeRate": 136.6,
+      "globalPercentile": 71
+    },
+    {
+      "id": "s-dube",
+      "name": "S Dube",
+      "role": "ALL_ROUNDER",
+      "rating": 82,
+      "matches": 12,
+      "runs": 270,
+      "average": 38.6,
+      "strikeRate": 158.8,
+      "wickets": 1,
+      "economy": 12.8,
+      "bowlingAverage": 64.0,
+      "globalPercentile": 87
+    },
+    {
+      "id": "j-overton",
+      "name": "J Overton",
+      "role": "PACE_BOWLER",
+      "rating": 80,
+      "matches": 10,
+      "runs": 136,
+      "average": 27.2,
+      "strikeRate": 160.0,
+      "wickets": 14,
+      "economy": 9.07,
+      "bowlingAverage": 18.1,
+      "globalPercentile": 84
+    },
+    {
+      "id": "noor-ahmad",
+      "name": "Noor Ahmad",
+      "role": "SPIN_BOWLER",
+      "rating": 65,
+      "matches": 14,
+      "runs": 11,
+      "average": 3.7,
+      "strikeRate": 47.8,
+      "wickets": 13,
+      "economy": 8.69,
+      "bowlingAverage": 34.1,
+      "globalPercentile": 33
+    },
+    {
+      "id": "a-kamboj",
+      "name": "A Kamboj",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 14,
+      "runs": 58,
+      "average": 58.0,
+      "strikeRate": 161.1,
+      "wickets": 21,
+      "economy": 10.63,
+      "bowlingAverage": 25.5,
+      "globalPercentile": 61
+    },
+    {
+      "id": "kk-ahmed",
+      "name": "KK Ahmed",
+      "role": "PACE_BOWLER",
+      "rating": 53,
+      "matches": 5,
+      "wickets": 2,
+      "economy": 8.85,
+      "bowlingAverage": 74.5,
+      "globalPercentile": 13
+    },
+    {
+      "id": "aj-hosein",
+      "name": "AJ Hosein",
+      "role": "PACE_BOWLER",
+      "rating": 76,
+      "matches": 7,
+      "wickets": 8,
+      "economy": 8.03,
+      "bowlingAverage": 24.8,
+      "globalPercentile": 75
+    },
+    {
+      "id": "gurjapneet-singh",
+      "name": "Gurjapneet Singh",
+      "role": "PACE_BOWLER",
+      "rating": 53,
+      "matches": 8,
+      "wickets": 4,
+      "economy": 9.26,
+      "bowlingAverage": 58.2,
+      "globalPercentile": 13
+    },
+    {
+      "id": "d-brevis",
+      "name": "D Brevis",
+      "role": "ALL_ROUNDER",
+      "rating": 59,
+      "matches": 8,
+      "runs": 151,
+      "average": 18.9,
+      "strikeRate": 128.0,
+      "globalPercentile": 30
+    },
+    {
+      "id": "mukesh-choudhary",
+      "name": "Mukesh Choudhary",
+      "role": "PACE_BOWLER",
+      "rating": 65,
+      "matches": 8,
+      "wickets": 8,
+      "economy": 9.18,
+      "bowlingAverage": 32.1,
+      "globalPercentile": 41
+    },
+    {
+      "id": "urvil-patel",
+      "name": "Urvil Patel",
+      "role": "MIDDLE_ORDER",
+      "rating": 72,
+      "matches": 7,
+      "runs": 129,
+      "average": 18.4,
+      "strikeRate": 201.6,
+      "globalPercentile": 53
+    }
+  ],
+  "stats": {
+    "min": 53,
+    "max": 91,
+    "mean": 71.3
+  }
+}

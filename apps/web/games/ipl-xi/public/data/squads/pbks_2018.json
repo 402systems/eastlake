@@ -1,0 +1,173 @@
+{
+  "teamId": "pbks",
+  "year": "2018",
+  "label": "Punjab Kings 2018",
+  "players": [
+    {
+      "id": "kl-rahul",
+      "name": "KL Rahul",
+      "role": "OPENER",
+      "rating": 94,
+      "matches": 14,
+      "runs": 659,
+      "average": 54.9,
+      "strikeRate": 158.8
+    },
+    {
+      "id": "ma-agarwal",
+      "name": "MA Agarwal",
+      "role": "MIDDLE_ORDER",
+      "rating": 51,
+      "matches": 11,
+      "runs": 120,
+      "average": 12.0,
+      "strikeRate": 127.7
+    },
+    {
+      "id": "yuvraj-singh",
+      "name": "Yuvraj Singh",
+      "role": "MIDDLE_ORDER",
+      "rating": 44,
+      "matches": 6,
+      "runs": 65,
+      "average": 13.0,
+      "strikeRate": 89.0
+    },
+    {
+      "id": "kk-nair",
+      "name": "KK Nair",
+      "role": "MIDDLE_ORDER",
+      "rating": 68,
+      "matches": 12,
+      "runs": 301,
+      "average": 25.1,
+      "strikeRate": 136.2
+    },
+    {
+      "id": "mp-stoinis",
+      "name": "MP Stoinis",
+      "role": "ALL_ROUNDER",
+      "rating": 57,
+      "matches": 7,
+      "runs": 99,
+      "average": 24.8,
+      "strikeRate": 132.0,
+      "wickets": 3,
+      "economy": 11.0,
+      "bowlingAverage": 40.3
+    },
+    {
+      "id": "r-ashwin",
+      "name": "R Ashwin",
+      "role": "SPIN_BOWLER",
+      "rating": 60,
+      "matches": 14,
+      "runs": 102,
+      "average": 12.8,
+      "strikeRate": 143.7,
+      "wickets": 10,
+      "economy": 8.11,
+      "bowlingAverage": 41.1
+    },
+    {
+      "id": "mm-sharma",
+      "name": "MM Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 51,
+      "matches": 9,
+      "runs": 10,
+      "average": 10.0,
+      "strikeRate": 76.9,
+      "wickets": 7,
+      "economy": 11.06,
+      "bowlingAverage": 46.9
+    },
+    {
+      "id": "mujeeb-ur-rahman",
+      "name": "Mujeeb Ur Rahman",
+      "role": "SPIN_BOWLER",
+      "rating": 83,
+      "matches": 11,
+      "wickets": 14,
+      "economy": 7.06,
+      "bowlingAverage": 20.9
+    },
+    {
+      "id": "ar-patel",
+      "name": "AR Patel",
+      "role": "ALL_ROUNDER",
+      "rating": 50,
+      "matches": 8,
+      "runs": 80,
+      "average": 13.3,
+      "strikeRate": 115.9,
+      "wickets": 3,
+      "economy": 8.5,
+      "bowlingAverage": 73.7
+    },
+    {
+      "id": "aj-tye",
+      "name": "AJ Tye",
+      "role": "PACE_BOWLER",
+      "rating": 87,
+      "matches": 14,
+      "runs": 32,
+      "average": 5.3,
+      "strikeRate": 84.2,
+      "wickets": 24,
+      "economy": 8.2,
+      "bowlingAverage": 19.1
+    },
+    {
+      "id": "aj-finch",
+      "name": "AJ Finch",
+      "role": "MIDDLE_ORDER",
+      "rating": 58,
+      "matches": 9,
+      "runs": 134,
+      "average": 16.8,
+      "strikeRate": 134.0
+    },
+    {
+      "id": "ch-gayle",
+      "name": "CH Gayle",
+      "role": "OPENER",
+      "rating": 80,
+      "matches": 11,
+      "runs": 368,
+      "average": 40.9,
+      "strikeRate": 146.0
+    },
+    {
+      "id": "bb-sran",
+      "name": "BB Sran",
+      "role": "PACE_BOWLER",
+      "rating": 51,
+      "matches": 6,
+      "runs": 3,
+      "average": 3.0,
+      "strikeRate": 42.9,
+      "wickets": 4,
+      "economy": 10.5,
+      "bowlingAverage": 57.8
+    },
+    {
+      "id": "as-rajpoot",
+      "name": "AS Rajpoot",
+      "role": "PACE_BOWLER",
+      "rating": 79,
+      "matches": 8,
+      "runs": 11,
+      "average": 5.5,
+      "strikeRate": 61.1,
+      "wickets": 11,
+      "economy": 8.79,
+      "bowlingAverage": 20.9
+    }
+  ],
+  "stats": {
+    "min": 44,
+    "max": 94,
+    "mean": 65.2
+  }
+}

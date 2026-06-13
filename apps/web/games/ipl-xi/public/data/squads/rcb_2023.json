@@ -1,0 +1,178 @@
+{
+  "teamId": "rcb",
+  "year": "2023",
+  "label": "Royal Challengers Bangalore 2023",
+  "players": [
+    {
+      "id": "v-kohli",
+      "name": "V Kohli",
+      "role": "OPENER",
+      "rating": 89,
+      "matches": 14,
+      "runs": 639,
+      "average": 53.2,
+      "strikeRate": 139.8,
+      "globalPercentile": 92
+    },
+    {
+      "id": "f-du-plessis",
+      "name": "F du Plessis",
+      "role": "OPENER",
+      "rating": 93,
+      "matches": 14,
+      "runs": 730,
+      "average": 56.2,
+      "strikeRate": 154.7,
+      "globalPercentile": 97
+    },
+    {
+      "id": "kd-karthik",
+      "name": "KD Karthik",
+      "role": "ALL_ROUNDER",
+      "rating": 54,
+      "matches": 13,
+      "runs": 140,
+      "average": 12.7,
+      "strikeRate": 134.6,
+      "globalPercentile": 19
+    },
+    {
+      "id": "gj-maxwell",
+      "name": "GJ Maxwell",
+      "role": "PACE_BOWLER",
+      "rating": 57,
+      "matches": 14,
+      "runs": 400,
+      "average": 33.3,
+      "strikeRate": 183.5,
+      "wickets": 3,
+      "economy": 9.19,
+      "bowlingAverage": 31.7,
+      "globalPercentile": 23
+    },
+    {
+      "id": "mohammed-siraj",
+      "name": "Mohammed Siraj",
+      "role": "PACE_BOWLER",
+      "rating": 82,
+      "matches": 14,
+      "wickets": 19,
+      "economy": 7.9,
+      "bowlingAverage": 20.8,
+      "globalPercentile": 87
+    },
+    {
+      "id": "hv-patel",
+      "name": "HV Patel",
+      "role": "PACE_BOWLER",
+      "rating": 63,
+      "matches": 13,
+      "wickets": 14,
+      "economy": 9.96,
+      "bowlingAverage": 33.4,
+      "globalPercentile": 37
+    },
+    {
+      "id": "kv-sharma",
+      "name": "KV Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 72,
+      "matches": 7,
+      "wickets": 10,
+      "economy": 10.65,
+      "bowlingAverage": 22.9,
+      "globalPercentile": 64
+    },
+    {
+      "id": "mg-bracewell",
+      "name": "MG Bracewell",
+      "role": "PACE_BOWLER",
+      "rating": 80,
+      "matches": 5,
+      "runs": 58,
+      "average": 29.0,
+      "strikeRate": 123.4,
+      "wickets": 6,
+      "economy": 8.64,
+      "bowlingAverage": 15.8,
+      "globalPercentile": 84
+    },
+    {
+      "id": "shahbaz-ahmed",
+      "name": "Shahbaz Ahmed",
+      "role": "ALL_ROUNDER",
+      "rating": 44,
+      "matches": 6,
+      "runs": 42,
+      "average": 10.5,
+      "strikeRate": 107.7,
+      "wickets": 1,
+      "economy": 13.57,
+      "bowlingAverage": 95.0,
+      "globalPercentile": 1
+    },
+    {
+      "id": "anuj-rawat",
+      "name": "Anuj Rawat",
+      "role": "ALL_ROUNDER",
+      "rating": 62,
+      "matches": 7,
+      "runs": 91,
+      "average": 30.3,
+      "strikeRate": 128.2,
+      "globalPercentile": 36
+    },
+    {
+      "id": "wd-parnell",
+      "name": "WD Parnell",
+      "role": "PACE_BOWLER",
+      "rating": 72,
+      "matches": 7,
+      "wickets": 9,
+      "economy": 9.42,
+      "bowlingAverage": 26.3,
+      "globalPercentile": 64
+    },
+    {
+      "id": "mk-lomror",
+      "name": "MK Lomror",
+      "role": "MIDDLE_ORDER",
+      "rating": 59,
+      "matches": 10,
+      "runs": 135,
+      "average": 16.9,
+      "strikeRate": 140.6,
+      "globalPercentile": 18
+    },
+    {
+      "id": "vijaykumar-vyshak",
+      "name": "Vijaykumar Vyshak",
+      "role": "PACE_BOWLER",
+      "rating": 67,
+      "matches": 7,
+      "wickets": 9,
+      "economy": 10.54,
+      "bowlingAverage": 28.1,
+      "globalPercentile": 48
+    },
+    {
+      "id": "pwh-de-silva",
+      "name": "PWH de Silva",
+      "role": "SPIN_BOWLER",
+      "rating": 70,
+      "matches": 8,
+      "runs": 33,
+      "average": 16.5,
+      "strikeRate": 117.9,
+      "wickets": 9,
+      "economy": 8.93,
+      "bowlingAverage": 28.8,
+      "globalPercentile": 46
+    }
+  ],
+  "stats": {
+    "min": 44,
+    "max": 93,
+    "mean": 68.9
+  }
+}

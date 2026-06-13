@@ -1,0 +1,147 @@
+{
+  "teamId": "rr",
+  "year": "2015",
+  "label": "Rajasthan Royals 2015",
+  "players": [
+    {
+      "id": "am-rahane",
+      "name": "AM Rahane",
+      "role": "OPENER",
+      "rating": 85,
+      "matches": 13,
+      "runs": 540,
+      "average": 49.1,
+      "strikeRate": 131.1
+    },
+    {
+      "id": "sv-samson",
+      "name": "SV Samson",
+      "role": "MIDDLE_ORDER",
+      "rating": 59,
+      "matches": 11,
+      "runs": 204,
+      "average": 20.4,
+      "strikeRate": 125.9
+    },
+    {
+      "id": "spd-smith",
+      "name": "SPD Smith",
+      "role": "MIDDLE_ORDER",
+      "rating": 68,
+      "matches": 12,
+      "runs": 298,
+      "average": 27.1,
+      "strikeRate": 135.5
+    },
+    {
+      "id": "kk-nair",
+      "name": "KK Nair",
+      "role": "MIDDLE_ORDER",
+      "rating": 56,
+      "matches": 12,
+      "runs": 181,
+      "average": 18.1,
+      "strikeRate": 124.8
+    },
+    {
+      "id": "str-binny",
+      "name": "STR Binny",
+      "role": "PACE_BOWLER",
+      "rating": 60,
+      "matches": 10,
+      "runs": 74,
+      "average": 18.5,
+      "strikeRate": 113.8,
+      "wickets": 4,
+      "economy": 7.53,
+      "bowlingAverage": 35.8
+    },
+    {
+      "id": "jp-faulkner",
+      "name": "JP Faulkner",
+      "role": "ALL_ROUNDER",
+      "rating": 56,
+      "matches": 13,
+      "runs": 144,
+      "average": 16.0,
+      "strikeRate": 133.3,
+      "wickets": 8,
+      "economy": 9.62,
+      "bowlingAverage": 54.1
+    },
+    {
+      "id": "dj-hooda",
+      "name": "DJ Hooda",
+      "role": "ALL_ROUNDER",
+      "rating": 62,
+      "matches": 9,
+      "runs": 151,
+      "average": 16.8,
+      "strikeRate": 158.9,
+      "wickets": 1,
+      "economy": 8.47,
+      "bowlingAverage": 127.0
+    },
+    {
+      "id": "ch-morris",
+      "name": "CH Morris",
+      "role": "PACE_BOWLER",
+      "rating": 79,
+      "matches": 11,
+      "runs": 76,
+      "average": 38.0,
+      "strikeRate": 168.9,
+      "wickets": 14,
+      "economy": 7.81,
+      "bowlingAverage": 24.0
+    },
+    {
+      "id": "tg-southee",
+      "name": "TG Southee",
+      "role": "PACE_BOWLER",
+      "rating": 59,
+      "matches": 7,
+      "wickets": 6,
+      "economy": 9.11,
+      "bowlingAverage": 42.5
+    },
+    {
+      "id": "ds-kulkarni",
+      "name": "DS Kulkarni",
+      "role": "PACE_BOWLER",
+      "rating": 77,
+      "matches": 11,
+      "wickets": 13,
+      "economy": 8.29,
+      "bowlingAverage": 22.3
+    },
+    {
+      "id": "pv-tambe",
+      "name": "PV Tambe",
+      "role": "SPIN_BOWLER",
+      "rating": 62,
+      "matches": 10,
+      "wickets": 7,
+      "economy": 7.85,
+      "bowlingAverage": 38.1
+    },
+    {
+      "id": "sr-watson",
+      "name": "SR Watson",
+      "role": "OPENER",
+      "rating": 77,
+      "matches": 10,
+      "runs": 347,
+      "average": 38.6,
+      "strikeRate": 135.0,
+      "wickets": 6,
+      "economy": 9.41,
+      "bowlingAverage": 45.5
+    }
+  ],
+  "stats": {
+    "min": 56,
+    "max": 85,
+    "mean": 66.7
+  }
+}

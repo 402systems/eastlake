@@ -1,0 +1,200 @@
+{
+  "teamId": "rr",
+  "year": "2012",
+  "label": "Rajasthan Royals 2012",
+  "players": [
+    {
+      "id": "r-dravid",
+      "name": "R Dravid",
+      "role": "OPENER",
+      "rating": 65,
+      "matches": 16,
+      "runs": 462,
+      "average": 30.8,
+      "strikeRate": 112.1,
+      "globalPercentile": 34
+    },
+    {
+      "id": "am-rahane",
+      "name": "AM Rahane",
+      "role": "OPENER",
+      "rating": 78,
+      "matches": 16,
+      "runs": 560,
+      "average": 43.1,
+      "strikeRate": 129.3,
+      "globalPercentile": 73
+    },
+    {
+      "id": "al-menaria",
+      "name": "AL Menaria",
+      "role": "ALL_ROUNDER",
+      "rating": 55,
+      "matches": 12,
+      "runs": 220,
+      "average": 20.0,
+      "strikeRate": 110.0,
+      "globalPercentile": 21
+    },
+    {
+      "id": "bj-hodge",
+      "name": "BJ Hodge",
+      "role": "ALL_ROUNDER",
+      "rating": 71,
+      "matches": 12,
+      "runs": 245,
+      "average": 30.6,
+      "strikeRate": 141.6,
+      "globalPercentile": 61
+    },
+    {
+      "id": "oa-shah",
+      "name": "OA Shah",
+      "role": "MIDDLE_ORDER",
+      "rating": 80,
+      "matches": 13,
+      "runs": 340,
+      "average": 48.6,
+      "strikeRate": 133.3,
+      "globalPercentile": 73
+    },
+    {
+      "id": "kk-cooper",
+      "name": "KK Cooper",
+      "role": "PACE_BOWLER",
+      "rating": 88,
+      "matches": 6,
+      "runs": 38,
+      "average": 19.0,
+      "strikeRate": 200.0,
+      "wickets": 10,
+      "economy": 7.79,
+      "bowlingAverage": 18.7,
+      "globalPercentile": 95
+    },
+    {
+      "id": "sk-trivedi",
+      "name": "SK Trivedi",
+      "role": "PACE_BOWLER",
+      "rating": 72,
+      "matches": 14,
+      "wickets": 13,
+      "economy": 7.44,
+      "bowlingAverage": 29.8,
+      "globalPercentile": 64
+    },
+    {
+      "id": "j-botha",
+      "name": "J Botha",
+      "role": "PACE_BOWLER",
+      "rating": 68,
+      "matches": 11,
+      "runs": 58,
+      "average": 14.5,
+      "strikeRate": 107.4,
+      "wickets": 9,
+      "economy": 7.41,
+      "bowlingAverage": 33.8,
+      "globalPercentile": 51
+    },
+    {
+      "id": "a-singh",
+      "name": "A Singh",
+      "role": "PACE_BOWLER",
+      "rating": 66,
+      "matches": 9,
+      "wickets": 10,
+      "economy": 9.65,
+      "bowlingAverage": 31.7,
+      "globalPercentile": 45
+    },
+    {
+      "id": "aa-chavan",
+      "name": "AA Chavan",
+      "role": "PACE_BOWLER",
+      "rating": 63,
+      "matches": 8,
+      "wickets": 7,
+      "economy": 8.96,
+      "bowlingAverage": 35.0,
+      "globalPercentile": 37
+    },
+    {
+      "id": "sp-goswami",
+      "name": "SP Goswami",
+      "role": "ALL_ROUNDER",
+      "rating": 48,
+      "matches": 6,
+      "runs": 69,
+      "average": 13.8,
+      "strikeRate": 103.0,
+      "globalPercentile": 7
+    },
+    {
+      "id": "gb-hogg",
+      "name": "GB Hogg",
+      "role": "SPIN_BOWLER",
+      "rating": 77,
+      "matches": 9,
+      "wickets": 10,
+      "economy": 7.28,
+      "bowlingAverage": 26.2,
+      "globalPercentile": 67
+    },
+    {
+      "id": "pankaj-singh",
+      "name": "Pankaj Singh",
+      "role": "PACE_BOWLER",
+      "rating": 76,
+      "matches": 6,
+      "wickets": 7,
+      "economy": 8.14,
+      "bowlingAverage": 24.4,
+      "globalPercentile": 75
+    },
+    {
+      "id": "str-binny",
+      "name": "STR Binny",
+      "role": "PACE_BOWLER",
+      "rating": 67,
+      "matches": 6,
+      "runs": 90,
+      "average": 22.5,
+      "strikeRate": 134.3,
+      "wickets": 3,
+      "economy": 7.8,
+      "bowlingAverage": 26.0,
+      "globalPercentile": 48
+    },
+    {
+      "id": "sr-watson",
+      "name": "SR Watson",
+      "role": "PACE_BOWLER",
+      "rating": 73,
+      "matches": 7,
+      "runs": 255,
+      "average": 42.5,
+      "strikeRate": 151.8,
+      "wickets": 6,
+      "economy": 7.17,
+      "bowlingAverage": 27.5,
+      "globalPercentile": 67
+    },
+    {
+      "id": "sw-tait",
+      "name": "SW Tait",
+      "role": "PACE_BOWLER",
+      "rating": 78,
+      "matches": 6,
+      "wickets": 6,
+      "economy": 6.74,
+      "bowlingAverage": 25.7,
+      "globalPercentile": 81
+    }
+  ],
+  "stats": {
+    "min": 48,
+    "max": 88,
+    "mean": 70.3
+  }
+}

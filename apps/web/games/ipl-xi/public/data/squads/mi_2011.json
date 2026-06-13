@@ -1,0 +1,193 @@
+{
+  "teamId": "mi",
+  "year": "2011",
+  "label": "Mumbai Indians 2011",
+  "players": [
+    {
+      "id": "dj-jacobs",
+      "name": "DJ Jacobs",
+      "role": "OPENER",
+      "rating": 49,
+      "matches": 6,
+      "runs": 92,
+      "average": 15.3,
+      "strikeRate": 104.5,
+      "globalPercentile": 4
+    },
+    {
+      "id": "sr-tendulkar",
+      "name": "SR Tendulkar",
+      "role": "OPENER",
+      "rating": 74,
+      "matches": 16,
+      "runs": 553,
+      "average": 42.5,
+      "strikeRate": 113.3,
+      "globalPercentile": 63
+    },
+    {
+      "id": "at-rayudu",
+      "name": "AT Rayudu",
+      "role": "MIDDLE_ORDER",
+      "rating": 63,
+      "matches": 16,
+      "runs": 395,
+      "average": 30.4,
+      "strikeRate": 113.2,
+      "globalPercentile": 28
+    },
+    {
+      "id": "rg-sharma",
+      "name": "RG Sharma",
+      "role": "MIDDLE_ORDER",
+      "rating": 72,
+      "matches": 13,
+      "runs": 372,
+      "average": 37.2,
+      "strikeRate": 125.3,
+      "wickets": 0,
+      "economy": 13.25,
+      "globalPercentile": 53
+    },
+    {
+      "id": "harbhajan-singh",
+      "name": "Harbhajan Singh",
+      "role": "SPIN_BOWLER",
+      "rating": 75,
+      "matches": 15,
+      "runs": 103,
+      "average": 34.3,
+      "strikeRate": 145.1,
+      "wickets": 14,
+      "economy": 7.04,
+      "bowlingAverage": 26.6,
+      "globalPercentile": 61
+    },
+    {
+      "id": "sl-malinga",
+      "name": "SL Malinga",
+      "role": "PACE_BOWLER",
+      "rating": 96,
+      "matches": 16,
+      "wickets": 28,
+      "economy": 6.24,
+      "bowlingAverage": 14.0,
+      "globalPercentile": 100
+    },
+    {
+      "id": "ag-murtaza",
+      "name": "AG Murtaza",
+      "role": "PACE_BOWLER",
+      "rating": 66,
+      "matches": 5,
+      "wickets": 3,
+      "economy": 6.1,
+      "bowlingAverage": 40.7,
+      "globalPercentile": 45
+    },
+    {
+      "id": "mm-patel",
+      "name": "MM Patel",
+      "role": "PACE_BOWLER",
+      "rating": 89,
+      "matches": 15,
+      "wickets": 22,
+      "economy": 6.94,
+      "bowlingAverage": 17.1,
+      "globalPercentile": 96
+    },
+    {
+      "id": "ka-pollard",
+      "name": "KA Pollard",
+      "role": "PACE_BOWLER",
+      "rating": 59,
+      "matches": 16,
+      "runs": 146,
+      "average": 14.6,
+      "strikeRate": 110.6,
+      "wickets": 10,
+      "economy": 8.64,
+      "bowlingAverage": 36.7,
+      "globalPercentile": 28
+    },
+    {
+      "id": "jec-franklin",
+      "name": "JEC Franklin",
+      "role": "PACE_BOWLER",
+      "rating": 59,
+      "matches": 5,
+      "runs": 107,
+      "average": 53.5,
+      "strikeRate": 137.2,
+      "wickets": 3,
+      "economy": 9.5,
+      "bowlingAverage": 31.7,
+      "globalPercentile": 28
+    },
+    {
+      "id": "a-symonds",
+      "name": "A Symonds",
+      "role": "ALL_ROUNDER",
+      "rating": 64,
+      "matches": 9,
+      "runs": 135,
+      "average": 45.0,
+      "strikeRate": 97.8,
+      "wickets": 1,
+      "economy": 10.25,
+      "bowlingAverage": 41.0,
+      "globalPercentile": 42
+    },
+    {
+      "id": "an-ahmed",
+      "name": "AN Ahmed",
+      "role": "PACE_BOWLER",
+      "rating": 62,
+      "matches": 6,
+      "wickets": 5,
+      "economy": 8.9,
+      "bowlingAverage": 35.6,
+      "globalPercentile": 35
+    },
+    {
+      "id": "tl-suman",
+      "name": "TL Suman",
+      "role": "MIDDLE_ORDER",
+      "rating": 51,
+      "matches": 6,
+      "runs": 65,
+      "average": 10.8,
+      "strikeRate": 127.5,
+      "wickets": 0,
+      "economy": 8.33,
+      "globalPercentile": 8
+    },
+    {
+      "id": "ac-blizzard",
+      "name": "AC Blizzard",
+      "role": "OPENER",
+      "rating": 61,
+      "matches": 6,
+      "runs": 120,
+      "average": 20.0,
+      "strikeRate": 137.9,
+      "globalPercentile": 23
+    },
+    {
+      "id": "ds-kulkarni",
+      "name": "DS Kulkarni",
+      "role": "PACE_BOWLER",
+      "rating": 68,
+      "matches": 6,
+      "wickets": 5,
+      "economy": 7.8,
+      "bowlingAverage": 31.2,
+      "globalPercentile": 51
+    }
+  ],
+  "stats": {
+    "min": 49,
+    "max": 96,
+    "mean": 67.2
+  }
+}

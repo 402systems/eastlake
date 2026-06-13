@@ -1,0 +1,137 @@
+{
+  "teamId": "pbks",
+  "year": "2010",
+  "label": "Punjab Kings 2010",
+  "players": [
+    {
+      "id": "rs-bopara",
+      "name": "RS Bopara",
+      "role": "OPENER",
+      "rating": 67,
+      "matches": 9,
+      "runs": 248,
+      "average": 35.4,
+      "strikeRate": 115.9,
+      "wickets": 5,
+      "economy": 10.15,
+      "bowlingAverage": 26.4
+    },
+    {
+      "id": "ms-bisla",
+      "name": "MS Bisla",
+      "role": "OPENER",
+      "rating": 61,
+      "matches": 10,
+      "runs": 218,
+      "average": 24.2,
+      "strikeRate": 123.2
+    },
+    {
+      "id": "kc-sangakkara",
+      "name": "KC Sangakkara",
+      "role": "MIDDLE_ORDER",
+      "rating": 74,
+      "matches": 12,
+      "runs": 357,
+      "average": 29.8,
+      "strikeRate": 139.5
+    },
+    {
+      "id": "yuvraj-singh",
+      "name": "Yuvraj Singh",
+      "role": "MIDDLE_ORDER",
+      "rating": 60,
+      "matches": 14,
+      "runs": 259,
+      "average": 21.6,
+      "strikeRate": 129.5,
+      "wickets": 5,
+      "economy": 6.74,
+      "bowlingAverage": 31.0
+    },
+    {
+      "id": "dpmd-jayawardene",
+      "name": "DPMD Jayawardene",
+      "role": "MIDDLE_ORDER",
+      "rating": 83,
+      "matches": 13,
+      "runs": 445,
+      "average": 40.5,
+      "strikeRate": 148.8
+    },
+    {
+      "id": "ik-pathan",
+      "name": "IK Pathan",
+      "role": "ALL_ROUNDER",
+      "rating": 75,
+      "matches": 14,
+      "runs": 276,
+      "average": 39.4,
+      "strikeRate": 148.4,
+      "wickets": 15,
+      "economy": 9.39,
+      "bowlingAverage": 29.0
+    },
+    {
+      "id": "pp-chawla",
+      "name": "PP Chawla",
+      "role": "SPIN_BOWLER",
+      "rating": 70,
+      "matches": 14,
+      "runs": 62,
+      "average": 12.4,
+      "strikeRate": 105.1,
+      "wickets": 12,
+      "economy": 7.57,
+      "bowlingAverage": 30.9
+    },
+    {
+      "id": "rr-powar",
+      "name": "RR Powar",
+      "role": "SPIN_BOWLER",
+      "rating": 60,
+      "matches": 7,
+      "wickets": 3,
+      "economy": 7.09,
+      "bowlingAverage": 54.3
+    },
+    {
+      "id": "s-sreesanth",
+      "name": "S Sreesanth",
+      "role": "PACE_BOWLER",
+      "rating": 51,
+      "matches": 6,
+      "runs": 27,
+      "average": 27,
+      "strikeRate": 128.6,
+      "wickets": 3,
+      "economy": 10.05,
+      "bowlingAverage": 63.7
+    },
+    {
+      "id": "sj-srivastava",
+      "name": "SJ Srivastava",
+      "role": "PACE_BOWLER",
+      "rating": 56,
+      "matches": 8,
+      "wickets": 6,
+      "economy": 9.52,
+      "bowlingAverage": 42.8
+    },
+    {
+      "id": "j-theron",
+      "name": "J Theron",
+      "role": "PACE_BOWLER",
+      "rating": 75,
+      "matches": 7,
+      "wickets": 8,
+      "economy": 8.21,
+      "bowlingAverage": 25.5
+    }
+  ],
+  "stats": {
+    "min": 51,
+    "max": 83,
+    "mean": 66.5
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "teamId": "rr",
+  "year": "2010",
+  "label": "Rajasthan Royals 2010",
+  "players": [
+    {
+      "id": "nv-ojha",
+      "name": "NV Ojha",
+      "role": "OPENER",
+      "rating": 71,
+      "matches": 14,
+      "runs": 377,
+      "average": 34.3,
+      "strikeRate": 133.2,
+      "globalPercentile": 52
+    },
+    {
+      "id": "aa-jhunjhunwala",
+      "name": "AA Jhunjhunwala",
+      "role": "ALL_ROUNDER",
+      "rating": 56,
+      "matches": 10,
+      "runs": 183,
+      "average": 22.9,
+      "strikeRate": 110.2,
+      "wickets": 0,
+      "economy": 11.17,
+      "globalPercentile": 23
+    },
+    {
+      "id": "yk-pathan",
+      "name": "YK Pathan",
+      "role": "PACE_BOWLER",
+      "rating": 59,
+      "matches": 14,
+      "runs": 333,
+      "average": 33.3,
+      "strikeRate": 166.5,
+      "wickets": 5,
+      "economy": 7.47,
+      "bowlingAverage": 50.8,
+      "globalPercentile": 28
+    },
+    {
+      "id": "p-dogra",
+      "name": "P Dogra",
+      "role": "ALL_ROUNDER",
+      "rating": 53,
+      "matches": 8,
+      "runs": 107,
+      "average": 21.4,
+      "strikeRate": 100.9,
+      "globalPercentile": 16
+    },
+    {
+      "id": "sk-warne",
+      "name": "SK Warne",
+      "role": "SPIN_BOWLER",
+      "rating": 65,
+      "matches": 14,
+      "runs": 10,
+      "average": 3.3,
+      "strikeRate": 52.6,
+      "wickets": 11,
+      "economy": 7.78,
+      "bowlingAverage": 35.4,
+      "globalPercentile": 33
+    },
+    {
+      "id": "sw-tait",
+      "name": "SW Tait",
+      "role": "PACE_BOWLER",
+      "rating": 73,
+      "matches": 8,
+      "wickets": 10,
+      "economy": 8.79,
+      "bowlingAverage": 27.4,
+      "globalPercentile": 67
+    },
+    {
+      "id": "mj-lumb",
+      "name": "MJ Lumb",
+      "role": "OPENER",
+      "rating": 71,
+      "matches": 11,
+      "runs": 278,
+      "average": 30.9,
+      "strikeRate": 147.1,
+      "globalPercentile": 52
+    },
+    {
+      "id": "s-narwal",
+      "name": "S Narwal",
+      "role": "PACE_BOWLER",
+      "rating": 56,
+      "matches": 5,
+      "runs": 14,
+      "average": 7.0,
+      "strikeRate": 116.7,
+      "wickets": 5,
+      "economy": 11.87,
+      "bowlingAverage": 37.2,
+      "globalPercentile": 20
+    },
+    {
+      "id": "sk-trivedi",
+      "name": "SK Trivedi",
+      "role": "PACE_BOWLER",
+      "rating": 77,
+      "matches": 10,
+      "runs": 20,
+      "average": 10.0,
+      "strikeRate": 142.9,
+      "wickets": 11,
+      "economy": 7.49,
+      "bowlingAverage": 24.2,
+      "globalPercentile": 78
+    },
+    {
+      "id": "fy-fazal",
+      "name": "FY Fazal",
+      "role": "MIDDLE_ORDER",
+      "rating": 53,
+      "matches": 9,
+      "runs": 164,
+      "average": 20.5,
+      "strikeRate": 107.2,
+      "globalPercentile": 12
+    },
+    {
+      "id": "ac-voges",
+      "name": "AC Voges",
+      "role": "PACE_BOWLER",
+      "rating": 49,
+      "matches": 7,
+      "runs": 181,
+      "average": 45.2,
+      "strikeRate": 126.6,
+      "wickets": 0,
+      "economy": 8.44,
+      "globalPercentile": 6
+    },
+    {
+      "id": "sr-watson",
+      "name": "SR Watson",
+      "role": "PACE_BOWLER",
+      "rating": 69,
+      "matches": 6,
+      "runs": 185,
+      "average": 37.0,
+      "strikeRate": 163.7,
+      "wickets": 6,
+      "economy": 8.41,
+      "bowlingAverage": 30.8,
+      "globalPercentile": 55
+    }
+  ],
+  "stats": {
+    "min": 49,
+    "max": 77,
+    "mean": 62.7
+  }
+}

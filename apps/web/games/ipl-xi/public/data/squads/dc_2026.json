@@ -1,0 +1,176 @@
+{
+  "teamId": "dc",
+  "year": "2026",
+  "label": "Delhi Capitals 2026",
+  "players": [
+    {
+      "id": "kl-rahul",
+      "name": "KL Rahul",
+      "role": "OPENER",
+      "rating": 93,
+      "matches": 14,
+      "runs": 593,
+      "average": 45.6,
+      "strikeRate": 174.9,
+      "globalPercentile": 97
+    },
+    {
+      "id": "n-rana",
+      "name": "N Rana",
+      "role": "MIDDLE_ORDER",
+      "rating": 72,
+      "matches": 9,
+      "runs": 225,
+      "average": 25.0,
+      "strikeRate": 151.0,
+      "wickets": 0,
+      "economy": 13.75,
+      "globalPercentile": 53
+    },
+    {
+      "id": "p-nissanka",
+      "name": "P Nissanka",
+      "role": "OPENER",
+      "rating": 74,
+      "matches": 10,
+      "runs": 278,
+      "average": 27.8,
+      "strikeRate": 160.7,
+      "globalPercentile": 63
+    },
+    {
+      "id": "sameer-rizvi",
+      "name": "Sameer Rizvi",
+      "role": "MIDDLE_ORDER",
+      "rating": 79,
+      "matches": 9,
+      "runs": 252,
+      "average": 36.0,
+      "strikeRate": 147.4,
+      "globalPercentile": 71
+    },
+    {
+      "id": "ar-patel",
+      "name": "AR Patel",
+      "role": "SPIN_BOWLER",
+      "rating": 66,
+      "matches": 13,
+      "runs": 173,
+      "average": 17.3,
+      "strikeRate": 132.1,
+      "wickets": 11,
+      "economy": 8.3,
+      "bowlingAverage": 33.2,
+      "globalPercentile": 36
+    },
+    {
+      "id": "t-stubbs",
+      "name": "T Stubbs",
+      "role": "ALL_ROUNDER",
+      "rating": 72,
+      "matches": 13,
+      "runs": 275,
+      "average": 45.8,
+      "strikeRate": 127.3,
+      "globalPercentile": 65
+    },
+    {
+      "id": "mukesh-kumar",
+      "name": "Mukesh Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 50,
+      "matches": 9,
+      "wickets": 6,
+      "economy": 11.29,
+      "bowlingAverage": 58.3,
+      "globalPercentile": 8
+    },
+    {
+      "id": "l-ngidi",
+      "name": "L Ngidi",
+      "role": "PACE_BOWLER",
+      "rating": 75,
+      "matches": 11,
+      "runs": 4,
+      "average": 2.0,
+      "strikeRate": 66.7,
+      "wickets": 13,
+      "economy": 8.27,
+      "bowlingAverage": 26.3,
+      "globalPercentile": 72
+    },
+    {
+      "id": "t-natarajan",
+      "name": "T Natarajan",
+      "role": "PACE_BOWLER",
+      "rating": 48,
+      "matches": 9,
+      "wickets": 5,
+      "economy": 11.01,
+      "bowlingAverage": 69.0,
+      "globalPercentile": 5
+    },
+    {
+      "id": "kuldeep-yadav",
+      "name": "Kuldeep Yadav",
+      "role": "SPIN_BOWLER",
+      "rating": 56,
+      "matches": 11,
+      "runs": 9,
+      "average": 4.5,
+      "strikeRate": 42.9,
+      "wickets": 10,
+      "economy": 10.38,
+      "bowlingAverage": 38.4,
+      "globalPercentile": 8
+    },
+    {
+      "id": "v-nigam",
+      "name": "V Nigam",
+      "role": "PACE_BOWLER",
+      "rating": 46,
+      "matches": 5,
+      "wickets": 2,
+      "economy": 13.0,
+      "bowlingAverage": 58.5,
+      "globalPercentile": 3
+    },
+    {
+      "id": "da-miller",
+      "name": "DA Miller",
+      "role": "ALL_ROUNDER",
+      "rating": 78,
+      "matches": 10,
+      "runs": 211,
+      "average": 35.2,
+      "strikeRate": 154.0,
+      "globalPercentile": 80
+    },
+    {
+      "id": "auqib-nabi",
+      "name": "Auqib Nabi",
+      "role": "PACE_BOWLER",
+      "rating": 40,
+      "matches": 5,
+      "wickets": 0,
+      "economy": 11.62,
+      "globalPercentile": 0
+    },
+    {
+      "id": "ma-starc",
+      "name": "MA Starc",
+      "role": "PACE_BOWLER",
+      "rating": 80,
+      "matches": 6,
+      "wickets": 11,
+      "economy": 10.23,
+      "bowlingAverage": 20.5,
+      "globalPercentile": 84
+    }
+  ],
+  "stats": {
+    "min": 40,
+    "max": 93,
+    "mean": 66.4
+  }
+}

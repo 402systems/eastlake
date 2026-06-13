@@ -1,0 +1,177 @@
+{
+  "teamId": "gt",
+  "year": "2022",
+  "label": "Gujarat Titans 2022",
+  "players": [
+    {
+      "id": "shubman-gill",
+      "name": "Shubman Gill",
+      "role": "OPENER",
+      "rating": 72,
+      "matches": 16,
+      "runs": 483,
+      "average": 34.5,
+      "strikeRate": 133.4,
+      "globalPercentile": 55
+    },
+    {
+      "id": "ms-wade",
+      "name": "MS Wade",
+      "role": "OPENER",
+      "rating": 52,
+      "matches": 10,
+      "runs": 157,
+      "average": 17.4,
+      "strikeRate": 113.8,
+      "globalPercentile": 8
+    },
+    {
+      "id": "hh-pandya",
+      "name": "HH Pandya",
+      "role": "MIDDLE_ORDER",
+      "rating": 83,
+      "matches": 15,
+      "runs": 487,
+      "average": 54.1,
+      "strikeRate": 131.6,
+      "wickets": 8,
+      "economy": 7.41,
+      "bowlingAverage": 28.2,
+      "globalPercentile": 79
+    },
+    {
+      "id": "da-miller",
+      "name": "DA Miller",
+      "role": "ALL_ROUNDER",
+      "rating": 83,
+      "matches": 16,
+      "runs": 481,
+      "average": 68.7,
+      "strikeRate": 143.6,
+      "globalPercentile": 89
+    },
+    {
+      "id": "r-tewatia",
+      "name": "R Tewatia",
+      "role": "ALL_ROUNDER",
+      "rating": 72,
+      "matches": 12,
+      "runs": 217,
+      "average": 31.0,
+      "strikeRate": 147.6,
+      "wickets": 0,
+      "economy": 12.67,
+      "globalPercentile": 65
+    },
+    {
+      "id": "a-manohar",
+      "name": "A Manohar",
+      "role": "ALL_ROUNDER",
+      "rating": 62,
+      "matches": 7,
+      "runs": 108,
+      "average": 18.0,
+      "strikeRate": 144.0,
+      "globalPercentile": 36
+    },
+    {
+      "id": "mohammed-shami",
+      "name": "Mohammed Shami",
+      "role": "PACE_BOWLER",
+      "rating": 77,
+      "matches": 16,
+      "wickets": 20,
+      "economy": 8.05,
+      "bowlingAverage": 24.6,
+      "globalPercentile": 78
+    },
+    {
+      "id": "lh-ferguson",
+      "name": "LH Ferguson",
+      "role": "PACE_BOWLER",
+      "rating": 62,
+      "matches": 13,
+      "wickets": 12,
+      "economy": 9.08,
+      "bowlingAverage": 36.1,
+      "globalPercentile": 35
+    },
+    {
+      "id": "rashid-khan",
+      "name": "Rashid Khan",
+      "role": "SPIN_BOWLER",
+      "rating": 82,
+      "matches": 16,
+      "runs": 91,
+      "average": 22.8,
+      "strikeRate": 206.8,
+      "wickets": 19,
+      "economy": 6.7,
+      "bowlingAverage": 22.5,
+      "globalPercentile": 82
+    },
+    {
+      "id": "b-sai-sudharsan",
+      "name": "B Sai Sudharsan",
+      "role": "MIDDLE_ORDER",
+      "rating": 73,
+      "matches": 5,
+      "runs": 145,
+      "average": 36.2,
+      "strikeRate": 128.3,
+      "globalPercentile": 57
+    },
+    {
+      "id": "yash-dayal",
+      "name": "Yash Dayal",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 9,
+      "wickets": 11,
+      "economy": 9.25,
+      "bowlingAverage": 26.9,
+      "globalPercentile": 61
+    },
+    {
+      "id": "wp-saha",
+      "name": "WP Saha",
+      "role": "OPENER",
+      "rating": 69,
+      "matches": 11,
+      "runs": 317,
+      "average": 35.2,
+      "strikeRate": 122.4,
+      "globalPercentile": 47
+    },
+    {
+      "id": "as-joseph",
+      "name": "AS Joseph",
+      "role": "PACE_BOWLER",
+      "rating": 59,
+      "matches": 9,
+      "runs": 5,
+      "average": 5.0,
+      "strikeRate": 71.4,
+      "wickets": 7,
+      "economy": 8.97,
+      "bowlingAverage": 38.4,
+      "globalPercentile": 28
+    },
+    {
+      "id": "r-sai-kishore",
+      "name": "R Sai Kishore",
+      "role": "SPIN_BOWLER",
+      "rating": 81,
+      "matches": 5,
+      "wickets": 6,
+      "economy": 7.62,
+      "bowlingAverage": 20.3,
+      "globalPercentile": 78
+    }
+  ],
+  "stats": {
+    "min": 52,
+    "max": 83,
+    "mean": 71.3
+  }
+}

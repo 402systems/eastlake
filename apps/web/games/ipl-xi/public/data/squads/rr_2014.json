@@ -1,0 +1,159 @@
+{
+  "teamId": "rr",
+  "year": "2014",
+  "label": "Rajasthan Royals 2014",
+  "players": [
+    {
+      "id": "sv-samson",
+      "name": "SV Samson",
+      "role": "MIDDLE_ORDER",
+      "rating": 65,
+      "matches": 13,
+      "runs": 339,
+      "average": 26.1,
+      "strikeRate": 124.2,
+      "globalPercentile": 35
+    },
+    {
+      "id": "am-rahane",
+      "name": "AM Rahane",
+      "role": "OPENER",
+      "rating": 67,
+      "matches": 12,
+      "runs": 339,
+      "average": 33.9,
+      "strikeRate": 116.5,
+      "globalPercentile": 41
+    },
+    {
+      "id": "sr-watson",
+      "name": "SR Watson",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 13,
+      "runs": 246,
+      "average": 20.5,
+      "strikeRate": 124.2,
+      "wickets": 7,
+      "economy": 8.05,
+      "bowlingAverage": 24.1,
+      "globalPercentile": 61
+    },
+    {
+      "id": "str-binny",
+      "name": "STR Binny",
+      "role": "PACE_BOWLER",
+      "rating": 69,
+      "matches": 11,
+      "runs": 123,
+      "average": 13.7,
+      "strikeRate": 101.7,
+      "wickets": 3,
+      "economy": 7.22,
+      "bowlingAverage": 21.7,
+      "globalPercentile": 55
+    },
+    {
+      "id": "r-bhatia",
+      "name": "R Bhatia",
+      "role": "PACE_BOWLER",
+      "rating": 76,
+      "matches": 12,
+      "runs": 67,
+      "average": 13.4,
+      "strikeRate": 126.4,
+      "wickets": 12,
+      "economy": 7.55,
+      "bowlingAverage": 23.9,
+      "globalPercentile": 75
+    },
+    {
+      "id": "jp-faulkner",
+      "name": "JP Faulkner",
+      "role": "PACE_BOWLER",
+      "rating": 55,
+      "matches": 13,
+      "runs": 181,
+      "average": 45.2,
+      "strikeRate": 194.6,
+      "wickets": 11,
+      "economy": 10.2,
+      "bowlingAverage": 40.8,
+      "globalPercentile": 18
+    },
+    {
+      "id": "ds-kulkarni",
+      "name": "DS Kulkarni",
+      "role": "PACE_BOWLER",
+      "rating": 61,
+      "matches": 8,
+      "wickets": 6,
+      "economy": 8.37,
+      "bowlingAverage": 37.7,
+      "globalPercentile": 33
+    },
+    {
+      "id": "kw-richardson",
+      "name": "KW Richardson",
+      "role": "PACE_BOWLER",
+      "rating": 80,
+      "matches": 7,
+      "wickets": 9,
+      "economy": 7.74,
+      "bowlingAverage": 23.2,
+      "globalPercentile": 84
+    },
+    {
+      "id": "pv-tambe",
+      "name": "PV Tambe",
+      "role": "SPIN_BOWLER",
+      "rating": 78,
+      "matches": 13,
+      "wickets": 15,
+      "economy": 7.45,
+      "bowlingAverage": 24.3,
+      "globalPercentile": 70
+    },
+    {
+      "id": "spd-smith",
+      "name": "SPD Smith",
+      "role": "ALL_ROUNDER",
+      "rating": 72,
+      "matches": 7,
+      "runs": 152,
+      "average": 38.0,
+      "strikeRate": 135.7,
+      "globalPercentile": 65
+    },
+    {
+      "id": "kk-nair",
+      "name": "KK Nair",
+      "role": "OPENER",
+      "rating": 73,
+      "matches": 11,
+      "runs": 330,
+      "average": 33.0,
+      "strikeRate": 142.2,
+      "globalPercentile": 59
+    },
+    {
+      "id": "kk-cooper",
+      "name": "KK Cooper",
+      "role": "PACE_BOWLER",
+      "rating": 64,
+      "matches": 5,
+      "runs": 39,
+      "average": 13.0,
+      "strikeRate": 150.0,
+      "wickets": 4,
+      "economy": 8.11,
+      "bowlingAverage": 36.5,
+      "globalPercentile": 38
+    }
+  ],
+  "stats": {
+    "min": 55,
+    "max": 80,
+    "mean": 69.2
+  }
+}

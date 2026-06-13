@@ -1,0 +1,159 @@
+{
+  "teamId": "csk",
+  "year": "2021",
+  "label": "Chennai Super Kings 2021",
+  "players": [
+    {
+      "id": "rd-gaikwad",
+      "name": "RD Gaikwad",
+      "role": "OPENER",
+      "rating": 83,
+      "matches": 16,
+      "runs": 635,
+      "average": 45.4,
+      "strikeRate": 137.4,
+      "globalPercentile": 82
+    },
+    {
+      "id": "f-du-plessis",
+      "name": "F du Plessis",
+      "role": "OPENER",
+      "rating": 83,
+      "matches": 16,
+      "runs": 633,
+      "average": 45.2,
+      "strikeRate": 138.8,
+      "globalPercentile": 82
+    },
+    {
+      "id": "mm-ali",
+      "name": "MM Ali",
+      "role": "PACE_BOWLER",
+      "rating": 72,
+      "matches": 15,
+      "runs": 357,
+      "average": 25.5,
+      "strikeRate": 137.3,
+      "wickets": 6,
+      "economy": 6.43,
+      "bowlingAverage": 27.2,
+      "globalPercentile": 64
+    },
+    {
+      "id": "sk-raina",
+      "name": "SK Raina",
+      "role": "MIDDLE_ORDER",
+      "rating": 58,
+      "matches": 11,
+      "runs": 160,
+      "average": 22.9,
+      "strikeRate": 126.0,
+      "globalPercentile": 15
+    },
+    {
+      "id": "at-rayudu",
+      "name": "AT Rayudu",
+      "role": "ALL_ROUNDER",
+      "rating": 73,
+      "matches": 13,
+      "runs": 257,
+      "average": 28.6,
+      "strikeRate": 153.9,
+      "globalPercentile": 69
+    },
+    {
+      "id": "ra-jadeja",
+      "name": "RA Jadeja",
+      "role": "SPIN_BOWLER",
+      "rating": 73,
+      "matches": 16,
+      "runs": 227,
+      "average": 75.7,
+      "strikeRate": 146.5,
+      "wickets": 13,
+      "economy": 7.08,
+      "bowlingAverage": 26.7,
+      "globalPercentile": 54
+    },
+    {
+      "id": "ms-dhoni",
+      "name": "MS Dhoni",
+      "role": "ALL_ROUNDER",
+      "rating": 48,
+      "matches": 11,
+      "runs": 114,
+      "average": 16.3,
+      "strikeRate": 106.5,
+      "globalPercentile": 7
+    },
+    {
+      "id": "sm-curran",
+      "name": "SM Curran",
+      "role": "PACE_BOWLER",
+      "rating": 60,
+      "matches": 9,
+      "runs": 56,
+      "average": 18.7,
+      "strikeRate": 193.1,
+      "wickets": 9,
+      "economy": 10.06,
+      "bowlingAverage": 36.9,
+      "globalPercentile": 30
+    },
+    {
+      "id": "dl-chahar",
+      "name": "DL Chahar",
+      "role": "PACE_BOWLER",
+      "rating": 67,
+      "matches": 15,
+      "wickets": 14,
+      "economy": 8.39,
+      "bowlingAverage": 32.4,
+      "globalPercentile": 48
+    },
+    {
+      "id": "sn-thakur",
+      "name": "SN Thakur",
+      "role": "PACE_BOWLER",
+      "rating": 75,
+      "matches": 16,
+      "runs": 5,
+      "average": 5.0,
+      "strikeRate": 125.0,
+      "wickets": 21,
+      "economy": 8.87,
+      "bowlingAverage": 25.3,
+      "globalPercentile": 72
+    },
+    {
+      "id": "dj-bravo",
+      "name": "DJ Bravo",
+      "role": "PACE_BOWLER",
+      "rating": 82,
+      "matches": 11,
+      "runs": 47,
+      "average": 47.0,
+      "strikeRate": 261.1,
+      "wickets": 14,
+      "economy": 7.84,
+      "bowlingAverage": 18.9,
+      "globalPercentile": 87
+    },
+    {
+      "id": "jr-hazlewood",
+      "name": "JR Hazlewood",
+      "role": "PACE_BOWLER",
+      "rating": 73,
+      "matches": 9,
+      "wickets": 11,
+      "economy": 8.63,
+      "bowlingAverage": 27.5,
+      "globalPercentile": 67
+    }
+  ],
+  "stats": {
+    "min": 48,
+    "max": 83,
+    "mean": 70.6
+  }
+}

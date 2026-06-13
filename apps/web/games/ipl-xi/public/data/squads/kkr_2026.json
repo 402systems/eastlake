@@ -1,0 +1,145 @@
+{
+  "teamId": "kkr",
+  "year": "2026",
+  "label": "Kolkata Knight Riders 2026",
+  "players": [
+    {
+      "id": "am-rahane",
+      "name": "AM Rahane",
+      "role": "OPENER",
+      "rating": 66,
+      "matches": 14,
+      "runs": 335,
+      "average": 27.9,
+      "strikeRate": 135.1,
+      "globalPercentile": 38
+    },
+    {
+      "id": "fh-allen",
+      "name": "FH Allen",
+      "role": "OPENER",
+      "rating": 83,
+      "matches": 11,
+      "runs": 349,
+      "average": 34.9,
+      "strikeRate": 214.1,
+      "globalPercentile": 82
+    },
+    {
+      "id": "c-green",
+      "name": "C Green",
+      "role": "PACE_BOWLER",
+      "rating": 54,
+      "matches": 14,
+      "runs": 322,
+      "average": 35.8,
+      "strikeRate": 146.4,
+      "wickets": 7,
+      "economy": 10.95,
+      "bowlingAverage": 34.4,
+      "globalPercentile": 16
+    },
+    {
+      "id": "a-raghuvanshi",
+      "name": "A Raghuvanshi",
+      "role": "MIDDLE_ORDER",
+      "rating": 89,
+      "matches": 12,
+      "runs": 422,
+      "average": 52.8,
+      "strikeRate": 147.0,
+      "globalPercentile": 90
+    },
+    {
+      "id": "rk-singh",
+      "name": "RK Singh",
+      "role": "ALL_ROUNDER",
+      "rating": 82,
+      "matches": 11,
+      "runs": 299,
+      "average": 59.8,
+      "strikeRate": 151.0,
+      "globalPercentile": 87
+    },
+    {
+      "id": "vg-arora",
+      "name": "VG Arora",
+      "role": "PACE_BOWLER",
+      "rating": 60,
+      "matches": 10,
+      "wickets": 11,
+      "economy": 10.42,
+      "bowlingAverage": 36.0,
+      "globalPercentile": 30
+    },
+    {
+      "id": "cv-varun",
+      "name": "CV Varun",
+      "role": "SPIN_BOWLER",
+      "rating": 66,
+      "matches": 11,
+      "wickets": 11,
+      "economy": 8.85,
+      "bowlingAverage": 33.0,
+      "globalPercentile": 36
+    },
+    {
+      "id": "kartik-tyagi",
+      "name": "Kartik Tyagi",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 13,
+      "runs": 11,
+      "average": 3.7,
+      "strikeRate": 110.0,
+      "wickets": 18,
+      "economy": 9.88,
+      "bowlingAverage": 28.0,
+      "globalPercentile": 61
+    },
+    {
+      "id": "sp-narine",
+      "name": "SP Narine",
+      "role": "SPIN_BOWLER",
+      "rating": 85,
+      "matches": 13,
+      "runs": 40,
+      "average": 13.3,
+      "strikeRate": 125.0,
+      "wickets": 17,
+      "economy": 6.8,
+      "bowlingAverage": 20.6,
+      "globalPercentile": 90
+    },
+    {
+      "id": "as-roy",
+      "name": "AS Roy",
+      "role": "SPIN_BOWLER",
+      "rating": 62,
+      "matches": 12,
+      "runs": 52,
+      "average": 13.0,
+      "strikeRate": 133.3,
+      "wickets": 9,
+      "economy": 9.72,
+      "bowlingAverage": 29.3,
+      "globalPercentile": 24
+    },
+    {
+      "id": "r-powell",
+      "name": "R Powell",
+      "role": "ALL_ROUNDER",
+      "rating": 78,
+      "matches": 7,
+      "runs": 190,
+      "average": 47.5,
+      "strikeRate": 135.7,
+      "globalPercentile": 80
+    }
+  ],
+  "stats": {
+    "min": 54,
+    "max": 89,
+    "mean": 72.4
+  }
+}

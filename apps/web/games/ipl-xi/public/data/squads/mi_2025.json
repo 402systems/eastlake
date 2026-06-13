@@ -1,0 +1,180 @@
+{
+  "teamId": "mi",
+  "year": "2025",
+  "label": "Mumbai Indians 2025",
+  "players": [
+    {
+      "id": "rg-sharma",
+      "name": "RG Sharma",
+      "role": "OPENER",
+      "rating": 73,
+      "matches": 15,
+      "runs": 418,
+      "average": 29.9,
+      "strikeRate": 149.8,
+      "globalPercentile": 59
+    },
+    {
+      "id": "wg-jacks",
+      "name": "WG Jacks",
+      "role": "SPIN_BOWLER",
+      "rating": 71,
+      "matches": 11,
+      "runs": 233,
+      "average": 23.3,
+      "strikeRate": 135.5,
+      "wickets": 6,
+      "economy": 8.64,
+      "bowlingAverage": 20.2,
+      "globalPercentile": 49
+    },
+    {
+      "id": "rd-rickelton",
+      "name": "RD Rickelton",
+      "role": "OPENER",
+      "rating": 73,
+      "matches": 14,
+      "runs": 388,
+      "average": 29.8,
+      "strikeRate": 152.2,
+      "globalPercentile": 59
+    },
+    {
+      "id": "sa-yadav",
+      "name": "SA Yadav",
+      "role": "MIDDLE_ORDER",
+      "rating": 97,
+      "matches": 16,
+      "runs": 717,
+      "average": 65.2,
+      "strikeRate": 167.9,
+      "globalPercentile": 98
+    },
+    {
+      "id": "tilak-varma",
+      "name": "Tilak Varma",
+      "role": "MIDDLE_ORDER",
+      "rating": 74,
+      "matches": 13,
+      "runs": 343,
+      "average": 34.3,
+      "strikeRate": 140.0,
+      "globalPercentile": 60
+    },
+    {
+      "id": "naman-dhir",
+      "name": "Naman Dhir",
+      "role": "ALL_ROUNDER",
+      "rating": 86,
+      "matches": 12,
+      "runs": 252,
+      "average": 31.5,
+      "strikeRate": 182.6,
+      "wickets": 0,
+      "economy": 5.25,
+      "globalPercentile": 93
+    },
+    {
+      "id": "mj-santner",
+      "name": "MJ Santner",
+      "role": "SPIN_BOWLER",
+      "rating": 66,
+      "matches": 13,
+      "runs": 40,
+      "average": 20.0,
+      "strikeRate": 121.2,
+      "wickets": 10,
+      "economy": 8.0,
+      "bowlingAverage": 31.6,
+      "globalPercentile": 36
+    },
+    {
+      "id": "dl-chahar",
+      "name": "DL Chahar",
+      "role": "PACE_BOWLER",
+      "rating": 61,
+      "matches": 14,
+      "runs": 37,
+      "average": 37.0,
+      "strikeRate": 148.0,
+      "wickets": 11,
+      "economy": 9.22,
+      "bowlingAverage": 34.4,
+      "globalPercentile": 33
+    },
+    {
+      "id": "ta-boult",
+      "name": "TA Boult",
+      "role": "PACE_BOWLER",
+      "rating": 76,
+      "matches": 16,
+      "wickets": 22,
+      "economy": 9.02,
+      "bowlingAverage": 23.6,
+      "globalPercentile": 75
+    },
+    {
+      "id": "v-puthur",
+      "name": "V Puthur",
+      "role": "PACE_BOWLER",
+      "rating": 77,
+      "matches": 5,
+      "wickets": 6,
+      "economy": 9.08,
+      "bowlingAverage": 18.2,
+      "globalPercentile": 78
+    },
+    {
+      "id": "hh-pandya",
+      "name": "HH Pandya",
+      "role": "ALL_ROUNDER",
+      "rating": 72,
+      "matches": 14,
+      "runs": 224,
+      "average": 24.9,
+      "strikeRate": 163.5,
+      "wickets": 14,
+      "economy": 9.86,
+      "bowlingAverage": 24.6,
+      "globalPercentile": 65
+    },
+    {
+      "id": "ashwani-kumar",
+      "name": "Ashwani Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 74,
+      "matches": 7,
+      "wickets": 11,
+      "economy": 11.41,
+      "bowlingAverage": 21.3,
+      "globalPercentile": 69
+    },
+    {
+      "id": "jj-bumrah",
+      "name": "JJ Bumrah",
+      "role": "PACE_BOWLER",
+      "rating": 89,
+      "matches": 12,
+      "wickets": 18,
+      "economy": 6.8,
+      "bowlingAverage": 17.9,
+      "globalPercentile": 96
+    },
+    {
+      "id": "kv-sharma",
+      "name": "KV Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 80,
+      "matches": 5,
+      "wickets": 7,
+      "economy": 8.87,
+      "bowlingAverage": 19.0,
+      "globalPercentile": 84
+    }
+  ],
+  "stats": {
+    "min": 61,
+    "max": 97,
+    "mean": 76.4
+  }
+}

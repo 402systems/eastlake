@@ -1,0 +1,164 @@
+{
+  "teamId": "rps",
+  "year": "2016",
+  "label": "Rising Pune Supergiant 2016",
+  "players": [
+    {
+      "id": "am-rahane",
+      "name": "AM Rahane",
+      "role": "OPENER",
+      "rating": 80,
+      "matches": 14,
+      "runs": 480,
+      "average": 48.0,
+      "strikeRate": 127.0,
+      "globalPercentile": 76
+    },
+    {
+      "id": "f-du-plessis",
+      "name": "F du Plessis",
+      "role": "OPENER",
+      "rating": 73,
+      "matches": 6,
+      "runs": 206,
+      "average": 34.3,
+      "strikeRate": 127.2,
+      "globalPercentile": 59
+    },
+    {
+      "id": "r-bhatia",
+      "name": "R Bhatia",
+      "role": "PACE_BOWLER",
+      "rating": 61,
+      "matches": 10,
+      "runs": 34,
+      "average": 34.0,
+      "strikeRate": 170.0,
+      "wickets": 6,
+      "economy": 7.32,
+      "bowlingAverage": 41.5,
+      "globalPercentile": 33
+    },
+    {
+      "id": "m-ashwin",
+      "name": "M Ashwin",
+      "role": "SPIN_BOWLER",
+      "rating": 61,
+      "matches": 10,
+      "wickets": 7,
+      "economy": 8.6,
+      "bowlingAverage": 35.0,
+      "globalPercentile": 23
+    },
+    {
+      "id": "r-ashwin",
+      "name": "R Ashwin",
+      "role": "SPIN_BOWLER",
+      "rating": 68,
+      "matches": 14,
+      "runs": 41,
+      "average": 20.5,
+      "strikeRate": 107.9,
+      "wickets": 10,
+      "economy": 7.3,
+      "bowlingAverage": 32.1,
+      "globalPercentile": 41
+    },
+    {
+      "id": "spd-smith",
+      "name": "SPD Smith",
+      "role": "MIDDLE_ORDER",
+      "rating": 93,
+      "matches": 7,
+      "runs": 270,
+      "average": 54.0,
+      "strikeRate": 154.3,
+      "globalPercentile": 94
+    },
+    {
+      "id": "ms-dhoni",
+      "name": "MS Dhoni",
+      "role": "ALL_ROUNDER",
+      "rating": 75,
+      "matches": 12,
+      "runs": 284,
+      "average": 40.6,
+      "strikeRate": 135.2,
+      "globalPercentile": 74
+    },
+    {
+      "id": "nltc-perera",
+      "name": "NLTC Perera",
+      "role": "PACE_BOWLER",
+      "rating": 58,
+      "matches": 11,
+      "runs": 150,
+      "average": 21.4,
+      "strikeRate": 163.0,
+      "wickets": 9,
+      "economy": 9.83,
+      "bowlingAverage": 36.2,
+      "globalPercentile": 25
+    },
+    {
+      "id": "ab-dinda",
+      "name": "AB Dinda",
+      "role": "PACE_BOWLER",
+      "rating": 80,
+      "matches": 9,
+      "wickets": 11,
+      "economy": 7.74,
+      "bowlingAverage": 21.5,
+      "globalPercentile": 84
+    },
+    {
+      "id": "ss-tiwary",
+      "name": "SS Tiwary",
+      "role": "MIDDLE_ORDER",
+      "rating": 65,
+      "matches": 7,
+      "runs": 170,
+      "average": 28.3,
+      "strikeRate": 122.3,
+      "globalPercentile": 35
+    },
+    {
+      "id": "ut-khawaja",
+      "name": "UT Khawaja",
+      "role": "OPENER",
+      "rating": 62,
+      "matches": 6,
+      "runs": 127,
+      "average": 25.4,
+      "strikeRate": 128.3,
+      "globalPercentile": 25
+    },
+    {
+      "id": "gj-bailey",
+      "name": "GJ Bailey",
+      "role": "MIDDLE_ORDER",
+      "rating": 52,
+      "matches": 5,
+      "runs": 84,
+      "average": 21.0,
+      "strikeRate": 86.6,
+      "globalPercentile": 9
+    },
+    {
+      "id": "a-zampa",
+      "name": "A Zampa",
+      "role": "SPIN_BOWLER",
+      "rating": 95,
+      "matches": 5,
+      "wickets": 12,
+      "economy": 6.88,
+      "bowlingAverage": 9.8,
+      "globalPercentile": 100
+    }
+  ],
+  "stats": {
+    "min": 52,
+    "max": 95,
+    "mean": 71.0
+  }
+}

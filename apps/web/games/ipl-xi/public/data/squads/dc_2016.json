@@ -1,0 +1,167 @@
+{
+  "teamId": "dc",
+  "year": "2016",
+  "label": "Delhi Capitals 2016",
+  "players": [
+    {
+      "id": "q-de-kock",
+      "name": "Q de Kock",
+      "role": "OPENER",
+      "rating": 76,
+      "matches": 13,
+      "runs": 445,
+      "average": 37.1,
+      "strikeRate": 136.5,
+      "globalPercentile": 68
+    },
+    {
+      "id": "ss-iyer",
+      "name": "SS Iyer",
+      "role": "OPENER",
+      "rating": 40,
+      "matches": 6,
+      "runs": 30,
+      "average": 5.0,
+      "strikeRate": 69.8,
+      "globalPercentile": 0
+    },
+    {
+      "id": "kk-nair",
+      "name": "KK Nair",
+      "role": "MIDDLE_ORDER",
+      "rating": 71,
+      "matches": 12,
+      "runs": 357,
+      "average": 35.7,
+      "strikeRate": 121.0,
+      "globalPercentile": 49
+    },
+    {
+      "id": "sv-samson",
+      "name": "SV Samson",
+      "role": "MIDDLE_ORDER",
+      "rating": 60,
+      "matches": 14,
+      "runs": 291,
+      "average": 29.1,
+      "strikeRate": 112.8,
+      "globalPercentile": 21
+    },
+    {
+      "id": "p-negi",
+      "name": "P Negi",
+      "role": "PACE_BOWLER",
+      "rating": 49,
+      "matches": 6,
+      "runs": 57,
+      "average": 28.5,
+      "strikeRate": 96.6,
+      "wickets": 1,
+      "economy": 9.33,
+      "bowlingAverage": 84.0,
+      "globalPercentile": 6
+    },
+    {
+      "id": "cr-brathwaite",
+      "name": "CR Brathwaite",
+      "role": "PACE_BOWLER",
+      "rating": 69,
+      "matches": 8,
+      "runs": 83,
+      "average": 13.8,
+      "strikeRate": 218.4,
+      "wickets": 7,
+      "economy": 8.29,
+      "bowlingAverage": 27.4,
+      "globalPercentile": 55
+    },
+    {
+      "id": "ch-morris",
+      "name": "CH Morris",
+      "role": "PACE_BOWLER",
+      "rating": 78,
+      "matches": 12,
+      "runs": 195,
+      "average": 65.0,
+      "strikeRate": 178.9,
+      "wickets": 13,
+      "economy": 7.27,
+      "bowlingAverage": 24.6,
+      "globalPercentile": 81
+    },
+    {
+      "id": "a-mishra",
+      "name": "A Mishra",
+      "role": "SPIN_BOWLER",
+      "rating": 73,
+      "matches": 14,
+      "wickets": 13,
+      "economy": 7.61,
+      "bowlingAverage": 26.9,
+      "globalPercentile": 54
+    },
+    {
+      "id": "z-khan",
+      "name": "Z Khan",
+      "role": "PACE_BOWLER",
+      "rating": 67,
+      "matches": 12,
+      "wickets": 10,
+      "economy": 7.81,
+      "bowlingAverage": 34.1,
+      "globalPercentile": 48
+    },
+    {
+      "id": "j-yadav",
+      "name": "J Yadav",
+      "role": "PACE_BOWLER",
+      "rating": 58,
+      "matches": 5,
+      "wickets": 2,
+      "economy": 7.35,
+      "bowlingAverage": 62.5,
+      "globalPercentile": 25
+    },
+    {
+      "id": "jp-duminy",
+      "name": "JP Duminy",
+      "role": "ALL_ROUNDER",
+      "rating": 68,
+      "matches": 8,
+      "runs": 191,
+      "average": 38.2,
+      "strikeRate": 123.2,
+      "wickets": 2,
+      "economy": 7.86,
+      "bowlingAverage": 27.5,
+      "globalPercentile": 55
+    },
+    {
+      "id": "mohammed-shami",
+      "name": "Mohammed Shami",
+      "role": "PACE_BOWLER",
+      "rating": 52,
+      "matches": 8,
+      "wickets": 5,
+      "economy": 10.01,
+      "bowlingAverage": 50.4,
+      "globalPercentile": 11
+    },
+    {
+      "id": "rr-pant",
+      "name": "RR Pant",
+      "role": "MIDDLE_ORDER",
+      "rating": 65,
+      "matches": 10,
+      "runs": 198,
+      "average": 28.3,
+      "strikeRate": 130.3,
+      "globalPercentile": 35
+    }
+  ],
+  "stats": {
+    "min": 40,
+    "max": 78,
+    "mean": 63.5
+  }
+}

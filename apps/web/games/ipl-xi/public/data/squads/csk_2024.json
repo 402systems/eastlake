@@ -1,0 +1,178 @@
+{
+  "teamId": "csk",
+  "year": "2024",
+  "label": "Chennai Super Kings 2024",
+  "players": [
+    {
+      "id": "rd-gaikwad",
+      "name": "RD Gaikwad",
+      "role": "OPENER",
+      "rating": 89,
+      "matches": 14,
+      "runs": 583,
+      "average": 53.0,
+      "strikeRate": 141.5,
+      "globalPercentile": 92
+    },
+    {
+      "id": "r-ravindra",
+      "name": "R Ravindra",
+      "role": "OPENER",
+      "rating": 70,
+      "matches": 10,
+      "runs": 222,
+      "average": 24.7,
+      "strikeRate": 162.0,
+      "globalPercentile": 49
+    },
+    {
+      "id": "am-rahane",
+      "name": "AM Rahane",
+      "role": "OPENER",
+      "rating": 58,
+      "matches": 12,
+      "runs": 242,
+      "average": 20.2,
+      "strikeRate": 123.5,
+      "globalPercentile": 16
+    },
+    {
+      "id": "dj-mitchell",
+      "name": "DJ Mitchell",
+      "role": "MIDDLE_ORDER",
+      "rating": 72,
+      "matches": 13,
+      "runs": 318,
+      "average": 28.9,
+      "strikeRate": 142.6,
+      "wickets": 1,
+      "economy": 11.67,
+      "bowlingAverage": 70.0,
+      "globalPercentile": 53
+    },
+    {
+      "id": "s-dube",
+      "name": "S Dube",
+      "role": "MIDDLE_ORDER",
+      "rating": 84,
+      "matches": 14,
+      "runs": 396,
+      "average": 36.0,
+      "strikeRate": 163.0,
+      "globalPercentile": 81
+    },
+    {
+      "id": "ra-jadeja",
+      "name": "RA Jadeja",
+      "role": "SPIN_BOWLER",
+      "rating": 59,
+      "matches": 14,
+      "runs": 267,
+      "average": 44.5,
+      "strikeRate": 142.8,
+      "wickets": 8,
+      "economy": 7.89,
+      "bowlingAverage": 46.4,
+      "globalPercentile": 16
+    },
+    {
+      "id": "dl-chahar",
+      "name": "DL Chahar",
+      "role": "PACE_BOWLER",
+      "rating": 59,
+      "matches": 7,
+      "wickets": 5,
+      "economy": 8.55,
+      "bowlingAverage": 39.6,
+      "globalPercentile": 28
+    },
+    {
+      "id": "tu-deshpande",
+      "name": "TU Deshpande",
+      "role": "PACE_BOWLER",
+      "rating": 74,
+      "matches": 13,
+      "wickets": 17,
+      "economy": 9.06,
+      "bowlingAverage": 25.6,
+      "globalPercentile": 69
+    },
+    {
+      "id": "m-theekshana",
+      "name": "M Theekshana",
+      "role": "PACE_BOWLER",
+      "rating": 59,
+      "matches": 5,
+      "wickets": 2,
+      "economy": 7.3,
+      "bowlingAverage": 73.0,
+      "globalPercentile": 28
+    },
+    {
+      "id": "mustafizur-rahman",
+      "name": "Mustafizur Rahman",
+      "role": "PACE_BOWLER",
+      "rating": 78,
+      "matches": 9,
+      "wickets": 14,
+      "economy": 9.44,
+      "bowlingAverage": 23.1,
+      "globalPercentile": 81
+    },
+    {
+      "id": "sameer-rizvi",
+      "name": "Sameer Rizvi",
+      "role": "ALL_ROUNDER",
+      "rating": 48,
+      "matches": 5,
+      "runs": 51,
+      "average": 12.8,
+      "strikeRate": 118.6,
+      "globalPercentile": 7
+    },
+    {
+      "id": "m-pathirana",
+      "name": "M Pathirana",
+      "role": "PACE_BOWLER",
+      "rating": 91,
+      "matches": 6,
+      "wickets": 13,
+      "economy": 7.95,
+      "bowlingAverage": 13.5,
+      "globalPercentile": 98
+    },
+    {
+      "id": "mm-ali",
+      "name": "MM Ali",
+      "role": "PACE_BOWLER",
+      "rating": 57,
+      "matches": 5,
+      "runs": 128,
+      "average": 25.6,
+      "strikeRate": 130.6,
+      "wickets": 2,
+      "economy": 8.88,
+      "bowlingAverage": 35.5,
+      "globalPercentile": 23
+    },
+    {
+      "id": "sn-thakur",
+      "name": "SN Thakur",
+      "role": "PACE_BOWLER",
+      "rating": 52,
+      "matches": 9,
+      "runs": 21,
+      "average": 21.0,
+      "strikeRate": 123.5,
+      "wickets": 5,
+      "economy": 9.95,
+      "bowlingAverage": 63.0,
+      "globalPercentile": 11
+    }
+  ],
+  "stats": {
+    "min": 48,
+    "max": 91,
+    "mean": 67.9
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "teamId": "rcb",
+  "year": "2026",
+  "label": "Royal Challengers Bangalore 2026",
+  "players": [
+    {
+      "id": "pd-salt",
+      "name": "PD Salt",
+      "role": "OPENER",
+      "rating": 82,
+      "matches": 6,
+      "runs": 202,
+      "average": 33.7,
+      "strikeRate": 168.3,
+      "globalPercentile": 80
+    },
+    {
+      "id": "d-padikkal",
+      "name": "D Padikkal",
+      "role": "MIDDLE_ORDER",
+      "rating": 85,
+      "matches": 15,
+      "runs": 464,
+      "average": 33.1,
+      "strikeRate": 168.7,
+      "globalPercentile": 84
+    },
+    {
+      "id": "v-kohli",
+      "name": "V Kohli",
+      "role": "OPENER",
+      "rating": 96,
+      "matches": 16,
+      "runs": 675,
+      "average": 56.2,
+      "strikeRate": 166.3,
+      "globalPercentile": 100
+    },
+    {
+      "id": "rm-patidar",
+      "name": "RM Patidar",
+      "role": "MIDDLE_ORDER",
+      "rating": 93,
+      "matches": 14,
+      "runs": 501,
+      "average": 41.8,
+      "strikeRate": 193.4,
+      "globalPercentile": 94
+    },
+    {
+      "id": "jm-sharma",
+      "name": "JM Sharma",
+      "role": "ALL_ROUNDER",
+      "rating": 49,
+      "matches": 12,
+      "runs": 116,
+      "average": 12.9,
+      "strikeRate": 122.1,
+      "globalPercentile": 10
+    },
+    {
+      "id": "th-david",
+      "name": "TH David",
+      "role": "ALL_ROUNDER",
+      "rating": 87,
+      "matches": 15,
+      "runs": 305,
+      "average": 33.9,
+      "strikeRate": 191.8,
+      "globalPercentile": 94
+    },
+    {
+      "id": "ja-duffy",
+      "name": "JA Duffy",
+      "role": "PACE_BOWLER",
+      "rating": 68,
+      "matches": 6,
+      "wickets": 9,
+      "economy": 11.08,
+      "bowlingAverage": 29.6,
+      "globalPercentile": 51
+    },
+    {
+      "id": "b-kumar",
+      "name": "B Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 89,
+      "matches": 16,
+      "runs": 34,
+      "average": 34,
+      "strikeRate": 130.8,
+      "wickets": 28,
+      "economy": 8.0,
+      "bowlingAverage": 18.0,
+      "globalPercentile": 96
+    },
+    {
+      "id": "r-shepherd",
+      "name": "R Shepherd",
+      "role": "PACE_BOWLER",
+      "rating": 48,
+      "matches": 12,
+      "runs": 83,
+      "average": 20.8,
+      "strikeRate": 127.7,
+      "wickets": 7,
+      "economy": 11.79,
+      "bowlingAverage": 40.7,
+      "globalPercentile": 5
+    },
+    {
+      "id": "suyash-sharma",
+      "name": "Suyash Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 57,
+      "matches": 12,
+      "wickets": 9,
+      "economy": 9.31,
+      "bowlingAverage": 42.2,
+      "globalPercentile": 23
+    },
+    {
+      "id": "kh-pandya",
+      "name": "KH Pandya",
+      "role": "SPIN_BOWLER",
+      "rating": 68,
+      "matches": 15,
+      "runs": 226,
+      "average": 37.7,
+      "strikeRate": 147.7,
+      "wickets": 14,
+      "economy": 8.46,
+      "bowlingAverage": 30.5,
+      "globalPercentile": 41
+    },
+    {
+      "id": "vr-iyer",
+      "name": "VR Iyer",
+      "role": "MIDDLE_ORDER",
+      "rating": 96,
+      "matches": 6,
+      "runs": 209,
+      "average": 52.2,
+      "strikeRate": 186.6,
+      "globalPercentile": 97
+    },
+    {
+      "id": "jr-hazlewood",
+      "name": "JR Hazlewood",
+      "role": "PACE_BOWLER",
+      "rating": 64,
+      "matches": 13,
+      "wickets": 15,
+      "economy": 9.83,
+      "bowlingAverage": 33.7,
+      "globalPercentile": 38
+    },
+    {
+      "id": "rasikh-salam",
+      "name": "Rasikh Salam",
+      "role": "PACE_BOWLER",
+      "rating": 79,
+      "matches": 12,
+      "wickets": 19,
+      "economy": 9.5,
+      "bowlingAverage": 21.4,
+      "globalPercentile": 83
+    },
+    {
+      "id": "jg-bethell",
+      "name": "JG Bethell",
+      "role": "OPENER",
+      "rating": 52,
+      "matches": 7,
+      "runs": 96,
+      "average": 13.7,
+      "strikeRate": 124.7,
+      "globalPercentile": 8
+    }
+  ],
+  "stats": {
+    "min": 48,
+    "max": 96,
+    "mean": 74.2
+  }
+}

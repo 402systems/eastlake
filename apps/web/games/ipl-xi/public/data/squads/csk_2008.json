@@ -1,0 +1,161 @@
+{
+  "teamId": "csk",
+  "year": "2008",
+  "label": "Chennai Super Kings 2008",
+  "players": [
+    {
+      "id": "pa-patel",
+      "name": "PA Patel",
+      "role": "OPENER",
+      "rating": 58,
+      "matches": 13,
+      "runs": 302,
+      "average": 27.5,
+      "strikeRate": 102.4,
+      "globalPercentile": 16
+    },
+    {
+      "id": "ms-dhoni",
+      "name": "MS Dhoni",
+      "role": "ALL_ROUNDER",
+      "rating": 78,
+      "matches": 14,
+      "runs": 414,
+      "average": 41.4,
+      "strikeRate": 133.5,
+      "globalPercentile": 80
+    },
+    {
+      "id": "sk-raina",
+      "name": "SK Raina",
+      "role": "MIDDLE_ORDER",
+      "rating": 84,
+      "matches": 14,
+      "runs": 421,
+      "average": 46.8,
+      "strikeRate": 143.2,
+      "globalPercentile": 81
+    },
+    {
+      "id": "s-badrinath",
+      "name": "S Badrinath",
+      "role": "ALL_ROUNDER",
+      "rating": 72,
+      "matches": 11,
+      "runs": 192,
+      "average": 32.0,
+      "strikeRate": 147.7,
+      "globalPercentile": 65
+    },
+    {
+      "id": "ms-gony",
+      "name": "MS Gony",
+      "role": "PACE_BOWLER",
+      "rating": 75,
+      "matches": 16,
+      "runs": 35,
+      "average": 35.0,
+      "strikeRate": 159.1,
+      "wickets": 17,
+      "economy": 7.6,
+      "bowlingAverage": 26.8,
+      "globalPercentile": 72
+    },
+    {
+      "id": "m-muralitharan",
+      "name": "M Muralitharan",
+      "role": "SPIN_BOWLER",
+      "rating": 65,
+      "matches": 15,
+      "wickets": 11,
+      "economy": 7.17,
+      "bowlingAverage": 37.8,
+      "globalPercentile": 33
+    },
+    {
+      "id": "p-amarnath",
+      "name": "P Amarnath",
+      "role": "PACE_BOWLER",
+      "rating": 60,
+      "matches": 6,
+      "wickets": 7,
+      "economy": 10.95,
+      "bowlingAverage": 34.4,
+      "globalPercentile": 30
+    },
+    {
+      "id": "joginder-sharma",
+      "name": "Joginder Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 67,
+      "matches": 7,
+      "wickets": 8,
+      "economy": 9.77,
+      "bowlingAverage": 30.1,
+      "globalPercentile": 48
+    },
+    {
+      "id": "ja-morkel",
+      "name": "JA Morkel",
+      "role": "PACE_BOWLER",
+      "rating": 76,
+      "matches": 13,
+      "runs": 241,
+      "average": 34.4,
+      "strikeRate": 148.8,
+      "wickets": 17,
+      "economy": 8.62,
+      "bowlingAverage": 24.4,
+      "globalPercentile": 75
+    },
+    {
+      "id": "sp-fleming",
+      "name": "SP Fleming",
+      "role": "OPENER",
+      "rating": 58,
+      "matches": 10,
+      "runs": 196,
+      "average": 21.8,
+      "strikeRate": 121.0,
+      "globalPercentile": 16
+    },
+    {
+      "id": "s-vidyut",
+      "name": "S Vidyut",
+      "role": "OPENER",
+      "rating": 58,
+      "matches": 8,
+      "runs": 145,
+      "average": 18.1,
+      "strikeRate": 133.0,
+      "globalPercentile": 16
+    },
+    {
+      "id": "m-ntini",
+      "name": "M Ntini",
+      "role": "PACE_BOWLER",
+      "rating": 66,
+      "matches": 9,
+      "wickets": 7,
+      "economy": 7.34,
+      "bowlingAverage": 36.7,
+      "globalPercentile": 45
+    },
+    {
+      "id": "l-balaji",
+      "name": "L Balaji",
+      "role": "PACE_BOWLER",
+      "rating": 73,
+      "matches": 9,
+      "wickets": 11,
+      "economy": 8.88,
+      "bowlingAverage": 26.6,
+      "globalPercentile": 67
+    }
+  ],
+  "stats": {
+    "min": 58,
+    "max": 84,
+    "mean": 68.5
+  }
+}

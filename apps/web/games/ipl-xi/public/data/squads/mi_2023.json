@@ -1,0 +1,200 @@
+{
+  "teamId": "mi",
+  "year": "2023",
+  "label": "Mumbai Indians 2023",
+  "players": [
+    {
+      "id": "rg-sharma",
+      "name": "RG Sharma",
+      "role": "OPENER",
+      "rating": 61,
+      "matches": 16,
+      "runs": 332,
+      "average": 20.8,
+      "strikeRate": 133.9,
+      "globalPercentile": 23
+    },
+    {
+      "id": "ishan-kishan",
+      "name": "Ishan Kishan",
+      "role": "OPENER",
+      "rating": 72,
+      "matches": 15,
+      "runs": 454,
+      "average": 30.3,
+      "strikeRate": 142.8,
+      "globalPercentile": 55
+    },
+    {
+      "id": "c-green",
+      "name": "C Green",
+      "role": "PACE_BOWLER",
+      "rating": 50,
+      "matches": 16,
+      "runs": 452,
+      "average": 50.2,
+      "strikeRate": 162.0,
+      "wickets": 6,
+      "economy": 9.74,
+      "bowlingAverage": 61.7,
+      "globalPercentile": 8
+    },
+    {
+      "id": "sa-yadav",
+      "name": "SA Yadav",
+      "role": "MIDDLE_ORDER",
+      "rating": 94,
+      "matches": 16,
+      "runs": 605,
+      "average": 43.2,
+      "strikeRate": 182.2,
+      "globalPercentile": 96
+    },
+    {
+      "id": "tilak-varma",
+      "name": "Tilak Varma",
+      "role": "ALL_ROUNDER",
+      "rating": 91,
+      "matches": 11,
+      "runs": 343,
+      "average": 42.9,
+      "strikeRate": 164.9,
+      "globalPercentile": 98
+    },
+    {
+      "id": "n-wadhera",
+      "name": "N Wadhera",
+      "role": "ALL_ROUNDER",
+      "rating": 72,
+      "matches": 10,
+      "runs": 241,
+      "average": 26.8,
+      "strikeRate": 146.1,
+      "globalPercentile": 65
+    },
+    {
+      "id": "th-david",
+      "name": "TH David",
+      "role": "ALL_ROUNDER",
+      "rating": 73,
+      "matches": 15,
+      "runs": 231,
+      "average": 28.9,
+      "strikeRate": 159.3,
+      "globalPercentile": 69
+    },
+    {
+      "id": "hr-shokeen",
+      "name": "HR Shokeen",
+      "role": "PACE_BOWLER",
+      "rating": 49,
+      "matches": 8,
+      "runs": 23,
+      "average": 23.0,
+      "strikeRate": 135.3,
+      "wickets": 3,
+      "economy": 10.0,
+      "bowlingAverage": 63.3,
+      "globalPercentile": 6
+    },
+    {
+      "id": "arshad-khan",
+      "name": "Arshad Khan",
+      "role": "PACE_BOWLER",
+      "rating": 53,
+      "matches": 6,
+      "runs": 18,
+      "average": 9.0,
+      "strikeRate": 120.0,
+      "wickets": 5,
+      "economy": 13.55,
+      "bowlingAverage": 38.4,
+      "globalPercentile": 13
+    },
+    {
+      "id": "jp-behrendorff",
+      "name": "JP Behrendorff",
+      "role": "PACE_BOWLER",
+      "rating": 69,
+      "matches": 12,
+      "wickets": 14,
+      "economy": 9.4,
+      "bowlingAverage": 28.2,
+      "globalPercentile": 55
+    },
+    {
+      "id": "jc-archer",
+      "name": "JC Archer",
+      "role": "PACE_BOWLER",
+      "rating": 49,
+      "matches": 5,
+      "wickets": 2,
+      "economy": 10.1,
+      "bowlingAverage": 101.0,
+      "globalPercentile": 6
+    },
+    {
+      "id": "pp-chawla",
+      "name": "PP Chawla",
+      "role": "SPIN_BOWLER",
+      "rating": 80,
+      "matches": 16,
+      "runs": 25,
+      "average": 12.5,
+      "strikeRate": 113.6,
+      "wickets": 22,
+      "economy": 8.18,
+      "bowlingAverage": 22.7,
+      "globalPercentile": 76
+    },
+    {
+      "id": "k-kartikeya",
+      "name": "K Kartikeya",
+      "role": "SPIN_BOWLER",
+      "rating": 56,
+      "matches": 8,
+      "wickets": 5,
+      "economy": 8.88,
+      "bowlingAverage": 46.2,
+      "globalPercentile": 8
+    },
+    {
+      "id": "rp-meredith",
+      "name": "RP Meredith",
+      "role": "PACE_BOWLER",
+      "rating": 67,
+      "matches": 5,
+      "wickets": 7,
+      "economy": 10.63,
+      "bowlingAverage": 29.9,
+      "globalPercentile": 48
+    },
+    {
+      "id": "akash-madhwal",
+      "name": "Akash Madhwal",
+      "role": "PACE_BOWLER",
+      "rating": 87,
+      "matches": 8,
+      "wickets": 14,
+      "economy": 8.71,
+      "bowlingAverage": 15.9,
+      "globalPercentile": 94
+    },
+    {
+      "id": "cj-jordan",
+      "name": "CJ Jordan",
+      "role": "PACE_BOWLER",
+      "rating": 47,
+      "matches": 6,
+      "wickets": 3,
+      "economy": 10.95,
+      "bowlingAverage": 80.3,
+      "globalPercentile": 4
+    }
+  ],
+  "stats": {
+    "min": 47,
+    "max": 94,
+    "mean": 66.9
+  }
+}

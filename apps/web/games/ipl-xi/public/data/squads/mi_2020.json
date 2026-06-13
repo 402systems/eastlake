@@ -1,0 +1,161 @@
+{
+  "teamId": "mi",
+  "year": "2020",
+  "label": "Mumbai Indians 2020",
+  "players": [
+    {
+      "id": "rg-sharma",
+      "name": "RG Sharma",
+      "role": "OPENER",
+      "rating": 65,
+      "matches": 12,
+      "runs": 334,
+      "average": 27.8,
+      "strikeRate": 127.0,
+      "globalPercentile": 34
+    },
+    {
+      "id": "q-de-kock",
+      "name": "Q de Kock",
+      "role": "OPENER",
+      "rating": 73,
+      "matches": 16,
+      "runs": 506,
+      "average": 33.7,
+      "strikeRate": 140.2,
+      "globalPercentile": 59
+    },
+    {
+      "id": "sa-yadav",
+      "name": "SA Yadav",
+      "role": "MIDDLE_ORDER",
+      "rating": 87,
+      "matches": 15,
+      "runs": 480,
+      "average": 53.3,
+      "strikeRate": 145.5,
+      "globalPercentile": 87
+    },
+    {
+      "id": "ss-tiwary",
+      "name": "SS Tiwary",
+      "role": "MIDDLE_ORDER",
+      "rating": 61,
+      "matches": 5,
+      "runs": 103,
+      "average": 20.6,
+      "strikeRate": 128.8,
+      "globalPercentile": 23
+    },
+    {
+      "id": "hh-pandya",
+      "name": "HH Pandya",
+      "role": "ALL_ROUNDER",
+      "rating": 85,
+      "matches": 13,
+      "runs": 283,
+      "average": 35.4,
+      "strikeRate": 179.1,
+      "globalPercentile": 92
+    },
+    {
+      "id": "ka-pollard",
+      "name": "KA Pollard",
+      "role": "PACE_BOWLER",
+      "rating": 52,
+      "matches": 12,
+      "runs": 281,
+      "average": 46.8,
+      "strikeRate": 188.6,
+      "wickets": 4,
+      "economy": 9.05,
+      "bowlingAverage": 47.5,
+      "globalPercentile": 11
+    },
+    {
+      "id": "kh-pandya",
+      "name": "KH Pandya",
+      "role": "SPIN_BOWLER",
+      "rating": 57,
+      "matches": 16,
+      "runs": 109,
+      "average": 18.2,
+      "strikeRate": 118.5,
+      "wickets": 6,
+      "economy": 7.71,
+      "bowlingAverage": 64.5,
+      "globalPercentile": 11
+    },
+    {
+      "id": "jl-pattinson",
+      "name": "JL Pattinson",
+      "role": "PACE_BOWLER",
+      "rating": 69,
+      "matches": 10,
+      "wickets": 11,
+      "economy": 9.04,
+      "bowlingAverage": 29.2,
+      "globalPercentile": 55
+    },
+    {
+      "id": "rd-chahar",
+      "name": "RD Chahar",
+      "role": "SPIN_BOWLER",
+      "rating": 70,
+      "matches": 15,
+      "wickets": 15,
+      "economy": 8.28,
+      "bowlingAverage": 29.3,
+      "globalPercentile": 46
+    },
+    {
+      "id": "ta-boult",
+      "name": "TA Boult",
+      "role": "PACE_BOWLER",
+      "rating": 86,
+      "matches": 15,
+      "wickets": 25,
+      "economy": 8.16,
+      "bowlingAverage": 18.9,
+      "globalPercentile": 92
+    },
+    {
+      "id": "jj-bumrah",
+      "name": "JJ Bumrah",
+      "role": "PACE_BOWLER",
+      "rating": 94,
+      "matches": 15,
+      "wickets": 29,
+      "economy": 7.03,
+      "bowlingAverage": 15.0,
+      "globalPercentile": 99
+    },
+    {
+      "id": "ishan-kishan",
+      "name": "Ishan Kishan",
+      "role": "MIDDLE_ORDER",
+      "rating": 90,
+      "matches": 13,
+      "runs": 516,
+      "average": 57.3,
+      "strikeRate": 146.2,
+      "globalPercentile": 91
+    },
+    {
+      "id": "nm-coulter-nile",
+      "name": "NM Coulter-Nile",
+      "role": "PACE_BOWLER",
+      "rating": 61,
+      "matches": 7,
+      "wickets": 5,
+      "economy": 7.92,
+      "bowlingAverage": 41.2,
+      "globalPercentile": 33
+    }
+  ],
+  "stats": {
+    "min": 52,
+    "max": 94,
+    "mean": 73.1
+  }
+}

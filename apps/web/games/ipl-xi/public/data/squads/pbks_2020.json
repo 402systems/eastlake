@@ -1,0 +1,175 @@
+{
+  "teamId": "pbks",
+  "year": "2020",
+  "label": "Punjab Kings 2020",
+  "players": [
+    {
+      "id": "kl-rahul",
+      "name": "KL Rahul",
+      "role": "OPENER",
+      "rating": 84,
+      "matches": 14,
+      "runs": 676,
+      "average": 48.3,
+      "strikeRate": 129.8,
+      "globalPercentile": 84
+    },
+    {
+      "id": "ma-agarwal",
+      "name": "MA Agarwal",
+      "role": "OPENER",
+      "rating": 85,
+      "matches": 11,
+      "runs": 432,
+      "average": 43.2,
+      "strikeRate": 158.8,
+      "globalPercentile": 85
+    },
+    {
+      "id": "n-pooran",
+      "name": "N Pooran",
+      "role": "MIDDLE_ORDER",
+      "rating": 79,
+      "matches": 14,
+      "runs": 353,
+      "average": 29.4,
+      "strikeRate": 168.9,
+      "globalPercentile": 71
+    },
+    {
+      "id": "gj-maxwell",
+      "name": "GJ Maxwell",
+      "role": "PACE_BOWLER",
+      "rating": 56,
+      "matches": 11,
+      "runs": 108,
+      "average": 15.4,
+      "strikeRate": 102.9,
+      "wickets": 3,
+      "economy": 8.14,
+      "bowlingAverage": 57.0,
+      "globalPercentile": 20
+    },
+    {
+      "id": "cj-jordan",
+      "name": "CJ Jordan",
+      "role": "PACE_BOWLER",
+      "rating": 61,
+      "matches": 9,
+      "runs": 29,
+      "average": 9.7,
+      "strikeRate": 93.5,
+      "wickets": 9,
+      "economy": 9.85,
+      "bowlingAverage": 35.6,
+      "globalPercentile": 33
+    },
+    {
+      "id": "ss-cottrell",
+      "name": "SS Cottrell",
+      "role": "PACE_BOWLER",
+      "rating": 68,
+      "matches": 6,
+      "wickets": 6,
+      "economy": 8.85,
+      "bowlingAverage": 29.5,
+      "globalPercentile": 51
+    },
+    {
+      "id": "mohammed-shami",
+      "name": "Mohammed Shami",
+      "role": "PACE_BOWLER",
+      "rating": 78,
+      "matches": 14,
+      "wickets": 20,
+      "economy": 8.76,
+      "bowlingAverage": 24.1,
+      "globalPercentile": 81
+    },
+    {
+      "id": "ravi-bishnoi",
+      "name": "Ravi Bishnoi",
+      "role": "SPIN_BOWLER",
+      "rating": 69,
+      "matches": 14,
+      "wickets": 12,
+      "economy": 7.47,
+      "bowlingAverage": 31.8,
+      "globalPercentile": 43
+    },
+    {
+      "id": "mandeep-singh",
+      "name": "Mandeep Singh",
+      "role": "MIDDLE_ORDER",
+      "rating": 57,
+      "matches": 7,
+      "runs": 130,
+      "average": 21.7,
+      "strikeRate": 119.3,
+      "globalPercentile": 15
+    },
+    {
+      "id": "ch-gayle",
+      "name": "CH Gayle",
+      "role": "MIDDLE_ORDER",
+      "rating": 87,
+      "matches": 7,
+      "runs": 295,
+      "average": 49.2,
+      "strikeRate": 139.2,
+      "globalPercentile": 87
+    },
+    {
+      "id": "dj-hooda",
+      "name": "DJ Hooda",
+      "role": "ALL_ROUNDER",
+      "rating": 75,
+      "matches": 5,
+      "runs": 102,
+      "average": 102.0,
+      "strikeRate": 141.7,
+      "globalPercentile": 74
+    },
+    {
+      "id": "m-ashwin",
+      "name": "M Ashwin",
+      "role": "PACE_BOWLER",
+      "rating": 77,
+      "matches": 9,
+      "wickets": 10,
+      "economy": 7.62,
+      "bowlingAverage": 24.0,
+      "globalPercentile": 78
+    },
+    {
+      "id": "arshdeep-singh",
+      "name": "Arshdeep Singh",
+      "role": "PACE_BOWLER",
+      "rating": 73,
+      "matches": 8,
+      "wickets": 9,
+      "economy": 8.82,
+      "bowlingAverage": 24.3,
+      "globalPercentile": 67
+    },
+    {
+      "id": "jds-neesham",
+      "name": "JDS Neesham",
+      "role": "PACE_BOWLER",
+      "rating": 50,
+      "matches": 5,
+      "runs": 19,
+      "average": 9.5,
+      "strikeRate": 105.6,
+      "wickets": 2,
+      "economy": 9.93,
+      "bowlingAverage": 74.5,
+      "globalPercentile": 8
+    }
+  ],
+  "stats": {
+    "min": 50,
+    "max": 87,
+    "mean": 71.4
+  }
+}

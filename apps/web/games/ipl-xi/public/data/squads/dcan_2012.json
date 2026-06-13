@@ -1,0 +1,153 @@
+{
+  "teamId": "dcan",
+  "year": "2012",
+  "label": "Deccan Chargers 2012",
+  "players": [
+    {
+      "id": "s-dhawan",
+      "name": "S Dhawan",
+      "role": "OPENER",
+      "rating": 82,
+      "matches": 15,
+      "runs": 569,
+      "average": 47.4,
+      "strikeRate": 129.9,
+      "wickets": 3,
+      "economy": 10.0,
+      "bowlingAverage": 20.0
+    },
+    {
+      "id": "pa-patel",
+      "name": "PA Patel",
+      "role": "MIDDLE_ORDER",
+      "rating": 54,
+      "matches": 12,
+      "runs": 194,
+      "average": 17.6,
+      "strikeRate": 118.3
+    },
+    {
+      "id": "cl-white",
+      "name": "CL White",
+      "role": "MIDDLE_ORDER",
+      "rating": 88,
+      "matches": 13,
+      "runs": 479,
+      "average": 43.5,
+      "strikeRate": 150.2
+    },
+    {
+      "id": "dt-christian",
+      "name": "DT Christian",
+      "role": "PACE_BOWLER",
+      "rating": 70,
+      "matches": 7,
+      "runs": 145,
+      "average": 29.0,
+      "strikeRate": 122.9,
+      "wickets": 8,
+      "economy": 8.89,
+      "bowlingAverage": 30.0
+    },
+    {
+      "id": "ms-gony",
+      "name": "MS Gony",
+      "role": "PACE_BOWLER",
+      "rating": 54,
+      "matches": 6,
+      "wickets": 3,
+      "economy": 9.04,
+      "bowlingAverage": 72.3
+    },
+    {
+      "id": "dw-steyn",
+      "name": "DW Steyn",
+      "role": "PACE_BOWLER",
+      "rating": 92,
+      "matches": 12,
+      "runs": 19,
+      "average": 3.8,
+      "strikeRate": 90.5,
+      "wickets": 18,
+      "economy": 6.21,
+      "bowlingAverage": 16.1
+    },
+    {
+      "id": "ankit-sharma",
+      "name": "Ankit Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 61,
+      "matches": 9,
+      "runs": 18,
+      "average": 6.0,
+      "strikeRate": 138.5,
+      "wickets": 4,
+      "economy": 6.91,
+      "bowlingAverage": 41.8
+    },
+    {
+      "id": "kc-sangakkara",
+      "name": "KC Sangakkara",
+      "role": "MIDDLE_ORDER",
+      "rating": 51,
+      "matches": 12,
+      "runs": 200,
+      "average": 18.2,
+      "strikeRate": 109.3
+    },
+    {
+      "id": "a-mishra",
+      "name": "A Mishra",
+      "role": "SPIN_BOWLER",
+      "rating": 70,
+      "matches": 14,
+      "runs": 16,
+      "average": 5.3,
+      "strikeRate": 80.0,
+      "wickets": 13,
+      "economy": 8.11,
+      "bowlingAverage": 29.3
+    },
+    {
+      "id": "jp-duminy",
+      "name": "JP Duminy",
+      "role": "ALL_ROUNDER",
+      "rating": 68,
+      "matches": 9,
+      "runs": 244,
+      "average": 81.3,
+      "strikeRate": 128.4,
+      "wickets": 1,
+      "economy": 8.58,
+      "bowlingAverage": 103.0
+    },
+    {
+      "id": "v-pratap-singh",
+      "name": "V Pratap Singh",
+      "role": "PACE_BOWLER",
+      "rating": 69,
+      "matches": 9,
+      "wickets": 10,
+      "economy": 8.82,
+      "bowlingAverage": 30.0
+    },
+    {
+      "id": "a-ashish-reddy",
+      "name": "A Ashish Reddy",
+      "role": "PACE_BOWLER",
+      "rating": 76,
+      "matches": 9,
+      "runs": 35,
+      "average": 8.8,
+      "strikeRate": 120.7,
+      "wickets": 11,
+      "economy": 8.76,
+      "bowlingAverage": 21.6
+    }
+  ],
+  "stats": {
+    "min": 51,
+    "max": 92,
+    "mean": 69.6
+  }
+}

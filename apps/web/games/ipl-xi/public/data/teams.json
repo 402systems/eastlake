@@ -1,0 +1,252 @@
+[
+  {
+    "id": "csk",
+    "name": "Chennai Super Kings",
+    "shortName": "CSK",
+    "color": "#F7B318",
+    "years": [
+      2008,
+      2009,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  {
+    "id": "dcan",
+    "name": "Deccan Chargers",
+    "shortName": "DCH",
+    "color": "#1C4E9D",
+    "years": [
+      2008,
+      2009,
+      2010,
+      2011
+    ]
+  },
+  {
+    "id": "dc",
+    "name": "Delhi Capitals",
+    "shortName": "DC",
+    "color": "#17479E",
+    "years": [
+      2008,
+      2009,
+      2010,
+      2012,
+      2013,
+      2014,
+      2016,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  {
+    "id": "gl",
+    "name": "Gujarat Lions",
+    "shortName": "GL",
+    "color": "#FF6F00",
+    "years": [
+      2017
+    ]
+  },
+  {
+    "id": "gt",
+    "name": "Gujarat Titans",
+    "shortName": "GT",
+    "color": "#1C3E73",
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  {
+    "id": "kkr",
+    "name": "Kolkata Knight Riders",
+    "shortName": "KKR",
+    "color": "#3A225D",
+    "years": [
+      2008,
+      2009,
+      2010,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  {
+    "id": "lsg",
+    "name": "Lucknow Super Giants",
+    "shortName": "LSG",
+    "color": "#00A19D",
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  {
+    "id": "mi",
+    "name": "Mumbai Indians",
+    "shortName": "MI",
+    "color": "#004BA0",
+    "years": [
+      2008,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  {
+    "id": "pwi",
+    "name": "Pune Warriors India",
+    "shortName": "PWI",
+    "color": "#0070CF",
+    "years": [
+      2012
+    ]
+  },
+  {
+    "id": "pbks",
+    "name": "Punjab Kings",
+    "shortName": "PBKS",
+    "color": "#E72C32",
+    "years": [
+      2008,
+      2009,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  {
+    "id": "rr",
+    "name": "Rajasthan Royals",
+    "shortName": "RR",
+    "color": "#254AA5",
+    "years": [
+      2008,
+      2010,
+      2012,
+      2013,
+      2014,
+      2018,
+      2019,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  {
+    "id": "rps",
+    "name": "Rising Pune Supergiant",
+    "shortName": "RPS",
+    "color": "#7B1FA2",
+    "years": [
+      2016,
+      2017
+    ]
+  },
+  {
+    "id": "rcb",
+    "name": "Royal Challengers Bangalore",
+    "shortName": "RCB",
+    "color": "#C41E3A",
+    "years": [
+      2008,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  {
+    "id": "srh",
+    "name": "Sunrisers Hyderabad",
+    "shortName": "SRH",
+    "color": "#F26522",
+    "years": [
+      2013,
+      2014,
+      2015,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2024,
+      2026
+    ]
+  }
+]

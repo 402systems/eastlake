@@ -1,0 +1,176 @@
+{
+  "teamId": "srh",
+  "year": "2017",
+  "label": "Sunrisers Hyderabad 2017",
+  "players": [
+    {
+      "id": "da-warner",
+      "name": "DA Warner",
+      "role": "OPENER",
+      "rating": 89,
+      "matches": 14,
+      "runs": 4657,
+      "average": 52.3,
+      "strikeRate": 143.1
+    },
+    {
+      "id": "s-dhawan",
+      "name": "S Dhawan",
+      "role": "OPENER",
+      "rating": 76,
+      "matches": 14,
+      "runs": 2997,
+      "average": 35.7,
+      "strikeRate": 125.2
+    },
+    {
+      "id": "mc-henriques",
+      "name": "MC Henriques",
+      "role": "MIDDLE_ORDER",
+      "rating": 76,
+      "matches": 12,
+      "runs": 1032,
+      "average": 31.3,
+      "strikeRate": 131.1,
+      "wickets": 29,
+      "economy": 8.7,
+      "bowlingAverage": 40.5
+    },
+    {
+      "id": "yuvraj-singh",
+      "name": "Yuvraj Singh",
+      "role": "MIDDLE_ORDER",
+      "rating": 76,
+      "matches": 11,
+      "runs": 740,
+      "average": 27.4,
+      "strikeRate": 139.4,
+      "wickets": 2,
+      "economy": 9.64,
+      "bowlingAverage": 49.0
+    },
+    {
+      "id": "dj-hooda",
+      "name": "DJ Hooda",
+      "role": "SPIN_BOWLER",
+      "rating": 81,
+      "matches": 6,
+      "runs": 451,
+      "average": 16.7,
+      "strikeRate": 122.9,
+      "wickets": 8,
+      "economy": 8.73,
+      "bowlingAverage": 28.4
+    },
+    {
+      "id": "a-nehra",
+      "name": "A Nehra",
+      "role": "PACE_BOWLER",
+      "rating": 83,
+      "matches": 6,
+      "wickets": 25,
+      "economy": 8.72,
+      "bowlingAverage": 23.8
+    },
+    {
+      "id": "b-kumar",
+      "name": "B Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 85,
+      "matches": 14,
+      "runs": 217,
+      "average": 9.4,
+      "strikeRate": 100.0,
+      "wickets": 183,
+      "economy": 7.86,
+      "bowlingAverage": 25.6
+    },
+    {
+      "id": "rashid-khan",
+      "name": "Rashid Khan",
+      "role": "SPIN_BOWLER",
+      "rating": 92,
+      "matches": 14,
+      "runs": 233,
+      "average": 9.0,
+      "strikeRate": 139.5,
+      "wickets": 110,
+      "economy": 6.56,
+      "bowlingAverage": 21.4
+    },
+    {
+      "id": "bipul-sharma",
+      "name": "Bipul Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 78,
+      "matches": 6,
+      "runs": 114,
+      "average": 28.5,
+      "strikeRate": 152.0,
+      "wickets": 12,
+      "economy": 8.12,
+      "bowlingAverage": 36.1
+    },
+    {
+      "id": "nv-ojha",
+      "name": "NV Ojha",
+      "role": "ALL_ROUNDER",
+      "rating": 65,
+      "matches": 6,
+      "runs": 663,
+      "average": 20.7,
+      "strikeRate": 121.0
+    },
+    {
+      "id": "v-shankar",
+      "name": "V Shankar",
+      "role": "PACE_BOWLER",
+      "rating": 82,
+      "matches": 5,
+      "runs": 601,
+      "average": 25.0,
+      "strikeRate": 122.4,
+      "wickets": 8,
+      "economy": 7.83,
+      "bowlingAverage": 31.5
+    },
+    {
+      "id": "s-kaul",
+      "name": "S Kaul",
+      "role": "PACE_BOWLER",
+      "rating": 83,
+      "matches": 11,
+      "runs": 11,
+      "average": 3.7,
+      "strikeRate": 40.7,
+      "wickets": 68,
+      "economy": 8.69,
+      "bowlingAverage": 25.4
+    },
+    {
+      "id": "ks-williamson",
+      "name": "KS Williamson",
+      "role": "ALL_ROUNDER",
+      "rating": 77,
+      "matches": 8,
+      "runs": 2361,
+      "average": 38.7,
+      "strikeRate": 128.8
+    },
+    {
+      "id": "mohammed-siraj",
+      "name": "Mohammed Siraj",
+      "role": "PACE_BOWLER",
+      "rating": 83,
+      "matches": 7,
+      "wickets": 20,
+      "economy": 9.3,
+      "bowlingAverage": 21.4
+    }
+  ],
+  "stats": {
+    "min": 65,
+    "max": 92,
+    "mean": 80.4
+  }
+}

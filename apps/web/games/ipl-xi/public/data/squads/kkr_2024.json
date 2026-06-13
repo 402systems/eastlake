@@ -1,0 +1,142 @@
+{
+  "teamId": "kkr",
+  "year": "2024",
+  "label": "Kolkata Knight Riders 2024",
+  "players": [
+    {
+      "id": "pd-salt",
+      "name": "PD Salt",
+      "role": "OPENER",
+      "rating": 87,
+      "matches": 12,
+      "runs": 435,
+      "average": 39.5,
+      "strikeRate": 185.1,
+      "globalPercentile": 88
+    },
+    {
+      "id": "sp-narine",
+      "name": "SP Narine",
+      "role": "SPIN_BOWLER",
+      "rating": 82,
+      "matches": 14,
+      "runs": 488,
+      "average": 37.5,
+      "strikeRate": 181.4,
+      "wickets": 17,
+      "economy": 6.84,
+      "bowlingAverage": 22.1,
+      "globalPercentile": 82
+    },
+    {
+      "id": "vr-iyer",
+      "name": "VR Iyer",
+      "role": "ALL_ROUNDER",
+      "rating": 87,
+      "matches": 13,
+      "runs": 370,
+      "average": 46.2,
+      "strikeRate": 158.8,
+      "globalPercentile": 94
+    },
+    {
+      "id": "ss-iyer",
+      "name": "SS Iyer",
+      "role": "MIDDLE_ORDER",
+      "rating": 78,
+      "matches": 14,
+      "runs": 351,
+      "average": 39.0,
+      "strikeRate": 146.9,
+      "globalPercentile": 69
+    },
+    {
+      "id": "rk-singh",
+      "name": "RK Singh",
+      "role": "ALL_ROUNDER",
+      "rating": 65,
+      "matches": 11,
+      "runs": 168,
+      "average": 18.7,
+      "strikeRate": 151.4,
+      "globalPercentile": 46
+    },
+    {
+      "id": "ad-russell",
+      "name": "AD Russell",
+      "role": "PACE_BOWLER",
+      "rating": 76,
+      "matches": 14,
+      "runs": 222,
+      "average": 37.0,
+      "strikeRate": 191.4,
+      "wickets": 19,
+      "economy": 10.36,
+      "bowlingAverage": 16.0,
+      "globalPercentile": 75
+    },
+    {
+      "id": "ma-starc",
+      "name": "MA Starc",
+      "role": "PACE_BOWLER",
+      "rating": 68,
+      "matches": 13,
+      "runs": 9,
+      "average": 4.5,
+      "strikeRate": 81.8,
+      "wickets": 17,
+      "economy": 10.76,
+      "bowlingAverage": 26.5,
+      "globalPercentile": 51
+    },
+    {
+      "id": "harshit-rana",
+      "name": "Harshit Rana",
+      "role": "PACE_BOWLER",
+      "rating": 83,
+      "matches": 11,
+      "wickets": 19,
+      "economy": 9.13,
+      "bowlingAverage": 20.3,
+      "globalPercentile": 89
+    },
+    {
+      "id": "cv-varun",
+      "name": "CV Varun",
+      "role": "SPIN_BOWLER",
+      "rating": 83,
+      "matches": 14,
+      "wickets": 21,
+      "economy": 8.22,
+      "bowlingAverage": 19.6,
+      "globalPercentile": 85
+    },
+    {
+      "id": "a-raghuvanshi",
+      "name": "A Raghuvanshi",
+      "role": "MIDDLE_ORDER",
+      "rating": 72,
+      "matches": 7,
+      "runs": 163,
+      "average": 23.3,
+      "strikeRate": 155.2,
+      "globalPercentile": 53
+    },
+    {
+      "id": "vg-arora",
+      "name": "VG Arora",
+      "role": "PACE_BOWLER",
+      "rating": 70,
+      "matches": 10,
+      "wickets": 11,
+      "economy": 9.47,
+      "bowlingAverage": 25.8,
+      "globalPercentile": 58
+    }
+  ],
+  "stats": {
+    "min": 65,
+    "max": 87,
+    "mean": 77.4
+  }
+}

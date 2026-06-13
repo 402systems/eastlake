@@ -1,0 +1,167 @@
+{
+  "teamId": "rps",
+  "year": "2017",
+  "label": "Rising Pune Supergiant 2017",
+  "players": [
+    {
+      "id": "am-rahane",
+      "name": "AM Rahane",
+      "role": "OPENER",
+      "rating": 73,
+      "matches": 17,
+      "runs": 1244,
+      "average": 31.1,
+      "strikeRate": 121.5,
+      "globalPercentile": 59
+    },
+    {
+      "id": "spd-smith",
+      "name": "SPD Smith",
+      "role": "MIDDLE_ORDER",
+      "rating": 80,
+      "matches": 16,
+      "runs": 1214,
+      "average": 41.9,
+      "strikeRate": 127.9,
+      "globalPercentile": 73
+    },
+    {
+      "id": "ba-stokes",
+      "name": "BA Stokes",
+      "role": "PACE_BOWLER",
+      "rating": 86,
+      "matches": 13,
+      "runs": 632,
+      "average": 31.6,
+      "strikeRate": 143.0,
+      "wickets": 24,
+      "economy": 7.43,
+      "bowlingAverage": 27.2,
+      "globalPercentile": 92
+    },
+    {
+      "id": "ms-dhoni",
+      "name": "MS Dhoni",
+      "role": "ALL_ROUNDER",
+      "rating": 70,
+      "matches": 16,
+      "runs": 864,
+      "average": 29.8,
+      "strikeRate": 121.7,
+      "globalPercentile": 58
+    },
+    {
+      "id": "imran-tahir",
+      "name": "Imran Tahir",
+      "role": "SPIN_BOWLER",
+      "rating": 88,
+      "matches": 13,
+      "wickets": 36,
+      "economy": 7.87,
+      "bowlingAverage": 20.6,
+      "globalPercentile": 96
+    },
+    {
+      "id": "a-zampa",
+      "name": "A Zampa",
+      "role": "SPIN_BOWLER",
+      "rating": 90,
+      "matches": 7,
+      "wickets": 26,
+      "economy": 7.85,
+      "bowlingAverage": 17.1,
+      "globalPercentile": 98
+    },
+    {
+      "id": "mk-tiwary",
+      "name": "MK Tiwary",
+      "role": "ALL_ROUNDER",
+      "rating": 79,
+      "matches": 14,
+      "runs": 648,
+      "average": 36.0,
+      "strikeRate": 137.9,
+      "globalPercentile": 83
+    },
+    {
+      "id": "dt-christian",
+      "name": "DT Christian",
+      "role": "PACE_BOWLER",
+      "rating": 82,
+      "matches": 14,
+      "runs": 158,
+      "average": 15.8,
+      "strikeRate": 161.2,
+      "wickets": 22,
+      "economy": 7.58,
+      "bowlingAverage": 27.5,
+      "globalPercentile": 87
+    },
+    {
+      "id": "ra-tripathi",
+      "name": "RA Tripathi",
+      "role": "MIDDLE_ORDER",
+      "rating": 81,
+      "matches": 15,
+      "runs": 782,
+      "average": 32.6,
+      "strikeRate": 146.4,
+      "globalPercentile": 74
+    },
+    {
+      "id": "sn-thakur",
+      "name": "SN Thakur",
+      "role": "PACE_BOWLER",
+      "rating": 80,
+      "matches": 13,
+      "runs": 0,
+      "average": 0.0,
+      "strikeRate": 0.0,
+      "wickets": 22,
+      "economy": 8.36,
+      "bowlingAverage": 29.0,
+      "globalPercentile": 84
+    },
+    {
+      "id": "lh-ferguson",
+      "name": "LH Ferguson",
+      "role": "PACE_BOWLER",
+      "rating": 75,
+      "matches": 5,
+      "wickets": 6,
+      "economy": 7.38,
+      "bowlingAverage": 32.0,
+      "globalPercentile": 72
+    },
+    {
+      "id": "jd-unadkat",
+      "name": "JD Unadkat",
+      "role": "PACE_BOWLER",
+      "rating": 94,
+      "matches": 13,
+      "wickets": 48,
+      "economy": 7.2,
+      "bowlingAverage": 13.8,
+      "globalPercentile": 99
+    },
+    {
+      "id": "washington-sundar",
+      "name": "Washington Sundar",
+      "role": "SPIN_BOWLER",
+      "rating": 87,
+      "matches": 11,
+      "runs": 18,
+      "average": 18,
+      "strikeRate": 75.0,
+      "wickets": 16,
+      "economy": 6.3,
+      "bowlingAverage": 23.6,
+      "globalPercentile": 94
+    }
+  ],
+  "stats": {
+    "min": 70,
+    "max": 94,
+    "mean": 81.9
+  }
+}

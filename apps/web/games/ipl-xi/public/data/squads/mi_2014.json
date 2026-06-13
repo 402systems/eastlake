@@ -1,0 +1,170 @@
+{
+  "teamId": "mi",
+  "year": "2014",
+  "label": "Mumbai Indians 2014",
+  "players": [
+    {
+      "id": "mek-hussey",
+      "name": "MEK Hussey",
+      "role": "OPENER",
+      "rating": 60,
+      "matches": 9,
+      "runs": 209,
+      "average": 26.1,
+      "strikeRate": 114.8,
+      "globalPercentile": 20
+    },
+    {
+      "id": "ap-tare",
+      "name": "AP Tare",
+      "role": "ALL_ROUNDER",
+      "rating": 54,
+      "matches": 11,
+      "runs": 126,
+      "average": 15.8,
+      "strikeRate": 129.9,
+      "globalPercentile": 19
+    },
+    {
+      "id": "at-rayudu",
+      "name": "AT Rayudu",
+      "role": "MIDDLE_ORDER",
+      "rating": 65,
+      "matches": 14,
+      "runs": 361,
+      "average": 25.8,
+      "strikeRate": 126.2,
+      "globalPercentile": 35
+    },
+    {
+      "id": "rg-sharma",
+      "name": "RG Sharma",
+      "role": "MIDDLE_ORDER",
+      "rating": 69,
+      "matches": 15,
+      "runs": 390,
+      "average": 30.0,
+      "strikeRate": 129.1,
+      "globalPercentile": 45
+    },
+    {
+      "id": "ka-pollard",
+      "name": "KA Pollard",
+      "role": "PACE_BOWLER",
+      "rating": 44,
+      "matches": 15,
+      "runs": 273,
+      "average": 34.1,
+      "strikeRate": 135.1,
+      "wickets": 2,
+      "economy": 10.6,
+      "bowlingAverage": 132.5,
+      "globalPercentile": 1
+    },
+    {
+      "id": "cj-anderson",
+      "name": "CJ Anderson",
+      "role": "PACE_BOWLER",
+      "rating": 48,
+      "matches": 11,
+      "runs": 265,
+      "average": 29.4,
+      "strikeRate": 146.4,
+      "wickets": 4,
+      "economy": 10.44,
+      "bowlingAverage": 47.0,
+      "globalPercentile": 5
+    },
+    {
+      "id": "harbhajan-singh",
+      "name": "Harbhajan Singh",
+      "role": "SPIN_BOWLER",
+      "rating": 78,
+      "matches": 14,
+      "runs": 28,
+      "average": 4.7,
+      "strikeRate": 112.0,
+      "wickets": 14,
+      "economy": 6.64,
+      "bowlingAverage": 26.1,
+      "globalPercentile": 70
+    },
+    {
+      "id": "cm-gautam",
+      "name": "CM Gautam",
+      "role": "MIDDLE_ORDER",
+      "rating": 51,
+      "matches": 9,
+      "runs": 121,
+      "average": 20.2,
+      "strikeRate": 110.0,
+      "globalPercentile": 8
+    },
+    {
+      "id": "z-khan",
+      "name": "Z Khan",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 6,
+      "runs": 8,
+      "average": 8.0,
+      "strikeRate": 114.3,
+      "wickets": 5,
+      "economy": 6.99,
+      "bowlingAverage": 31.2,
+      "globalPercentile": 61
+    },
+    {
+      "id": "sl-malinga",
+      "name": "SL Malinga",
+      "role": "PACE_BOWLER",
+      "rating": 91,
+      "matches": 10,
+      "wickets": 16,
+      "economy": 6.82,
+      "bowlingAverage": 16.7,
+      "globalPercentile": 98
+    },
+    {
+      "id": "pp-ojha",
+      "name": "PP Ojha",
+      "role": "SPIN_BOWLER",
+      "rating": 54,
+      "matches": 12,
+      "runs": 4,
+      "average": 4,
+      "strikeRate": 50.0,
+      "wickets": 4,
+      "economy": 8.37,
+      "bowlingAverage": 96.2,
+      "globalPercentile": 4
+    },
+    {
+      "id": "jj-bumrah",
+      "name": "JJ Bumrah",
+      "role": "PACE_BOWLER",
+      "rating": 58,
+      "matches": 11,
+      "wickets": 5,
+      "economy": 7.74,
+      "bowlingAverage": 61.4,
+      "globalPercentile": 25
+    },
+    {
+      "id": "lmp-simmons",
+      "name": "LMP Simmons",
+      "role": "OPENER",
+      "rating": 89,
+      "matches": 8,
+      "runs": 394,
+      "average": 56.3,
+      "strikeRate": 135.9,
+      "globalPercentile": 92
+    }
+  ],
+  "stats": {
+    "min": 44,
+    "max": 91,
+    "mean": 64.0
+  }
+}

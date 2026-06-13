@@ -1,0 +1,172 @@
+{
+  "teamId": "rr",
+  "year": "2009",
+  "label": "Rajasthan Royals 2009",
+  "players": [
+    {
+      "id": "gc-smith",
+      "name": "GC Smith",
+      "role": "OPENER",
+      "rating": 51,
+      "matches": 12,
+      "runs": 212,
+      "average": 19.3,
+      "strikeRate": 99.5
+    },
+    {
+      "id": "sa-asnodkar",
+      "name": "SA Asnodkar",
+      "role": "OPENER",
+      "rating": 46,
+      "matches": 8,
+      "runs": 98,
+      "average": 12.2,
+      "strikeRate": 105.4
+    },
+    {
+      "id": "yk-pathan",
+      "name": "YK Pathan",
+      "role": "ALL_ROUNDER",
+      "rating": 65,
+      "matches": 13,
+      "runs": 261,
+      "average": 21.8,
+      "strikeRate": 139.6,
+      "wickets": 7,
+      "economy": 7.09,
+      "bowlingAverage": 35.4
+    },
+    {
+      "id": "ad-mascarenhas",
+      "name": "AD Mascarenhas",
+      "role": "PACE_BOWLER",
+      "rating": 82,
+      "matches": 5,
+      "runs": 39,
+      "average": 9.8,
+      "strikeRate": 100.0,
+      "wickets": 6,
+      "economy": 6.88,
+      "bowlingAverage": 22.2
+    },
+    {
+      "id": "ra-jadeja",
+      "name": "RA Jadeja",
+      "role": "ALL_ROUNDER",
+      "rating": 65,
+      "matches": 13,
+      "runs": 295,
+      "average": 26.8,
+      "strikeRate": 111.3,
+      "wickets": 6,
+      "economy": 6.69,
+      "bowlingAverage": 26.0
+    },
+    {
+      "id": "sk-warne",
+      "name": "SK Warne",
+      "role": "SPIN_BOWLER",
+      "rating": 76,
+      "matches": 13,
+      "runs": 108,
+      "average": 15.4,
+      "strikeRate": 93.1,
+      "wickets": 14,
+      "economy": 7.38,
+      "bowlingAverage": 26.4
+    },
+    {
+      "id": "mm-patel",
+      "name": "MM Patel",
+      "role": "PACE_BOWLER",
+      "rating": 89,
+      "matches": 11,
+      "runs": 33,
+      "average": 11.0,
+      "strikeRate": 126.9,
+      "wickets": 16,
+      "economy": 7.03,
+      "bowlingAverage": 15.3
+    },
+    {
+      "id": "kamran-khan",
+      "name": "Kamran Khan",
+      "role": "PACE_BOWLER",
+      "rating": 82,
+      "matches": 5,
+      "wickets": 7,
+      "economy": 7.93,
+      "bowlingAverage": 21.1
+    },
+    {
+      "id": "rj-quiney",
+      "name": "RJ Quiney",
+      "role": "OPENER",
+      "rating": 47,
+      "matches": 7,
+      "runs": 103,
+      "average": 14.7,
+      "strikeRate": 101.0
+    },
+    {
+      "id": "as-raut",
+      "name": "AS Raut",
+      "role": "PACE_BOWLER",
+      "rating": 46,
+      "matches": 7,
+      "runs": 78,
+      "average": 19.5,
+      "strikeRate": 127.9,
+      "wickets": 0,
+      "economy": 9.25
+    },
+    {
+      "id": "sk-trivedi",
+      "name": "SK Trivedi",
+      "role": "PACE_BOWLER",
+      "rating": 73,
+      "matches": 7,
+      "runs": 9,
+      "average": 4.5,
+      "strikeRate": 52.9,
+      "wickets": 6,
+      "economy": 7.6,
+      "bowlingAverage": 25.3
+    },
+    {
+      "id": "la-carseldine",
+      "name": "LA Carseldine",
+      "role": "MIDDLE_ORDER",
+      "rating": 60,
+      "matches": 5,
+      "runs": 81,
+      "average": 27.0,
+      "strikeRate": 122.7
+    },
+    {
+      "id": "nv-ojha",
+      "name": "NV Ojha",
+      "role": "MIDDLE_ORDER",
+      "rating": 59,
+      "matches": 8,
+      "runs": 168,
+      "average": 24.0,
+      "strikeRate": 116.7
+    },
+    {
+      "id": "a-singh",
+      "name": "A Singh",
+      "role": "PACE_BOWLER",
+      "rating": 98,
+      "matches": 5,
+      "wickets": 9,
+      "economy": 5.71,
+      "bowlingAverage": 11.1
+    }
+  ],
+  "stats": {
+    "min": 46,
+    "max": 98,
+    "mean": 67.1
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "teamId": "rcb",
+  "year": "2025",
+  "label": "Royal Challengers Bangalore 2025",
+  "players": [
+    {
+      "id": "pd-salt",
+      "name": "PD Salt",
+      "role": "OPENER",
+      "rating": 82,
+      "matches": 13,
+      "runs": 403,
+      "average": 33.6,
+      "strikeRate": 177.5,
+      "globalPercentile": 80
+    },
+    {
+      "id": "v-kohli",
+      "name": "V Kohli",
+      "role": "OPENER",
+      "rating": 91,
+      "matches": 15,
+      "runs": 657,
+      "average": 54.8,
+      "strikeRate": 144.7,
+      "globalPercentile": 95
+    },
+    {
+      "id": "d-padikkal",
+      "name": "D Padikkal",
+      "role": "MIDDLE_ORDER",
+      "rating": 74,
+      "matches": 10,
+      "runs": 247,
+      "average": 27.4,
+      "strikeRate": 151.5,
+      "globalPercentile": 60
+    },
+    {
+      "id": "rm-patidar",
+      "name": "RM Patidar",
+      "role": "MIDDLE_ORDER",
+      "rating": 69,
+      "matches": 14,
+      "runs": 312,
+      "average": 26.0,
+      "strikeRate": 143.8,
+      "globalPercentile": 45
+    },
+    {
+      "id": "ls-livingstone",
+      "name": "LS Livingstone",
+      "role": "PACE_BOWLER",
+      "rating": 56,
+      "matches": 8,
+      "runs": 112,
+      "average": 16.0,
+      "strikeRate": 133.3,
+      "wickets": 2,
+      "economy": 8.44,
+      "bowlingAverage": 38.0,
+      "globalPercentile": 20
+    },
+    {
+      "id": "jr-hazlewood",
+      "name": "JR Hazlewood",
+      "role": "PACE_BOWLER",
+      "rating": 87,
+      "matches": 12,
+      "wickets": 22,
+      "economy": 8.84,
+      "bowlingAverage": 17.7,
+      "globalPercentile": 94
+    },
+    {
+      "id": "yash-dayal",
+      "name": "Yash Dayal",
+      "role": "PACE_BOWLER",
+      "rating": 59,
+      "matches": 15,
+      "runs": 4,
+      "average": 2.0,
+      "strikeRate": 50.0,
+      "wickets": 13,
+      "economy": 9.78,
+      "bowlingAverage": 36.8,
+      "globalPercentile": 28
+    },
+    {
+      "id": "kh-pandya",
+      "name": "KH Pandya",
+      "role": "SPIN_BOWLER",
+      "rating": 76,
+      "matches": 15,
+      "runs": 109,
+      "average": 18.2,
+      "strikeRate": 128.2,
+      "wickets": 17,
+      "economy": 8.26,
+      "bowlingAverage": 22.4,
+      "globalPercentile": 64
+    },
+    {
+      "id": "suyash-sharma",
+      "name": "Suyash Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 55,
+      "matches": 14,
+      "wickets": 8,
+      "economy": 9.08,
+      "bowlingAverage": 56.8,
+      "globalPercentile": 18
+    },
+    {
+      "id": "jm-sharma",
+      "name": "JM Sharma",
+      "role": "ALL_ROUNDER",
+      "rating": 88,
+      "matches": 11,
+      "runs": 261,
+      "average": 37.3,
+      "strikeRate": 177.6,
+      "globalPercentile": 96
+    },
+    {
+      "id": "b-kumar",
+      "name": "B Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 70,
+      "matches": 14,
+      "runs": 14,
+      "average": 4.7,
+      "strikeRate": 56.0,
+      "wickets": 17,
+      "economy": 9.42,
+      "bowlingAverage": 28.8,
+      "globalPercentile": 58
+    },
+    {
+      "id": "r-shepherd",
+      "name": "R Shepherd",
+      "role": "PACE_BOWLER",
+      "rating": 61,
+      "matches": 7,
+      "runs": 70,
+      "average": 35.0,
+      "strikeRate": 304.3,
+      "wickets": 6,
+      "economy": 11.14,
+      "bowlingAverage": 26.0,
+      "globalPercentile": 33
+    }
+  ],
+  "stats": {
+    "min": 55,
+    "max": 91,
+    "mean": 72.3
+  }
+}

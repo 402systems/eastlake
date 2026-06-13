@@ -1,0 +1,170 @@
+{
+  "teamId": "pbks",
+  "year": "2024",
+  "label": "Punjab Kings 2024",
+  "players": [
+    {
+      "id": "s-dhawan",
+      "name": "S Dhawan",
+      "role": "OPENER",
+      "rating": 68,
+      "matches": 5,
+      "runs": 152,
+      "average": 30.4,
+      "strikeRate": 125.6,
+      "globalPercentile": 44
+    },
+    {
+      "id": "jm-bairstow",
+      "name": "JM Bairstow",
+      "role": "OPENER",
+      "rating": 75,
+      "matches": 11,
+      "runs": 298,
+      "average": 33.1,
+      "strikeRate": 152.8,
+      "globalPercentile": 65
+    },
+    {
+      "id": "p-simran-singh",
+      "name": "P Simran Singh",
+      "role": "OPENER",
+      "rating": 70,
+      "matches": 14,
+      "runs": 334,
+      "average": 25.7,
+      "strikeRate": 157.5,
+      "globalPercentile": 49
+    },
+    {
+      "id": "sm-curran",
+      "name": "SM Curran",
+      "role": "PACE_BOWLER",
+      "rating": 68,
+      "matches": 13,
+      "runs": 270,
+      "average": 27.0,
+      "strikeRate": 124.4,
+      "wickets": 16,
+      "economy": 10.29,
+      "bowlingAverage": 26.4,
+      "globalPercentile": 51
+    },
+    {
+      "id": "jm-sharma",
+      "name": "JM Sharma",
+      "role": "ALL_ROUNDER",
+      "rating": 57,
+      "matches": 12,
+      "runs": 187,
+      "average": 17.0,
+      "strikeRate": 131.7,
+      "globalPercentile": 26
+    },
+    {
+      "id": "ls-livingstone",
+      "name": "LS Livingstone",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 7,
+      "runs": 111,
+      "average": 27.8,
+      "strikeRate": 142.3,
+      "wickets": 3,
+      "economy": 7.17,
+      "bowlingAverage": 28.7,
+      "globalPercentile": 61
+    },
+    {
+      "id": "shashank-singh",
+      "name": "Shashank Singh",
+      "role": "ALL_ROUNDER",
+      "rating": 87,
+      "matches": 14,
+      "runs": 354,
+      "average": 50.6,
+      "strikeRate": 164.7,
+      "globalPercentile": 94
+    },
+    {
+      "id": "harpreet-brar",
+      "name": "Harpreet Brar",
+      "role": "PACE_BOWLER",
+      "rating": 58,
+      "matches": 13,
+      "runs": 75,
+      "average": 37.5,
+      "strikeRate": 138.9,
+      "wickets": 7,
+      "economy": 8.13,
+      "bowlingAverage": 44.1,
+      "globalPercentile": 25
+    },
+    {
+      "id": "arshdeep-singh",
+      "name": "Arshdeep Singh",
+      "role": "PACE_BOWLER",
+      "rating": 70,
+      "matches": 14,
+      "wickets": 19,
+      "economy": 10.21,
+      "bowlingAverage": 27.1,
+      "globalPercentile": 58
+    },
+    {
+      "id": "k-rabada",
+      "name": "K Rabada",
+      "role": "PACE_BOWLER",
+      "rating": 64,
+      "matches": 11,
+      "runs": 20,
+      "average": 20.0,
+      "strikeRate": 142.9,
+      "wickets": 11,
+      "economy": 9.19,
+      "bowlingAverage": 35.1,
+      "globalPercentile": 38
+    },
+    {
+      "id": "rd-chahar",
+      "name": "RD Chahar",
+      "role": "SPIN_BOWLER",
+      "rating": 70,
+      "matches": 9,
+      "wickets": 10,
+      "economy": 9.03,
+      "bowlingAverage": 28.0,
+      "globalPercentile": 46
+    },
+    {
+      "id": "hv-patel",
+      "name": "HV Patel",
+      "role": "PACE_BOWLER",
+      "rating": 80,
+      "matches": 14,
+      "runs": 13,
+      "average": 4.3,
+      "strikeRate": 68.4,
+      "wickets": 24,
+      "economy": 9.9,
+      "bowlingAverage": 20.2,
+      "globalPercentile": 84
+    },
+    {
+      "id": "rr-rossouw",
+      "name": "RR Rossouw",
+      "role": "MIDDLE_ORDER",
+      "rating": 80,
+      "matches": 8,
+      "runs": 211,
+      "average": 26.4,
+      "strikeRate": 183.5,
+      "globalPercentile": 73
+    }
+  ],
+  "stats": {
+    "min": 57,
+    "max": 87,
+    "mean": 70.6
+  }
+}
