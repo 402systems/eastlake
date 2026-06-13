@@ -9,7 +9,8 @@ export default function HomePage() {
         </h1>
         <p className="mt-3 max-w-xs text-sm text-slate-400">
           5 random IPL squads. Pick one player from each. Build the ultimate
-          five across opener, middle order, all-rounder, spin bowler, and pace bowler.
+          five across opener, middle order, all-rounder, spin bowler, and pace
+          bowler.
         </p>
       </div>
       <Link

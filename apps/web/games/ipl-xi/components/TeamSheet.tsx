@@ -1,6 +1,6 @@
 'use client';
 
-import type { IplPlayer, IplRole, Lineup } from '@/lib/types';
+import type { IplRole, Lineup } from '@/lib/types';
 import { SLOTS } from '@/lib/constants';
 
 interface Props {
@@ -12,11 +12,11 @@ interface Props {
 }
 
 const SLOT_ICONS: Record<IplRole, string> = {
-  OPENER:       '🏏',
+  OPENER: '🏏',
   MIDDLE_ORDER: '🛡️',
-  ALL_ROUNDER:  '⚡',
-  SPIN_BOWLER:  '🌀',
-  PACE_BOWLER:  '🎯',
+  ALL_ROUNDER: '⚡',
+  SPIN_BOWLER: '🌀',
+  PACE_BOWLER: '🎯',
 };
 
 const RATING_BG = (r: number) => {
@@ -43,18 +43,22 @@ export function TeamSheet({
             <div
               key={slot.id}
               className={`flex items-center gap-2 rounded-lg px-2 py-1.5 ${
-                filled ? 'bg-slate-800' : 'bg-slate-900 border border-slate-800'
+                filled ? 'bg-slate-800' : 'border border-slate-800 bg-slate-900'
               }`}
             >
               <span className="text-xs">{SLOT_ICONS[slot.id]}</span>
               <div className="min-w-0 flex-1">
-                <p className="text-[10px] text-slate-500 leading-none">{slot.label}</p>
+                <p className="text-[10px] leading-none text-slate-500">
+                  {slot.label}
+                </p>
                 {player ? (
-                  <p className="truncate text-xs font-semibold text-white leading-tight mt-0.5">
+                  <p className="mt-0.5 truncate text-xs leading-tight font-semibold text-white">
                     {player.name.split(' ').slice(-1)[0]}
                   </p>
                 ) : (
-                  <p className="text-xs text-slate-600 leading-tight mt-0.5">—</p>
+                  <p className="mt-0.5 text-xs leading-tight text-slate-600">
+                    —
+                  </p>
                 )}
               </div>
               {player && !blind && (
@@ -92,11 +96,13 @@ export function TeamSheet({
           >
             <span className="text-xl">{SLOT_ICONS[slot.id]}</span>
             <div className="min-w-0 flex-1">
-              <p className="text-xs font-bold text-slate-400 uppercase tracking-wide">
+              <p className="text-xs font-bold tracking-wide text-slate-400 uppercase">
                 {slot.label}
               </p>
               {player ? (
-                <p className="truncate text-sm font-bold text-white">{player.name}</p>
+                <p className="truncate text-sm font-bold text-white">
+                  {player.name}
+                </p>
               ) : (
                 <p className="text-sm text-slate-600">
                   {isActive ? 'Picking…' : slot.description}

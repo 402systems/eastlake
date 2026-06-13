@@ -2,12 +2,17 @@
 
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
-import type { IplPlayer, IplRole, IplSquad, IplTeam, Lineup } from '@/lib/types';
+import type {
+  IplPlayer,
+  IplRole,
+  IplSquad,
+  IplTeam,
+  Lineup,
+} from '@/lib/types';
 import { SLOTS } from '@/lib/constants';
 import { fetchTeams, fetchSquad, fetchSeasons } from '@/lib/data';
 import type { SeasonTeam } from '@/lib/types';
 import { computePercentile, getRoleEligible } from '@/lib/scoring';
-import { PlayerPickerModal } from '@/components/PlayerPickerModal';
 import { TeamSheet } from '@/components/TeamSheet';
 
 interface Pick {
@@ -15,7 +20,7 @@ interface Pick {
   team: IplTeam;
   year: string;
   percentile: number;
-  rankInSquad: number;   // 1 = best available for that role in that squad
+  rankInSquad: number; // 1 = best available for that role in that squad
   eligibleCount: number; // how many options existed for that role
 }
 
@@ -25,16 +30,16 @@ const TIERS: { score: number; minPct: number; label: string }[] = [
   { score: 12, minPct: 86, label: 'Excellent' },
   { score: 11, minPct: 79, label: 'Very strong' },
   { score: 10, minPct: 71, label: 'Strong' },
-  { score: 9,  minPct: 63, label: 'Good' },
-  { score: 8,  minPct: 55, label: 'Solid' },
-  { score: 7,  minPct: 47, label: 'Average' },
-  { score: 6,  minPct: 39, label: 'Below average' },
-  { score: 5,  minPct: 31, label: 'Weak' },
-  { score: 4,  minPct: 24, label: 'Poor' },
-  { score: 3,  minPct: 17, label: 'Very poor' },
-  { score: 2,  minPct: 11, label: 'Struggling' },
-  { score: 1,  minPct: 6,  label: 'Bottom tier' },
-  { score: 0,  minPct: 0,  label: 'Start over' },
+  { score: 9, minPct: 63, label: 'Good' },
+  { score: 8, minPct: 55, label: 'Solid' },
+  { score: 7, minPct: 47, label: 'Average' },
+  { score: 6, minPct: 39, label: 'Below average' },
+  { score: 5, minPct: 31, label: 'Weak' },
+  { score: 4, minPct: 24, label: 'Poor' },
+  { score: 3, minPct: 17, label: 'Very poor' },
+  { score: 2, minPct: 11, label: 'Struggling' },
+  { score: 1, minPct: 6, label: 'Bottom tier' },
+  { score: 0, minPct: 0, label: 'Start over' },
 ];
 
 function toTier(avgPct: number) {
@@ -118,7 +123,9 @@ export default function GamePage() {
 
   async function doRoll(currentFilled: Set<IplRole>) {
     const teams = teamsRef.current;
-    const remaining = SLOTS.map((s) => s.id).filter((id) => !currentFilled.has(id));
+    const remaining = SLOTS.map((s) => s.id).filter(
+      (id) => !currentFilled.has(id)
+    );
 
     const available = teams
       .flatMap((t) => t.years.map((y) => ({ team: t, year: String(y) })))
@@ -161,10 +168,15 @@ export default function GamePage() {
   async function shuffleYear() {
     if (!currentTeam || yearShuffled || loading) return;
     setYearShuffled(true);
-    const remaining = SLOTS.map((s) => s.id).filter((id) => !filledRef.current.has(id));
+    const remaining = SLOTS.map((s) => s.id).filter(
+      (id) => !filledRef.current.has(id)
+    );
     const otherYears = currentTeam.years
       .map(String)
-      .filter((y) => y !== currentYear && !usedRef.current.has(`${currentTeam.id}_${y}`))
+      .filter(
+        (y) =>
+          y !== currentYear && !usedRef.current.has(`${currentTeam.id}_${y}`)
+      )
       .sort(() => Math.random() - 0.5);
 
     for (const year of otherYears) {
@@ -191,21 +203,32 @@ export default function GamePage() {
   async function shuffleTeam() {
     if (teamShuffled || loading) return;
     setTeamShuffled(true);
-    const remaining = SLOTS.map((s) => s.id).filter((id) => !filledRef.current.has(id));
+    const remaining = SLOTS.map((s) => s.id).filter(
+      (id) => !filledRef.current.has(id)
+    );
     const teams = teamsRef.current;
 
     // Prefer teams that share the current year; fall back to any unused combo
     const sameYearCandidates = teams
-      .filter((t) => t.id !== currentTeam?.id && t.years.map(String).includes(currentYear ?? ''))
+      .filter(
+        (t) =>
+          t.id !== currentTeam?.id &&
+          t.years.map(String).includes(currentYear ?? '')
+      )
       .map((t) => ({ team: t, year: currentYear! }))
       .filter(({ team, year }) => !usedRef.current.has(`${team.id}_${year}`));
 
     const allCandidates = teams
       .flatMap((t) => t.years.map((y) => ({ team: t, year: String(y) })))
-      .filter(({ team, year }) => team.id !== currentTeam?.id && !usedRef.current.has(`${team.id}_${year}`));
+      .filter(
+        ({ team, year }) =>
+          team.id !== currentTeam?.id &&
+          !usedRef.current.has(`${team.id}_${year}`)
+      );
 
-    const pool = (sameYearCandidates.length > 0 ? sameYearCandidates : allCandidates)
-      .sort(() => Math.random() - 0.5);
+    const pool = (
+      sameYearCandidates.length > 0 ? sameYearCandidates : allCandidates
+    ).sort(() => Math.random() - 0.5);
 
     for (const { team, year } of pool) {
       const key = `${team.id}_${year}`;
@@ -233,7 +256,7 @@ export default function GamePage() {
   function selectPlayer(player: IplPlayer) {
     if (!currentTeam || !currentYear || !currentSquad || !activeRole) return;
 
-    const percentile = computePercentile(player, currentSquad);
+    const percentile = computePercentile(player);
     const eligible = getRoleEligible(currentSquad, player.role);
     const rankInSquad = eligible.findIndex((p) => p.id === player.id) + 1;
     const newPick: Pick = {
@@ -303,7 +326,9 @@ export default function GamePage() {
           >
             <span className="text-3xl">{blind ? '🙈' : '👁'}</span>
             <div className="text-left">
-              <p className={`font-bold ${blind ? 'text-white' : 'text-slate-300'}`}>
+              <p
+                className={`font-bold ${blind ? 'text-white' : 'text-slate-300'}`}
+              >
                 {blind ? 'Blind Mode ON' : 'Blind Mode OFF'}
               </p>
               <p className="mt-0.5 text-xs text-slate-500">
@@ -344,7 +369,9 @@ export default function GamePage() {
       picks.reduce((s, p) => s + p.percentile, 0) / picks.length
     );
     const tier = toTier(avg);
-    return <ScoreScreen picks={picks} avg={avg} tier={tier} lineup={lineup} onPlayAgain={reset} />;
+    return (
+      <ScoreScreen picks={picks} avg={avg} tier={tier} onPlayAgain={reset} />
+    );
   }
 
   return (
@@ -386,7 +413,7 @@ export default function GamePage() {
                   style={{ backgroundColor: currentTeam.color }}
                 />
                 <div className="min-w-0 flex-1">
-                  <p className="truncate text-base font-black leading-tight text-white">
+                  <p className="truncate text-base leading-tight font-black text-white">
                     {currentTeam.name}
                   </p>
                   <p className="text-xs text-slate-400">{currentYear}</p>
@@ -424,7 +451,7 @@ export default function GamePage() {
           {/* Role selector */}
           {!loading && currentSquad && (
             <div className="mb-2 shrink-0">
-              <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-widest text-slate-500">
+              <p className="mb-1.5 text-[10px] font-semibold tracking-widest text-slate-500 uppercase">
                 Pick for slot
               </p>
               <div className="flex flex-wrap gap-1.5">
@@ -436,9 +463,7 @@ export default function GamePage() {
                     <button
                       key={slot.id}
                       disabled={!hasPlayers}
-                      onClick={() =>
-                        setActiveRole(isActive ? null : slot.id)
-                      }
+                      onClick={() => setActiveRole(isActive ? null : slot.id)}
                       className={`rounded-lg px-2.5 py-1 text-xs font-semibold transition-colors ${
                         isActive
                           ? 'bg-purple-500 text-white'
@@ -516,7 +541,7 @@ export default function GamePage() {
           ) : (
             !loading && (
               <div className="flex flex-1 items-center justify-center">
-                <p className="text-center text-sm text-slate-500 px-4">
+                <p className="px-4 text-center text-sm text-slate-500">
                   {currentSquad
                     ? 'Select a slot above to see eligible players'
                     : 'Loading squad…'}
@@ -560,18 +585,35 @@ function StatsModal({ pick, onClose }: { pick: Pick; onClose: () => void }) {
               {pick.team.name} · {pick.year}
             </p>
           </div>
-          <button onClick={onClose} className="text-xl text-slate-500 hover:text-white">×</button>
+          <button
+            onClick={onClose}
+            className="text-xl text-slate-500 hover:text-white"
+          >
+            ×
+          </button>
         </div>
         <div className="grid grid-cols-2 gap-2 text-sm">
           <Stat label="Matches" value={String(p.matches)} />
           <Stat label="Rating" value={String(p.rating)} />
           {p.runs != null && <Stat label="Runs" value={String(p.runs)} />}
-          {p.average != null && <Stat label="Batting avg" value={p.average.toFixed(1)} />}
-          {p.strikeRate != null && <Stat label="Strike rate" value={p.strikeRate.toFixed(0)} />}
-          {p.wickets != null && <Stat label="Wickets" value={String(p.wickets)} />}
-          {p.economy != null && <Stat label="Economy" value={p.economy.toFixed(1)} />}
-          {p.bowlingAverage != null && <Stat label="Bowl avg" value={p.bowlingAverage.toFixed(1)} />}
-          {!isBowler && p.runs == null && <Stat label="Batting" value="Limited data" />}
+          {p.average != null && (
+            <Stat label="Batting avg" value={p.average.toFixed(1)} />
+          )}
+          {p.strikeRate != null && (
+            <Stat label="Strike rate" value={p.strikeRate.toFixed(0)} />
+          )}
+          {p.wickets != null && (
+            <Stat label="Wickets" value={String(p.wickets)} />
+          )}
+          {p.economy != null && (
+            <Stat label="Economy" value={p.economy.toFixed(1)} />
+          )}
+          {p.bowlingAverage != null && (
+            <Stat label="Bowl avg" value={p.bowlingAverage.toFixed(1)} />
+          )}
+          {!isBowler && p.runs == null && (
+            <Stat label="Batting" value="Limited data" />
+          )}
         </div>
       </div>
     </div>
@@ -591,40 +633,66 @@ function ScoreScreen({
   picks,
   avg,
   tier,
-  lineup,
   onPlayAgain,
 }: {
   picks: Pick[];
   avg: number;
   tier: { score: number; minPct: number; label: string };
-  lineup: Lineup;
   onPlayAgain: () => void;
 }) {
-  interface SimRow { teamId: string; shortName: string; teamName: string; composite: number; isUser: boolean; wins: number; losses: number; points: number; }
-  interface SimResult { year: number; standings: SimRow[]; userPosition: number; }
+  interface SimRow {
+    teamId: string;
+    shortName: string;
+    teamName: string;
+    composite: number;
+    isUser: boolean;
+    wins: number;
+    losses: number;
+    points: number;
+  }
+  interface SimResult {
+    year: number;
+    standings: SimRow[];
+    userPosition: number;
+  }
 
-  function simulateTournament(rows: Omit<SimRow, 'wins'|'losses'|'points'>[]): SimRow[] {
-    const records: SimRow[] = rows.map(r => ({ ...r, wins: 0, losses: 0, points: 0 }));
+  function simulateTournament(
+    rows: Omit<SimRow, 'wins' | 'losses' | 'points'>[]
+  ): SimRow[] {
+    const records: SimRow[] = rows.map((r) => ({
+      ...r,
+      wins: 0,
+      losses: 0,
+      points: 0,
+    }));
     // Power-curve win probability: gap^1.5 makes small differences nearly 50/50
     // (easy to be mid-table) while large gaps become increasingly dominant
     // (hard to reach the top). 5pt gap → ~55%, 15pt → ~75%, 25pt → ~90%.
     const winProb = (a: number, b: number) => {
       const gap = a - b;
-      const k = Math.sign(gap) * Math.pow(Math.abs(gap), 1.5) / 60;
+      const k = (Math.sign(gap) * Math.pow(Math.abs(gap), 1.5)) / 60;
       return 1 / (1 + Math.exp(-k));
     };
     for (let i = 0; i < records.length; i++) {
       for (let j = i + 1; j < records.length; j++) {
         for (let m = 0; m < 2; m++) {
-          if (Math.random() < winProb(records[i].composite, records[j].composite)) {
-            records[i].wins++;  records[i].points += 2;  records[j].losses++;
+          if (
+            Math.random() < winProb(records[i].composite, records[j].composite)
+          ) {
+            records[i].wins++;
+            records[i].points += 2;
+            records[j].losses++;
           } else {
-            records[j].wins++;  records[j].points += 2;  records[i].losses++;
+            records[j].wins++;
+            records[j].points += 2;
+            records[i].losses++;
           }
         }
       }
     }
-    return records.sort((a, b) => b.points - a.points || b.composite - a.composite);
+    return records.sort(
+      (a, b) => b.points - a.points || b.composite - a.composite
+    );
   }
 
   const [copied, setCopied] = useState(false);
@@ -632,13 +700,18 @@ function ScoreScreen({
   const [sim, setSim] = useState<SimResult | null>(null);
 
   const SLOT_ICONS: Record<IplRole, string> = {
-    OPENER: '🏏', MIDDLE_ORDER: '🛡️', ALL_ROUNDER: '⚡',
-    SPIN_BOWLER: '🌀', PACE_BOWLER: '🎯',
+    OPENER: '🏏',
+    MIDDLE_ORDER: '🛡️',
+    ALL_ROUNDER: '⚡',
+    SPIN_BOWLER: '🌀',
+    PACE_BOWLER: '🎯',
   };
   const SLOT_LABELS: Record<IplRole, string> = {
-    OPENER: 'Opener', MIDDLE_ORDER: 'Middle Order',
+    OPENER: 'Opener',
+    MIDDLE_ORDER: 'Middle Order',
     ALL_ROUNDER: 'All-rounder / Finisher',
-    SPIN_BOWLER: 'Spin Bowler', PACE_BOWLER: 'Pace Bowler',
+    SPIN_BOWLER: 'Spin Bowler',
+    PACE_BOWLER: 'Pace Bowler',
   };
 
   useEffect(() => {
@@ -646,9 +719,9 @@ function ScoreScreen({
       const avgYear = Math.round(
         picks.reduce((s, p) => s + Number(p.year), 0) / picks.length
       );
-      const userComposite = picks.reduce((s, p) => s + p.player.rating, 0) / picks.length;
-
-      const availableYears = Object.keys(seasons).map(Number).sort((a, b) => a - b);
+      const availableYears = Object.keys(seasons)
+        .map(Number)
+        .sort((a, b) => a - b);
       if (availableYears.length === 0) return;
       const targetYear = availableYears.reduce((best, y) =>
         Math.abs(y - avgYear) < Math.abs(best - avgYear) ? y : best
@@ -660,17 +733,28 @@ function ScoreScreen({
       // Use pctComposite so simulation aligns with the percentile score.
       // Replace the weakest historical seed with the user's team to keep
       // the correct team count (and thus the right number of games).
-      const userPctComposite = picks.reduce((s, p) => s + p.player.globalPercentile, 0) / picks.length;
+      const userPctComposite =
+        picks.reduce((s, p) => s + p.player.globalPercentile, 0) / picks.length;
       const sorted = [...teams].sort((a, b) => a.pctComposite - b.pctComposite);
       const rows = [
-        ...sorted.slice(1).map((t) => ({ ...t, composite: t.pctComposite, isUser: false })),
-        { teamId: '__you__', shortName: 'YOU', teamName: 'Your Team', composite: userPctComposite, pctComposite: userPctComposite, isUser: true },
+        ...sorted
+          .slice(1)
+          .map((t) => ({ ...t, composite: t.pctComposite, isUser: false })),
+        {
+          teamId: '__you__',
+          shortName: 'YOU',
+          teamName: 'Your Team',
+          composite: userPctComposite,
+          pctComposite: userPctComposite,
+          isUser: true,
+        },
       ];
 
       const standings = simulateTournament(rows);
       const userPosition = standings.findIndex((t) => t.isUser) + 1;
       setSim({ year: targetYear, standings, userPosition });
     });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   function copyToClipboard() {
@@ -678,8 +762,9 @@ function ScoreScreen({
       ? [
           '',
           `${sim.year} IPL season — ${ordinal(sim.userPosition)} of ${sim.standings.length}:`,
-          ...sim.standings.map((row, i) =>
-            `  ${i + 1}. ${row.isUser ? '★ Your Team' : row.shortName}  ${row.wins}W ${row.losses}L  ${row.points}pts`
+          ...sim.standings.map(
+            (row, i) =>
+              `  ${i + 1}. ${row.isUser ? '★ Your Team' : row.shortName}  ${row.wins}W ${row.losses}L  ${row.points}pts`
           ),
         ]
       : [];
@@ -703,7 +788,9 @@ function ScoreScreen({
 
   return (
     <main className="mx-auto flex min-h-screen max-w-lg flex-col items-center px-4 py-8">
-      {statsFor && <StatsModal pick={statsFor} onClose={() => setStatsFor(null)} />}
+      {statsFor && (
+        <StatsModal pick={statsFor} onClose={() => setStatsFor(null)} />
+      )}
 
       <div className="mb-6 text-center">
         <h2 className="text-2xl font-black text-white">Your IPL V</h2>
@@ -712,12 +799,12 @@ function ScoreScreen({
       {/* Score */}
       <div className="mb-8 flex flex-col items-center">
         <div
-          className="text-9xl font-black tabular-nums leading-none"
+          className="text-9xl leading-none font-black tabular-nums"
           style={{ color: PCT_COLOR(avg) }}
         >
           {avg}
         </div>
-        <div className="mt-2 text-sm font-semibold text-slate-400 uppercase tracking-widest">
+        <div className="mt-2 text-sm font-semibold tracking-widest text-slate-400 uppercase">
           Squad Ranking
         </div>
         <div className="mt-1 text-xs text-slate-600">
@@ -728,17 +815,26 @@ function ScoreScreen({
       {/* Season simulation table */}
       {sim && (
         <div className="mb-6 w-full">
-          <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
-            {sim.year} IPL Season · {ordinal(sim.userPosition)} of {sim.standings.length}
+          <p className="mb-2 text-xs font-semibold tracking-widest text-slate-500 uppercase">
+            {sim.year} IPL Season · {ordinal(sim.userPosition)} of{' '}
+            {sim.standings.length}
           </p>
           <div className="overflow-hidden rounded-xl border border-slate-800">
             <div className="flex items-center border-b border-slate-800 px-3 py-1.5">
               <span className="w-5" />
-              <span className="w-12 text-[10px] font-semibold uppercase text-slate-600">Team</span>
+              <span className="w-12 text-[10px] font-semibold text-slate-600 uppercase">
+                Team
+              </span>
               <span className="flex-1" />
-              <span className="w-6 text-right text-[10px] font-semibold uppercase text-slate-600">W</span>
-              <span className="w-6 text-right text-[10px] font-semibold uppercase text-slate-600">L</span>
-              <span className="w-8 text-right text-[10px] font-semibold uppercase text-slate-600">Pts</span>
+              <span className="w-6 text-right text-[10px] font-semibold text-slate-600 uppercase">
+                W
+              </span>
+              <span className="w-6 text-right text-[10px] font-semibold text-slate-600 uppercase">
+                L
+              </span>
+              <span className="w-8 text-right text-[10px] font-semibold text-slate-600 uppercase">
+                Pts
+              </span>
             </div>
             {sim.standings.map((row, i) => (
               <div
@@ -747,22 +843,32 @@ function ScoreScreen({
                   row.isUser ? 'bg-purple-900/30' : ''
                 }`}
               >
-                <span className={`w-5 shrink-0 text-xs font-bold ${row.isUser ? 'text-purple-400' : 'text-slate-600'}`}>
+                <span
+                  className={`w-5 shrink-0 text-xs font-bold ${row.isUser ? 'text-purple-400' : 'text-slate-600'}`}
+                >
                   {i + 1}
                 </span>
-                <span className={`w-12 shrink-0 text-xs font-black ${row.isUser ? 'text-purple-300' : 'text-slate-300'}`}>
+                <span
+                  className={`w-12 shrink-0 text-xs font-black ${row.isUser ? 'text-purple-300' : 'text-slate-300'}`}
+                >
                   {row.shortName}
                 </span>
                 <span className="flex-1 truncate text-[11px] text-slate-600">
                   {row.isUser ? 'Your Team' : row.teamName}
                 </span>
-                <span className={`w-6 text-right text-xs tabular-nums font-semibold ${row.isUser ? 'text-purple-300' : 'text-slate-400'}`}>
+                <span
+                  className={`w-6 text-right text-xs font-semibold tabular-nums ${row.isUser ? 'text-purple-300' : 'text-slate-400'}`}
+                >
                   {row.wins}
                 </span>
-                <span className={`w-6 text-right text-xs tabular-nums ${row.isUser ? 'text-purple-400' : 'text-slate-600'}`}>
+                <span
+                  className={`w-6 text-right text-xs tabular-nums ${row.isUser ? 'text-purple-400' : 'text-slate-600'}`}
+                >
                   {row.losses}
                 </span>
-                <span className={`w-8 text-right text-xs tabular-nums font-bold ${row.isUser ? 'text-purple-300' : 'text-slate-400'}`}>
+                <span
+                  className={`w-8 text-right text-xs font-bold tabular-nums ${row.isUser ? 'text-purple-300' : 'text-slate-400'}`}
+                >
                   {row.points}
                 </span>
               </div>

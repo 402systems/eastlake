@@ -13,11 +13,11 @@ interface Props {
 }
 
 const ROLE_LABEL: Record<IplRole, string> = {
-  OPENER:       'Openers',
+  OPENER: 'Openers',
   MIDDLE_ORDER: 'Middle Order',
-  ALL_ROUNDER:  'All-rounders / Finishers',
-  SPIN_BOWLER:  'Spin Bowlers',
-  PACE_BOWLER:  'Pace Bowlers',
+  ALL_ROUNDER: 'All-rounders / Finishers',
+  SPIN_BOWLER: 'Spin Bowlers',
+  PACE_BOWLER: 'Pace Bowlers',
 };
 
 const RATING_COLOR = (r: number) => {
@@ -36,7 +36,8 @@ function formatStats(player: IplPlayer, role: IplRole): string {
   }
   const parts: string[] = [];
   if (player.runs != null) parts.push(`${player.runs}r`);
-  if (player.strikeRate != null) parts.push(`SR ${player.strikeRate.toFixed(0)}`);
+  if (player.strikeRate != null)
+    parts.push(`SR ${player.strikeRate.toFixed(0)}`);
   if (player.average != null) parts.push(`avg ${player.average.toFixed(1)}`);
   return parts.join(' · ') || `${player.matches}m`;
 }
@@ -122,7 +123,9 @@ export function PlayerPickerModal({
               >
                 <span
                   className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg text-sm font-black ${
-                    blind ? 'bg-slate-700 text-slate-400' : RATING_COLOR(player.rating)
+                    blind
+                      ? 'bg-slate-700 text-slate-400'
+                      : RATING_COLOR(player.rating)
                   }`}
                 >
                   {blind ? '?' : player.rating}

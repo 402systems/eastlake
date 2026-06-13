@@ -1,6 +1,6 @@
-import type { IplPlayer, IplRole, IplSquad } from './types';
+import type { IplPlayer, IplRole } from './types';
 
-export function computePercentile(player: IplPlayer, _squad: IplSquad): number {
+export function computePercentile(player: IplPlayer): number {
   return player.globalPercentile;
 }
 
