@@ -31,6 +31,15 @@ const apps: AppTile[] = [
     category: 'games',
   },
   {
+    name: 'IPL XI',
+    description:
+      'Build your all-time IPL dream team — random squads, one pick per role, score by percentile',
+    href: '/games/ipl-xi',
+    icon: <Trophy className="h-8 w-8" />,
+    gradient: 'from-blue-500 to-indigo-600',
+    category: 'games',
+  },
+  {
     name: 'Dobble',
     description: 'Test your reflexes in this fast-paced symbol matching game',
     href: '/games-dobble',
