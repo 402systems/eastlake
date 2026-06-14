@@ -46,6 +46,9 @@ next-env.d.ts
 # --- act (github actions testing)
 .secrets
 
+# --- Superpowers brainstorming companion
+.superpowers/
+
 # --- Wrangler
 **/.wrangler/
 **/.dev.vars
