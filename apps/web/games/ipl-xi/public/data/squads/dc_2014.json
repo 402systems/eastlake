@@ -1,0 +1,175 @@
+{
+  "teamId": "dc",
+  "year": "2014",
+  "label": "Delhi Capitals 2014",
+  "players": [
+    {
+      "id": "ma-agarwal",
+      "name": "MA Agarwal",
+      "role": "OPENER",
+      "rating": 53,
+      "matches": 8,
+      "runs": 115,
+      "average": 14.4,
+      "strikeRate": 126.4,
+      "globalPercentile": 9
+    },
+    {
+      "id": "m-vijay",
+      "name": "M Vijay",
+      "role": "OPENER",
+      "rating": 53,
+      "matches": 11,
+      "runs": 207,
+      "average": 18.8,
+      "strikeRate": 107.8,
+      "globalPercentile": 9
+    },
+    {
+      "id": "kd-karthik",
+      "name": "KD Karthik",
+      "role": "MIDDLE_ORDER",
+      "rating": 63,
+      "matches": 14,
+      "runs": 325,
+      "average": 23.2,
+      "strikeRate": 126.0,
+      "globalPercentile": 28
+    },
+    {
+      "id": "mk-tiwary",
+      "name": "MK Tiwary",
+      "role": "ALL_ROUNDER",
+      "rating": 65,
+      "matches": 8,
+      "runs": 152,
+      "average": 30.4,
+      "strikeRate": 128.8,
+      "globalPercentile": 46
+    },
+    {
+      "id": "jp-duminy",
+      "name": "JP Duminy",
+      "role": "PACE_BOWLER",
+      "rating": 57,
+      "matches": 14,
+      "runs": 410,
+      "average": 51.2,
+      "strikeRate": 135.8,
+      "wickets": 3,
+      "economy": 7.33,
+      "bowlingAverage": 80.7,
+      "globalPercentile": 23
+    },
+    {
+      "id": "mohammed-shami",
+      "name": "Mohammed Shami",
+      "role": "PACE_BOWLER",
+      "rating": 57,
+      "matches": 12,
+      "runs": 3,
+      "average": 1.5,
+      "strikeRate": 42.9,
+      "wickets": 7,
+      "economy": 8.66,
+      "bowlingAverage": 54.4,
+      "globalPercentile": 23
+    },
+    {
+      "id": "wd-parnell",
+      "name": "WD Parnell",
+      "role": "PACE_BOWLER",
+      "rating": 63,
+      "matches": 8,
+      "wickets": 6,
+      "economy": 7.79,
+      "bowlingAverage": 39.2,
+      "globalPercentile": 37
+    },
+    {
+      "id": "s-nadeem",
+      "name": "S Nadeem",
+      "role": "SPIN_BOWLER",
+      "rating": 61,
+      "matches": 11,
+      "runs": 7,
+      "average": 3.5,
+      "strikeRate": 36.8,
+      "wickets": 8,
+      "economy": 8.26,
+      "bowlingAverage": 39.2,
+      "globalPercentile": 23
+    },
+    {
+      "id": "jd-unadkat",
+      "name": "JD Unadkat",
+      "role": "PACE_BOWLER",
+      "rating": 67,
+      "matches": 9,
+      "wickets": 9,
+      "economy": 8.92,
+      "bowlingAverage": 30.9,
+      "globalPercentile": 48
+    },
+    {
+      "id": "q-de-kock",
+      "name": "Q de Kock",
+      "role": "OPENER",
+      "rating": 60,
+      "matches": 7,
+      "runs": 153,
+      "average": 25.5,
+      "strikeRate": 117.7,
+      "globalPercentile": 20
+    },
+    {
+      "id": "kp-pietersen",
+      "name": "KP Pietersen",
+      "role": "MIDDLE_ORDER",
+      "rating": 68,
+      "matches": 11,
+      "runs": 294,
+      "average": 29.4,
+      "strikeRate": 126.2,
+      "globalPercentile": 43
+    },
+    {
+      "id": "km-jadhav",
+      "name": "KM Jadhav",
+      "role": "ALL_ROUNDER",
+      "rating": 76,
+      "matches": 10,
+      "runs": 149,
+      "average": 49.7,
+      "strikeRate": 150.5,
+      "globalPercentile": 76
+    },
+    {
+      "id": "s-kaul",
+      "name": "S Kaul",
+      "role": "PACE_BOWLER",
+      "rating": 48,
+      "matches": 5,
+      "wickets": 2,
+      "economy": 10.46,
+      "bowlingAverage": 68.0,
+      "globalPercentile": 5
+    },
+    {
+      "id": "imran-tahir",
+      "name": "Imran Tahir",
+      "role": "SPIN_BOWLER",
+      "rating": 82,
+      "matches": 6,
+      "wickets": 9,
+      "economy": 8.45,
+      "bowlingAverage": 19.6,
+      "globalPercentile": 82
+    }
+  ],
+  "stats": {
+    "min": 48,
+    "max": 82,
+    "mean": 62.4
+  }
+}

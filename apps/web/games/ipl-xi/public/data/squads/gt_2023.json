@@ -1,0 +1,175 @@
+{
+  "teamId": "gt",
+  "year": "2023",
+  "label": "Gujarat Titans 2023",
+  "players": [
+    {
+      "id": "wp-saha",
+      "name": "WP Saha",
+      "role": "OPENER",
+      "rating": 62,
+      "matches": 17,
+      "runs": 371,
+      "average": 23.2,
+      "strikeRate": 130.2,
+      "globalPercentile": 25
+    },
+    {
+      "id": "shubman-gill",
+      "name": "Shubman Gill",
+      "role": "OPENER",
+      "rating": 94,
+      "matches": 17,
+      "runs": 890,
+      "average": 59.3,
+      "strikeRate": 158.9,
+      "globalPercentile": 99
+    },
+    {
+      "id": "b-sai-sudharsan",
+      "name": "B Sai Sudharsan",
+      "role": "MIDDLE_ORDER",
+      "rating": 89,
+      "matches": 8,
+      "runs": 362,
+      "average": 60.3,
+      "strikeRate": 143.1,
+      "globalPercentile": 90
+    },
+    {
+      "id": "hh-pandya",
+      "name": "HH Pandya",
+      "role": "MIDDLE_ORDER",
+      "rating": 71,
+      "matches": 15,
+      "runs": 346,
+      "average": 31.5,
+      "strikeRate": 137.8,
+      "wickets": 3,
+      "economy": 9.64,
+      "bowlingAverage": 80.3,
+      "globalPercentile": 49
+    },
+    {
+      "id": "v-shankar",
+      "name": "V Shankar",
+      "role": "MIDDLE_ORDER",
+      "rating": 85,
+      "matches": 10,
+      "runs": 301,
+      "average": 37.6,
+      "strikeRate": 161.0,
+      "globalPercentile": 84
+    },
+    {
+      "id": "rashid-khan",
+      "name": "Rashid Khan",
+      "role": "SPIN_BOWLER",
+      "rating": 84,
+      "matches": 17,
+      "runs": 130,
+      "average": 32.5,
+      "strikeRate": 216.7,
+      "wickets": 27,
+      "economy": 8.31,
+      "bowlingAverage": 20.6,
+      "globalPercentile": 88
+    },
+    {
+      "id": "mohammed-shami",
+      "name": "Mohammed Shami",
+      "role": "PACE_BOWLER",
+      "rating": 86,
+      "matches": 17,
+      "wickets": 28,
+      "economy": 8.18,
+      "bowlingAverage": 19.0,
+      "globalPercentile": 92
+    },
+    {
+      "id": "j-little",
+      "name": "J Little",
+      "role": "PACE_BOWLER",
+      "rating": 58,
+      "matches": 10,
+      "wickets": 7,
+      "economy": 8.71,
+      "bowlingAverage": 42.3,
+      "globalPercentile": 25
+    },
+    {
+      "id": "as-joseph",
+      "name": "AS Joseph",
+      "role": "PACE_BOWLER",
+      "rating": 64,
+      "matches": 7,
+      "wickets": 7,
+      "economy": 9.42,
+      "bowlingAverage": 32.3,
+      "globalPercentile": 38
+    },
+    {
+      "id": "yash-dayal",
+      "name": "Yash Dayal",
+      "role": "PACE_BOWLER",
+      "rating": 46,
+      "matches": 5,
+      "wickets": 2,
+      "economy": 11.79,
+      "bowlingAverage": 82.5,
+      "globalPercentile": 3
+    },
+    {
+      "id": "da-miller",
+      "name": "DA Miller",
+      "role": "ALL_ROUNDER",
+      "rating": 73,
+      "matches": 13,
+      "runs": 259,
+      "average": 32.4,
+      "strikeRate": 145.5,
+      "globalPercentile": 69
+    },
+    {
+      "id": "a-manohar",
+      "name": "A Manohar",
+      "role": "ALL_ROUNDER",
+      "rating": 62,
+      "matches": 6,
+      "runs": 114,
+      "average": 19.0,
+      "strikeRate": 137.3,
+      "globalPercentile": 36
+    },
+    {
+      "id": "mm-sharma",
+      "name": "MM Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 90,
+      "matches": 13,
+      "wickets": 27,
+      "economy": 8.24,
+      "bowlingAverage": 13.2,
+      "globalPercentile": 97
+    },
+    {
+      "id": "noor-ahmad",
+      "name": "Noor Ahmad",
+      "role": "SPIN_BOWLER",
+      "rating": 78,
+      "matches": 13,
+      "runs": 8,
+      "average": 4.0,
+      "strikeRate": 88.9,
+      "wickets": 16,
+      "economy": 7.95,
+      "bowlingAverage": 23.4,
+      "globalPercentile": 70
+    }
+  ],
+  "stats": {
+    "min": 46,
+    "max": 94,
+    "mean": 74.4
+  }
+}

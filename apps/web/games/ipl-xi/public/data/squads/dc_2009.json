@@ -1,0 +1,180 @@
+{
+  "teamId": "dc",
+  "year": "2009",
+  "label": "Delhi Capitals 2009",
+  "players": [
+    {
+      "id": "g-gambhir",
+      "name": "G Gambhir",
+      "role": "OPENER",
+      "rating": 54,
+      "matches": 15,
+      "runs": 286,
+      "average": 22.0,
+      "strikeRate": 103.6,
+      "globalPercentile": 11
+    },
+    {
+      "id": "v-sehwag",
+      "name": "V Sehwag",
+      "role": "MIDDLE_ORDER",
+      "rating": 65,
+      "matches": 11,
+      "runs": 198,
+      "average": 19.8,
+      "strikeRate": 147.8,
+      "globalPercentile": 35
+    },
+    {
+      "id": "dp-nannes",
+      "name": "DP Nannes",
+      "role": "PACE_BOWLER",
+      "rating": 76,
+      "matches": 13,
+      "wickets": 15,
+      "economy": 7.76,
+      "bowlingAverage": 25.6,
+      "globalPercentile": 75
+    },
+    {
+      "id": "am-salvi",
+      "name": "AM Salvi",
+      "role": "PACE_BOWLER",
+      "rating": 65,
+      "matches": 5,
+      "wickets": 4,
+      "economy": 8.12,
+      "bowlingAverage": 34.5,
+      "globalPercentile": 41
+    },
+    {
+      "id": "pj-sangwan",
+      "name": "PJ Sangwan",
+      "role": "PACE_BOWLER",
+      "rating": 76,
+      "matches": 13,
+      "runs": 6,
+      "average": 6.0,
+      "strikeRate": 60.0,
+      "wickets": 15,
+      "economy": 8.01,
+      "bowlingAverage": 24.9,
+      "globalPercentile": 75
+    },
+    {
+      "id": "dl-vettori",
+      "name": "DL Vettori",
+      "role": "PACE_BOWLER",
+      "rating": 73,
+      "matches": 7,
+      "runs": 34,
+      "average": 17.0,
+      "strikeRate": 109.7,
+      "wickets": 7,
+      "economy": 8.03,
+      "bowlingAverage": 26.6,
+      "globalPercentile": 67
+    },
+    {
+      "id": "ab-de-villiers",
+      "name": "AB de Villiers",
+      "role": "MIDDLE_ORDER",
+      "rating": 84,
+      "matches": 13,
+      "runs": 465,
+      "average": 51.7,
+      "strikeRate": 131.4,
+      "globalPercentile": 81
+    },
+    {
+      "id": "tm-dilshan",
+      "name": "TM Dilshan",
+      "role": "PACE_BOWLER",
+      "rating": 57,
+      "matches": 13,
+      "runs": 418,
+      "average": 41.8,
+      "strikeRate": 123.3,
+      "wickets": 0,
+      "economy": 6.19,
+      "globalPercentile": 23
+    },
+    {
+      "id": "kd-karthik",
+      "name": "KD Karthik",
+      "role": "ALL_ROUNDER",
+      "rating": 71,
+      "matches": 13,
+      "runs": 288,
+      "average": 36.0,
+      "strikeRate": 132.7,
+      "globalPercentile": 61
+    },
+    {
+      "id": "a-nehra",
+      "name": "A Nehra",
+      "role": "PACE_BOWLER",
+      "rating": 88,
+      "matches": 13,
+      "wickets": 19,
+      "economy": 6.94,
+      "bowlingAverage": 18.6,
+      "globalPercentile": 95
+    },
+    {
+      "id": "m-manhas",
+      "name": "M Manhas",
+      "role": "ALL_ROUNDER",
+      "rating": 56,
+      "matches": 6,
+      "runs": 75,
+      "average": 25.0,
+      "strikeRate": 121.0,
+      "globalPercentile": 23
+    },
+    {
+      "id": "a-mishra",
+      "name": "A Mishra",
+      "role": "SPIN_BOWLER",
+      "rating": 83,
+      "matches": 11,
+      "runs": 26,
+      "average": 13.0,
+      "strikeRate": 130.0,
+      "wickets": 14,
+      "economy": 7.11,
+      "bowlingAverage": 21.4,
+      "globalPercentile": 85
+    },
+    {
+      "id": "da-warner",
+      "name": "DA Warner",
+      "role": "OPENER",
+      "rating": 61,
+      "matches": 7,
+      "runs": 163,
+      "average": 23.3,
+      "strikeRate": 123.5,
+      "globalPercentile": 23
+    },
+    {
+      "id": "r-bhatia",
+      "name": "R Bhatia",
+      "role": "PACE_BOWLER",
+      "rating": 89,
+      "matches": 7,
+      "runs": 8,
+      "average": 1.6,
+      "strikeRate": 44.4,
+      "wickets": 10,
+      "economy": 7.06,
+      "bowlingAverage": 15.3,
+      "globalPercentile": 96
+    }
+  ],
+  "stats": {
+    "min": 54,
+    "max": 89,
+    "mean": 71.3
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "teamId": "rr",
+  "year": "2018",
+  "label": "Rajasthan Royals 2018",
+  "players": [
+    {
+      "id": "am-rahane",
+      "name": "AM Rahane",
+      "role": "OPENER",
+      "rating": 64,
+      "matches": 14,
+      "runs": 370,
+      "average": 28.5,
+      "strikeRate": 118.2,
+      "globalPercentile": 30
+    },
+    {
+      "id": "djm-short",
+      "name": "DJM Short",
+      "role": "OPENER",
+      "rating": 52,
+      "matches": 7,
+      "runs": 115,
+      "average": 16.4,
+      "strikeRate": 116.2,
+      "globalPercentile": 8
+    },
+    {
+      "id": "sv-samson",
+      "name": "SV Samson",
+      "role": "MIDDLE_ORDER",
+      "rating": 74,
+      "matches": 15,
+      "runs": 441,
+      "average": 31.5,
+      "strikeRate": 138.2,
+      "globalPercentile": 60
+    },
+    {
+      "id": "ba-stokes",
+      "name": "BA Stokes",
+      "role": "PACE_BOWLER",
+      "rating": 60,
+      "matches": 12,
+      "runs": 196,
+      "average": 16.3,
+      "strikeRate": 122.5,
+      "wickets": 8,
+      "economy": 8.3,
+      "bowlingAverage": 38.4,
+      "globalPercentile": 30
+    },
+    {
+      "id": "ra-tripathi",
+      "name": "RA Tripathi",
+      "role": "MIDDLE_ORDER",
+      "rating": 65,
+      "matches": 12,
+      "runs": 226,
+      "average": 25.1,
+      "strikeRate": 136.1,
+      "globalPercentile": 35
+    },
+    {
+      "id": "jc-buttler",
+      "name": "JC Buttler",
+      "role": "MIDDLE_ORDER",
+      "rating": 93,
+      "matches": 13,
+      "runs": 548,
+      "average": 54.8,
+      "strikeRate": 155.7,
+      "globalPercentile": 94
+    },
+    {
+      "id": "k-gowtham",
+      "name": "K Gowtham",
+      "role": "SPIN_BOWLER",
+      "rating": 67,
+      "matches": 15,
+      "runs": 126,
+      "average": 14.0,
+      "strikeRate": 196.9,
+      "wickets": 11,
+      "economy": 8.03,
+      "bowlingAverage": 29.2,
+      "globalPercentile": 38
+    },
+    {
+      "id": "s-gopal",
+      "name": "S Gopal",
+      "role": "SPIN_BOWLER",
+      "rating": 78,
+      "matches": 10,
+      "runs": 50,
+      "average": 25.0,
+      "strikeRate": 111.1,
+      "wickets": 11,
+      "economy": 7.71,
+      "bowlingAverage": 21.7,
+      "globalPercentile": 70
+    },
+    {
+      "id": "ds-kulkarni",
+      "name": "DS Kulkarni",
+      "role": "PACE_BOWLER",
+      "rating": 52,
+      "matches": 8,
+      "wickets": 4,
+      "economy": 9.53,
+      "bowlingAverage": 47.2,
+      "globalPercentile": 11
+    },
+    {
+      "id": "jd-unadkat",
+      "name": "JD Unadkat",
+      "role": "PACE_BOWLER",
+      "rating": 55,
+      "matches": 15,
+      "runs": 49,
+      "average": 12.2,
+      "strikeRate": 128.9,
+      "wickets": 11,
+      "economy": 9.66,
+      "bowlingAverage": 44.2,
+      "globalPercentile": 18
+    },
+    {
+      "id": "b-laughlin",
+      "name": "B Laughlin",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 7,
+      "wickets": 9,
+      "economy": 10.1,
+      "bowlingAverage": 23.6,
+      "globalPercentile": 61
+    },
+    {
+      "id": "str-binny",
+      "name": "STR Binny",
+      "role": "ALL_ROUNDER",
+      "rating": 45,
+      "matches": 5,
+      "runs": 44,
+      "average": 11.0,
+      "strikeRate": 112.8,
+      "globalPercentile": 3
+    },
+    {
+      "id": "jc-archer",
+      "name": "JC Archer",
+      "role": "PACE_BOWLER",
+      "rating": 81,
+      "matches": 10,
+      "runs": 15,
+      "average": 3.0,
+      "strikeRate": 78.9,
+      "wickets": 15,
+      "economy": 8.47,
+      "bowlingAverage": 21.9,
+      "globalPercentile": 86
+    },
+    {
+      "id": "is-sodhi",
+      "name": "IS Sodhi",
+      "role": "PACE_BOWLER",
+      "rating": 77,
+      "matches": 6,
+      "wickets": 5,
+      "economy": 5.96,
+      "bowlingAverage": 27.4,
+      "globalPercentile": 78
+    }
+  ],
+  "stats": {
+    "min": 45,
+    "max": 93,
+    "mean": 66.7
+  }
+}

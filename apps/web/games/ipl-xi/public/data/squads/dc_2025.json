@@ -1,0 +1,170 @@
+{
+  "teamId": "dc",
+  "year": "2025",
+  "label": "Delhi Capitals 2025",
+  "players": [
+    {
+      "id": "j-fraser-mcgurk",
+      "name": "J Fraser-McGurk",
+      "role": "OPENER",
+      "rating": 43,
+      "matches": 6,
+      "runs": 55,
+      "average": 9.2,
+      "strikeRate": 105.8,
+      "globalPercentile": 1
+    },
+    {
+      "id": "f-du-plessis",
+      "name": "F du Plessis",
+      "role": "OPENER",
+      "rating": 61,
+      "matches": 9,
+      "runs": 202,
+      "average": 22.4,
+      "strikeRate": 125.5,
+      "globalPercentile": 23
+    },
+    {
+      "id": "abishek-porel",
+      "name": "Abishek Porel",
+      "role": "OPENER",
+      "rating": 67,
+      "matches": 13,
+      "runs": 301,
+      "average": 25.1,
+      "strikeRate": 146.8,
+      "globalPercentile": 41
+    },
+    {
+      "id": "ar-patel",
+      "name": "AR Patel",
+      "role": "SPIN_BOWLER",
+      "rating": 54,
+      "matches": 12,
+      "runs": 263,
+      "average": 26.3,
+      "strikeRate": 157.5,
+      "wickets": 5,
+      "economy": 8.72,
+      "bowlingAverage": 62.8,
+      "globalPercentile": 4
+    },
+    {
+      "id": "t-stubbs",
+      "name": "T Stubbs",
+      "role": "ALL_ROUNDER",
+      "rating": 81,
+      "matches": 13,
+      "runs": 306,
+      "average": 51.0,
+      "strikeRate": 153.0,
+      "globalPercentile": 86
+    },
+    {
+      "id": "v-nigam",
+      "name": "V Nigam",
+      "role": "SPIN_BOWLER",
+      "rating": 63,
+      "matches": 13,
+      "runs": 142,
+      "average": 28.4,
+      "strikeRate": 182.1,
+      "wickets": 11,
+      "economy": 9.26,
+      "bowlingAverage": 32.8,
+      "globalPercentile": 27
+    },
+    {
+      "id": "ma-starc",
+      "name": "MA Starc",
+      "role": "PACE_BOWLER",
+      "rating": 66,
+      "matches": 11,
+      "runs": 6,
+      "average": 3.0,
+      "strikeRate": 60.0,
+      "wickets": 14,
+      "economy": 10.64,
+      "bowlingAverage": 29.5,
+      "globalPercentile": 45
+    },
+    {
+      "id": "kuldeep-yadav",
+      "name": "Kuldeep Yadav",
+      "role": "SPIN_BOWLER",
+      "rating": 76,
+      "matches": 14,
+      "runs": 18,
+      "average": 6.0,
+      "strikeRate": 112.5,
+      "wickets": 15,
+      "economy": 7.4,
+      "bowlingAverage": 26.1,
+      "globalPercentile": 64
+    },
+    {
+      "id": "mm-sharma",
+      "name": "MM Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 46,
+      "matches": 8,
+      "wickets": 2,
+      "economy": 10.36,
+      "bowlingAverage": 129.5,
+      "globalPercentile": 3
+    },
+    {
+      "id": "mukesh-kumar",
+      "name": "Mukesh Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 60,
+      "matches": 12,
+      "wickets": 12,
+      "economy": 10.41,
+      "bowlingAverage": 34.2,
+      "globalPercentile": 30
+    },
+    {
+      "id": "kl-rahul",
+      "name": "KL Rahul",
+      "role": "MIDDLE_ORDER",
+      "rating": 92,
+      "matches": 13,
+      "runs": 546,
+      "average": 60.7,
+      "strikeRate": 150.4,
+      "globalPercentile": 93
+    },
+    {
+      "id": "kk-nair",
+      "name": "KK Nair",
+      "role": "OPENER",
+      "rating": 76,
+      "matches": 8,
+      "runs": 198,
+      "average": 28.3,
+      "strikeRate": 173.7,
+      "globalPercentile": 68
+    },
+    {
+      "id": "pvd-chameera",
+      "name": "PVD Chameera",
+      "role": "PACE_BOWLER",
+      "rating": 50,
+      "matches": 6,
+      "runs": 10,
+      "average": 10,
+      "strikeRate": 71.4,
+      "wickets": 4,
+      "economy": 11.65,
+      "bowlingAverage": 49.5,
+      "globalPercentile": 8
+    }
+  ],
+  "stats": {
+    "min": 43,
+    "max": 92,
+    "mean": 64.2
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "teamId": "pbks",
+  "year": "2014",
+  "label": "Punjab Kings 2014",
+  "players": [
+    {
+      "id": "ca-pujara",
+      "name": "CA Pujara",
+      "role": "OPENER",
+      "rating": 59,
+      "matches": 6,
+      "runs": 125,
+      "average": 31.2,
+      "strikeRate": 101.6,
+      "globalPercentile": 19
+    },
+    {
+      "id": "v-sehwag",
+      "name": "V Sehwag",
+      "role": "OPENER",
+      "rating": 69,
+      "matches": 17,
+      "runs": 455,
+      "average": 26.8,
+      "strikeRate": 144.9,
+      "globalPercentile": 47
+    },
+    {
+      "id": "gj-maxwell",
+      "name": "GJ Maxwell",
+      "role": "PACE_BOWLER",
+      "rating": 42,
+      "matches": 16,
+      "runs": 552,
+      "average": 34.5,
+      "strikeRate": 189.7,
+      "wickets": 1,
+      "economy": 12.09,
+      "bowlingAverage": 133.0,
+      "globalPercentile": 1
+    },
+    {
+      "id": "ar-patel",
+      "name": "AR Patel",
+      "role": "SPIN_BOWLER",
+      "rating": 79,
+      "matches": 17,
+      "runs": 62,
+      "average": 12.4,
+      "strikeRate": 103.3,
+      "wickets": 17,
+      "economy": 6.42,
+      "bowlingAverage": 24.9,
+      "globalPercentile": 73
+    },
+    {
+      "id": "da-miller",
+      "name": "DA Miller",
+      "role": "ALL_ROUNDER",
+      "rating": 83,
+      "matches": 16,
+      "runs": 446,
+      "average": 49.6,
+      "strikeRate": 149.2,
+      "globalPercentile": 89
+    },
+    {
+      "id": "gj-bailey",
+      "name": "GJ Bailey",
+      "role": "ALL_ROUNDER",
+      "rating": 65,
+      "matches": 16,
+      "runs": 257,
+      "average": 28.6,
+      "strikeRate": 136.7,
+      "globalPercentile": 46
+    },
+    {
+      "id": "p-awana",
+      "name": "P Awana",
+      "role": "PACE_BOWLER",
+      "rating": 59,
+      "matches": 7,
+      "wickets": 7,
+      "economy": 10.55,
+      "bowlingAverage": 35.4,
+      "globalPercentile": 28
+    },
+    {
+      "id": "mg-johnson",
+      "name": "MG Johnson",
+      "role": "PACE_BOWLER",
+      "rating": 74,
+      "matches": 14,
+      "runs": 56,
+      "average": 18.7,
+      "strikeRate": 112.0,
+      "wickets": 17,
+      "economy": 8.41,
+      "bowlingAverage": 26.5,
+      "globalPercentile": 69
+    },
+    {
+      "id": "l-balaji",
+      "name": "L Balaji",
+      "role": "PACE_BOWLER",
+      "rating": 75,
+      "matches": 9,
+      "wickets": 12,
+      "economy": 8.97,
+      "bowlingAverage": 25.4,
+      "globalPercentile": 72
+    },
+    {
+      "id": "r-dhawan",
+      "name": "R Dhawan",
+      "role": "PACE_BOWLER",
+      "rating": 72,
+      "matches": 13,
+      "runs": 82,
+      "average": 41.0,
+      "strikeRate": 109.3,
+      "wickets": 13,
+      "economy": 7.88,
+      "bowlingAverage": 28.7,
+      "globalPercentile": 64
+    },
+    {
+      "id": "wp-saha",
+      "name": "WP Saha",
+      "role": "MIDDLE_ORDER",
+      "rating": 76,
+      "matches": 13,
+      "runs": 362,
+      "average": 32.9,
+      "strikeRate": 145.4,
+      "globalPercentile": 64
+    },
+    {
+      "id": "sandeep-sharma",
+      "name": "Sandeep Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 83,
+      "matches": 11,
+      "wickets": 18,
+      "economy": 8.91,
+      "bowlingAverage": 19.9,
+      "globalPercentile": 89
+    },
+    {
+      "id": "m-vohra",
+      "name": "M Vohra",
+      "role": "OPENER",
+      "rating": 85,
+      "matches": 8,
+      "runs": 324,
+      "average": 46.3,
+      "strikeRate": 139.7,
+      "globalPercentile": 85
+    },
+    {
+      "id": "karanveer-singh",
+      "name": "Karanveer Singh",
+      "role": "SPIN_BOWLER",
+      "rating": 90,
+      "matches": 5,
+      "wickets": 11,
+      "economy": 8.2,
+      "bowlingAverage": 14.9,
+      "globalPercentile": 98
+    }
+  ],
+  "stats": {
+    "min": 42,
+    "max": 90,
+    "mean": 72.2
+  }
+}

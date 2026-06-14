@@ -1,0 +1,159 @@
+{
+  "teamId": "kkr",
+  "year": "2019",
+  "label": "Kolkata Knight Riders 2019",
+  "players": [
+    {
+      "id": "ca-lynn",
+      "name": "CA Lynn",
+      "role": "OPENER",
+      "rating": 73,
+      "matches": 13,
+      "runs": 405,
+      "average": 31.2,
+      "strikeRate": 140.6,
+      "globalPercentile": 59
+    },
+    {
+      "id": "n-rana",
+      "name": "N Rana",
+      "role": "PACE_BOWLER",
+      "rating": 63,
+      "matches": 11,
+      "runs": 344,
+      "average": 34.4,
+      "strikeRate": 146.4,
+      "wickets": 3,
+      "economy": 9.12,
+      "bowlingAverage": 24.3,
+      "globalPercentile": 37
+    },
+    {
+      "id": "rv-uthappa",
+      "name": "RV Uthappa",
+      "role": "MIDDLE_ORDER",
+      "rating": 64,
+      "matches": 11,
+      "runs": 284,
+      "average": 31.6,
+      "strikeRate": 115.0,
+      "globalPercentile": 30
+    },
+    {
+      "id": "kd-karthik",
+      "name": "KD Karthik",
+      "role": "ALL_ROUNDER",
+      "rating": 72,
+      "matches": 12,
+      "runs": 254,
+      "average": 31.8,
+      "strikeRate": 146.8,
+      "globalPercentile": 65
+    },
+    {
+      "id": "ad-russell",
+      "name": "AD Russell",
+      "role": "PACE_BOWLER",
+      "rating": 66,
+      "matches": 13,
+      "runs": 514,
+      "average": 51.4,
+      "strikeRate": 206.4,
+      "wickets": 11,
+      "economy": 9.55,
+      "bowlingAverage": 26.2,
+      "globalPercentile": 45
+    },
+    {
+      "id": "shubman-gill",
+      "name": "Shubman Gill",
+      "role": "MIDDLE_ORDER",
+      "rating": 67,
+      "matches": 13,
+      "runs": 296,
+      "average": 32.9,
+      "strikeRate": 124.9,
+      "globalPercentile": 41
+    },
+    {
+      "id": "m-prasidh-krishna",
+      "name": "M Prasidh Krishna",
+      "role": "PACE_BOWLER",
+      "rating": 52,
+      "matches": 11,
+      "wickets": 5,
+      "economy": 9.53,
+      "bowlingAverage": 78.8,
+      "globalPercentile": 11
+    },
+    {
+      "id": "pp-chawla",
+      "name": "PP Chawla",
+      "role": "SPIN_BOWLER",
+      "rating": 58,
+      "matches": 13,
+      "runs": 42,
+      "average": 14.0,
+      "strikeRate": 113.5,
+      "wickets": 10,
+      "economy": 9.1,
+      "bowlingAverage": 40.5,
+      "globalPercentile": 13
+    },
+    {
+      "id": "lh-ferguson",
+      "name": "LH Ferguson",
+      "role": "PACE_BOWLER",
+      "rating": 46,
+      "matches": 5,
+      "wickets": 2,
+      "economy": 10.88,
+      "bowlingAverage": 92.5,
+      "globalPercentile": 3
+    },
+    {
+      "id": "sp-narine",
+      "name": "SP Narine",
+      "role": "SPIN_BOWLER",
+      "rating": 65,
+      "matches": 12,
+      "runs": 143,
+      "average": 20.4,
+      "strikeRate": 168.2,
+      "wickets": 10,
+      "economy": 7.96,
+      "bowlingAverage": 35.3,
+      "globalPercentile": 33
+    },
+    {
+      "id": "kuldeep-yadav",
+      "name": "Kuldeep Yadav",
+      "role": "SPIN_BOWLER",
+      "rating": 55,
+      "matches": 9,
+      "runs": 12,
+      "average": 12.0,
+      "strikeRate": 150.0,
+      "wickets": 4,
+      "economy": 8.67,
+      "bowlingAverage": 71.5,
+      "globalPercentile": 6
+    },
+    {
+      "id": "hf-gurney",
+      "name": "HF Gurney",
+      "role": "PACE_BOWLER",
+      "rating": 64,
+      "matches": 8,
+      "wickets": 7,
+      "economy": 8.85,
+      "bowlingAverage": 34.1,
+      "globalPercentile": 38
+    }
+  ],
+  "stats": {
+    "min": 46,
+    "max": 73,
+    "mean": 62.1
+  }
+}

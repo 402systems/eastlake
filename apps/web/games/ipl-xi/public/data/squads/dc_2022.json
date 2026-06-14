@@ -1,0 +1,170 @@
+{
+  "teamId": "dc",
+  "year": "2022",
+  "label": "Delhi Capitals 2022",
+  "players": [
+    {
+      "id": "pp-shaw",
+      "name": "PP Shaw",
+      "role": "OPENER",
+      "rating": 73,
+      "matches": 10,
+      "runs": 283,
+      "average": 28.3,
+      "strikeRate": 153.8,
+      "globalPercentile": 59
+    },
+    {
+      "id": "rr-pant",
+      "name": "RR Pant",
+      "role": "MIDDLE_ORDER",
+      "rating": 77,
+      "matches": 13,
+      "runs": 340,
+      "average": 30.9,
+      "strikeRate": 153.2,
+      "globalPercentile": 66
+    },
+    {
+      "id": "lalit-yadav",
+      "name": "Lalit Yadav",
+      "role": "PACE_BOWLER",
+      "rating": 57,
+      "matches": 8,
+      "runs": 161,
+      "average": 26.8,
+      "strikeRate": 111.8,
+      "wickets": 4,
+      "economy": 8.44,
+      "bowlingAverage": 38.0,
+      "globalPercentile": 23
+    },
+    {
+      "id": "r-powell",
+      "name": "R Powell",
+      "role": "ALL_ROUNDER",
+      "rating": 71,
+      "matches": 12,
+      "runs": 250,
+      "average": 25.0,
+      "strikeRate": 149.7,
+      "globalPercentile": 61
+    },
+    {
+      "id": "sn-thakur",
+      "name": "SN Thakur",
+      "role": "PACE_BOWLER",
+      "rating": 63,
+      "matches": 14,
+      "runs": 120,
+      "average": 15.0,
+      "strikeRate": 137.9,
+      "wickets": 15,
+      "economy": 10.03,
+      "bowlingAverage": 32.3,
+      "globalPercentile": 37
+    },
+    {
+      "id": "ar-patel",
+      "name": "AR Patel",
+      "role": "SPIN_BOWLER",
+      "rating": 59,
+      "matches": 13,
+      "runs": 182,
+      "average": 60.7,
+      "strikeRate": 151.7,
+      "wickets": 6,
+      "economy": 7.51,
+      "bowlingAverage": 53.8,
+      "globalPercentile": 16
+    },
+    {
+      "id": "kk-ahmed",
+      "name": "KK Ahmed",
+      "role": "PACE_BOWLER",
+      "rating": 85,
+      "matches": 10,
+      "wickets": 16,
+      "economy": 8.04,
+      "bowlingAverage": 19.7,
+      "globalPercentile": 92
+    },
+    {
+      "id": "kuldeep-yadav",
+      "name": "Kuldeep Yadav",
+      "role": "SPIN_BOWLER",
+      "rating": 82,
+      "matches": 14,
+      "runs": 48,
+      "average": 48.0,
+      "strikeRate": 92.3,
+      "wickets": 21,
+      "economy": 8.46,
+      "bowlingAverage": 20.0,
+      "globalPercentile": 82
+    },
+    {
+      "id": "mustafizur-rahman",
+      "name": "Mustafizur Rahman",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 8,
+      "wickets": 8,
+      "economy": 7.75,
+      "bowlingAverage": 31.0,
+      "globalPercentile": 61
+    },
+    {
+      "id": "da-warner",
+      "name": "DA Warner",
+      "role": "OPENER",
+      "rating": 86,
+      "matches": 12,
+      "runs": 432,
+      "average": 48.0,
+      "strikeRate": 151.6,
+      "globalPercentile": 86
+    },
+    {
+      "id": "sn-khan",
+      "name": "SN Khan",
+      "role": "MIDDLE_ORDER",
+      "rating": 67,
+      "matches": 5,
+      "runs": 91,
+      "average": 30.3,
+      "strikeRate": 135.8,
+      "globalPercentile": 41
+    },
+    {
+      "id": "a-nortje",
+      "name": "A Nortje",
+      "role": "PACE_BOWLER",
+      "rating": 75,
+      "matches": 6,
+      "wickets": 9,
+      "economy": 9.81,
+      "bowlingAverage": 24.3,
+      "globalPercentile": 72
+    },
+    {
+      "id": "mr-marsh",
+      "name": "MR Marsh",
+      "role": "PACE_BOWLER",
+      "rating": 72,
+      "matches": 8,
+      "runs": 251,
+      "average": 35.9,
+      "strikeRate": 132.8,
+      "wickets": 4,
+      "economy": 8.5,
+      "bowlingAverage": 25.5,
+      "globalPercentile": 64
+    }
+  ],
+  "stats": {
+    "min": 57,
+    "max": 86,
+    "mean": 72.2
+  }
+}

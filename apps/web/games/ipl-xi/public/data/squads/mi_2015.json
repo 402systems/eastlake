@@ -1,0 +1,159 @@
+{
+  "teamId": "mi",
+  "year": "2015",
+  "label": "Mumbai Indians 2015",
+  "players": [
+    {
+      "id": "rg-sharma",
+      "name": "RG Sharma",
+      "role": "MIDDLE_ORDER",
+      "rating": 78,
+      "matches": 16,
+      "runs": 482,
+      "average": 34.4,
+      "strikeRate": 144.7,
+      "globalPercentile": 69
+    },
+    {
+      "id": "at-rayudu",
+      "name": "AT Rayudu",
+      "role": "ALL_ROUNDER",
+      "rating": 72,
+      "matches": 14,
+      "runs": 281,
+      "average": 31.2,
+      "strikeRate": 146.4,
+      "globalPercentile": 65
+    },
+    {
+      "id": "sl-malinga",
+      "name": "SL Malinga",
+      "role": "PACE_BOWLER",
+      "rating": 87,
+      "matches": 15,
+      "wickets": 24,
+      "economy": 7.55,
+      "bowlingAverage": 18.9,
+      "globalPercentile": 94
+    },
+    {
+      "id": "r-vinay-kumar",
+      "name": "R Vinay Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 56,
+      "matches": 13,
+      "wickets": 7,
+      "economy": 8.53,
+      "bowlingAverage": 53.0,
+      "globalPercentile": 20
+    },
+    {
+      "id": "harbhajan-singh",
+      "name": "Harbhajan Singh",
+      "role": "SPIN_BOWLER",
+      "rating": 77,
+      "matches": 15,
+      "runs": 117,
+      "average": 16.7,
+      "strikeRate": 162.5,
+      "wickets": 18,
+      "economy": 7.86,
+      "bowlingAverage": 24.9,
+      "globalPercentile": 67
+    },
+    {
+      "id": "ka-pollard",
+      "name": "KA Pollard",
+      "role": "PACE_BOWLER",
+      "rating": 50,
+      "matches": 14,
+      "runs": 419,
+      "average": 41.9,
+      "strikeRate": 164.3,
+      "wickets": 3,
+      "economy": 9.55,
+      "bowlingAverage": 40.3,
+      "globalPercentile": 8
+    },
+    {
+      "id": "j-suchith",
+      "name": "J Suchith",
+      "role": "SPIN_BOWLER",
+      "rating": 64,
+      "matches": 12,
+      "runs": 48,
+      "average": 48.0,
+      "strikeRate": 150.0,
+      "wickets": 10,
+      "economy": 8.67,
+      "bowlingAverage": 33.8,
+      "globalPercentile": 29
+    },
+    {
+      "id": "pa-patel",
+      "name": "PA Patel",
+      "role": "OPENER",
+      "rating": 67,
+      "matches": 14,
+      "runs": 339,
+      "average": 28.2,
+      "strikeRate": 137.8,
+      "globalPercentile": 41
+    },
+    {
+      "id": "ubt-chand",
+      "name": "UBT Chand",
+      "role": "MIDDLE_ORDER",
+      "rating": 59,
+      "matches": 5,
+      "runs": 102,
+      "average": 20.4,
+      "strikeRate": 122.9,
+      "globalPercentile": 18
+    },
+    {
+      "id": "lmp-simmons",
+      "name": "LMP Simmons",
+      "role": "OPENER",
+      "rating": 81,
+      "matches": 13,
+      "runs": 540,
+      "average": 45.0,
+      "strikeRate": 123.3,
+      "globalPercentile": 78
+    },
+    {
+      "id": "hh-pandya",
+      "name": "HH Pandya",
+      "role": "ALL_ROUNDER",
+      "rating": 66,
+      "matches": 8,
+      "runs": 112,
+      "average": 22.4,
+      "strikeRate": 186.7,
+      "wickets": 1,
+      "economy": 10.47,
+      "bowlingAverage": 178.0,
+      "globalPercentile": 50
+    },
+    {
+      "id": "mj-mcclenaghan",
+      "name": "MJ McClenaghan",
+      "role": "PACE_BOWLER",
+      "rating": 81,
+      "matches": 12,
+      "runs": 13,
+      "average": 13.0,
+      "strikeRate": 216.7,
+      "wickets": 18,
+      "economy": 8.4,
+      "bowlingAverage": 21.9,
+      "globalPercentile": 86
+    }
+  ],
+  "stats": {
+    "min": 50,
+    "max": 87,
+    "mean": 69.8
+  }
+}

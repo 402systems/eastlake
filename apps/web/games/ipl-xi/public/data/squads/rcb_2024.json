@@ -1,0 +1,170 @@
+{
+  "teamId": "rcb",
+  "year": "2024",
+  "label": "Royal Challengers Bangalore 2024",
+  "players": [
+    {
+      "id": "v-kohli",
+      "name": "V Kohli",
+      "role": "OPENER",
+      "rating": 93,
+      "matches": 15,
+      "runs": 741,
+      "average": 61.8,
+      "strikeRate": 154.7,
+      "globalPercentile": 97
+    },
+    {
+      "id": "f-du-plessis",
+      "name": "F du Plessis",
+      "role": "OPENER",
+      "rating": 77,
+      "matches": 15,
+      "runs": 438,
+      "average": 31.3,
+      "strikeRate": 161.6,
+      "globalPercentile": 70
+    },
+    {
+      "id": "rm-patidar",
+      "name": "RM Patidar",
+      "role": "MIDDLE_ORDER",
+      "rating": 84,
+      "matches": 13,
+      "runs": 395,
+      "average": 30.4,
+      "strikeRate": 177.1,
+      "globalPercentile": 81
+    },
+    {
+      "id": "gj-maxwell",
+      "name": "GJ Maxwell",
+      "role": "PACE_BOWLER",
+      "rating": 75,
+      "matches": 9,
+      "runs": 52,
+      "average": 5.8,
+      "strikeRate": 120.9,
+      "wickets": 6,
+      "economy": 8.06,
+      "bowlingAverage": 21.5,
+      "globalPercentile": 72
+    },
+    {
+      "id": "c-green",
+      "name": "C Green",
+      "role": "PACE_BOWLER",
+      "rating": 65,
+      "matches": 13,
+      "runs": 255,
+      "average": 31.9,
+      "strikeRate": 143.3,
+      "wickets": 10,
+      "economy": 8.67,
+      "bowlingAverage": 30.5,
+      "globalPercentile": 41
+    },
+    {
+      "id": "anuj-rawat",
+      "name": "Anuj Rawat",
+      "role": "ALL_ROUNDER",
+      "rating": 66,
+      "matches": 5,
+      "runs": 98,
+      "average": 32.7,
+      "strikeRate": 127.3,
+      "globalPercentile": 50
+    },
+    {
+      "id": "mohammed-siraj",
+      "name": "Mohammed Siraj",
+      "role": "PACE_BOWLER",
+      "rating": 65,
+      "matches": 14,
+      "wickets": 15,
+      "economy": 9.39,
+      "bowlingAverage": 33.8,
+      "globalPercentile": 41
+    },
+    {
+      "id": "yash-dayal",
+      "name": "Yash Dayal",
+      "role": "PACE_BOWLER",
+      "rating": 66,
+      "matches": 14,
+      "wickets": 15,
+      "economy": 9.41,
+      "bowlingAverage": 31.5,
+      "globalPercentile": 45
+    },
+    {
+      "id": "kv-sharma",
+      "name": "KV Sharma",
+      "role": "SPIN_BOWLER",
+      "rating": 54,
+      "matches": 9,
+      "runs": 31,
+      "average": 15.5,
+      "strikeRate": 206.7,
+      "wickets": 7,
+      "economy": 10.67,
+      "bowlingAverage": 36.6,
+      "globalPercentile": 4
+    },
+    {
+      "id": "mayank-dagar",
+      "name": "Mayank Dagar",
+      "role": "PACE_BOWLER",
+      "rating": 45,
+      "matches": 5,
+      "wickets": 1,
+      "economy": 10.31,
+      "bowlingAverage": 122.0,
+      "globalPercentile": 2
+    },
+    {
+      "id": "wg-jacks",
+      "name": "WG Jacks",
+      "role": "PACE_BOWLER",
+      "rating": 46,
+      "matches": 8,
+      "runs": 230,
+      "average": 38.3,
+      "strikeRate": 176.9,
+      "wickets": 2,
+      "economy": 11.11,
+      "bowlingAverage": 50.0,
+      "globalPercentile": 3
+    },
+    {
+      "id": "lh-ferguson",
+      "name": "LH Ferguson",
+      "role": "PACE_BOWLER",
+      "rating": 66,
+      "matches": 7,
+      "wickets": 9,
+      "economy": 10.83,
+      "bowlingAverage": 28.9,
+      "globalPercentile": 45
+    },
+    {
+      "id": "swapnil-singh",
+      "name": "Swapnil Singh",
+      "role": "PACE_BOWLER",
+      "rating": 70,
+      "matches": 7,
+      "runs": 37,
+      "average": 18.5,
+      "strikeRate": 176.2,
+      "wickets": 6,
+      "economy": 8.87,
+      "bowlingAverage": 22.2,
+      "globalPercentile": 58
+    }
+  ],
+  "stats": {
+    "min": 45,
+    "max": 93,
+    "mean": 67.1
+  }
+}

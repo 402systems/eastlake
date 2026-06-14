@@ -1,0 +1,162 @@
+{
+  "teamId": "kkr",
+  "year": "2018",
+  "label": "Kolkata Knight Riders 2018",
+  "players": [
+    {
+      "id": "sp-narine",
+      "name": "SP Narine",
+      "role": "SPIN_BOWLER",
+      "rating": 74,
+      "matches": 16,
+      "runs": 357,
+      "average": 22.3,
+      "strikeRate": 189.9,
+      "wickets": 17,
+      "economy": 7.75,
+      "bowlingAverage": 27.8,
+      "globalPercentile": 57
+    },
+    {
+      "id": "ca-lynn",
+      "name": "CA Lynn",
+      "role": "OPENER",
+      "rating": 72,
+      "matches": 16,
+      "runs": 491,
+      "average": 35.1,
+      "strikeRate": 130.2,
+      "globalPercentile": 55
+    },
+    {
+      "id": "rv-uthappa",
+      "name": "RV Uthappa",
+      "role": "MIDDLE_ORDER",
+      "rating": 64,
+      "matches": 16,
+      "runs": 351,
+      "average": 21.9,
+      "strikeRate": 133.0,
+      "globalPercentile": 30
+    },
+    {
+      "id": "n-rana",
+      "name": "N Rana",
+      "role": "MIDDLE_ORDER",
+      "rating": 62,
+      "matches": 15,
+      "runs": 304,
+      "average": 21.7,
+      "strikeRate": 131.0,
+      "wickets": 4,
+      "economy": 7.33,
+      "bowlingAverage": 11.0,
+      "globalPercentile": 25
+    },
+    {
+      "id": "kd-karthik",
+      "name": "KD Karthik",
+      "role": "ALL_ROUNDER",
+      "rating": 85,
+      "matches": 16,
+      "runs": 498,
+      "average": 55.3,
+      "strikeRate": 148.2,
+      "globalPercentile": 92
+    },
+    {
+      "id": "ad-russell",
+      "name": "AD Russell",
+      "role": "PACE_BOWLER",
+      "rating": 65,
+      "matches": 15,
+      "runs": 316,
+      "average": 28.7,
+      "strikeRate": 185.9,
+      "wickets": 13,
+      "economy": 9.52,
+      "bowlingAverage": 27.7,
+      "globalPercentile": 41
+    },
+    {
+      "id": "pp-chawla",
+      "name": "PP Chawla",
+      "role": "SPIN_BOWLER",
+      "rating": 68,
+      "matches": 15,
+      "runs": 27,
+      "average": 6.8,
+      "strikeRate": 79.4,
+      "wickets": 14,
+      "economy": 8.55,
+      "bowlingAverage": 29.9,
+      "globalPercentile": 41
+    },
+    {
+      "id": "kuldeep-yadav",
+      "name": "Kuldeep Yadav",
+      "role": "SPIN_BOWLER",
+      "rating": 74,
+      "matches": 16,
+      "runs": 12,
+      "average": 12.0,
+      "strikeRate": 50.0,
+      "wickets": 17,
+      "economy": 8.24,
+      "bowlingAverage": 24.9,
+      "globalPercentile": 57
+    },
+    {
+      "id": "mg-johnson",
+      "name": "MG Johnson",
+      "role": "PACE_BOWLER",
+      "rating": 47,
+      "matches": 6,
+      "wickets": 2,
+      "economy": 10.38,
+      "bowlingAverage": 109.0,
+      "globalPercentile": 4
+    },
+    {
+      "id": "shubman-gill",
+      "name": "Shubman Gill",
+      "role": "ALL_ROUNDER",
+      "rating": 77,
+      "matches": 10,
+      "runs": 203,
+      "average": 40.6,
+      "strikeRate": 146.0,
+      "globalPercentile": 78
+    },
+    {
+      "id": "shivam-mavi",
+      "name": "Shivam Mavi",
+      "role": "PACE_BOWLER",
+      "rating": 52,
+      "matches": 9,
+      "runs": 13,
+      "average": 4.3,
+      "strikeRate": 86.7,
+      "wickets": 5,
+      "economy": 9.75,
+      "bowlingAverage": 54.6,
+      "globalPercentile": 11
+    },
+    {
+      "id": "m-prasidh-krishna",
+      "name": "M Prasidh Krishna",
+      "role": "PACE_BOWLER",
+      "rating": 75,
+      "matches": 7,
+      "wickets": 10,
+      "economy": 9.32,
+      "bowlingAverage": 26.1,
+      "globalPercentile": 72
+    }
+  ],
+  "stats": {
+    "min": 47,
+    "max": 85,
+    "mean": 67.9
+  }
+}

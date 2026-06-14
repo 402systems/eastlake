@@ -1,0 +1,170 @@
+{
+  "teamId": "dc",
+  "year": "2020",
+  "label": "Delhi Capitals 2020",
+  "players": [
+    {
+      "id": "pp-shaw",
+      "name": "PP Shaw",
+      "role": "OPENER",
+      "rating": 58,
+      "matches": 13,
+      "runs": 228,
+      "average": 17.5,
+      "strikeRate": 136.5,
+      "globalPercentile": 16
+    },
+    {
+      "id": "s-dhawan",
+      "name": "S Dhawan",
+      "role": "OPENER",
+      "rating": 83,
+      "matches": 17,
+      "runs": 618,
+      "average": 44.1,
+      "strikeRate": 145.4,
+      "globalPercentile": 82
+    },
+    {
+      "id": "so-hetmyer",
+      "name": "SO Hetmyer",
+      "role": "ALL_ROUNDER",
+      "rating": 67,
+      "matches": 11,
+      "runs": 185,
+      "average": 23.1,
+      "strikeRate": 149.2,
+      "globalPercentile": 53
+    },
+    {
+      "id": "ss-iyer",
+      "name": "SS Iyer",
+      "role": "MIDDLE_ORDER",
+      "rating": 71,
+      "matches": 17,
+      "runs": 519,
+      "average": 34.6,
+      "strikeRate": 123.9,
+      "globalPercentile": 49
+    },
+    {
+      "id": "rr-pant",
+      "name": "RR Pant",
+      "role": "MIDDLE_ORDER",
+      "rating": 65,
+      "matches": 14,
+      "runs": 345,
+      "average": 34.5,
+      "strikeRate": 115.0,
+      "globalPercentile": 35
+    },
+    {
+      "id": "ar-patel",
+      "name": "AR Patel",
+      "role": "SPIN_BOWLER",
+      "rating": 67,
+      "matches": 15,
+      "runs": 117,
+      "average": 14.6,
+      "strikeRate": 141.0,
+      "wickets": 9,
+      "economy": 6.45,
+      "bowlingAverage": 36.6,
+      "globalPercentile": 38
+    },
+    {
+      "id": "mp-stoinis",
+      "name": "MP Stoinis",
+      "role": "PACE_BOWLER",
+      "rating": 70,
+      "matches": 17,
+      "runs": 352,
+      "average": 25.1,
+      "strikeRate": 149.8,
+      "wickets": 13,
+      "economy": 9.67,
+      "bowlingAverage": 22.1,
+      "globalPercentile": 58
+    },
+    {
+      "id": "r-ashwin",
+      "name": "R Ashwin",
+      "role": "SPIN_BOWLER",
+      "rating": 70,
+      "matches": 15,
+      "runs": 37,
+      "average": 12.3,
+      "strikeRate": 108.8,
+      "wickets": 13,
+      "economy": 7.71,
+      "bowlingAverage": 30.2,
+      "globalPercentile": 46
+    },
+    {
+      "id": "a-nortje",
+      "name": "A Nortje",
+      "role": "PACE_BOWLER",
+      "rating": 77,
+      "matches": 16,
+      "runs": 7,
+      "average": 7.0,
+      "strikeRate": 116.7,
+      "wickets": 22,
+      "economy": 8.67,
+      "bowlingAverage": 24.0,
+      "globalPercentile": 78
+    },
+    {
+      "id": "k-rabada",
+      "name": "K Rabada",
+      "role": "PACE_BOWLER",
+      "rating": 88,
+      "matches": 17,
+      "runs": 56,
+      "average": 18.7,
+      "strikeRate": 114.3,
+      "wickets": 32,
+      "economy": 8.54,
+      "bowlingAverage": 17.7,
+      "globalPercentile": 95
+    },
+    {
+      "id": "am-rahane",
+      "name": "AM Rahane",
+      "role": "OPENER",
+      "rating": 48,
+      "matches": 8,
+      "runs": 113,
+      "average": 14.1,
+      "strikeRate": 105.6,
+      "globalPercentile": 3
+    },
+    {
+      "id": "tu-deshpande",
+      "name": "TU Deshpande",
+      "role": "PACE_BOWLER",
+      "rating": 49,
+      "matches": 5,
+      "wickets": 3,
+      "economy": 11.35,
+      "bowlingAverage": 64.3,
+      "globalPercentile": 6
+    },
+    {
+      "id": "hv-patel",
+      "name": "HV Patel",
+      "role": "PACE_BOWLER",
+      "rating": 56,
+      "matches": 5,
+      "wickets": 3,
+      "economy": 9.0,
+      "bowlingAverage": 45.0,
+      "globalPercentile": 20
+    }
+  ],
+  "stats": {
+    "min": 48,
+    "max": 88,
+    "mean": 66.8
+  }
+}

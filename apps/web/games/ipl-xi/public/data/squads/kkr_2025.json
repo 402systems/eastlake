@@ -1,0 +1,153 @@
+{
+  "teamId": "kkr",
+  "year": "2025",
+  "label": "Kolkata Knight Riders 2025",
+  "players": [
+    {
+      "id": "q-de-kock",
+      "name": "Q de Kock",
+      "role": "OPENER",
+      "rating": 60,
+      "matches": 8,
+      "runs": 152,
+      "average": 21.7,
+      "strikeRate": 131.0,
+      "globalPercentile": 20
+    },
+    {
+      "id": "am-rahane",
+      "name": "AM Rahane",
+      "role": "MIDDLE_ORDER",
+      "rating": 81,
+      "matches": 12,
+      "runs": 390,
+      "average": 35.5,
+      "strikeRate": 147.7,
+      "globalPercentile": 74
+    },
+    {
+      "id": "sp-narine",
+      "name": "SP Narine",
+      "role": "SPIN_BOWLER",
+      "rating": 71,
+      "matches": 12,
+      "runs": 246,
+      "average": 22.4,
+      "strikeRate": 170.8,
+      "wickets": 12,
+      "economy": 7.93,
+      "bowlingAverage": 29.8,
+      "globalPercentile": 49
+    },
+    {
+      "id": "vr-iyer",
+      "name": "VR Iyer",
+      "role": "ALL_ROUNDER",
+      "rating": 64,
+      "matches": 7,
+      "runs": 142,
+      "average": 20.3,
+      "strikeRate": 139.2,
+      "globalPercentile": 42
+    },
+    {
+      "id": "a-raghuvanshi",
+      "name": "A Raghuvanshi",
+      "role": "ALL_ROUNDER",
+      "rating": 75,
+      "matches": 11,
+      "runs": 300,
+      "average": 33.3,
+      "strikeRate": 140.2,
+      "globalPercentile": 74
+    },
+    {
+      "id": "rk-singh",
+      "name": "RK Singh",
+      "role": "ALL_ROUNDER",
+      "rating": 74,
+      "matches": 11,
+      "runs": 206,
+      "average": 29.4,
+      "strikeRate": 154.9,
+      "globalPercentile": 71
+    },
+    {
+      "id": "ad-russell",
+      "name": "AD Russell",
+      "role": "PACE_BOWLER",
+      "rating": 60,
+      "matches": 10,
+      "runs": 167,
+      "average": 20.9,
+      "strikeRate": 163.7,
+      "wickets": 8,
+      "economy": 12.0,
+      "bowlingAverage": 27.2,
+      "globalPercentile": 30
+    },
+    {
+      "id": "harshit-rana",
+      "name": "Harshit Rana",
+      "role": "PACE_BOWLER",
+      "rating": 64,
+      "matches": 13,
+      "runs": 57,
+      "average": 14.2,
+      "strikeRate": 109.6,
+      "wickets": 15,
+      "economy": 10.39,
+      "bowlingAverage": 30.5,
+      "globalPercentile": 38
+    },
+    {
+      "id": "vg-arora",
+      "name": "VG Arora",
+      "role": "PACE_BOWLER",
+      "rating": 72,
+      "matches": 12,
+      "wickets": 17,
+      "economy": 10.14,
+      "bowlingAverage": 25.4,
+      "globalPercentile": 64
+    },
+    {
+      "id": "cv-varun",
+      "name": "CV Varun",
+      "role": "SPIN_BOWLER",
+      "rating": 80,
+      "matches": 13,
+      "wickets": 17,
+      "economy": 7.8,
+      "bowlingAverage": 22.9,
+      "globalPercentile": 76
+    },
+    {
+      "id": "mm-ali",
+      "name": "MM Ali",
+      "role": "PACE_BOWLER",
+      "rating": 76,
+      "matches": 5,
+      "wickets": 6,
+      "economy": 8.5,
+      "bowlingAverage": 22.7,
+      "globalPercentile": 75
+    },
+    {
+      "id": "rahmanullah-gurbaz",
+      "name": "Rahmanullah Gurbaz",
+      "role": "OPENER",
+      "rating": 58,
+      "matches": 5,
+      "runs": 74,
+      "average": 18.5,
+      "strikeRate": 139.6,
+      "globalPercentile": 16
+    }
+  ],
+  "stats": {
+    "min": 58,
+    "max": 81,
+    "mean": 69.6
+  }
+}

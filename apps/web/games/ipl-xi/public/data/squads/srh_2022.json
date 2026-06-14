@@ -1,0 +1,158 @@
+{
+  "teamId": "srh",
+  "year": "2022",
+  "label": "Sunrisers Hyderabad 2022",
+  "players": [
+    {
+      "id": "ks-williamson",
+      "name": "KS Williamson",
+      "role": "OPENER",
+      "rating": 52,
+      "matches": 12,
+      "runs": 216,
+      "average": 21.6,
+      "strikeRate": 93.5,
+      "globalPercentile": 8
+    },
+    {
+      "id": "abhishek-sharma",
+      "name": "Abhishek Sharma",
+      "role": "OPENER",
+      "rating": 70,
+      "matches": 14,
+      "runs": 426,
+      "average": 30.4,
+      "strikeRate": 133.5,
+      "wickets": 0,
+      "economy": 9.75,
+      "globalPercentile": 49
+    },
+    {
+      "id": "ra-tripathi",
+      "name": "RA Tripathi",
+      "role": "MIDDLE_ORDER",
+      "rating": 82,
+      "matches": 14,
+      "runs": 413,
+      "average": 34.4,
+      "strikeRate": 158.8,
+      "globalPercentile": 77
+    },
+    {
+      "id": "n-pooran",
+      "name": "N Pooran",
+      "role": "ALL_ROUNDER",
+      "rating": 77,
+      "matches": 13,
+      "runs": 306,
+      "average": 38.2,
+      "strikeRate": 144.3,
+      "globalPercentile": 78
+    },
+    {
+      "id": "ak-markram",
+      "name": "AK Markram",
+      "role": "MIDDLE_ORDER",
+      "rating": 84,
+      "matches": 12,
+      "runs": 381,
+      "average": 47.6,
+      "strikeRate": 139.6,
+      "wickets": 1,
+      "economy": 10.67,
+      "bowlingAverage": 64.0,
+      "globalPercentile": 81
+    },
+    {
+      "id": "washington-sundar",
+      "name": "Washington Sundar",
+      "role": "SPIN_BOWLER",
+      "rating": 60,
+      "matches": 8,
+      "runs": 101,
+      "average": 14.4,
+      "strikeRate": 146.4,
+      "wickets": 6,
+      "economy": 8.54,
+      "bowlingAverage": 39.8,
+      "globalPercentile": 20
+    },
+    {
+      "id": "b-kumar",
+      "name": "B Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 69,
+      "matches": 14,
+      "runs": 24,
+      "average": 12.0,
+      "strikeRate": 96.0,
+      "wickets": 12,
+      "economy": 7.55,
+      "bowlingAverage": 32.8,
+      "globalPercentile": 55
+    },
+    {
+      "id": "umran-malik",
+      "name": "Umran Malik",
+      "role": "PACE_BOWLER",
+      "rating": 80,
+      "matches": 14,
+      "runs": 4,
+      "average": 4.0,
+      "strikeRate": 50.0,
+      "wickets": 22,
+      "economy": 9.25,
+      "bowlingAverage": 20.7,
+      "globalPercentile": 84
+    },
+    {
+      "id": "t-natarajan",
+      "name": "T Natarajan",
+      "role": "PACE_BOWLER",
+      "rating": 79,
+      "matches": 11,
+      "wickets": 18,
+      "economy": 9.53,
+      "bowlingAverage": 22.8,
+      "globalPercentile": 83
+    },
+    {
+      "id": "m-jansen",
+      "name": "M Jansen",
+      "role": "PACE_BOWLER",
+      "rating": 61,
+      "matches": 8,
+      "wickets": 7,
+      "economy": 8.69,
+      "bowlingAverage": 39.7,
+      "globalPercentile": 33
+    },
+    {
+      "id": "shashank-singh",
+      "name": "Shashank Singh",
+      "role": "ALL_ROUNDER",
+      "rating": 62,
+      "matches": 5,
+      "runs": 69,
+      "average": 17.2,
+      "strikeRate": 146.8,
+      "globalPercentile": 36
+    },
+    {
+      "id": "j-suchith",
+      "name": "J Suchith",
+      "role": "SPIN_BOWLER",
+      "rating": 83,
+      "matches": 5,
+      "wickets": 7,
+      "economy": 7.83,
+      "bowlingAverage": 20.1,
+      "globalPercentile": 85
+    }
+  ],
+  "stats": {
+    "min": 52,
+    "max": 84,
+    "mean": 71.6
+  }
+}

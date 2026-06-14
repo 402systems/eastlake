@@ -1,0 +1,170 @@
+{
+  "teamId": "rcb",
+  "year": "2014",
+  "label": "Royal Challengers Bangalore 2014",
+  "players": [
+    {
+      "id": "pa-patel",
+      "name": "PA Patel",
+      "role": "OPENER",
+      "rating": 55,
+      "matches": 12,
+      "runs": 205,
+      "average": 22.8,
+      "strikeRate": 110.8,
+      "globalPercentile": 12
+    },
+    {
+      "id": "v-kohli",
+      "name": "V Kohli",
+      "role": "MIDDLE_ORDER",
+      "rating": 65,
+      "matches": 14,
+      "runs": 359,
+      "average": 27.6,
+      "strikeRate": 122.1,
+      "globalPercentile": 35
+    },
+    {
+      "id": "yuvraj-singh",
+      "name": "Yuvraj Singh",
+      "role": "SPIN_BOWLER",
+      "rating": 57,
+      "matches": 14,
+      "runs": 376,
+      "average": 37.6,
+      "strikeRate": 137.2,
+      "wickets": 5,
+      "economy": 8.43,
+      "bowlingAverage": 38.2,
+      "globalPercentile": 11
+    },
+    {
+      "id": "ma-starc",
+      "name": "MA Starc",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 14,
+      "runs": 85,
+      "average": 17.0,
+      "strikeRate": 101.2,
+      "wickets": 14,
+      "economy": 7.81,
+      "bowlingAverage": 29.9,
+      "globalPercentile": 61
+    },
+    {
+      "id": "ja-morkel",
+      "name": "JA Morkel",
+      "role": "PACE_BOWLER",
+      "rating": 65,
+      "matches": 6,
+      "runs": 45,
+      "average": 15.0,
+      "strikeRate": 109.8,
+      "wickets": 4,
+      "economy": 7.94,
+      "bowlingAverage": 31.8,
+      "globalPercentile": 41
+    },
+    {
+      "id": "vr-aaron",
+      "name": "VR Aaron",
+      "role": "PACE_BOWLER",
+      "rating": 84,
+      "matches": 10,
+      "runs": 35,
+      "average": 35,
+      "strikeRate": 106.1,
+      "wickets": 16,
+      "economy": 8.43,
+      "bowlingAverage": 19.3,
+      "globalPercentile": 90
+    },
+    {
+      "id": "ys-chahal",
+      "name": "YS Chahal",
+      "role": "SPIN_BOWLER",
+      "rating": 70,
+      "matches": 14,
+      "wickets": 12,
+      "economy": 7.07,
+      "bowlingAverage": 32.4,
+      "globalPercentile": 46
+    },
+    {
+      "id": "ab-dinda",
+      "name": "AB Dinda",
+      "role": "PACE_BOWLER",
+      "rating": 56,
+      "matches": 9,
+      "runs": 4,
+      "average": 4.0,
+      "strikeRate": 33.3,
+      "wickets": 5,
+      "economy": 8.74,
+      "bowlingAverage": 54.2,
+      "globalPercentile": 20
+    },
+    {
+      "id": "ab-de-villiers",
+      "name": "AB de Villiers",
+      "role": "ALL_ROUNDER",
+      "rating": 85,
+      "matches": 13,
+      "runs": 395,
+      "average": 35.9,
+      "strikeRate": 159.3,
+      "globalPercentile": 92
+    },
+    {
+      "id": "yv-takawale",
+      "name": "YV Takawale",
+      "role": "OPENER",
+      "rating": 56,
+      "matches": 5,
+      "runs": 104,
+      "average": 20.8,
+      "strikeRate": 114.3,
+      "globalPercentile": 13
+    },
+    {
+      "id": "m-muralitharan",
+      "name": "M Muralitharan",
+      "role": "SPIN_BOWLER",
+      "rating": 60,
+      "matches": 5,
+      "wickets": 3,
+      "economy": 7.81,
+      "bowlingAverage": 41.7,
+      "globalPercentile": 20
+    },
+    {
+      "id": "s-rana",
+      "name": "S Rana",
+      "role": "ALL_ROUNDER",
+      "rating": 53,
+      "matches": 7,
+      "runs": 73,
+      "average": 24.3,
+      "strikeRate": 114.1,
+      "globalPercentile": 16
+    },
+    {
+      "id": "ch-gayle",
+      "name": "CH Gayle",
+      "role": "OPENER",
+      "rating": 55,
+      "matches": 9,
+      "runs": 196,
+      "average": 21.8,
+      "strikeRate": 106.5,
+      "globalPercentile": 12
+    }
+  ],
+  "stats": {
+    "min": 53,
+    "max": 85,
+    "mean": 64.0
+  }
+}

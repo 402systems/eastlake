@@ -1,0 +1,178 @@
+{
+  "teamId": "srh",
+  "year": "2019",
+  "label": "Sunrisers Hyderabad 2019",
+  "players": [
+    {
+      "id": "da-warner",
+      "name": "DA Warner",
+      "role": "OPENER",
+      "rating": 91,
+      "matches": 12,
+      "runs": 692,
+      "average": 69.2,
+      "strikeRate": 143.9,
+      "globalPercentile": 95
+    },
+    {
+      "id": "jm-bairstow",
+      "name": "JM Bairstow",
+      "role": "OPENER",
+      "rating": 94,
+      "matches": 10,
+      "runs": 445,
+      "average": 55.6,
+      "strikeRate": 158.4,
+      "globalPercentile": 99
+    },
+    {
+      "id": "v-shankar",
+      "name": "V Shankar",
+      "role": "PACE_BOWLER",
+      "rating": 51,
+      "matches": 14,
+      "runs": 244,
+      "average": 22.2,
+      "strikeRate": 126.4,
+      "wickets": 1,
+      "economy": 8.75,
+      "bowlingAverage": 70.0,
+      "globalPercentile": 9
+    },
+    {
+      "id": "yk-pathan",
+      "name": "YK Pathan",
+      "role": "ALL_ROUNDER",
+      "rating": 44,
+      "matches": 7,
+      "runs": 40,
+      "average": 13.3,
+      "strikeRate": 88.9,
+      "globalPercentile": 1
+    },
+    {
+      "id": "mk-pandey",
+      "name": "MK Pandey",
+      "role": "MIDDLE_ORDER",
+      "rating": 75,
+      "matches": 11,
+      "runs": 345,
+      "average": 38.3,
+      "strikeRate": 130.7,
+      "globalPercentile": 62
+    },
+    {
+      "id": "b-kumar",
+      "name": "B Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 66,
+      "matches": 15,
+      "runs": 12,
+      "average": 4.0,
+      "strikeRate": 63.2,
+      "wickets": 13,
+      "economy": 7.9,
+      "bowlingAverage": 35.8,
+      "globalPercentile": 45
+    },
+    {
+      "id": "sandeep-sharma",
+      "name": "Sandeep Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 11,
+      "wickets": 12,
+      "economy": 8.32,
+      "bowlingAverage": 29.6,
+      "globalPercentile": 61
+    },
+    {
+      "id": "s-kaul",
+      "name": "S Kaul",
+      "role": "PACE_BOWLER",
+      "rating": 59,
+      "matches": 7,
+      "wickets": 6,
+      "economy": 9.0,
+      "bowlingAverage": 40.5,
+      "globalPercentile": 28
+    },
+    {
+      "id": "rashid-khan",
+      "name": "Rashid Khan",
+      "role": "SPIN_BOWLER",
+      "rating": 82,
+      "matches": 15,
+      "runs": 34,
+      "average": 6.8,
+      "strikeRate": 147.8,
+      "wickets": 17,
+      "economy": 6.55,
+      "bowlingAverage": 23.3,
+      "globalPercentile": 82
+    },
+    {
+      "id": "ks-williamson",
+      "name": "KS Williamson",
+      "role": "MIDDLE_ORDER",
+      "rating": 58,
+      "matches": 9,
+      "runs": 156,
+      "average": 22.3,
+      "strikeRate": 120.9,
+      "globalPercentile": 15
+    },
+    {
+      "id": "mohammad-nabi",
+      "name": "Mohammad Nabi",
+      "role": "SPIN_BOWLER",
+      "rating": 77,
+      "matches": 8,
+      "runs": 121,
+      "average": 20.2,
+      "strikeRate": 157.1,
+      "wickets": 8,
+      "economy": 6.89,
+      "bowlingAverage": 25.1,
+      "globalPercentile": 67
+    },
+    {
+      "id": "dj-hooda",
+      "name": "DJ Hooda",
+      "role": "ALL_ROUNDER",
+      "rating": 45,
+      "matches": 7,
+      "runs": 64,
+      "average": 10.7,
+      "strikeRate": 101.6,
+      "globalPercentile": 3
+    },
+    {
+      "id": "kk-ahmed",
+      "name": "KK Ahmed",
+      "role": "PACE_BOWLER",
+      "rating": 89,
+      "matches": 9,
+      "wickets": 19,
+      "economy": 8.38,
+      "bowlingAverage": 15.4,
+      "globalPercentile": 96
+    },
+    {
+      "id": "wp-saha",
+      "name": "WP Saha",
+      "role": "OPENER",
+      "rating": 64,
+      "matches": 5,
+      "runs": 86,
+      "average": 17.2,
+      "strikeRate": 162.3,
+      "globalPercentile": 30
+    }
+  ],
+  "stats": {
+    "min": 44,
+    "max": 94,
+    "mean": 69.0
+  }
+}

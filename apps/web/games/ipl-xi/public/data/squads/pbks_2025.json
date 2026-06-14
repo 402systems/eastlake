@@ -1,0 +1,178 @@
+{
+  "teamId": "pbks",
+  "year": "2025",
+  "label": "Punjab Kings 2025",
+  "players": [
+    {
+      "id": "priyansh-arya",
+      "name": "Priyansh Arya",
+      "role": "OPENER",
+      "rating": 80,
+      "matches": 18,
+      "runs": 545,
+      "average": 30.3,
+      "strikeRate": 182.9,
+      "globalPercentile": 76
+    },
+    {
+      "id": "p-simran-singh",
+      "name": "P Simran Singh",
+      "role": "OPENER",
+      "rating": 81,
+      "matches": 18,
+      "runs": 599,
+      "average": 35.2,
+      "strikeRate": 162.8,
+      "globalPercentile": 78
+    },
+    {
+      "id": "ss-iyer",
+      "name": "SS Iyer",
+      "role": "MIDDLE_ORDER",
+      "rating": 97,
+      "matches": 17,
+      "runs": 604,
+      "average": 50.3,
+      "strikeRate": 176.1,
+      "globalPercentile": 98
+    },
+    {
+      "id": "azmatullah-omarzai",
+      "name": "Azmatullah Omarzai",
+      "role": "PACE_BOWLER",
+      "rating": 59,
+      "matches": 8,
+      "runs": 57,
+      "average": 14.2,
+      "strikeRate": 139.0,
+      "wickets": 8,
+      "economy": 10.44,
+      "bowlingAverage": 35.2,
+      "globalPercentile": 28
+    },
+    {
+      "id": "gj-maxwell",
+      "name": "GJ Maxwell",
+      "role": "SPIN_BOWLER",
+      "rating": 65,
+      "matches": 6,
+      "runs": 48,
+      "average": 8.0,
+      "strikeRate": 98.0,
+      "wickets": 4,
+      "economy": 8.54,
+      "bowlingAverage": 27.8,
+      "globalPercentile": 33
+    },
+    {
+      "id": "mp-stoinis",
+      "name": "MP Stoinis",
+      "role": "PACE_BOWLER",
+      "rating": 42,
+      "matches": 11,
+      "runs": 160,
+      "average": 26.7,
+      "strikeRate": 188.2,
+      "wickets": 1,
+      "economy": 12.67,
+      "bowlingAverage": 171.0,
+      "globalPercentile": 1
+    },
+    {
+      "id": "shashank-singh",
+      "name": "Shashank Singh",
+      "role": "ALL_ROUNDER",
+      "rating": 83,
+      "matches": 14,
+      "runs": 350,
+      "average": 50.0,
+      "strikeRate": 153.5,
+      "globalPercentile": 89
+    },
+    {
+      "id": "arshdeep-singh",
+      "name": "Arshdeep Singh",
+      "role": "PACE_BOWLER",
+      "rating": 75,
+      "matches": 16,
+      "wickets": 21,
+      "economy": 9.03,
+      "bowlingAverage": 25.1,
+      "globalPercentile": 72
+    },
+    {
+      "id": "m-jansen",
+      "name": "M Jansen",
+      "role": "PACE_BOWLER",
+      "rating": 69,
+      "matches": 14,
+      "runs": 75,
+      "average": 18.8,
+      "strikeRate": 119.0,
+      "wickets": 16,
+      "economy": 9.5,
+      "bowlingAverage": 28.0,
+      "globalPercentile": 55
+    },
+    {
+      "id": "ys-chahal",
+      "name": "YS Chahal",
+      "role": "SPIN_BOWLER",
+      "rating": 70,
+      "matches": 13,
+      "wickets": 16,
+      "economy": 9.58,
+      "bowlingAverage": 26.9,
+      "globalPercentile": 46
+    },
+    {
+      "id": "vijaykumar-vyshak",
+      "name": "Vijaykumar Vyshak",
+      "role": "PACE_BOWLER",
+      "rating": 53,
+      "matches": 5,
+      "wickets": 4,
+      "economy": 10.65,
+      "bowlingAverage": 45.2,
+      "globalPercentile": 13
+    },
+    {
+      "id": "n-wadhera",
+      "name": "N Wadhera",
+      "role": "ALL_ROUNDER",
+      "rating": 76,
+      "matches": 15,
+      "runs": 369,
+      "average": 33.5,
+      "strikeRate": 147.0,
+      "globalPercentile": 76
+    },
+    {
+      "id": "jp-inglis",
+      "name": "JP Inglis",
+      "role": "MIDDLE_ORDER",
+      "rating": 79,
+      "matches": 11,
+      "runs": 278,
+      "average": 30.9,
+      "strikeRate": 162.6,
+      "globalPercentile": 71
+    },
+    {
+      "id": "harpreet-brar",
+      "name": "Harpreet Brar",
+      "role": "PACE_BOWLER",
+      "rating": 81,
+      "matches": 7,
+      "wickets": 10,
+      "economy": 8.64,
+      "bowlingAverage": 19.0,
+      "globalPercentile": 86
+    }
+  ],
+  "stats": {
+    "min": 42,
+    "max": 97,
+    "mean": 72.1
+  }
+}

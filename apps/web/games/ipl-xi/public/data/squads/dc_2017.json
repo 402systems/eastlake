@@ -1,0 +1,178 @@
+{
+  "teamId": "dc",
+  "year": "2017",
+  "label": "Delhi Capitals 2017",
+  "players": [
+    {
+      "id": "sw-billings",
+      "name": "SW Billings",
+      "role": "OPENER",
+      "rating": 72,
+      "matches": 7,
+      "runs": 364,
+      "average": 22.8,
+      "strikeRate": 135.3
+    },
+    {
+      "id": "kk-nair",
+      "name": "KK Nair",
+      "role": "MIDDLE_ORDER",
+      "rating": 73,
+      "matches": 14,
+      "runs": 1135,
+      "average": 26.4,
+      "strikeRate": 129.1
+    },
+    {
+      "id": "sv-samson",
+      "name": "SV Samson",
+      "role": "OPENER",
+      "rating": 75,
+      "matches": 15,
+      "runs": 1063,
+      "average": 29.5,
+      "strikeRate": 132.2
+    },
+    {
+      "id": "rr-pant",
+      "name": "RR Pant",
+      "role": "MIDDLE_ORDER",
+      "rating": 84,
+      "matches": 15,
+      "runs": 3663,
+      "average": 34.9,
+      "strikeRate": 151.1
+    },
+    {
+      "id": "ch-morris",
+      "name": "CH Morris",
+      "role": "ALL_ROUNDER",
+      "rating": 83,
+      "matches": 10,
+      "runs": 581,
+      "average": 29.1,
+      "strikeRate": 161.4,
+      "wickets": 53,
+      "economy": 8.26,
+      "bowlingAverage": 23.8
+    },
+    {
+      "id": "pj-cummins",
+      "name": "PJ Cummins",
+      "role": "PACE_BOWLER",
+      "rating": 83,
+      "matches": 13,
+      "runs": 154,
+      "average": 15.4,
+      "strikeRate": 145.3,
+      "wickets": 30,
+      "economy": 8.51,
+      "bowlingAverage": 26.2
+    },
+    {
+      "id": "a-mishra",
+      "name": "A Mishra",
+      "role": "SPIN_BOWLER",
+      "rating": 87,
+      "matches": 15,
+      "runs": 234,
+      "average": 13.8,
+      "strikeRate": 87.3,
+      "wickets": 116,
+      "economy": 7.58,
+      "bowlingAverage": 24.8
+    },
+    {
+      "id": "s-nadeem",
+      "name": "S Nadeem",
+      "role": "SPIN_BOWLER",
+      "rating": 82,
+      "matches": 7,
+      "runs": 34,
+      "average": 2.3,
+      "strikeRate": 39.1,
+      "wickets": 46,
+      "economy": 7.36,
+      "bowlingAverage": 34.9
+    },
+    {
+      "id": "z-khan",
+      "name": "Z Khan",
+      "role": "PACE_BOWLER",
+      "rating": 83,
+      "matches": 12,
+      "runs": 14,
+      "average": 3.5,
+      "strikeRate": 35.9,
+      "wickets": 37,
+      "economy": 7.73,
+      "bowlingAverage": 31.0
+    },
+    {
+      "id": "cj-anderson",
+      "name": "CJ Anderson",
+      "role": "ALL_ROUNDER",
+      "rating": 57,
+      "matches": 12,
+      "runs": 284,
+      "average": 20.3,
+      "strikeRate": 116.4,
+      "wickets": 6,
+      "economy": 9.93,
+      "bowlingAverage": 62.3
+    },
+    {
+      "id": "ss-iyer",
+      "name": "SS Iyer",
+      "role": "MIDDLE_ORDER",
+      "rating": 74,
+      "matches": 13,
+      "runs": 2717,
+      "average": 32.0,
+      "strikeRate": 126.1
+    },
+    {
+      "id": "mohammed-shami",
+      "name": "Mohammed Shami",
+      "role": "PACE_BOWLER",
+      "rating": 72,
+      "matches": 9,
+      "runs": 84,
+      "average": 7.6,
+      "strikeRate": 129.2,
+      "wickets": 25,
+      "economy": 9.43,
+      "bowlingAverage": 50.9
+    },
+    {
+      "id": "k-rabada",
+      "name": "K Rabada",
+      "role": "PACE_BOWLER",
+      "rating": 86,
+      "matches": 7,
+      "runs": 193,
+      "average": 16.1,
+      "strikeRate": 97.5,
+      "wickets": 85,
+      "economy": 8.49,
+      "bowlingAverage": 21.3
+    },
+    {
+      "id": "mn-samuels",
+      "name": "MN Samuels",
+      "role": "PACE_BOWLER",
+      "rating": 40,
+      "matches": 5,
+      "runs": 58,
+      "average": 9.7,
+      "strikeRate": 93.5,
+      "wickets": 0,
+      "economy": 11.33
+    }
+  ],
+  "stats": {
+    "min": 40,
+    "max": 87,
+    "mean": 75.1
+  }
+}

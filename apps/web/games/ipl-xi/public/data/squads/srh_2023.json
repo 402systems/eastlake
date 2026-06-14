@@ -1,0 +1,160 @@
+{
+  "teamId": "srh",
+  "year": "2023",
+  "label": "Sunrisers Hyderabad 2023",
+  "players": [
+    {
+      "id": "abhishek-sharma",
+      "name": "Abhishek Sharma",
+      "role": "OPENER",
+      "rating": 63,
+      "matches": 11,
+      "runs": 226,
+      "average": 20.5,
+      "strikeRate": 144.9,
+      "wickets": 2,
+      "economy": 10.58,
+      "bowlingAverage": 63.5
+    },
+    {
+      "id": "ra-tripathi",
+      "name": "RA Tripathi",
+      "role": "MIDDLE_ORDER",
+      "rating": 62,
+      "matches": 13,
+      "runs": 273,
+      "average": 22.8,
+      "strikeRate": 128.8
+    },
+    {
+      "id": "hc-brook",
+      "name": "HC Brook",
+      "role": "MIDDLE_ORDER",
+      "rating": 58,
+      "matches": 11,
+      "runs": 190,
+      "average": 21.1,
+      "strikeRate": 124.2
+    },
+    {
+      "id": "ma-agarwal",
+      "name": "MA Agarwal",
+      "role": "MIDDLE_ORDER",
+      "rating": 68,
+      "matches": 10,
+      "runs": 270,
+      "average": 27.0,
+      "strikeRate": 129.8
+    },
+    {
+      "id": "washington-sundar",
+      "name": "Washington Sundar",
+      "role": "SPIN_BOWLER",
+      "rating": 56,
+      "matches": 7,
+      "runs": 60,
+      "average": 20.0,
+      "strikeRate": 100.0,
+      "wickets": 3,
+      "economy": 8.26,
+      "bowlingAverage": 48.7
+    },
+    {
+      "id": "gd-phillips",
+      "name": "GD Phillips",
+      "role": "ALL_ROUNDER",
+      "rating": 64,
+      "matches": 5,
+      "runs": 39,
+      "average": 7.8,
+      "strikeRate": 177.3
+    },
+    {
+      "id": "b-kumar",
+      "name": "B Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 73,
+      "matches": 14,
+      "runs": 42,
+      "average": 14.0,
+      "strikeRate": 89.4,
+      "wickets": 16,
+      "economy": 8.47,
+      "bowlingAverage": 27.0
+    },
+    {
+      "id": "umran-malik",
+      "name": "Umran Malik",
+      "role": "PACE_BOWLER",
+      "rating": 49,
+      "matches": 8,
+      "wickets": 5,
+      "economy": 10.95,
+      "bowlingAverage": 43.8
+    },
+    {
+      "id": "t-natarajan",
+      "name": "T Natarajan",
+      "role": "PACE_BOWLER",
+      "rating": 58,
+      "matches": 12,
+      "wickets": 10,
+      "economy": 9.24,
+      "bowlingAverage": 41.6
+    },
+    {
+      "id": "ak-markram",
+      "name": "AK Markram",
+      "role": "MIDDLE_ORDER",
+      "rating": 60,
+      "matches": 13,
+      "runs": 248,
+      "average": 22.5,
+      "strikeRate": 125.9,
+      "wickets": 1,
+      "economy": 8.75,
+      "bowlingAverage": 70.0
+    },
+    {
+      "id": "m-jansen",
+      "name": "M Jansen",
+      "role": "PACE_BOWLER",
+      "rating": 69,
+      "matches": 8,
+      "runs": 39,
+      "average": 13.0,
+      "strikeRate": 90.7,
+      "wickets": 10,
+      "economy": 10.11,
+      "bowlingAverage": 27.3
+    },
+    {
+      "id": "m-markande",
+      "name": "M Markande",
+      "role": "SPIN_BOWLER",
+      "rating": 77,
+      "matches": 10,
+      "runs": 21,
+      "average": 21,
+      "strikeRate": 161.5,
+      "wickets": 12,
+      "economy": 7.89,
+      "bowlingAverage": 25.0
+    },
+    {
+      "id": "h-klaasen",
+      "name": "H Klaasen",
+      "role": "ALL_ROUNDER",
+      "rating": 96,
+      "matches": 11,
+      "runs": 448,
+      "average": 49.8,
+      "strikeRate": 178.5
+    }
+  ],
+  "stats": {
+    "min": 49,
+    "max": 96,
+    "mean": 65.6
+  }
+}

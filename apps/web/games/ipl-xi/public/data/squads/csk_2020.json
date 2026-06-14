@@ -1,0 +1,164 @@
+{
+  "teamId": "csk",
+  "year": "2020",
+  "label": "Chennai Super Kings 2020",
+  "players": [
+    {
+      "id": "sr-watson",
+      "name": "SR Watson",
+      "role": "OPENER",
+      "rating": 66,
+      "matches": 11,
+      "runs": 299,
+      "average": 29.9,
+      "strikeRate": 121.1,
+      "globalPercentile": 38
+    },
+    {
+      "id": "f-du-plessis",
+      "name": "F du Plessis",
+      "role": "OPENER",
+      "rating": 81,
+      "matches": 13,
+      "runs": 449,
+      "average": 44.9,
+      "strikeRate": 140.8,
+      "globalPercentile": 78
+    },
+    {
+      "id": "at-rayudu",
+      "name": "AT Rayudu",
+      "role": "MIDDLE_ORDER",
+      "rating": 77,
+      "matches": 11,
+      "runs": 359,
+      "average": 39.9,
+      "strikeRate": 128.7,
+      "globalPercentile": 66
+    },
+    {
+      "id": "ra-jadeja",
+      "name": "RA Jadeja",
+      "role": "SPIN_BOWLER",
+      "rating": 55,
+      "matches": 13,
+      "runs": 232,
+      "average": 46.4,
+      "strikeRate": 173.1,
+      "wickets": 6,
+      "economy": 8.75,
+      "bowlingAverage": 53.0,
+      "globalPercentile": 6
+    },
+    {
+      "id": "sm-curran",
+      "name": "SM Curran",
+      "role": "PACE_BOWLER",
+      "rating": 72,
+      "matches": 13,
+      "runs": 186,
+      "average": 23.2,
+      "strikeRate": 131.9,
+      "wickets": 13,
+      "economy": 8.29,
+      "bowlingAverage": 26.8,
+      "globalPercentile": 64
+    },
+    {
+      "id": "ms-dhoni",
+      "name": "MS Dhoni",
+      "role": "ALL_ROUNDER",
+      "rating": 57,
+      "matches": 12,
+      "runs": 200,
+      "average": 25.0,
+      "strikeRate": 116.3,
+      "globalPercentile": 26
+    },
+    {
+      "id": "dl-chahar",
+      "name": "DL Chahar",
+      "role": "PACE_BOWLER",
+      "rating": 68,
+      "matches": 14,
+      "runs": 7,
+      "average": 7.0,
+      "strikeRate": 58.3,
+      "wickets": 12,
+      "economy": 7.73,
+      "bowlingAverage": 33.5,
+      "globalPercentile": 51
+    },
+    {
+      "id": "pp-chawla",
+      "name": "PP Chawla",
+      "role": "SPIN_BOWLER",
+      "rating": 64,
+      "matches": 7,
+      "wickets": 6,
+      "economy": 9.1,
+      "bowlingAverage": 31.8,
+      "globalPercentile": 29
+    },
+    {
+      "id": "rd-gaikwad",
+      "name": "RD Gaikwad",
+      "role": "OPENER",
+      "rating": 82,
+      "matches": 6,
+      "runs": 204,
+      "average": 68.0,
+      "strikeRate": 120.7,
+      "globalPercentile": 80
+    },
+    {
+      "id": "km-jadhav",
+      "name": "KM Jadhav",
+      "role": "ALL_ROUNDER",
+      "rating": 52,
+      "matches": 5,
+      "runs": 62,
+      "average": 20.7,
+      "strikeRate": 95.4,
+      "globalPercentile": 14
+    },
+    {
+      "id": "sn-thakur",
+      "name": "SN Thakur",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 9,
+      "wickets": 10,
+      "economy": 8.63,
+      "bowlingAverage": 27.9,
+      "globalPercentile": 61
+    },
+    {
+      "id": "kv-sharma",
+      "name": "KV Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 67,
+      "matches": 5,
+      "wickets": 5,
+      "economy": 8.68,
+      "bowlingAverage": 33.0,
+      "globalPercentile": 48
+    },
+    {
+      "id": "dj-bravo",
+      "name": "DJ Bravo",
+      "role": "PACE_BOWLER",
+      "rating": 69,
+      "matches": 6,
+      "wickets": 6,
+      "economy": 8.57,
+      "bowlingAverage": 30.0,
+      "globalPercentile": 55
+    }
+  ],
+  "stats": {
+    "min": 52,
+    "max": 82,
+    "mean": 67.8
+  }
+}

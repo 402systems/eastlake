@@ -1,0 +1,153 @@
+{
+  "teamId": "ktk",
+  "year": "2011",
+  "label": "Kochi Tuskers Kerala 2011",
+  "players": [
+    {
+      "id": "bb-mccullum",
+      "name": "BB McCullum",
+      "role": "OPENER",
+      "rating": 67,
+      "matches": 13,
+      "runs": 357,
+      "average": 27.5,
+      "strikeRate": 131.2
+    },
+    {
+      "id": "dpmd-jayawardene",
+      "name": "DPMD Jayawardene",
+      "role": "MIDDLE_ORDER",
+      "rating": 61,
+      "matches": 13,
+      "runs": 299,
+      "average": 27.2,
+      "strikeRate": 116.3
+    },
+    {
+      "id": "bj-hodge",
+      "name": "BJ Hodge",
+      "role": "MIDDLE_ORDER",
+      "rating": 66,
+      "matches": 14,
+      "runs": 285,
+      "average": 35.6,
+      "strikeRate": 121.8,
+      "wickets": 7,
+      "economy": 7.0,
+      "bowlingAverage": 11.0
+    },
+    {
+      "id": "ra-jadeja",
+      "name": "RA Jadeja",
+      "role": "ALL_ROUNDER",
+      "rating": 66,
+      "matches": 14,
+      "runs": 283,
+      "average": 31.4,
+      "strikeRate": 124.7,
+      "wickets": 8,
+      "economy": 7.31,
+      "bowlingAverage": 38.4
+    },
+    {
+      "id": "rv-gomez",
+      "name": "RV Gomez",
+      "role": "ALL_ROUNDER",
+      "rating": 51,
+      "matches": 8,
+      "runs": 46,
+      "average": 9.2,
+      "strikeRate": 92.0,
+      "wickets": 5,
+      "economy": 8.33,
+      "bowlingAverage": 25.0
+    },
+    {
+      "id": "pa-patel",
+      "name": "PA Patel",
+      "role": "MIDDLE_ORDER",
+      "rating": 54,
+      "matches": 13,
+      "runs": 202,
+      "average": 22.4,
+      "strikeRate": 111.0
+    },
+    {
+      "id": "rp-singh",
+      "name": "RP Singh",
+      "role": "PACE_BOWLER",
+      "rating": 73,
+      "matches": 14,
+      "runs": 2,
+      "average": 1.0,
+      "strikeRate": 50.0,
+      "wickets": 13,
+      "economy": 7.3,
+      "bowlingAverage": 28.1
+    },
+    {
+      "id": "s-sreesanth",
+      "name": "S Sreesanth",
+      "role": "PACE_BOWLER",
+      "rating": 72,
+      "matches": 9,
+      "runs": 1,
+      "average": 1.0,
+      "strikeRate": 11.1,
+      "wickets": 7,
+      "economy": 6.66,
+      "bowlingAverage": 30.3
+    },
+    {
+      "id": "r-vinay-kumar",
+      "name": "R Vinay Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 13,
+      "runs": 50,
+      "average": 10.0,
+      "strikeRate": 106.4,
+      "wickets": 12,
+      "economy": 7.72,
+      "bowlingAverage": 28.8
+    },
+    {
+      "id": "m-muralitharan",
+      "name": "M Muralitharan",
+      "role": "SPIN_BOWLER",
+      "rating": 58,
+      "matches": 5,
+      "wickets": 2,
+      "economy": 7.63,
+      "bowlingAverage": 72.5
+    },
+    {
+      "id": "rr-powar",
+      "name": "RR Powar",
+      "role": "PACE_BOWLER",
+      "rating": 52,
+      "matches": 5,
+      "runs": 11,
+      "average": 11.0,
+      "strikeRate": 84.6,
+      "wickets": 2,
+      "economy": 9.33,
+      "bowlingAverage": 56.0
+    },
+    {
+      "id": "p-parameswaran",
+      "name": "P Parameswaran",
+      "role": "PACE_BOWLER",
+      "rating": 63,
+      "matches": 5,
+      "wickets": 4,
+      "economy": 8.74,
+      "bowlingAverage": 34.2
+    }
+  ],
+  "stats": {
+    "min": 51,
+    "max": 73,
+    "mean": 62.8
+  }
+}

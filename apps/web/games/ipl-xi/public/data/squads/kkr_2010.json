@@ -1,0 +1,179 @@
+{
+  "teamId": "kkr",
+  "year": "2010",
+  "label": "Kolkata Knight Riders 2010",
+  "players": [
+    {
+      "id": "mk-tiwary",
+      "name": "MK Tiwary",
+      "role": "MIDDLE_ORDER",
+      "rating": 64,
+      "matches": 11,
+      "runs": 237,
+      "average": 26.3,
+      "strikeRate": 128.1,
+      "globalPercentile": 30
+    },
+    {
+      "id": "sc-ganguly",
+      "name": "SC Ganguly",
+      "role": "OPENER",
+      "rating": 73,
+      "matches": 14,
+      "runs": 493,
+      "average": 37.9,
+      "strikeRate": 117.9,
+      "wickets": 0,
+      "economy": 10.75,
+      "globalPercentile": 59
+    },
+    {
+      "id": "ca-pujara",
+      "name": "CA Pujara",
+      "role": "MIDDLE_ORDER",
+      "rating": 59,
+      "matches": 6,
+      "runs": 122,
+      "average": 30.5,
+      "strikeRate": 106.1,
+      "globalPercentile": 18
+    },
+    {
+      "id": "oa-shah",
+      "name": "OA Shah",
+      "role": "ALL_ROUNDER",
+      "rating": 71,
+      "matches": 5,
+      "runs": 115,
+      "average": 57.5,
+      "strikeRate": 121.1,
+      "globalPercentile": 61
+    },
+    {
+      "id": "ad-mathews",
+      "name": "AD Mathews",
+      "role": "PACE_BOWLER",
+      "rating": 59,
+      "matches": 12,
+      "runs": 233,
+      "average": 38.8,
+      "strikeRate": 127.3,
+      "wickets": 8,
+      "economy": 8.45,
+      "bowlingAverage": 39.6,
+      "globalPercentile": 28
+    },
+    {
+      "id": "i-sharma",
+      "name": "I Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 62,
+      "matches": 7,
+      "wickets": 7,
+      "economy": 9.68,
+      "bowlingAverage": 34.6,
+      "globalPercentile": 35
+    },
+    {
+      "id": "m-kartik",
+      "name": "M Kartik",
+      "role": "SPIN_BOWLER",
+      "rating": 74,
+      "matches": 10,
+      "wickets": 9,
+      "economy": 6.69,
+      "bowlingAverage": 29.0,
+      "globalPercentile": 57
+    },
+    {
+      "id": "wp-saha",
+      "name": "WP Saha",
+      "role": "ALL_ROUNDER",
+      "rating": 56,
+      "matches": 6,
+      "runs": 67,
+      "average": 22.3,
+      "strikeRate": 126.4,
+      "globalPercentile": 23
+    },
+    {
+      "id": "se-bond",
+      "name": "SE Bond",
+      "role": "PACE_BOWLER",
+      "rating": 78,
+      "matches": 8,
+      "wickets": 9,
+      "economy": 7.26,
+      "bowlingAverage": 25.0,
+      "globalPercentile": 81
+    },
+    {
+      "id": "ab-dinda",
+      "name": "AB Dinda",
+      "role": "PACE_BOWLER",
+      "rating": 87,
+      "matches": 7,
+      "wickets": 9,
+      "economy": 6.69,
+      "bowlingAverage": 17.2,
+      "globalPercentile": 94
+    },
+    {
+      "id": "ch-gayle",
+      "name": "CH Gayle",
+      "role": "SPIN_BOWLER",
+      "rating": 56,
+      "matches": 9,
+      "runs": 292,
+      "average": 32.4,
+      "strikeRate": 159.6,
+      "wickets": 4,
+      "economy": 9.56,
+      "bowlingAverage": 38.2,
+      "globalPercentile": 8
+    },
+    {
+      "id": "dj-hussey",
+      "name": "DJ Hussey",
+      "role": "PACE_BOWLER",
+      "rating": 50,
+      "matches": 6,
+      "runs": 94,
+      "average": 23.5,
+      "strikeRate": 110.6,
+      "wickets": 0,
+      "economy": 8.1,
+      "globalPercentile": 8
+    },
+    {
+      "id": "ab-agarkar",
+      "name": "AB Agarkar",
+      "role": "PACE_BOWLER",
+      "rating": 54,
+      "matches": 7,
+      "runs": 40,
+      "average": 40.0,
+      "strikeRate": 142.9,
+      "wickets": 4,
+      "economy": 9.41,
+      "bowlingAverage": 51.8,
+      "globalPercentile": 16
+    },
+    {
+      "id": "bb-mccullum",
+      "name": "BB McCullum",
+      "role": "MIDDLE_ORDER",
+      "rating": 63,
+      "matches": 5,
+      "runs": 114,
+      "average": 38.0,
+      "strikeRate": 104.6,
+      "globalPercentile": 28
+    }
+  ],
+  "stats": {
+    "min": 50,
+    "max": 87,
+    "mean": 64.7
+  }
+}

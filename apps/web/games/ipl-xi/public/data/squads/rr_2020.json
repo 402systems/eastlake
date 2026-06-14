@@ -1,0 +1,157 @@
+{
+  "teamId": "rr",
+  "year": "2020",
+  "label": "Rajasthan Royals 2020",
+  "players": [
+    {
+      "id": "spd-smith",
+      "name": "SPD Smith",
+      "role": "MIDDLE_ORDER",
+      "rating": 67,
+      "matches": 14,
+      "runs": 311,
+      "average": 28.3,
+      "strikeRate": 132.3
+    },
+    {
+      "id": "sv-samson",
+      "name": "SV Samson",
+      "role": "MIDDLE_ORDER",
+      "rating": 80,
+      "matches": 14,
+      "runs": 375,
+      "average": 31.2,
+      "strikeRate": 160.3
+    },
+    {
+      "id": "rv-uthappa",
+      "name": "RV Uthappa",
+      "role": "MIDDLE_ORDER",
+      "rating": 54,
+      "matches": 12,
+      "runs": 196,
+      "average": 17.8,
+      "strikeRate": 119.5
+    },
+    {
+      "id": "r-tewatia",
+      "name": "R Tewatia",
+      "role": "SPIN_BOWLER",
+      "rating": 68,
+      "matches": 14,
+      "runs": 255,
+      "average": 42.5,
+      "strikeRate": 140.1,
+      "wickets": 10,
+      "economy": 7.11,
+      "bowlingAverage": 32.7
+    },
+    {
+      "id": "r-parag",
+      "name": "R Parag",
+      "role": "ALL_ROUNDER",
+      "rating": 48,
+      "matches": 8,
+      "runs": 86,
+      "average": 14.3,
+      "strikeRate": 111.7
+    },
+    {
+      "id": "tk-curran",
+      "name": "TK Curran",
+      "role": "PACE_BOWLER",
+      "rating": 49,
+      "matches": 5,
+      "runs": 83,
+      "average": 83.0,
+      "strikeRate": 133.9,
+      "wickets": 3,
+      "economy": 11.56,
+      "bowlingAverage": 70.0
+    },
+    {
+      "id": "jc-archer",
+      "name": "JC Archer",
+      "role": "PACE_BOWLER",
+      "rating": 88,
+      "matches": 14,
+      "runs": 113,
+      "average": 18.8,
+      "strikeRate": 188.3,
+      "wickets": 20,
+      "economy": 6.7,
+      "bowlingAverage": 18.6
+    },
+    {
+      "id": "jd-unadkat",
+      "name": "JD Unadkat",
+      "role": "PACE_BOWLER",
+      "rating": 52,
+      "matches": 7,
+      "wickets": 4,
+      "economy": 9.96,
+      "bowlingAverage": 57.2
+    },
+    {
+      "id": "s-gopal",
+      "name": "S Gopal",
+      "role": "SPIN_BOWLER",
+      "rating": 59,
+      "matches": 14,
+      "runs": 37,
+      "average": 9.2,
+      "strikeRate": 94.9,
+      "wickets": 10,
+      "economy": 8.58,
+      "bowlingAverage": 42.9
+    },
+    {
+      "id": "jc-buttler",
+      "name": "JC Buttler",
+      "role": "MIDDLE_ORDER",
+      "rating": 76,
+      "matches": 12,
+      "runs": 328,
+      "average": 32.8,
+      "strikeRate": 144.5
+    },
+    {
+      "id": "kartik-tyagi",
+      "name": "Kartik Tyagi",
+      "role": "PACE_BOWLER",
+      "rating": 57,
+      "matches": 10,
+      "wickets": 9,
+      "economy": 9.75,
+      "bowlingAverage": 41.3
+    },
+    {
+      "id": "as-rajpoot",
+      "name": "AS Rajpoot",
+      "role": "PACE_BOWLER",
+      "rating": 45,
+      "matches": 6,
+      "wickets": 2,
+      "economy": 12.12,
+      "bowlingAverage": 103.0
+    },
+    {
+      "id": "ba-stokes",
+      "name": "BA Stokes",
+      "role": "OPENER",
+      "rating": 80,
+      "matches": 8,
+      "runs": 285,
+      "average": 40.7,
+      "strikeRate": 142.5,
+      "wickets": 2,
+      "economy": 10.6,
+      "bowlingAverage": 79.5
+    }
+  ],
+  "stats": {
+    "min": 45,
+    "max": 88,
+    "mean": 63.3
+  }
+}

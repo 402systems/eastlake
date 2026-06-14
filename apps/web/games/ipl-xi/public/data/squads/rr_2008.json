@@ -1,0 +1,172 @@
+{
+  "teamId": "rr",
+  "year": "2008",
+  "label": "Rajasthan Royals 2008",
+  "players": [
+    {
+      "id": "yk-pathan",
+      "name": "YK Pathan",
+      "role": "PACE_BOWLER",
+      "rating": 65,
+      "matches": 15,
+      "runs": 435,
+      "average": 36.2,
+      "strikeRate": 182.0,
+      "wickets": 8,
+      "economy": 8.27,
+      "bowlingAverage": 29.1,
+      "globalPercentile": 41
+    },
+    {
+      "id": "sr-watson",
+      "name": "SR Watson",
+      "role": "PACE_BOWLER",
+      "rating": 79,
+      "matches": 15,
+      "runs": 472,
+      "average": 52.4,
+      "strikeRate": 153.7,
+      "wickets": 17,
+      "economy": 7.29,
+      "bowlingAverage": 23.2,
+      "globalPercentile": 83
+    },
+    {
+      "id": "m-kaif",
+      "name": "M Kaif",
+      "role": "MIDDLE_ORDER",
+      "rating": 49,
+      "matches": 14,
+      "runs": 176,
+      "average": 19.6,
+      "strikeRate": 103.5,
+      "globalPercentile": 5
+    },
+    {
+      "id": "ra-jadeja",
+      "name": "RA Jadeja",
+      "role": "ALL_ROUNDER",
+      "rating": 59,
+      "matches": 9,
+      "runs": 135,
+      "average": 19.3,
+      "strikeRate": 135.0,
+      "globalPercentile": 30
+    },
+    {
+      "id": "d-salunkhe",
+      "name": "D Salunkhe",
+      "role": "PACE_BOWLER",
+      "rating": 46,
+      "matches": 5,
+      "runs": 33,
+      "average": 33.0,
+      "strikeRate": 137.5,
+      "wickets": 1,
+      "economy": 10.21,
+      "bowlingAverage": 80.0,
+      "globalPercentile": 3
+    },
+    {
+      "id": "sk-warne",
+      "name": "SK Warne",
+      "role": "SPIN_BOWLER",
+      "rating": 80,
+      "matches": 15,
+      "runs": 70,
+      "average": 14.0,
+      "strikeRate": 120.7,
+      "wickets": 19,
+      "economy": 7.87,
+      "bowlingAverage": 21.5,
+      "globalPercentile": 76
+    },
+    {
+      "id": "sk-trivedi",
+      "name": "SK Trivedi",
+      "role": "PACE_BOWLER",
+      "rating": 66,
+      "matches": 15,
+      "runs": 5,
+      "average": 5.0,
+      "strikeRate": 41.7,
+      "wickets": 13,
+      "economy": 8.48,
+      "bowlingAverage": 31.3,
+      "globalPercentile": 45
+    },
+    {
+      "id": "mm-patel",
+      "name": "MM Patel",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 15,
+      "wickets": 14,
+      "economy": 7.69,
+      "bowlingAverage": 30.2,
+      "globalPercentile": 61
+    },
+    {
+      "id": "kamran-akmal",
+      "name": "Kamran Akmal",
+      "role": "MIDDLE_ORDER",
+      "rating": 79,
+      "matches": 6,
+      "runs": 128,
+      "average": 32.0,
+      "strikeRate": 166.2,
+      "globalPercentile": 71
+    },
+    {
+      "id": "pankaj-singh",
+      "name": "Pankaj Singh",
+      "role": "PACE_BOWLER",
+      "rating": 41,
+      "matches": 5,
+      "wickets": 0,
+      "economy": 10.75,
+      "globalPercentile": 0
+    },
+    {
+      "id": "gc-smith",
+      "name": "GC Smith",
+      "role": "OPENER",
+      "rating": 82,
+      "matches": 11,
+      "runs": 441,
+      "average": 49.0,
+      "strikeRate": 122.2,
+      "globalPercentile": 80
+    },
+    {
+      "id": "sohail-tanvir",
+      "name": "Sohail Tanvir",
+      "role": "PACE_BOWLER",
+      "rating": 96,
+      "matches": 11,
+      "runs": 36,
+      "average": 12.0,
+      "strikeRate": 128.6,
+      "wickets": 22,
+      "economy": 6.68,
+      "bowlingAverage": 12.5,
+      "globalPercentile": 100
+    },
+    {
+      "id": "sa-asnodkar",
+      "name": "SA Asnodkar",
+      "role": "OPENER",
+      "rating": 77,
+      "matches": 9,
+      "runs": 311,
+      "average": 38.9,
+      "strikeRate": 134.6,
+      "globalPercentile": 70
+    }
+  ],
+  "stats": {
+    "min": 41,
+    "max": 96,
+    "mean": 68.5
+  }
+}

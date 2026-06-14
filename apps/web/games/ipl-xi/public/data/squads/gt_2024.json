@@ -1,0 +1,186 @@
+{
+  "teamId": "gt",
+  "year": "2024",
+  "label": "Gujarat Titans 2024",
+  "players": [
+    {
+      "id": "wp-saha",
+      "name": "WP Saha",
+      "role": "OPENER",
+      "rating": 52,
+      "matches": 9,
+      "runs": 136,
+      "average": 15.1,
+      "strikeRate": 118.3,
+      "globalPercentile": 8
+    },
+    {
+      "id": "shubman-gill",
+      "name": "Shubman Gill",
+      "role": "OPENER",
+      "rating": 80,
+      "matches": 12,
+      "runs": 426,
+      "average": 38.7,
+      "strikeRate": 147.4,
+      "globalPercentile": 76
+    },
+    {
+      "id": "b-sai-sudharsan",
+      "name": "B Sai Sudharsan",
+      "role": "MIDDLE_ORDER",
+      "rating": 88,
+      "matches": 12,
+      "runs": 527,
+      "average": 47.9,
+      "strikeRate": 143.2,
+      "globalPercentile": 88
+    },
+    {
+      "id": "azmatullah-omarzai",
+      "name": "Azmatullah Omarzai",
+      "role": "PACE_BOWLER",
+      "rating": 54,
+      "matches": 7,
+      "runs": 42,
+      "average": 10.5,
+      "strikeRate": 127.3,
+      "wickets": 4,
+      "economy": 9.24,
+      "bowlingAverage": 48.5,
+      "globalPercentile": 16
+    },
+    {
+      "id": "da-miller",
+      "name": "DA Miller",
+      "role": "MIDDLE_ORDER",
+      "rating": 77,
+      "matches": 9,
+      "runs": 210,
+      "average": 35.0,
+      "strikeRate": 151.1,
+      "globalPercentile": 66
+    },
+    {
+      "id": "v-shankar",
+      "name": "V Shankar",
+      "role": "ALL_ROUNDER",
+      "rating": 49,
+      "matches": 7,
+      "runs": 83,
+      "average": 16.6,
+      "strikeRate": 115.3,
+      "globalPercentile": 10
+    },
+    {
+      "id": "r-tewatia",
+      "name": "R Tewatia",
+      "role": "ALL_ROUNDER",
+      "rating": 72,
+      "matches": 9,
+      "runs": 188,
+      "average": 26.9,
+      "strikeRate": 149.2,
+      "globalPercentile": 65
+    },
+    {
+      "id": "rashid-khan",
+      "name": "Rashid Khan",
+      "role": "SPIN_BOWLER",
+      "rating": 62,
+      "matches": 12,
+      "runs": 102,
+      "average": 20.4,
+      "strikeRate": 147.8,
+      "wickets": 10,
+      "economy": 8.52,
+      "bowlingAverage": 37.2,
+      "globalPercentile": 24
+    },
+    {
+      "id": "ut-yadav",
+      "name": "UT Yadav",
+      "role": "PACE_BOWLER",
+      "rating": 68,
+      "matches": 7,
+      "wickets": 8,
+      "economy": 10.05,
+      "bowlingAverage": 26.4,
+      "globalPercentile": 51
+    },
+    {
+      "id": "r-sai-kishore",
+      "name": "R Sai Kishore",
+      "role": "SPIN_BOWLER",
+      "rating": 79,
+      "matches": 5,
+      "wickets": 7,
+      "economy": 9.13,
+      "bowlingAverage": 19.6,
+      "globalPercentile": 73
+    },
+    {
+      "id": "sh-johnson",
+      "name": "SH Johnson",
+      "role": "PACE_BOWLER",
+      "rating": 57,
+      "matches": 5,
+      "runs": 6,
+      "average": 6,
+      "strikeRate": 85.7,
+      "wickets": 4,
+      "economy": 9.69,
+      "bowlingAverage": 38.8,
+      "globalPercentile": 23
+    },
+    {
+      "id": "mm-sharma",
+      "name": "MM Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 61,
+      "matches": 11,
+      "wickets": 13,
+      "economy": 10.97,
+      "bowlingAverage": 32.9,
+      "globalPercentile": 33
+    },
+    {
+      "id": "noor-ahmad",
+      "name": "Noor Ahmad",
+      "role": "SPIN_BOWLER",
+      "rating": 62,
+      "matches": 10,
+      "wickets": 8,
+      "economy": 8.53,
+      "bowlingAverage": 37.1,
+      "globalPercentile": 24
+    },
+    {
+      "id": "m-shahrukh-khan",
+      "name": "M Shahrukh Khan",
+      "role": "ALL_ROUNDER",
+      "rating": 76,
+      "matches": 7,
+      "runs": 127,
+      "average": 25.4,
+      "strikeRate": 169.3,
+      "globalPercentile": 76
+    },
+    {
+      "id": "s-sandeep-warrier",
+      "name": "S Sandeep Warrier",
+      "role": "PACE_BOWLER",
+      "rating": 69,
+      "matches": 5,
+      "wickets": 6,
+      "economy": 11.09,
+      "bowlingAverage": 20.3,
+      "globalPercentile": 55
+    }
+  ],
+  "stats": {
+    "min": 49,
+    "max": 88,
+    "mean": 67.1
+  }
+}

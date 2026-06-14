@@ -1,0 +1,157 @@
+{
+  "teamId": "kkr",
+  "year": "2012",
+  "label": "Kolkata Knight Riders 2012",
+  "players": [
+    {
+      "id": "bb-mccullum",
+      "name": "BB McCullum",
+      "role": "OPENER",
+      "rating": 57,
+      "matches": 12,
+      "runs": 289,
+      "average": 24.1,
+      "strikeRate": 102.1
+    },
+    {
+      "id": "jh-kallis",
+      "name": "JH Kallis",
+      "role": "MIDDLE_ORDER",
+      "rating": 58,
+      "matches": 17,
+      "runs": 409,
+      "average": 25.6,
+      "strikeRate": 107.1,
+      "wickets": 15,
+      "economy": 7.59,
+      "bowlingAverage": 27.3
+    },
+    {
+      "id": "g-gambhir",
+      "name": "G Gambhir",
+      "role": "OPENER",
+      "rating": 81,
+      "matches": 17,
+      "runs": 590,
+      "average": 42.1,
+      "strikeRate": 143.6
+    },
+    {
+      "id": "mk-tiwary",
+      "name": "MK Tiwary",
+      "role": "ALL_ROUNDER",
+      "rating": 57,
+      "matches": 15,
+      "runs": 260,
+      "average": 26.0,
+      "strikeRate": 105.7
+    },
+    {
+      "id": "yk-pathan",
+      "name": "YK Pathan",
+      "role": "ALL_ROUNDER",
+      "rating": 53,
+      "matches": 16,
+      "runs": 194,
+      "average": 19.4,
+      "strikeRate": 116.9,
+      "wickets": 3,
+      "economy": 8.36,
+      "bowlingAverage": 61.3
+    },
+    {
+      "id": "db-das",
+      "name": "DB Das",
+      "role": "ALL_ROUNDER",
+      "rating": 70,
+      "matches": 10,
+      "runs": 126,
+      "average": 126.0,
+      "strikeRate": 137.0
+    },
+    {
+      "id": "r-bhatia",
+      "name": "R Bhatia",
+      "role": "PACE_BOWLER",
+      "rating": 69,
+      "matches": 16,
+      "runs": 35,
+      "average": 11.7,
+      "strikeRate": 125.0,
+      "wickets": 13,
+      "economy": 7.52,
+      "bowlingAverage": 30.8
+    },
+    {
+      "id": "b-lee",
+      "name": "B Lee",
+      "role": "PACE_BOWLER",
+      "rating": 61,
+      "matches": 10,
+      "runs": 42,
+      "average": 21.0,
+      "strikeRate": 210.0,
+      "wickets": 7,
+      "economy": 7.97,
+      "bowlingAverage": 43.3
+    },
+    {
+      "id": "iqbal-abdulla",
+      "name": "Iqbal Abdulla",
+      "role": "SPIN_BOWLER",
+      "rating": 64,
+      "matches": 8,
+      "wickets": 4,
+      "economy": 6.68,
+      "bowlingAverage": 36.8
+    },
+    {
+      "id": "sp-narine",
+      "name": "SP Narine",
+      "role": "SPIN_BOWLER",
+      "rating": 95,
+      "matches": 15,
+      "wickets": 24,
+      "economy": 5.61,
+      "bowlingAverage": 13.8
+    },
+    {
+      "id": "ms-bisla",
+      "name": "MS Bisla",
+      "role": "OPENER",
+      "rating": 70,
+      "matches": 7,
+      "runs": 213,
+      "average": 30.4,
+      "strikeRate": 133.1
+    },
+    {
+      "id": "shakib-al-hasan",
+      "name": "Shakib Al Hasan",
+      "role": "SPIN_BOWLER",
+      "rating": 90,
+      "matches": 8,
+      "runs": 91,
+      "average": 15.2,
+      "strikeRate": 124.7,
+      "wickets": 12,
+      "economy": 6.77,
+      "bowlingAverage": 16.9
+    },
+    {
+      "id": "l-balaji",
+      "name": "L Balaji",
+      "role": "PACE_BOWLER",
+      "rating": 92,
+      "matches": 8,
+      "wickets": 11,
+      "economy": 5.63,
+      "bowlingAverage": 15.4
+    }
+  ],
+  "stats": {
+    "min": 53,
+    "max": 95,
+    "mean": 70.5
+  }
+}

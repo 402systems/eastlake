@@ -1,0 +1,153 @@
+{
+  "teamId": "rr",
+  "year": "2022",
+  "label": "Rajasthan Royals 2022",
+  "players": [
+    {
+      "id": "jc-buttler",
+      "name": "JC Buttler",
+      "role": "OPENER",
+      "rating": 92,
+      "matches": 17,
+      "runs": 863,
+      "average": 57.5,
+      "strikeRate": 150.3,
+      "globalPercentile": 95
+    },
+    {
+      "id": "ybk-jaiswal",
+      "name": "YBK Jaiswal",
+      "role": "OPENER",
+      "rating": 66,
+      "matches": 10,
+      "runs": 258,
+      "average": 25.8,
+      "strikeRate": 135.1,
+      "globalPercentile": 38
+    },
+    {
+      "id": "sv-samson",
+      "name": "SV Samson",
+      "role": "MIDDLE_ORDER",
+      "rating": 74,
+      "matches": 17,
+      "runs": 458,
+      "average": 28.6,
+      "strikeRate": 147.3,
+      "globalPercentile": 60
+    },
+    {
+      "id": "d-padikkal",
+      "name": "D Padikkal",
+      "role": "MIDDLE_ORDER",
+      "rating": 61,
+      "matches": 17,
+      "runs": 376,
+      "average": 22.1,
+      "strikeRate": 123.3,
+      "globalPercentile": 23
+    },
+    {
+      "id": "so-hetmyer",
+      "name": "SO Hetmyer",
+      "role": "ALL_ROUNDER",
+      "rating": 81,
+      "matches": 15,
+      "runs": 314,
+      "average": 44.9,
+      "strikeRate": 153.9,
+      "globalPercentile": 86
+    },
+    {
+      "id": "r-parag",
+      "name": "R Parag",
+      "role": "ALL_ROUNDER",
+      "rating": 59,
+      "matches": 14,
+      "runs": 183,
+      "average": 18.3,
+      "strikeRate": 138.6,
+      "wickets": 1,
+      "economy": 14.75,
+      "bowlingAverage": 59.0,
+      "globalPercentile": 30
+    },
+    {
+      "id": "ta-boult",
+      "name": "TA Boult",
+      "role": "PACE_BOWLER",
+      "rating": 70,
+      "matches": 16,
+      "runs": 40,
+      "average": 20.0,
+      "strikeRate": 137.9,
+      "wickets": 16,
+      "economy": 8.08,
+      "bowlingAverage": 31.3,
+      "globalPercentile": 58
+    },
+    {
+      "id": "m-prasidh-krishna",
+      "name": "M Prasidh Krishna",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 17,
+      "wickets": 19,
+      "economy": 8.48,
+      "bowlingAverage": 29.7,
+      "globalPercentile": 61
+    },
+    {
+      "id": "r-ashwin",
+      "name": "R Ashwin",
+      "role": "SPIN_BOWLER",
+      "rating": 62,
+      "matches": 17,
+      "runs": 191,
+      "average": 27.3,
+      "strikeRate": 142.5,
+      "wickets": 12,
+      "economy": 7.55,
+      "bowlingAverage": 42.2,
+      "globalPercentile": 24
+    },
+    {
+      "id": "ys-chahal",
+      "name": "YS Chahal",
+      "role": "SPIN_BOWLER",
+      "rating": 86,
+      "matches": 17,
+      "wickets": 27,
+      "economy": 7.88,
+      "bowlingAverage": 19.9,
+      "globalPercentile": 92
+    },
+    {
+      "id": "kr-sen",
+      "name": "KR Sen",
+      "role": "PACE_BOWLER",
+      "rating": 67,
+      "matches": 7,
+      "wickets": 8,
+      "economy": 9.54,
+      "bowlingAverage": 30.0,
+      "globalPercentile": 48
+    },
+    {
+      "id": "oc-mccoy",
+      "name": "OC McCoy",
+      "role": "PACE_BOWLER",
+      "rating": 79,
+      "matches": 7,
+      "wickets": 11,
+      "economy": 9.37,
+      "bowlingAverage": 22.0,
+      "globalPercentile": 83
+    }
+  ],
+  "stats": {
+    "min": 59,
+    "max": 92,
+    "mean": 72.3
+  }
+}

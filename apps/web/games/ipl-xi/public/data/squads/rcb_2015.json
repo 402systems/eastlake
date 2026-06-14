@@ -1,0 +1,164 @@
+{
+  "teamId": "rcb",
+  "year": "2015",
+  "label": "Royal Challengers Bangalore 2015",
+  "players": [
+    {
+      "id": "ch-gayle",
+      "name": "CH Gayle",
+      "role": "OPENER",
+      "rating": 81,
+      "matches": 14,
+      "runs": 491,
+      "average": 40.9,
+      "strikeRate": 148.3,
+      "globalPercentile": 78
+    },
+    {
+      "id": "v-kohli",
+      "name": "V Kohli",
+      "role": "OPENER",
+      "rating": 78,
+      "matches": 16,
+      "runs": 505,
+      "average": 45.9,
+      "strikeRate": 130.8,
+      "globalPercentile": 73
+    },
+    {
+      "id": "kd-karthik",
+      "name": "KD Karthik",
+      "role": "MIDDLE_ORDER",
+      "rating": 52,
+      "matches": 11,
+      "runs": 141,
+      "average": 15.7,
+      "strikeRate": 120.5,
+      "globalPercentile": 9
+    },
+    {
+      "id": "mandeep-singh",
+      "name": "Mandeep Singh",
+      "role": "MIDDLE_ORDER",
+      "rating": 72,
+      "matches": 8,
+      "runs": 157,
+      "average": 26.2,
+      "strikeRate": 157.0,
+      "globalPercentile": 53
+    },
+    {
+      "id": "ab-de-villiers",
+      "name": "AB de Villiers",
+      "role": "MIDDLE_ORDER",
+      "rating": 97,
+      "matches": 14,
+      "runs": 513,
+      "average": 64.1,
+      "strikeRate": 176.3,
+      "globalPercentile": 98
+    },
+    {
+      "id": "hv-patel",
+      "name": "HV Patel",
+      "role": "PACE_BOWLER",
+      "rating": 81,
+      "matches": 14,
+      "runs": 19,
+      "average": 4.8,
+      "strikeRate": 158.3,
+      "wickets": 17,
+      "economy": 7.73,
+      "bowlingAverage": 19.9,
+      "globalPercentile": 86
+    },
+    {
+      "id": "vr-aaron",
+      "name": "VR Aaron",
+      "role": "PACE_BOWLER",
+      "rating": 51,
+      "matches": 5,
+      "wickets": 3,
+      "economy": 10.38,
+      "bowlingAverage": 60.0,
+      "globalPercentile": 9
+    },
+    {
+      "id": "ys-chahal",
+      "name": "YS Chahal",
+      "role": "SPIN_BOWLER",
+      "rating": 84,
+      "matches": 14,
+      "wickets": 23,
+      "economy": 8.88,
+      "bowlingAverage": 18.1,
+      "globalPercentile": 88
+    },
+    {
+      "id": "d-wiese",
+      "name": "D Wiese",
+      "role": "PACE_BOWLER",
+      "rating": 77,
+      "matches": 13,
+      "runs": 122,
+      "average": 30.5,
+      "strikeRate": 143.5,
+      "wickets": 16,
+      "economy": 8.5,
+      "bowlingAverage": 22.5,
+      "globalPercentile": 78
+    },
+    {
+      "id": "iqbal-abdulla",
+      "name": "Iqbal Abdulla",
+      "role": "SPIN_BOWLER",
+      "rating": 64,
+      "matches": 5,
+      "wickets": 4,
+      "economy": 7.89,
+      "bowlingAverage": 37.5,
+      "globalPercentile": 29
+    },
+    {
+      "id": "sn-khan",
+      "name": "SN Khan",
+      "role": "ALL_ROUNDER",
+      "rating": 72,
+      "matches": 7,
+      "runs": 111,
+      "average": 27.8,
+      "strikeRate": 158.6,
+      "globalPercentile": 65
+    },
+    {
+      "id": "ma-starc",
+      "name": "MA Starc",
+      "role": "PACE_BOWLER",
+      "rating": 92,
+      "matches": 12,
+      "runs": 11,
+      "average": 11.0,
+      "strikeRate": 78.6,
+      "wickets": 20,
+      "economy": 7.12,
+      "bowlingAverage": 15.3,
+      "globalPercentile": 99
+    },
+    {
+      "id": "s-aravind",
+      "name": "S Aravind",
+      "role": "PACE_BOWLER",
+      "rating": 90,
+      "matches": 5,
+      "wickets": 8,
+      "economy": 7.33,
+      "bowlingAverage": 16.5,
+      "globalPercentile": 97
+    }
+  ],
+  "stats": {
+    "min": 51,
+    "max": 97,
+    "mean": 76.2
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "teamId": "kkr",
+  "year": "2021",
+  "label": "Kolkata Knight Riders 2021",
+  "players": [
+    {
+      "id": "n-rana",
+      "name": "N Rana",
+      "role": "MIDDLE_ORDER",
+      "rating": 65,
+      "matches": 16,
+      "runs": 383,
+      "average": 29.5,
+      "strikeRate": 122.4,
+      "globalPercentile": 35
+    },
+    {
+      "id": "shubman-gill",
+      "name": "Shubman Gill",
+      "role": "OPENER",
+      "rating": 65,
+      "matches": 17,
+      "runs": 478,
+      "average": 28.1,
+      "strikeRate": 119.2,
+      "globalPercentile": 34
+    },
+    {
+      "id": "ra-tripathi",
+      "name": "RA Tripathi",
+      "role": "MIDDLE_ORDER",
+      "rating": 71,
+      "matches": 16,
+      "runs": 397,
+      "average": 28.4,
+      "strikeRate": 140.8,
+      "globalPercentile": 49
+    },
+    {
+      "id": "ad-russell",
+      "name": "AD Russell",
+      "role": "PACE_BOWLER",
+      "rating": 77,
+      "matches": 8,
+      "runs": 183,
+      "average": 30.5,
+      "strikeRate": 156.4,
+      "wickets": 11,
+      "economy": 9.95,
+      "bowlingAverage": 17.2,
+      "globalPercentile": 78
+    },
+    {
+      "id": "ejg-morgan",
+      "name": "EJG Morgan",
+      "role": "ALL_ROUNDER",
+      "rating": 45,
+      "matches": 15,
+      "runs": 133,
+      "average": 12.1,
+      "strikeRate": 95.7,
+      "globalPercentile": 3
+    },
+    {
+      "id": "kd-karthik",
+      "name": "KD Karthik",
+      "role": "ALL_ROUNDER",
+      "rating": 60,
+      "matches": 15,
+      "runs": 223,
+      "average": 22.3,
+      "strikeRate": 131.2,
+      "globalPercentile": 33
+    },
+    {
+      "id": "shakib-al-hasan",
+      "name": "Shakib Al Hasan",
+      "role": "SPIN_BOWLER",
+      "rating": 60,
+      "matches": 8,
+      "runs": 47,
+      "average": 9.4,
+      "strikeRate": 97.9,
+      "wickets": 4,
+      "economy": 7.23,
+      "bowlingAverage": 47.0,
+      "globalPercentile": 20
+    },
+    {
+      "id": "m-prasidh-krishna",
+      "name": "M Prasidh Krishna",
+      "role": "PACE_BOWLER",
+      "rating": 69,
+      "matches": 10,
+      "wickets": 12,
+      "economy": 9.27,
+      "bowlingAverage": 29.8,
+      "globalPercentile": 55
+    },
+    {
+      "id": "pj-cummins",
+      "name": "PJ Cummins",
+      "role": "PACE_BOWLER",
+      "rating": 74,
+      "matches": 7,
+      "runs": 93,
+      "average": 31.0,
+      "strikeRate": 166.1,
+      "wickets": 9,
+      "economy": 8.83,
+      "bowlingAverage": 26.3,
+      "globalPercentile": 69
+    },
+    {
+      "id": "cv-varun",
+      "name": "CV Varun",
+      "role": "SPIN_BOWLER",
+      "rating": 79,
+      "matches": 17,
+      "wickets": 18,
+      "economy": 6.71,
+      "bowlingAverage": 25.3,
+      "globalPercentile": 73
+    },
+    {
+      "id": "sp-narine",
+      "name": "SP Narine",
+      "role": "SPIN_BOWLER",
+      "rating": 82,
+      "matches": 14,
+      "runs": 62,
+      "average": 7.8,
+      "strikeRate": 131.9,
+      "wickets": 16,
+      "economy": 6.59,
+      "bowlingAverage": 23.1,
+      "globalPercentile": 82
+    },
+    {
+      "id": "shivam-mavi",
+      "name": "Shivam Mavi",
+      "role": "PACE_BOWLER",
+      "rating": 80,
+      "matches": 9,
+      "wickets": 11,
+      "economy": 7.52,
+      "bowlingAverage": 22.0,
+      "globalPercentile": 84
+    },
+    {
+      "id": "vr-iyer",
+      "name": "VR Iyer",
+      "role": "PACE_BOWLER",
+      "rating": 70,
+      "matches": 10,
+      "runs": 370,
+      "average": 41.1,
+      "strikeRate": 128.5,
+      "wickets": 3,
+      "economy": 8.35,
+      "bowlingAverage": 23.7,
+      "globalPercentile": 58
+    },
+    {
+      "id": "lh-ferguson",
+      "name": "LH Ferguson",
+      "role": "PACE_BOWLER",
+      "rating": 89,
+      "matches": 8,
+      "wickets": 13,
+      "economy": 7.53,
+      "bowlingAverage": 17.4,
+      "globalPercentile": 96
+    }
+  ],
+  "stats": {
+    "min": 45,
+    "max": 89,
+    "mean": 70.4
+  }
+}

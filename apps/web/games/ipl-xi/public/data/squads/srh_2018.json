@@ -1,0 +1,159 @@
+{
+  "teamId": "srh",
+  "year": "2018",
+  "label": "Sunrisers Hyderabad 2018",
+  "players": [
+    {
+      "id": "wp-saha",
+      "name": "WP Saha",
+      "role": "MIDDLE_ORDER",
+      "rating": 51,
+      "matches": 10,
+      "runs": 122,
+      "average": 15.2,
+      "strikeRate": 119.6,
+      "globalPercentile": 8
+    },
+    {
+      "id": "s-dhawan",
+      "name": "S Dhawan",
+      "role": "OPENER",
+      "rating": 74,
+      "matches": 16,
+      "runs": 497,
+      "average": 35.5,
+      "strikeRate": 137.3,
+      "globalPercentile": 63
+    },
+    {
+      "id": "ks-williamson",
+      "name": "KS Williamson",
+      "role": "MIDDLE_ORDER",
+      "rating": 89,
+      "matches": 17,
+      "runs": 735,
+      "average": 52.5,
+      "strikeRate": 142.7,
+      "globalPercentile": 90
+    },
+    {
+      "id": "b-kumar",
+      "name": "B Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 62,
+      "matches": 12,
+      "runs": 13,
+      "average": 13.0,
+      "strikeRate": 81.2,
+      "wickets": 9,
+      "economy": 7.73,
+      "bowlingAverage": 39.7,
+      "globalPercentile": 35
+    },
+    {
+      "id": "shakib-al-hasan",
+      "name": "Shakib Al Hasan",
+      "role": "SPIN_BOWLER",
+      "rating": 66,
+      "matches": 17,
+      "runs": 239,
+      "average": 26.6,
+      "strikeRate": 122.6,
+      "wickets": 14,
+      "economy": 8.04,
+      "bowlingAverage": 32.7,
+      "globalPercentile": 36
+    },
+    {
+      "id": "s-kaul",
+      "name": "S Kaul",
+      "role": "PACE_BOWLER",
+      "rating": 75,
+      "matches": 17,
+      "runs": 3,
+      "average": 1.5,
+      "strikeRate": 21.4,
+      "wickets": 21,
+      "economy": 8.45,
+      "bowlingAverage": 26.6,
+      "globalPercentile": 72
+    },
+    {
+      "id": "rashid-khan",
+      "name": "Rashid Khan",
+      "role": "SPIN_BOWLER",
+      "rating": 83,
+      "matches": 17,
+      "runs": 59,
+      "average": 11.8,
+      "strikeRate": 190.3,
+      "wickets": 21,
+      "economy": 6.85,
+      "bowlingAverage": 22.2,
+      "globalPercentile": 85
+    },
+    {
+      "id": "mk-pandey",
+      "name": "MK Pandey",
+      "role": "MIDDLE_ORDER",
+      "rating": 60,
+      "matches": 13,
+      "runs": 284,
+      "average": 25.8,
+      "strikeRate": 115.4,
+      "globalPercentile": 21
+    },
+    {
+      "id": "dj-hooda",
+      "name": "DJ Hooda",
+      "role": "ALL_ROUNDER",
+      "rating": 51,
+      "matches": 8,
+      "runs": 87,
+      "average": 21.8,
+      "strikeRate": 107.4,
+      "globalPercentile": 12
+    },
+    {
+      "id": "yk-pathan",
+      "name": "YK Pathan",
+      "role": "ALL_ROUNDER",
+      "rating": 65,
+      "matches": 13,
+      "runs": 260,
+      "average": 28.9,
+      "strikeRate": 130.0,
+      "globalPercentile": 46
+    },
+    {
+      "id": "sandeep-sharma",
+      "name": "Sandeep Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 73,
+      "matches": 12,
+      "runs": 0,
+      "average": 0.0,
+      "strikeRate": 0.0,
+      "wickets": 12,
+      "economy": 7.59,
+      "bowlingAverage": 27.8,
+      "globalPercentile": 67
+    },
+    {
+      "id": "ad-hales",
+      "name": "AD Hales",
+      "role": "OPENER",
+      "rating": 63,
+      "matches": 6,
+      "runs": 148,
+      "average": 24.7,
+      "strikeRate": 126.5,
+      "globalPercentile": 28
+    }
+  ],
+  "stats": {
+    "min": 51,
+    "max": 89,
+    "mean": 67.7
+  }
+}

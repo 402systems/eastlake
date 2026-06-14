@@ -1,0 +1,167 @@
+{
+  "teamId": "gt",
+  "year": "2025",
+  "label": "Gujarat Titans 2025",
+  "players": [
+    {
+      "id": "b-sai-sudharsan",
+      "name": "B Sai Sudharsan",
+      "role": "OPENER",
+      "rating": 93,
+      "matches": 15,
+      "runs": 759,
+      "average": 54.2,
+      "strikeRate": 156.2,
+      "globalPercentile": 97
+    },
+    {
+      "id": "shubman-gill",
+      "name": "Shubman Gill",
+      "role": "OPENER",
+      "rating": 93,
+      "matches": 15,
+      "runs": 650,
+      "average": 54.2,
+      "strikeRate": 157.0,
+      "globalPercentile": 97
+    },
+    {
+      "id": "jc-buttler",
+      "name": "JC Buttler",
+      "role": "MIDDLE_ORDER",
+      "rating": 96,
+      "matches": 13,
+      "runs": 538,
+      "average": 59.8,
+      "strikeRate": 163.0,
+      "globalPercentile": 97
+    },
+    {
+      "id": "se-rutherford",
+      "name": "SE Rutherford",
+      "role": "MIDDLE_ORDER",
+      "rating": 79,
+      "matches": 11,
+      "runs": 291,
+      "average": 32.3,
+      "strikeRate": 158.2,
+      "globalPercentile": 71
+    },
+    {
+      "id": "r-tewatia",
+      "name": "R Tewatia",
+      "role": "ALL_ROUNDER",
+      "rating": 66,
+      "matches": 11,
+      "runs": 99,
+      "average": 16.5,
+      "strikeRate": 167.8,
+      "globalPercentile": 50
+    },
+    {
+      "id": "arshad-khan",
+      "name": "Arshad Khan",
+      "role": "PACE_BOWLER",
+      "rating": 53,
+      "matches": 9,
+      "runs": 23,
+      "average": 11.5,
+      "strikeRate": 121.1,
+      "wickets": 6,
+      "economy": 10.48,
+      "bowlingAverage": 36.7,
+      "globalPercentile": 13
+    },
+    {
+      "id": "m-shahrukh-khan",
+      "name": "M Shahrukh Khan",
+      "role": "ALL_ROUNDER",
+      "rating": 81,
+      "matches": 11,
+      "runs": 179,
+      "average": 29.8,
+      "strikeRate": 179.0,
+      "globalPercentile": 86
+    },
+    {
+      "id": "mohammed-siraj",
+      "name": "Mohammed Siraj",
+      "role": "PACE_BOWLER",
+      "rating": 64,
+      "matches": 15,
+      "wickets": 16,
+      "economy": 9.47,
+      "bowlingAverage": 33.8,
+      "globalPercentile": 38
+    },
+    {
+      "id": "rashid-khan",
+      "name": "Rashid Khan",
+      "role": "SPIN_BOWLER",
+      "rating": 54,
+      "matches": 15,
+      "runs": 40,
+      "average": 8.0,
+      "strikeRate": 142.9,
+      "wickets": 9,
+      "economy": 9.51,
+      "bowlingAverage": 58.1,
+      "globalPercentile": 4
+    },
+    {
+      "id": "m-prasidh-krishna",
+      "name": "M Prasidh Krishna",
+      "role": "PACE_BOWLER",
+      "rating": 84,
+      "matches": 15,
+      "wickets": 25,
+      "economy": 8.58,
+      "bowlingAverage": 20.2,
+      "globalPercentile": 90
+    },
+    {
+      "id": "r-sai-kishore",
+      "name": "R Sai Kishore",
+      "role": "PACE_BOWLER",
+      "rating": 76,
+      "matches": 14,
+      "runs": 5,
+      "average": 2.5,
+      "strikeRate": 50.0,
+      "wickets": 19,
+      "economy": 9.42,
+      "bowlingAverage": 20.7,
+      "globalPercentile": 75
+    },
+    {
+      "id": "i-sharma",
+      "name": "I Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 48,
+      "matches": 7,
+      "wickets": 4,
+      "economy": 11.45,
+      "bowlingAverage": 52.5,
+      "globalPercentile": 5
+    },
+    {
+      "id": "washington-sundar",
+      "name": "Washington Sundar",
+      "role": "SPIN_BOWLER",
+      "rating": 48,
+      "matches": 5,
+      "runs": 133,
+      "average": 26.6,
+      "strikeRate": 166.2,
+      "wickets": 2,
+      "economy": 10.34,
+      "bowlingAverage": 56.0,
+      "globalPercentile": 0
+    }
+  ],
+  "stats": {
+    "min": 48,
+    "max": 96,
+    "mean": 71.9
+  }
+}

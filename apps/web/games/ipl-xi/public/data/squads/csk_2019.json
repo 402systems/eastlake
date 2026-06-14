@@ -1,0 +1,150 @@
+{
+  "teamId": "csk",
+  "year": "2019",
+  "label": "Chennai Super Kings 2019",
+  "players": [
+    {
+      "id": "sr-watson",
+      "name": "SR Watson",
+      "role": "OPENER",
+      "rating": 62,
+      "matches": 17,
+      "runs": 398,
+      "average": 23.4,
+      "strikeRate": 128.0,
+      "globalPercentile": 25
+    },
+    {
+      "id": "at-rayudu",
+      "name": "AT Rayudu",
+      "role": "MIDDLE_ORDER",
+      "rating": 53,
+      "matches": 17,
+      "runs": 282,
+      "average": 23.5,
+      "strikeRate": 93.7,
+      "globalPercentile": 12
+    },
+    {
+      "id": "sk-raina",
+      "name": "SK Raina",
+      "role": "MIDDLE_ORDER",
+      "rating": 62,
+      "matches": 17,
+      "runs": 383,
+      "average": 23.9,
+      "strikeRate": 122.8,
+      "globalPercentile": 25
+    },
+    {
+      "id": "km-jadhav",
+      "name": "KM Jadhav",
+      "role": "ALL_ROUNDER",
+      "rating": 51,
+      "matches": 12,
+      "runs": 162,
+      "average": 18.0,
+      "strikeRate": 97.6,
+      "globalPercentile": 12
+    },
+    {
+      "id": "ra-jadeja",
+      "name": "RA Jadeja",
+      "role": "SPIN_BOWLER",
+      "rating": 79,
+      "matches": 16,
+      "runs": 106,
+      "average": 53.0,
+      "strikeRate": 121.8,
+      "wickets": 15,
+      "economy": 6.43,
+      "bowlingAverage": 23.1,
+      "globalPercentile": 73
+    },
+    {
+      "id": "dl-chahar",
+      "name": "DL Chahar",
+      "role": "PACE_BOWLER",
+      "rating": 81,
+      "matches": 17,
+      "wickets": 22,
+      "economy": 7.53,
+      "bowlingAverage": 22.1,
+      "globalPercentile": 86
+    },
+    {
+      "id": "harbhajan-singh",
+      "name": "Harbhajan Singh",
+      "role": "SPIN_BOWLER",
+      "rating": 86,
+      "matches": 11,
+      "wickets": 16,
+      "economy": 7.16,
+      "bowlingAverage": 19.7,
+      "globalPercentile": 92
+    },
+    {
+      "id": "imran-tahir",
+      "name": "Imran Tahir",
+      "role": "SPIN_BOWLER",
+      "rating": 90,
+      "matches": 17,
+      "wickets": 26,
+      "economy": 6.84,
+      "bowlingAverage": 16.9,
+      "globalPercentile": 98
+    },
+    {
+      "id": "ms-dhoni",
+      "name": "MS Dhoni",
+      "role": "ALL_ROUNDER",
+      "rating": 81,
+      "matches": 12,
+      "runs": 416,
+      "average": 104.0,
+      "strikeRate": 136.4,
+      "globalPercentile": 86
+    },
+    {
+      "id": "dj-bravo",
+      "name": "DJ Bravo",
+      "role": "PACE_BOWLER",
+      "rating": 67,
+      "matches": 11,
+      "runs": 80,
+      "average": 16.0,
+      "strikeRate": 121.2,
+      "wickets": 10,
+      "economy": 8.2,
+      "bowlingAverage": 33.6,
+      "globalPercentile": 48
+    },
+    {
+      "id": "sn-thakur",
+      "name": "SN Thakur",
+      "role": "PACE_BOWLER",
+      "rating": 61,
+      "matches": 9,
+      "wickets": 8,
+      "economy": 9.5,
+      "bowlingAverage": 35.6,
+      "globalPercentile": 33
+    },
+    {
+      "id": "f-du-plessis",
+      "name": "F du Plessis",
+      "role": "OPENER",
+      "rating": 72,
+      "matches": 12,
+      "runs": 396,
+      "average": 36.0,
+      "strikeRate": 123.4,
+      "globalPercentile": 55
+    }
+  ],
+  "stats": {
+    "min": 51,
+    "max": 90,
+    "mean": 70.4
+  }
+}

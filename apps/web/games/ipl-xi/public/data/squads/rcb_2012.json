@@ -1,0 +1,160 @@
+{
+  "teamId": "rcb",
+  "year": "2012",
+  "label": "Royal Challengers Bangalore 2012",
+  "players": [
+    {
+      "id": "v-kohli",
+      "name": "V Kohli",
+      "role": "MIDDLE_ORDER",
+      "rating": 62,
+      "matches": 15,
+      "runs": 364,
+      "average": 30.3,
+      "strikeRate": 112.0,
+      "globalPercentile": 25
+    },
+    {
+      "id": "ab-de-villiers",
+      "name": "AB de Villiers",
+      "role": "ALL_ROUNDER",
+      "rating": 85,
+      "matches": 13,
+      "runs": 319,
+      "average": 39.9,
+      "strikeRate": 161.9,
+      "globalPercentile": 92
+    },
+    {
+      "id": "ss-tiwary",
+      "name": "SS Tiwary",
+      "role": "ALL_ROUNDER",
+      "rating": 56,
+      "matches": 11,
+      "runs": 191,
+      "average": 23.9,
+      "strikeRate": 114.4,
+      "globalPercentile": 23
+    },
+    {
+      "id": "ma-agarwal",
+      "name": "MA Agarwal",
+      "role": "MIDDLE_ORDER",
+      "rating": 65,
+      "matches": 12,
+      "runs": 225,
+      "average": 20.5,
+      "strikeRate": 143.3,
+      "globalPercentile": 35
+    },
+    {
+      "id": "dl-vettori",
+      "name": "DL Vettori",
+      "role": "PACE_BOWLER",
+      "rating": 62,
+      "matches": 9,
+      "runs": 31,
+      "average": 10.3,
+      "strikeRate": 119.2,
+      "wickets": 5,
+      "economy": 6.89,
+      "bowlingAverage": 48.2,
+      "globalPercentile": 35
+    },
+    {
+      "id": "r-vinay-kumar",
+      "name": "R Vinay Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 76,
+      "matches": 14,
+      "runs": 68,
+      "average": 13.6,
+      "strikeRate": 109.7,
+      "wickets": 19,
+      "economy": 8.74,
+      "bowlingAverage": 25.7,
+      "globalPercentile": 75
+    },
+    {
+      "id": "hv-patel",
+      "name": "HV Patel",
+      "role": "PACE_BOWLER",
+      "rating": 61,
+      "matches": 11,
+      "runs": 15,
+      "average": 7.5,
+      "strikeRate": 100.0,
+      "wickets": 9,
+      "economy": 8.59,
+      "bowlingAverage": 39.1,
+      "globalPercentile": 33
+    },
+    {
+      "id": "z-khan",
+      "name": "Z Khan",
+      "role": "PACE_BOWLER",
+      "rating": 75,
+      "matches": 15,
+      "runs": 12,
+      "average": 6.0,
+      "strikeRate": 70.6,
+      "wickets": 17,
+      "economy": 7.8,
+      "bowlingAverage": 27.5,
+      "globalPercentile": 72
+    },
+    {
+      "id": "m-muralitharan",
+      "name": "M Muralitharan",
+      "role": "SPIN_BOWLER",
+      "rating": 90,
+      "matches": 10,
+      "wickets": 15,
+      "economy": 6.6,
+      "bowlingAverage": 17.6,
+      "globalPercentile": 98
+    },
+    {
+      "id": "ch-gayle",
+      "name": "CH Gayle",
+      "role": "OPENER",
+      "rating": 95,
+      "matches": 14,
+      "runs": 733,
+      "average": 61.1,
+      "strikeRate": 162.5,
+      "wickets": 0,
+      "economy": 14.36,
+      "globalPercentile": 99
+    },
+    {
+      "id": "tm-dilshan",
+      "name": "TM Dilshan",
+      "role": "OPENER",
+      "rating": 71,
+      "matches": 9,
+      "runs": 285,
+      "average": 40.7,
+      "strikeRate": 110.0,
+      "wickets": 0,
+      "economy": 11.14,
+      "globalPercentile": 52
+    },
+    {
+      "id": "kp-appanna",
+      "name": "KP Appanna",
+      "role": "SPIN_BOWLER",
+      "rating": 71,
+      "matches": 6,
+      "wickets": 6,
+      "economy": 8.76,
+      "bowlingAverage": 24.8,
+      "globalPercentile": 49
+    }
+  ],
+  "stats": {
+    "min": 56,
+    "max": 95,
+    "mean": 72.4
+  }
+}

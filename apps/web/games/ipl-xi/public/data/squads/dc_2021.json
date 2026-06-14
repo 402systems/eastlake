@@ -1,0 +1,170 @@
+{
+  "teamId": "dc",
+  "year": "2021",
+  "label": "Delhi Capitals 2021",
+  "players": [
+    {
+      "id": "pp-shaw",
+      "name": "PP Shaw",
+      "role": "OPENER",
+      "rating": 79,
+      "matches": 15,
+      "runs": 479,
+      "average": 34.2,
+      "strikeRate": 159.7,
+      "globalPercentile": 74
+    },
+    {
+      "id": "s-dhawan",
+      "name": "S Dhawan",
+      "role": "OPENER",
+      "rating": 75,
+      "matches": 16,
+      "runs": 587,
+      "average": 39.1,
+      "strikeRate": 124.6,
+      "globalPercentile": 65
+    },
+    {
+      "id": "rr-pant",
+      "name": "RR Pant",
+      "role": "MIDDLE_ORDER",
+      "rating": 71,
+      "matches": 16,
+      "runs": 424,
+      "average": 35.3,
+      "strikeRate": 129.3,
+      "globalPercentile": 49
+    },
+    {
+      "id": "mp-stoinis",
+      "name": "MP Stoinis",
+      "role": "PACE_BOWLER",
+      "rating": 44,
+      "matches": 8,
+      "runs": 89,
+      "average": 22.2,
+      "strikeRate": 125.4,
+      "wickets": 2,
+      "economy": 11.1,
+      "bowlingAverage": 62.0,
+      "globalPercentile": 1
+    },
+    {
+      "id": "avesh-khan",
+      "name": "Avesh Khan",
+      "role": "PACE_BOWLER",
+      "rating": 85,
+      "matches": 16,
+      "wickets": 24,
+      "economy": 7.64,
+      "bowlingAverage": 19.4,
+      "globalPercentile": 92
+    },
+    {
+      "id": "r-ashwin",
+      "name": "R Ashwin",
+      "role": "SPIN_BOWLER",
+      "rating": 60,
+      "matches": 13,
+      "runs": 44,
+      "average": 14.7,
+      "strikeRate": 104.8,
+      "wickets": 7,
+      "economy": 7.48,
+      "bowlingAverage": 47.7,
+      "globalPercentile": 20
+    },
+    {
+      "id": "lalit-yadav",
+      "name": "Lalit Yadav",
+      "role": "PACE_BOWLER",
+      "rating": 73,
+      "matches": 5,
+      "runs": 68,
+      "average": 34.0,
+      "strikeRate": 97.1,
+      "wickets": 4,
+      "economy": 7.21,
+      "bowlingAverage": 25.2,
+      "globalPercentile": 67
+    },
+    {
+      "id": "k-rabada",
+      "name": "K Rabada",
+      "role": "PACE_BOWLER",
+      "rating": 69,
+      "matches": 15,
+      "runs": 13,
+      "average": 13,
+      "strikeRate": 216.7,
+      "wickets": 15,
+      "economy": 8.29,
+      "bowlingAverage": 30.9,
+      "globalPercentile": 55
+    },
+    {
+      "id": "spd-smith",
+      "name": "SPD Smith",
+      "role": "MIDDLE_ORDER",
+      "rating": 59,
+      "matches": 7,
+      "runs": 152,
+      "average": 25.3,
+      "strikeRate": 112.6,
+      "globalPercentile": 18
+    },
+    {
+      "id": "so-hetmyer",
+      "name": "SO Hetmyer",
+      "role": "ALL_ROUNDER",
+      "rating": 85,
+      "matches": 12,
+      "runs": 242,
+      "average": 40.3,
+      "strikeRate": 170.4,
+      "globalPercentile": 92
+    },
+    {
+      "id": "ar-patel",
+      "name": "AR Patel",
+      "role": "SPIN_BOWLER",
+      "rating": 84,
+      "matches": 12,
+      "runs": 40,
+      "average": 8.0,
+      "strikeRate": 87.0,
+      "wickets": 15,
+      "economy": 6.7,
+      "bowlingAverage": 21.0,
+      "globalPercentile": 88
+    },
+    {
+      "id": "ss-iyer",
+      "name": "SS Iyer",
+      "role": "MIDDLE_ORDER",
+      "rating": 61,
+      "matches": 8,
+      "runs": 175,
+      "average": 35.0,
+      "strikeRate": 102.3,
+      "globalPercentile": 23
+    },
+    {
+      "id": "a-nortje",
+      "name": "A Nortje",
+      "role": "PACE_BOWLER",
+      "rating": 91,
+      "matches": 8,
+      "wickets": 12,
+      "economy": 6.53,
+      "bowlingAverage": 16.5,
+      "globalPercentile": 98
+    }
+  ],
+  "stats": {
+    "min": 44,
+    "max": 91,
+    "mean": 72.0
+  }
+}

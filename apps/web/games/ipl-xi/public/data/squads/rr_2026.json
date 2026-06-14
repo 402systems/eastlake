@@ -1,0 +1,192 @@
+{
+  "teamId": "rr",
+  "year": "2026",
+  "label": "Rajasthan Royals 2026",
+  "players": [
+    {
+      "id": "ybk-jaiswal",
+      "name": "YBK Jaiswal",
+      "role": "OPENER",
+      "rating": 73,
+      "matches": 16,
+      "runs": 427,
+      "average": 30.5,
+      "strikeRate": 152.5,
+      "globalPercentile": 59
+    },
+    {
+      "id": "v-suryavanshi",
+      "name": "V Suryavanshi",
+      "role": "OPENER",
+      "rating": 95,
+      "matches": 16,
+      "runs": 776,
+      "average": 48.5,
+      "strikeRate": 238.0,
+      "globalPercentile": 99
+    },
+    {
+      "id": "dhruv-jurel",
+      "name": "Dhruv Jurel",
+      "role": "MIDDLE_ORDER",
+      "rating": 83,
+      "matches": 16,
+      "runs": 515,
+      "average": 36.8,
+      "strikeRate": 154.7,
+      "globalPercentile": 79
+    },
+    {
+      "id": "r-parag",
+      "name": "R Parag",
+      "role": "MIDDLE_ORDER",
+      "rating": 73,
+      "matches": 14,
+      "runs": 309,
+      "average": 23.8,
+      "strikeRate": 158.5,
+      "wickets": 2,
+      "economy": 9.5,
+      "bowlingAverage": 19.0,
+      "globalPercentile": 57
+    },
+    {
+      "id": "jc-archer",
+      "name": "JC Archer",
+      "role": "PACE_BOWLER",
+      "rating": 78,
+      "matches": 16,
+      "runs": 64,
+      "average": 10.7,
+      "strikeRate": 139.1,
+      "wickets": 25,
+      "economy": 9.43,
+      "bowlingAverage": 22.6,
+      "globalPercentile": 81
+    },
+    {
+      "id": "n-burger",
+      "name": "N Burger",
+      "role": "PACE_BOWLER",
+      "rating": 61,
+      "matches": 13,
+      "runs": 14,
+      "average": 14.0,
+      "strikeRate": 155.6,
+      "wickets": 14,
+      "economy": 10.69,
+      "bowlingAverage": 33.2,
+      "globalPercentile": 33
+    },
+    {
+      "id": "brijesh-sharma",
+      "name": "Brijesh Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 64,
+      "matches": 13,
+      "wickets": 14,
+      "economy": 9.93,
+      "bowlingAverage": 32.3,
+      "globalPercentile": 38
+    },
+    {
+      "id": "sandeep-sharma",
+      "name": "Sandeep Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 52,
+      "matches": 6,
+      "wickets": 5,
+      "economy": 11.44,
+      "bowlingAverage": 45.0,
+      "globalPercentile": 11
+    },
+    {
+      "id": "ravi-bishnoi",
+      "name": "Ravi Bishnoi",
+      "role": "SPIN_BOWLER",
+      "rating": 71,
+      "matches": 9,
+      "wickets": 11,
+      "economy": 9.96,
+      "bowlingAverage": 23.5,
+      "globalPercentile": 49
+    },
+    {
+      "id": "ra-jadeja",
+      "name": "RA Jadeja",
+      "role": "SPIN_BOWLER",
+      "rating": 67,
+      "matches": 12,
+      "runs": 266,
+      "average": 66.5,
+      "strikeRate": 135.7,
+      "wickets": 10,
+      "economy": 8.58,
+      "bowlingAverage": 28.3,
+      "globalPercentile": 38
+    },
+    {
+      "id": "so-hetmyer",
+      "name": "SO Hetmyer",
+      "role": "ALL_ROUNDER",
+      "rating": 47,
+      "matches": 7,
+      "runs": 78,
+      "average": 13.0,
+      "strikeRate": 113.0,
+      "globalPercentile": 6
+    },
+    {
+      "id": "d-ferreira",
+      "name": "D Ferreira",
+      "role": "ALL_ROUNDER",
+      "rating": 88,
+      "matches": 13,
+      "runs": 317,
+      "average": 35.2,
+      "strikeRate": 179.1,
+      "globalPercentile": 96
+    },
+    {
+      "id": "tu-deshpande",
+      "name": "TU Deshpande",
+      "role": "PACE_BOWLER",
+      "rating": 48,
+      "matches": 7,
+      "wickets": 4,
+      "economy": 12.26,
+      "bowlingAverage": 70.5,
+      "globalPercentile": 5
+    },
+    {
+      "id": "yash-raj-punja",
+      "name": "Yash Raj Punja",
+      "role": "PACE_BOWLER",
+      "rating": 67,
+      "matches": 8,
+      "wickets": 9,
+      "economy": 9.37,
+      "bowlingAverage": 31.2,
+      "globalPercentile": 48
+    },
+    {
+      "id": "md-shanaka",
+      "name": "MD Shanaka",
+      "role": "PACE_BOWLER",
+      "rating": 47,
+      "matches": 5,
+      "runs": 63,
+      "average": 15.8,
+      "strikeRate": 137.0,
+      "wickets": 1,
+      "economy": 10.33,
+      "bowlingAverage": 62.0,
+      "globalPercentile": 4
+    }
+  ],
+  "stats": {
+    "min": 47,
+    "max": 95,
+    "mean": 67.6
+  }
+}

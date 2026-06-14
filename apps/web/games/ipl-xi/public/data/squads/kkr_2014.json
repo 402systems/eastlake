@@ -1,0 +1,170 @@
+{
+  "teamId": "kkr",
+  "year": "2014",
+  "label": "Kolkata Knight Riders 2014",
+  "players": [
+    {
+      "id": "g-gambhir",
+      "name": "G Gambhir",
+      "role": "OPENER",
+      "rating": 58,
+      "matches": 16,
+      "runs": 335,
+      "average": 23.9,
+      "strikeRate": 115.5,
+      "globalPercentile": 16
+    },
+    {
+      "id": "jh-kallis",
+      "name": "JH Kallis",
+      "role": "PACE_BOWLER",
+      "rating": 55,
+      "matches": 8,
+      "runs": 151,
+      "average": 25.2,
+      "strikeRate": 118.0,
+      "wickets": 4,
+      "economy": 8.77,
+      "bowlingAverage": 48.2,
+      "globalPercentile": 18
+    },
+    {
+      "id": "mk-pandey",
+      "name": "MK Pandey",
+      "role": "MIDDLE_ORDER",
+      "rating": 65,
+      "matches": 16,
+      "runs": 409,
+      "average": 31.5,
+      "strikeRate": 119.2,
+      "globalPercentile": 35
+    },
+    {
+      "id": "rv-uthappa",
+      "name": "RV Uthappa",
+      "role": "OPENER",
+      "rating": 83,
+      "matches": 16,
+      "runs": 660,
+      "average": 44.0,
+      "strikeRate": 138.1,
+      "globalPercentile": 82
+    },
+    {
+      "id": "yk-pathan",
+      "name": "YK Pathan",
+      "role": "ALL_ROUNDER",
+      "rating": 78,
+      "matches": 12,
+      "runs": 268,
+      "average": 29.8,
+      "strikeRate": 162.4,
+      "globalPercentile": 80
+    },
+    {
+      "id": "shakib-al-hasan",
+      "name": "Shakib Al Hasan",
+      "role": "SPIN_BOWLER",
+      "rating": 72,
+      "matches": 13,
+      "runs": 229,
+      "average": 28.6,
+      "strikeRate": 149.7,
+      "wickets": 11,
+      "economy": 6.78,
+      "bowlingAverage": 30.8,
+      "globalPercentile": 51
+    },
+    {
+      "id": "sa-yadav",
+      "name": "SA Yadav",
+      "role": "ALL_ROUNDER",
+      "rating": 66,
+      "matches": 10,
+      "runs": 164,
+      "average": 27.3,
+      "strikeRate": 142.6,
+      "globalPercentile": 50
+    },
+    {
+      "id": "r-vinay-kumar",
+      "name": "R Vinay Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 58,
+      "matches": 9,
+      "wickets": 7,
+      "economy": 9.19,
+      "bowlingAverage": 42.0,
+      "globalPercentile": 25
+    },
+    {
+      "id": "m-morkel",
+      "name": "M Morkel",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 12,
+      "wickets": 12,
+      "economy": 7.83,
+      "bowlingAverage": 31.3,
+      "globalPercentile": 61
+    },
+    {
+      "id": "sp-narine",
+      "name": "SP Narine",
+      "role": "SPIN_BOWLER",
+      "rating": 85,
+      "matches": 16,
+      "runs": 10,
+      "average": 10.0,
+      "strikeRate": 71.4,
+      "wickets": 21,
+      "economy": 6.65,
+      "bowlingAverage": 20.6,
+      "globalPercentile": 90
+    },
+    {
+      "id": "pp-chawla",
+      "name": "PP Chawla",
+      "role": "SPIN_BOWLER",
+      "rating": 81,
+      "matches": 11,
+      "runs": 31,
+      "average": 15.5,
+      "strikeRate": 163.2,
+      "wickets": 14,
+      "economy": 7.7,
+      "bowlingAverage": 21.7,
+      "globalPercentile": 78
+    },
+    {
+      "id": "ut-yadav",
+      "name": "UT Yadav",
+      "role": "PACE_BOWLER",
+      "rating": 65,
+      "matches": 12,
+      "wickets": 11,
+      "economy": 8.47,
+      "bowlingAverage": 34.6,
+      "globalPercentile": 41
+    },
+    {
+      "id": "rn-ten-doeschate",
+      "name": "RN ten Doeschate",
+      "role": "ALL_ROUNDER",
+      "rating": 61,
+      "matches": 6,
+      "runs": 52,
+      "average": 13.0,
+      "strikeRate": 157.6,
+      "wickets": 1,
+      "economy": 7.0,
+      "bowlingAverage": 35.0,
+      "globalPercentile": 34
+    }
+  ],
+  "stats": {
+    "min": 55,
+    "max": 85,
+    "mean": 69.1
+  }
+}

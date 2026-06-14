@@ -1,0 +1,170 @@
+{
+  "teamId": "csk",
+  "year": "2013",
+  "label": "Chennai Super Kings 2013",
+  "players": [
+    {
+      "id": "mek-hussey",
+      "name": "MEK Hussey",
+      "role": "OPENER",
+      "rating": 87,
+      "matches": 17,
+      "runs": 733,
+      "average": 56.4,
+      "strikeRate": 129.7,
+      "globalPercentile": 88
+    },
+    {
+      "id": "m-vijay",
+      "name": "M Vijay",
+      "role": "OPENER",
+      "rating": 58,
+      "matches": 15,
+      "runs": 312,
+      "average": 26.0,
+      "strikeRate": 109.1,
+      "globalPercentile": 16
+    },
+    {
+      "id": "sk-raina",
+      "name": "SK Raina",
+      "role": "MIDDLE_ORDER",
+      "rating": 87,
+      "matches": 17,
+      "runs": 548,
+      "average": 45.7,
+      "strikeRate": 150.5,
+      "globalPercentile": 87
+    },
+    {
+      "id": "dj-bravo",
+      "name": "DJ Bravo",
+      "role": "PACE_BOWLER",
+      "rating": 90,
+      "matches": 18,
+      "runs": 121,
+      "average": 15.1,
+      "strikeRate": 114.2,
+      "wickets": 32,
+      "economy": 8.08,
+      "bowlingAverage": 15.8,
+      "globalPercentile": 97
+    },
+    {
+      "id": "s-badrinath",
+      "name": "S Badrinath",
+      "role": "MIDDLE_ORDER",
+      "rating": 50,
+      "matches": 7,
+      "runs": 124,
+      "average": 17.7,
+      "strikeRate": 103.3,
+      "globalPercentile": 6
+    },
+    {
+      "id": "ms-dhoni",
+      "name": "MS Dhoni",
+      "role": "ALL_ROUNDER",
+      "rating": 89,
+      "matches": 16,
+      "runs": 461,
+      "average": 46.1,
+      "strikeRate": 164.6,
+      "globalPercentile": 97
+    },
+    {
+      "id": "ra-jadeja",
+      "name": "RA Jadeja",
+      "role": "SPIN_BOWLER",
+      "rating": 73,
+      "matches": 15,
+      "runs": 201,
+      "average": 25.1,
+      "strikeRate": 150.0,
+      "wickets": 13,
+      "economy": 7.55,
+      "bowlingAverage": 25.1,
+      "globalPercentile": 54
+    },
+    {
+      "id": "r-ashwin",
+      "name": "R Ashwin",
+      "role": "SPIN_BOWLER",
+      "rating": 74,
+      "matches": 18,
+      "runs": 35,
+      "average": 8.8,
+      "strikeRate": 71.4,
+      "wickets": 15,
+      "economy": 6.84,
+      "bowlingAverage": 26.5,
+      "globalPercentile": 57
+    },
+    {
+      "id": "dp-nannes",
+      "name": "DP Nannes",
+      "role": "PACE_BOWLER",
+      "rating": 61,
+      "matches": 5,
+      "wickets": 4,
+      "economy": 8.32,
+      "bowlingAverage": 41.2,
+      "globalPercentile": 33
+    },
+    {
+      "id": "ch-morris",
+      "name": "CH Morris",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 16,
+      "runs": 14,
+      "average": 7.0,
+      "strikeRate": 87.5,
+      "wickets": 15,
+      "economy": 8.2,
+      "bowlingAverage": 27.3,
+      "globalPercentile": 61
+    },
+    {
+      "id": "mm-sharma",
+      "name": "MM Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 89,
+      "matches": 15,
+      "wickets": 20,
+      "economy": 6.45,
+      "bowlingAverage": 16.4,
+      "globalPercentile": 96
+    },
+    {
+      "id": "ja-morkel",
+      "name": "JA Morkel",
+      "role": "PACE_BOWLER",
+      "rating": 78,
+      "matches": 7,
+      "runs": 46,
+      "average": 15.3,
+      "strikeRate": 124.3,
+      "wickets": 7,
+      "economy": 6.96,
+      "bowlingAverage": 23.9,
+      "globalPercentile": 81
+    },
+    {
+      "id": "jo-holder",
+      "name": "JO Holder",
+      "role": "PACE_BOWLER",
+      "rating": 53,
+      "matches": 6,
+      "wickets": 2,
+      "economy": 8.65,
+      "bowlingAverage": 86.5,
+      "globalPercentile": 13
+    }
+  ],
+  "stats": {
+    "min": 50,
+    "max": 90,
+    "mean": 73.8
+  }
+}

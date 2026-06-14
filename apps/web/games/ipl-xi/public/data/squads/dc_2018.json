@@ -1,0 +1,175 @@
+{
+  "teamId": "dc",
+  "year": "2018",
+  "label": "Delhi Capitals 2018",
+  "players": [
+    {
+      "id": "g-gambhir",
+      "name": "G Gambhir",
+      "role": "OPENER",
+      "rating": 51,
+      "matches": 5,
+      "runs": 85,
+      "average": 21.2,
+      "strikeRate": 96.6,
+      "globalPercentile": 6
+    },
+    {
+      "id": "ss-iyer",
+      "name": "SS Iyer",
+      "role": "MIDDLE_ORDER",
+      "rating": 78,
+      "matches": 13,
+      "runs": 411,
+      "average": 41.1,
+      "strikeRate": 133.0,
+      "globalPercentile": 69
+    },
+    {
+      "id": "v-shankar",
+      "name": "V Shankar",
+      "role": "ALL_ROUNDER",
+      "rating": 79,
+      "matches": 9,
+      "runs": 212,
+      "average": 53.0,
+      "strikeRate": 144.2,
+      "wickets": 1,
+      "economy": 11.6,
+      "bowlingAverage": 58.0,
+      "globalPercentile": 83
+    },
+    {
+      "id": "rr-pant",
+      "name": "RR Pant",
+      "role": "MIDDLE_ORDER",
+      "rating": 98,
+      "matches": 14,
+      "runs": 684,
+      "average": 52.6,
+      "strikeRate": 173.6,
+      "globalPercentile": 99
+    },
+    {
+      "id": "r-tewatia",
+      "name": "R Tewatia",
+      "role": "SPIN_BOWLER",
+      "rating": 68,
+      "matches": 8,
+      "runs": 50,
+      "average": 16.7,
+      "strikeRate": 116.3,
+      "wickets": 6,
+      "economy": 7.91,
+      "bowlingAverage": 29.0,
+      "globalPercentile": 41
+    },
+    {
+      "id": "ta-boult",
+      "name": "TA Boult",
+      "role": "PACE_BOWLER",
+      "rating": 73,
+      "matches": 14,
+      "wickets": 18,
+      "economy": 9.04,
+      "bowlingAverage": 26.4,
+      "globalPercentile": 67
+    },
+    {
+      "id": "a-mishra",
+      "name": "A Mishra",
+      "role": "SPIN_BOWLER",
+      "rating": 81,
+      "matches": 10,
+      "wickets": 12,
+      "economy": 7.16,
+      "bowlingAverage": 22.1,
+      "globalPercentile": 78
+    },
+    {
+      "id": "gj-maxwell",
+      "name": "GJ Maxwell",
+      "role": "PACE_BOWLER",
+      "rating": 65,
+      "matches": 12,
+      "runs": 169,
+      "average": 16.9,
+      "strikeRate": 140.8,
+      "wickets": 5,
+      "economy": 8.25,
+      "bowlingAverage": 26.4,
+      "globalPercentile": 41
+    },
+    {
+      "id": "s-nadeem",
+      "name": "S Nadeem",
+      "role": "PACE_BOWLER",
+      "rating": 48,
+      "matches": 6,
+      "wickets": 3,
+      "economy": 10.8,
+      "bowlingAverage": 54.0,
+      "globalPercentile": 5
+    },
+    {
+      "id": "jj-roy",
+      "name": "JJ Roy",
+      "role": "OPENER",
+      "rating": 66,
+      "matches": 5,
+      "runs": 120,
+      "average": 30.0,
+      "strikeRate": 127.7,
+      "globalPercentile": 38
+    },
+    {
+      "id": "hv-patel",
+      "name": "HV Patel",
+      "role": "PACE_BOWLER",
+      "rating": 74,
+      "matches": 5,
+      "wickets": 7,
+      "economy": 9.66,
+      "bowlingAverage": 24.1,
+      "globalPercentile": 69
+    },
+    {
+      "id": "pp-shaw",
+      "name": "PP Shaw",
+      "role": "OPENER",
+      "rating": 73,
+      "matches": 9,
+      "runs": 245,
+      "average": 30.6,
+      "strikeRate": 153.1,
+      "globalPercentile": 59
+    },
+    {
+      "id": "le-plunkett",
+      "name": "LE Plunkett",
+      "role": "PACE_BOWLER",
+      "rating": 55,
+      "matches": 7,
+      "wickets": 4,
+      "economy": 9.12,
+      "bowlingAverage": 57.0,
+      "globalPercentile": 18
+    },
+    {
+      "id": "avesh-khan",
+      "name": "Avesh Khan",
+      "role": "PACE_BOWLER",
+      "rating": 50,
+      "matches": 6,
+      "wickets": 4,
+      "economy": 10.79,
+      "bowlingAverage": 51.2,
+      "globalPercentile": 8
+    }
+  ],
+  "stats": {
+    "min": 48,
+    "max": 98,
+    "mean": 68.5
+  }
+}

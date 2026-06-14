@@ -1,0 +1,178 @@
+{
+  "teamId": "pbks",
+  "year": "2019",
+  "label": "Punjab Kings 2019",
+  "players": [
+    {
+      "id": "kl-rahul",
+      "name": "KL Rahul",
+      "role": "OPENER",
+      "rating": 88,
+      "matches": 14,
+      "runs": 593,
+      "average": 53.9,
+      "strikeRate": 135.7,
+      "globalPercentile": 89
+    },
+    {
+      "id": "ma-agarwal",
+      "name": "MA Agarwal",
+      "role": "MIDDLE_ORDER",
+      "rating": 72,
+      "matches": 13,
+      "runs": 332,
+      "average": 30.2,
+      "strikeRate": 141.9,
+      "globalPercentile": 53
+    },
+    {
+      "id": "ch-gayle",
+      "name": "CH Gayle",
+      "role": "OPENER",
+      "rating": 84,
+      "matches": 13,
+      "runs": 490,
+      "average": 40.8,
+      "strikeRate": 153.6,
+      "globalPercentile": 84
+    },
+    {
+      "id": "sn-khan",
+      "name": "SN Khan",
+      "role": "MIDDLE_ORDER",
+      "rating": 81,
+      "matches": 5,
+      "runs": 180,
+      "average": 45.0,
+      "strikeRate": 127.7,
+      "globalPercentile": 74
+    },
+    {
+      "id": "n-pooran",
+      "name": "N Pooran",
+      "role": "MIDDLE_ORDER",
+      "rating": 77,
+      "matches": 6,
+      "runs": 168,
+      "average": 28.0,
+      "strikeRate": 157.0,
+      "globalPercentile": 66
+    },
+    {
+      "id": "mandeep-singh",
+      "name": "Mandeep Singh",
+      "role": "ALL_ROUNDER",
+      "rating": 71,
+      "matches": 12,
+      "runs": 165,
+      "average": 41.2,
+      "strikeRate": 137.5,
+      "globalPercentile": 61
+    },
+    {
+      "id": "sm-curran",
+      "name": "SM Curran",
+      "role": "PACE_BOWLER",
+      "rating": 64,
+      "matches": 9,
+      "runs": 95,
+      "average": 23.8,
+      "strikeRate": 172.7,
+      "wickets": 10,
+      "economy": 9.85,
+      "bowlingAverage": 32.5,
+      "globalPercentile": 38
+    },
+    {
+      "id": "mujeeb-ur-rahman",
+      "name": "Mujeeb Ur Rahman",
+      "role": "SPIN_BOWLER",
+      "rating": 52,
+      "matches": 5,
+      "wickets": 3,
+      "economy": 10.16,
+      "bowlingAverage": 64.3,
+      "globalPercentile": 2
+    },
+    {
+      "id": "mohammed-shami",
+      "name": "Mohammed Shami",
+      "role": "PACE_BOWLER",
+      "rating": 76,
+      "matches": 14,
+      "wickets": 19,
+      "economy": 8.83,
+      "bowlingAverage": 25.1,
+      "globalPercentile": 75
+    },
+    {
+      "id": "r-ashwin",
+      "name": "R Ashwin",
+      "role": "SPIN_BOWLER",
+      "rating": 76,
+      "matches": 14,
+      "runs": 42,
+      "average": 8.4,
+      "strikeRate": 150.0,
+      "wickets": 15,
+      "economy": 7.27,
+      "bowlingAverage": 26.7,
+      "globalPercentile": 64
+    },
+    {
+      "id": "da-miller",
+      "name": "DA Miller",
+      "role": "MIDDLE_ORDER",
+      "rating": 65,
+      "matches": 10,
+      "runs": 213,
+      "average": 26.6,
+      "strikeRate": 130.7,
+      "globalPercentile": 35
+    },
+    {
+      "id": "gc-viljoen",
+      "name": "GC Viljoen",
+      "role": "PACE_BOWLER",
+      "rating": 65,
+      "matches": 6,
+      "runs": 3,
+      "average": 1.5,
+      "strikeRate": 42.9,
+      "wickets": 7,
+      "economy": 9.96,
+      "bowlingAverage": 32.7,
+      "globalPercentile": 41
+    },
+    {
+      "id": "aj-tye",
+      "name": "AJ Tye",
+      "role": "PACE_BOWLER",
+      "rating": 49,
+      "matches": 6,
+      "wickets": 3,
+      "economy": 10.59,
+      "bowlingAverage": 77.7,
+      "globalPercentile": 6
+    },
+    {
+      "id": "m-ashwin",
+      "name": "M Ashwin",
+      "role": "PACE_BOWLER",
+      "rating": 59,
+      "matches": 10,
+      "runs": 3,
+      "average": 3.0,
+      "strikeRate": 60.0,
+      "wickets": 5,
+      "economy": 7.56,
+      "bowlingAverage": 51.4,
+      "globalPercentile": 28
+    }
+  ],
+  "stats": {
+    "min": 49,
+    "max": 88,
+    "mean": 69.9
+  }
+}

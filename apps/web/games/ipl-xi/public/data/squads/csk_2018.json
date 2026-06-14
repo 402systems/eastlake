@@ -1,0 +1,181 @@
+{
+  "teamId": "csk",
+  "year": "2018",
+  "label": "Chennai Super Kings 2018",
+  "players": [
+    {
+      "id": "sr-watson",
+      "name": "SR Watson",
+      "role": "PACE_BOWLER",
+      "rating": 55,
+      "matches": 15,
+      "runs": 555,
+      "average": 42.7,
+      "strikeRate": 155.0,
+      "wickets": 6,
+      "economy": 9.0,
+      "bowlingAverage": 42.0,
+      "globalPercentile": 18
+    },
+    {
+      "id": "at-rayudu",
+      "name": "AT Rayudu",
+      "role": "MIDDLE_ORDER",
+      "rating": 90,
+      "matches": 16,
+      "runs": 602,
+      "average": 46.3,
+      "strikeRate": 150.1,
+      "globalPercentile": 91
+    },
+    {
+      "id": "sk-raina",
+      "name": "SK Raina",
+      "role": "MIDDLE_ORDER",
+      "rating": 75,
+      "matches": 15,
+      "runs": 445,
+      "average": 37.1,
+      "strikeRate": 132.8,
+      "globalPercentile": 62
+    },
+    {
+      "id": "ms-dhoni",
+      "name": "MS Dhoni",
+      "role": "ALL_ROUNDER",
+      "rating": 85,
+      "matches": 15,
+      "runs": 455,
+      "average": 75.8,
+      "strikeRate": 151.2,
+      "globalPercentile": 92
+    },
+    {
+      "id": "ra-jadeja",
+      "name": "RA Jadeja",
+      "role": "SPIN_BOWLER",
+      "rating": 70,
+      "matches": 14,
+      "runs": 89,
+      "average": 17.8,
+      "strikeRate": 120.3,
+      "wickets": 11,
+      "economy": 7.56,
+      "bowlingAverage": 28.2,
+      "globalPercentile": 46
+    },
+    {
+      "id": "dj-bravo",
+      "name": "DJ Bravo",
+      "role": "PACE_BOWLER",
+      "rating": 57,
+      "matches": 16,
+      "runs": 141,
+      "average": 35.2,
+      "strikeRate": 156.7,
+      "wickets": 14,
+      "economy": 10.06,
+      "bowlingAverage": 38.4,
+      "globalPercentile": 23
+    },
+    {
+      "id": "dl-chahar",
+      "name": "DL Chahar",
+      "role": "PACE_BOWLER",
+      "rating": 72,
+      "matches": 12,
+      "runs": 50,
+      "average": 16.7,
+      "strikeRate": 172.4,
+      "wickets": 10,
+      "economy": 7.36,
+      "bowlingAverage": 28.1,
+      "globalPercentile": 64
+    },
+    {
+      "id": "harbhajan-singh",
+      "name": "Harbhajan Singh",
+      "role": "SPIN_BOWLER",
+      "rating": 58,
+      "matches": 12,
+      "runs": 29,
+      "average": 14.5,
+      "strikeRate": 82.9,
+      "wickets": 7,
+      "economy": 8.48,
+      "bowlingAverage": 38.6,
+      "globalPercentile": 13
+    },
+    {
+      "id": "imran-tahir",
+      "name": "Imran Tahir",
+      "role": "SPIN_BOWLER",
+      "rating": 65,
+      "matches": 6,
+      "wickets": 6,
+      "economy": 9.34,
+      "bowlingAverage": 32.2,
+      "globalPercentile": 33
+    },
+    {
+      "id": "sw-billings",
+      "name": "SW Billings",
+      "role": "ALL_ROUNDER",
+      "rating": 57,
+      "matches": 8,
+      "runs": 108,
+      "average": 13.5,
+      "strikeRate": 138.5,
+      "globalPercentile": 26
+    },
+    {
+      "id": "sn-thakur",
+      "name": "SN Thakur",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 13,
+      "wickets": 16,
+      "economy": 9.28,
+      "bowlingAverage": 27.1,
+      "globalPercentile": 61
+    },
+    {
+      "id": "kv-sharma",
+      "name": "KV Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 67,
+      "matches": 5,
+      "wickets": 4,
+      "economy": 9.47,
+      "bowlingAverage": 22.5,
+      "globalPercentile": 48
+    },
+    {
+      "id": "f-du-plessis",
+      "name": "F du Plessis",
+      "role": "OPENER",
+      "rating": 68,
+      "matches": 6,
+      "runs": 162,
+      "average": 32.4,
+      "strikeRate": 126.6,
+      "globalPercentile": 44
+    },
+    {
+      "id": "l-ngidi",
+      "name": "L Ngidi",
+      "role": "PACE_BOWLER",
+      "rating": 94,
+      "matches": 7,
+      "wickets": 11,
+      "economy": 6.23,
+      "bowlingAverage": 14.7,
+      "globalPercentile": 99
+    }
+  ],
+  "stats": {
+    "min": 55,
+    "max": 94,
+    "mean": 70.3
+  }
+}

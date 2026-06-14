@@ -1,0 +1,172 @@
+{
+  "teamId": "lsg",
+  "year": "2023",
+  "label": "Lucknow Super Giants 2023",
+  "players": [
+    {
+      "id": "kl-rahul",
+      "name": "KL Rahul",
+      "role": "OPENER",
+      "rating": 68,
+      "matches": 9,
+      "runs": 274,
+      "average": 34.2,
+      "strikeRate": 113.7,
+      "globalPercentile": 44
+    },
+    {
+      "id": "kr-mayers",
+      "name": "KR Mayers",
+      "role": "OPENER",
+      "rating": 72,
+      "matches": 13,
+      "runs": 379,
+      "average": 29.2,
+      "strikeRate": 146.9,
+      "wickets": 0,
+      "economy": 8.43,
+      "globalPercentile": 55
+    },
+    {
+      "id": "dj-hooda",
+      "name": "DJ Hooda",
+      "role": "MIDDLE_ORDER",
+      "rating": 41,
+      "matches": 12,
+      "runs": 84,
+      "average": 8.4,
+      "strikeRate": 93.3,
+      "globalPercentile": 1
+    },
+    {
+      "id": "kh-pandya",
+      "name": "KH Pandya",
+      "role": "SPIN_BOWLER",
+      "rating": 65,
+      "matches": 14,
+      "runs": 188,
+      "average": 18.8,
+      "strikeRate": 114.6,
+      "wickets": 9,
+      "economy": 7.62,
+      "bowlingAverage": 35.6,
+      "globalPercentile": 33
+    },
+    {
+      "id": "mp-stoinis",
+      "name": "MP Stoinis",
+      "role": "PACE_BOWLER",
+      "rating": 72,
+      "matches": 15,
+      "runs": 408,
+      "average": 31.4,
+      "strikeRate": 150.6,
+      "wickets": 5,
+      "economy": 9.32,
+      "bowlingAverage": 20.2,
+      "globalPercentile": 64
+    },
+    {
+      "id": "n-pooran",
+      "name": "N Pooran",
+      "role": "ALL_ROUNDER",
+      "rating": 84,
+      "matches": 15,
+      "runs": 358,
+      "average": 32.5,
+      "strikeRate": 172.9,
+      "globalPercentile": 90
+    },
+    {
+      "id": "a-badoni",
+      "name": "A Badoni",
+      "role": "ALL_ROUNDER",
+      "rating": 67,
+      "matches": 12,
+      "runs": 238,
+      "average": 26.4,
+      "strikeRate": 139.2,
+      "globalPercentile": 53
+    },
+    {
+      "id": "k-gowtham",
+      "name": "K Gowtham",
+      "role": "SPIN_BOWLER",
+      "rating": 60,
+      "matches": 7,
+      "runs": 61,
+      "average": 15.2,
+      "strikeRate": 169.4,
+      "wickets": 3,
+      "economy": 7.38,
+      "bowlingAverage": 39.3,
+      "globalPercentile": 20
+    },
+    {
+      "id": "avesh-khan",
+      "name": "Avesh Khan",
+      "role": "PACE_BOWLER",
+      "rating": 59,
+      "matches": 9,
+      "wickets": 8,
+      "economy": 9.9,
+      "bowlingAverage": 35.9,
+      "globalPercentile": 28
+    },
+    {
+      "id": "ravi-bishnoi",
+      "name": "Ravi Bishnoi",
+      "role": "SPIN_BOWLER",
+      "rating": 77,
+      "matches": 14,
+      "runs": 20,
+      "average": 6.7,
+      "strikeRate": 74.1,
+      "wickets": 16,
+      "economy": 7.8,
+      "bowlingAverage": 24.6,
+      "globalPercentile": 67
+    },
+    {
+      "id": "yash-thakur",
+      "name": "Yash Thakur",
+      "role": "PACE_BOWLER",
+      "rating": 77,
+      "matches": 9,
+      "wickets": 13,
+      "economy": 9.33,
+      "bowlingAverage": 22.8,
+      "globalPercentile": 78
+    },
+    {
+      "id": "a-mishra",
+      "name": "A Mishra",
+      "role": "SPIN_BOWLER",
+      "rating": 76,
+      "matches": 7,
+      "wickets": 7,
+      "economy": 7.95,
+      "bowlingAverage": 21.6,
+      "globalPercentile": 64
+    },
+    {
+      "id": "naveen-ul-haq",
+      "name": "Naveen-ul-Haq",
+      "role": "PACE_BOWLER",
+      "rating": 84,
+      "matches": 7,
+      "runs": 16,
+      "average": 16.0,
+      "strikeRate": 80.0,
+      "wickets": 11,
+      "economy": 8.11,
+      "bowlingAverage": 20.6,
+      "globalPercentile": 90
+    }
+  ],
+  "stats": {
+    "min": 41,
+    "max": 84,
+    "mean": 69.4
+  }
+}

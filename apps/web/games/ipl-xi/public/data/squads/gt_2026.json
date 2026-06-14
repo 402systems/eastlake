@@ -1,0 +1,189 @@
+{
+  "teamId": "gt",
+  "year": "2026",
+  "label": "Gujarat Titans 2026",
+  "players": [
+    {
+      "id": "b-sai-sudharsan",
+      "name": "B Sai Sudharsan",
+      "role": "OPENER",
+      "rating": 89,
+      "matches": 17,
+      "runs": 722,
+      "average": 45.1,
+      "strikeRate": 159.0,
+      "globalPercentile": 92
+    },
+    {
+      "id": "shubman-gill",
+      "name": "Shubman Gill",
+      "role": "OPENER",
+      "rating": 90,
+      "matches": 16,
+      "runs": 732,
+      "average": 45.8,
+      "strikeRate": 163.0,
+      "globalPercentile": 94
+    },
+    {
+      "id": "jc-buttler",
+      "name": "JC Buttler",
+      "role": "MIDDLE_ORDER",
+      "rating": 82,
+      "matches": 17,
+      "runs": 526,
+      "average": 37.6,
+      "strikeRate": 152.5,
+      "globalPercentile": 77
+    },
+    {
+      "id": "gd-phillips",
+      "name": "GD Phillips",
+      "role": "ALL_ROUNDER",
+      "rating": 53,
+      "matches": 5,
+      "runs": 67,
+      "average": 16.8,
+      "strikeRate": 124.1,
+      "globalPercentile": 16
+    },
+    {
+      "id": "washington-sundar",
+      "name": "Washington Sundar",
+      "role": "SPIN_BOWLER",
+      "rating": 49,
+      "matches": 16,
+      "runs": 377,
+      "average": 37.7,
+      "strikeRate": 151.4,
+      "wickets": 1,
+      "economy": 9.16,
+      "bowlingAverage": 84.0,
+      "globalPercentile": 1
+    },
+    {
+      "id": "m-shahrukh-khan",
+      "name": "M Shahrukh Khan",
+      "role": "ALL_ROUNDER",
+      "rating": 52,
+      "matches": 5,
+      "runs": 43,
+      "average": 14.3,
+      "strikeRate": 130.3,
+      "globalPercentile": 14
+    },
+    {
+      "id": "r-tewatia",
+      "name": "R Tewatia",
+      "role": "ALL_ROUNDER",
+      "rating": 66,
+      "matches": 15,
+      "runs": 190,
+      "average": 27.1,
+      "strikeRate": 145.0,
+      "globalPercentile": 50
+    },
+    {
+      "id": "rashid-khan",
+      "name": "Rashid Khan",
+      "role": "SPIN_BOWLER",
+      "rating": 72,
+      "matches": 16,
+      "runs": 50,
+      "average": 12.5,
+      "strikeRate": 122.0,
+      "wickets": 20,
+      "economy": 9.34,
+      "bowlingAverage": 26.1,
+      "globalPercentile": 51
+    },
+    {
+      "id": "mohammed-siraj",
+      "name": "Mohammed Siraj",
+      "role": "PACE_BOWLER",
+      "rating": 68,
+      "matches": 17,
+      "wickets": 19,
+      "economy": 9.19,
+      "bowlingAverage": 30.0,
+      "globalPercentile": 51
+    },
+    {
+      "id": "k-rabada",
+      "name": "K Rabada",
+      "role": "PACE_BOWLER",
+      "rating": 80,
+      "matches": 17,
+      "runs": 47,
+      "average": 23.5,
+      "strikeRate": 123.7,
+      "wickets": 29,
+      "economy": 9.76,
+      "bowlingAverage": 21.8,
+      "globalPercentile": 84
+    },
+    {
+      "id": "ashok-sharma",
+      "name": "Ashok Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 55,
+      "matches": 6,
+      "wickets": 6,
+      "economy": 11.1,
+      "bowlingAverage": 38.8,
+      "globalPercentile": 18
+    },
+    {
+      "id": "m-prasidh-krishna",
+      "name": "M Prasidh Krishna",
+      "role": "PACE_BOWLER",
+      "rating": 70,
+      "matches": 12,
+      "wickets": 16,
+      "economy": 10.46,
+      "bowlingAverage": 25.5,
+      "globalPercentile": 58
+    },
+    {
+      "id": "jo-holder",
+      "name": "JO Holder",
+      "role": "PACE_BOWLER",
+      "rating": 87,
+      "matches": 11,
+      "runs": 65,
+      "average": 13.0,
+      "strikeRate": 125.0,
+      "wickets": 17,
+      "economy": 7.62,
+      "bowlingAverage": 17.2,
+      "globalPercentile": 94
+    },
+    {
+      "id": "arshad-khan",
+      "name": "Arshad Khan",
+      "role": "PACE_BOWLER",
+      "rating": 65,
+      "matches": 6,
+      "wickets": 6,
+      "economy": 9.98,
+      "bowlingAverage": 28.8,
+      "globalPercentile": 41
+    },
+    {
+      "id": "n-sindhu",
+      "name": "N Sindhu",
+      "role": "MIDDLE_ORDER",
+      "rating": 52,
+      "matches": 5,
+      "runs": 63,
+      "average": 12.6,
+      "strikeRate": 126.0,
+      "globalPercentile": 9
+    }
+  ],
+  "stats": {
+    "min": 49,
+    "max": 90,
+    "mean": 68.7
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "teamId": "rcb",
+  "year": "2011",
+  "label": "Royal Challengers Bangalore 2011",
+  "players": [
+    {
+      "id": "ma-agarwal",
+      "name": "MA Agarwal",
+      "role": "OPENER",
+      "rating": 57,
+      "matches": 7,
+      "runs": 141,
+      "average": 20.1,
+      "strikeRate": 120.5,
+      "globalPercentile": 14
+    },
+    {
+      "id": "tm-dilshan",
+      "name": "TM Dilshan",
+      "role": "PACE_BOWLER",
+      "rating": 49,
+      "matches": 10,
+      "runs": 226,
+      "average": 28.2,
+      "strikeRate": 125.6,
+      "wickets": 1,
+      "economy": 9.0,
+      "bowlingAverage": 108.0,
+      "globalPercentile": 6
+    },
+    {
+      "id": "v-kohli",
+      "name": "V Kohli",
+      "role": "PACE_BOWLER",
+      "rating": 53,
+      "matches": 16,
+      "runs": 557,
+      "average": 46.4,
+      "strikeRate": 121.4,
+      "wickets": 2,
+      "economy": 8.24,
+      "bowlingAverage": 70.0,
+      "globalPercentile": 13
+    },
+    {
+      "id": "ab-de-villiers",
+      "name": "AB de Villiers",
+      "role": "MIDDLE_ORDER",
+      "rating": 72,
+      "matches": 13,
+      "runs": 312,
+      "average": 39.0,
+      "strikeRate": 128.9,
+      "globalPercentile": 53
+    },
+    {
+      "id": "ss-tiwary",
+      "name": "SS Tiwary",
+      "role": "ALL_ROUNDER",
+      "rating": 54,
+      "matches": 13,
+      "runs": 187,
+      "average": 23.4,
+      "strikeRate": 100.5,
+      "globalPercentile": 19
+    },
+    {
+      "id": "auk-pathan",
+      "name": "AUK Pathan",
+      "role": "ALL_ROUNDER",
+      "rating": 67,
+      "matches": 5,
+      "runs": 33,
+      "average": 8.2,
+      "strikeRate": 206.2,
+      "wickets": 0,
+      "economy": 8.91,
+      "globalPercentile": 53
+    },
+    {
+      "id": "z-khan",
+      "name": "Z Khan",
+      "role": "PACE_BOWLER",
+      "rating": 68,
+      "matches": 15,
+      "wickets": 14,
+      "economy": 7.88,
+      "bowlingAverage": 33.2,
+      "globalPercentile": 51
+    },
+    {
+      "id": "dl-vettori",
+      "name": "DL Vettori",
+      "role": "PACE_BOWLER",
+      "rating": 78,
+      "matches": 13,
+      "runs": 23,
+      "average": 23.0,
+      "strikeRate": 82.1,
+      "wickets": 12,
+      "economy": 6.1,
+      "bowlingAverage": 26.2,
+      "globalPercentile": 81
+    },
+    {
+      "id": "a-mithun",
+      "name": "A Mithun",
+      "role": "PACE_BOWLER",
+      "rating": 51,
+      "matches": 12,
+      "runs": 27,
+      "average": 9.0,
+      "strikeRate": 135.0,
+      "wickets": 5,
+      "economy": 9.56,
+      "bowlingAverage": 65.0,
+      "globalPercentile": 9
+    },
+    {
+      "id": "s-aravind",
+      "name": "S Aravind",
+      "role": "PACE_BOWLER",
+      "rating": 86,
+      "matches": 13,
+      "wickets": 21,
+      "economy": 8.2,
+      "bowlingAverage": 18.0,
+      "globalPercentile": 92
+    },
+    {
+      "id": "ch-gayle",
+      "name": "CH Gayle",
+      "role": "PACE_BOWLER",
+      "rating": 67,
+      "matches": 12,
+      "runs": 608,
+      "average": 67.6,
+      "strikeRate": 183.7,
+      "wickets": 8,
+      "economy": 7.28,
+      "bowlingAverage": 32.8,
+      "globalPercentile": 48
+    },
+    {
+      "id": "j-syed-mohammad",
+      "name": "J Syed Mohammad",
+      "role": "SPIN_BOWLER",
+      "rating": 71,
+      "matches": 5,
+      "wickets": 5,
+      "economy": 8.53,
+      "bowlingAverage": 25.6,
+      "globalPercentile": 49
+    }
+  ],
+  "stats": {
+    "min": 49,
+    "max": 86,
+    "mean": 64.4
+  }
+}

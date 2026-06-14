@@ -1,0 +1,148 @@
+{
+  "teamId": "rcb",
+  "year": "2019",
+  "label": "Royal Challengers Bangalore 2019",
+  "players": [
+    {
+      "id": "v-kohli",
+      "name": "V Kohli",
+      "role": "OPENER",
+      "rating": 75,
+      "matches": 14,
+      "runs": 464,
+      "average": 33.1,
+      "strikeRate": 141.9,
+      "globalPercentile": 65
+    },
+    {
+      "id": "pa-patel",
+      "name": "PA Patel",
+      "role": "OPENER",
+      "rating": 68,
+      "matches": 14,
+      "runs": 373,
+      "average": 26.6,
+      "strikeRate": 140.8,
+      "globalPercentile": 44
+    },
+    {
+      "id": "mm-ali",
+      "name": "MM Ali",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 10,
+      "runs": 220,
+      "average": 36.7,
+      "strikeRate": 165.4,
+      "wickets": 6,
+      "economy": 6.76,
+      "bowlingAverage": 28.2,
+      "globalPercentile": 61
+    },
+    {
+      "id": "ab-de-villiers",
+      "name": "AB de Villiers",
+      "role": "MIDDLE_ORDER",
+      "rating": 88,
+      "matches": 13,
+      "runs": 442,
+      "average": 44.2,
+      "strikeRate": 154.0,
+      "globalPercentile": 88
+    },
+    {
+      "id": "so-hetmyer",
+      "name": "SO Hetmyer",
+      "role": "MIDDLE_ORDER",
+      "rating": 56,
+      "matches": 5,
+      "runs": 90,
+      "average": 18.0,
+      "strikeRate": 123.3,
+      "globalPercentile": 14
+    },
+    {
+      "id": "na-saini",
+      "name": "NA Saini",
+      "role": "PACE_BOWLER",
+      "rating": 62,
+      "matches": 13,
+      "wickets": 11,
+      "economy": 8.54,
+      "bowlingAverage": 37.3,
+      "globalPercentile": 35
+    },
+    {
+      "id": "ys-chahal",
+      "name": "YS Chahal",
+      "role": "SPIN_BOWLER",
+      "rating": 79,
+      "matches": 13,
+      "runs": 6,
+      "average": 3.0,
+      "strikeRate": 37.5,
+      "wickets": 17,
+      "economy": 8.02,
+      "bowlingAverage": 23.1,
+      "globalPercentile": 73
+    },
+    {
+      "id": "ut-yadav",
+      "name": "UT Yadav",
+      "role": "PACE_BOWLER",
+      "rating": 54,
+      "matches": 11,
+      "runs": 25,
+      "average": 25.0,
+      "strikeRate": 100.0,
+      "wickets": 8,
+      "economy": 9.91,
+      "bowlingAverage": 46.9,
+      "globalPercentile": 16
+    },
+    {
+      "id": "mohammed-siraj",
+      "name": "Mohammed Siraj",
+      "role": "PACE_BOWLER",
+      "rating": 57,
+      "matches": 9,
+      "runs": 4,
+      "average": 4.0,
+      "strikeRate": 33.3,
+      "wickets": 7,
+      "economy": 9.62,
+      "bowlingAverage": 38.7,
+      "globalPercentile": 23
+    },
+    {
+      "id": "mp-stoinis",
+      "name": "MP Stoinis",
+      "role": "PACE_BOWLER",
+      "rating": 52,
+      "matches": 10,
+      "runs": 211,
+      "average": 52.8,
+      "strikeRate": 135.3,
+      "wickets": 2,
+      "economy": 8.82,
+      "bowlingAverage": 73.5,
+      "globalPercentile": 11
+    },
+    {
+      "id": "ad-nath",
+      "name": "AD Nath",
+      "role": "ALL_ROUNDER",
+      "rating": 47,
+      "matches": 5,
+      "runs": 61,
+      "average": 12.2,
+      "strikeRate": 107.0,
+      "globalPercentile": 6
+    }
+  ],
+  "stats": {
+    "min": 47,
+    "max": 88,
+    "mean": 64.5
+  }
+}

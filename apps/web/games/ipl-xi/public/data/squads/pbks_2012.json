@@ -1,0 +1,178 @@
+{
+  "teamId": "pbks",
+  "year": "2012",
+  "label": "Punjab Kings 2012",
+  "players": [
+    {
+      "id": "ac-gilchrist",
+      "name": "AC Gilchrist",
+      "role": "OPENER",
+      "rating": 71,
+      "matches": 7,
+      "runs": 172,
+      "average": 43.0,
+      "strikeRate": 121.1,
+      "globalPercentile": 52
+    },
+    {
+      "id": "pc-valthaty",
+      "name": "PC Valthaty",
+      "role": "OPENER",
+      "rating": 40,
+      "matches": 6,
+      "runs": 30,
+      "average": 5.0,
+      "strikeRate": 58.8,
+      "globalPercentile": 0
+    },
+    {
+      "id": "se-marsh",
+      "name": "SE Marsh",
+      "role": "OPENER",
+      "rating": 67,
+      "matches": 13,
+      "runs": 336,
+      "average": 33.6,
+      "strikeRate": 120.0,
+      "globalPercentile": 41
+    },
+    {
+      "id": "mandeep-singh",
+      "name": "Mandeep Singh",
+      "role": "OPENER",
+      "rating": 65,
+      "matches": 16,
+      "runs": 432,
+      "average": 27.0,
+      "strikeRate": 126.7,
+      "globalPercentile": 34
+    },
+    {
+      "id": "dj-hussey",
+      "name": "DJ Hussey",
+      "role": "PACE_BOWLER",
+      "rating": 70,
+      "matches": 15,
+      "runs": 396,
+      "average": 39.6,
+      "strikeRate": 129.8,
+      "wickets": 3,
+      "economy": 7.44,
+      "bowlingAverage": 22.3,
+      "globalPercentile": 58
+    },
+    {
+      "id": "pp-chawla",
+      "name": "PP Chawla",
+      "role": "SPIN_BOWLER",
+      "rating": 75,
+      "matches": 16,
+      "runs": 106,
+      "average": 13.2,
+      "strikeRate": 120.5,
+      "wickets": 16,
+      "economy": 7.46,
+      "bowlingAverage": 26.6,
+      "globalPercentile": 61
+    },
+    {
+      "id": "p-kumar",
+      "name": "P Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 62,
+      "matches": 16,
+      "runs": 35,
+      "average": 17.5,
+      "strikeRate": 120.7,
+      "wickets": 9,
+      "economy": 7.06,
+      "bowlingAverage": 49.4,
+      "globalPercentile": 35
+    },
+    {
+      "id": "harmeet-singh",
+      "name": "Harmeet Singh",
+      "role": "PACE_BOWLER",
+      "rating": 69,
+      "matches": 7,
+      "wickets": 7,
+      "economy": 8.78,
+      "bowlingAverage": 28.0,
+      "globalPercentile": 55
+    },
+    {
+      "id": "p-awana",
+      "name": "P Awana",
+      "role": "PACE_BOWLER",
+      "rating": 81,
+      "matches": 12,
+      "wickets": 17,
+      "economy": 8.13,
+      "bowlingAverage": 22.5,
+      "globalPercentile": 86
+    },
+    {
+      "id": "ba-bhatt",
+      "name": "BA Bhatt",
+      "role": "PACE_BOWLER",
+      "rating": 54,
+      "matches": 5,
+      "wickets": 2,
+      "economy": 8.67,
+      "bowlingAverage": 71.5,
+      "globalPercentile": 16
+    },
+    {
+      "id": "n-saini",
+      "name": "N Saini",
+      "role": "MIDDLE_ORDER",
+      "rating": 47,
+      "matches": 10,
+      "runs": 140,
+      "average": 14.0,
+      "strikeRate": 100.0,
+      "globalPercentile": 4
+    },
+    {
+      "id": "da-miller",
+      "name": "DA Miller",
+      "role": "ALL_ROUNDER",
+      "rating": 70,
+      "matches": 6,
+      "runs": 98,
+      "average": 49.0,
+      "strikeRate": 130.7,
+      "globalPercentile": 58
+    },
+    {
+      "id": "azhar-mahmood",
+      "name": "Azhar Mahmood",
+      "role": "PACE_BOWLER",
+      "rating": 79,
+      "matches": 11,
+      "runs": 186,
+      "average": 23.2,
+      "strikeRate": 131.0,
+      "wickets": 14,
+      "economy": 7.76,
+      "bowlingAverage": 23.6,
+      "globalPercentile": 83
+    },
+    {
+      "id": "rj-harris",
+      "name": "RJ Harris",
+      "role": "PACE_BOWLER",
+      "rating": 89,
+      "matches": 5,
+      "wickets": 8,
+      "economy": 7.56,
+      "bowlingAverage": 17.0,
+      "globalPercentile": 96
+    }
+  ],
+  "stats": {
+    "min": 40,
+    "max": 89,
+    "mean": 67.1
+  }
+}

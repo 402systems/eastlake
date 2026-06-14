@@ -1,0 +1,169 @@
+{
+  "teamId": "pbks",
+  "year": "2023",
+  "label": "Punjab Kings 2023",
+  "players": [
+    {
+      "id": "p-simran-singh",
+      "name": "P Simran Singh",
+      "role": "OPENER",
+      "rating": 69,
+      "matches": 14,
+      "runs": 358,
+      "average": 25.6,
+      "strikeRate": 150.4,
+      "globalPercentile": 47
+    },
+    {
+      "id": "s-dhawan",
+      "name": "S Dhawan",
+      "role": "OPENER",
+      "rating": 80,
+      "matches": 11,
+      "runs": 373,
+      "average": 41.4,
+      "strikeRate": 144.6,
+      "globalPercentile": 76
+    },
+    {
+      "id": "jm-sharma",
+      "name": "JM Sharma",
+      "role": "ALL_ROUNDER",
+      "rating": 74,
+      "matches": 14,
+      "runs": 309,
+      "average": 23.8,
+      "strikeRate": 157.7,
+      "globalPercentile": 71
+    },
+    {
+      "id": "sikandar-raza",
+      "name": "Sikandar Raza",
+      "role": "SPIN_BOWLER",
+      "rating": 50,
+      "matches": 7,
+      "runs": 139,
+      "average": 27.8,
+      "strikeRate": 141.8,
+      "wickets": 3,
+      "economy": 10.33,
+      "bowlingAverage": 41.3,
+      "globalPercentile": 2
+    },
+    {
+      "id": "sm-curran",
+      "name": "SM Curran",
+      "role": "PACE_BOWLER",
+      "rating": 52,
+      "matches": 14,
+      "runs": 276,
+      "average": 27.6,
+      "strikeRate": 137.3,
+      "wickets": 10,
+      "economy": 10.39,
+      "bowlingAverage": 49.7,
+      "globalPercentile": 11
+    },
+    {
+      "id": "arshdeep-singh",
+      "name": "Arshdeep Singh",
+      "role": "PACE_BOWLER",
+      "rating": 68,
+      "matches": 14,
+      "wickets": 17,
+      "economy": 9.78,
+      "bowlingAverage": 29.2,
+      "globalPercentile": 51
+    },
+    {
+      "id": "nt-ellis",
+      "name": "NT Ellis",
+      "role": "PACE_BOWLER",
+      "rating": 74,
+      "matches": 10,
+      "wickets": 13,
+      "economy": 9.0,
+      "bowlingAverage": 26.3,
+      "globalPercentile": 69
+    },
+    {
+      "id": "rd-chahar",
+      "name": "RD Chahar",
+      "role": "SPIN_BOWLER",
+      "rating": 59,
+      "matches": 14,
+      "wickets": 8,
+      "economy": 7.81,
+      "bowlingAverage": 48.5,
+      "globalPercentile": 16
+    },
+    {
+      "id": "harpreet-brar",
+      "name": "Harpreet Brar",
+      "role": "PACE_BOWLER",
+      "rating": 71,
+      "matches": 11,
+      "runs": 52,
+      "average": 8.7,
+      "strikeRate": 126.8,
+      "wickets": 9,
+      "economy": 8.06,
+      "bowlingAverage": 24.3,
+      "globalPercentile": 61
+    },
+    {
+      "id": "mw-short",
+      "name": "MW Short",
+      "role": "OPENER",
+      "rating": 58,
+      "matches": 6,
+      "runs": 117,
+      "average": 19.5,
+      "strikeRate": 127.2,
+      "wickets": 0,
+      "economy": 6.25,
+      "globalPercentile": 16
+    },
+    {
+      "id": "k-rabada",
+      "name": "K Rabada",
+      "role": "PACE_BOWLER",
+      "rating": 61,
+      "matches": 6,
+      "wickets": 7,
+      "economy": 10.57,
+      "bowlingAverage": 34.7,
+      "globalPercentile": 33
+    },
+    {
+      "id": "atharva-taide",
+      "name": "Atharva Taide",
+      "role": "OPENER",
+      "rating": 71,
+      "matches": 7,
+      "runs": 186,
+      "average": 31.0,
+      "strikeRate": 144.2,
+      "globalPercentile": 52
+    },
+    {
+      "id": "ls-livingstone",
+      "name": "LS Livingstone",
+      "role": "MIDDLE_ORDER",
+      "rating": 86,
+      "matches": 9,
+      "runs": 279,
+      "average": 34.9,
+      "strikeRate": 168.1,
+      "wickets": 2,
+      "economy": 13.43,
+      "bowlingAverage": 47.0,
+      "globalPercentile": 85
+    }
+  ],
+  "stats": {
+    "min": 50,
+    "max": 86,
+    "mean": 67.2
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "teamId": "rr",
+  "year": "2023",
+  "label": "Rajasthan Royals 2023",
+  "players": [
+    {
+      "id": "ybk-jaiswal",
+      "name": "YBK Jaiswal",
+      "role": "OPENER",
+      "rating": 94,
+      "matches": 14,
+      "runs": 625,
+      "average": 52.1,
+      "strikeRate": 164.0,
+      "globalPercentile": 99
+    },
+    {
+      "id": "jc-buttler",
+      "name": "JC Buttler",
+      "role": "OPENER",
+      "rating": 69,
+      "matches": 14,
+      "runs": 392,
+      "average": 28.0,
+      "strikeRate": 139.5,
+      "globalPercentile": 47
+    },
+    {
+      "id": "sv-samson",
+      "name": "SV Samson",
+      "role": "MIDDLE_ORDER",
+      "rating": 78,
+      "matches": 14,
+      "runs": 362,
+      "average": 32.9,
+      "strikeRate": 153.4,
+      "globalPercentile": 69
+    },
+    {
+      "id": "d-padikkal",
+      "name": "D Padikkal",
+      "role": "MIDDLE_ORDER",
+      "rating": 66,
+      "matches": 11,
+      "runs": 261,
+      "average": 26.1,
+      "strikeRate": 130.5,
+      "globalPercentile": 39
+    },
+    {
+      "id": "r-parag",
+      "name": "R Parag",
+      "role": "ALL_ROUNDER",
+      "rating": 49,
+      "matches": 7,
+      "runs": 78,
+      "average": 13.0,
+      "strikeRate": 120.0,
+      "globalPercentile": 10
+    },
+    {
+      "id": "so-hetmyer",
+      "name": "SO Hetmyer",
+      "role": "ALL_ROUNDER",
+      "rating": 79,
+      "matches": 13,
+      "runs": 299,
+      "average": 37.4,
+      "strikeRate": 152.6,
+      "globalPercentile": 83
+    },
+    {
+      "id": "r-ashwin",
+      "name": "R Ashwin",
+      "role": "SPIN_BOWLER",
+      "rating": 75,
+      "matches": 13,
+      "runs": 67,
+      "average": 13.4,
+      "strikeRate": 131.4,
+      "wickets": 14,
+      "economy": 7.55,
+      "bowlingAverage": 26.4,
+      "globalPercentile": 61
+    },
+    {
+      "id": "ta-boult",
+      "name": "TA Boult",
+      "role": "PACE_BOWLER",
+      "rating": 77,
+      "matches": 10,
+      "runs": 16,
+      "average": 16.0,
+      "strikeRate": 114.3,
+      "wickets": 13,
+      "economy": 8.32,
+      "bowlingAverage": 24.3,
+      "globalPercentile": 78
+    },
+    {
+      "id": "jo-holder",
+      "name": "JO Holder",
+      "role": "PACE_BOWLER",
+      "rating": 50,
+      "matches": 8,
+      "runs": 12,
+      "average": 6.0,
+      "strikeRate": 109.1,
+      "wickets": 4,
+      "economy": 10.18,
+      "bowlingAverage": 72.5,
+      "globalPercentile": 8
+    },
+    {
+      "id": "ys-chahal",
+      "name": "YS Chahal",
+      "role": "SPIN_BOWLER",
+      "rating": 83,
+      "matches": 14,
+      "wickets": 21,
+      "economy": 8.21,
+      "bowlingAverage": 20.7,
+      "globalPercentile": 85
+    },
+    {
+      "id": "sandeep-sharma",
+      "name": "Sandeep Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 60,
+      "matches": 12,
+      "wickets": 10,
+      "economy": 8.65,
+      "bowlingAverage": 39.8,
+      "globalPercentile": 30
+    },
+    {
+      "id": "a-zampa",
+      "name": "A Zampa",
+      "role": "SPIN_BOWLER",
+      "rating": 77,
+      "matches": 6,
+      "runs": 10,
+      "average": 3.3,
+      "strikeRate": 62.5,
+      "wickets": 8,
+      "economy": 8.59,
+      "bowlingAverage": 23.6,
+      "globalPercentile": 67
+    }
+  ],
+  "stats": {
+    "min": 49,
+    "max": 94,
+    "mean": 71.4
+  }
+}

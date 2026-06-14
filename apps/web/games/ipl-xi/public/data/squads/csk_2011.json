@@ -1,0 +1,161 @@
+{
+  "teamId": "csk",
+  "year": "2011",
+  "label": "Chennai Super Kings 2011",
+  "players": [
+    {
+      "id": "s-anirudha",
+      "name": "S Anirudha",
+      "role": "MIDDLE_ORDER",
+      "rating": 54,
+      "matches": 5,
+      "runs": 83,
+      "average": 20.8,
+      "strikeRate": 112.2,
+      "globalPercentile": 13
+    },
+    {
+      "id": "m-vijay",
+      "name": "M Vijay",
+      "role": "OPENER",
+      "rating": 66,
+      "matches": 16,
+      "runs": 434,
+      "average": 27.1,
+      "strikeRate": 128.0,
+      "globalPercentile": 38
+    },
+    {
+      "id": "sk-raina",
+      "name": "SK Raina",
+      "role": "SPIN_BOWLER",
+      "rating": 54,
+      "matches": 16,
+      "runs": 438,
+      "average": 31.3,
+      "strikeRate": 135.6,
+      "wickets": 2,
+      "economy": 7.74,
+      "bowlingAverage": 104.5,
+      "globalPercentile": 4
+    },
+    {
+      "id": "ms-dhoni",
+      "name": "MS Dhoni",
+      "role": "ALL_ROUNDER",
+      "rating": 88,
+      "matches": 13,
+      "runs": 392,
+      "average": 43.6,
+      "strikeRate": 160.0,
+      "globalPercentile": 96
+    },
+    {
+      "id": "ja-morkel",
+      "name": "JA Morkel",
+      "role": "PACE_BOWLER",
+      "rating": 72,
+      "matches": 14,
+      "runs": 138,
+      "average": 27.6,
+      "strikeRate": 138.0,
+      "wickets": 15,
+      "economy": 8.67,
+      "bowlingAverage": 26.0,
+      "globalPercentile": 64
+    },
+    {
+      "id": "tg-southee",
+      "name": "TG Southee",
+      "role": "PACE_BOWLER",
+      "rating": 59,
+      "matches": 5,
+      "wickets": 4,
+      "economy": 8.79,
+      "bowlingAverage": 41.8,
+      "globalPercentile": 28
+    },
+    {
+      "id": "r-ashwin",
+      "name": "R Ashwin",
+      "role": "SPIN_BOWLER",
+      "rating": 86,
+      "matches": 16,
+      "wickets": 20,
+      "economy": 6.32,
+      "bowlingAverage": 19.9,
+      "globalPercentile": 92
+    },
+    {
+      "id": "s-randiv",
+      "name": "S Randiv",
+      "role": "SPIN_BOWLER",
+      "rating": 64,
+      "matches": 8,
+      "wickets": 6,
+      "economy": 7.69,
+      "bowlingAverage": 37.2,
+      "globalPercentile": 29
+    },
+    {
+      "id": "sb-jakati",
+      "name": "SB Jakati",
+      "role": "SPIN_BOWLER",
+      "rating": 66,
+      "matches": 14,
+      "wickets": 10,
+      "economy": 7.65,
+      "bowlingAverage": 33.8,
+      "globalPercentile": 36
+    },
+    {
+      "id": "s-badrinath",
+      "name": "S Badrinath",
+      "role": "MIDDLE_ORDER",
+      "rating": 82,
+      "matches": 12,
+      "runs": 396,
+      "average": 66.0,
+      "strikeRate": 126.9,
+      "globalPercentile": 77
+    },
+    {
+      "id": "mek-hussey",
+      "name": "MEK Hussey",
+      "role": "OPENER",
+      "rating": 75,
+      "matches": 14,
+      "runs": 492,
+      "average": 41.0,
+      "strikeRate": 119.1,
+      "globalPercentile": 65
+    },
+    {
+      "id": "de-bollinger",
+      "name": "DE Bollinger",
+      "role": "PACE_BOWLER",
+      "rating": 83,
+      "matches": 13,
+      "wickets": 17,
+      "economy": 7.3,
+      "bowlingAverage": 20.2,
+      "globalPercentile": 89
+    },
+    {
+      "id": "dj-bravo",
+      "name": "DJ Bravo",
+      "role": "PACE_BOWLER",
+      "rating": 73,
+      "matches": 6,
+      "wickets": 6,
+      "economy": 7.95,
+      "bowlingAverage": 26.5,
+      "globalPercentile": 67
+    }
+  ],
+  "stats": {
+    "min": 54,
+    "max": 88,
+    "mean": 70.9
+  }
+}

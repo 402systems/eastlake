@@ -1,0 +1,147 @@
+{
+  "teamId": "kkr",
+  "year": "2011",
+  "label": "Kolkata Knight Riders 2011",
+  "players": [
+    {
+      "id": "ms-bisla",
+      "name": "MS Bisla",
+      "role": "OPENER",
+      "rating": 49,
+      "matches": 5,
+      "runs": 72,
+      "average": 18.0,
+      "strikeRate": 80.9
+    },
+    {
+      "id": "jh-kallis",
+      "name": "JH Kallis",
+      "role": "OPENER",
+      "rating": 68,
+      "matches": 14,
+      "runs": 424,
+      "average": 35.3,
+      "strikeRate": 112.2,
+      "wickets": 7,
+      "economy": 7.08,
+      "bowlingAverage": 24.3
+    },
+    {
+      "id": "yk-pathan",
+      "name": "YK Pathan",
+      "role": "ALL_ROUNDER",
+      "rating": 78,
+      "matches": 14,
+      "runs": 283,
+      "average": 31.4,
+      "strikeRate": 141.5,
+      "wickets": 13,
+      "economy": 6.26,
+      "bowlingAverage": 18.8
+    },
+    {
+      "id": "mk-tiwary",
+      "name": "MK Tiwary",
+      "role": "MIDDLE_ORDER",
+      "rating": 74,
+      "matches": 13,
+      "runs": 359,
+      "average": 51.3,
+      "strikeRate": 111.5
+    },
+    {
+      "id": "ejg-morgan",
+      "name": "EJG Morgan",
+      "role": "MIDDLE_ORDER",
+      "rating": 53,
+      "matches": 9,
+      "runs": 137,
+      "average": 17.1,
+      "strikeRate": 117.1
+    },
+    {
+      "id": "g-gambhir",
+      "name": "G Gambhir",
+      "role": "MIDDLE_ORDER",
+      "rating": 68,
+      "matches": 15,
+      "runs": 378,
+      "average": 34.4,
+      "strikeRate": 120.4
+    },
+    {
+      "id": "iqbal-abdulla",
+      "name": "Iqbal Abdulla",
+      "role": "SPIN_BOWLER",
+      "rating": 84,
+      "matches": 15,
+      "wickets": 16,
+      "economy": 6.26,
+      "bowlingAverage": 19.6
+    },
+    {
+      "id": "r-bhatia",
+      "name": "R Bhatia",
+      "role": "PACE_BOWLER",
+      "rating": 73,
+      "matches": 12,
+      "runs": 25,
+      "average": 12.5,
+      "strikeRate": 113.6,
+      "wickets": 8,
+      "economy": 6.66,
+      "bowlingAverage": 26.6
+    },
+    {
+      "id": "l-balaji",
+      "name": "L Balaji",
+      "role": "PACE_BOWLER",
+      "rating": 60,
+      "matches": 14,
+      "wickets": 10,
+      "economy": 8.64,
+      "bowlingAverage": 38.3
+    },
+    {
+      "id": "jd-unadkat",
+      "name": "JD Unadkat",
+      "role": "PACE_BOWLER",
+      "rating": 72,
+      "matches": 6,
+      "wickets": 6,
+      "economy": 8.39,
+      "bowlingAverage": 25.2
+    },
+    {
+      "id": "b-lee",
+      "name": "B Lee",
+      "role": "PACE_BOWLER",
+      "rating": 58,
+      "matches": 12,
+      "runs": 5,
+      "average": 2.5,
+      "strikeRate": 55.6,
+      "wickets": 5,
+      "economy": 7.7,
+      "bowlingAverage": 69.8
+    },
+    {
+      "id": "shakib-al-hasan",
+      "name": "Shakib Al Hasan",
+      "role": "SPIN_BOWLER",
+      "rating": 91,
+      "matches": 7,
+      "runs": 29,
+      "average": 14.5,
+      "strikeRate": 131.8,
+      "wickets": 11,
+      "economy": 6.94,
+      "bowlingAverage": 16.1
+    }
+  ],
+  "stats": {
+    "min": 49,
+    "max": 91,
+    "mean": 69.0
+  }
+}

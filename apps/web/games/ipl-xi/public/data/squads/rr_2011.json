@@ -1,0 +1,114 @@
+{
+  "teamId": "rr",
+  "year": "2011",
+  "label": "Rajasthan Royals 2011",
+  "players": [
+    {
+      "id": "r-dravid",
+      "name": "R Dravid",
+      "role": "OPENER",
+      "rating": 64,
+      "matches": 12,
+      "runs": 343,
+      "average": 31.2,
+      "strikeRate": 109.9
+    },
+    {
+      "id": "j-botha",
+      "name": "J Botha",
+      "role": "MIDDLE_ORDER",
+      "rating": 72,
+      "matches": 10,
+      "runs": 230,
+      "average": 46.0,
+      "strikeRate": 116.2,
+      "wickets": 7,
+      "economy": 6.72,
+      "bowlingAverage": 34.6
+    },
+    {
+      "id": "lrpl-taylor",
+      "name": "LRPL Taylor",
+      "role": "ALL_ROUNDER",
+      "rating": 64,
+      "matches": 11,
+      "runs": 181,
+      "average": 36.2,
+      "strikeRate": 120.7
+    },
+    {
+      "id": "a-singh",
+      "name": "A Singh",
+      "role": "PACE_BOWLER",
+      "rating": 75,
+      "matches": 9,
+      "wickets": 9,
+      "economy": 7.79,
+      "bowlingAverage": 24.7
+    },
+    {
+      "id": "sk-trivedi",
+      "name": "SK Trivedi",
+      "role": "PACE_BOWLER",
+      "rating": 66,
+      "matches": 12,
+      "wickets": 10,
+      "economy": 8.61,
+      "bowlingAverage": 30.7
+    },
+    {
+      "id": "sk-warne",
+      "name": "SK Warne",
+      "role": "SPIN_BOWLER",
+      "rating": 82,
+      "matches": 12,
+      "runs": 10,
+      "average": 5.0,
+      "strikeRate": 50.0,
+      "wickets": 13,
+      "economy": 6.34,
+      "bowlingAverage": 22.9
+    },
+    {
+      "id": "al-menaria",
+      "name": "AL Menaria",
+      "role": "ALL_ROUNDER",
+      "rating": 56,
+      "matches": 10,
+      "runs": 180,
+      "average": 20.0,
+      "strikeRate": 118.4,
+      "wickets": 2,
+      "economy": 8.07,
+      "bowlingAverage": 60.5
+    },
+    {
+      "id": "am-rahane",
+      "name": "AM Rahane",
+      "role": "ALL_ROUNDER",
+      "rating": 59,
+      "matches": 7,
+      "runs": 120,
+      "average": 24.0,
+      "strikeRate": 122.4
+    },
+    {
+      "id": "sr-watson",
+      "name": "SR Watson",
+      "role": "OPENER",
+      "rating": 71,
+      "matches": 11,
+      "runs": 330,
+      "average": 33.0,
+      "strikeRate": 131.0,
+      "wickets": 6,
+      "economy": 6.89,
+      "bowlingAverage": 41.3
+    }
+  ],
+  "stats": {
+    "min": 56,
+    "max": 82,
+    "mean": 67.7
+  }
+}

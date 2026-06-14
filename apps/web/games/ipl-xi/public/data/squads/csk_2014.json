@@ -1,0 +1,134 @@
+{
+  "teamId": "csk",
+  "year": "2014",
+  "label": "Chennai Super Kings 2014",
+  "players": [
+    {
+      "id": "dr-smith",
+      "name": "DR Smith",
+      "role": "PACE_BOWLER",
+      "rating": 64,
+      "matches": 16,
+      "runs": 566,
+      "average": 35.4,
+      "strikeRate": 136.4,
+      "wickets": 4,
+      "economy": 9.9,
+      "bowlingAverage": 24.8,
+      "globalPercentile": 38
+    },
+    {
+      "id": "bb-mccullum",
+      "name": "BB McCullum",
+      "role": "OPENER",
+      "rating": 69,
+      "matches": 14,
+      "runs": 405,
+      "average": 33.8,
+      "strikeRate": 121.6,
+      "globalPercentile": 47
+    },
+    {
+      "id": "sk-raina",
+      "name": "SK Raina",
+      "role": "PACE_BOWLER",
+      "rating": 54,
+      "matches": 16,
+      "runs": 523,
+      "average": 43.6,
+      "strikeRate": 146.5,
+      "wickets": 1,
+      "economy": 7.5,
+      "bowlingAverage": 135.0,
+      "globalPercentile": 16
+    },
+    {
+      "id": "ms-dhoni",
+      "name": "MS Dhoni",
+      "role": "ALL_ROUNDER",
+      "rating": 82,
+      "matches": 15,
+      "runs": 371,
+      "average": 74.2,
+      "strikeRate": 150.2,
+      "globalPercentile": 87
+    },
+    {
+      "id": "mm-sharma",
+      "name": "MM Sharma",
+      "role": "PACE_BOWLER",
+      "rating": 81,
+      "matches": 16,
+      "wickets": 23,
+      "economy": 8.49,
+      "bowlingAverage": 19.9,
+      "globalPercentile": 86
+    },
+    {
+      "id": "r-ashwin",
+      "name": "R Ashwin",
+      "role": "SPIN_BOWLER",
+      "rating": 74,
+      "matches": 16,
+      "runs": 45,
+      "average": 22.5,
+      "strikeRate": 100.0,
+      "wickets": 16,
+      "economy": 7.45,
+      "bowlingAverage": 27.9,
+      "globalPercentile": 57
+    },
+    {
+      "id": "ra-jadeja",
+      "name": "RA Jadeja",
+      "role": "SPIN_BOWLER",
+      "rating": 77,
+      "matches": 16,
+      "runs": 146,
+      "average": 29.2,
+      "strikeRate": 133.9,
+      "wickets": 19,
+      "economy": 8.21,
+      "bowlingAverage": 23.5,
+      "globalPercentile": 67
+    },
+    {
+      "id": "f-du-plessis",
+      "name": "F du Plessis",
+      "role": "MIDDLE_ORDER",
+      "rating": 70,
+      "matches": 12,
+      "runs": 303,
+      "average": 33.7,
+      "strikeRate": 128.9,
+      "globalPercentile": 46
+    },
+    {
+      "id": "ic-pandey",
+      "name": "IC Pandey",
+      "role": "PACE_BOWLER",
+      "rating": 58,
+      "matches": 12,
+      "wickets": 6,
+      "economy": 7.88,
+      "bowlingAverage": 55.2,
+      "globalPercentile": 25
+    },
+    {
+      "id": "bw-hilfenhaus",
+      "name": "BW Hilfenhaus",
+      "role": "PACE_BOWLER",
+      "rating": 66,
+      "matches": 8,
+      "wickets": 8,
+      "economy": 9.11,
+      "bowlingAverage": 31.9,
+      "globalPercentile": 45
+    }
+  ],
+  "stats": {
+    "min": 54,
+    "max": 82,
+    "mean": 69.5
+  }
+}

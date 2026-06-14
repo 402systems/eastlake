@@ -1,0 +1,156 @@
+{
+  "teamId": "pbks",
+  "year": "2008",
+  "label": "Punjab Kings 2008",
+  "players": [
+    {
+      "id": "k-goel",
+      "name": "K Goel",
+      "role": "OPENER",
+      "rating": 46,
+      "matches": 6,
+      "runs": 76,
+      "average": 15.2,
+      "strikeRate": 97.4,
+      "globalPercentile": 2
+    },
+    {
+      "id": "jr-hopes",
+      "name": "JR Hopes",
+      "role": "PACE_BOWLER",
+      "rating": 52,
+      "matches": 11,
+      "runs": 221,
+      "average": 20.1,
+      "strikeRate": 149.3,
+      "wickets": 7,
+      "economy": 10.18,
+      "bowlingAverage": 40.7,
+      "globalPercentile": 11
+    },
+    {
+      "id": "kc-sangakkara",
+      "name": "KC Sangakkara",
+      "role": "MIDDLE_ORDER",
+      "rating": 87,
+      "matches": 9,
+      "runs": 320,
+      "average": 35.6,
+      "strikeRate": 162.4,
+      "globalPercentile": 87
+    },
+    {
+      "id": "yuvraj-singh",
+      "name": "Yuvraj Singh",
+      "role": "PACE_BOWLER",
+      "rating": 59,
+      "matches": 14,
+      "runs": 299,
+      "average": 24.9,
+      "strikeRate": 162.5,
+      "wickets": 3,
+      "economy": 9.44,
+      "bowlingAverage": 28.3,
+      "globalPercentile": 28
+    },
+    {
+      "id": "ik-pathan",
+      "name": "IK Pathan",
+      "role": "PACE_BOWLER",
+      "rating": 79,
+      "matches": 14,
+      "runs": 131,
+      "average": 26.2,
+      "strikeRate": 113.9,
+      "wickets": 15,
+      "economy": 6.81,
+      "bowlingAverage": 24.1,
+      "globalPercentile": 83
+    },
+    {
+      "id": "s-sreesanth",
+      "name": "S Sreesanth",
+      "role": "PACE_BOWLER",
+      "rating": 75,
+      "matches": 15,
+      "wickets": 19,
+      "economy": 8.81,
+      "bowlingAverage": 23.7,
+      "globalPercentile": 72
+    },
+    {
+      "id": "pp-chawla",
+      "name": "PP Chawla",
+      "role": "SPIN_BOWLER",
+      "rating": 75,
+      "matches": 15,
+      "runs": 90,
+      "average": 22.5,
+      "strikeRate": 155.2,
+      "wickets": 17,
+      "economy": 8.46,
+      "bowlingAverage": 23.3,
+      "globalPercentile": 61
+    },
+    {
+      "id": "dpmd-jayawardene",
+      "name": "DPMD Jayawardene",
+      "role": "ALL_ROUNDER",
+      "rating": 63,
+      "matches": 12,
+      "runs": 179,
+      "average": 25.6,
+      "strikeRate": 136.6,
+      "globalPercentile": 40
+    },
+    {
+      "id": "vrv-singh",
+      "name": "VRV Singh",
+      "role": "PACE_BOWLER",
+      "rating": 61,
+      "matches": 13,
+      "wickets": 11,
+      "economy": 8.85,
+      "bowlingAverage": 38.6,
+      "globalPercentile": 33
+    },
+    {
+      "id": "se-marsh",
+      "name": "SE Marsh",
+      "role": "OPENER",
+      "rating": 90,
+      "matches": 11,
+      "runs": 616,
+      "average": 68.4,
+      "strikeRate": 140.0,
+      "globalPercentile": 94
+    },
+    {
+      "id": "la-pomersbach",
+      "name": "LA Pomersbach",
+      "role": "MIDDLE_ORDER",
+      "rating": 89,
+      "matches": 5,
+      "runs": 152,
+      "average": 152.0,
+      "strikeRate": 153.5,
+      "globalPercentile": 90
+    },
+    {
+      "id": "rr-powar",
+      "name": "RR Powar",
+      "role": "PACE_BOWLER",
+      "rating": 65,
+      "matches": 5,
+      "wickets": 3,
+      "economy": 7.75,
+      "bowlingAverage": 31.0,
+      "globalPercentile": 41
+    }
+  ],
+  "stats": {
+    "min": 46,
+    "max": 90,
+    "mean": 70.1
+  }
+}

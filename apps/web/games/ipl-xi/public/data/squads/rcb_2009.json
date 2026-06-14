@@ -1,0 +1,178 @@
+{
+  "teamId": "rcb",
+  "year": "2009",
+  "label": "Royal Challengers Bangalore 2009",
+  "players": [
+    {
+      "id": "jd-ryder",
+      "name": "JD Ryder",
+      "role": "OPENER",
+      "rating": 47,
+      "matches": 5,
+      "runs": 56,
+      "average": 11.2,
+      "strikeRate": 116.7,
+      "wickets": 3,
+      "economy": 7.12,
+      "bowlingAverage": 40.3
+    },
+    {
+      "id": "lrpl-taylor",
+      "name": "LRPL Taylor",
+      "role": "MIDDLE_ORDER",
+      "rating": 71,
+      "matches": 11,
+      "runs": 280,
+      "average": 31.1,
+      "strikeRate": 135.9
+    },
+    {
+      "id": "kp-pietersen",
+      "name": "KP Pietersen",
+      "role": "MIDDLE_ORDER",
+      "rating": 50,
+      "matches": 6,
+      "runs": 93,
+      "average": 15.5,
+      "strikeRate": 110.7,
+      "wickets": 4,
+      "economy": 6.77,
+      "bowlingAverage": 22.0
+    },
+    {
+      "id": "rv-uthappa",
+      "name": "RV Uthappa",
+      "role": "MIDDLE_ORDER",
+      "rating": 47,
+      "matches": 13,
+      "runs": 175,
+      "average": 15.9,
+      "strikeRate": 102.9
+    },
+    {
+      "id": "r-dravid",
+      "name": "R Dravid",
+      "role": "MIDDLE_ORDER",
+      "rating": 60,
+      "matches": 12,
+      "runs": 271,
+      "average": 24.6,
+      "strikeRate": 115.8
+    },
+    {
+      "id": "v-kohli",
+      "name": "V Kohli",
+      "role": "ALL_ROUNDER",
+      "rating": 56,
+      "matches": 13,
+      "runs": 246,
+      "average": 22.4,
+      "strikeRate": 112.3,
+      "wickets": 0,
+      "economy": 7.67
+    },
+    {
+      "id": "b-akhil",
+      "name": "B Akhil",
+      "role": "PACE_BOWLER",
+      "rating": 76,
+      "matches": 5,
+      "runs": 17,
+      "average": 8.5,
+      "strikeRate": 113.3,
+      "wickets": 4,
+      "economy": 7.27,
+      "bowlingAverage": 20.0
+    },
+    {
+      "id": "p-kumar",
+      "name": "P Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 70,
+      "matches": 13,
+      "runs": 65,
+      "average": 13.0,
+      "strikeRate": 141.3,
+      "wickets": 13,
+      "economy": 8.07,
+      "bowlingAverage": 30.8
+    },
+    {
+      "id": "r-vinay-kumar",
+      "name": "R Vinay Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 66,
+      "matches": 11,
+      "runs": 47,
+      "average": 11.8,
+      "strikeRate": 106.8,
+      "wickets": 9,
+      "economy": 8.44,
+      "bowlingAverage": 30.3
+    },
+    {
+      "id": "a-kumble",
+      "name": "A Kumble",
+      "role": "SPIN_BOWLER",
+      "rating": 90,
+      "matches": 16,
+      "runs": 16,
+      "average": 16.0,
+      "strikeRate": 84.2,
+      "wickets": 21,
+      "economy": 5.97,
+      "bowlingAverage": 16.8
+    },
+    {
+      "id": "jh-kallis",
+      "name": "JH Kallis",
+      "role": "OPENER",
+      "rating": 60,
+      "matches": 15,
+      "runs": 361,
+      "average": 27.8,
+      "strikeRate": 109.1,
+      "wickets": 6,
+      "economy": 7.87,
+      "bowlingAverage": 60.3
+    },
+    {
+      "id": "mv-boucher",
+      "name": "MV Boucher",
+      "role": "ALL_ROUNDER",
+      "rating": 65,
+      "matches": 9,
+      "runs": 150,
+      "average": 30.0,
+      "strikeRate": 131.6
+    },
+    {
+      "id": "kp-appanna",
+      "name": "KP Appanna",
+      "role": "SPIN_BOWLER",
+      "rating": 58,
+      "matches": 5,
+      "wickets": 2,
+      "economy": 7.58,
+      "bowlingAverage": 45.5
+    },
+    {
+      "id": "re-van-der-merwe",
+      "name": "RE van der Merwe",
+      "role": "ALL_ROUNDER",
+      "rating": 60,
+      "matches": 10,
+      "runs": 122,
+      "average": 15.2,
+      "strikeRate": 124.5,
+      "wickets": 9,
+      "economy": 7.74,
+      "bowlingAverage": 29.2
+    }
+  ],
+  "stats": {
+    "min": 47,
+    "max": 90,
+    "mean": 62.6
+  }
+}

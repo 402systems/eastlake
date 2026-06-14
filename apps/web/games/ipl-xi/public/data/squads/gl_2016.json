@@ -1,0 +1,162 @@
+{
+  "teamId": "gl",
+  "year": "2016",
+  "label": "Gujarat Lions 2016",
+  "players": [
+    {
+      "id": "aj-finch",
+      "name": "AJ Finch",
+      "role": "MIDDLE_ORDER",
+      "rating": 83,
+      "matches": 12,
+      "runs": 393,
+      "average": 49.1,
+      "strikeRate": 132.3
+    },
+    {
+      "id": "bb-mccullum",
+      "name": "BB McCullum",
+      "role": "OPENER",
+      "rating": 62,
+      "matches": 16,
+      "runs": 354,
+      "average": 22.1,
+      "strikeRate": 135.1
+    },
+    {
+      "id": "sk-raina",
+      "name": "SK Raina",
+      "role": "MIDDLE_ORDER",
+      "rating": 68,
+      "matches": 15,
+      "runs": 399,
+      "average": 28.5,
+      "strikeRate": 127.9,
+      "wickets": 0,
+      "economy": 8.4
+    },
+    {
+      "id": "kd-karthik",
+      "name": "KD Karthik",
+      "role": "MIDDLE_ORDER",
+      "rating": 63,
+      "matches": 15,
+      "runs": 335,
+      "average": 25.8,
+      "strikeRate": 125.9
+    },
+    {
+      "id": "ra-jadeja",
+      "name": "RA Jadeja",
+      "role": "ALL_ROUNDER",
+      "rating": 57,
+      "matches": 15,
+      "runs": 191,
+      "average": 23.9,
+      "strikeRate": 109.1,
+      "wickets": 8,
+      "economy": 7.97,
+      "bowlingAverage": 40.0
+    },
+    {
+      "id": "dj-bravo",
+      "name": "DJ Bravo",
+      "role": "PACE_BOWLER",
+      "rating": 70,
+      "matches": 15,
+      "runs": 99,
+      "average": 12.4,
+      "strikeRate": 120.7,
+      "wickets": 17,
+      "economy": 8.96,
+      "bowlingAverage": 29.5
+    },
+    {
+      "id": "p-kumar",
+      "name": "P Kumar",
+      "role": "PACE_BOWLER",
+      "rating": 59,
+      "matches": 16,
+      "runs": 24,
+      "average": 6.0,
+      "strikeRate": 92.3,
+      "wickets": 9,
+      "economy": 7.92,
+      "bowlingAverage": 45.3
+    },
+    {
+      "id": "jp-faulkner",
+      "name": "JP Faulkner",
+      "role": "PACE_BOWLER",
+      "rating": 48,
+      "matches": 7,
+      "runs": 77,
+      "average": 25.7,
+      "strikeRate": 132.8,
+      "wickets": 2,
+      "economy": 9.88,
+      "bowlingAverage": 84.0
+    },
+    {
+      "id": "sb-jakati",
+      "name": "SB Jakati",
+      "role": "SPIN_BOWLER",
+      "rating": 52,
+      "matches": 6,
+      "wickets": 2,
+      "economy": 9.05,
+      "bowlingAverage": 90.5
+    },
+    {
+      "id": "pv-tambe",
+      "name": "PV Tambe",
+      "role": "SPIN_BOWLER",
+      "rating": 64,
+      "matches": 7,
+      "wickets": 5,
+      "economy": 8.94,
+      "bowlingAverage": 28.6
+    },
+    {
+      "id": "ds-kulkarni",
+      "name": "DS Kulkarni",
+      "role": "PACE_BOWLER",
+      "rating": 82,
+      "matches": 14,
+      "runs": 27,
+      "average": 13.5,
+      "strikeRate": 168.8,
+      "wickets": 18,
+      "economy": 7.45,
+      "bowlingAverage": 20.3
+    },
+    {
+      "id": "dr-smith",
+      "name": "DR Smith",
+      "role": "OPENER",
+      "rating": 71,
+      "matches": 12,
+      "runs": 324,
+      "average": 29.5,
+      "strikeRate": 147.3,
+      "wickets": 8,
+      "economy": 8.56,
+      "bowlingAverage": 19.2
+    },
+    {
+      "id": "s-kaushik",
+      "name": "S Kaushik",
+      "role": "PACE_BOWLER",
+      "rating": 66,
+      "matches": 7,
+      "wickets": 6,
+      "economy": 8.48,
+      "bowlingAverage": 32.5
+    }
+  ],
+  "stats": {
+    "min": 48,
+    "max": 83,
+    "mean": 65.0
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "teamId": "mi",
+  "year": "2019",
+  "label": "Mumbai Indians 2019",
+  "players": [
+    {
+      "id": "rg-sharma",
+      "name": "RG Sharma",
+      "role": "OPENER",
+      "rating": 67,
+      "matches": 15,
+      "runs": 405,
+      "average": 28.9,
+      "strikeRate": 129.0,
+      "globalPercentile": 41
+    },
+    {
+      "id": "q-de-kock",
+      "name": "Q de Kock",
+      "role": "OPENER",
+      "rating": 75,
+      "matches": 16,
+      "runs": 529,
+      "average": 37.8,
+      "strikeRate": 133.6,
+      "globalPercentile": 65
+    },
+    {
+      "id": "sa-yadav",
+      "name": "SA Yadav",
+      "role": "MIDDLE_ORDER",
+      "rating": 72,
+      "matches": 15,
+      "runs": 424,
+      "average": 32.6,
+      "strikeRate": 130.9,
+      "globalPercentile": 53
+    },
+    {
+      "id": "ka-pollard",
+      "name": "KA Pollard",
+      "role": "ALL_ROUNDER",
+      "rating": 80,
+      "matches": 12,
+      "runs": 281,
+      "average": 35.1,
+      "strikeRate": 159.7,
+      "globalPercentile": 84
+    },
+    {
+      "id": "hh-pandya",
+      "name": "HH Pandya",
+      "role": "ALL_ROUNDER",
+      "rating": 84,
+      "matches": 16,
+      "runs": 409,
+      "average": 45.4,
+      "strikeRate": 193.8,
+      "wickets": 14,
+      "economy": 9.34,
+      "bowlingAverage": 28.4,
+      "globalPercentile": 90
+    },
+    {
+      "id": "kh-pandya",
+      "name": "KH Pandya",
+      "role": "SPIN_BOWLER",
+      "rating": 71,
+      "matches": 16,
+      "runs": 183,
+      "average": 16.6,
+      "strikeRate": 122.0,
+      "wickets": 12,
+      "economy": 7.33,
+      "bowlingAverage": 28.1,
+      "globalPercentile": 49
+    },
+    {
+      "id": "mj-mcclenaghan",
+      "name": "MJ McClenaghan",
+      "role": "PACE_BOWLER",
+      "rating": 59,
+      "matches": 5,
+      "runs": 11,
+      "average": 5.5,
+      "strikeRate": 68.8,
+      "wickets": 3,
+      "economy": 7.94,
+      "bowlingAverage": 47.7,
+      "globalPercentile": 28
+    },
+    {
+      "id": "jj-bumrah",
+      "name": "JJ Bumrah",
+      "role": "PACE_BOWLER",
+      "rating": 83,
+      "matches": 16,
+      "wickets": 20,
+      "economy": 6.95,
+      "bowlingAverage": 21.6,
+      "globalPercentile": 89
+    },
+    {
+      "id": "sl-malinga",
+      "name": "SL Malinga",
+      "role": "PACE_BOWLER",
+      "rating": 69,
+      "matches": 12,
+      "wickets": 16,
+      "economy": 10.08,
+      "bowlingAverage": 28.2,
+      "globalPercentile": 55
+    },
+    {
+      "id": "jp-behrendorff",
+      "name": "JP Behrendorff",
+      "role": "PACE_BOWLER",
+      "rating": 66,
+      "matches": 5,
+      "wickets": 5,
+      "economy": 8.84,
+      "bowlingAverage": 33.6,
+      "globalPercentile": 45
+    },
+    {
+      "id": "rd-chahar",
+      "name": "RD Chahar",
+      "role": "SPIN_BOWLER",
+      "rating": 79,
+      "matches": 13,
+      "runs": 12,
+      "average": 6.0,
+      "strikeRate": 109.1,
+      "wickets": 13,
+      "economy": 6.6,
+      "bowlingAverage": 23.8,
+      "globalPercentile": 73
+    },
+    {
+      "id": "ishan-kishan",
+      "name": "Ishan Kishan",
+      "role": "MIDDLE_ORDER",
+      "rating": 51,
+      "matches": 6,
+      "runs": 101,
+      "average": 20.2,
+      "strikeRate": 101.0,
+      "globalPercentile": 8
+    }
+  ],
+  "stats": {
+    "min": 51,
+    "max": 84,
+    "mean": 71.3
+  }
+}

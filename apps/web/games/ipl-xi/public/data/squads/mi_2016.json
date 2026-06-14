@@ -1,0 +1,150 @@
+{
+  "teamId": "mi",
+  "year": "2016",
+  "label": "Mumbai Indians 2016",
+  "players": [
+    {
+      "id": "rg-sharma",
+      "name": "RG Sharma",
+      "role": "OPENER",
+      "rating": 80,
+      "matches": 14,
+      "runs": 489,
+      "average": 44.5,
+      "strikeRate": 133.6,
+      "globalPercentile": 76
+    },
+    {
+      "id": "hh-pandya",
+      "name": "HH Pandya",
+      "role": "ALL_ROUNDER",
+      "rating": 46,
+      "matches": 9,
+      "runs": 44,
+      "average": 6.3,
+      "strikeRate": 69.8,
+      "wickets": 3,
+      "economy": 8.94,
+      "bowlingAverage": 47.7,
+      "globalPercentile": 4
+    },
+    {
+      "id": "jc-buttler",
+      "name": "JC Buttler",
+      "role": "ALL_ROUNDER",
+      "rating": 65,
+      "matches": 14,
+      "runs": 255,
+      "average": 23.2,
+      "strikeRate": 139.3,
+      "globalPercentile": 46
+    },
+    {
+      "id": "at-rayudu",
+      "name": "AT Rayudu",
+      "role": "MIDDLE_ORDER",
+      "rating": 67,
+      "matches": 12,
+      "runs": 334,
+      "average": 30.4,
+      "strikeRate": 120.6,
+      "globalPercentile": 41
+    },
+    {
+      "id": "ka-pollard",
+      "name": "KA Pollard",
+      "role": "ALL_ROUNDER",
+      "rating": 67,
+      "matches": 12,
+      "runs": 207,
+      "average": 25.9,
+      "strikeRate": 143.8,
+      "wickets": 0,
+      "economy": 13.67,
+      "globalPercentile": 53
+    },
+    {
+      "id": "harbhajan-singh",
+      "name": "Harbhajan Singh",
+      "role": "SPIN_BOWLER",
+      "rating": 59,
+      "matches": 14,
+      "runs": 92,
+      "average": 30.7,
+      "strikeRate": 109.5,
+      "wickets": 9,
+      "economy": 8.2,
+      "bowlingAverage": 44.7,
+      "globalPercentile": 16
+    },
+    {
+      "id": "mj-mcclenaghan",
+      "name": "MJ McClenaghan",
+      "role": "PACE_BOWLER",
+      "rating": 74,
+      "matches": 14,
+      "runs": 34,
+      "average": 11.3,
+      "strikeRate": 147.8,
+      "wickets": 17,
+      "economy": 8.42,
+      "bowlingAverage": 26.4,
+      "globalPercentile": 69
+    },
+    {
+      "id": "jj-bumrah",
+      "name": "JJ Bumrah",
+      "role": "PACE_BOWLER",
+      "rating": 73,
+      "matches": 14,
+      "wickets": 15,
+      "economy": 7.94,
+      "bowlingAverage": 27.5,
+      "globalPercentile": 67
+    },
+    {
+      "id": "pa-patel",
+      "name": "PA Patel",
+      "role": "OPENER",
+      "rating": 54,
+      "matches": 10,
+      "runs": 177,
+      "average": 17.7,
+      "strikeRate": 117.2,
+      "globalPercentile": 11
+    },
+    {
+      "id": "tg-southee",
+      "name": "TG Southee",
+      "role": "PACE_BOWLER",
+      "rating": 65,
+      "matches": 11,
+      "runs": 30,
+      "average": 10.0,
+      "strikeRate": 166.7,
+      "wickets": 9,
+      "economy": 7.74,
+      "bowlingAverage": 37.0,
+      "globalPercentile": 41
+    },
+    {
+      "id": "kh-pandya",
+      "name": "KH Pandya",
+      "role": "SPIN_BOWLER",
+      "rating": 60,
+      "matches": 11,
+      "runs": 237,
+      "average": 47.4,
+      "strikeRate": 191.1,
+      "wickets": 6,
+      "economy": 7.64,
+      "bowlingAverage": 39.7,
+      "globalPercentile": 20
+    }
+  ],
+  "stats": {
+    "min": 46,
+    "max": 80,
+    "mean": 64.5
+  }
+}
