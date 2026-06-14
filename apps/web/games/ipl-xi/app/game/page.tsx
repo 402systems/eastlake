@@ -87,7 +87,6 @@ const RATING_COLOR = (r: number) => {
 };
 
 export default function GamePage() {
-  const [started, setStarted] = useState(false);
   const [blind, setBlind] = useState(false);
 
   const [picks, setPicks] = useState<Pick[]>([]);
@@ -98,7 +97,7 @@ export default function GamePage() {
   const [currentYear, setCurrentYear] = useState<string | null>(null);
   const [currentSquad, setCurrentSquad] = useState<IplSquad | null>(null);
   const [activeRole, setActiveRole] = useState<IplRole | null>(null);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [done, setDone] = useState(false);
   const [search, setSearch] = useState('');
   const [yearShuffled, setYearShuffled] = useState(false);
@@ -108,18 +107,6 @@ export default function GamePage() {
   const usedRef = useRef(new Set<string>());
   // Track which roles are still unfilled at roll time (for auto-reroll)
   const filledRef = useRef<Set<IplRole>>(new Set());
-
-  useEffect(() => {
-    fetchTeams().then((teams) => {
-      teamsRef.current = teams;
-    });
-  }, []);
-
-  function startGame() {
-    setStarted(true);
-    setLoading(true);
-    doRoll(new Set());
-  }
 
   async function doRoll(currentFilled: Set<IplRole>) {
     const teams = teamsRef.current;
@@ -165,9 +152,22 @@ export default function GamePage() {
     setLoading(false);
   }
 
+  useEffect(() => {
+    // "Ball knowledge" mode (ratings hidden) is chosen on the home page and
+    // passed through the URL so the game starts immediately, no extra screen.
+    const ball =
+      new URLSearchParams(window.location.search).get('ball') === '1';
+    fetchTeams().then((teams) => {
+      teamsRef.current = teams;
+      setBlind(ball);
+      doRoll(new Set());
+    });
+  }, []);
+
   async function shuffleYear() {
     if (!currentTeam || yearShuffled || loading) return;
     setYearShuffled(true);
+    const keepRole = activeRole; // preserve the selected slot across the shuffle
     const remaining = SLOTS.map((s) => s.id).filter(
       (id) => !filledRef.current.has(id)
     );
@@ -184,7 +184,6 @@ export default function GamePage() {
       usedRef.current.add(key);
       setCurrentYear(year);
       setCurrentSquad(null);
-      setActiveRole(null);
       setLoading(true);
       const squad = await fetchSquad(currentTeam.id, year);
       if (!squad || squad.players.length === 0) continue;
@@ -193,6 +192,12 @@ export default function GamePage() {
       );
       if (!coversRemaining) continue;
       setCurrentSquad(squad);
+      // Keep the slot selected if the new squad still has players for it
+      setActiveRole(
+        keepRole && getRoleEligible(squad, keepRole).length > 0
+          ? keepRole
+          : null
+      );
       setSearch('');
       setLoading(false);
       return;
@@ -203,6 +208,7 @@ export default function GamePage() {
   async function shuffleTeam() {
     if (teamShuffled || loading) return;
     setTeamShuffled(true);
+    const keepRole = activeRole; // preserve the selected slot across the shuffle
     const remaining = SLOTS.map((s) => s.id).filter(
       (id) => !filledRef.current.has(id)
     );
@@ -237,7 +243,6 @@ export default function GamePage() {
       setCurrentTeam(team);
       setCurrentYear(year);
       setCurrentSquad(null);
-      setActiveRole(null);
       setLoading(true);
       const squad = await fetchSquad(team.id, year);
       if (!squad || squad.players.length === 0) continue;
@@ -246,6 +251,12 @@ export default function GamePage() {
       );
       if (!coversRemaining) continue;
       setCurrentSquad(squad);
+      // Keep the slot selected if the new squad still has players for it
+      setActiveRole(
+        keepRole && getRoleEligible(squad, keepRole).length > 0
+          ? keepRole
+          : null
+      );
       setSearch('');
       setLoading(false);
       return;
@@ -298,71 +309,12 @@ export default function GamePage() {
     setDone(false);
     setYearShuffled(false);
     setTeamShuffled(false);
-    setStarted(false);
+    // Start a fresh game immediately (keeps the current ball-knowledge setting)
+    setLoading(true);
+    doRoll(empty);
   }
 
   const unfilled = SLOTS.filter((s) => !filledSlots.has(s.id));
-
-  if (!started) {
-    return (
-      <main className="flex min-h-screen flex-col items-center justify-center gap-8 px-4">
-        <div className="text-center">
-          <h1 className="text-5xl font-black tracking-tight text-white">
-            IPL <span className="text-purple-400">V</span>
-          </h1>
-          <p className="mt-2 text-sm text-slate-400">
-            5 squads · 5 positions · pick wisely
-          </p>
-        </div>
-
-        <div className="flex w-72 flex-col gap-3">
-          <button
-            onClick={() => setBlind((b) => !b)}
-            className={`flex w-full items-center gap-4 rounded-2xl border-2 px-5 py-4 transition-all ${
-              blind
-                ? 'border-purple-500 bg-purple-900/30 text-white'
-                : 'border-slate-700 bg-slate-800/50 text-slate-400 hover:border-slate-500'
-            }`}
-          >
-            <span className="text-3xl">{blind ? '🙈' : '👁'}</span>
-            <div className="text-left">
-              <p
-                className={`font-bold ${blind ? 'text-white' : 'text-slate-300'}`}
-              >
-                {blind ? 'Blind Mode ON' : 'Blind Mode OFF'}
-              </p>
-              <p className="mt-0.5 text-xs text-slate-500">
-                {blind
-                  ? 'Ratings hidden · listed A–Z'
-                  : 'Ratings visible · sorted by rating'}
-              </p>
-            </div>
-            <div
-              className={`ml-auto flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2 ${
-                blind ? 'border-purple-400 bg-purple-500' : 'border-slate-600'
-              }`}
-            >
-              {blind && <div className="h-2 w-2 rounded-full bg-white" />}
-            </div>
-          </button>
-        </div>
-
-        <button
-          onClick={startGame}
-          className="rounded-2xl bg-purple-500 px-10 py-4 text-lg font-black text-white shadow-lg shadow-purple-900/40 transition-colors hover:bg-purple-400"
-        >
-          Start Game →
-        </button>
-
-        <Link
-          href="/"
-          className="text-sm text-slate-600 transition-colors hover:text-slate-400"
-        >
-          ← Back
-        </Link>
-      </main>
-    );
-  }
 
   if (done) {
     const avg = Math.round(
@@ -375,189 +327,233 @@ export default function GamePage() {
   }
 
   return (
-    <main className="mx-auto flex h-screen max-w-2xl flex-col overflow-hidden px-3 py-4">
+    <main className="mx-auto flex h-[100dvh] max-w-xl flex-col overflow-hidden px-4 py-4">
       {/* Header */}
-      <div className="mb-3 flex shrink-0 items-center justify-between">
+      <div className="mb-3 flex shrink-0 items-center justify-between gap-3">
         <Link
           href="/"
           className="text-sm text-slate-500 transition-colors hover:text-white"
         >
           ← Home
         </Link>
-        <div className="flex items-center gap-2">
+        {/* Segmented progress */}
+        <div className="flex flex-1 items-center gap-1.5">
+          {SLOTS.map((s, i) => (
+            <div
+              key={s.id}
+              className={`h-1.5 flex-1 rounded-full transition-colors duration-300 ${
+                i < picks.length
+                  ? 'bg-gradient-to-r from-purple-500 to-fuchsia-400'
+                  : 'bg-white/10'
+              }`}
+            />
+          ))}
+        </div>
+        <div className="flex shrink-0 items-center gap-2">
           {blind && (
-            <span className="rounded-full border border-purple-700 bg-purple-900/50 px-2 py-1 text-xs font-semibold text-purple-300">
-              🙈 Blind
+            <span className="rounded-full border border-purple-700/60 bg-purple-900/40 px-2 py-1 text-xs font-semibold text-purple-300">
+              🙈
             </span>
           )}
-          <span className="font-mono text-sm text-slate-400">
-            {picks.length} / 5
+          <span className="font-mono text-sm font-bold text-slate-300 tabular-nums">
+            {picks.length}
+            <span className="text-slate-600">/5</span>
           </span>
         </div>
       </div>
 
-      <div className="flex flex-1 gap-3 overflow-hidden">
-        {/* Left: current squad + player list */}
-        <div className="flex flex-1 flex-col overflow-hidden">
-          {/* Current squad header */}
-          {currentTeam && currentYear && (
-            <div
-              className="mb-3 shrink-0 rounded-xl border border-white/10 px-4 py-3"
-              style={{
-                background: `linear-gradient(135deg, ${currentTeam.color}40, ${currentTeam.color}15)`,
-              }}
-            >
-              <div className="flex items-center gap-2.5">
-                <div
-                  className="h-4 w-4 shrink-0 rounded-full ring-2 ring-white/20"
-                  style={{ backgroundColor: currentTeam.color }}
-                />
-                <div className="min-w-0 flex-1">
-                  <p className="truncate text-base leading-tight font-black text-white">
-                    {currentTeam.name}
-                  </p>
-                  <p className="text-xs text-slate-400">{currentYear}</p>
-                </div>
-                <div className="ml-auto flex shrink-0 gap-1.5">
-                  <button
-                    disabled={yearShuffled || loading}
-                    onClick={shuffleYear}
-                    title="New year, same team"
-                    className={`rounded-lg px-2 py-1 text-xs font-semibold transition-colors ${
-                      !yearShuffled && !loading
-                        ? 'bg-slate-700 text-white hover:bg-slate-600'
-                        : 'cursor-not-allowed bg-slate-800 text-slate-600 line-through'
-                    }`}
-                  >
-                    📅 Year
-                  </button>
-                  <button
-                    disabled={teamShuffled || loading}
-                    onClick={shuffleTeam}
-                    title="New team, same year"
-                    className={`rounded-lg px-2 py-1 text-xs font-semibold transition-colors ${
-                      !teamShuffled && !loading
-                        ? 'bg-slate-700 text-white hover:bg-slate-600'
-                        : 'cursor-not-allowed bg-slate-800 text-slate-600 line-through'
-                    }`}
-                  >
-                    🔀 Team
-                  </button>
-                </div>
+      <div className="flex flex-1 flex-col overflow-hidden">
+        {/* Current squad header */}
+        {currentTeam && currentYear && (
+          <div
+            key={`${currentTeam.id}_${currentYear}`}
+            className="animate-fade-up mb-3 shrink-0 overflow-hidden rounded-2xl border border-white/10 px-4 py-3"
+            style={{
+              background: `linear-gradient(135deg, ${currentTeam.color}55, ${currentTeam.color}10 60%, transparent)`,
+            }}
+          >
+            <div className="flex items-center gap-3">
+              <div
+                className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl text-[11px] font-black text-white shadow-lg ring-1 ring-white/20"
+                style={{ backgroundColor: currentTeam.color }}
+              >
+                {currentTeam.shortName}
               </div>
-            </div>
-          )}
-
-          {/* Role selector */}
-          {!loading && currentSquad && (
-            <div className="mb-2 shrink-0">
-              <p className="mb-1.5 text-[10px] font-semibold tracking-widest text-slate-500 uppercase">
-                Pick for slot
-              </p>
-              <div className="flex flex-wrap gap-1.5">
-                {unfilled.map((slot) => {
-                  const hasPlayers =
-                    getRoleEligible(currentSquad, slot.id).length > 0;
-                  const isActive = activeRole === slot.id;
-                  return (
-                    <button
-                      key={slot.id}
-                      disabled={!hasPlayers}
-                      onClick={() => setActiveRole(isActive ? null : slot.id)}
-                      className={`rounded-lg px-2.5 py-1 text-xs font-semibold transition-colors ${
-                        isActive
-                          ? 'bg-purple-500 text-white'
-                          : hasPlayers
-                            ? 'bg-slate-700 text-slate-200 hover:bg-slate-600'
-                            : 'cursor-not-allowed bg-slate-800 text-slate-600 line-through'
-                      }`}
-                    >
-                      {slot.label}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          )}
-
-          {/* Player list */}
-          {loading ? (
-            <div className="flex flex-1 items-center justify-center">
-              <p className="text-sm text-slate-500">Rolling…</p>
-            </div>
-          ) : activeRole && currentSquad ? (
-            <div className="flex flex-1 flex-col overflow-hidden">
-              <input
-                type="text"
-                placeholder="Search players…"
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-                className="mb-2 w-full shrink-0 rounded-lg border border-slate-700 bg-slate-800 px-3 py-2 text-sm text-white placeholder-slate-500 outline-none focus:border-purple-500"
-              />
-              <div className="flex-1 divide-y divide-slate-800 overflow-y-auto rounded-xl border border-slate-800">
-                {getRoleEligible(currentSquad, activeRole)
-                  .sort(
-                    blind
-                      ? (a, b) => a.name.localeCompare(b.name)
-                      : (a, b) => b.rating - a.rating
-                  )
-                  .filter(
-                    (p) =>
-                      !search.trim() ||
-                      p.name.toLowerCase().includes(search.toLowerCase())
-                  )
-                  .map((player) => (
-                    <button
-                      key={player.id}
-                      onClick={() => selectPlayer(player)}
-                      className="flex w-full items-center gap-3 px-3 py-2.5 text-left transition-colors hover:bg-slate-800"
-                    >
-                      <span
-                        className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-xs font-black ${
-                          blind
-                            ? 'bg-slate-700 text-slate-400'
-                            : RATING_COLOR(player.rating)
-                        }`}
-                      >
-                        {blind ? '?' : player.rating}
-                      </span>
-                      <div className="min-w-0 flex-1">
-                        <p className="truncate text-sm font-semibold text-white">
-                          {player.name}
-                        </p>
-                        <p className="text-xs text-slate-400">
-                          {blind
-                            ? `${player.matches}m`
-                            : activeRole === 'SPIN_BOWLER' ||
-                                activeRole === 'PACE_BOWLER'
-                              ? `${player.wickets ?? 0}w · eco ${player.economy?.toFixed(1) ?? '—'} · ${player.matches}m`
-                              : `${player.runs ?? 0}r · SR ${player.strikeRate?.toFixed(0) ?? '—'} · avg ${player.average?.toFixed(1) ?? '—'}`}
-                        </p>
-                      </div>
-                    </button>
-                  ))}
-              </div>
-            </div>
-          ) : (
-            !loading && (
-              <div className="flex flex-1 items-center justify-center">
-                <p className="px-4 text-center text-sm text-slate-500">
-                  {currentSquad
-                    ? 'Select a slot above to see eligible players'
-                    : 'Loading squad…'}
+              <div className="min-w-0 flex-1">
+                <p className="truncate text-base leading-tight font-black text-white">
+                  {currentTeam.name}
+                </p>
+                <p className="text-xs font-semibold text-white/60">
+                  {currentYear} season
                 </p>
               </div>
-            )
-          )}
-        </div>
+              <div className="ml-auto flex shrink-0 gap-1.5">
+                <button
+                  disabled={yearShuffled || loading}
+                  onClick={shuffleYear}
+                  title="New year, same team"
+                  className={`rounded-lg px-2.5 py-1.5 text-xs font-semibold transition-all ${
+                    !yearShuffled && !loading
+                      ? 'bg-white/15 text-white hover:bg-white/25 active:scale-95'
+                      : 'cursor-not-allowed bg-black/20 text-white/30 line-through'
+                  }`}
+                >
+                  📅 Year
+                </button>
+                <button
+                  disabled={teamShuffled || loading}
+                  onClick={shuffleTeam}
+                  title="New team, same year"
+                  className={`rounded-lg px-2.5 py-1.5 text-xs font-semibold transition-all ${
+                    !teamShuffled && !loading
+                      ? 'bg-white/15 text-white hover:bg-white/25 active:scale-95'
+                      : 'cursor-not-allowed bg-black/20 text-white/30 line-through'
+                  }`}
+                >
+                  🔀 Team
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
 
-        {/* Right: team sheet */}
-        <div className="w-[160px] shrink-0">
+        {/* Role selector */}
+        {!loading && currentSquad && (
+          <div className="mb-2 shrink-0">
+            <p className="mb-1.5 text-[10px] font-semibold tracking-widest text-slate-500 uppercase">
+              Pick for slot
+            </p>
+            <div className="flex flex-wrap gap-1.5">
+              {unfilled.map((slot) => {
+                const eligible = getRoleEligible(currentSquad, slot.id);
+                const hasPlayers = eligible.length > 0;
+                const isActive = activeRole === slot.id;
+                return (
+                  <button
+                    key={slot.id}
+                    disabled={!hasPlayers}
+                    onClick={() => setActiveRole(isActive ? null : slot.id)}
+                    className={`rounded-lg px-2.5 py-1.5 text-xs font-semibold transition-all ${
+                      isActive
+                        ? 'bg-gradient-to-r from-purple-500 to-fuchsia-500 text-white shadow-md shadow-purple-900/40'
+                        : hasPlayers
+                          ? 'glass text-slate-200 hover:border-white/25 active:scale-95'
+                          : 'cursor-not-allowed bg-black/20 text-slate-600 line-through'
+                    }`}
+                  >
+                    {slot.label}
+                    {hasPlayers && (
+                      <span
+                        className={`ml-1.5 ${isActive ? 'text-white/70' : 'text-slate-500'}`}
+                      >
+                        {eligible.length}
+                      </span>
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {/* Player list */}
+        {loading ? (
+          <div className="flex flex-1 flex-col gap-2 pt-1">
+            {Array.from({ length: 6 }).map((_, i) => (
+              <div
+                key={i}
+                className="flex items-center gap-3 rounded-xl border border-white/5 px-3 py-2.5"
+              >
+                <div className="skeleton h-9 w-9 shrink-0 rounded-lg" />
+                <div className="flex-1 space-y-1.5">
+                  <div className="skeleton h-3 w-2/5 rounded" />
+                  <div className="skeleton h-2.5 w-3/5 rounded" />
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : activeRole && currentSquad ? (
+          <div
+            key={activeRole}
+            className="animate-fade-in flex flex-1 flex-col overflow-hidden"
+          >
+            <input
+              type="text"
+              placeholder="Search players…"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              className="glass mb-2 w-full shrink-0 rounded-xl px-3 py-2 text-sm text-white placeholder-slate-500 outline-none focus:border-purple-500"
+            />
+            <div className="scroll-slim flex-1 divide-y divide-white/5 overflow-y-auto rounded-xl border border-white/8">
+              {getRoleEligible(currentSquad, activeRole)
+                .sort(
+                  blind
+                    ? (a, b) => a.name.localeCompare(b.name)
+                    : (a, b) => b.rating - a.rating
+                )
+                .filter(
+                  (p) =>
+                    !search.trim() ||
+                    p.name.toLowerCase().includes(search.toLowerCase())
+                )
+                .map((player) => (
+                  <button
+                    key={player.id}
+                    onClick={() => selectPlayer(player)}
+                    className="group flex w-full items-center gap-3 px-3 py-2.5 text-left transition-colors hover:bg-purple-500/10"
+                  >
+                    <span
+                      className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-xs font-black shadow-sm transition-transform group-hover:scale-110 ${
+                        blind
+                          ? 'bg-slate-700 text-slate-400'
+                          : RATING_COLOR(player.rating)
+                      }`}
+                    >
+                      {blind ? '?' : player.rating}
+                    </span>
+                    <div className="min-w-0 flex-1">
+                      <p className="truncate text-sm font-semibold text-white">
+                        {player.name}
+                      </p>
+                      <p className="text-xs text-slate-400">
+                        {blind
+                          ? `${player.matches}m`
+                          : activeRole === 'SPIN_BOWLER' ||
+                              activeRole === 'PACE_BOWLER'
+                            ? `${player.wickets ?? 0}w · eco ${player.economy?.toFixed(1) ?? '—'} · ${player.matches}m`
+                            : `${player.runs ?? 0}r · SR ${player.strikeRate?.toFixed(0) ?? '—'} · avg ${player.average?.toFixed(1) ?? '—'}`}
+                      </p>
+                    </div>
+                    <span className="shrink-0 text-slate-600 opacity-0 transition-all group-hover:translate-x-0 group-hover:text-purple-300 group-hover:opacity-100">
+                      Pick →
+                    </span>
+                  </button>
+                ))}
+            </div>
+          </div>
+        ) : (
+          !loading && (
+            <div className="flex flex-1 flex-col items-center justify-center gap-3 px-4 text-center">
+              <div className="text-4xl opacity-60">👆</div>
+              <p className="text-sm text-slate-500">
+                {currentSquad
+                  ? 'Select a slot above to see eligible players'
+                  : 'Loading squad…'}
+              </p>
+            </div>
+          )
+        )}
+
+        {/* Your XI — pinned summary strip */}
+        <div className="mt-3 shrink-0">
+          <p className="mb-1.5 text-[10px] font-semibold tracking-widest text-slate-500 uppercase">
+            Your XI
+          </p>
           <TeamSheet
             lineup={lineup}
             activeSlotId={activeRole}
             filledSlots={filledSlots}
-            compact
+            row
             blind={blind}
           />
         </div>
@@ -571,49 +567,56 @@ function StatsModal({ pick, onClose }: { pick: Pick; onClose: () => void }) {
   const isBowler = p.role === 'SPIN_BOWLER' || p.role === 'PACE_BOWLER';
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4 backdrop-blur-sm"
+      className="animate-fade-in fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4 backdrop-blur-sm"
       onClick={onClose}
     >
       <div
-        className="w-full max-w-xs rounded-2xl border border-slate-700 bg-slate-900 p-5 shadow-2xl"
+        className="animate-pop w-full max-w-xs overflow-hidden rounded-2xl border border-white/10 bg-slate-900/95 shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="mb-4 flex items-start justify-between gap-2">
+        <div
+          className="flex items-start justify-between gap-2 px-5 py-4"
+          style={{
+            background: `linear-gradient(135deg, ${pick.team.color}55, transparent)`,
+          }}
+        >
           <div>
             <p className="text-base font-black text-white">{p.name}</p>
-            <p className="text-xs text-slate-400">
+            <p className="text-xs text-white/70">
               {pick.team.name} · {pick.year}
             </p>
           </div>
           <button
             onClick={onClose}
-            className="text-xl text-slate-500 hover:text-white"
+            className="text-xl leading-none text-white/60 hover:text-white"
           >
             ×
           </button>
         </div>
-        <div className="grid grid-cols-2 gap-2 text-sm">
-          <Stat label="Matches" value={String(p.matches)} />
-          <Stat label="Rating" value={String(p.rating)} />
-          {p.runs != null && <Stat label="Runs" value={String(p.runs)} />}
-          {p.average != null && (
-            <Stat label="Batting avg" value={p.average.toFixed(1)} />
-          )}
-          {p.strikeRate != null && (
-            <Stat label="Strike rate" value={p.strikeRate.toFixed(0)} />
-          )}
-          {p.wickets != null && (
-            <Stat label="Wickets" value={String(p.wickets)} />
-          )}
-          {p.economy != null && (
-            <Stat label="Economy" value={p.economy.toFixed(1)} />
-          )}
-          {p.bowlingAverage != null && (
-            <Stat label="Bowl avg" value={p.bowlingAverage.toFixed(1)} />
-          )}
-          {!isBowler && p.runs == null && (
-            <Stat label="Batting" value="Limited data" />
-          )}
+        <div className="p-5 pt-4">
+          <div className="grid grid-cols-2 gap-2 text-sm">
+            <Stat label="Matches" value={String(p.matches)} />
+            <Stat label="Rating" value={String(p.rating)} />
+            {p.runs != null && <Stat label="Runs" value={String(p.runs)} />}
+            {p.average != null && (
+              <Stat label="Batting avg" value={p.average.toFixed(1)} />
+            )}
+            {p.strikeRate != null && (
+              <Stat label="Strike rate" value={p.strikeRate.toFixed(0)} />
+            )}
+            {p.wickets != null && (
+              <Stat label="Wickets" value={String(p.wickets)} />
+            )}
+            {p.economy != null && (
+              <Stat label="Economy" value={p.economy.toFixed(1)} />
+            )}
+            {p.bowlingAverage != null && (
+              <Stat label="Bowl avg" value={p.bowlingAverage.toFixed(1)} />
+            )}
+            {!isBowler && p.runs == null && (
+              <Stat label="Batting" value="Limited data" />
+            )}
+          </div>
         </div>
       </div>
     </div>
@@ -622,8 +625,10 @@ function StatsModal({ pick, onClose }: { pick: Pick; onClose: () => void }) {
 
 function Stat({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-lg bg-slate-800 px-3 py-2">
-      <p className="text-[10px] text-slate-500">{label}</p>
+    <div className="rounded-lg border border-white/8 bg-white/[0.03] px-3 py-2">
+      <p className="text-[10px] tracking-wide text-slate-500 uppercase">
+        {label}
+      </p>
       <p className="font-bold text-white">{value}</p>
     </div>
   );
@@ -698,6 +703,22 @@ function ScoreScreen({
   const [copied, setCopied] = useState(false);
   const [statsFor, setStatsFor] = useState<Pick | null>(null);
   const [sim, setSim] = useState<SimResult | null>(null);
+  const [displayScore, setDisplayScore] = useState(0);
+
+  // Count-up animation for the headline score
+  useEffect(() => {
+    const duration = 900;
+    const start = performance.now();
+    let raf = 0;
+    const tick = (now: number) => {
+      const t = Math.min(1, (now - start) / duration);
+      const eased = 1 - Math.pow(1 - t, 3);
+      setDisplayScore(Math.round(avg * eased));
+      if (t < 1) raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
+  }, [avg]);
 
   const SLOT_ICONS: Record<IplRole, string> = {
     OPENER: '🏏',
@@ -786,41 +807,84 @@ function ScoreScreen({
     });
   }
 
+  const ringColor = PCT_COLOR(avg);
+  const circumference = 2 * Math.PI * 52;
+
   return (
     <main className="mx-auto flex min-h-screen max-w-lg flex-col items-center px-4 py-8">
       {statsFor && (
         <StatsModal pick={statsFor} onClose={() => setStatsFor(null)} />
       )}
 
-      <div className="mb-6 text-center">
-        <h2 className="text-2xl font-black text-white">Your IPL V</h2>
+      <div className="animate-fade-up mb-6 text-center">
+        <p className="text-[11px] font-semibold tracking-[0.3em] text-purple-300/70 uppercase">
+          Final Squad
+        </p>
+        <h2 className="mt-1 text-2xl font-black text-white">Your IPL V</h2>
       </div>
 
-      {/* Score */}
-      <div className="mb-8 flex flex-col items-center">
+      {/* Score ring */}
+      <div className="animate-pop mb-7 flex flex-col items-center">
+        <div className="relative h-44 w-44">
+          <svg className="h-full w-full -rotate-90" viewBox="0 0 120 120">
+            <circle
+              cx="60"
+              cy="60"
+              r="52"
+              fill="none"
+              stroke="rgba(255,255,255,0.07)"
+              strokeWidth="9"
+            />
+            <circle
+              cx="60"
+              cy="60"
+              r="52"
+              fill="none"
+              stroke={ringColor}
+              strokeWidth="9"
+              strokeLinecap="round"
+              strokeDasharray={circumference}
+              strokeDashoffset={
+                circumference - (displayScore / 100) * circumference
+              }
+              style={{
+                transition: 'stroke-dashoffset 0.1s linear',
+                filter: `drop-shadow(0 0 10px ${ringColor}88)`,
+              }}
+            />
+          </svg>
+          <div className="absolute inset-0 flex flex-col items-center justify-center">
+            <span
+              className="text-6xl leading-none font-black tabular-nums"
+              style={{ color: ringColor }}
+            >
+              {displayScore}
+            </span>
+            <span className="mt-1 text-[10px] font-semibold tracking-widest text-slate-500 uppercase">
+              Percentile
+            </span>
+          </div>
+        </div>
         <div
-          className="text-9xl leading-none font-black tabular-nums"
-          style={{ color: PCT_COLOR(avg) }}
+          className="mt-4 rounded-full px-4 py-1.5 text-sm font-bold"
+          style={{ backgroundColor: `${ringColor}22`, color: ringColor }}
         >
-          {avg}
+          {tier.label}
         </div>
-        <div className="mt-2 text-sm font-semibold tracking-widest text-slate-400 uppercase">
-          Squad Ranking
-        </div>
-        <div className="mt-1 text-xs text-slate-600">
-          {ordinal(avg)} percentile all-time · {tier.label}
+        <div className="mt-2 text-xs text-slate-500">
+          {ordinal(avg)} percentile all-time
         </div>
       </div>
 
       {/* Season simulation table */}
       {sim && (
-        <div className="mb-6 w-full">
+        <div className="animate-fade-up mb-6 w-full">
           <p className="mb-2 text-xs font-semibold tracking-widest text-slate-500 uppercase">
             {sim.year} IPL Season · {ordinal(sim.userPosition)} of{' '}
             {sim.standings.length}
           </p>
-          <div className="overflow-hidden rounded-xl border border-slate-800">
-            <div className="flex items-center border-b border-slate-800 px-3 py-1.5">
+          <div className="glass overflow-hidden rounded-xl">
+            <div className="flex items-center border-b border-white/8 px-3 py-1.5">
               <span className="w-5" />
               <span className="w-12 text-[10px] font-semibold text-slate-600 uppercase">
                 Team
@@ -839,8 +903,10 @@ function ScoreScreen({
             {sim.standings.map((row, i) => (
               <div
                 key={row.teamId}
-                className={`flex items-center border-b border-slate-800 px-3 py-2 last:border-0 ${
-                  row.isUser ? 'bg-purple-900/30' : ''
+                className={`flex items-center border-b border-white/5 px-3 py-2 last:border-0 ${
+                  row.isUser
+                    ? 'bg-gradient-to-r from-purple-500/25 to-fuchsia-500/10'
+                    : ''
                 }`}
               >
                 <span
@@ -878,44 +944,43 @@ function ScoreScreen({
       )}
 
       {/* Per-pick breakdown */}
-      <div className="mb-6 w-full overflow-hidden rounded-xl border border-slate-800">
+      <div className="mb-6 grid w-full gap-2">
         {picks.map((pick, i) => (
-          <div
+          <button
             key={i}
-            className="flex flex-col gap-0.5 border-b border-slate-800 px-4 py-3 last:border-0"
+            onClick={() => setStatsFor(pick)}
+            className="animate-fade-up glass group relative flex items-center gap-3 overflow-hidden rounded-xl py-3 pr-3 pl-4 text-left transition-colors hover:border-white/20"
+            style={{ animationDelay: `${i * 60}ms` }}
           >
-            <div className="flex items-center gap-3">
-              <span
-                className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-xs font-black ${RATING_COLOR(pick.player.rating)}`}
-              >
-                {pick.player.rating}
-              </span>
-              <div className="min-w-0 flex-1">
-                <p className="truncate text-sm font-semibold text-white">
-                  {pick.player.name}
-                </p>
-                <p className="text-xs text-slate-500">
-                  {pick.team.shortName} {pick.year}
-                </p>
-              </div>
-              <button
-                onClick={() => setStatsFor(pick)}
-                className="shrink-0 rounded-md px-1.5 py-1 text-xs text-slate-500 transition-colors hover:bg-slate-800 hover:text-slate-300"
-                title="View stats"
-              >
-                ⓘ
-              </button>
-              <span
-                className="w-9 shrink-0 text-right text-sm font-bold tabular-nums"
-                style={{ color: PCT_COLOR(pick.percentile) }}
-              >
-                {pick.percentile}th
-              </span>
+            <span
+              className="absolute inset-y-0 left-0 w-1"
+              style={{ backgroundColor: pick.team.color }}
+            />
+            <span className="text-lg">{SLOT_ICONS[pick.player.role]}</span>
+            <span
+              className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-xs font-black ${RATING_COLOR(pick.player.rating)}`}
+            >
+              {pick.player.rating}
+            </span>
+            <div className="min-w-0 flex-1">
+              <p className="truncate text-sm font-semibold text-white">
+                {pick.player.name}
+              </p>
+              <p className="truncate text-[11px] text-slate-500">
+                {pick.team.shortName} {pick.year} · {pickExplanation(pick)}
+              </p>
             </div>
-            <p className="pl-11 text-[11px] text-slate-600">
-              {pickExplanation(pick)}
-            </p>
-          </div>
+            <span
+              className="shrink-0 text-right text-sm font-bold tabular-nums"
+              style={{ color: PCT_COLOR(pick.percentile) }}
+            >
+              {pick.percentile}
+              <span className="text-[10px] text-slate-600">th</span>
+            </span>
+            <span className="shrink-0 text-xs text-slate-600 transition-colors group-hover:text-purple-300">
+              ⓘ
+            </span>
+          </button>
         ))}
       </div>
 
@@ -923,15 +988,15 @@ function ScoreScreen({
       <div className="flex w-full gap-3">
         <button
           onClick={copyToClipboard}
-          className="flex flex-1 items-center justify-center gap-2 rounded-xl border border-slate-700 bg-slate-800 px-4 py-3 text-sm font-bold text-white transition-colors hover:bg-slate-700"
+          className="glass flex flex-1 items-center justify-center gap-2 rounded-xl px-4 py-3 text-sm font-bold text-white transition-all hover:border-white/25 active:scale-95"
         >
           {copied ? '✓ Copied!' : '⎘ Share'}
         </button>
         <button
           onClick={onPlayAgain}
-          className="flex-1 rounded-xl bg-white px-4 py-3 text-sm font-bold text-slate-900 transition-colors hover:bg-slate-100"
+          className="flex-1 rounded-xl bg-gradient-to-r from-purple-600 to-fuchsia-500 px-4 py-3 text-sm font-black text-white shadow-lg shadow-purple-900/40 transition-transform hover:scale-[1.02] active:scale-95"
         >
-          Play Again
+          Play Again →
         </button>
       </div>
     </main>
