@@ -778,7 +778,7 @@ function ScoreScreen({
       }),
       ...simLines,
       '',
-      'web.402systems.com/ipl-xi',
+      'web.402systems.com/games/ipl-xi',
     ];
     navigator.clipboard.writeText(lines.join('\n')).then(() => {
       setCopied(true);
