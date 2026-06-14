@@ -727,13 +727,6 @@ function ScoreScreen({
     SPIN_BOWLER: '🌀',
     PACE_BOWLER: '🎯',
   };
-  const SLOT_LABELS: Record<IplRole, string> = {
-    OPENER: 'Opener',
-    MIDDLE_ORDER: 'Middle Order',
-    ALL_ROUNDER: 'All-rounder / Finisher',
-    SPIN_BOWLER: 'Spin Bowler',
-    PACE_BOWLER: 'Pace Bowler',
-  };
 
   useEffect(() => {
     fetchSeasons().then((seasons) => {
@@ -779,25 +772,13 @@ function ScoreScreen({
   }, []);
 
   function copyToClipboard() {
-    const simLines = sim
-      ? [
-          '',
-          `${sim.year} IPL season — ${ordinal(sim.userPosition)} of ${sim.standings.length}:`,
-          ...sim.standings.map(
-            (row, i) =>
-              `  ${i + 1}. ${row.isUser ? '★ Your Team' : row.shortName}  ${row.wins}W ${row.losses}L  ${row.points}pts`
-          ),
-        ]
-      : [];
     const lines = [
       `IPL V · ${ordinal(avg)} percentile · ${tier.label}`,
       '',
-      ...picks.map((pick) => {
-        const icon = SLOT_ICONS[pick.player.role];
-        const label = SLOT_LABELS[pick.player.role];
-        return `${icon} ${label}: ${pick.player.name} (${pick.team.shortName} ${pick.year}) — ${pick.percentile}th pct all-time`;
-      }),
-      ...simLines,
+      ...picks.map(
+        (pick) =>
+          `${SLOT_ICONS[pick.player.role]} ${pick.player.name} (${pick.team.shortName} ${pick.year})`
+      ),
       '',
       'web.402systems.com/games/ipl-xi',
     ];
