@@ -23,7 +23,7 @@
       "runs": 553,
       "average": 42.5,
       "strikeRate": 113.3,
-      "globalPercentile": 63
+      "globalPercentile": 62
     },
     {
       "id": "at-rayudu",
@@ -34,7 +34,7 @@
       "runs": 395,
       "average": 30.4,
       "strikeRate": 113.2,
-      "globalPercentile": 28
+      "globalPercentile": 32
     },
     {
       "id": "rg-sharma",
@@ -47,7 +47,7 @@
       "strikeRate": 125.3,
       "wickets": 0,
       "economy": 13.25,
-      "globalPercentile": 53
+      "globalPercentile": 54
     },
     {
       "id": "harbhajan-singh",
@@ -61,7 +61,7 @@
       "wickets": 14,
       "economy": 7.04,
       "bowlingAverage": 26.6,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "sl-malinga",
@@ -83,7 +83,7 @@
       "wickets": 3,
       "economy": 6.1,
       "bowlingAverage": 40.7,
-      "globalPercentile": 45
+      "globalPercentile": 41
     },
     {
       "id": "mm-patel",
@@ -94,13 +94,13 @@
       "wickets": 22,
       "economy": 6.94,
       "bowlingAverage": 17.1,
-      "globalPercentile": 96
+      "globalPercentile": 95
     },
     {
       "id": "ka-pollard",
       "name": "KA Pollard",
-      "role": "PACE_BOWLER",
-      "rating": 59,
+      "role": "ALL_ROUNDER",
+      "rating": 53,
       "matches": 16,
       "runs": 146,
       "average": 14.6,
@@ -108,13 +108,13 @@
       "wickets": 10,
       "economy": 8.64,
       "bowlingAverage": 36.7,
-      "globalPercentile": 28
+      "globalPercentile": 14
     },
     {
       "id": "jec-franklin",
       "name": "JEC Franklin",
-      "role": "PACE_BOWLER",
-      "rating": 59,
+      "role": "MIDDLE_ORDER",
+      "rating": 79,
       "matches": 5,
       "runs": 107,
       "average": 53.5,
@@ -122,7 +122,7 @@
       "wickets": 3,
       "economy": 9.5,
       "bowlingAverage": 31.7,
-      "globalPercentile": 28
+      "globalPercentile": 72
     },
     {
       "id": "a-symonds",
@@ -136,7 +136,7 @@
       "wickets": 1,
       "economy": 10.25,
       "bowlingAverage": 41.0,
-      "globalPercentile": 42
+      "globalPercentile": 43
     },
     {
       "id": "an-ahmed",
@@ -147,7 +147,7 @@
       "wickets": 5,
       "economy": 8.9,
       "bowlingAverage": 35.6,
-      "globalPercentile": 35
+      "globalPercentile": 32
     },
     {
       "id": "tl-suman",
@@ -182,12 +182,12 @@
       "wickets": 5,
       "economy": 7.8,
       "bowlingAverage": 31.2,
-      "globalPercentile": 51
+      "globalPercentile": 47
     }
   ],
   "stats": {
     "min": 49,
     "max": 96,
-    "mean": 67.2
+    "mean": 68.1
   }
 }

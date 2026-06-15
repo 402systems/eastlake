@@ -17,8 +17,8 @@
     {
       "id": "y-venugopal-rao",
       "name": "Y Venugopal Rao",
-      "role": "PACE_BOWLER",
-      "rating": 48,
+      "role": "ALL_ROUNDER",
+      "rating": 68,
       "matches": 10,
       "runs": 288,
       "average": 36.0,
@@ -26,7 +26,7 @@
       "wickets": 2,
       "economy": 9.79,
       "bowlingAverage": 68.5,
-      "globalPercentile": 5
+      "globalPercentile": 58
     },
     {
       "id": "vvs-laxman",
@@ -37,7 +37,7 @@
       "runs": 155,
       "average": 31.0,
       "strikeRate": 117.4,
-      "globalPercentile": 34
+      "globalPercentile": 35
     },
     {
       "id": "rg-sharma",
@@ -51,13 +51,13 @@
       "wickets": 1,
       "economy": 6.5,
       "bowlingAverage": 26.0,
-      "globalPercentile": 77
+      "globalPercentile": 79
     },
     {
       "id": "sb-styris",
       "name": "SB Styris",
-      "role": "PACE_BOWLER",
-      "rating": 58,
+      "role": "MIDDLE_ORDER",
+      "rating": 49,
       "matches": 8,
       "runs": 112,
       "average": 18.7,
@@ -65,7 +65,7 @@
       "wickets": 3,
       "economy": 7.44,
       "bowlingAverage": 67.0,
-      "globalPercentile": 25
+      "globalPercentile": 5
     },
     {
       "id": "sb-bangar",
@@ -79,7 +79,7 @@
       "wickets": 4,
       "economy": 8.84,
       "bowlingAverage": 55.2,
-      "globalPercentile": 16
+      "globalPercentile": 13
     },
     {
       "id": "wpujc-vaas",
@@ -93,7 +93,7 @@
       "wickets": 5,
       "economy": 8.59,
       "bowlingAverage": 29.2,
-      "globalPercentile": 55
+      "globalPercentile": 51
     },
     {
       "id": "rp-singh",
@@ -107,7 +107,7 @@
       "wickets": 15,
       "economy": 8.94,
       "bowlingAverage": 30.6,
-      "globalPercentile": 51
+      "globalPercentile": 47
     },
     {
       "id": "pp-ojha",
@@ -121,13 +121,13 @@
       "wickets": 11,
       "economy": 8.08,
       "bowlingAverage": 27.2,
-      "globalPercentile": 49
+      "globalPercentile": 47
     },
     {
       "id": "shahid-afridi",
       "name": "Shahid Afridi",
-      "role": "PACE_BOWLER",
-      "rating": 72,
+      "role": "ALL_ROUNDER",
+      "rating": 68,
       "matches": 10,
       "runs": 81,
       "average": 10.1,
@@ -135,7 +135,7 @@
       "wickets": 9,
       "economy": 7.9,
       "bowlingAverage": 26.3,
-      "globalPercentile": 64
+      "globalPercentile": 58
     },
     {
       "id": "hh-gibbs",
@@ -146,7 +146,7 @@
       "runs": 167,
       "average": 18.6,
       "strikeRate": 109.2,
-      "globalPercentile": 9
+      "globalPercentile": 10
     },
     {
       "id": "db-ravi-teja",
@@ -168,12 +168,12 @@
       "wickets": 4,
       "economy": 8.09,
       "bowlingAverage": 51.2,
-      "globalPercentile": 23
+      "globalPercentile": 19
     }
   ],
   "stats": {
-    "min": 48,
+    "min": 49,
     "max": 82,
-    "mean": 63.9
+    "mean": 64.5
   }
 }

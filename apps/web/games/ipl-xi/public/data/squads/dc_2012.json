@@ -19,8 +19,8 @@
     {
       "id": "ik-pathan",
       "name": "IK Pathan",
-      "role": "PACE_BOWLER",
-      "rating": 57,
+      "role": "ALL_ROUNDER",
+      "rating": 63,
       "matches": 17,
       "runs": 176,
       "average": 25.1,
@@ -28,7 +28,7 @@
       "wickets": 8,
       "economy": 7.95,
       "bowlingAverage": 59.6,
-      "globalPercentile": 23
+      "globalPercentile": 40
     },
     {
       "id": "m-morkel",
@@ -42,7 +42,7 @@
       "wickets": 25,
       "economy": 7.4,
       "bowlingAverage": 18.6,
-      "globalPercentile": 95
+      "globalPercentile": 94
     },
     {
       "id": "ut-yadav",
@@ -56,7 +56,7 @@
       "wickets": 19,
       "economy": 7.52,
       "bowlingAverage": 24.2,
-      "globalPercentile": 78
+      "globalPercentile": 74
     },
     {
       "id": "s-nadeem",
@@ -67,7 +67,7 @@
       "wickets": 8,
       "economy": 7.11,
       "bowlingAverage": 40.0,
-      "globalPercentile": 37
+      "globalPercentile": 34
     },
     {
       "id": "nv-ojha",
@@ -78,7 +78,7 @@
       "runs": 255,
       "average": 23.2,
       "strikeRate": 114.3,
-      "globalPercentile": 21
+      "globalPercentile": 19
     },
     {
       "id": "y-venugopal-rao",
@@ -89,7 +89,7 @@
       "runs": 132,
       "average": 26.4,
       "strikeRate": 104.8,
-      "globalPercentile": 14
+      "globalPercentile": 15
     },
     {
       "id": "y-nagar",
@@ -113,7 +113,7 @@
       "strikeRate": 147.3,
       "wickets": 0,
       "economy": 8.83,
-      "globalPercentile": 92
+      "globalPercentile": 95
     },
     {
       "id": "dpmd-jayawardene",
@@ -124,7 +124,7 @@
       "runs": 335,
       "average": 33.5,
       "strikeRate": 112.4,
-      "globalPercentile": 28
+      "globalPercentile": 32
     },
     {
       "id": "lrpl-taylor",
@@ -135,7 +135,7 @@
       "runs": 197,
       "average": 21.9,
       "strikeRate": 115.2,
-      "globalPercentile": 21
+      "globalPercentile": 19
     },
     {
       "id": "da-warner",
@@ -146,7 +146,7 @@
       "runs": 256,
       "average": 36.6,
       "strikeRate": 165.2,
-      "globalPercentile": 80
+      "globalPercentile": 81
     },
     {
       "id": "vr-aaron",
@@ -157,7 +157,7 @@
       "wickets": 8,
       "economy": 9.0,
       "bowlingAverage": 34.9,
-      "globalPercentile": 38
+      "globalPercentile": 35
     },
     {
       "id": "p-negi",
@@ -171,12 +171,12 @@
       "wickets": 7,
       "economy": 6.95,
       "bowlingAverage": 21.9,
-      "globalPercentile": 82
+      "globalPercentile": 78
     }
   ],
   "stats": {
     "min": 55,
     "max": 91,
-    "mean": 69.4
+    "mean": 69.8
   }
 }

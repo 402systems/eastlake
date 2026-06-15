@@ -12,7 +12,7 @@
       "runs": 115,
       "average": 14.4,
       "strikeRate": 126.4,
-      "globalPercentile": 9
+      "globalPercentile": 10
     },
     {
       "id": "m-vijay",
@@ -23,7 +23,7 @@
       "runs": 207,
       "average": 18.8,
       "strikeRate": 107.8,
-      "globalPercentile": 9
+      "globalPercentile": 10
     },
     {
       "id": "kd-karthik",
@@ -34,7 +34,7 @@
       "runs": 325,
       "average": 23.2,
       "strikeRate": 126.0,
-      "globalPercentile": 28
+      "globalPercentile": 32
     },
     {
       "id": "mk-tiwary",
@@ -45,13 +45,13 @@
       "runs": 152,
       "average": 30.4,
       "strikeRate": 128.8,
-      "globalPercentile": 46
+      "globalPercentile": 48
     },
     {
       "id": "jp-duminy",
       "name": "JP Duminy",
-      "role": "PACE_BOWLER",
-      "rating": 57,
+      "role": "ALL_ROUNDER",
+      "rating": 72,
       "matches": 14,
       "runs": 410,
       "average": 51.2,
@@ -59,7 +59,7 @@
       "wickets": 3,
       "economy": 7.33,
       "bowlingAverage": 80.7,
-      "globalPercentile": 23
+      "globalPercentile": 70
     },
     {
       "id": "mohammed-shami",
@@ -73,7 +73,7 @@
       "wickets": 7,
       "economy": 8.66,
       "bowlingAverage": 54.4,
-      "globalPercentile": 23
+      "globalPercentile": 19
     },
     {
       "id": "wd-parnell",
@@ -84,7 +84,7 @@
       "wickets": 6,
       "economy": 7.79,
       "bowlingAverage": 39.2,
-      "globalPercentile": 37
+      "globalPercentile": 34
     },
     {
       "id": "s-nadeem",
@@ -98,7 +98,7 @@
       "wickets": 8,
       "economy": 8.26,
       "bowlingAverage": 39.2,
-      "globalPercentile": 23
+      "globalPercentile": 21
     },
     {
       "id": "jd-unadkat",
@@ -109,7 +109,7 @@
       "wickets": 9,
       "economy": 8.92,
       "bowlingAverage": 30.9,
-      "globalPercentile": 48
+      "globalPercentile": 44
     },
     {
       "id": "q-de-kock",
@@ -120,7 +120,7 @@
       "runs": 153,
       "average": 25.5,
       "strikeRate": 117.7,
-      "globalPercentile": 20
+      "globalPercentile": 21
     },
     {
       "id": "kp-pietersen",
@@ -131,7 +131,7 @@
       "runs": 294,
       "average": 29.4,
       "strikeRate": 126.2,
-      "globalPercentile": 43
+      "globalPercentile": 44
     },
     {
       "id": "km-jadhav",
@@ -142,7 +142,7 @@
       "runs": 149,
       "average": 49.7,
       "strikeRate": 150.5,
-      "globalPercentile": 76
+      "globalPercentile": 80
     },
     {
       "id": "s-kaul",
@@ -153,7 +153,7 @@
       "wickets": 2,
       "economy": 10.46,
       "bowlingAverage": 68.0,
-      "globalPercentile": 5
+      "globalPercentile": 4
     },
     {
       "id": "imran-tahir",
@@ -164,12 +164,12 @@
       "wickets": 9,
       "economy": 8.45,
       "bowlingAverage": 19.6,
-      "globalPercentile": 82
+      "globalPercentile": 78
     }
   ],
   "stats": {
     "min": 48,
     "max": 82,
-    "mean": 62.4
+    "mean": 63.4
   }
 }

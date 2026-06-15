@@ -12,7 +12,7 @@
       "runs": 672,
       "average": 51.7,
       "strikeRate": 140.3,
-      "globalPercentile": 89
+      "globalPercentile": 90
     },
     {
       "id": "rd-gaikwad",
@@ -23,13 +23,13 @@
       "runs": 590,
       "average": 45.4,
       "strikeRate": 148.2,
-      "globalPercentile": 86
+      "globalPercentile": 88
     },
     {
       "id": "mm-ali",
       "name": "MM Ali",
-      "role": "PACE_BOWLER",
-      "rating": 74,
+      "role": "ALL_ROUNDER",
+      "rating": 65,
       "matches": 11,
       "runs": 124,
       "average": 17.7,
@@ -37,7 +37,7 @@
       "wickets": 9,
       "economy": 7.62,
       "bowlingAverage": 22.0,
-      "globalPercentile": 69
+      "globalPercentile": 48
     },
     {
       "id": "at-rayudu",
@@ -48,7 +48,7 @@
       "runs": 158,
       "average": 15.8,
       "strikeRate": 139.8,
-      "globalPercentile": 28
+      "globalPercentile": 27
     },
     {
       "id": "s-dube",
@@ -59,7 +59,7 @@
       "runs": 418,
       "average": 38.0,
       "strikeRate": 158.3,
-      "globalPercentile": 81
+      "globalPercentile": 84
     },
     {
       "id": "ra-jadeja",
@@ -73,7 +73,7 @@
       "wickets": 20,
       "economy": 7.58,
       "bowlingAverage": 21.6,
-      "globalPercentile": 78
+      "globalPercentile": 74
     },
     {
       "id": "dl-chahar",
@@ -84,7 +84,7 @@
       "wickets": 13,
       "economy": 8.88,
       "bowlingAverage": 23.2,
-      "globalPercentile": 75
+      "globalPercentile": 72
     },
     {
       "id": "tu-deshpande",
@@ -95,7 +95,7 @@
       "wickets": 21,
       "economy": 10.21,
       "bowlingAverage": 27.6,
-      "globalPercentile": 55
+      "globalPercentile": 51
     },
     {
       "id": "am-rahane",
@@ -106,7 +106,7 @@
       "runs": 326,
       "average": 32.6,
       "strikeRate": 172.5,
-      "globalPercentile": 84
+      "globalPercentile": 86
     },
     {
       "id": "akash-singh",
@@ -117,7 +117,7 @@
       "wickets": 5,
       "economy": 9.89,
       "bowlingAverage": 37.6,
-      "globalPercentile": 23
+      "globalPercentile": 19
     },
     {
       "id": "m-theekshana",
@@ -128,7 +128,7 @@
       "wickets": 11,
       "economy": 8.18,
       "bowlingAverage": 36.5,
-      "globalPercentile": 38
+      "globalPercentile": 35
     },
     {
       "id": "m-pathirana",
@@ -139,12 +139,12 @@
       "wickets": 19,
       "economy": 8.33,
       "bowlingAverage": 20.3,
-      "globalPercentile": 90
+      "globalPercentile": 88
     }
   ],
   "stats": {
     "min": 57,
     "max": 88,
-    "mean": 75.5
+    "mean": 74.8
   }
 }

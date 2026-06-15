@@ -12,7 +12,7 @@
       "runs": 152,
       "average": 21.7,
       "strikeRate": 131.0,
-      "globalPercentile": 20
+      "globalPercentile": 21
     },
     {
       "id": "am-rahane",
@@ -23,7 +23,7 @@
       "runs": 390,
       "average": 35.5,
       "strikeRate": 147.7,
-      "globalPercentile": 74
+      "globalPercentile": 77
     },
     {
       "id": "sp-narine",
@@ -37,7 +37,7 @@
       "wickets": 12,
       "economy": 7.93,
       "bowlingAverage": 29.8,
-      "globalPercentile": 49
+      "globalPercentile": 47
     },
     {
       "id": "vr-iyer",
@@ -48,7 +48,7 @@
       "runs": 142,
       "average": 20.3,
       "strikeRate": 139.2,
-      "globalPercentile": 42
+      "globalPercentile": 43
     },
     {
       "id": "a-raghuvanshi",
@@ -59,7 +59,7 @@
       "runs": 300,
       "average": 33.3,
       "strikeRate": 140.2,
-      "globalPercentile": 74
+      "globalPercentile": 78
     },
     {
       "id": "rk-singh",
@@ -70,7 +70,7 @@
       "runs": 206,
       "average": 29.4,
       "strikeRate": 154.9,
-      "globalPercentile": 71
+      "globalPercentile": 76
     },
     {
       "id": "ad-russell",
@@ -84,7 +84,7 @@
       "wickets": 8,
       "economy": 12.0,
       "bowlingAverage": 27.2,
-      "globalPercentile": 30
+      "globalPercentile": 26
     },
     {
       "id": "harshit-rana",
@@ -98,7 +98,7 @@
       "wickets": 15,
       "economy": 10.39,
       "bowlingAverage": 30.5,
-      "globalPercentile": 38
+      "globalPercentile": 35
     },
     {
       "id": "vg-arora",
@@ -109,7 +109,7 @@
       "wickets": 17,
       "economy": 10.14,
       "bowlingAverage": 25.4,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "cv-varun",
@@ -120,7 +120,7 @@
       "wickets": 17,
       "economy": 7.8,
       "bowlingAverage": 22.9,
-      "globalPercentile": 76
+      "globalPercentile": 71
     },
     {
       "id": "mm-ali",
@@ -131,7 +131,7 @@
       "wickets": 6,
       "economy": 8.5,
       "bowlingAverage": 22.7,
-      "globalPercentile": 75
+      "globalPercentile": 72
     },
     {
       "id": "rahmanullah-gurbaz",

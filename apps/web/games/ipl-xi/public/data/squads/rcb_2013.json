@@ -37,7 +37,7 @@
       "runs": 639,
       "average": 45.6,
       "strikeRate": 140.7,
-      "globalPercentile": 85
+      "globalPercentile": 87
     },
     {
       "id": "ma-agarwal",
@@ -59,7 +59,7 @@
       "wickets": 13,
       "economy": 7.61,
       "bowlingAverage": 28.7,
-      "globalPercentile": 67
+      "globalPercentile": 63
     },
     {
       "id": "r-vinay-kumar",
@@ -73,7 +73,7 @@
       "wickets": 23,
       "economy": 8.53,
       "bowlingAverage": 22.7,
-      "globalPercentile": 83
+      "globalPercentile": 79
     },
     {
       "id": "m-muralitharan",
@@ -84,7 +84,7 @@
       "wickets": 3,
       "economy": 8.35,
       "bowlingAverage": 64.0,
-      "globalPercentile": 8
+      "globalPercentile": 6
     },
     {
       "id": "m-kartik",
@@ -95,13 +95,13 @@
       "wickets": 9,
       "economy": 7.44,
       "bowlingAverage": 32.2,
-      "globalPercentile": 43
+      "globalPercentile": 41
     },
     {
       "id": "mc-henriques",
       "name": "MC Henriques",
-      "role": "PACE_BOWLER",
-      "rating": 68,
+      "role": "ALL_ROUNDER",
+      "rating": 71,
       "matches": 9,
       "runs": 165,
       "average": 41.2,
@@ -109,7 +109,7 @@
       "wickets": 7,
       "economy": 8.83,
       "bowlingAverage": 26.7,
-      "globalPercentile": 51
+      "globalPercentile": 66
     },
     {
       "id": "ab-de-villiers",
@@ -120,7 +120,7 @@
       "runs": 373,
       "average": 37.3,
       "strikeRate": 167.3,
-      "globalPercentile": 81
+      "globalPercentile": 84
     },
     {
       "id": "rp-singh",
@@ -131,7 +131,7 @@
       "wickets": 13,
       "economy": 8.44,
       "bowlingAverage": 25.8,
-      "globalPercentile": 69
+      "globalPercentile": 65
     },
     {
       "id": "r-rampaul",
@@ -145,7 +145,7 @@
       "wickets": 15,
       "economy": 7.29,
       "bowlingAverage": 18.8,
-      "globalPercentile": 94
+      "globalPercentile": 92
     },
     {
       "id": "ss-tiwary",
@@ -156,12 +156,12 @@
       "runs": 109,
       "average": 27.2,
       "strikeRate": 102.8,
-      "globalPercentile": 28
+      "globalPercentile": 27
     }
   ],
   "stats": {
     "min": 47,
     "max": 93,
-    "mean": 70.8
+    "mean": 71.1
   }
 }

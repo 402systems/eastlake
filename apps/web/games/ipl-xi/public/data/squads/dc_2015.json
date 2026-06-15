@@ -11,7 +11,8 @@
       "matches": 10,
       "runs": 213,
       "average": 23.7,
-      "strikeRate": 121.0
+      "strikeRate": 121.0,
+      "globalPercentile": 21
     },
     {
       "id": "ss-iyer",
@@ -21,7 +22,8 @@
       "matches": 14,
       "runs": 439,
       "average": 33.8,
-      "strikeRate": 128.4
+      "strikeRate": 128.4,
+      "globalPercentile": 52
     },
     {
       "id": "km-jadhav",
@@ -31,7 +33,8 @@
       "matches": 12,
       "runs": 189,
       "average": 23.6,
-      "strikeRate": 135.0
+      "strikeRate": 135.0,
+      "globalPercentile": 37
     },
     {
       "id": "yuvraj-singh",
@@ -44,7 +47,8 @@
       "strikeRate": 118.7,
       "wickets": 1,
       "economy": 8.33,
-      "bowlingAverage": 75.0
+      "bowlingAverage": 75.0,
+      "globalPercentile": 16
     },
     {
       "id": "jp-duminy",
@@ -57,7 +61,8 @@
       "strikeRate": 131.4,
       "wickets": 8,
       "economy": 7.53,
-      "bowlingAverage": 16.0
+      "bowlingAverage": 16.0,
+      "globalPercentile": 75
     },
     {
       "id": "nm-coulter-nile",
@@ -70,7 +75,8 @@
       "strikeRate": 111.1,
       "wickets": 15,
       "economy": 7.79,
-      "bowlingAverage": 22.1
+      "bowlingAverage": 22.1,
+      "globalPercentile": 82
     },
     {
       "id": "a-mishra",
@@ -83,7 +89,8 @@
       "strikeRate": 66.7,
       "wickets": 9,
       "economy": 7.77,
-      "bowlingAverage": 34.7
+      "bowlingAverage": 34.7,
+      "globalPercentile": 31
     },
     {
       "id": "imran-tahir",
@@ -93,7 +100,8 @@
       "matches": 10,
       "wickets": 15,
       "economy": 8.87,
-      "bowlingAverage": 21.0
+      "bowlingAverage": 21.0,
+      "globalPercentile": 71
     },
     {
       "id": "dj-muthuswami",
@@ -103,7 +111,8 @@
       "matches": 6,
       "wickets": 4,
       "economy": 7.71,
-      "bowlingAverage": 27.0
+      "bowlingAverage": 27.0,
+      "globalPercentile": 51
     },
     {
       "id": "ad-mathews",
@@ -116,7 +125,8 @@
       "strikeRate": 139.8,
       "wickets": 7,
       "economy": 8.3,
-      "bowlingAverage": 35.6
+      "bowlingAverage": 35.6,
+      "globalPercentile": 40
     },
     {
       "id": "ss-tiwary",
@@ -126,7 +136,8 @@
       "matches": 6,
       "runs": 109,
       "average": 109,
-      "strikeRate": 139.7
+      "strikeRate": 139.7,
+      "globalPercentile": 78
     },
     {
       "id": "z-khan",
@@ -136,7 +147,8 @@
       "matches": 6,
       "wickets": 7,
       "economy": 6.62,
-      "bowlingAverage": 22.7
+      "bowlingAverage": 22.7,
+      "globalPercentile": 84
     }
   ],
   "stats": {

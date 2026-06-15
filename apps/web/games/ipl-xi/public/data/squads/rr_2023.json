@@ -12,7 +12,7 @@
       "runs": 625,
       "average": 52.1,
       "strikeRate": 164.0,
-      "globalPercentile": 99
+      "globalPercentile": 98
     },
     {
       "id": "jc-buttler",
@@ -34,7 +34,7 @@
       "runs": 362,
       "average": 32.9,
       "strikeRate": 153.4,
-      "globalPercentile": 69
+      "globalPercentile": 70
     },
     {
       "id": "d-padikkal",
@@ -45,7 +45,7 @@
       "runs": 261,
       "average": 26.1,
       "strikeRate": 130.5,
-      "globalPercentile": 39
+      "globalPercentile": 40
     },
     {
       "id": "r-parag",
@@ -56,7 +56,7 @@
       "runs": 78,
       "average": 13.0,
       "strikeRate": 120.0,
-      "globalPercentile": 10
+      "globalPercentile": 7
     },
     {
       "id": "so-hetmyer",
@@ -67,7 +67,7 @@
       "runs": 299,
       "average": 37.4,
       "strikeRate": 152.6,
-      "globalPercentile": 83
+      "globalPercentile": 87
     },
     {
       "id": "r-ashwin",
@@ -81,7 +81,7 @@
       "wickets": 14,
       "economy": 7.55,
       "bowlingAverage": 26.4,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "ta-boult",
@@ -95,7 +95,7 @@
       "wickets": 13,
       "economy": 8.32,
       "bowlingAverage": 24.3,
-      "globalPercentile": 78
+      "globalPercentile": 74
     },
     {
       "id": "jo-holder",
@@ -109,7 +109,7 @@
       "wickets": 4,
       "economy": 10.18,
       "bowlingAverage": 72.5,
-      "globalPercentile": 8
+      "globalPercentile": 7
     },
     {
       "id": "ys-chahal",
@@ -120,7 +120,7 @@
       "wickets": 21,
       "economy": 8.21,
       "bowlingAverage": 20.7,
-      "globalPercentile": 85
+      "globalPercentile": 82
     },
     {
       "id": "sandeep-sharma",
@@ -131,7 +131,7 @@
       "wickets": 10,
       "economy": 8.65,
       "bowlingAverage": 39.8,
-      "globalPercentile": 30
+      "globalPercentile": 26
     },
     {
       "id": "a-zampa",
@@ -145,7 +145,7 @@
       "wickets": 8,
       "economy": 8.59,
       "bowlingAverage": 23.6,
-      "globalPercentile": 67
+      "globalPercentile": 63
     }
   ],
   "stats": {

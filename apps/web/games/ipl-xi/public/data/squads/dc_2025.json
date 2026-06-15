@@ -48,7 +48,7 @@
       "wickets": 5,
       "economy": 8.72,
       "bowlingAverage": 62.8,
-      "globalPercentile": 4
+      "globalPercentile": 3
     },
     {
       "id": "t-stubbs",
@@ -59,7 +59,7 @@
       "runs": 306,
       "average": 51.0,
       "strikeRate": 153.0,
-      "globalPercentile": 86
+      "globalPercentile": 90
     },
     {
       "id": "v-nigam",
@@ -73,7 +73,7 @@
       "wickets": 11,
       "economy": 9.26,
       "bowlingAverage": 32.8,
-      "globalPercentile": 27
+      "globalPercentile": 25
     },
     {
       "id": "ma-starc",
@@ -87,7 +87,7 @@
       "wickets": 14,
       "economy": 10.64,
       "bowlingAverage": 29.5,
-      "globalPercentile": 45
+      "globalPercentile": 41
     },
     {
       "id": "kuldeep-yadav",
@@ -101,7 +101,7 @@
       "wickets": 15,
       "economy": 7.4,
       "bowlingAverage": 26.1,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "mm-sharma",
@@ -112,7 +112,7 @@
       "wickets": 2,
       "economy": 10.36,
       "bowlingAverage": 129.5,
-      "globalPercentile": 3
+      "globalPercentile": 2
     },
     {
       "id": "mukesh-kumar",
@@ -123,7 +123,7 @@
       "wickets": 12,
       "economy": 10.41,
       "bowlingAverage": 34.2,
-      "globalPercentile": 30
+      "globalPercentile": 26
     },
     {
       "id": "kl-rahul",
@@ -134,7 +134,7 @@
       "runs": 546,
       "average": 60.7,
       "strikeRate": 150.4,
-      "globalPercentile": 93
+      "globalPercentile": 95
     },
     {
       "id": "kk-nair",
@@ -159,7 +159,7 @@
       "wickets": 4,
       "economy": 11.65,
       "bowlingAverage": 49.5,
-      "globalPercentile": 8
+      "globalPercentile": 7
     }
   ],
   "stats": {

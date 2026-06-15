@@ -23,7 +23,7 @@
       "runs": 353,
       "average": 27.2,
       "strikeRate": 123.9,
-      "globalPercentile": 30
+      "globalPercentile": 31
     },
     {
       "id": "kl-rahul",
@@ -34,7 +34,7 @@
       "runs": 142,
       "average": 28.4,
       "strikeRate": 114.5,
-      "globalPercentile": 18
+      "globalPercentile": 21
     },
     {
       "id": "nv-ojha",
@@ -45,13 +45,13 @@
       "runs": 137,
       "average": 15.2,
       "strikeRate": 114.2,
-      "globalPercentile": 10
+      "globalPercentile": 7
     },
     {
       "id": "rs-bopara",
       "name": "RS Bopara",
-      "role": "PACE_BOWLER",
-      "rating": 70,
+      "role": "ALL_ROUNDER",
+      "rating": 65,
       "matches": 8,
       "runs": 145,
       "average": 29.0,
@@ -59,7 +59,7 @@
       "wickets": 6,
       "economy": 8.2,
       "bowlingAverage": 27.3,
-      "globalPercentile": 58
+      "globalPercentile": 48
     },
     {
       "id": "kv-sharma",
@@ -73,7 +73,7 @@
       "wickets": 10,
       "economy": 8.49,
       "bowlingAverage": 33.8,
-      "globalPercentile": 27
+      "globalPercentile": 25
     },
     {
       "id": "b-kumar",
@@ -87,7 +87,7 @@
       "wickets": 18,
       "economy": 8.11,
       "bowlingAverage": 23.3,
-      "globalPercentile": 81
+      "globalPercentile": 77
     },
     {
       "id": "ta-boult",
@@ -98,7 +98,7 @@
       "wickets": 9,
       "economy": 8.54,
       "bowlingAverage": 26.6,
-      "globalPercentile": 72
+      "globalPercentile": 68
     },
     {
       "id": "p-kumar",
@@ -112,7 +112,7 @@
       "wickets": 7,
       "economy": 9.39,
       "bowlingAverage": 48.3,
-      "globalPercentile": 16
+      "globalPercentile": 13
     },
     {
       "id": "a-ashish-reddy",
@@ -126,7 +126,7 @@
       "wickets": 3,
       "economy": 8.5,
       "bowlingAverage": 17.0,
-      "globalPercentile": 67
+      "globalPercentile": 63
     },
     {
       "id": "ejg-morgan",
@@ -137,7 +137,7 @@
       "runs": 187,
       "average": 23.4,
       "strikeRate": 123.8,
-      "globalPercentile": 23
+      "globalPercentile": 27
     },
     {
       "id": "dw-steyn",
@@ -151,13 +151,13 @@
       "wickets": 3,
       "economy": 9.0,
       "bowlingAverage": 57.0,
-      "globalPercentile": 16
+      "globalPercentile": 13
     },
     {
       "id": "mc-henriques",
       "name": "MC Henriques",
-      "role": "PACE_BOWLER",
-      "rating": 88,
+      "role": "MIDDLE_ORDER",
+      "rating": 80,
       "matches": 9,
       "runs": 287,
       "average": 41.0,
@@ -165,12 +165,12 @@
       "wickets": 11,
       "economy": 6.56,
       "bowlingAverage": 14.9,
-      "globalPercentile": 95
+      "globalPercentile": 75
     }
   ],
   "stats": {
     "min": 49,
     "max": 89,
-    "mean": 67.5
+    "mean": 66.5
   }
 }

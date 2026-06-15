@@ -34,7 +34,7 @@
       "runs": 357,
       "average": 35.7,
       "strikeRate": 121.0,
-      "globalPercentile": 49
+      "globalPercentile": 51
     },
     {
       "id": "sv-samson",
@@ -45,13 +45,13 @@
       "runs": 291,
       "average": 29.1,
       "strikeRate": 112.8,
-      "globalPercentile": 21
+      "globalPercentile": 24
     },
     {
       "id": "p-negi",
       "name": "P Negi",
-      "role": "PACE_BOWLER",
-      "rating": 49,
+      "role": "ALL_ROUNDER",
+      "rating": 53,
       "matches": 6,
       "runs": 57,
       "average": 28.5,
@@ -59,13 +59,13 @@
       "wickets": 1,
       "economy": 9.33,
       "bowlingAverage": 84.0,
-      "globalPercentile": 6
+      "globalPercentile": 14
     },
     {
       "id": "cr-brathwaite",
       "name": "CR Brathwaite",
-      "role": "PACE_BOWLER",
-      "rating": 69,
+      "role": "ALL_ROUNDER",
+      "rating": 72,
       "matches": 8,
       "runs": 83,
       "average": 13.8,
@@ -73,7 +73,7 @@
       "wickets": 7,
       "economy": 8.29,
       "bowlingAverage": 27.4,
-      "globalPercentile": 55
+      "globalPercentile": 70
     },
     {
       "id": "ch-morris",
@@ -87,7 +87,7 @@
       "wickets": 13,
       "economy": 7.27,
       "bowlingAverage": 24.6,
-      "globalPercentile": 81
+      "globalPercentile": 77
     },
     {
       "id": "a-mishra",
@@ -98,7 +98,7 @@
       "wickets": 13,
       "economy": 7.61,
       "bowlingAverage": 26.9,
-      "globalPercentile": 54
+      "globalPercentile": 51
     },
     {
       "id": "z-khan",
@@ -109,7 +109,7 @@
       "wickets": 10,
       "economy": 7.81,
       "bowlingAverage": 34.1,
-      "globalPercentile": 48
+      "globalPercentile": 44
     },
     {
       "id": "j-yadav",
@@ -120,7 +120,7 @@
       "wickets": 2,
       "economy": 7.35,
       "bowlingAverage": 62.5,
-      "globalPercentile": 25
+      "globalPercentile": 21
     },
     {
       "id": "jp-duminy",
@@ -134,7 +134,7 @@
       "wickets": 2,
       "economy": 7.86,
       "bowlingAverage": 27.5,
-      "globalPercentile": 55
+      "globalPercentile": 58
     },
     {
       "id": "mohammed-shami",
@@ -145,7 +145,7 @@
       "wickets": 5,
       "economy": 10.01,
       "bowlingAverage": 50.4,
-      "globalPercentile": 11
+      "globalPercentile": 9
     },
     {
       "id": "rr-pant",
@@ -156,12 +156,12 @@
       "runs": 198,
       "average": 28.3,
       "strikeRate": 130.3,
-      "globalPercentile": 35
+      "globalPercentile": 37
     }
   ],
   "stats": {
     "min": 40,
     "max": 78,
-    "mean": 63.5
+    "mean": 64.1
   }
 }

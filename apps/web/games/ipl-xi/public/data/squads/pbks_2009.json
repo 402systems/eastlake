@@ -17,15 +17,15 @@
     {
       "id": "k-goel",
       "name": "K Goel",
-      "role": "PACE_BOWLER",
-      "rating": 51,
+      "role": "MIDDLE_ORDER",
+      "rating": 49,
       "matches": 8,
       "runs": 124,
       "average": 17.7,
       "strikeRate": 93.2,
       "wickets": 0,
       "economy": 7.75,
-      "globalPercentile": 9
+      "globalPercentile": 5
     },
     {
       "id": "kc-sangakkara",
@@ -36,13 +36,13 @@
       "runs": 332,
       "average": 30.2,
       "strikeRate": 103.1,
-      "globalPercentile": 23
+      "globalPercentile": 27
     },
     {
       "id": "yuvraj-singh",
       "name": "Yuvraj Singh",
-      "role": "SPIN_BOWLER",
-      "rating": 73,
+      "role": "MIDDLE_ORDER",
+      "rating": 62,
       "matches": 14,
       "runs": 340,
       "average": 28.3,
@@ -50,7 +50,7 @@
       "wickets": 6,
       "economy": 7.1,
       "bowlingAverage": 23.7,
-      "globalPercentile": 54
+      "globalPercentile": 29
     },
     {
       "id": "dpmd-jayawardene",
@@ -61,13 +61,13 @@
       "runs": 219,
       "average": 36.5,
       "strikeRate": 132.7,
-      "globalPercentile": 61
+      "globalPercentile": 66
     },
     {
       "id": "ik-pathan",
       "name": "IK Pathan",
-      "role": "PACE_BOWLER",
-      "rating": 78,
+      "role": "ALL_ROUNDER",
+      "rating": 65,
       "matches": 14,
       "runs": 196,
       "average": 19.6,
@@ -75,7 +75,7 @@
       "wickets": 17,
       "economy": 7.91,
       "bowlingAverage": 23.4,
-      "globalPercentile": 81
+      "globalPercentile": 48
     },
     {
       "id": "ya-abdulla",
@@ -86,7 +86,7 @@
       "wickets": 14,
       "economy": 8.71,
       "bowlingAverage": 17.4,
-      "globalPercentile": 90
+      "globalPercentile": 88
     },
     {
       "id": "vs-malik",
@@ -97,7 +97,7 @@
       "wickets": 2,
       "economy": 8.33,
       "bowlingAverage": 50.0,
-      "globalPercentile": 18
+      "globalPercentile": 15
     },
     {
       "id": "pp-chawla",
@@ -111,13 +111,13 @@
       "wickets": 12,
       "economy": 6.98,
       "bowlingAverage": 25.6,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "wa-mota",
       "name": "WA Mota",
-      "role": "PACE_BOWLER",
-      "rating": 74,
+      "role": "ALL_ROUNDER",
+      "rating": 53,
       "matches": 6,
       "runs": 30,
       "average": 7.5,
@@ -125,7 +125,7 @@
       "wickets": 3,
       "economy": 6.89,
       "bowlingAverage": 20.7,
-      "globalPercentile": 69
+      "globalPercentile": 14
     },
     {
       "id": "rr-powar",
@@ -139,7 +139,7 @@
       "wickets": 5,
       "economy": 6.57,
       "bowlingAverage": 27.6,
-      "globalPercentile": 51
+      "globalPercentile": 49
     },
     {
       "id": "sm-katich",
@@ -150,7 +150,7 @@
       "runs": 145,
       "average": 18.1,
       "strikeRate": 123.9,
-      "globalPercentile": 14
+      "globalPercentile": 16
     },
     {
       "id": "s-sohal",
@@ -172,7 +172,7 @@
       "wickets": 6,
       "economy": 8.52,
       "bowlingAverage": 32.7,
-      "globalPercentile": 41
+      "globalPercentile": 38
     },
     {
       "id": "b-lee",
@@ -186,12 +186,12 @@
       "wickets": 5,
       "economy": 5.65,
       "bowlingAverage": 22.6,
-      "globalPercentile": 87
+      "globalPercentile": 84
     }
   ],
   "stats": {
-    "min": 51,
+    "min": 49,
     "max": 84,
-    "mean": 67.7
+    "mean": 64.5
   }
 }

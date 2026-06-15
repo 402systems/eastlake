@@ -1,97 +1,169 @@
 {
   "2008": [
     {
+      "teamId": "dc",
+      "teamName": "Delhi Capitals",
+      "shortName": "DC",
+      "composite": 79.4,
+      "pctComposite": 72.4
+    },
+    {
       "teamId": "pbks",
       "teamName": "Punjab Kings",
       "shortName": "PBKS",
-      "composite": 79.2,
-      "pctComposite": 73.6
+      "composite": 78.6,
+      "pctComposite": 70.8
     },
     {
       "teamId": "rr",
       "teamName": "Rajasthan Royals",
       "shortName": "RR",
-      "composite": 79.2,
-      "pctComposite": 71.4
-    },
-    {
-      "teamId": "dc",
-      "teamName": "Delhi Capitals",
-      "shortName": "DC",
-      "composite": 79.0,
-      "pctComposite": 71.4
-    },
-    {
-      "teamId": "csk",
-      "teamName": "Chennai Super Kings",
-      "shortName": "CSK",
-      "composite": 72.2,
-      "pctComposite": 57.0
+      "composite": 77.6,
+      "pctComposite": 70.0
     },
     {
       "teamId": "dcan",
       "teamName": "Deccan Chargers",
       "shortName": "DCH",
-      "composite": 71.8,
-      "pctComposite": 56.6
+      "composite": 72.6,
+      "pctComposite": 58.8
     },
     {
-      "teamId": "mi",
-      "teamName": "Mumbai Indians",
-      "shortName": "MI",
-      "composite": 71.8,
-      "pctComposite": 54.2
-    },
-    {
-      "teamId": "kkr",
-      "teamName": "Kolkata Knight Riders",
-      "shortName": "KKR",
-      "composite": 66.2,
-      "pctComposite": 41.8
+      "teamId": "csk",
+      "teamName": "Chennai Super Kings",
+      "shortName": "CSK",
+      "composite": 72.0,
+      "pctComposite": 56.8
     },
     {
       "teamId": "rcb",
       "teamName": "Royal Challengers Bangalore",
       "shortName": "RCB",
       "composite": 65.2,
-      "pctComposite": 40.4
-    }
-  ],
-  "2009": [
-    {
-      "teamId": "dc",
-      "teamName": "Delhi Capitals",
-      "shortName": "DC",
-      "composite": 77.6,
-      "pctComposite": 69.2
-    },
-    {
-      "teamId": "csk",
-      "teamName": "Chennai Super Kings",
-      "shortName": "CSK",
-      "composite": 76.4,
-      "pctComposite": 68.4
-    },
-    {
-      "teamId": "pbks",
-      "teamName": "Punjab Kings",
-      "shortName": "PBKS",
-      "composite": 71.0,
-      "pctComposite": 53.2
+      "pctComposite": 40.0
     },
     {
       "teamId": "kkr",
       "teamName": "Kolkata Knight Riders",
       "shortName": "KKR",
-      "composite": 70.4,
-      "pctComposite": 52.8
+      "composite": 64.8,
+      "pctComposite": 37.8
+    }
+  ],
+  "2009": [
+    {
+      "teamId": "dcan",
+      "teamName": "Deccan Chargers",
+      "shortName": "DCH",
+      "composite": 79.2,
+      "pctComposite": 76.2
+    },
+    {
+      "teamId": "csk",
+      "teamName": "Chennai Super Kings",
+      "shortName": "CSK",
+      "composite": 78.6,
+      "pctComposite": 73.4
+    },
+    {
+      "teamId": "dc",
+      "teamName": "Delhi Capitals",
+      "shortName": "DC",
+      "composite": 77.6,
+      "pctComposite": 70.0
+    },
+    {
+      "teamId": "mi",
+      "teamName": "Mumbai Indians",
+      "shortName": "MI",
+      "composite": 72.6,
+      "pctComposite": 58.4
+    },
+    {
+      "teamId": "rcb",
+      "teamName": "Royal Challengers Bangalore",
+      "shortName": "RCB",
+      "composite": 72.4,
+      "pctComposite": 57.6
+    },
+    {
+      "teamId": "kkr",
+      "teamName": "Kolkata Knight Riders",
+      "shortName": "KKR",
+      "composite": 71.2,
+      "pctComposite": 54.8
+    },
+    {
+      "teamId": "pbks",
+      "teamName": "Punjab Kings",
+      "shortName": "PBKS",
+      "composite": 71.2,
+      "pctComposite": 54.2
+    },
+    {
+      "teamId": "rr",
+      "teamName": "Rajasthan Royals",
+      "shortName": "RR",
+      "composite": 70.0,
+      "pctComposite": 47.8
+    }
+  ],
+  "2010": [
+    {
+      "teamId": "csk",
+      "teamName": "Chennai Super Kings",
+      "shortName": "CSK",
+      "composite": 82.0,
+      "pctComposite": 82.0
+    },
+    {
+      "teamId": "mi",
+      "teamName": "Mumbai Indians",
+      "shortName": "MI",
+      "composite": 81.0,
+      "pctComposite": 79.4
+    },
+    {
+      "teamId": "rcb",
+      "teamName": "Royal Challengers Bangalore",
+      "shortName": "RCB",
+      "composite": 78.8,
+      "pctComposite": 74.6
     },
     {
       "teamId": "dcan",
       "teamName": "Deccan Chargers",
       "shortName": "DCH",
-      "composite": 66.8,
-      "pctComposite": 51.0
+      "composite": 75.2,
+      "pctComposite": 63.2
+    },
+    {
+      "teamId": "rr",
+      "teamName": "Rajasthan Royals",
+      "shortName": "RR",
+      "composite": 75.2,
+      "pctComposite": 65.0
+    },
+    {
+      "teamId": "dc",
+      "teamName": "Delhi Capitals",
+      "shortName": "DC",
+      "composite": 74.8,
+      "pctComposite": 65.2
+    },
+    {
+      "teamId": "kkr",
+      "teamName": "Kolkata Knight Riders",
+      "shortName": "KKR",
+      "composite": 74.8,
+      "pctComposite": 63.8
+    },
+    {
+      "teamId": "pbks",
+      "teamName": "Punjab Kings",
+      "shortName": "PBKS",
+      "composite": 74.0,
+      "pctComposite": 62.6
     }
   ],
   "2011": [
@@ -100,35 +172,63 @@
       "teamName": "Chennai Super Kings",
       "shortName": "CSK",
       "composite": 82.8,
-      "pctComposite": 83.8
+      "pctComposite": 83.2
+    },
+    {
+      "teamId": "rcb",
+      "teamName": "Royal Challengers Bangalore",
+      "shortName": "RCB",
+      "composite": 80.2,
+      "pctComposite": 73.0
     },
     {
       "teamId": "mi",
       "teamName": "Mumbai Indians",
       "shortName": "MI",
-      "composite": 76.2,
-      "pctComposite": 63.8
+      "composite": 77.6,
+      "pctComposite": 66.8
+    },
+    {
+      "teamId": "kkr",
+      "teamName": "Kolkata Knight Riders",
+      "shortName": "KKR",
+      "composite": 76.8,
+      "pctComposite": 70.0
+    },
+    {
+      "teamId": "pwi",
+      "teamName": "Pune Warriors India",
+      "shortName": "PWI",
+      "composite": 76.0,
+      "pctComposite": 67.2
+    },
+    {
+      "teamId": "pbks",
+      "teamName": "Punjab Kings",
+      "shortName": "PBKS",
+      "composite": 75.4,
+      "pctComposite": 65.0
     },
     {
       "teamId": "dcan",
       "teamName": "Deccan Chargers",
       "shortName": "DCH",
       "composite": 74.2,
-      "pctComposite": 63.4
+      "pctComposite": 62.6
     },
     {
-      "teamId": "pbks",
-      "teamName": "Punjab Kings",
-      "shortName": "PBKS",
-      "composite": 72.2,
-      "pctComposite": 58.0
+      "teamId": "rr",
+      "teamName": "Rajasthan Royals",
+      "shortName": "RR",
+      "composite": 72.8,
+      "pctComposite": 59.0
     },
     {
-      "teamId": "rcb",
-      "teamName": "Royal Challengers Bangalore",
-      "shortName": "RCB",
-      "composite": 70.6,
-      "pctComposite": 52.2
+      "teamId": "ktk",
+      "teamName": "Kochi Tuskers Kerala",
+      "shortName": "KTK",
+      "composite": 63.8,
+      "pctComposite": 35.4
     }
   ],
   "2012": [
@@ -137,49 +237,63 @@
       "teamName": "Royal Challengers Bangalore",
       "shortName": "RCB",
       "composite": 82.2,
-      "pctComposite": 79.8
+      "pctComposite": 79.6
     },
     {
       "teamId": "dc",
       "teamName": "Delhi Capitals",
       "shortName": "DC",
-      "composite": 80.8,
-      "pctComposite": 76.6
+      "composite": 81.2,
+      "pctComposite": 77.6
     },
     {
       "teamId": "rr",
       "teamName": "Rajasthan Royals",
       "shortName": "RR",
-      "composite": 78.8,
-      "pctComposite": 73.8
+      "composite": 80.2,
+      "pctComposite": 77.0
     },
     {
-      "teamId": "mi",
-      "teamName": "Mumbai Indians",
-      "shortName": "MI",
-      "composite": 74.2,
-      "pctComposite": 59.2
+      "teamId": "dcan",
+      "teamName": "Deccan Chargers",
+      "shortName": "DCH",
+      "composite": 80.0,
+      "pctComposite": 74.4
+    },
+    {
+      "teamId": "kkr",
+      "teamName": "Kolkata Knight Riders",
+      "shortName": "KKR",
+      "composite": 79.2,
+      "pctComposite": 72.2
     },
     {
       "teamId": "csk",
       "teamName": "Chennai Super Kings",
       "shortName": "CSK",
-      "composite": 73.0,
-      "pctComposite": 58.2
+      "composite": 76.0,
+      "pctComposite": 66.8
+    },
+    {
+      "teamId": "pbks",
+      "teamName": "Punjab Kings",
+      "shortName": "PBKS",
+      "composite": 75.8,
+      "pctComposite": 65.6
+    },
+    {
+      "teamId": "mi",
+      "teamName": "Mumbai Indians",
+      "shortName": "MI",
+      "composite": 75.0,
+      "pctComposite": 61.8
     },
     {
       "teamId": "pwi",
       "teamName": "Pune Warriors India",
       "shortName": "PWI",
       "composite": 70.6,
-      "pctComposite": 51.8
-    },
-    {
-      "teamId": "pbks",
-      "teamName": "Punjab Kings",
-      "shortName": "PBKS",
-      "composite": 70.4,
-      "pctComposite": 54.2
+      "pctComposite": 52.6
     }
   ],
   "2013": [
@@ -187,50 +301,50 @@
       "teamId": "csk",
       "teamName": "Chennai Super Kings",
       "shortName": "CSK",
-      "composite": 85.4,
-      "pctComposite": 85.2
+      "composite": 85.2,
+      "pctComposite": 85.0
     },
     {
       "teamId": "rcb",
       "teamName": "Royal Challengers Bangalore",
       "shortName": "RCB",
-      "composite": 78.6,
-      "pctComposite": 69.4
+      "composite": 81.2,
+      "pctComposite": 76.6
     },
     {
       "teamId": "mi",
       "teamName": "Mumbai Indians",
       "shortName": "MI",
-      "composite": 74.6,
+      "composite": 78.4,
+      "pctComposite": 73.8
+    },
+    {
+      "teamId": "srh",
+      "teamName": "Sunrisers Hyderabad",
+      "shortName": "SRH",
+      "composite": 73.6,
       "pctComposite": 63.6
     },
     {
       "teamId": "pbks",
       "teamName": "Punjab Kings",
       "shortName": "PBKS",
-      "composite": 74.6,
-      "pctComposite": 60.6
+      "composite": 73.0,
+      "pctComposite": 56.4
     },
     {
-      "teamId": "rr",
-      "teamName": "Rajasthan Royals",
-      "shortName": "RR",
-      "composite": 73.4,
-      "pctComposite": 56.6
-    },
-    {
-      "teamId": "srh",
-      "teamName": "Sunrisers Hyderabad",
-      "shortName": "SRH",
-      "composite": 71.0,
-      "pctComposite": 57.0
+      "teamId": "kkr",
+      "teamName": "Kolkata Knight Riders",
+      "shortName": "KKR",
+      "composite": 72.0,
+      "pctComposite": 56.2
     },
     {
       "teamId": "dc",
       "teamName": "Delhi Capitals",
       "shortName": "DC",
-      "composite": 69.6,
-      "pctComposite": 51.4
+      "composite": 68.2,
+      "pctComposite": 46.8
     }
   ],
   "2014": [
@@ -238,43 +352,43 @@
       "teamId": "pbks",
       "teamName": "Punjab Kings",
       "shortName": "PBKS",
-      "composite": 83.4,
-      "pctComposite": 85.0
+      "composite": 85.8,
+      "pctComposite": 90.0
+    },
+    {
+      "teamId": "csk",
+      "teamName": "Chennai Super Kings",
+      "shortName": "CSK",
+      "composite": 80.0,
+      "pctComposite": 77.6
+    },
+    {
+      "teamId": "mi",
+      "teamName": "Mumbai Indians",
+      "shortName": "MI",
+      "composite": 78.2,
+      "pctComposite": 69.2
     },
     {
       "teamId": "kkr",
       "teamName": "Kolkata Knight Riders",
       "shortName": "KKR",
       "composite": 76.4,
-      "pctComposite": 69.6
-    },
-    {
-      "teamId": "mi",
-      "teamName": "Mumbai Indians",
-      "shortName": "MI",
-      "composite": 76.2,
-      "pctComposite": 64.8
-    },
-    {
-      "teamId": "csk",
-      "teamName": "Chennai Super Kings",
-      "shortName": "CSK",
-      "composite": 75.8,
-      "pctComposite": 66.6
+      "pctComposite": 69.8
     },
     {
       "teamId": "srh",
       "teamName": "Sunrisers Hyderabad",
       "shortName": "SRH",
       "composite": 74.2,
-      "pctComposite": 60.2
+      "pctComposite": 59.2
     },
     {
       "teamId": "rr",
       "teamName": "Rajasthan Royals",
       "shortName": "RR",
       "composite": 73.6,
-      "pctComposite": 62.6
+      "pctComposite": 62.4
     },
     {
       "teamId": "rcb",
@@ -288,7 +402,7 @@
       "teamName": "Delhi Capitals",
       "shortName": "DC",
       "composite": 70.6,
-      "pctComposite": 53.8
+      "pctComposite": 53.4
     }
   ],
   "2015": [
@@ -296,43 +410,57 @@
       "teamId": "rcb",
       "teamName": "Royal Challengers Bangalore",
       "shortName": "RCB",
-      "composite": 85.2,
-      "pctComposite": 85.6
+      "composite": 85.4,
+      "pctComposite": 87.2
     },
     {
       "teamId": "mi",
       "teamName": "Mumbai Indians",
       "shortName": "MI",
-      "composite": 79.0,
-      "pctComposite": 74.6
-    },
-    {
-      "teamId": "csk",
-      "teamName": "Chennai Super Kings",
-      "shortName": "CSK",
-      "composite": 75.2,
-      "pctComposite": 65.2
+      "composite": 80.0,
+      "pctComposite": 77.2
     },
     {
       "teamId": "kkr",
       "teamName": "Kolkata Knight Riders",
       "shortName": "KKR",
-      "composite": 72.0,
-      "pctComposite": 56.4
+      "composite": 78.2,
+      "pctComposite": 69.8
+    },
+    {
+      "teamId": "dc",
+      "teamName": "Delhi Capitals",
+      "shortName": "DC",
+      "composite": 77.6,
+      "pctComposite": 72.0
+    },
+    {
+      "teamId": "csk",
+      "teamName": "Chennai Super Kings",
+      "shortName": "CSK",
+      "composite": 75.8,
+      "pctComposite": 67.6
     },
     {
       "teamId": "srh",
       "teamName": "Sunrisers Hyderabad",
       "shortName": "SRH",
-      "composite": 70.0,
-      "pctComposite": 49.4
+      "composite": 75.0,
+      "pctComposite": 63.4
+    },
+    {
+      "teamId": "rr",
+      "teamName": "Rajasthan Royals",
+      "shortName": "RR",
+      "composite": 71.2,
+      "pctComposite": 53.8
     },
     {
       "teamId": "pbks",
       "teamName": "Punjab Kings",
       "shortName": "PBKS",
-      "composite": 67.2,
-      "pctComposite": 44.0
+      "composite": 66.4,
+      "pctComposite": 42.2
     }
   ],
   "2018": [
@@ -340,29 +468,36 @@
       "teamId": "csk",
       "teamName": "Chennai Super Kings",
       "shortName": "CSK",
-      "composite": 81.4,
-      "pctComposite": 74.4
+      "composite": 84.8,
+      "pctComposite": 83.2
     },
     {
       "teamId": "dc",
       "teamName": "Delhi Capitals",
       "shortName": "DC",
       "composite": 81.0,
-      "pctComposite": 77.6
+      "pctComposite": 77.0
     },
     {
       "teamId": "rcb",
       "teamName": "Royal Challengers Bangalore",
       "shortName": "RCB",
-      "composite": 79.8,
-      "pctComposite": 72.4
+      "composite": 80.4,
+      "pctComposite": 74.2
+    },
+    {
+      "teamId": "pbks",
+      "teamName": "Punjab Kings",
+      "shortName": "PBKS",
+      "composite": 77.8,
+      "pctComposite": 68.2
     },
     {
       "teamId": "srh",
       "teamName": "Sunrisers Hyderabad",
       "shortName": "SRH",
       "composite": 77.2,
-      "pctComposite": 71.2
+      "pctComposite": 70.4
     },
     {
       "teamId": "mi",
@@ -376,72 +511,72 @@
       "teamName": "Kolkata Knight Riders",
       "shortName": "KKR",
       "composite": 74.0,
-      "pctComposite": 61.2
+      "pctComposite": 61.0
     },
     {
       "teamId": "rr",
       "teamName": "Rajasthan Royals",
       "shortName": "RR",
       "composite": 72.2,
-      "pctComposite": 56.6
+      "pctComposite": 55.4
     }
   ],
   "2019": [
+    {
+      "teamId": "srh",
+      "teamName": "Sunrisers Hyderabad",
+      "shortName": "SRH",
+      "composite": 82.4,
+      "pctComposite": 80.8
+    },
     {
       "teamId": "rr",
       "teamName": "Rajasthan Royals",
       "shortName": "RR",
       "composite": 80.2,
-      "pctComposite": 78.0
+      "pctComposite": 78.6
     },
     {
       "teamId": "mi",
       "teamName": "Mumbai Indians",
       "shortName": "MI",
       "composite": 78.6,
-      "pctComposite": 74.0
+      "pctComposite": 73.4
     },
     {
       "teamId": "pbks",
       "teamName": "Punjab Kings",
       "shortName": "PBKS",
       "composite": 78.4,
-      "pctComposite": 72.6
+      "pctComposite": 73.0
     },
     {
       "teamId": "csk",
       "teamName": "Chennai Super Kings",
       "shortName": "CSK",
       "composite": 77.2,
-      "pctComposite": 70.0
-    },
-    {
-      "teamId": "srh",
-      "teamName": "Sunrisers Hyderabad",
-      "shortName": "SRH",
-      "composite": 77.0,
-      "pctComposite": 68.4
+      "pctComposite": 70.4
     },
     {
       "teamId": "dc",
       "teamName": "Delhi Capitals",
       "shortName": "DC",
       "composite": 76.4,
-      "pctComposite": 66.8
+      "pctComposite": 65.8
     },
     {
       "teamId": "rcb",
       "teamName": "Royal Challengers Bangalore",
       "shortName": "RCB",
-      "composite": 72.0,
-      "pctComposite": 58.6
+      "composite": 74.4,
+      "pctComposite": 62.8
     },
     {
       "teamId": "kkr",
       "teamName": "Kolkata Knight Riders",
       "shortName": "KKR",
-      "composite": 68.6,
-      "pctComposite": 48.6
+      "composite": 73.6,
+      "pctComposite": 58.6
     }
   ],
   "2020": [
@@ -450,49 +585,56 @@
       "teamName": "Mumbai Indians",
       "shortName": "MI",
       "composite": 82.4,
-      "pctComposite": 77.4
+      "pctComposite": 77.8
     },
     {
       "teamId": "pbks",
       "teamName": "Punjab Kings",
       "shortName": "PBKS",
       "composite": 78.8,
-      "pctComposite": 74.0
+      "pctComposite": 74.2
     },
     {
       "teamId": "rcb",
       "teamName": "Royal Challengers Bangalore",
       "shortName": "RCB",
       "composite": 78.8,
-      "pctComposite": 73.2
+      "pctComposite": 72.8
     },
     {
       "teamId": "srh",
       "teamName": "Sunrisers Hyderabad",
       "shortName": "SRH",
-      "composite": 78.8,
-      "pctComposite": 73.6
+      "composite": 78.6,
+      "pctComposite": 76.2
     },
     {
       "teamId": "kkr",
       "teamName": "Kolkata Knight Riders",
       "shortName": "KKR",
       "composite": 78.0,
-      "pctComposite": 72.0
+      "pctComposite": 72.4
     },
     {
       "teamId": "dc",
       "teamName": "Delhi Capitals",
       "shortName": "DC",
-      "composite": 75.8,
-      "pctComposite": 65.0
+      "composite": 76.6,
+      "pctComposite": 67.6
+    },
+    {
+      "teamId": "rr",
+      "teamName": "Rajasthan Royals",
+      "shortName": "RR",
+      "composite": 72.8,
+      "pctComposite": 58.0
     },
     {
       "teamId": "csk",
       "teamName": "Chennai Super Kings",
       "shortName": "CSK",
-      "composite": 70.4,
-      "pctComposite": 53.0
+      "composite": 72.0,
+      "pctComposite": 57.2
     }
   ],
   "2021": [
@@ -501,56 +643,56 @@
       "teamName": "Delhi Capitals",
       "shortName": "DC",
       "composite": 82.0,
-      "pctComposite": 80.2
+      "pctComposite": 80.4
     },
     {
       "teamId": "rcb",
       "teamName": "Royal Challengers Bangalore",
       "shortName": "RCB",
-      "composite": 77.8,
-      "pctComposite": 71.4
+      "composite": 80.6,
+      "pctComposite": 77.6
+    },
+    {
+      "teamId": "kkr",
+      "teamName": "Kolkata Knight Riders",
+      "shortName": "KKR",
+      "composite": 79.6,
+      "pctComposite": 76.4
     },
     {
       "teamId": "pbks",
       "teamName": "Punjab Kings",
       "shortName": "PBKS",
-      "composite": 77.6,
-      "pctComposite": 70.2
+      "composite": 77.4,
+      "pctComposite": 69.2
+    },
+    {
+      "teamId": "csk",
+      "teamName": "Chennai Super Kings",
+      "shortName": "CSK",
+      "composite": 75.8,
+      "pctComposite": 67.2
+    },
+    {
+      "teamId": "mi",
+      "teamName": "Mumbai Indians",
+      "shortName": "MI",
+      "composite": 75.2,
+      "pctComposite": 65.0
     },
     {
       "teamId": "srh",
       "teamName": "Sunrisers Hyderabad",
       "shortName": "SRH",
       "composite": 75.2,
-      "pctComposite": 63.6
-    },
-    {
-      "teamId": "csk",
-      "teamName": "Chennai Super Kings",
-      "shortName": "CSK",
-      "composite": 73.8,
-      "pctComposite": 61.4
-    },
-    {
-      "teamId": "kkr",
-      "teamName": "Kolkata Knight Riders",
-      "shortName": "KKR",
-      "composite": 73.4,
-      "pctComposite": 58.8
-    },
-    {
-      "teamId": "mi",
-      "teamName": "Mumbai Indians",
-      "shortName": "MI",
-      "composite": 70.2,
-      "pctComposite": 52.4
+      "pctComposite": 63.2
     },
     {
       "teamId": "rr",
       "teamName": "Rajasthan Royals",
       "shortName": "RR",
       "composite": 69.0,
-      "pctComposite": 49.0
+      "pctComposite": 48.4
     }
   ],
   "2022": [
@@ -566,28 +708,35 @@
       "teamName": "Rajasthan Royals",
       "shortName": "RR",
       "composite": 82.4,
-      "pctComposite": 83.2
+      "pctComposite": 82.8
+    },
+    {
+      "teamId": "pbks",
+      "teamName": "Punjab Kings",
+      "shortName": "PBKS",
+      "composite": 80.4,
+      "pctComposite": 77.0
     },
     {
       "teamId": "dc",
       "teamName": "Delhi Capitals",
       "shortName": "DC",
       "composite": 80.2,
-      "pctComposite": 77.4
+      "pctComposite": 78.0
     },
     {
       "teamId": "lsg",
       "teamName": "Lucknow Super Giants",
       "shortName": "LSG",
       "composite": 79.6,
-      "pctComposite": 71.4
+      "pctComposite": 71.6
     },
     {
       "teamId": "gt",
       "teamName": "Gujarat Titans",
       "shortName": "GT",
       "composite": 79.4,
-      "pctComposite": 76.6
+      "pctComposite": 76.2
     },
     {
       "teamId": "srh",
@@ -597,25 +746,18 @@
       "pctComposite": 75.4
     },
     {
-      "teamId": "pbks",
-      "teamName": "Punjab Kings",
-      "shortName": "PBKS",
-      "composite": 77.6,
-      "pctComposite": 71.4
-    },
-    {
       "teamId": "csk",
       "teamName": "Chennai Super Kings",
       "shortName": "CSK",
-      "composite": 75.4,
-      "pctComposite": 65.2
+      "composite": 74.4,
+      "pctComposite": 62.6
     },
     {
       "teamId": "kkr",
       "teamName": "Kolkata Knight Riders",
       "shortName": "KKR",
-      "composite": 72.4,
-      "pctComposite": 57.0
+      "composite": 74.0,
+      "pctComposite": 59.2
     }
   ],
   "2023": [
@@ -624,56 +766,63 @@
       "teamName": "Gujarat Titans",
       "shortName": "GT",
       "composite": 86.0,
-      "pctComposite": 88.6
+      "pctComposite": 89.2
     },
     {
       "teamId": "mi",
       "teamName": "Mumbai Indians",
       "shortName": "MI",
       "composite": 84.8,
-      "pctComposite": 83.8
+      "pctComposite": 82.6
     },
     {
       "teamId": "rr",
       "teamName": "Rajasthan Royals",
       "shortName": "RR",
       "composite": 82.2,
-      "pctComposite": 82.8
+      "pctComposite": 82.2
     },
     {
       "teamId": "csk",
       "teamName": "Chennai Super Kings",
       "shortName": "CSK",
-      "composite": 79.2,
-      "pctComposite": 73.8
+      "composite": 80.6,
+      "pctComposite": 77.2
+    },
+    {
+      "teamId": "rcb",
+      "teamName": "Royal Challengers Bangalore",
+      "shortName": "RCB",
+      "composite": 78.4,
+      "pctComposite": 69.6
     },
     {
       "teamId": "kkr",
       "teamName": "Kolkata Knight Riders",
       "shortName": "KKR",
-      "composite": 78.6,
-      "pctComposite": 74.2
+      "composite": 77.4,
+      "pctComposite": 69.2
+    },
+    {
+      "teamId": "srh",
+      "teamName": "Sunrisers Hyderabad",
+      "shortName": "SRH",
+      "composite": 75.4,
+      "pctComposite": 59.6
     },
     {
       "teamId": "pbks",
       "teamName": "Punjab Kings",
       "shortName": "PBKS",
       "composite": 74.6,
-      "pctComposite": 63.4
-    },
-    {
-      "teamId": "rcb",
-      "teamName": "Royal Challengers Bangalore",
-      "shortName": "RCB",
-      "composite": 73.2,
-      "pctComposite": 56.8
+      "pctComposite": 63.6
     },
     {
       "teamId": "lsg",
       "teamName": "Lucknow Super Giants",
       "shortName": "LSG",
       "composite": 71.6,
-      "pctComposite": 60.6
+      "pctComposite": 60.0
     }
   ],
   "2024": [
@@ -682,121 +831,128 @@
       "teamName": "Delhi Capitals",
       "shortName": "DC",
       "composite": 84.0,
-      "pctComposite": 82.2
+      "pctComposite": 81.6
     },
     {
       "teamId": "kkr",
       "teamName": "Kolkata Knight Riders",
       "shortName": "KKR",
       "composite": 83.6,
-      "pctComposite": 85.0
+      "pctComposite": 84.6
     },
     {
       "teamId": "srh",
       "teamName": "Sunrisers Hyderabad",
       "shortName": "SRH",
       "composite": 78.8,
-      "pctComposite": 70.0
+      "pctComposite": 69.2
     },
     {
       "teamId": "gt",
       "teamName": "Gujarat Titans",
       "shortName": "GT",
       "composite": 78.4,
-      "pctComposite": 73.6
+      "pctComposite": 73.2
     },
     {
       "teamId": "pbks",
       "teamName": "Punjab Kings",
       "shortName": "PBKS",
       "composite": 78.4,
-      "pctComposite": 72.4
+      "pctComposite": 72.0
+    },
+    {
+      "teamId": "csk",
+      "teamName": "Chennai Super Kings",
+      "shortName": "CSK",
+      "composite": 77.4,
+      "pctComposite": 66.2
     },
     {
       "teamId": "mi",
       "teamName": "Mumbai Indians",
       "shortName": "MI",
       "composite": 77.2,
-      "pctComposite": 67.6
+      "pctComposite": 67.2
     },
     {
       "teamId": "rr",
       "teamName": "Rajasthan Royals",
       "shortName": "RR",
       "composite": 77.2,
-      "pctComposite": 69.6
-    },
-    {
-      "teamId": "rcb",
-      "teamName": "Royal Challengers Bangalore",
-      "shortName": "RCB",
-      "composite": 74.4,
-      "pctComposite": 60.8
-    },
-    {
-      "teamId": "csk",
-      "teamName": "Chennai Super Kings",
-      "shortName": "CSK",
-      "composite": 74.2,
-      "pctComposite": 58.8
+      "pctComposite": 70.0
     },
     {
       "teamId": "lsg",
       "teamName": "Lucknow Super Giants",
       "shortName": "LSG",
-      "composite": 72.6,
-      "pctComposite": 53.6
-    }
-  ],
-  "2025": [
-    {
-      "teamId": "mi",
-      "teamName": "Mumbai Indians",
-      "shortName": "MI",
-      "composite": 83.2,
-      "pctComposite": 79.0
+      "composite": 76.0,
+      "pctComposite": 61.8
     },
     {
       "teamId": "rcb",
       "teamName": "Royal Challengers Bangalore",
       "shortName": "RCB",
+      "composite": 74.0,
+      "pctComposite": 59.0
+    }
+  ],
+  "2025": [
+    {
+      "teamId": "rcb",
+      "teamName": "Royal Challengers Bangalore",
+      "shortName": "RCB",
       "composite": 83.2,
-      "pctComposite": 81.8
+      "pctComposite": 80.8
     },
     {
       "teamId": "csk",
       "teamName": "Chennai Super Kings",
       "shortName": "CSK",
       "composite": 82.4,
-      "pctComposite": 80.4
+      "pctComposite": 79.6
     },
     {
       "teamId": "pbks",
       "teamName": "Punjab Kings",
       "shortName": "PBKS",
       "composite": 82.4,
-      "pctComposite": 79.4
+      "pctComposite": 79.2
+    },
+    {
+      "teamId": "mi",
+      "teamName": "Mumbai Indians",
+      "shortName": "MI",
+      "composite": 82.2,
+      "pctComposite": 76.4
     },
     {
       "teamId": "gt",
       "teamName": "Gujarat Titans",
       "shortName": "GT",
       "composite": 81.6,
-      "pctComposite": 74.8
+      "pctComposite": 75.2
     },
     {
       "teamId": "dc",
       "teamName": "Delhi Capitals",
       "shortName": "DC",
       "composite": 78.2,
-      "pctComposite": 71.2
+      "pctComposite": 70.8
     },
     {
       "teamId": "lsg",
       "teamName": "Lucknow Super Giants",
       "shortName": "LSG",
       "composite": 78.0,
-      "pctComposite": 67.2
+      "pctComposite": 67.4
+    },
+    {
+      "teamId": "rr",
+      "teamName": "Rajasthan Royals",
+      "shortName": "RR",
+      "composite": 74.6,
+      "pctComposite": 61.6
     },
     {
       "teamId": "kkr",
@@ -804,13 +960,6 @@
       "shortName": "KKR",
       "composite": 74.4,
       "pctComposite": 63.8
-    },
-    {
-      "teamId": "rr",
-      "teamName": "Rajasthan Royals",
-      "shortName": "RR",
-      "composite": 72.6,
-      "pctComposite": 56.4
     }
   ],
   "2026": [
@@ -826,14 +975,7 @@
       "teamName": "Rajasthan Royals",
       "shortName": "RR",
       "composite": 83.0,
-      "pctComposite": 80.8
-    },
-    {
-      "teamId": "pbks",
-      "teamName": "Punjab Kings",
-      "shortName": "PBKS",
-      "composite": 82.2,
-      "pctComposite": 76.0
+      "pctComposite": 80.4
     },
     {
       "teamId": "kkr",
@@ -847,14 +989,14 @@
       "teamName": "Chennai Super Kings",
       "shortName": "CSK",
       "composite": 81.0,
-      "pctComposite": 76.8
+      "pctComposite": 77.2
     },
     {
-      "teamId": "gt",
-      "teamName": "Gujarat Titans",
-      "shortName": "GT",
+      "teamId": "pbks",
+      "teamName": "Punjab Kings",
+      "shortName": "PBKS",
       "composite": 79.4,
-      "pctComposite": 73.2
+      "pctComposite": 67.6
     },
     {
       "teamId": "dc",
@@ -864,62 +1006,25 @@
       "pctComposite": 73.6
     },
     {
+      "teamId": "srh",
+      "teamName": "Sunrisers Hyderabad",
+      "shortName": "SRH",
+      "composite": 78.8,
+      "pctComposite": 71.2
+    },
+    {
+      "teamId": "gt",
+      "teamName": "Gujarat Titans",
+      "shortName": "GT",
+      "composite": 78.0,
+      "pctComposite": 70.8
+    },
+    {
       "teamId": "mi",
       "teamName": "Mumbai Indians",
       "shortName": "MI",
       "composite": 77.8,
-      "pctComposite": 70.2
-    },
-    {
-      "teamId": "srh",
-      "teamName": "Sunrisers Hyderabad",
-      "shortName": "SRH",
-      "composite": 77.6,
-      "pctComposite": 68.0
-    }
-  ],
-  "2010": [
-    {
-      "teamId": "mi",
-      "teamName": "Mumbai Indians",
-      "shortName": "MI",
-      "composite": 78.2,
-      "pctComposite": 73.2
-    },
-    {
-      "teamId": "kkr",
-      "teamName": "Kolkata Knight Riders",
-      "shortName": "KKR",
-      "composite": 73.8,
-      "pctComposite": 60.2
-    },
-    {
-      "teamId": "dc",
-      "teamName": "Delhi Capitals",
-      "shortName": "DC",
-      "composite": 73.2,
-      "pctComposite": 61.4
-    },
-    {
-      "teamId": "rcb",
-      "teamName": "Royal Challengers Bangalore",
-      "shortName": "RCB",
-      "composite": 73.0,
-      "pctComposite": 60.4
-    },
-    {
-      "teamId": "dcan",
-      "teamName": "Deccan Chargers",
-      "shortName": "DCH",
-      "composite": 71.4,
-      "pctComposite": 54.8
-    },
-    {
-      "teamId": "rr",
-      "teamName": "Rajasthan Royals",
-      "shortName": "RR",
-      "composite": 64.4,
-      "pctComposite": 39.6
+      "pctComposite": 70.8
     }
   ],
   "2016": [
@@ -928,34 +1033,41 @@
       "teamName": "Royal Challengers Bangalore",
       "shortName": "RCB",
       "composite": 86.2,
-      "pctComposite": 88.6
+      "pctComposite": 88.4
     },
     {
       "teamId": "rps",
       "teamName": "Rising Pune Supergiant",
       "shortName": "RPS",
       "composite": 84.6,
-      "pctComposite": 85.6
+      "pctComposite": 86.0
     },
     {
       "teamId": "kkr",
       "teamName": "Kolkata Knight Riders",
       "shortName": "KKR",
-      "composite": 75.2,
-      "pctComposite": 67.0
+      "composite": 74.2,
+      "pctComposite": 63.2
     },
     {
       "teamId": "dc",
       "teamName": "Delhi Capitals",
       "shortName": "DC",
-      "composite": 73.2,
-      "pctComposite": 61.4
+      "composite": 74.0,
+      "pctComposite": 63.4
     },
     {
       "teamId": "pbks",
       "teamName": "Punjab Kings",
       "shortName": "PBKS",
-      "composite": 70.2,
+      "composite": 71.4,
+      "pctComposite": 55.4
+    },
+    {
+      "teamId": "gl",
+      "teamName": "Gujarat Lions",
+      "shortName": "GL",
+      "composite": 71.2,
       "pctComposite": 53.6
     },
     {
@@ -963,44 +1075,65 @@
       "teamName": "Mumbai Indians",
       "shortName": "MI",
       "composite": 69.6,
-      "pctComposite": 51.8
+      "pctComposite": 51.2
     }
   ],
   "2017": [
     {
+      "teamId": "rcb",
+      "teamName": "Royal Challengers Bangalore",
+      "shortName": "RCB",
+      "composite": 84.6,
+      "pctComposite": 84.2
+    },
+    {
       "teamId": "rps",
       "teamName": "Rising Pune Supergiant",
       "shortName": "RPS",
+      "composite": 83.8,
+      "pctComposite": 84.2
+    },
+    {
+      "teamId": "srh",
+      "teamName": "Sunrisers Hyderabad",
+      "shortName": "SRH",
+      "composite": 83.8,
+      "pctComposite": 85.6
+    },
+    {
+      "teamId": "pbks",
+      "teamName": "Punjab Kings",
+      "shortName": "PBKS",
+      "composite": 83.6,
+      "pctComposite": 86.2
+    },
+    {
+      "teamId": "kkr",
+      "teamName": "Kolkata Knight Riders",
+      "shortName": "KKR",
       "composite": 83.4,
-      "pctComposite": 82.6
+      "pctComposite": 85.6
+    },
+    {
+      "teamId": "dc",
+      "teamName": "Delhi Capitals",
+      "shortName": "DC",
+      "composite": 83.0,
+      "pctComposite": 84.8
     },
     {
       "teamId": "mi",
       "teamName": "Mumbai Indians",
       "shortName": "MI",
       "composite": 83.0,
-      "pctComposite": 83.2
-    },
-    {
-      "teamId": "pbks",
-      "teamName": "Punjab Kings",
-      "shortName": "PBKS",
-      "composite": 82.0,
-      "pctComposite": 82.2
-    },
-    {
-      "teamId": "kkr",
-      "teamName": "Kolkata Knight Riders",
-      "shortName": "KKR",
-      "composite": 81.8,
-      "pctComposite": 80.6
+      "pctComposite": 84.0
     },
     {
       "teamId": "gl",
       "teamName": "Gujarat Lions",
       "shortName": "GL",
       "composite": 79.4,
-      "pctComposite": 72.2
+      "pctComposite": 73.0
     }
   ]
 }

@@ -13,7 +13,8 @@
       "average": 11.4,
       "strikeRate": 92.7,
       "wickets": 0,
-      "economy": 6.0
+      "economy": 6.0,
+      "globalPercentile": 3
     },
     {
       "id": "jd-ryder",
@@ -26,7 +27,8 @@
       "strikeRate": 149.0,
       "wickets": 4,
       "economy": 7.76,
-      "bowlingAverage": 29.8
+      "bowlingAverage": 29.8,
+      "globalPercentile": 38
     },
     {
       "id": "rv-uthappa",
@@ -36,7 +38,8 @@
       "matches": 13,
       "runs": 264,
       "average": 26.4,
-      "strikeRate": 128.8
+      "strikeRate": 128.8,
+      "globalPercentile": 34
     },
     {
       "id": "yuvraj-singh",
@@ -49,7 +52,8 @@
       "strikeRate": 131.4,
       "wickets": 9,
       "economy": 6.66,
-      "bowlingAverage": 21.4
+      "bowlingAverage": 21.4,
+      "globalPercentile": 78
     },
     {
       "id": "ac-thomas",
@@ -59,7 +63,8 @@
       "matches": 11,
       "wickets": 11,
       "economy": 7.79,
-      "bowlingAverage": 27.3
+      "bowlingAverage": 27.3,
+      "globalPercentile": 63
     },
     {
       "id": "sb-wagh",
@@ -69,7 +74,8 @@
       "matches": 7,
       "wickets": 4,
       "economy": 8.19,
-      "bowlingAverage": 32.8
+      "bowlingAverage": 32.8,
+      "globalPercentile": 32
     },
     {
       "id": "wd-parnell",
@@ -82,7 +88,8 @@
       "strikeRate": 94.9,
       "wickets": 9,
       "economy": 7.57,
-      "bowlingAverage": 24.7
+      "bowlingAverage": 24.7,
+      "globalPercentile": 74
     },
     {
       "id": "r-sharma",
@@ -95,7 +102,8 @@
       "strikeRate": 114.3,
       "wickets": 16,
       "economy": 5.56,
-      "bowlingAverage": 17.4
+      "bowlingAverage": 17.4,
+      "globalPercentile": 92
     },
     {
       "id": "md-mishra",
@@ -105,7 +113,8 @@
       "matches": 5,
       "runs": 67,
       "average": 16.8,
-      "strikeRate": 111.7
+      "strikeRate": 111.7,
+      "globalPercentile": 7
     },
     {
       "id": "m-kartik",
@@ -115,7 +124,8 @@
       "matches": 5,
       "wickets": 1,
       "economy": 8.0,
-      "bowlingAverage": 160.0
+      "bowlingAverage": 160.0,
+      "globalPercentile": 2
     },
     {
       "id": "mk-pandey",
@@ -125,7 +135,8 @@
       "matches": 9,
       "runs": 246,
       "average": 27.3,
-      "strikeRate": 108.4
+      "strikeRate": 108.4,
+      "globalPercentile": 27
     },
     {
       "id": "je-taylor",
@@ -135,7 +146,8 @@
       "matches": 5,
       "wickets": 6,
       "economy": 8.56,
-      "bowlingAverage": 27.8
+      "bowlingAverage": 27.8,
+      "globalPercentile": 63
     },
     {
       "id": "mr-marsh",
@@ -148,7 +160,8 @@
       "strikeRate": 102.0,
       "wickets": 7,
       "economy": 7.2,
-      "bowlingAverage": 14.6
+      "bowlingAverage": 14.6,
+      "globalPercentile": 94
     }
   ],
   "stats": {

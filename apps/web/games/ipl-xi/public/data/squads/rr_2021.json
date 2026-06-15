@@ -12,7 +12,7 @@
       "runs": 484,
       "average": 40.3,
       "strikeRate": 137.9,
-      "globalPercentile": 74
+      "globalPercentile": 77
     },
     {
       "id": "jc-buttler",
@@ -23,7 +23,7 @@
       "runs": 254,
       "average": 36.3,
       "strikeRate": 154.9,
-      "globalPercentile": 78
+      "globalPercentile": 79
     },
     {
       "id": "s-dube",
@@ -36,7 +36,7 @@
       "strikeRate": 119.2,
       "wickets": 0,
       "economy": 10.6,
-      "globalPercentile": 30
+      "globalPercentile": 34
     },
     {
       "id": "r-parag",
@@ -50,7 +50,7 @@
       "wickets": 1,
       "economy": 11.5,
       "bowlingAverage": 69.0,
-      "globalPercentile": 3
+      "globalPercentile": 2
     },
     {
       "id": "r-tewatia",
@@ -64,7 +64,7 @@
       "wickets": 8,
       "economy": 9.24,
       "bowlingAverage": 42.8,
-      "globalPercentile": 6
+      "globalPercentile": 4
     },
     {
       "id": "ch-morris",
@@ -78,7 +78,7 @@
       "wickets": 15,
       "economy": 9.66,
       "bowlingAverage": 26.4,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "c-sakariya",
@@ -92,7 +92,7 @@
       "wickets": 14,
       "economy": 8.35,
       "bowlingAverage": 31.0,
-      "globalPercentile": 55
+      "globalPercentile": 51
     },
     {
       "id": "mustafizur-rahman",
@@ -106,7 +106,7 @@
       "wickets": 14,
       "economy": 8.64,
       "bowlingAverage": 32.0,
-      "globalPercentile": 48
+      "globalPercentile": 44
     },
     {
       "id": "da-miller",
@@ -117,7 +117,7 @@
       "runs": 124,
       "average": 24.8,
       "strikeRate": 109.7,
-      "globalPercentile": 23
+      "globalPercentile": 22
     },
     {
       "id": "jd-unadkat",
@@ -131,7 +131,7 @@
       "wickets": 4,
       "economy": 7.64,
       "bowlingAverage": 42.0,
-      "globalPercentile": 33
+      "globalPercentile": 29
     },
     {
       "id": "ybk-jaiswal",
@@ -164,7 +164,7 @@
       "runs": 42,
       "average": 8.4,
       "strikeRate": 102.4,
-      "globalPercentile": 1
+      "globalPercentile": 2
     }
   ],
   "stats": {

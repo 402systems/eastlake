@@ -15,7 +15,7 @@
       "wickets": 2,
       "economy": 7.29,
       "bowlingAverage": 25.5,
-      "globalPercentile": 78
+      "globalPercentile": 79
     },
     {
       "id": "ra-tripathi",
@@ -26,7 +26,7 @@
       "runs": 165,
       "average": 33.0,
       "strikeRate": 146.0,
-      "globalPercentile": 64
+      "globalPercentile": 66
     },
     {
       "id": "ak-markram",
@@ -37,7 +37,7 @@
       "runs": 220,
       "average": 24.4,
       "strikeRate": 125.7,
-      "globalPercentile": 25
+      "globalPercentile": 29
     },
     {
       "id": "h-klaasen",
@@ -53,8 +53,8 @@
     {
       "id": "shahbaz-ahmed",
       "name": "Shahbaz Ahmed",
-      "role": "PACE_BOWLER",
-      "rating": 50,
+      "role": "ALL_ROUNDER",
+      "rating": 58,
       "matches": 15,
       "runs": 215,
       "average": 23.9,
@@ -62,7 +62,7 @@
       "wickets": 7,
       "economy": 10.07,
       "bowlingAverage": 39.6,
-      "globalPercentile": 8
+      "globalPercentile": 27
     },
     {
       "id": "pj-cummins",
@@ -76,7 +76,7 @@
       "wickets": 18,
       "economy": 9.36,
       "bowlingAverage": 31.7,
-      "globalPercentile": 48
+      "globalPercentile": 44
     },
     {
       "id": "b-kumar",
@@ -90,7 +90,7 @@
       "wickets": 11,
       "economy": 9.74,
       "bowlingAverage": 50.5,
-      "globalPercentile": 16
+      "globalPercentile": 13
     },
     {
       "id": "t-natarajan",
@@ -101,7 +101,7 @@
       "wickets": 19,
       "economy": 9.14,
       "bowlingAverage": 24.7,
-      "globalPercentile": 72
+      "globalPercentile": 68
     },
     {
       "id": "m-markande",
@@ -112,7 +112,7 @@
       "wickets": 8,
       "economy": 11.77,
       "bowlingAverage": 32.4,
-      "globalPercentile": 23
+      "globalPercentile": 21
     },
     {
       "id": "tm-head",
@@ -137,13 +137,13 @@
       "wickets": 8,
       "economy": 10.3,
       "bowlingAverage": 40.1,
-      "globalPercentile": 13
+      "globalPercentile": 11
     },
     {
       "id": "nithish-kumar-reddy",
       "name": "Nithish Kumar Reddy",
-      "role": "PACE_BOWLER",
-      "rating": 46,
+      "role": "ALL_ROUNDER",
+      "rating": 66,
       "matches": 11,
       "runs": 303,
       "average": 33.7,
@@ -151,12 +151,12 @@
       "wickets": 3,
       "economy": 11.7,
       "bowlingAverage": 51.3,
-      "globalPercentile": 3
+      "globalPercentile": 52
     }
   ],
   "stats": {
-    "min": 46,
+    "min": 53,
     "max": 93,
-    "mean": 67.2
+    "mean": 69.6
   }
 }

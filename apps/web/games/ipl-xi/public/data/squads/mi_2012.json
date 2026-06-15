@@ -34,7 +34,7 @@
       "runs": 433,
       "average": 30.9,
       "strikeRate": 127.0,
-      "globalPercentile": 45
+      "globalPercentile": 47
     },
     {
       "id": "at-rayudu",
@@ -45,13 +45,13 @@
       "runs": 333,
       "average": 37.0,
       "strikeRate": 132.1,
-      "globalPercentile": 65
+      "globalPercentile": 70
     },
     {
       "id": "jec-franklin",
       "name": "JEC Franklin",
-      "role": "PACE_BOWLER",
-      "rating": 70,
+      "role": "MIDDLE_ORDER",
+      "rating": 55,
       "matches": 11,
       "runs": 220,
       "average": 24.4,
@@ -59,7 +59,7 @@
       "wickets": 6,
       "economy": 8.4,
       "bowlingAverage": 21.0,
-      "globalPercentile": 58
+      "globalPercentile": 15
     },
     {
       "id": "sl-malinga",
@@ -87,7 +87,7 @@
       "wickets": 6,
       "economy": 7.2,
       "bowlingAverage": 64.8,
-      "globalPercentile": 16
+      "globalPercentile": 14
     },
     {
       "id": "pp-ojha",
@@ -101,13 +101,13 @@
       "wickets": 9,
       "economy": 7.4,
       "bowlingAverage": 24.7,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "ka-pollard",
       "name": "KA Pollard",
-      "role": "PACE_BOWLER",
-      "rating": 79,
+      "role": "ALL_ROUNDER",
+      "rating": 72,
       "matches": 13,
       "runs": 220,
       "average": 24.4,
@@ -115,7 +115,7 @@
       "wickets": 16,
       "economy": 8.05,
       "bowlingAverage": 21.6,
-      "globalPercentile": 83
+      "globalPercentile": 70
     },
     {
       "id": "kd-karthik",
@@ -137,7 +137,7 @@
       "wickets": 15,
       "economy": 8.01,
       "bowlingAverage": 24.9,
-      "globalPercentile": 78
+      "globalPercentile": 74
     },
     {
       "id": "rp-singh",
@@ -151,7 +151,7 @@
       "wickets": 10,
       "economy": 8.0,
       "bowlingAverage": 32.8,
-      "globalPercentile": 51
+      "globalPercentile": 47
     },
     {
       "id": "rj-peterson",
@@ -165,13 +165,13 @@
       "wickets": 3,
       "economy": 8.75,
       "bowlingAverage": 23.3,
-      "globalPercentile": 51
+      "globalPercentile": 47
     },
     {
       "id": "dr-smith",
       "name": "DR Smith",
-      "role": "PACE_BOWLER",
-      "rating": 57,
+      "role": "ALL_ROUNDER",
+      "rating": 76,
       "matches": 6,
       "runs": 157,
       "average": 39.2,
@@ -179,12 +179,12 @@
       "wickets": 2,
       "economy": 7.54,
       "bowlingAverage": 49.0,
-      "globalPercentile": 23
+      "globalPercentile": 80
     }
   ],
   "stats": {
     "min": 49,
     "max": 93,
-    "mean": 67.9
+    "mean": 67.7
   }
 }

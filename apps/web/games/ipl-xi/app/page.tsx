@@ -1,7 +1,8 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { BALL_KNOWLEDGE_KEY } from '@/lib/constants';
 
 const POSITIONS = [
   { icon: '🏏', label: 'Opener' },
@@ -44,6 +45,17 @@ const TEAM_COLORS = [
 
 export default function HomePage() {
   const [ball, setBall] = useState(false);
+
+  // Persist the toggle to localStorage (kept in sync, defaulting off on each
+  // visit) so the game can read the mode without it being in the URL.
+  useEffect(() => {
+    try {
+      localStorage.setItem(BALL_KNOWLEDGE_KEY, ball ? '1' : '0');
+    } catch {
+      // ignore storage being unavailable (e.g. private mode)
+    }
+  }, [ball]);
+
   return (
     <main className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-5 py-12">
       <div className="flex w-full max-w-md flex-col items-center">
@@ -53,7 +65,7 @@ export default function HomePage() {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-purple-400 opacity-75" />
             <span className="relative inline-flex h-2 w-2 rounded-full bg-purple-400" />
           </span>
-          18 seasons · 14 franchises
+          19 seasons · 15 franchises
         </div>
 
         {/* Title */}
@@ -112,7 +124,7 @@ export default function HomePage() {
 
         {/* CTA */}
         <Link
-          href={ball ? '/game?ball=1' : '/game'}
+          href="/game"
           className="animate-fade-up group relative mt-6 inline-flex items-center gap-2 overflow-hidden rounded-2xl bg-gradient-to-r from-purple-600 to-fuchsia-500 px-12 py-4 text-lg font-black text-white shadow-xl shadow-purple-900/50 transition-transform delay-4 hover:scale-[1.03] active:scale-95"
         >
           <span className="absolute inset-0 -translate-x-full bg-white/20 transition-transform duration-500 group-hover:translate-x-full" />

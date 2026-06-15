@@ -23,7 +23,7 @@
       "runs": 317,
       "average": 22.6,
       "strikeRate": 144.1,
-      "globalPercentile": 43
+      "globalPercentile": 44
     },
     {
       "id": "ishan-kishan",
@@ -34,7 +34,7 @@
       "runs": 241,
       "average": 26.8,
       "strikeRate": 136.2,
-      "globalPercentile": 43
+      "globalPercentile": 44
     },
     {
       "id": "hh-pandya",
@@ -45,12 +45,12 @@
       "runs": 127,
       "average": 14.1,
       "strikeRate": 114.4,
-      "globalPercentile": 7
+      "globalPercentile": 6
     },
     {
       "id": "ka-pollard",
       "name": "KA Pollard",
-      "role": "PACE_BOWLER",
+      "role": "ALL_ROUNDER",
       "rating": 73,
       "matches": 13,
       "runs": 245,
@@ -59,7 +59,7 @@
       "wickets": 5,
       "economy": 7.22,
       "bowlingAverage": 19.0,
-      "globalPercentile": 67
+      "globalPercentile": 74
     },
     {
       "id": "kh-pandya",
@@ -73,7 +73,7 @@
       "wickets": 5,
       "economy": 8.05,
       "bowlingAverage": 53.4,
-      "globalPercentile": 8
+      "globalPercentile": 6
     },
     {
       "id": "jj-bumrah",
@@ -87,7 +87,7 @@
       "wickets": 21,
       "economy": 7.67,
       "bowlingAverage": 20.1,
-      "globalPercentile": 92
+      "globalPercentile": 90
     },
     {
       "id": "ta-boult",
@@ -98,7 +98,7 @@
       "wickets": 13,
       "economy": 7.97,
       "bowlingAverage": 31.5,
-      "globalPercentile": 55
+      "globalPercentile": 51
     },
     {
       "id": "rd-chahar",
@@ -112,7 +112,7 @@
       "wickets": 13,
       "economy": 7.53,
       "bowlingAverage": 24.9,
-      "globalPercentile": 70
+      "globalPercentile": 66
     },
     {
       "id": "q-de-kock",
@@ -123,7 +123,7 @@
       "runs": 297,
       "average": 29.7,
       "strikeRate": 116.5,
-      "globalPercentile": 30
+      "globalPercentile": 31
     },
     {
       "id": "j-yadav",
@@ -134,7 +134,7 @@
       "wickets": 2,
       "economy": 7.71,
       "bowlingAverage": 65.5,
-      "globalPercentile": 23
+      "globalPercentile": 19
     },
     {
       "id": "nm-coulter-nile",
@@ -145,7 +145,7 @@
       "wickets": 7,
       "economy": 6.55,
       "bowlingAverage": 18.7,
-      "globalPercentile": 95
+      "globalPercentile": 94
     }
   ],
   "stats": {

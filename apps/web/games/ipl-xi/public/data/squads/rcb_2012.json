@@ -12,7 +12,7 @@
       "runs": 364,
       "average": 30.3,
       "strikeRate": 112.0,
-      "globalPercentile": 25
+      "globalPercentile": 29
     },
     {
       "id": "ab-de-villiers",
@@ -23,7 +23,7 @@
       "runs": 319,
       "average": 39.9,
       "strikeRate": 161.9,
-      "globalPercentile": 92
+      "globalPercentile": 94
     },
     {
       "id": "ss-tiwary",
@@ -34,7 +34,7 @@
       "runs": 191,
       "average": 23.9,
       "strikeRate": 114.4,
-      "globalPercentile": 23
+      "globalPercentile": 22
     },
     {
       "id": "ma-agarwal",
@@ -45,7 +45,7 @@
       "runs": 225,
       "average": 20.5,
       "strikeRate": 143.3,
-      "globalPercentile": 35
+      "globalPercentile": 37
     },
     {
       "id": "dl-vettori",
@@ -59,7 +59,7 @@
       "wickets": 5,
       "economy": 6.89,
       "bowlingAverage": 48.2,
-      "globalPercentile": 35
+      "globalPercentile": 32
     },
     {
       "id": "r-vinay-kumar",
@@ -73,7 +73,7 @@
       "wickets": 19,
       "economy": 8.74,
       "bowlingAverage": 25.7,
-      "globalPercentile": 75
+      "globalPercentile": 72
     },
     {
       "id": "hv-patel",
@@ -87,7 +87,7 @@
       "wickets": 9,
       "economy": 8.59,
       "bowlingAverage": 39.1,
-      "globalPercentile": 33
+      "globalPercentile": 29
     },
     {
       "id": "z-khan",
@@ -101,7 +101,7 @@
       "wickets": 17,
       "economy": 7.8,
       "bowlingAverage": 27.5,
-      "globalPercentile": 72
+      "globalPercentile": 68
     },
     {
       "id": "m-muralitharan",
@@ -112,7 +112,7 @@
       "wickets": 15,
       "economy": 6.6,
       "bowlingAverage": 17.6,
-      "globalPercentile": 98
+      "globalPercentile": 96
     },
     {
       "id": "ch-gayle",
@@ -149,7 +149,7 @@
       "wickets": 6,
       "economy": 8.76,
       "bowlingAverage": 24.8,
-      "globalPercentile": 49
+      "globalPercentile": 47
     }
   ],
   "stats": {

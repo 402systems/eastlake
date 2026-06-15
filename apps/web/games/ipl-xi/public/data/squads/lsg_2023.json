@@ -50,13 +50,13 @@
       "wickets": 9,
       "economy": 7.62,
       "bowlingAverage": 35.6,
-      "globalPercentile": 33
+      "globalPercentile": 31
     },
     {
       "id": "mp-stoinis",
       "name": "MP Stoinis",
-      "role": "PACE_BOWLER",
-      "rating": 72,
+      "role": "ALL_ROUNDER",
+      "rating": 76,
       "matches": 15,
       "runs": 408,
       "average": 31.4,
@@ -64,7 +64,7 @@
       "wickets": 5,
       "economy": 9.32,
       "bowlingAverage": 20.2,
-      "globalPercentile": 64
+      "globalPercentile": 80
     },
     {
       "id": "n-pooran",
@@ -75,7 +75,7 @@
       "runs": 358,
       "average": 32.5,
       "strikeRate": 172.9,
-      "globalPercentile": 90
+      "globalPercentile": 93
     },
     {
       "id": "a-badoni",
@@ -86,7 +86,7 @@
       "runs": 238,
       "average": 26.4,
       "strikeRate": 139.2,
-      "globalPercentile": 53
+      "globalPercentile": 55
     },
     {
       "id": "k-gowtham",
@@ -100,7 +100,7 @@
       "wickets": 3,
       "economy": 7.38,
       "bowlingAverage": 39.3,
-      "globalPercentile": 20
+      "globalPercentile": 18
     },
     {
       "id": "avesh-khan",
@@ -111,7 +111,7 @@
       "wickets": 8,
       "economy": 9.9,
       "bowlingAverage": 35.9,
-      "globalPercentile": 28
+      "globalPercentile": 24
     },
     {
       "id": "ravi-bishnoi",
@@ -125,7 +125,7 @@
       "wickets": 16,
       "economy": 7.8,
       "bowlingAverage": 24.6,
-      "globalPercentile": 67
+      "globalPercentile": 63
     },
     {
       "id": "yash-thakur",
@@ -136,7 +136,7 @@
       "wickets": 13,
       "economy": 9.33,
       "bowlingAverage": 22.8,
-      "globalPercentile": 78
+      "globalPercentile": 74
     },
     {
       "id": "a-mishra",
@@ -147,7 +147,7 @@
       "wickets": 7,
       "economy": 7.95,
       "bowlingAverage": 21.6,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "naveen-ul-haq",
@@ -161,12 +161,12 @@
       "wickets": 11,
       "economy": 8.11,
       "bowlingAverage": 20.6,
-      "globalPercentile": 90
+      "globalPercentile": 88
     }
   ],
   "stats": {
     "min": 41,
     "max": 84,
-    "mean": 69.4
+    "mean": 69.7
   }
 }

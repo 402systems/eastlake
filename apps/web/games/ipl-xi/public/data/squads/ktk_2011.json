@@ -11,7 +11,8 @@
       "matches": 13,
       "runs": 357,
       "average": 27.5,
-      "strikeRate": 131.2
+      "strikeRate": 131.2,
+      "globalPercentile": 41
     },
     {
       "id": "dpmd-jayawardene",
@@ -21,7 +22,8 @@
       "matches": 13,
       "runs": 299,
       "average": 27.2,
-      "strikeRate": 116.3
+      "strikeRate": 116.3,
+      "globalPercentile": 27
     },
     {
       "id": "bj-hodge",
@@ -34,20 +36,22 @@
       "strikeRate": 121.8,
       "wickets": 7,
       "economy": 7.0,
-      "bowlingAverage": 11.0
+      "bowlingAverage": 11.0,
+      "globalPercentile": 40
     },
     {
       "id": "ra-jadeja",
       "name": "RA Jadeja",
-      "role": "ALL_ROUNDER",
-      "rating": 66,
+      "role": "SPIN_BOWLER",
+      "rating": 62,
       "matches": 14,
       "runs": 283,
       "average": 31.4,
       "strikeRate": 124.7,
       "wickets": 8,
       "economy": 7.31,
-      "bowlingAverage": 38.4
+      "bowlingAverage": 38.4,
+      "globalPercentile": 23
     },
     {
       "id": "rv-gomez",
@@ -60,7 +64,8 @@
       "strikeRate": 92.0,
       "wickets": 5,
       "economy": 8.33,
-      "bowlingAverage": 25.0
+      "bowlingAverage": 25.0,
+      "globalPercentile": 10
     },
     {
       "id": "pa-patel",
@@ -70,7 +75,8 @@
       "matches": 13,
       "runs": 202,
       "average": 22.4,
-      "strikeRate": 111.0
+      "strikeRate": 111.0,
+      "globalPercentile": 14
     },
     {
       "id": "rp-singh",
@@ -83,7 +89,8 @@
       "strikeRate": 50.0,
       "wickets": 13,
       "economy": 7.3,
-      "bowlingAverage": 28.1
+      "bowlingAverage": 28.1,
+      "globalPercentile": 63
     },
     {
       "id": "s-sreesanth",
@@ -96,7 +103,8 @@
       "strikeRate": 11.1,
       "wickets": 7,
       "economy": 6.66,
-      "bowlingAverage": 30.3
+      "bowlingAverage": 30.3,
+      "globalPercentile": 60
     },
     {
       "id": "r-vinay-kumar",
@@ -109,7 +117,8 @@
       "strikeRate": 106.4,
       "wickets": 12,
       "economy": 7.72,
-      "bowlingAverage": 28.8
+      "bowlingAverage": 28.8,
+      "globalPercentile": 57
     },
     {
       "id": "m-muralitharan",
@@ -119,7 +128,8 @@
       "matches": 5,
       "wickets": 2,
       "economy": 7.63,
-      "bowlingAverage": 72.5
+      "bowlingAverage": 72.5,
+      "globalPercentile": 11
     },
     {
       "id": "rr-powar",
@@ -132,7 +142,8 @@
       "strikeRate": 84.6,
       "wickets": 2,
       "economy": 9.33,
-      "bowlingAverage": 56.0
+      "bowlingAverage": 56.0,
+      "globalPercentile": 9
     },
     {
       "id": "p-parameswaran",
@@ -142,12 +153,13 @@
       "matches": 5,
       "wickets": 4,
       "economy": 8.74,
-      "bowlingAverage": 34.2
+      "bowlingAverage": 34.2,
+      "globalPercentile": 34
     }
   ],
   "stats": {
     "min": 51,
     "max": 73,
-    "mean": 62.8
+    "mean": 62.5
   }
 }

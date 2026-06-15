@@ -15,7 +15,7 @@
       "wickets": 17,
       "economy": 7.75,
       "bowlingAverage": 27.8,
-      "globalPercentile": 57
+      "globalPercentile": 54
     },
     {
       "id": "ca-lynn",
@@ -37,7 +37,7 @@
       "runs": 351,
       "average": 21.9,
       "strikeRate": 133.0,
-      "globalPercentile": 30
+      "globalPercentile": 34
     },
     {
       "id": "n-rana",
@@ -51,7 +51,7 @@
       "wickets": 4,
       "economy": 7.33,
       "bowlingAverage": 11.0,
-      "globalPercentile": 25
+      "globalPercentile": 29
     },
     {
       "id": "kd-karthik",
@@ -62,13 +62,13 @@
       "runs": 498,
       "average": 55.3,
       "strikeRate": 148.2,
-      "globalPercentile": 92
+      "globalPercentile": 94
     },
     {
       "id": "ad-russell",
       "name": "AD Russell",
-      "role": "PACE_BOWLER",
-      "rating": 65,
+      "role": "ALL_ROUNDER",
+      "rating": 79,
       "matches": 15,
       "runs": 316,
       "average": 28.7,
@@ -76,7 +76,7 @@
       "wickets": 13,
       "economy": 9.52,
       "bowlingAverage": 27.7,
-      "globalPercentile": 41
+      "globalPercentile": 87
     },
     {
       "id": "pp-chawla",
@@ -90,7 +90,7 @@
       "wickets": 14,
       "economy": 8.55,
       "bowlingAverage": 29.9,
-      "globalPercentile": 41
+      "globalPercentile": 39
     },
     {
       "id": "kuldeep-yadav",
@@ -104,7 +104,7 @@
       "wickets": 17,
       "economy": 8.24,
       "bowlingAverage": 24.9,
-      "globalPercentile": 57
+      "globalPercentile": 54
     },
     {
       "id": "mg-johnson",
@@ -115,7 +115,7 @@
       "wickets": 2,
       "economy": 10.38,
       "bowlingAverage": 109.0,
-      "globalPercentile": 4
+      "globalPercentile": 3
     },
     {
       "id": "shubman-gill",
@@ -126,7 +126,7 @@
       "runs": 203,
       "average": 40.6,
       "strikeRate": 146.0,
-      "globalPercentile": 78
+      "globalPercentile": 82
     },
     {
       "id": "shivam-mavi",
@@ -140,7 +140,7 @@
       "wickets": 5,
       "economy": 9.75,
       "bowlingAverage": 54.6,
-      "globalPercentile": 11
+      "globalPercentile": 9
     },
     {
       "id": "m-prasidh-krishna",
@@ -151,12 +151,12 @@
       "wickets": 10,
       "economy": 9.32,
       "bowlingAverage": 26.1,
-      "globalPercentile": 72
+      "globalPercentile": 68
     }
   ],
   "stats": {
     "min": 47,
     "max": 85,
-    "mean": 67.9
+    "mean": 69.1
   }
 }

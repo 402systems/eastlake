@@ -23,7 +23,7 @@
       "runs": 491,
       "average": 44.6,
       "strikeRate": 164.2,
-      "globalPercentile": 94
+      "globalPercentile": 96
     },
     {
       "id": "p-simran-singh",
@@ -45,7 +45,7 @@
       "runs": 498,
       "average": 55.3,
       "strikeRate": 170.0,
-      "globalPercentile": 99
+      "globalPercentile": 100
     },
     {
       "id": "n-wadhera",
@@ -56,13 +56,13 @@
       "runs": 65,
       "average": 10.8,
       "strikeRate": 114.0,
-      "globalPercentile": 4
+      "globalPercentile": 3
     },
     {
       "id": "shashank-singh",
       "name": "Shashank Singh",
-      "role": "PACE_BOWLER",
-      "rating": 72,
+      "role": "ALL_ROUNDER",
+      "rating": 76,
       "matches": 9,
       "runs": 132,
       "average": 22.0,
@@ -70,7 +70,7 @@
       "wickets": 4,
       "economy": 8.9,
       "bowlingAverage": 22.2,
-      "globalPercentile": 64
+      "globalPercentile": 80
     },
     {
       "id": "mp-stoinis",
@@ -84,7 +84,7 @@
       "wickets": 2,
       "economy": 12.51,
       "bowlingAverage": 49.0,
-      "globalPercentile": 74
+      "globalPercentile": 78
     },
     {
       "id": "m-jansen",
@@ -98,7 +98,7 @@
       "wickets": 9,
       "economy": 10.39,
       "bowlingAverage": 54.7,
-      "globalPercentile": 13
+      "globalPercentile": 11
     },
     {
       "id": "xc-bartlett",
@@ -112,7 +112,7 @@
       "wickets": 5,
       "economy": 11.64,
       "bowlingAverage": 78.0,
-      "globalPercentile": 5
+      "globalPercentile": 4
     },
     {
       "id": "arshdeep-singh",
@@ -123,7 +123,7 @@
       "wickets": 14,
       "economy": 10.23,
       "bowlingAverage": 38.7,
-      "globalPercentile": 25
+      "globalPercentile": 21
     },
     {
       "id": "vijaykumar-vyshak",
@@ -134,7 +134,7 @@
       "wickets": 9,
       "economy": 10.74,
       "bowlingAverage": 37.0,
-      "globalPercentile": 23
+      "globalPercentile": 19
     },
     {
       "id": "ys-chahal",
@@ -145,7 +145,7 @@
       "wickets": 12,
       "economy": 9.49,
       "bowlingAverage": 32.4,
-      "globalPercentile": 29
+      "globalPercentile": 28
     },
     {
       "id": "suryansh-shedge",
@@ -156,12 +156,12 @@
       "runs": 158,
       "average": 39.5,
       "strikeRate": 175.6,
-      "globalPercentile": 96
+      "globalPercentile": 97
     }
   ],
   "stats": {
     "min": 46,
     "max": 98,
-    "mean": 70.6
+    "mean": 70.9
   }
 }

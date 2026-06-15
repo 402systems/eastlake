@@ -12,7 +12,7 @@
       "runs": 202,
       "average": 33.7,
       "strikeRate": 168.3,
-      "globalPercentile": 80
+      "globalPercentile": 81
     },
     {
       "id": "d-padikkal",
@@ -23,7 +23,7 @@
       "runs": 464,
       "average": 33.1,
       "strikeRate": 168.7,
-      "globalPercentile": 84
+      "globalPercentile": 86
     },
     {
       "id": "v-kohli",
@@ -45,7 +45,7 @@
       "runs": 501,
       "average": 41.8,
       "strikeRate": 193.4,
-      "globalPercentile": 94
+      "globalPercentile": 96
     },
     {
       "id": "jm-sharma",
@@ -56,7 +56,7 @@
       "runs": 116,
       "average": 12.9,
       "strikeRate": 122.1,
-      "globalPercentile": 10
+      "globalPercentile": 7
     },
     {
       "id": "th-david",
@@ -67,7 +67,7 @@
       "runs": 305,
       "average": 33.9,
       "strikeRate": 191.8,
-      "globalPercentile": 94
+      "globalPercentile": 96
     },
     {
       "id": "ja-duffy",
@@ -78,7 +78,7 @@
       "wickets": 9,
       "economy": 11.08,
       "bowlingAverage": 29.6,
-      "globalPercentile": 51
+      "globalPercentile": 47
     },
     {
       "id": "b-kumar",
@@ -92,7 +92,7 @@
       "wickets": 28,
       "economy": 8.0,
       "bowlingAverage": 18.0,
-      "globalPercentile": 96
+      "globalPercentile": 95
     },
     {
       "id": "r-shepherd",
@@ -106,7 +106,7 @@
       "wickets": 7,
       "economy": 11.79,
       "bowlingAverage": 40.7,
-      "globalPercentile": 5
+      "globalPercentile": 4
     },
     {
       "id": "suyash-sharma",
@@ -117,7 +117,7 @@
       "wickets": 9,
       "economy": 9.31,
       "bowlingAverage": 42.2,
-      "globalPercentile": 23
+      "globalPercentile": 19
     },
     {
       "id": "kh-pandya",
@@ -131,7 +131,7 @@
       "wickets": 14,
       "economy": 8.46,
       "bowlingAverage": 30.5,
-      "globalPercentile": 41
+      "globalPercentile": 39
     },
     {
       "id": "vr-iyer",
@@ -142,7 +142,7 @@
       "runs": 209,
       "average": 52.2,
       "strikeRate": 186.6,
-      "globalPercentile": 97
+      "globalPercentile": 98
     },
     {
       "id": "jr-hazlewood",
@@ -153,7 +153,7 @@
       "wickets": 15,
       "economy": 9.83,
       "bowlingAverage": 33.7,
-      "globalPercentile": 38
+      "globalPercentile": 35
     },
     {
       "id": "rasikh-salam",
@@ -164,7 +164,7 @@
       "wickets": 19,
       "economy": 9.5,
       "bowlingAverage": 21.4,
-      "globalPercentile": 83
+      "globalPercentile": 79
     },
     {
       "id": "jg-bethell",

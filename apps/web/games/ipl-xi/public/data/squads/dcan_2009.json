@@ -23,7 +23,7 @@
       "runs": 371,
       "average": 33.7,
       "strikeRate": 112.4,
-      "globalPercentile": 34
+      "globalPercentile": 35
     },
     {
       "id": "vvs-laxman",
@@ -39,8 +39,8 @@
     {
       "id": "rg-sharma",
       "name": "RG Sharma",
-      "role": "SPIN_BOWLER",
-      "rating": 81,
+      "role": "MIDDLE_ORDER",
+      "rating": 61,
       "matches": 16,
       "runs": 362,
       "average": 27.8,
@@ -48,7 +48,7 @@
       "wickets": 11,
       "economy": 7.09,
       "bowlingAverage": 14.8,
-      "globalPercentile": 78
+      "globalPercentile": 27
     },
     {
       "id": "fh-edwards",
@@ -59,7 +59,7 @@
       "wickets": 5,
       "economy": 6.86,
       "bowlingAverage": 32.0,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "rp-singh",
@@ -73,7 +73,7 @@
       "wickets": 23,
       "economy": 7.21,
       "bowlingAverage": 18.7,
-      "globalPercentile": 92
+      "globalPercentile": 91
     },
     {
       "id": "harmeet-singh",
@@ -84,7 +84,7 @@
       "wickets": 3,
       "economy": 8.67,
       "bowlingAverage": 66.0,
-      "globalPercentile": 16
+      "globalPercentile": 13
     },
     {
       "id": "pp-ojha",
@@ -98,13 +98,13 @@
       "wickets": 18,
       "economy": 6.71,
       "bowlingAverage": 19.9,
-      "globalPercentile": 88
+      "globalPercentile": 85
     },
     {
       "id": "y-venugopal-rao",
       "name": "Y Venugopal Rao",
-      "role": "PACE_BOWLER",
-      "rating": 65,
+      "role": "ALL_ROUNDER",
+      "rating": 53,
       "matches": 12,
       "runs": 124,
       "average": 12.4,
@@ -112,13 +112,13 @@
       "wickets": 4,
       "economy": 8.2,
       "bowlingAverage": 30.8,
-      "globalPercentile": 41
+      "globalPercentile": 14
     },
     {
       "id": "dr-smith",
       "name": "DR Smith",
-      "role": "PACE_BOWLER",
-      "rating": 48,
+      "role": "ALL_ROUNDER",
+      "rating": 69,
       "matches": 8,
       "runs": 215,
       "average": 26.9,
@@ -126,7 +126,7 @@
       "wickets": 1,
       "economy": 9.14,
       "bowlingAverage": 128.0,
-      "globalPercentile": 5
+      "globalPercentile": 61
     },
     {
       "id": "aa-bilakhia",
@@ -137,7 +137,7 @@
       "runs": 67,
       "average": 16.8,
       "strikeRate": 83.8,
-      "globalPercentile": 10
+      "globalPercentile": 7
     },
     {
       "id": "shoaib-ahmed",
@@ -151,13 +151,13 @@
       "wickets": 5,
       "economy": 9.06,
       "bowlingAverage": 30.8,
-      "globalPercentile": 35
+      "globalPercentile": 32
     },
     {
       "id": "tl-suman",
       "name": "TL Suman",
-      "role": "PACE_BOWLER",
-      "rating": 78,
+      "role": "MIDDLE_ORDER",
+      "rating": 62,
       "matches": 12,
       "runs": 237,
       "average": 26.3,
@@ -165,7 +165,7 @@
       "wickets": 5,
       "economy": 7.2,
       "bowlingAverage": 21.6,
-      "globalPercentile": 81
+      "globalPercentile": 29
     },
     {
       "id": "rj-harris",
@@ -179,13 +179,13 @@
       "wickets": 6,
       "economy": 7.58,
       "bowlingAverage": 39.2,
-      "globalPercentile": 37
+      "globalPercentile": 34
     },
     {
       "id": "a-symonds",
       "name": "A Symonds",
-      "role": "SPIN_BOWLER",
-      "rating": 77,
+      "role": "MIDDLE_ORDER",
+      "rating": 82,
       "matches": 8,
       "runs": 249,
       "average": 35.6,
@@ -193,12 +193,12 @@
       "wickets": 7,
       "economy": 6.75,
       "bowlingAverage": 23.1,
-      "globalPercentile": 67
+      "globalPercentile": 79
     }
   ],
   "stats": {
     "min": 40,
     "max": 86,
-    "mean": 66.5
+    "mean": 65.1
   }
 }

@@ -34,7 +34,7 @@
       "runs": 383,
       "average": 23.9,
       "strikeRate": 122.8,
-      "globalPercentile": 25
+      "globalPercentile": 29
     },
     {
       "id": "km-jadhav",
@@ -45,7 +45,7 @@
       "runs": 162,
       "average": 18.0,
       "strikeRate": 97.6,
-      "globalPercentile": 12
+      "globalPercentile": 10
     },
     {
       "id": "ra-jadeja",
@@ -59,7 +59,7 @@
       "wickets": 15,
       "economy": 6.43,
       "bowlingAverage": 23.1,
-      "globalPercentile": 73
+      "globalPercentile": 69
     },
     {
       "id": "dl-chahar",
@@ -70,7 +70,7 @@
       "wickets": 22,
       "economy": 7.53,
       "bowlingAverage": 22.1,
-      "globalPercentile": 86
+      "globalPercentile": 82
     },
     {
       "id": "harbhajan-singh",
@@ -81,7 +81,7 @@
       "wickets": 16,
       "economy": 7.16,
       "bowlingAverage": 19.7,
-      "globalPercentile": 92
+      "globalPercentile": 89
     },
     {
       "id": "imran-tahir",
@@ -92,7 +92,7 @@
       "wickets": 26,
       "economy": 6.84,
       "bowlingAverage": 16.9,
-      "globalPercentile": 98
+      "globalPercentile": 96
     },
     {
       "id": "ms-dhoni",
@@ -103,7 +103,7 @@
       "runs": 416,
       "average": 104.0,
       "strikeRate": 136.4,
-      "globalPercentile": 86
+      "globalPercentile": 90
     },
     {
       "id": "dj-bravo",
@@ -117,7 +117,7 @@
       "wickets": 10,
       "economy": 8.2,
       "bowlingAverage": 33.6,
-      "globalPercentile": 48
+      "globalPercentile": 44
     },
     {
       "id": "sn-thakur",
@@ -128,7 +128,7 @@
       "wickets": 8,
       "economy": 9.5,
       "bowlingAverage": 35.6,
-      "globalPercentile": 33
+      "globalPercentile": 29
     },
     {
       "id": "f-du-plessis",

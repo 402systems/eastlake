@@ -25,7 +25,7 @@
       "strikeRate": 204.7,
       "wickets": 0,
       "economy": 10.5,
-      "globalPercentile": 89
+      "globalPercentile": 90
     },
     {
       "id": "ishan-kishan",
@@ -36,13 +36,13 @@
       "runs": 602,
       "average": 43.0,
       "strikeRate": 182.4,
-      "globalPercentile": 96
+      "globalPercentile": 97
     },
     {
       "id": "nithish-kumar-reddy",
       "name": "Nithish Kumar Reddy",
-      "role": "PACE_BOWLER",
-      "rating": 50,
+      "role": "ALL_ROUNDER",
+      "rating": 72,
       "matches": 14,
       "runs": 302,
       "average": 30.2,
@@ -50,7 +50,7 @@
       "wickets": 8,
       "economy": 10.52,
       "bowlingAverage": 40.8,
-      "globalPercentile": 8
+      "globalPercentile": 70
     },
     {
       "id": "h-klaasen",
@@ -61,7 +61,7 @@
       "runs": 624,
       "average": 48.0,
       "strikeRate": 160.0,
-      "globalPercentile": 96
+      "globalPercentile": 97
     },
     {
       "id": "s-arora",
@@ -72,7 +72,7 @@
       "runs": 121,
       "average": 20.2,
       "strikeRate": 157.1,
-      "globalPercentile": 50
+      "globalPercentile": 52
     },
     {
       "id": "aniket-verma",
@@ -97,7 +97,7 @@
       "wickets": 8,
       "economy": 10.45,
       "bowlingAverage": 28.8,
-      "globalPercentile": 27
+      "globalPercentile": 25
     },
     {
       "id": "hv-patel",
@@ -124,7 +124,7 @@
       "wickets": 20,
       "economy": 9.39,
       "bowlingAverage": 25.5,
-      "globalPercentile": 67
+      "globalPercentile": 63
     },
     {
       "id": "shivang-kumar",
@@ -138,7 +138,7 @@
       "wickets": 9,
       "economy": 9.64,
       "bowlingAverage": 41.8,
-      "globalPercentile": 18
+      "globalPercentile": 15
     },
     {
       "id": "pp-hinge",
@@ -149,7 +149,7 @@
       "wickets": 14,
       "economy": 11.81,
       "bowlingAverage": 21.9,
-      "globalPercentile": 78
+      "globalPercentile": 74
     },
     {
       "id": "sakib-hussain",
@@ -160,7 +160,7 @@
       "wickets": 15,
       "economy": 9.5,
       "bowlingAverage": 26.6,
-      "globalPercentile": 67
+      "globalPercentile": 63
     },
     {
       "id": "pj-cummins",
@@ -174,12 +174,12 @@
       "wickets": 8,
       "economy": 9.69,
       "bowlingAverage": 38.8,
-      "globalPercentile": 30
+      "globalPercentile": 26
     }
   ],
   "stats": {
     "min": 40,
     "max": 94,
-    "mean": 69.1
+    "mean": 70.7
   }
 }

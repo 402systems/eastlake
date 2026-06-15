@@ -23,13 +23,13 @@
       "runs": 404,
       "average": 28.9,
       "strikeRate": 146.4,
-      "globalPercentile": 62
+      "globalPercentile": 63
     },
     {
       "id": "n-rana",
       "name": "N Rana",
-      "role": "PACE_BOWLER",
-      "rating": 72,
+      "role": "MIDDLE_ORDER",
+      "rating": 75,
       "matches": 14,
       "runs": 413,
       "average": 31.8,
@@ -37,7 +37,7 @@
       "wickets": 3,
       "economy": 7.62,
       "bowlingAverage": 20.3,
-      "globalPercentile": 64
+      "globalPercentile": 63
     },
     {
       "id": "rk-singh",
@@ -48,13 +48,13 @@
       "runs": 474,
       "average": 59.2,
       "strikeRate": 151.4,
-      "globalPercentile": 93
+      "globalPercentile": 95
     },
     {
       "id": "ad-russell",
       "name": "AD Russell",
-      "role": "PACE_BOWLER",
-      "rating": 60,
+      "role": "ALL_ROUNDER",
+      "rating": 63,
       "matches": 14,
       "runs": 227,
       "average": 20.6,
@@ -62,7 +62,7 @@
       "wickets": 7,
       "economy": 11.41,
       "bowlingAverage": 24.7,
-      "globalPercentile": 30
+      "globalPercentile": 40
     },
     {
       "id": "sn-thakur",
@@ -76,7 +76,7 @@
       "wickets": 7,
       "economy": 10.31,
       "bowlingAverage": 29.7,
-      "globalPercentile": 33
+      "globalPercentile": 29
     },
     {
       "id": "sp-narine",
@@ -90,7 +90,7 @@
       "wickets": 11,
       "economy": 8.1,
       "bowlingAverage": 35.4,
-      "globalPercentile": 29
+      "globalPercentile": 28
     },
     {
       "id": "ut-yadav",
@@ -104,7 +104,7 @@
       "wickets": 1,
       "economy": 10.0,
       "bowlingAverage": 190.0,
-      "globalPercentile": 2
+      "globalPercentile": 1
     },
     {
       "id": "cv-varun",
@@ -115,7 +115,7 @@
       "wickets": 20,
       "economy": 8.45,
       "bowlingAverage": 22.2,
-      "globalPercentile": 76
+      "globalPercentile": 71
     },
     {
       "id": "suyash-sharma",
@@ -126,7 +126,7 @@
       "wickets": 10,
       "economy": 8.46,
       "bowlingAverage": 33.0,
-      "globalPercentile": 45
+      "globalPercentile": 41
     },
     {
       "id": "n-jagadeesan",
@@ -159,7 +159,7 @@
       "wickets": 5,
       "economy": 9.31,
       "bowlingAverage": 29.8,
-      "globalPercentile": 45
+      "globalPercentile": 41
     },
     {
       "id": "harshit-rana",
@@ -170,12 +170,12 @@
       "wickets": 5,
       "economy": 9.0,
       "bowlingAverage": 30.6,
-      "globalPercentile": 38
+      "globalPercentile": 35
     }
   ],
   "stats": {
     "min": 45,
     "max": 86,
-    "mean": 66.4
+    "mean": 66.8
   }
 }

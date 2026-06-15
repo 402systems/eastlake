@@ -6,8 +6,8 @@
     {
       "id": "yk-pathan",
       "name": "YK Pathan",
-      "role": "PACE_BOWLER",
-      "rating": 65,
+      "role": "MIDDLE_ORDER",
+      "rating": 86,
       "matches": 15,
       "runs": 435,
       "average": 36.2,
@@ -15,13 +15,13 @@
       "wickets": 8,
       "economy": 8.27,
       "bowlingAverage": 29.1,
-      "globalPercentile": 41
+      "globalPercentile": 87
     },
     {
       "id": "sr-watson",
       "name": "SR Watson",
-      "role": "PACE_BOWLER",
-      "rating": 79,
+      "role": "MIDDLE_ORDER",
+      "rating": 90,
       "matches": 15,
       "runs": 472,
       "average": 52.4,
@@ -29,7 +29,7 @@
       "wickets": 17,
       "economy": 7.29,
       "bowlingAverage": 23.2,
-      "globalPercentile": 83
+      "globalPercentile": 93
     },
     {
       "id": "m-kaif",
@@ -65,7 +65,7 @@
       "wickets": 1,
       "economy": 10.21,
       "bowlingAverage": 80.0,
-      "globalPercentile": 3
+      "globalPercentile": 2
     },
     {
       "id": "sk-warne",
@@ -79,7 +79,7 @@
       "wickets": 19,
       "economy": 7.87,
       "bowlingAverage": 21.5,
-      "globalPercentile": 76
+      "globalPercentile": 71
     },
     {
       "id": "sk-trivedi",
@@ -93,7 +93,7 @@
       "wickets": 13,
       "economy": 8.48,
       "bowlingAverage": 31.3,
-      "globalPercentile": 45
+      "globalPercentile": 41
     },
     {
       "id": "mm-patel",
@@ -104,7 +104,7 @@
       "wickets": 14,
       "economy": 7.69,
       "bowlingAverage": 30.2,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "kamran-akmal",
@@ -115,7 +115,7 @@
       "runs": 128,
       "average": 32.0,
       "strikeRate": 166.2,
-      "globalPercentile": 71
+      "globalPercentile": 72
     },
     {
       "id": "pankaj-singh",
@@ -125,7 +125,7 @@
       "matches": 5,
       "wickets": 0,
       "economy": 10.75,
-      "globalPercentile": 0
+      "globalPercentile": 1
     },
     {
       "id": "gc-smith",
@@ -136,13 +136,13 @@
       "runs": 441,
       "average": 49.0,
       "strikeRate": 122.2,
-      "globalPercentile": 80
+      "globalPercentile": 81
     },
     {
       "id": "sohail-tanvir",
       "name": "Sohail Tanvir",
-      "role": "PACE_BOWLER",
-      "rating": 96,
+      "role": "ALL_ROUNDER",
+      "rating": 65,
       "matches": 11,
       "runs": 36,
       "average": 12.0,
@@ -150,7 +150,7 @@
       "wickets": 22,
       "economy": 6.68,
       "bowlingAverage": 12.5,
-      "globalPercentile": 100
+      "globalPercentile": 48
     },
     {
       "id": "sa-asnodkar",
@@ -166,7 +166,7 @@
   ],
   "stats": {
     "min": 41,
-    "max": 96,
+    "max": 90,
     "mean": 68.5
   }
 }

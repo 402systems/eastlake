@@ -6,8 +6,8 @@
     {
       "id": "sc-ganguly",
       "name": "SC Ganguly",
-      "role": "PACE_BOWLER",
-      "rating": 78,
+      "role": "OPENER",
+      "rating": 63,
       "matches": 13,
       "runs": 349,
       "average": 29.1,
@@ -15,13 +15,13 @@
       "wickets": 6,
       "economy": 6.6,
       "bowlingAverage": 22.0,
-      "globalPercentile": 81
+      "globalPercentile": 28
     },
     {
       "id": "dj-hussey",
       "name": "DJ Hussey",
-      "role": "SPIN_BOWLER",
-      "rating": 48,
+      "role": "ALL_ROUNDER",
+      "rating": 60,
       "matches": 13,
       "runs": 319,
       "average": 29.0,
@@ -29,13 +29,13 @@
       "wickets": 2,
       "economy": 10.31,
       "bowlingAverage": 67.0,
-      "globalPercentile": 0
+      "globalPercentile": 32
     },
     {
       "id": "mohammad-hafeez",
       "name": "Mohammad Hafeez",
-      "role": "SPIN_BOWLER",
-      "rating": 63,
+      "role": "MIDDLE_ORDER",
+      "rating": 41,
       "matches": 8,
       "runs": 64,
       "average": 9.1,
@@ -43,7 +43,7 @@
       "wickets": 2,
       "economy": 7.1,
       "bowlingAverage": 35.5,
-      "globalPercentile": 27
+      "globalPercentile": 1
     },
     {
       "id": "ab-dinda",
@@ -54,7 +54,7 @@
       "wickets": 9,
       "economy": 6.82,
       "bowlingAverage": 29.6,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "i-sharma",
@@ -68,7 +68,7 @@
       "wickets": 7,
       "economy": 8.25,
       "bowlingAverage": 49.7,
-      "globalPercentile": 23
+      "globalPercentile": 19
     },
     {
       "id": "ab-agarkar",
@@ -82,13 +82,13 @@
       "wickets": 8,
       "economy": 8.12,
       "bowlingAverage": 26.4,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "lr-shukla",
       "name": "LR Shukla",
-      "role": "PACE_BOWLER",
-      "rating": 46,
+      "role": "ALL_ROUNDER",
+      "rating": 55,
       "matches": 12,
       "runs": 163,
       "average": 20.4,
@@ -96,7 +96,7 @@
       "wickets": 3,
       "economy": 10.75,
       "bowlingAverage": 40.0,
-      "globalPercentile": 3
+      "globalPercentile": 19
     },
     {
       "id": "wp-saha",
@@ -107,7 +107,7 @@
       "runs": 159,
       "average": 31.8,
       "strikeRate": 133.6,
-      "globalPercentile": 50
+      "globalPercentile": 52
     },
     {
       "id": "m-kartik",
@@ -121,7 +121,7 @@
       "wickets": 3,
       "economy": 9.0,
       "bowlingAverage": 44.0,
-      "globalPercentile": 8
+      "globalPercentile": 6
     },
     {
       "id": "db-das",
@@ -143,7 +143,7 @@
       "runs": 193,
       "average": 27.6,
       "strikeRate": 120.6,
-      "globalPercentile": 30
+      "globalPercentile": 31
     },
     {
       "id": "umar-gul",
@@ -157,7 +157,7 @@
       "wickets": 12,
       "economy": 8.8,
       "bowlingAverage": 16.5,
-      "globalPercentile": 94
+      "globalPercentile": 92
     },
     {
       "id": "a-chopra",
@@ -168,12 +168,12 @@
       "runs": 42,
       "average": 10.5,
       "strikeRate": 80.8,
-      "globalPercentile": 1
+      "globalPercentile": 2
     }
   ],
   "stats": {
-    "min": 42,
+    "min": 41,
     "max": 87,
-    "mean": 61.5
+    "mean": 60.3
   }
 }

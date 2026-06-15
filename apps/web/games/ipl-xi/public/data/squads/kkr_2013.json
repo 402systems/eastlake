@@ -11,7 +11,8 @@
       "matches": 14,
       "runs": 255,
       "average": 19.6,
-      "strikeRate": 108.5
+      "strikeRate": 108.5,
+      "globalPercentile": 10
     },
     {
       "id": "g-gambhir",
@@ -21,7 +22,8 @@
       "matches": 15,
       "runs": 406,
       "average": 27.1,
-      "strikeRate": 118.7
+      "strikeRate": 118.7,
+      "globalPercentile": 31
     },
     {
       "id": "jh-kallis",
@@ -34,7 +36,8 @@
       "strikeRate": 96.6,
       "wickets": 16,
       "economy": 7.68,
-      "bowlingAverage": 25.4
+      "bowlingAverage": 25.4,
+      "globalPercentile": 14
     },
     {
       "id": "mk-tiwary",
@@ -44,7 +47,8 @@
       "matches": 9,
       "runs": 146,
       "average": 18.2,
-      "strikeRate": 104.3
+      "strikeRate": 104.3,
+      "globalPercentile": 14
     },
     {
       "id": "ejg-morgan",
@@ -54,7 +58,8 @@
       "matches": 13,
       "runs": 307,
       "average": 30.7,
-      "strikeRate": 127.9
+      "strikeRate": 127.9,
+      "globalPercentile": 58
     },
     {
       "id": "yk-pathan",
@@ -67,7 +72,8 @@
       "strikeRate": 138.9,
       "wickets": 1,
       "economy": 7.71,
-      "bowlingAverage": 63.0
+      "bowlingAverage": 63.0,
+      "globalPercentile": 47
     },
     {
       "id": "l-balaji",
@@ -77,7 +83,8 @@
       "matches": 13,
       "wickets": 12,
       "economy": 7.98,
-      "bowlingAverage": 33.2
+      "bowlingAverage": 33.2,
+      "globalPercentile": 47
     },
     {
       "id": "sp-narine",
@@ -90,7 +97,8 @@
       "strikeRate": 110.5,
       "wickets": 22,
       "economy": 5.52,
-      "bowlingAverage": 16.0
+      "bowlingAverage": 16.0,
+      "globalPercentile": 98
     },
     {
       "id": "r-bhatia",
@@ -103,7 +111,8 @@
       "strikeRate": 123.8,
       "wickets": 11,
       "economy": 7.62,
-      "bowlingAverage": 30.4
+      "bowlingAverage": 30.4,
+      "globalPercentile": 47
     },
     {
       "id": "smsm-senanayake",
@@ -116,7 +125,8 @@
       "strikeRate": 62.5,
       "wickets": 9,
       "economy": 6.59,
-      "bowlingAverage": 23.4
+      "bowlingAverage": 23.4,
+      "globalPercentile": 74
     },
     {
       "id": "db-das",
@@ -126,7 +136,8 @@
       "matches": 6,
       "runs": 75,
       "average": 15.0,
-      "strikeRate": 101.4
+      "strikeRate": 101.4,
+      "globalPercentile": 7
     },
     {
       "id": "iqbal-abdulla",
@@ -136,7 +147,8 @@
       "matches": 5,
       "wickets": 7,
       "economy": 7.54,
-      "bowlingAverage": 20.3
+      "bowlingAverage": 20.3,
+      "globalPercentile": 85
     }
   ],
   "stats": {

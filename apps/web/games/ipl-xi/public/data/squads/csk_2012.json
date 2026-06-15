@@ -23,13 +23,13 @@
       "runs": 336,
       "average": 28.0,
       "strikeRate": 126.8,
-      "globalPercentile": 34
+      "globalPercentile": 35
     },
     {
       "id": "sk-raina",
       "name": "SK Raina",
-      "role": "PACE_BOWLER",
-      "rating": 56,
+      "role": "MIDDLE_ORDER",
+      "rating": 68,
       "matches": 18,
       "runs": 441,
       "average": 25.9,
@@ -37,13 +37,13 @@
       "wickets": 2,
       "economy": 7.57,
       "bowlingAverage": 53.0,
-      "globalPercentile": 20
+      "globalPercentile": 44
     },
     {
       "id": "dj-bravo",
       "name": "DJ Bravo",
-      "role": "PACE_BOWLER",
-      "rating": 67,
+      "role": "ALL_ROUNDER",
+      "rating": 74,
       "matches": 18,
       "runs": 371,
       "average": 46.4,
@@ -51,13 +51,13 @@
       "wickets": 15,
       "economy": 8.18,
       "bowlingAverage": 31.5,
-      "globalPercentile": 48
+      "globalPercentile": 76
     },
     {
       "id": "ja-morkel",
       "name": "JA Morkel",
-      "role": "PACE_BOWLER",
-      "rating": 69,
+      "role": "ALL_ROUNDER",
+      "rating": 65,
       "matches": 15,
       "runs": 107,
       "average": 15.3,
@@ -65,7 +65,7 @@
       "wickets": 13,
       "economy": 7.92,
       "bowlingAverage": 30.2,
-      "globalPercentile": 55
+      "globalPercentile": 48
     },
     {
       "id": "s-badrinath",
@@ -76,7 +76,7 @@
       "runs": 196,
       "average": 28.0,
       "strikeRate": 108.3,
-      "globalPercentile": 18
+      "globalPercentile": 21
     },
     {
       "id": "ms-dhoni",
@@ -87,7 +87,7 @@
       "runs": 358,
       "average": 32.5,
       "strikeRate": 130.2,
-      "globalPercentile": 55
+      "globalPercentile": 58
     },
     {
       "id": "ra-jadeja",
@@ -101,7 +101,7 @@
       "wickets": 12,
       "economy": 7.94,
       "bowlingAverage": 23.2,
-      "globalPercentile": 54
+      "globalPercentile": 51
     },
     {
       "id": "r-ashwin",
@@ -115,7 +115,7 @@
       "wickets": 14,
       "economy": 6.67,
       "bowlingAverage": 31.4,
-      "globalPercentile": 49
+      "globalPercentile": 47
     },
     {
       "id": "sb-jakati",
@@ -126,7 +126,7 @@
       "wickets": 9,
       "economy": 8.22,
       "bowlingAverage": 37.4,
-      "globalPercentile": 20
+      "globalPercentile": 18
     },
     {
       "id": "de-bollinger",
@@ -137,7 +137,7 @@
       "wickets": 8,
       "economy": 8.89,
       "bowlingAverage": 20.0,
-      "globalPercentile": 81
+      "globalPercentile": 77
     },
     {
       "id": "mek-hussey",
@@ -159,12 +159,12 @@
       "wickets": 14,
       "economy": 7.12,
       "bowlingAverage": 17.3,
-      "globalPercentile": 96
+      "globalPercentile": 95
     }
   ],
   "stats": {
-    "min": 56,
+    "min": 59,
     "max": 89,
-    "mean": 69.1
+    "mean": 70.2
   }
 }

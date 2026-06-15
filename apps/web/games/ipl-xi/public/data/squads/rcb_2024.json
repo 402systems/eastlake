@@ -34,13 +34,13 @@
       "runs": 395,
       "average": 30.4,
       "strikeRate": 177.1,
-      "globalPercentile": 81
+      "globalPercentile": 84
     },
     {
       "id": "gj-maxwell",
       "name": "GJ Maxwell",
-      "role": "PACE_BOWLER",
-      "rating": 75,
+      "role": "ALL_ROUNDER",
+      "rating": 55,
       "matches": 9,
       "runs": 52,
       "average": 5.8,
@@ -48,13 +48,13 @@
       "wickets": 6,
       "economy": 8.06,
       "bowlingAverage": 21.5,
-      "globalPercentile": 72
+      "globalPercentile": 19
     },
     {
       "id": "c-green",
       "name": "C Green",
-      "role": "PACE_BOWLER",
-      "rating": 65,
+      "role": "MIDDLE_ORDER",
+      "rating": 72,
       "matches": 13,
       "runs": 255,
       "average": 31.9,
@@ -62,7 +62,7 @@
       "wickets": 10,
       "economy": 8.67,
       "bowlingAverage": 30.5,
-      "globalPercentile": 41
+      "globalPercentile": 54
     },
     {
       "id": "anuj-rawat",
@@ -73,7 +73,7 @@
       "runs": 98,
       "average": 32.7,
       "strikeRate": 127.3,
-      "globalPercentile": 50
+      "globalPercentile": 52
     },
     {
       "id": "mohammed-siraj",
@@ -84,7 +84,7 @@
       "wickets": 15,
       "economy": 9.39,
       "bowlingAverage": 33.8,
-      "globalPercentile": 41
+      "globalPercentile": 38
     },
     {
       "id": "yash-dayal",
@@ -95,7 +95,7 @@
       "wickets": 15,
       "economy": 9.41,
       "bowlingAverage": 31.5,
-      "globalPercentile": 45
+      "globalPercentile": 41
     },
     {
       "id": "kv-sharma",
@@ -109,7 +109,7 @@
       "wickets": 7,
       "economy": 10.67,
       "bowlingAverage": 36.6,
-      "globalPercentile": 4
+      "globalPercentile": 3
     },
     {
       "id": "mayank-dagar",
@@ -120,13 +120,13 @@
       "wickets": 1,
       "economy": 10.31,
       "bowlingAverage": 122.0,
-      "globalPercentile": 2
+      "globalPercentile": 1
     },
     {
       "id": "wg-jacks",
       "name": "WG Jacks",
-      "role": "PACE_BOWLER",
-      "rating": 46,
+      "role": "MIDDLE_ORDER",
+      "rating": 87,
       "matches": 8,
       "runs": 230,
       "average": 38.3,
@@ -134,7 +134,7 @@
       "wickets": 2,
       "economy": 11.11,
       "bowlingAverage": 50.0,
-      "globalPercentile": 3
+      "globalPercentile": 89
     },
     {
       "id": "lh-ferguson",
@@ -145,7 +145,7 @@
       "wickets": 9,
       "economy": 10.83,
       "bowlingAverage": 28.9,
-      "globalPercentile": 45
+      "globalPercentile": 41
     },
     {
       "id": "swapnil-singh",
@@ -159,12 +159,12 @@
       "wickets": 6,
       "economy": 8.87,
       "bowlingAverage": 22.2,
-      "globalPercentile": 58
+      "globalPercentile": 54
     }
   ],
   "stats": {
     "min": 45,
     "max": 93,
-    "mean": 67.1
+    "mean": 69.2
   }
 }

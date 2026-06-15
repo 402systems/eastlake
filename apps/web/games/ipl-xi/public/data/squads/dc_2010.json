@@ -12,7 +12,7 @@
       "runs": 277,
       "average": 34.6,
       "strikeRate": 127.6,
-      "globalPercentile": 49
+      "globalPercentile": 51
     },
     {
       "id": "v-sehwag",
@@ -31,8 +31,8 @@
     {
       "id": "tm-dilshan",
       "name": "TM Dilshan",
-      "role": "PACE_BOWLER",
-      "rating": 69,
+      "role": "MIDDLE_ORDER",
+      "rating": 41,
       "matches": 6,
       "runs": 44,
       "average": 7.3,
@@ -40,7 +40,7 @@
       "wickets": 3,
       "economy": 8.57,
       "bowlingAverage": 23.3,
-      "globalPercentile": 55
+      "globalPercentile": 1
     },
     {
       "id": "ab-de-villiers",
@@ -51,7 +51,7 @@
       "runs": 111,
       "average": 22.2,
       "strikeRate": 93.3,
-      "globalPercentile": 9
+      "globalPercentile": 10
     },
     {
       "id": "kd-karthik",
@@ -62,7 +62,7 @@
       "runs": 278,
       "average": 23.2,
       "strikeRate": 117.8,
-      "globalPercentile": 28
+      "globalPercentile": 27
     },
     {
       "id": "m-manhas",
@@ -73,7 +73,7 @@
       "runs": 157,
       "average": 39.2,
       "strikeRate": 105.4,
-      "globalPercentile": 46
+      "globalPercentile": 48
     },
     {
       "id": "mf-maharoof",
@@ -87,7 +87,7 @@
       "wickets": 8,
       "economy": 8.75,
       "bowlingAverage": 26.2,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "dp-nannes",
@@ -98,7 +98,7 @@
       "wickets": 7,
       "economy": 6.84,
       "bowlingAverage": 33.6,
-      "globalPercentile": 55
+      "globalPercentile": 51
     },
     {
       "id": "pj-sangwan",
@@ -109,7 +109,7 @@
       "wickets": 9,
       "economy": 8.39,
       "bowlingAverage": 28.9,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "a-mishra",
@@ -123,7 +123,7 @@
       "wickets": 17,
       "economy": 7.0,
       "bowlingAverage": 21.8,
-      "globalPercentile": 82
+      "globalPercentile": 78
     },
     {
       "id": "s-ladda",
@@ -134,7 +134,7 @@
       "wickets": 4,
       "economy": 9.6,
       "bowlingAverage": 36.0,
-      "globalPercentile": 16
+      "globalPercentile": 14
     },
     {
       "id": "da-warner",
@@ -159,7 +159,7 @@
       "wickets": 3,
       "economy": 8.5,
       "bowlingAverage": 45.3,
-      "globalPercentile": 23
+      "globalPercentile": 19
     },
     {
       "id": "ut-yadav",
@@ -170,7 +170,7 @@
       "wickets": 6,
       "economy": 8.0,
       "bowlingAverage": 32.0,
-      "globalPercentile": 51
+      "globalPercentile": 47
     },
     {
       "id": "km-jadhav",
@@ -186,8 +186,8 @@
     {
       "id": "pd-collingwood",
       "name": "PD Collingwood",
-      "role": "PACE_BOWLER",
-      "rating": 76,
+      "role": "ALL_ROUNDER",
+      "rating": 77,
       "matches": 7,
       "runs": 203,
       "average": 50.8,
@@ -195,12 +195,12 @@
       "wickets": 4,
       "economy": 6.71,
       "bowlingAverage": 23.5,
-      "globalPercentile": 75
+      "globalPercentile": 82
     }
   ],
   "stats": {
-    "min": 52,
+    "min": 41,
     "max": 82,
-    "mean": 67.3
+    "mean": 65.6
   }
 }

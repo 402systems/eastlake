@@ -6,8 +6,8 @@
     {
       "id": "dr-smith",
       "name": "DR Smith",
-      "role": "PACE_BOWLER",
-      "rating": 64,
+      "role": "OPENER",
+      "rating": 76,
       "matches": 16,
       "runs": 566,
       "average": 35.4,
@@ -15,7 +15,7 @@
       "wickets": 4,
       "economy": 9.9,
       "bowlingAverage": 24.8,
-      "globalPercentile": 38
+      "globalPercentile": 68
     },
     {
       "id": "bb-mccullum",
@@ -31,8 +31,8 @@
     {
       "id": "sk-raina",
       "name": "SK Raina",
-      "role": "PACE_BOWLER",
-      "rating": 54,
+      "role": "MIDDLE_ORDER",
+      "rating": 84,
       "matches": 16,
       "runs": 523,
       "average": 43.6,
@@ -40,7 +40,7 @@
       "wickets": 1,
       "economy": 7.5,
       "bowlingAverage": 135.0,
-      "globalPercentile": 16
+      "globalPercentile": 84
     },
     {
       "id": "ms-dhoni",
@@ -51,7 +51,7 @@
       "runs": 371,
       "average": 74.2,
       "strikeRate": 150.2,
-      "globalPercentile": 87
+      "globalPercentile": 91
     },
     {
       "id": "mm-sharma",
@@ -62,7 +62,7 @@
       "wickets": 23,
       "economy": 8.49,
       "bowlingAverage": 19.9,
-      "globalPercentile": 86
+      "globalPercentile": 82
     },
     {
       "id": "r-ashwin",
@@ -76,7 +76,7 @@
       "wickets": 16,
       "economy": 7.45,
       "bowlingAverage": 27.9,
-      "globalPercentile": 57
+      "globalPercentile": 54
     },
     {
       "id": "ra-jadeja",
@@ -90,7 +90,7 @@
       "wickets": 19,
       "economy": 8.21,
       "bowlingAverage": 23.5,
-      "globalPercentile": 67
+      "globalPercentile": 63
     },
     {
       "id": "f-du-plessis",
@@ -101,7 +101,7 @@
       "runs": 303,
       "average": 33.7,
       "strikeRate": 128.9,
-      "globalPercentile": 46
+      "globalPercentile": 49
     },
     {
       "id": "ic-pandey",
@@ -112,7 +112,7 @@
       "wickets": 6,
       "economy": 7.88,
       "bowlingAverage": 55.2,
-      "globalPercentile": 25
+      "globalPercentile": 21
     },
     {
       "id": "bw-hilfenhaus",
@@ -123,12 +123,12 @@
       "wickets": 8,
       "economy": 9.11,
       "bowlingAverage": 31.9,
-      "globalPercentile": 45
+      "globalPercentile": 41
     }
   ],
   "stats": {
-    "min": 54,
-    "max": 82,
-    "mean": 69.5
+    "min": 58,
+    "max": 84,
+    "mean": 73.7
   }
 }

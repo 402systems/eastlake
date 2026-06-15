@@ -14,7 +14,8 @@
       "strikeRate": 129.9,
       "wickets": 3,
       "economy": 10.0,
-      "bowlingAverage": 20.0
+      "bowlingAverage": 20.0,
+      "globalPercentile": 81
     },
     {
       "id": "pa-patel",
@@ -24,7 +25,8 @@
       "matches": 12,
       "runs": 194,
       "average": 17.6,
-      "strikeRate": 118.3
+      "strikeRate": 118.3,
+      "globalPercentile": 14
     },
     {
       "id": "cl-white",
@@ -34,20 +36,22 @@
       "matches": 13,
       "runs": 479,
       "average": 43.5,
-      "strikeRate": 150.2
+      "strikeRate": 150.2,
+      "globalPercentile": 90
     },
     {
       "id": "dt-christian",
       "name": "DT Christian",
-      "role": "PACE_BOWLER",
-      "rating": 70,
+      "role": "ALL_ROUNDER",
+      "rating": 66,
       "matches": 7,
       "runs": 145,
       "average": 29.0,
       "strikeRate": 122.9,
       "wickets": 8,
       "economy": 8.89,
-      "bowlingAverage": 30.0
+      "bowlingAverage": 30.0,
+      "globalPercentile": 52
     },
     {
       "id": "ms-gony",
@@ -57,7 +61,8 @@
       "matches": 6,
       "wickets": 3,
       "economy": 9.04,
-      "bowlingAverage": 72.3
+      "bowlingAverage": 72.3,
+      "globalPercentile": 13
     },
     {
       "id": "dw-steyn",
@@ -70,7 +75,8 @@
       "strikeRate": 90.5,
       "wickets": 18,
       "economy": 6.21,
-      "bowlingAverage": 16.1
+      "bowlingAverage": 16.1,
+      "globalPercentile": 99
     },
     {
       "id": "ankit-sharma",
@@ -83,7 +89,8 @@
       "strikeRate": 138.5,
       "wickets": 4,
       "economy": 6.91,
-      "bowlingAverage": 41.8
+      "bowlingAverage": 41.8,
+      "globalPercentile": 29
     },
     {
       "id": "kc-sangakkara",
@@ -93,7 +100,8 @@
       "matches": 12,
       "runs": 200,
       "average": 18.2,
-      "strikeRate": 109.3
+      "strikeRate": 109.3,
+      "globalPercentile": 8
     },
     {
       "id": "a-mishra",
@@ -106,7 +114,8 @@
       "strikeRate": 80.0,
       "wickets": 13,
       "economy": 8.11,
-      "bowlingAverage": 29.3
+      "bowlingAverage": 29.3,
+      "globalPercentile": 44
     },
     {
       "id": "jp-duminy",
@@ -119,7 +128,8 @@
       "strikeRate": 128.4,
       "wickets": 1,
       "economy": 8.58,
-      "bowlingAverage": 103.0
+      "bowlingAverage": 103.0,
+      "globalPercentile": 58
     },
     {
       "id": "v-pratap-singh",
@@ -129,7 +139,8 @@
       "matches": 9,
       "wickets": 10,
       "economy": 8.82,
-      "bowlingAverage": 30.0
+      "bowlingAverage": 30.0,
+      "globalPercentile": 51
     },
     {
       "id": "a-ashish-reddy",
@@ -142,12 +153,13 @@
       "strikeRate": 120.7,
       "wickets": 11,
       "economy": 8.76,
-      "bowlingAverage": 21.6
+      "bowlingAverage": 21.6,
+      "globalPercentile": 72
     }
   ],
   "stats": {
     "min": 51,
     "max": 92,
-    "mean": 69.6
+    "mean": 69.2
   }
 }

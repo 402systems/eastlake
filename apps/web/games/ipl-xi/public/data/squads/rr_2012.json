@@ -12,7 +12,7 @@
       "runs": 462,
       "average": 30.8,
       "strikeRate": 112.1,
-      "globalPercentile": 34
+      "globalPercentile": 35
     },
     {
       "id": "am-rahane",
@@ -34,7 +34,7 @@
       "runs": 220,
       "average": 20.0,
       "strikeRate": 110.0,
-      "globalPercentile": 21
+      "globalPercentile": 19
     },
     {
       "id": "bj-hodge",
@@ -45,7 +45,7 @@
       "runs": 245,
       "average": 30.6,
       "strikeRate": 141.6,
-      "globalPercentile": 61
+      "globalPercentile": 66
     },
     {
       "id": "oa-shah",
@@ -56,7 +56,7 @@
       "runs": 340,
       "average": 48.6,
       "strikeRate": 133.3,
-      "globalPercentile": 73
+      "globalPercentile": 75
     },
     {
       "id": "kk-cooper",
@@ -70,7 +70,7 @@
       "wickets": 10,
       "economy": 7.79,
       "bowlingAverage": 18.7,
-      "globalPercentile": 95
+      "globalPercentile": 94
     },
     {
       "id": "sk-trivedi",
@@ -81,13 +81,13 @@
       "wickets": 13,
       "economy": 7.44,
       "bowlingAverage": 29.8,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "j-botha",
       "name": "J Botha",
-      "role": "PACE_BOWLER",
-      "rating": 68,
+      "role": "ALL_ROUNDER",
+      "rating": 54,
       "matches": 11,
       "runs": 58,
       "average": 14.5,
@@ -95,7 +95,7 @@
       "wickets": 9,
       "economy": 7.41,
       "bowlingAverage": 33.8,
-      "globalPercentile": 51
+      "globalPercentile": 17
     },
     {
       "id": "a-singh",
@@ -106,7 +106,7 @@
       "wickets": 10,
       "economy": 9.65,
       "bowlingAverage": 31.7,
-      "globalPercentile": 45
+      "globalPercentile": 41
     },
     {
       "id": "aa-chavan",
@@ -117,7 +117,7 @@
       "wickets": 7,
       "economy": 8.96,
       "bowlingAverage": 35.0,
-      "globalPercentile": 37
+      "globalPercentile": 34
     },
     {
       "id": "sp-goswami",
@@ -128,7 +128,7 @@
       "runs": 69,
       "average": 13.8,
       "strikeRate": 103.0,
-      "globalPercentile": 7
+      "globalPercentile": 6
     },
     {
       "id": "gb-hogg",
@@ -139,7 +139,7 @@
       "wickets": 10,
       "economy": 7.28,
       "bowlingAverage": 26.2,
-      "globalPercentile": 67
+      "globalPercentile": 63
     },
     {
       "id": "pankaj-singh",
@@ -150,13 +150,13 @@
       "wickets": 7,
       "economy": 8.14,
       "bowlingAverage": 24.4,
-      "globalPercentile": 75
+      "globalPercentile": 72
     },
     {
       "id": "str-binny",
       "name": "STR Binny",
-      "role": "PACE_BOWLER",
-      "rating": 67,
+      "role": "ALL_ROUNDER",
+      "rating": 63,
       "matches": 6,
       "runs": 90,
       "average": 22.5,
@@ -164,13 +164,13 @@
       "wickets": 3,
       "economy": 7.8,
       "bowlingAverage": 26.0,
-      "globalPercentile": 48
+      "globalPercentile": 40
     },
     {
       "id": "sr-watson",
       "name": "SR Watson",
-      "role": "PACE_BOWLER",
-      "rating": 73,
+      "role": "MIDDLE_ORDER",
+      "rating": 87,
       "matches": 7,
       "runs": 255,
       "average": 42.5,
@@ -178,7 +178,7 @@
       "wickets": 6,
       "economy": 7.17,
       "bowlingAverage": 27.5,
-      "globalPercentile": 67
+      "globalPercentile": 89
     },
     {
       "id": "sw-tait",
@@ -189,12 +189,12 @@
       "wickets": 6,
       "economy": 6.74,
       "bowlingAverage": 25.7,
-      "globalPercentile": 81
+      "globalPercentile": 77
     }
   ],
   "stats": {
     "min": 48,
     "max": 88,
-    "mean": 70.3
+    "mean": 70.1
   }
 }

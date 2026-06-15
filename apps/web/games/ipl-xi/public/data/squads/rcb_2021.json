@@ -6,8 +6,8 @@
     {
       "id": "washington-sundar",
       "name": "Washington Sundar",
-      "role": "SPIN_BOWLER",
-      "rating": 60,
+      "role": "MIDDLE_ORDER",
+      "rating": 41,
       "matches": 6,
       "runs": 31,
       "average": 7.8,
@@ -15,7 +15,7 @@
       "wickets": 3,
       "economy": 7.44,
       "bowlingAverage": 39.7,
-      "globalPercentile": 20
+      "globalPercentile": 1
     },
     {
       "id": "v-kohli",
@@ -26,13 +26,13 @@
       "runs": 405,
       "average": 28.9,
       "strikeRate": 120.2,
-      "globalPercentile": 34
+      "globalPercentile": 35
     },
     {
       "id": "gj-maxwell",
       "name": "GJ Maxwell",
-      "role": "PACE_BOWLER",
-      "rating": 56,
+      "role": "MIDDLE_ORDER",
+      "rating": 88,
       "matches": 14,
       "runs": 513,
       "average": 46.6,
@@ -40,7 +40,7 @@
       "wickets": 3,
       "economy": 8.44,
       "bowlingAverage": 45.0,
-      "globalPercentile": 20
+      "globalPercentile": 90
     },
     {
       "id": "ab-de-villiers",
@@ -51,13 +51,13 @@
       "runs": 313,
       "average": 31.3,
       "strikeRate": 148.3,
-      "globalPercentile": 71
+      "globalPercentile": 76
     },
     {
       "id": "shahbaz-ahmed",
       "name": "Shahbaz Ahmed",
-      "role": "PACE_BOWLER",
-      "rating": 87,
+      "role": "ALL_ROUNDER",
+      "rating": 60,
       "matches": 7,
       "runs": 59,
       "average": 8.4,
@@ -65,13 +65,13 @@
       "wickets": 7,
       "economy": 6.57,
       "bowlingAverage": 13.1,
-      "globalPercentile": 94
+      "globalPercentile": 32
     },
     {
       "id": "dt-christian",
       "name": "DT Christian",
-      "role": "PACE_BOWLER",
-      "rating": 53,
+      "role": "ALL_ROUNDER",
+      "rating": 45,
       "matches": 9,
       "runs": 14,
       "average": 3.5,
@@ -79,7 +79,7 @@
       "wickets": 4,
       "economy": 9.36,
       "bowlingAverage": 39.0,
-      "globalPercentile": 13
+      "globalPercentile": 2
     },
     {
       "id": "ka-jamieson",
@@ -93,7 +93,7 @@
       "wickets": 9,
       "economy": 9.68,
       "bowlingAverage": 30.1,
-      "globalPercentile": 41
+      "globalPercentile": 38
     },
     {
       "id": "hv-patel",
@@ -121,7 +121,7 @@
       "wickets": 11,
       "economy": 7.04,
       "bowlingAverage": 33.3,
-      "globalPercentile": 51
+      "globalPercentile": 47
     },
     {
       "id": "ys-chahal",
@@ -132,7 +132,7 @@
       "wickets": 18,
       "economy": 7.19,
       "bowlingAverage": 21.2,
-      "globalPercentile": 82
+      "globalPercentile": 78
     },
     {
       "id": "d-padikkal",
@@ -165,12 +165,12 @@
       "wickets": 3,
       "economy": 9.07,
       "bowlingAverage": 45.3,
-      "globalPercentile": 18
+      "globalPercentile": 15
     }
   ],
   "stats": {
-    "min": 53,
+    "min": 41,
     "max": 90,
-    "mean": 69.1
+    "mean": 67.4
   }
 }

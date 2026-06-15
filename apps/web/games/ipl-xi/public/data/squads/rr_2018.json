@@ -12,7 +12,7 @@
       "runs": 370,
       "average": 28.5,
       "strikeRate": 118.2,
-      "globalPercentile": 30
+      "globalPercentile": 31
     },
     {
       "id": "djm-short",
@@ -39,8 +39,8 @@
     {
       "id": "ba-stokes",
       "name": "BA Stokes",
-      "role": "PACE_BOWLER",
-      "rating": 60,
+      "role": "MIDDLE_ORDER",
+      "rating": 55,
       "matches": 12,
       "runs": 196,
       "average": 16.3,
@@ -48,7 +48,7 @@
       "wickets": 8,
       "economy": 8.3,
       "bowlingAverage": 38.4,
-      "globalPercentile": 30
+      "globalPercentile": 15
     },
     {
       "id": "ra-tripathi",
@@ -59,7 +59,7 @@
       "runs": 226,
       "average": 25.1,
       "strikeRate": 136.1,
-      "globalPercentile": 35
+      "globalPercentile": 37
     },
     {
       "id": "jc-buttler",
@@ -70,7 +70,7 @@
       "runs": 548,
       "average": 54.8,
       "strikeRate": 155.7,
-      "globalPercentile": 94
+      "globalPercentile": 96
     },
     {
       "id": "k-gowtham",
@@ -84,7 +84,7 @@
       "wickets": 11,
       "economy": 8.03,
       "bowlingAverage": 29.2,
-      "globalPercentile": 38
+      "globalPercentile": 36
     },
     {
       "id": "s-gopal",
@@ -98,7 +98,7 @@
       "wickets": 11,
       "economy": 7.71,
       "bowlingAverage": 21.7,
-      "globalPercentile": 70
+      "globalPercentile": 66
     },
     {
       "id": "ds-kulkarni",
@@ -109,7 +109,7 @@
       "wickets": 4,
       "economy": 9.53,
       "bowlingAverage": 47.2,
-      "globalPercentile": 11
+      "globalPercentile": 9
     },
     {
       "id": "jd-unadkat",
@@ -123,7 +123,7 @@
       "wickets": 11,
       "economy": 9.66,
       "bowlingAverage": 44.2,
-      "globalPercentile": 18
+      "globalPercentile": 15
     },
     {
       "id": "b-laughlin",
@@ -134,7 +134,7 @@
       "wickets": 9,
       "economy": 10.1,
       "bowlingAverage": 23.6,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "str-binny",
@@ -145,7 +145,7 @@
       "runs": 44,
       "average": 11.0,
       "strikeRate": 112.8,
-      "globalPercentile": 3
+      "globalPercentile": 2
     },
     {
       "id": "jc-archer",
@@ -159,7 +159,7 @@
       "wickets": 15,
       "economy": 8.47,
       "bowlingAverage": 21.9,
-      "globalPercentile": 86
+      "globalPercentile": 82
     },
     {
       "id": "is-sodhi",
@@ -170,12 +170,12 @@
       "wickets": 5,
       "economy": 5.96,
       "bowlingAverage": 27.4,
-      "globalPercentile": 78
+      "globalPercentile": 74
     }
   ],
   "stats": {
     "min": 45,
     "max": 93,
-    "mean": 66.7
+    "mean": 66.4
   }
 }

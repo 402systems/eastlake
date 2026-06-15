@@ -23,7 +23,7 @@
       "runs": 73,
       "average": 24.3,
       "strikeRate": 130.4,
-      "globalPercentile": 21
+      "globalPercentile": 24
     },
     {
       "id": "q-de-kock",
@@ -59,7 +59,7 @@
       "wickets": 1,
       "economy": 10.75,
       "bowlingAverage": 43.0,
-      "globalPercentile": 66
+      "globalPercentile": 68
     },
     {
       "id": "a-badoni",
@@ -70,7 +70,7 @@
       "runs": 161,
       "average": 20.1,
       "strikeRate": 123.8,
-      "globalPercentile": 23
+      "globalPercentile": 22
     },
     {
       "id": "kh-pandya",
@@ -84,7 +84,7 @@
       "wickets": 10,
       "economy": 7.08,
       "bowlingAverage": 26.9,
-      "globalPercentile": 54
+      "globalPercentile": 51
     },
     {
       "id": "pvd-chameera",
@@ -98,7 +98,7 @@
       "wickets": 9,
       "economy": 8.93,
       "bowlingAverage": 43.7,
-      "globalPercentile": 25
+      "globalPercentile": 21
     },
     {
       "id": "avesh-khan",
@@ -112,7 +112,7 @@
       "wickets": 18,
       "economy": 8.87,
       "bowlingAverage": 23.5,
-      "globalPercentile": 78
+      "globalPercentile": 74
     },
     {
       "id": "mohsin-khan",
@@ -137,7 +137,7 @@
       "wickets": 13,
       "economy": 8.56,
       "bowlingAverage": 35.5,
-      "globalPercentile": 33
+      "globalPercentile": 31
     },
     {
       "id": "jo-holder",
@@ -151,7 +151,7 @@
       "wickets": 14,
       "economy": 9.61,
       "bowlingAverage": 28.5,
-      "globalPercentile": 51
+      "globalPercentile": 47
     },
     {
       "id": "mp-stoinis",
@@ -165,7 +165,7 @@
       "wickets": 4,
       "economy": 11.29,
       "bowlingAverage": 19.8,
-      "globalPercentile": 46
+      "globalPercentile": 48
     }
   ],
   "stats": {

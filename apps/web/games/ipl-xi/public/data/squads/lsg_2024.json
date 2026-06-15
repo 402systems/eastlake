@@ -45,7 +45,7 @@
       "runs": 235,
       "average": 29.4,
       "strikeRate": 137.4,
-      "globalPercentile": 55
+      "globalPercentile": 58
     },
     {
       "id": "dj-hooda",
@@ -56,7 +56,7 @@
       "runs": 145,
       "average": 18.1,
       "strikeRate": 138.1,
-      "globalPercentile": 21
+      "globalPercentile": 24
     },
     {
       "id": "n-pooran",
@@ -72,8 +72,8 @@
     {
       "id": "mp-stoinis",
       "name": "MP Stoinis",
-      "role": "PACE_BOWLER",
-      "rating": 60,
+      "role": "MIDDLE_ORDER",
+      "rating": 77,
       "matches": 14,
       "runs": 388,
       "average": 32.3,
@@ -81,7 +81,7 @@
       "wickets": 4,
       "economy": 9.07,
       "bowlingAverage": 31.8,
-      "globalPercentile": 30
+      "globalPercentile": 68
     },
     {
       "id": "kh-pandya",
@@ -95,7 +95,7 @@
       "wickets": 6,
       "economy": 7.82,
       "bowlingAverage": 43.0,
-      "globalPercentile": 13
+      "globalPercentile": 11
     },
     {
       "id": "mohsin-khan",
@@ -106,7 +106,7 @@
       "wickets": 10,
       "economy": 10.13,
       "bowlingAverage": 38.5,
-      "globalPercentile": 25
+      "globalPercentile": 21
     },
     {
       "id": "naveen-ul-haq",
@@ -117,7 +117,7 @@
       "wickets": 14,
       "economy": 10.27,
       "bowlingAverage": 26.8,
-      "globalPercentile": 58
+      "globalPercentile": 54
     },
     {
       "id": "ravi-bishnoi",
@@ -131,7 +131,7 @@
       "wickets": 10,
       "economy": 8.79,
       "bowlingAverage": 38.4,
-      "globalPercentile": 16
+      "globalPercentile": 14
     },
     {
       "id": "yash-thakur",
@@ -142,12 +142,12 @@
       "wickets": 11,
       "economy": 11.41,
       "bowlingAverage": 36.8,
-      "globalPercentile": 25
+      "globalPercentile": 21
     }
   ],
   "stats": {
     "min": 40,
     "max": 96,
-    "mean": 64.0
+    "mean": 65.4
   }
 }

@@ -23,7 +23,7 @@
       "runs": 358,
       "average": 27.5,
       "strikeRate": 123.0,
-      "globalPercentile": 39
+      "globalPercentile": 40
     },
     {
       "id": "b-chipli",
@@ -39,8 +39,8 @@
     {
       "id": "jp-duminy",
       "name": "JP Duminy",
-      "role": "PACE_BOWLER",
-      "rating": 58,
+      "role": "MIDDLE_ORDER",
+      "rating": 57,
       "matches": 10,
       "runs": 205,
       "average": 20.5,
@@ -48,13 +48,13 @@
       "wickets": 4,
       "economy": 8.28,
       "bowlingAverage": 37.2,
-      "globalPercentile": 25
+      "globalPercentile": 17
     },
     {
       "id": "dt-christian",
       "name": "DT Christian",
-      "role": "PACE_BOWLER",
-      "rating": 67,
+      "role": "ALL_ROUNDER",
+      "rating": 59,
       "matches": 14,
       "runs": 190,
       "average": 19.0,
@@ -62,7 +62,7 @@
       "wickets": 11,
       "economy": 7.82,
       "bowlingAverage": 32.5,
-      "globalPercentile": 48
+      "globalPercentile": 30
     },
     {
       "id": "db-ravi-teja",
@@ -73,7 +73,7 @@
       "runs": 183,
       "average": 26.1,
       "strikeRate": 128.0,
-      "globalPercentile": 42
+      "globalPercentile": 43
     },
     {
       "id": "dw-steyn",
@@ -87,7 +87,7 @@
       "wickets": 14,
       "economy": 6.68,
       "bowlingAverage": 21.7,
-      "globalPercentile": 89
+      "globalPercentile": 86
     },
     {
       "id": "a-mishra",
@@ -101,7 +101,7 @@
       "wickets": 19,
       "economy": 6.92,
       "bowlingAverage": 19.4,
-      "globalPercentile": 92
+      "globalPercentile": 89
     },
     {
       "id": "i-sharma",
@@ -115,7 +115,7 @@
       "wickets": 11,
       "economy": 7.36,
       "bowlingAverage": 29.5,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "pp-ojha",
@@ -126,7 +126,7 @@
       "wickets": 10,
       "economy": 7.63,
       "bowlingAverage": 28.1,
-      "globalPercentile": 54
+      "globalPercentile": 51
     },
     {
       "id": "s-sohal",
@@ -148,12 +148,12 @@
       "runs": 104,
       "average": 26.0,
       "strikeRate": 95.4,
-      "globalPercentile": 13
+      "globalPercentile": 14
     }
   ],
   "stats": {
     "min": 54,
     "max": 86,
-    "mean": 68.3
+    "mean": 67.6
   }
 }

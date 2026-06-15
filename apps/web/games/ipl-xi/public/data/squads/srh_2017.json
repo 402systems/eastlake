@@ -11,7 +11,8 @@
       "matches": 14,
       "runs": 4657,
       "average": 52.3,
-      "strikeRate": 143.1
+      "strikeRate": 143.1,
+      "globalPercentile": 92
     },
     {
       "id": "s-dhawan",
@@ -21,7 +22,8 @@
       "matches": 14,
       "runs": 2997,
       "average": 35.7,
-      "strikeRate": 125.2
+      "strikeRate": 125.2,
+      "globalPercentile": 68
     },
     {
       "id": "mc-henriques",
@@ -34,7 +36,8 @@
       "strikeRate": 131.1,
       "wickets": 29,
       "economy": 8.7,
-      "bowlingAverage": 40.5
+      "bowlingAverage": 40.5,
+      "globalPercentile": 66
     },
     {
       "id": "yuvraj-singh",
@@ -47,20 +50,22 @@
       "strikeRate": 139.4,
       "wickets": 2,
       "economy": 9.64,
-      "bowlingAverage": 49.0
+      "bowlingAverage": 49.0,
+      "globalPercentile": 66
     },
     {
       "id": "dj-hooda",
       "name": "DJ Hooda",
-      "role": "SPIN_BOWLER",
-      "rating": 81,
+      "role": "ALL_ROUNDER",
+      "rating": 69,
       "matches": 6,
       "runs": 451,
       "average": 16.7,
       "strikeRate": 122.9,
       "wickets": 8,
       "economy": 8.73,
-      "bowlingAverage": 28.4
+      "bowlingAverage": 28.4,
+      "globalPercentile": 61
     },
     {
       "id": "a-nehra",
@@ -70,7 +75,8 @@
       "matches": 6,
       "wickets": 25,
       "economy": 8.72,
-      "bowlingAverage": 23.8
+      "bowlingAverage": 23.8,
+      "globalPercentile": 86
     },
     {
       "id": "b-kumar",
@@ -83,7 +89,8 @@
       "strikeRate": 100.0,
       "wickets": 183,
       "economy": 7.86,
-      "bowlingAverage": 25.6
+      "bowlingAverage": 25.6,
+      "globalPercentile": 90
     },
     {
       "id": "rashid-khan",
@@ -96,7 +103,8 @@
       "strikeRate": 139.5,
       "wickets": 110,
       "economy": 6.56,
-      "bowlingAverage": 21.4
+      "bowlingAverage": 21.4,
+      "globalPercentile": 98
     },
     {
       "id": "bipul-sharma",
@@ -109,7 +117,8 @@
       "strikeRate": 152.0,
       "wickets": 12,
       "economy": 8.12,
-      "bowlingAverage": 36.1
+      "bowlingAverage": 36.1,
+      "globalPercentile": 77
     },
     {
       "id": "nv-ojha",
@@ -119,20 +128,22 @@
       "matches": 6,
       "runs": 663,
       "average": 20.7,
-      "strikeRate": 121.0
+      "strikeRate": 121.0,
+      "globalPercentile": 48
     },
     {
       "id": "v-shankar",
       "name": "V Shankar",
-      "role": "PACE_BOWLER",
-      "rating": 82,
+      "role": "ALL_ROUNDER",
+      "rating": 72,
       "matches": 5,
       "runs": 601,
       "average": 25.0,
       "strikeRate": 122.4,
       "wickets": 8,
       "economy": 7.83,
-      "bowlingAverage": 31.5
+      "bowlingAverage": 31.5,
+      "globalPercentile": 70
     },
     {
       "id": "s-kaul",
@@ -145,7 +156,8 @@
       "strikeRate": 40.7,
       "wickets": 68,
       "economy": 8.69,
-      "bowlingAverage": 25.4
+      "bowlingAverage": 25.4,
+      "globalPercentile": 86
     },
     {
       "id": "ks-williamson",
@@ -155,7 +167,8 @@
       "matches": 8,
       "runs": 2361,
       "average": 38.7,
-      "strikeRate": 128.8
+      "strikeRate": 128.8,
+      "globalPercentile": 82
     },
     {
       "id": "mohammed-siraj",
@@ -165,12 +178,13 @@
       "matches": 7,
       "wickets": 20,
       "economy": 9.3,
-      "bowlingAverage": 21.4
+      "bowlingAverage": 21.4,
+      "globalPercentile": 86
     }
   ],
   "stats": {
     "min": 65,
     "max": 92,
-    "mean": 80.4
+    "mean": 78.9
   }
 }

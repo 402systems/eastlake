@@ -34,7 +34,7 @@
       "runs": 526,
       "average": 37.6,
       "strikeRate": 152.5,
-      "globalPercentile": 77
+      "globalPercentile": 79
     },
     {
       "id": "gd-phillips",
@@ -45,13 +45,13 @@
       "runs": 67,
       "average": 16.8,
       "strikeRate": 124.1,
-      "globalPercentile": 16
+      "globalPercentile": 14
     },
     {
       "id": "washington-sundar",
       "name": "Washington Sundar",
-      "role": "SPIN_BOWLER",
-      "rating": 49,
+      "role": "MIDDLE_ORDER",
+      "rating": 79,
       "matches": 16,
       "runs": 377,
       "average": 37.7,
@@ -59,7 +59,7 @@
       "wickets": 1,
       "economy": 9.16,
       "bowlingAverage": 84.0,
-      "globalPercentile": 1
+      "globalPercentile": 72
     },
     {
       "id": "m-shahrukh-khan",
@@ -70,7 +70,7 @@
       "runs": 43,
       "average": 14.3,
       "strikeRate": 130.3,
-      "globalPercentile": 14
+      "globalPercentile": 12
     },
     {
       "id": "r-tewatia",
@@ -81,7 +81,7 @@
       "runs": 190,
       "average": 27.1,
       "strikeRate": 145.0,
-      "globalPercentile": 50
+      "globalPercentile": 52
     },
     {
       "id": "rashid-khan",
@@ -95,7 +95,7 @@
       "wickets": 20,
       "economy": 9.34,
       "bowlingAverage": 26.1,
-      "globalPercentile": 51
+      "globalPercentile": 49
     },
     {
       "id": "mohammed-siraj",
@@ -106,7 +106,7 @@
       "wickets": 19,
       "economy": 9.19,
       "bowlingAverage": 30.0,
-      "globalPercentile": 51
+      "globalPercentile": 47
     },
     {
       "id": "k-rabada",
@@ -120,7 +120,7 @@
       "wickets": 29,
       "economy": 9.76,
       "bowlingAverage": 21.8,
-      "globalPercentile": 84
+      "globalPercentile": 80
     },
     {
       "id": "ashok-sharma",
@@ -131,7 +131,7 @@
       "wickets": 6,
       "economy": 11.1,
       "bowlingAverage": 38.8,
-      "globalPercentile": 18
+      "globalPercentile": 15
     },
     {
       "id": "m-prasidh-krishna",
@@ -142,13 +142,13 @@
       "wickets": 16,
       "economy": 10.46,
       "bowlingAverage": 25.5,
-      "globalPercentile": 58
+      "globalPercentile": 54
     },
     {
       "id": "jo-holder",
       "name": "JO Holder",
-      "role": "PACE_BOWLER",
-      "rating": 87,
+      "role": "ALL_ROUNDER",
+      "rating": 64,
       "matches": 11,
       "runs": 65,
       "average": 13.0,
@@ -156,7 +156,7 @@
       "wickets": 17,
       "economy": 7.62,
       "bowlingAverage": 17.2,
-      "globalPercentile": 94
+      "globalPercentile": 43
     },
     {
       "id": "arshad-khan",
@@ -167,7 +167,7 @@
       "wickets": 6,
       "economy": 9.98,
       "bowlingAverage": 28.8,
-      "globalPercentile": 41
+      "globalPercentile": 38
     },
     {
       "id": "n-sindhu",
@@ -178,12 +178,12 @@
       "runs": 63,
       "average": 12.6,
       "strikeRate": 126.0,
-      "globalPercentile": 9
+      "globalPercentile": 10
     }
   ],
   "stats": {
-    "min": 49,
+    "min": 52,
     "max": 90,
-    "mean": 68.7
+    "mean": 69.1
   }
 }

@@ -25,7 +25,7 @@
       "strikeRate": 179.5,
       "wickets": 0,
       "economy": 9.5,
-      "globalPercentile": 62
+      "globalPercentile": 63
     },
     {
       "id": "rg-sharma",
@@ -47,7 +47,7 @@
       "runs": 416,
       "average": 41.6,
       "strikeRate": 150.2,
-      "globalPercentile": 81
+      "globalPercentile": 84
     },
     {
       "id": "g-coetzee",
@@ -61,7 +61,7 @@
       "wickets": 13,
       "economy": 10.66,
       "bowlingAverage": 27.5,
-      "globalPercentile": 48
+      "globalPercentile": 44
     },
     {
       "id": "hh-pandya",
@@ -75,7 +75,7 @@
       "wickets": 11,
       "economy": 10.81,
       "bowlingAverage": 35.4,
-      "globalPercentile": 33
+      "globalPercentile": 32
     },
     {
       "id": "pp-chawla",
@@ -89,7 +89,7 @@
       "wickets": 13,
       "economy": 8.91,
       "bowlingAverage": 24.0,
-      "globalPercentile": 57
+      "globalPercentile": 54
     },
     {
       "id": "jj-bumrah",
@@ -128,7 +128,7 @@
       "wickets": 5,
       "economy": 11.5,
       "bowlingAverage": 41.8,
-      "globalPercentile": 16
+      "globalPercentile": 13
     },
     {
       "id": "sa-yadav",
@@ -139,7 +139,7 @@
       "runs": 345,
       "average": 34.5,
       "strikeRate": 168.3,
-      "globalPercentile": 85
+      "globalPercentile": 87
     },
     {
       "id": "mohammad-nabi",
@@ -153,7 +153,7 @@
       "wickets": 2,
       "economy": 8.92,
       "bowlingAverage": 55.0,
-      "globalPercentile": 11
+      "globalPercentile": 9
     },
     {
       "id": "n-wadhera",
@@ -175,7 +175,7 @@
       "wickets": 8,
       "economy": 9.96,
       "bowlingAverage": 32.4,
-      "globalPercentile": 41
+      "globalPercentile": 38
     }
   ],
   "stats": {

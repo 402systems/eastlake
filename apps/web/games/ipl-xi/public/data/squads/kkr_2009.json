@@ -12,13 +12,13 @@
       "runs": 286,
       "average": 23.8,
       "strikeRate": 121.2,
-      "globalPercentile": 19
+      "globalPercentile": 18
     },
     {
       "id": "ch-gayle",
       "name": "CH Gayle",
-      "role": "PACE_BOWLER",
-      "rating": 53,
+      "role": "OPENER",
+      "rating": 63,
       "matches": 7,
       "runs": 184,
       "average": 26.3,
@@ -26,13 +26,13 @@
       "wickets": 1,
       "economy": 7.75,
       "bowlingAverage": 146.0,
-      "globalPercentile": 13
+      "globalPercentile": 28
     },
     {
       "id": "sc-ganguly",
       "name": "SC Ganguly",
-      "role": "PACE_BOWLER",
-      "rating": 55,
+      "role": "MIDDLE_ORDER",
+      "rating": 50,
       "matches": 11,
       "runs": 189,
       "average": 17.2,
@@ -40,13 +40,13 @@
       "wickets": 2,
       "economy": 8.17,
       "bowlingAverage": 49.0,
-      "globalPercentile": 18
+      "globalPercentile": 7
     },
     {
       "id": "bj-hodge",
       "name": "BJ Hodge",
-      "role": "PACE_BOWLER",
-      "rating": 70,
+      "role": "MIDDLE_ORDER",
+      "rating": 73,
       "matches": 12,
       "runs": 365,
       "average": 40.6,
@@ -59,8 +59,8 @@
     {
       "id": "lr-shukla",
       "name": "LR Shukla",
-      "role": "PACE_BOWLER",
-      "rating": 65,
+      "role": "ALL_ROUNDER",
+      "rating": 56,
       "matches": 6,
       "runs": 83,
       "average": 16.6,
@@ -68,7 +68,7 @@
       "wickets": 3,
       "economy": 7.29,
       "bowlingAverage": 34.0,
-      "globalPercentile": 41
+      "globalPercentile": 22
     },
     {
       "id": "ab-agarkar",
@@ -82,7 +82,7 @@
       "wickets": 6,
       "economy": 9.45,
       "bowlingAverage": 48.8,
-      "globalPercentile": 13
+      "globalPercentile": 11
     },
     {
       "id": "m-kartik",
@@ -93,7 +93,7 @@
       "wickets": 4,
       "economy": 6.09,
       "bowlingAverage": 51.8,
-      "globalPercentile": 27
+      "globalPercentile": 25
     },
     {
       "id": "i-sharma",
@@ -107,7 +107,7 @@
       "wickets": 11,
       "economy": 7.05,
       "bowlingAverage": 27.5,
-      "globalPercentile": 72
+      "globalPercentile": 68
     },
     {
       "id": "ab-dinda",
@@ -118,7 +118,7 @@
       "wickets": 4,
       "economy": 8.12,
       "bowlingAverage": 48.8,
-      "globalPercentile": 23
+      "globalPercentile": 19
     },
     {
       "id": "mn-van-wyk",
@@ -129,7 +129,7 @@
       "runs": 167,
       "average": 55.7,
       "strikeRate": 127.5,
-      "globalPercentile": 77
+      "globalPercentile": 79
     },
     {
       "id": "wp-saha",
@@ -140,12 +140,12 @@
       "runs": 72,
       "average": 24.0,
       "strikeRate": 175.6,
-      "globalPercentile": 69
+      "globalPercentile": 74
     }
   ],
   "stats": {
-    "min": 53,
+    "min": 50,
     "max": 82,
-    "mean": 64.1
+    "mean": 64.0
   }
 }

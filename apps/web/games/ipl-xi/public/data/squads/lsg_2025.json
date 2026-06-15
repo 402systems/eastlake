@@ -6,8 +6,8 @@
     {
       "id": "ak-markram",
       "name": "AK Markram",
-      "role": "PACE_BOWLER",
-      "rating": 66,
+      "role": "OPENER",
+      "rating": 78,
       "matches": 13,
       "runs": 445,
       "average": 34.2,
@@ -15,7 +15,7 @@
       "wickets": 4,
       "economy": 9.27,
       "bowlingAverage": 25.5,
-      "globalPercentile": 45
+      "globalPercentile": 73
     },
     {
       "id": "mr-marsh",
@@ -26,7 +26,7 @@
       "runs": 627,
       "average": 48.2,
       "strikeRate": 164.6,
-      "globalPercentile": 95
+      "globalPercentile": 96
     },
     {
       "id": "n-pooran",
@@ -37,7 +37,7 @@
       "runs": 524,
       "average": 47.6,
       "strikeRate": 197.7,
-      "globalPercentile": 97
+      "globalPercentile": 98
     },
     {
       "id": "rr-pant",
@@ -48,7 +48,7 @@
       "runs": 269,
       "average": 24.5,
       "strikeRate": 133.2,
-      "globalPercentile": 30
+      "globalPercentile": 34
     },
     {
       "id": "da-miller",
@@ -70,7 +70,7 @@
       "runs": 329,
       "average": 32.9,
       "strikeRate": 148.9,
-      "globalPercentile": 84
+      "globalPercentile": 88
     },
     {
       "id": "sn-thakur",
@@ -84,7 +84,7 @@
       "wickets": 13,
       "economy": 11.06,
       "bowlingAverage": 28.9,
-      "globalPercentile": 41
+      "globalPercentile": 38
     },
     {
       "id": "ravi-bishnoi",
@@ -95,7 +95,7 @@
       "wickets": 9,
       "economy": 10.86,
       "bowlingAverage": 44.7,
-      "globalPercentile": 2
+      "globalPercentile": 1
     },
     {
       "id": "ds-rathi",
@@ -106,7 +106,7 @@
       "wickets": 14,
       "economy": 8.37,
       "bowlingAverage": 31.1,
-      "globalPercentile": 58
+      "globalPercentile": 54
     },
     {
       "id": "prince-yadav",
@@ -117,7 +117,7 @@
       "wickets": 3,
       "economy": 9.9,
       "bowlingAverage": 75.3,
-      "globalPercentile": 9
+      "globalPercentile": 8
     },
     {
       "id": "abdul-samad",
@@ -128,7 +128,7 @@
       "runs": 164,
       "average": 20.5,
       "strikeRate": 176.3,
-      "globalPercentile": 71
+      "globalPercentile": 76
     },
     {
       "id": "avesh-khan",
@@ -142,7 +142,7 @@
       "wickets": 13,
       "economy": 10.29,
       "bowlingAverage": 37.5,
-      "globalPercentile": 25
+      "globalPercentile": 21
     },
     {
       "id": "akash-deep",
@@ -153,12 +153,12 @@
       "wickets": 3,
       "economy": 12.11,
       "bowlingAverage": 76.7,
-      "globalPercentile": 4
+      "globalPercentile": 3
     }
   ],
   "stats": {
     "min": 47,
     "max": 96,
-    "mean": 67.5
+    "mean": 68.5
   }
 }

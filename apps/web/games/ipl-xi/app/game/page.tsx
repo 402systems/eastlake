@@ -9,7 +9,7 @@ import type {
   IplTeam,
   Lineup,
 } from '@/lib/types';
-import { SLOTS } from '@/lib/constants';
+import { SLOTS, BALL_KNOWLEDGE_KEY } from '@/lib/constants';
 import { fetchTeams, fetchSquad, fetchSeasons } from '@/lib/data';
 import type { SeasonTeam } from '@/lib/types';
 import { computePercentile, getRoleEligible } from '@/lib/scoring';
@@ -78,6 +78,21 @@ function pickExplanation(pick: Pick): string {
 
 const PCT_COLOR = (p: number) =>
   p >= 70 ? '#a855f7' : p >= 40 ? '#f59e0b' : '#ef4444';
+
+// Map a simulated league finish to an IPL-style outcome (top 4 make playoffs).
+function squadPlacement(position: number): {
+  label: string;
+  emoji: string;
+  color: string;
+} {
+  if (position === 1)
+    return { label: 'Champions', emoji: '🏆', color: '#fbbf24' };
+  if (position === 2)
+    return { label: 'Runners-up', emoji: '🥈', color: '#cbd5e1' };
+  if (position <= 4)
+    return { label: 'Qualified for Playoffs', emoji: '✅', color: '#34d399' };
+  return { label: 'Missed the Playoffs', emoji: '🚫', color: '#f87171' };
+}
 
 const RATING_COLOR = (r: number) => {
   if (r >= 88) return 'bg-amber-400 text-amber-900';
@@ -154,9 +169,13 @@ export default function GamePage() {
 
   useEffect(() => {
     // "Ball knowledge" mode (ratings hidden) is chosen on the home page and
-    // passed through the URL so the game starts immediately, no extra screen.
-    const ball =
-      new URLSearchParams(window.location.search).get('ball') === '1';
+    // read from localStorage so the game starts immediately, no extra screen.
+    let ball = false;
+    try {
+      ball = localStorage.getItem(BALL_KNOWLEDGE_KEY) === '1';
+    } catch {
+      // ignore storage being unavailable
+    }
     fetchTeams().then((teams) => {
       teamsRef.current = teams;
       setBlind(ball);
@@ -727,13 +746,6 @@ function ScoreScreen({
     SPIN_BOWLER: '🌀',
     PACE_BOWLER: '🎯',
   };
-  const SLOT_LABELS: Record<IplRole, string> = {
-    OPENER: 'Opener',
-    MIDDLE_ORDER: 'Middle Order',
-    ALL_ROUNDER: 'All-rounder / Finisher',
-    SPIN_BOWLER: 'Spin Bowler',
-    PACE_BOWLER: 'Pace Bowler',
-  };
 
   useEffect(() => {
     fetchSeasons().then((seasons) => {
@@ -779,25 +791,13 @@ function ScoreScreen({
   }, []);
 
   function copyToClipboard() {
-    const simLines = sim
-      ? [
-          '',
-          `${sim.year} IPL season — ${ordinal(sim.userPosition)} of ${sim.standings.length}:`,
-          ...sim.standings.map(
-            (row, i) =>
-              `  ${i + 1}. ${row.isUser ? '★ Your Team' : row.shortName}  ${row.wins}W ${row.losses}L  ${row.points}pts`
-          ),
-        ]
-      : [];
     const lines = [
       `IPL V · ${ordinal(avg)} percentile · ${tier.label}`,
       '',
-      ...picks.map((pick) => {
-        const icon = SLOT_ICONS[pick.player.role];
-        const label = SLOT_LABELS[pick.player.role];
-        return `${icon} ${label}: ${pick.player.name} (${pick.team.shortName} ${pick.year}) — ${pick.percentile}th pct all-time`;
-      }),
-      ...simLines,
+      ...picks.map(
+        (pick) =>
+          `${SLOT_ICONS[pick.player.role]} ${pick.player.name} (${pick.team.shortName} ${pick.year})`
+      ),
       '',
       'web.402systems.com/games/ipl-xi',
     ];
@@ -876,72 +876,39 @@ function ScoreScreen({
         </div>
       </div>
 
-      {/* Season simulation table */}
-      {sim && (
-        <div className="animate-fade-up mb-6 w-full">
-          <p className="mb-2 text-xs font-semibold tracking-widest text-slate-500 uppercase">
-            {sim.year} IPL Season · {ordinal(sim.userPosition)} of{' '}
-            {sim.standings.length}
-          </p>
-          <div className="glass overflow-hidden rounded-xl">
-            <div className="flex items-center border-b border-white/8 px-3 py-1.5">
-              <span className="w-5" />
-              <span className="w-12 text-[10px] font-semibold text-slate-600 uppercase">
-                Team
-              </span>
-              <span className="flex-1" />
-              <span className="w-6 text-right text-[10px] font-semibold text-slate-600 uppercase">
-                W
-              </span>
-              <span className="w-6 text-right text-[10px] font-semibold text-slate-600 uppercase">
-                L
-              </span>
-              <span className="w-8 text-right text-[10px] font-semibold text-slate-600 uppercase">
-                Pts
-              </span>
-            </div>
-            {sim.standings.map((row, i) => (
+      {/* Squad strength — simulated season placement */}
+      {sim &&
+        (() => {
+          const place = squadPlacement(sim.userPosition);
+          return (
+            <div className="animate-fade-up mb-6 w-full">
+              <p className="mb-2 text-xs font-semibold tracking-widest text-slate-500 uppercase">
+                Squad Strength
+              </p>
               <div
-                key={row.teamId}
-                className={`flex items-center border-b border-white/5 px-3 py-2 last:border-0 ${
-                  row.isUser
-                    ? 'bg-gradient-to-r from-purple-500/25 to-fuchsia-500/10'
-                    : ''
-                }`}
+                className="flex items-center gap-4 rounded-2xl border p-4"
+                style={{
+                  borderColor: `${place.color}40`,
+                  background: `linear-gradient(135deg, ${place.color}22, transparent 70%)`,
+                }}
               >
-                <span
-                  className={`w-5 shrink-0 text-xs font-bold ${row.isUser ? 'text-purple-400' : 'text-slate-600'}`}
-                >
-                  {i + 1}
-                </span>
-                <span
-                  className={`w-12 shrink-0 text-xs font-black ${row.isUser ? 'text-purple-300' : 'text-slate-300'}`}
-                >
-                  {row.shortName}
-                </span>
-                <span className="flex-1 truncate text-[11px] text-slate-600">
-                  {row.isUser ? 'Your Team' : row.teamName}
-                </span>
-                <span
-                  className={`w-6 text-right text-xs font-semibold tabular-nums ${row.isUser ? 'text-purple-300' : 'text-slate-400'}`}
-                >
-                  {row.wins}
-                </span>
-                <span
-                  className={`w-6 text-right text-xs tabular-nums ${row.isUser ? 'text-purple-400' : 'text-slate-600'}`}
-                >
-                  {row.losses}
-                </span>
-                <span
-                  className={`w-8 text-right text-xs font-bold tabular-nums ${row.isUser ? 'text-purple-300' : 'text-slate-400'}`}
-                >
-                  {row.points}
-                </span>
+                <span className="text-4xl">{place.emoji}</span>
+                <div className="min-w-0 flex-1">
+                  <p
+                    className="text-lg leading-tight font-black"
+                    style={{ color: place.color }}
+                  >
+                    {place.label}
+                  </p>
+                  <p className="mt-0.5 text-xs text-slate-400">
+                    {ordinal(sim.userPosition)} of {sim.standings.length} in a
+                    simulated {sim.year} season
+                  </p>
+                </div>
               </div>
-            ))}
-          </div>
-        </div>
-      )}
+            </div>
+          );
+        })()}
 
       {/* Per-pick breakdown */}
       <div className="mb-6 grid w-full gap-2">

@@ -25,13 +25,13 @@
       "strikeRate": 110.2,
       "wickets": 0,
       "economy": 11.17,
-      "globalPercentile": 23
+      "globalPercentile": 22
     },
     {
       "id": "yk-pathan",
       "name": "YK Pathan",
-      "role": "PACE_BOWLER",
-      "rating": 59,
+      "role": "MIDDLE_ORDER",
+      "rating": 81,
       "matches": 14,
       "runs": 333,
       "average": 33.3,
@@ -39,7 +39,7 @@
       "wickets": 5,
       "economy": 7.47,
       "bowlingAverage": 50.8,
-      "globalPercentile": 28
+      "globalPercentile": 77
     },
     {
       "id": "p-dogra",
@@ -50,7 +50,7 @@
       "runs": 107,
       "average": 21.4,
       "strikeRate": 100.9,
-      "globalPercentile": 16
+      "globalPercentile": 14
     },
     {
       "id": "sk-warne",
@@ -64,7 +64,7 @@
       "wickets": 11,
       "economy": 7.78,
       "bowlingAverage": 35.4,
-      "globalPercentile": 33
+      "globalPercentile": 31
     },
     {
       "id": "sw-tait",
@@ -75,7 +75,7 @@
       "wickets": 10,
       "economy": 8.79,
       "bowlingAverage": 27.4,
-      "globalPercentile": 67
+      "globalPercentile": 63
     },
     {
       "id": "mj-lumb",
@@ -100,7 +100,7 @@
       "wickets": 5,
       "economy": 11.87,
       "bowlingAverage": 37.2,
-      "globalPercentile": 20
+      "globalPercentile": 17
     },
     {
       "id": "sk-trivedi",
@@ -114,7 +114,7 @@
       "wickets": 11,
       "economy": 7.49,
       "bowlingAverage": 24.2,
-      "globalPercentile": 78
+      "globalPercentile": 74
     },
     {
       "id": "fy-fazal",
@@ -130,21 +130,21 @@
     {
       "id": "ac-voges",
       "name": "AC Voges",
-      "role": "PACE_BOWLER",
-      "rating": 49,
+      "role": "ALL_ROUNDER",
+      "rating": 74,
       "matches": 7,
       "runs": 181,
       "average": 45.2,
       "strikeRate": 126.6,
       "wickets": 0,
       "economy": 8.44,
-      "globalPercentile": 6
+      "globalPercentile": 76
     },
     {
       "id": "sr-watson",
       "name": "SR Watson",
-      "role": "PACE_BOWLER",
-      "rating": 69,
+      "role": "MIDDLE_ORDER",
+      "rating": 89,
       "matches": 6,
       "runs": 185,
       "average": 37.0,
@@ -152,12 +152,12 @@
       "wickets": 6,
       "economy": 8.41,
       "bowlingAverage": 30.8,
-      "globalPercentile": 55
+      "globalPercentile": 92
     }
   ],
   "stats": {
-    "min": 49,
-    "max": 77,
-    "mean": 62.7
+    "min": 53,
+    "max": 89,
+    "mean": 68.2
   }
 }
