@@ -12,7 +12,7 @@
       "runs": 371,
       "average": 28.5,
       "strikeRate": 124.9,
-      "globalPercentile": 41
+      "globalPercentile": 42
     },
     {
       "id": "w-jaffer",
@@ -42,8 +42,8 @@
     {
       "id": "jh-kallis",
       "name": "JH Kallis",
-      "role": "PACE_BOWLER",
-      "rating": 51,
+      "role": "MIDDLE_ORDER",
+      "rating": 53,
       "matches": 11,
       "runs": 199,
       "average": 19.9,
@@ -51,7 +51,7 @@
       "wickets": 4,
       "economy": 9.38,
       "bowlingAverage": 80.5,
-      "globalPercentile": 9
+      "globalPercentile": 12
     },
     {
       "id": "cl-white",
@@ -62,7 +62,7 @@
       "runs": 114,
       "average": 22.8,
       "strikeRate": 114.0,
-      "globalPercentile": 19
+      "globalPercentile": 17
     },
     {
       "id": "mv-boucher",
@@ -73,7 +73,7 @@
       "runs": 225,
       "average": 32.1,
       "strikeRate": 127.1,
-      "globalPercentile": 53
+      "globalPercentile": 55
     },
     {
       "id": "b-akhil",
@@ -87,7 +87,7 @@
       "wickets": 2,
       "economy": 7.96,
       "bowlingAverage": 69.0,
-      "globalPercentile": 6
+      "globalPercentile": 4
     },
     {
       "id": "p-kumar",
@@ -101,7 +101,7 @@
       "wickets": 11,
       "economy": 8.42,
       "bowlingAverage": 34.2,
-      "globalPercentile": 41
+      "globalPercentile": 38
     },
     {
       "id": "z-khan",
@@ -115,7 +115,7 @@
       "wickets": 13,
       "economy": 8.79,
       "bowlingAverage": 28.4,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "r-vinay-kumar",
@@ -129,7 +129,7 @@
       "wickets": 5,
       "economy": 7.96,
       "bowlingAverage": 36.6,
-      "globalPercentile": 35
+      "globalPercentile": 32
     },
     {
       "id": "a-kumble",
@@ -143,7 +143,7 @@
       "wickets": 7,
       "economy": 8.19,
       "bowlingAverage": 44.9,
-      "globalPercentile": 20
+      "globalPercentile": 18
     },
     {
       "id": "dw-steyn",
@@ -154,7 +154,7 @@
       "wickets": 10,
       "economy": 6.97,
       "bowlingAverage": 26.5,
-      "globalPercentile": 75
+      "globalPercentile": 72
     },
     {
       "id": "misbah-ul-haq",
@@ -165,12 +165,12 @@
       "runs": 117,
       "average": 16.7,
       "strikeRate": 144.4,
-      "globalPercentile": 23
+      "globalPercentile": 27
     }
   ],
   "stats": {
     "min": 47,
     "max": 76,
-    "mean": 61.0
+    "mean": 61.2
   }
 }

@@ -39,8 +39,8 @@
     {
       "id": "sm-curran",
       "name": "SM Curran",
-      "role": "PACE_BOWLER",
-      "rating": 68,
+      "role": "MIDDLE_ORDER",
+      "rating": 64,
       "matches": 13,
       "runs": 270,
       "average": 27.0,
@@ -48,7 +48,7 @@
       "wickets": 16,
       "economy": 10.29,
       "bowlingAverage": 26.4,
-      "globalPercentile": 51
+      "globalPercentile": 34
     },
     {
       "id": "jm-sharma",
@@ -59,13 +59,13 @@
       "runs": 187,
       "average": 17.0,
       "strikeRate": 131.7,
-      "globalPercentile": 26
+      "globalPercentile": 25
     },
     {
       "id": "ls-livingstone",
       "name": "LS Livingstone",
-      "role": "PACE_BOWLER",
-      "rating": 71,
+      "role": "ALL_ROUNDER",
+      "rating": 69,
       "matches": 7,
       "runs": 111,
       "average": 27.8,
@@ -84,7 +84,7 @@
       "runs": 354,
       "average": 50.6,
       "strikeRate": 164.7,
-      "globalPercentile": 94
+      "globalPercentile": 96
     },
     {
       "id": "harpreet-brar",
@@ -98,7 +98,7 @@
       "wickets": 7,
       "economy": 8.13,
       "bowlingAverage": 44.1,
-      "globalPercentile": 25
+      "globalPercentile": 21
     },
     {
       "id": "arshdeep-singh",
@@ -109,7 +109,7 @@
       "wickets": 19,
       "economy": 10.21,
       "bowlingAverage": 27.1,
-      "globalPercentile": 58
+      "globalPercentile": 54
     },
     {
       "id": "k-rabada",
@@ -123,7 +123,7 @@
       "wickets": 11,
       "economy": 9.19,
       "bowlingAverage": 35.1,
-      "globalPercentile": 38
+      "globalPercentile": 35
     },
     {
       "id": "rd-chahar",
@@ -134,7 +134,7 @@
       "wickets": 10,
       "economy": 9.03,
       "bowlingAverage": 28.0,
-      "globalPercentile": 46
+      "globalPercentile": 44
     },
     {
       "id": "hv-patel",
@@ -148,7 +148,7 @@
       "wickets": 24,
       "economy": 9.9,
       "bowlingAverage": 20.2,
-      "globalPercentile": 84
+      "globalPercentile": 80
     },
     {
       "id": "rr-rossouw",
@@ -159,12 +159,12 @@
       "runs": 211,
       "average": 26.4,
       "strikeRate": 183.5,
-      "globalPercentile": 73
+      "globalPercentile": 75
     }
   ],
   "stats": {
     "min": 57,
     "max": 87,
-    "mean": 70.6
+    "mean": 70.2
   }
 }

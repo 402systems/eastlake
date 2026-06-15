@@ -11,7 +11,8 @@
       "matches": 12,
       "runs": 393,
       "average": 49.1,
-      "strikeRate": 132.3
+      "strikeRate": 132.3,
+      "globalPercentile": 82
     },
     {
       "id": "bb-mccullum",
@@ -21,7 +22,8 @@
       "matches": 16,
       "runs": 354,
       "average": 22.1,
-      "strikeRate": 135.1
+      "strikeRate": 135.1,
+      "globalPercentile": 25
     },
     {
       "id": "sk-raina",
@@ -33,7 +35,8 @@
       "average": 28.5,
       "strikeRate": 127.9,
       "wickets": 0,
-      "economy": 8.4
+      "economy": 8.4,
+      "globalPercentile": 44
     },
     {
       "id": "kd-karthik",
@@ -43,33 +46,36 @@
       "matches": 15,
       "runs": 335,
       "average": 25.8,
-      "strikeRate": 125.9
+      "strikeRate": 125.9,
+      "globalPercentile": 32
     },
     {
       "id": "ra-jadeja",
       "name": "RA Jadeja",
-      "role": "ALL_ROUNDER",
-      "rating": 57,
+      "role": "SPIN_BOWLER",
+      "rating": 59,
       "matches": 15,
       "runs": 191,
       "average": 23.9,
       "strikeRate": 109.1,
       "wickets": 8,
       "economy": 7.97,
-      "bowlingAverage": 40.0
+      "bowlingAverage": 40.0,
+      "globalPercentile": 14
     },
     {
       "id": "dj-bravo",
       "name": "DJ Bravo",
-      "role": "PACE_BOWLER",
-      "rating": 70,
+      "role": "ALL_ROUNDER",
+      "rating": 56,
       "matches": 15,
       "runs": 99,
       "average": 12.4,
       "strikeRate": 120.7,
       "wickets": 17,
       "economy": 8.96,
-      "bowlingAverage": 29.5
+      "bowlingAverage": 29.5,
+      "globalPercentile": 22
     },
     {
       "id": "p-kumar",
@@ -82,7 +88,8 @@
       "strikeRate": 92.3,
       "wickets": 9,
       "economy": 7.92,
-      "bowlingAverage": 45.3
+      "bowlingAverage": 45.3,
+      "globalPercentile": 24
     },
     {
       "id": "jp-faulkner",
@@ -95,7 +102,8 @@
       "strikeRate": 132.8,
       "wickets": 2,
       "economy": 9.88,
-      "bowlingAverage": 84.0
+      "bowlingAverage": 84.0,
+      "globalPercentile": 4
     },
     {
       "id": "sb-jakati",
@@ -105,7 +113,8 @@
       "matches": 6,
       "wickets": 2,
       "economy": 9.05,
-      "bowlingAverage": 90.5
+      "bowlingAverage": 90.5,
+      "globalPercentile": 1
     },
     {
       "id": "pv-tambe",
@@ -115,7 +124,8 @@
       "matches": 7,
       "wickets": 5,
       "economy": 8.94,
-      "bowlingAverage": 28.6
+      "bowlingAverage": 28.6,
+      "globalPercentile": 28
     },
     {
       "id": "ds-kulkarni",
@@ -128,7 +138,8 @@
       "strikeRate": 168.8,
       "wickets": 18,
       "economy": 7.45,
-      "bowlingAverage": 20.3
+      "bowlingAverage": 20.3,
+      "globalPercentile": 84
     },
     {
       "id": "dr-smith",
@@ -141,7 +152,8 @@
       "strikeRate": 147.3,
       "wickets": 8,
       "economy": 8.56,
-      "bowlingAverage": 19.2
+      "bowlingAverage": 19.2,
+      "globalPercentile": 52
     },
     {
       "id": "s-kaushik",
@@ -151,12 +163,13 @@
       "matches": 7,
       "wickets": 6,
       "economy": 8.48,
-      "bowlingAverage": 32.5
+      "bowlingAverage": 32.5,
+      "globalPercentile": 41
     }
   ],
   "stats": {
     "min": 48,
     "max": 83,
-    "mean": 65.0
+    "mean": 64.1
   }
 }

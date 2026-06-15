@@ -14,7 +14,8 @@
       "strikeRate": 151.7,
       "wickets": 13,
       "economy": 7.96,
-      "bowlingAverage": 34.7
+      "bowlingAverage": 34.7,
+      "globalPercentile": 86
     },
     {
       "id": "mandeep-singh",
@@ -24,7 +25,8 @@
       "matches": 10,
       "runs": 785,
       "average": 21.8,
-      "strikeRate": 122.7
+      "strikeRate": 122.7,
+      "globalPercentile": 44
     },
     {
       "id": "tm-head",
@@ -37,7 +39,8 @@
       "strikeRate": 139.6,
       "wickets": 4,
       "economy": 9.96,
-      "bowlingAverage": 37.8
+      "bowlingAverage": 37.8,
+      "globalPercentile": 77
     },
     {
       "id": "km-jadhav",
@@ -47,7 +50,8 @@
       "matches": 13,
       "runs": 588,
       "average": 26.7,
-      "strikeRate": 144.5
+      "strikeRate": 144.5,
+      "globalPercentile": 70
     },
     {
       "id": "sr-watson",
@@ -60,7 +64,8 @@
       "strikeRate": 110.7,
       "wickets": 30,
       "economy": 8.91,
-      "bowlingAverage": 32.7
+      "bowlingAverage": 32.7,
+      "globalPercentile": 19
     },
     {
       "id": "str-binny",
@@ -73,7 +78,8 @@
       "strikeRate": 114.7,
       "wickets": 9,
       "economy": 8.07,
-      "bowlingAverage": 26.0
+      "bowlingAverage": 26.0,
+      "globalPercentile": 48
     },
     {
       "id": "s-aravind",
@@ -86,7 +92,8 @@
       "strikeRate": 93.8,
       "wickets": 50,
       "economy": 8.49,
-      "bowlingAverage": 26.7
+      "bowlingAverage": 26.7,
+      "globalPercentile": 86
     },
     {
       "id": "ys-chahal",
@@ -99,7 +106,8 @@
       "strikeRate": 43.3,
       "wickets": 153,
       "economy": 7.77,
-      "bowlingAverage": 22.7
+      "bowlingAverage": 22.7,
+      "globalPercentile": 92
     },
     {
       "id": "ts-mills",
@@ -112,7 +120,8 @@
       "strikeRate": 72.7,
       "wickets": 10,
       "economy": 8.8,
-      "bowlingAverage": 31.4
+      "bowlingAverage": 31.4,
+      "globalPercentile": 79
     },
     {
       "id": "a-choudhary",
@@ -125,7 +134,8 @@
       "strikeRate": 125.0,
       "wickets": 10,
       "economy": 8.55,
-      "bowlingAverage": 28.8
+      "bowlingAverage": 28.8,
+      "globalPercentile": 82
     },
     {
       "id": "p-negi",
@@ -138,7 +148,8 @@
       "strikeRate": 125.5,
       "wickets": 36,
       "economy": 6.99,
-      "bowlingAverage": 15.4
+      "bowlingAverage": 15.4,
+      "globalPercentile": 99
     },
     {
       "id": "ab-de-villiers",
@@ -148,7 +159,8 @@
       "matches": 10,
       "runs": 4726,
       "average": 42.6,
-      "strikeRate": 158.0
+      "strikeRate": 158.0,
+      "globalPercentile": 93
     },
     {
       "id": "v-kohli",
@@ -161,7 +173,8 @@
       "strikeRate": 134.8,
       "wickets": 4,
       "economy": 8.87,
-      "bowlingAverage": 92.8
+      "bowlingAverage": 92.8,
+      "globalPercentile": 79
     },
     {
       "id": "s-badree",
@@ -174,7 +187,8 @@
       "strikeRate": 56.5,
       "wickets": 18,
       "economy": 7.64,
-      "bowlingAverage": 21.2
+      "bowlingAverage": 21.2,
+      "globalPercentile": 95
     },
     {
       "id": "af-milne",
@@ -187,7 +201,8 @@
       "strikeRate": 58.3,
       "wickets": 7,
       "economy": 10.19,
-      "bowlingAverage": 46.6
+      "bowlingAverage": 46.6,
+      "globalPercentile": 34
     }
   ],
   "stats": {

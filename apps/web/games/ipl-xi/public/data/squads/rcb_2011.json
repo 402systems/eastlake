@@ -17,8 +17,8 @@
     {
       "id": "tm-dilshan",
       "name": "TM Dilshan",
-      "role": "PACE_BOWLER",
-      "rating": 49,
+      "role": "OPENER",
+      "rating": 64,
       "matches": 10,
       "runs": 226,
       "average": 28.2,
@@ -26,13 +26,13 @@
       "wickets": 1,
       "economy": 9.0,
       "bowlingAverage": 108.0,
-      "globalPercentile": 6
+      "globalPercentile": 31
     },
     {
       "id": "v-kohli",
       "name": "V Kohli",
-      "role": "PACE_BOWLER",
-      "rating": 53,
+      "role": "MIDDLE_ORDER",
+      "rating": 79,
       "matches": 16,
       "runs": 557,
       "average": 46.4,
@@ -40,7 +40,7 @@
       "wickets": 2,
       "economy": 8.24,
       "bowlingAverage": 70.0,
-      "globalPercentile": 13
+      "globalPercentile": 72
     },
     {
       "id": "ab-de-villiers",
@@ -51,7 +51,7 @@
       "runs": 312,
       "average": 39.0,
       "strikeRate": 128.9,
-      "globalPercentile": 53
+      "globalPercentile": 54
     },
     {
       "id": "ss-tiwary",
@@ -62,7 +62,7 @@
       "runs": 187,
       "average": 23.4,
       "strikeRate": 100.5,
-      "globalPercentile": 19
+      "globalPercentile": 17
     },
     {
       "id": "auk-pathan",
@@ -75,7 +75,7 @@
       "strikeRate": 206.2,
       "wickets": 0,
       "economy": 8.91,
-      "globalPercentile": 53
+      "globalPercentile": 55
     },
     {
       "id": "z-khan",
@@ -86,7 +86,7 @@
       "wickets": 14,
       "economy": 7.88,
       "bowlingAverage": 33.2,
-      "globalPercentile": 51
+      "globalPercentile": 47
     },
     {
       "id": "dl-vettori",
@@ -100,7 +100,7 @@
       "wickets": 12,
       "economy": 6.1,
       "bowlingAverage": 26.2,
-      "globalPercentile": 81
+      "globalPercentile": 77
     },
     {
       "id": "a-mithun",
@@ -114,7 +114,7 @@
       "wickets": 5,
       "economy": 9.56,
       "bowlingAverage": 65.0,
-      "globalPercentile": 9
+      "globalPercentile": 8
     },
     {
       "id": "s-aravind",
@@ -125,13 +125,13 @@
       "wickets": 21,
       "economy": 8.2,
       "bowlingAverage": 18.0,
-      "globalPercentile": 92
+      "globalPercentile": 91
     },
     {
       "id": "ch-gayle",
       "name": "CH Gayle",
-      "role": "PACE_BOWLER",
-      "rating": 67,
+      "role": "OPENER",
+      "rating": 98,
       "matches": 12,
       "runs": 608,
       "average": 67.6,
@@ -139,7 +139,7 @@
       "wickets": 8,
       "economy": 7.28,
       "bowlingAverage": 32.8,
-      "globalPercentile": 48
+      "globalPercentile": 100
     },
     {
       "id": "j-syed-mohammad",
@@ -150,12 +150,12 @@
       "wickets": 5,
       "economy": 8.53,
       "bowlingAverage": 25.6,
-      "globalPercentile": 49
+      "globalPercentile": 47
     }
   ],
   "stats": {
-    "min": 49,
-    "max": 86,
-    "mean": 64.4
+    "min": 51,
+    "max": 98,
+    "mean": 70.4
   }
 }

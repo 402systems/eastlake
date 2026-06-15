@@ -34,7 +34,7 @@
       "runs": 341,
       "average": 24.4,
       "strikeRate": 116.0,
-      "globalPercentile": 19
+      "globalPercentile": 18
     },
     {
       "id": "kd-karthik",
@@ -45,7 +45,7 @@
       "runs": 330,
       "average": 66.0,
       "strikeRate": 185.4,
-      "globalPercentile": 98
+      "globalPercentile": 99
     },
     {
       "id": "mohammed-siraj",
@@ -59,13 +59,13 @@
       "wickets": 9,
       "economy": 10.29,
       "bowlingAverage": 58.3,
-      "globalPercentile": 9
+      "globalPercentile": 8
     },
     {
       "id": "shahbaz-ahmed",
       "name": "Shahbaz Ahmed",
-      "role": "PACE_BOWLER",
-      "rating": 49,
+      "role": "ALL_ROUNDER",
+      "rating": 59,
       "matches": 14,
       "runs": 219,
       "average": 31.3,
@@ -73,7 +73,7 @@
       "wickets": 4,
       "economy": 9.74,
       "bowlingAverage": 85.2,
-      "globalPercentile": 6
+      "globalPercentile": 30
     },
     {
       "id": "akash-deep",
@@ -84,7 +84,7 @@
       "wickets": 5,
       "economy": 10.94,
       "bowlingAverage": 41.2,
-      "globalPercentile": 18
+      "globalPercentile": 15
     },
     {
       "id": "pwh-de-silva",
@@ -98,7 +98,7 @@
       "wickets": 26,
       "economy": 7.7,
       "bowlingAverage": 16.9,
-      "globalPercentile": 96
+      "globalPercentile": 94
     },
     {
       "id": "hv-patel",
@@ -112,13 +112,13 @@
       "wickets": 19,
       "economy": 7.87,
       "bowlingAverage": 22.2,
-      "globalPercentile": 84
+      "globalPercentile": 80
     },
     {
       "id": "gj-maxwell",
       "name": "GJ Maxwell",
-      "role": "PACE_BOWLER",
-      "rating": 70,
+      "role": "MIDDLE_ORDER",
+      "rating": 80,
       "matches": 13,
       "runs": 301,
       "average": 30.1,
@@ -126,7 +126,7 @@
       "wickets": 6,
       "economy": 6.92,
       "bowlingAverage": 27.7,
-      "globalPercentile": 58
+      "globalPercentile": 75
     },
     {
       "id": "ss-prabhudessai",
@@ -137,7 +137,7 @@
       "runs": 67,
       "average": 13.4,
       "strikeRate": 115.5,
-      "globalPercentile": 10
+      "globalPercentile": 7
     },
     {
       "id": "jr-hazlewood",
@@ -151,7 +151,7 @@
       "wickets": 20,
       "economy": 8.17,
       "bowlingAverage": 19.0,
-      "globalPercentile": 92
+      "globalPercentile": 91
     },
     {
       "id": "rm-patidar",
@@ -162,7 +162,7 @@
       "runs": 333,
       "average": 55.5,
       "strikeRate": 153.5,
-      "globalPercentile": 94
+      "globalPercentile": 96
     },
     {
       "id": "mk-lomror",
@@ -173,12 +173,12 @@
       "runs": 86,
       "average": 17.2,
       "strikeRate": 150.9,
-      "globalPercentile": 46
+      "globalPercentile": 48
     }
   ],
   "stats": {
     "min": 49,
     "max": 93,
-    "mean": 68.4
+    "mean": 69.9
   }
 }

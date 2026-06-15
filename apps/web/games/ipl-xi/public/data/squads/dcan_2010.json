@@ -34,13 +34,13 @@
       "runs": 267,
       "average": 29.7,
       "strikeRate": 114.1,
-      "globalPercentile": 30
+      "globalPercentile": 31
     },
     {
       "id": "a-symonds",
       "name": "A Symonds",
-      "role": "PACE_BOWLER",
-      "rating": 68,
+      "role": "MIDDLE_ORDER",
+      "rating": 71,
       "matches": 16,
       "runs": 429,
       "average": 35.8,
@@ -53,8 +53,8 @@
     {
       "id": "rg-sharma",
       "name": "RG Sharma",
-      "role": "PACE_BOWLER",
-      "rating": 52,
+      "role": "MIDDLE_ORDER",
+      "rating": 69,
       "matches": 16,
       "runs": 404,
       "average": 28.9,
@@ -62,7 +62,7 @@
       "wickets": 2,
       "economy": 8.37,
       "bowlingAverage": 79.5,
-      "globalPercentile": 11
+      "globalPercentile": 47
     },
     {
       "id": "tl-suman",
@@ -73,7 +73,7 @@
       "runs": 307,
       "average": 38.4,
       "strikeRate": 120.4,
-      "globalPercentile": 55
+      "globalPercentile": 58
     },
     {
       "id": "wpujc-vaas",
@@ -101,7 +101,7 @@
       "wickets": 6,
       "economy": 10.14,
       "bowlingAverage": 23.7,
-      "globalPercentile": 48
+      "globalPercentile": 44
     },
     {
       "id": "rp-singh",
@@ -115,7 +115,7 @@
       "wickets": 13,
       "economy": 9.17,
       "bowlingAverage": 29.6,
-      "globalPercentile": 51
+      "globalPercentile": 47
     },
     {
       "id": "pp-ojha",
@@ -129,7 +129,7 @@
       "wickets": 21,
       "economy": 7.46,
       "bowlingAverage": 20.9,
-      "globalPercentile": 82
+      "globalPercentile": 78
     },
     {
       "id": "md-mishra",
@@ -140,7 +140,7 @@
       "runs": 166,
       "average": 16.6,
       "strikeRate": 116.9,
-      "globalPercentile": 9
+      "globalPercentile": 10
     },
     {
       "id": "r-sharma",
@@ -154,7 +154,7 @@
       "wickets": 5,
       "economy": 8.23,
       "bowlingAverage": 34.0,
-      "globalPercentile": 41
+      "globalPercentile": 38
     },
     {
       "id": "harmeet-singh",
@@ -165,7 +165,7 @@
       "wickets": 8,
       "economy": 7.38,
       "bowlingAverage": 22.1,
-      "globalPercentile": 78
+      "globalPercentile": 74
     },
     {
       "id": "rj-harris",
@@ -185,6 +185,6 @@
   "stats": {
     "min": 47,
     "max": 91,
-    "mean": 68.1
+    "mean": 69.6
   }
 }

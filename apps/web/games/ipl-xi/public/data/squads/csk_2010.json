@@ -11,7 +11,8 @@
       "matches": 15,
       "runs": 458,
       "average": 38.2,
-      "strikeRate": 156.8
+      "strikeRate": 156.8,
+      "globalPercentile": 76
     },
     {
       "id": "ml-hayden",
@@ -21,7 +22,8 @@
       "matches": 16,
       "runs": 346,
       "average": 21.6,
-      "strikeRate": 124.0
+      "strikeRate": 124.0,
+      "globalPercentile": 18
     },
     {
       "id": "sk-raina",
@@ -34,7 +36,8 @@
       "strikeRate": 145.1,
       "wickets": 5,
       "economy": 7.7,
-      "bowlingAverage": 36.2
+      "bowlingAverage": 36.2,
+      "globalPercentile": 87
     },
     {
       "id": "s-badrinath",
@@ -44,7 +47,8 @@
       "matches": 15,
       "runs": 356,
       "average": 32.4,
-      "strikeRate": 118.3
+      "strikeRate": 118.3,
+      "globalPercentile": 48
     },
     {
       "id": "ms-dhoni",
@@ -54,7 +58,8 @@
       "matches": 11,
       "runs": 287,
       "average": 31.9,
-      "strikeRate": 136.7
+      "strikeRate": 136.7,
+      "globalPercentile": 74
     },
     {
       "id": "ja-morkel",
@@ -67,7 +72,8 @@
       "strikeRate": 151.9,
       "wickets": 11,
       "economy": 8.6,
-      "bowlingAverage": 37.3
+      "bowlingAverage": 37.3,
+      "globalPercentile": 58
     },
     {
       "id": "r-ashwin",
@@ -80,7 +86,8 @@
       "strikeRate": 75.0,
       "wickets": 13,
       "economy": 6.42,
-      "bowlingAverage": 23.7
+      "bowlingAverage": 23.7,
+      "globalPercentile": 74
     },
     {
       "id": "l-balaji",
@@ -93,7 +100,8 @@
       "strikeRate": 90.0,
       "wickets": 7,
       "economy": 9.17,
-      "bowlingAverage": 30.6
+      "bowlingAverage": 30.6,
+      "globalPercentile": 41
     },
     {
       "id": "m-muralitharan",
@@ -103,7 +111,8 @@
       "matches": 12,
       "wickets": 16,
       "economy": 7.32,
-      "bowlingAverage": 22.2
+      "bowlingAverage": 22.2,
+      "globalPercentile": 78
     },
     {
       "id": "s-tyagi",
@@ -113,7 +122,8 @@
       "matches": 6,
       "wickets": 1,
       "economy": 10.17,
-      "bowlingAverage": 161.0
+      "bowlingAverage": 161.0,
+      "globalPercentile": 1
     },
     {
       "id": "sb-jakati",
@@ -123,7 +133,8 @@
       "matches": 11,
       "wickets": 13,
       "economy": 7.89,
-      "bowlingAverage": 23.1
+      "bowlingAverage": 23.1,
+      "globalPercentile": 66
     },
     {
       "id": "de-bollinger",
@@ -133,7 +144,8 @@
       "matches": 8,
       "wickets": 12,
       "economy": 6.87,
-      "bowlingAverage": 17.8
+      "bowlingAverage": 17.8,
+      "globalPercentile": 95
     }
   ],
   "stats": {

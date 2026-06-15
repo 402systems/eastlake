@@ -48,7 +48,7 @@
       "wickets": 1,
       "economy": 11.67,
       "bowlingAverage": 70.0,
-      "globalPercentile": 53
+      "globalPercentile": 54
     },
     {
       "id": "s-dube",
@@ -59,7 +59,7 @@
       "runs": 396,
       "average": 36.0,
       "strikeRate": 163.0,
-      "globalPercentile": 81
+      "globalPercentile": 84
     },
     {
       "id": "ra-jadeja",
@@ -73,7 +73,7 @@
       "wickets": 8,
       "economy": 7.89,
       "bowlingAverage": 46.4,
-      "globalPercentile": 16
+      "globalPercentile": 14
     },
     {
       "id": "dl-chahar",
@@ -84,7 +84,7 @@
       "wickets": 5,
       "economy": 8.55,
       "bowlingAverage": 39.6,
-      "globalPercentile": 28
+      "globalPercentile": 24
     },
     {
       "id": "tu-deshpande",
@@ -95,7 +95,7 @@
       "wickets": 17,
       "economy": 9.06,
       "bowlingAverage": 25.6,
-      "globalPercentile": 69
+      "globalPercentile": 65
     },
     {
       "id": "m-theekshana",
@@ -106,7 +106,7 @@
       "wickets": 2,
       "economy": 7.3,
       "bowlingAverage": 73.0,
-      "globalPercentile": 28
+      "globalPercentile": 24
     },
     {
       "id": "mustafizur-rahman",
@@ -117,7 +117,7 @@
       "wickets": 14,
       "economy": 9.44,
       "bowlingAverage": 23.1,
-      "globalPercentile": 81
+      "globalPercentile": 77
     },
     {
       "id": "sameer-rizvi",
@@ -128,7 +128,7 @@
       "runs": 51,
       "average": 12.8,
       "strikeRate": 118.6,
-      "globalPercentile": 7
+      "globalPercentile": 6
     },
     {
       "id": "m-pathirana",
@@ -144,8 +144,8 @@
     {
       "id": "mm-ali",
       "name": "MM Ali",
-      "role": "PACE_BOWLER",
-      "rating": 57,
+      "role": "ALL_ROUNDER",
+      "rating": 64,
       "matches": 5,
       "runs": 128,
       "average": 25.6,
@@ -153,7 +153,7 @@
       "wickets": 2,
       "economy": 8.88,
       "bowlingAverage": 35.5,
-      "globalPercentile": 23
+      "globalPercentile": 43
     },
     {
       "id": "sn-thakur",
@@ -167,12 +167,12 @@
       "wickets": 5,
       "economy": 9.95,
       "bowlingAverage": 63.0,
-      "globalPercentile": 11
+      "globalPercentile": 9
     }
   ],
   "stats": {
     "min": 48,
     "max": 91,
-    "mean": 67.9
+    "mean": 68.4
   }
 }

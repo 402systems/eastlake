@@ -28,8 +28,8 @@
     {
       "id": "mm-ali",
       "name": "MM Ali",
-      "role": "PACE_BOWLER",
-      "rating": 71,
+      "role": "MIDDLE_ORDER",
+      "rating": 82,
       "matches": 10,
       "runs": 220,
       "average": 36.7,
@@ -37,7 +37,7 @@
       "wickets": 6,
       "economy": 6.76,
       "bowlingAverage": 28.2,
-      "globalPercentile": 61
+      "globalPercentile": 79
     },
     {
       "id": "ab-de-villiers",
@@ -48,7 +48,7 @@
       "runs": 442,
       "average": 44.2,
       "strikeRate": 154.0,
-      "globalPercentile": 88
+      "globalPercentile": 90
     },
     {
       "id": "so-hetmyer",
@@ -59,7 +59,7 @@
       "runs": 90,
       "average": 18.0,
       "strikeRate": 123.3,
-      "globalPercentile": 14
+      "globalPercentile": 16
     },
     {
       "id": "na-saini",
@@ -70,7 +70,7 @@
       "wickets": 11,
       "economy": 8.54,
       "bowlingAverage": 37.3,
-      "globalPercentile": 35
+      "globalPercentile": 32
     },
     {
       "id": "ys-chahal",
@@ -84,7 +84,7 @@
       "wickets": 17,
       "economy": 8.02,
       "bowlingAverage": 23.1,
-      "globalPercentile": 73
+      "globalPercentile": 69
     },
     {
       "id": "ut-yadav",
@@ -98,7 +98,7 @@
       "wickets": 8,
       "economy": 9.91,
       "bowlingAverage": 46.9,
-      "globalPercentile": 16
+      "globalPercentile": 13
     },
     {
       "id": "mohammed-siraj",
@@ -112,13 +112,13 @@
       "wickets": 7,
       "economy": 9.62,
       "bowlingAverage": 38.7,
-      "globalPercentile": 23
+      "globalPercentile": 19
     },
     {
       "id": "mp-stoinis",
       "name": "MP Stoinis",
-      "role": "PACE_BOWLER",
-      "rating": 52,
+      "role": "ALL_ROUNDER",
+      "rating": 68,
       "matches": 10,
       "runs": 211,
       "average": 52.8,
@@ -126,7 +126,7 @@
       "wickets": 2,
       "economy": 8.82,
       "bowlingAverage": 73.5,
-      "globalPercentile": 11
+      "globalPercentile": 58
     },
     {
       "id": "ad-nath",
@@ -137,12 +137,12 @@
       "runs": 61,
       "average": 12.2,
       "strikeRate": 107.0,
-      "globalPercentile": 6
+      "globalPercentile": 4
     }
   ],
   "stats": {
     "min": 47,
     "max": 88,
-    "mean": 64.5
+    "mean": 66.9
   }
 }

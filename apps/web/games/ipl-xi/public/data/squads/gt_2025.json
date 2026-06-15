@@ -34,7 +34,7 @@
       "runs": 538,
       "average": 59.8,
       "strikeRate": 163.0,
-      "globalPercentile": 97
+      "globalPercentile": 98
     },
     {
       "id": "se-rutherford",
@@ -45,7 +45,7 @@
       "runs": 291,
       "average": 32.3,
       "strikeRate": 158.2,
-      "globalPercentile": 71
+      "globalPercentile": 72
     },
     {
       "id": "r-tewatia",
@@ -56,7 +56,7 @@
       "runs": 99,
       "average": 16.5,
       "strikeRate": 167.8,
-      "globalPercentile": 50
+      "globalPercentile": 52
     },
     {
       "id": "arshad-khan",
@@ -70,7 +70,7 @@
       "wickets": 6,
       "economy": 10.48,
       "bowlingAverage": 36.7,
-      "globalPercentile": 13
+      "globalPercentile": 11
     },
     {
       "id": "m-shahrukh-khan",
@@ -81,7 +81,7 @@
       "runs": 179,
       "average": 29.8,
       "strikeRate": 179.0,
-      "globalPercentile": 86
+      "globalPercentile": 90
     },
     {
       "id": "mohammed-siraj",
@@ -92,7 +92,7 @@
       "wickets": 16,
       "economy": 9.47,
       "bowlingAverage": 33.8,
-      "globalPercentile": 38
+      "globalPercentile": 35
     },
     {
       "id": "rashid-khan",
@@ -106,7 +106,7 @@
       "wickets": 9,
       "economy": 9.51,
       "bowlingAverage": 58.1,
-      "globalPercentile": 4
+      "globalPercentile": 3
     },
     {
       "id": "m-prasidh-krishna",
@@ -117,7 +117,7 @@
       "wickets": 25,
       "economy": 8.58,
       "bowlingAverage": 20.2,
-      "globalPercentile": 90
+      "globalPercentile": 88
     },
     {
       "id": "r-sai-kishore",
@@ -131,7 +131,7 @@
       "wickets": 19,
       "economy": 9.42,
       "bowlingAverage": 20.7,
-      "globalPercentile": 75
+      "globalPercentile": 72
     },
     {
       "id": "i-sharma",
@@ -142,13 +142,13 @@
       "wickets": 4,
       "economy": 11.45,
       "bowlingAverage": 52.5,
-      "globalPercentile": 5
+      "globalPercentile": 4
     },
     {
       "id": "washington-sundar",
       "name": "Washington Sundar",
-      "role": "SPIN_BOWLER",
-      "rating": 48,
+      "role": "MIDDLE_ORDER",
+      "rating": 79,
       "matches": 5,
       "runs": 133,
       "average": 26.6,
@@ -156,12 +156,12 @@
       "wickets": 2,
       "economy": 10.34,
       "bowlingAverage": 56.0,
-      "globalPercentile": 0
+      "globalPercentile": 72
     }
   ],
   "stats": {
     "min": 48,
     "max": 96,
-    "mean": 71.9
+    "mean": 74.3
   }
 }

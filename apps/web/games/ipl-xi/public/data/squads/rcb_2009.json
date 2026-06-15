@@ -14,7 +14,8 @@
       "strikeRate": 116.7,
       "wickets": 3,
       "economy": 7.12,
-      "bowlingAverage": 40.3
+      "bowlingAverage": 40.3,
+      "globalPercentile": 3
     },
     {
       "id": "lrpl-taylor",
@@ -24,7 +25,8 @@
       "matches": 11,
       "runs": 280,
       "average": 31.1,
-      "strikeRate": 135.9
+      "strikeRate": 135.9,
+      "globalPercentile": 51
     },
     {
       "id": "kp-pietersen",
@@ -37,7 +39,8 @@
       "strikeRate": 110.7,
       "wickets": 4,
       "economy": 6.77,
-      "bowlingAverage": 22.0
+      "bowlingAverage": 22.0,
+      "globalPercentile": 7
     },
     {
       "id": "rv-uthappa",
@@ -47,7 +50,8 @@
       "matches": 13,
       "runs": 175,
       "average": 15.9,
-      "strikeRate": 102.9
+      "strikeRate": 102.9,
+      "globalPercentile": 4
     },
     {
       "id": "r-dravid",
@@ -57,7 +61,8 @@
       "matches": 12,
       "runs": 271,
       "average": 24.6,
-      "strikeRate": 115.8
+      "strikeRate": 115.8,
+      "globalPercentile": 24
     },
     {
       "id": "v-kohli",
@@ -69,7 +74,8 @@
       "average": 22.4,
       "strikeRate": 112.3,
       "wickets": 0,
-      "economy": 7.67
+      "economy": 7.67,
+      "globalPercentile": 22
     },
     {
       "id": "b-akhil",
@@ -82,7 +88,8 @@
       "strikeRate": 113.3,
       "wickets": 4,
       "economy": 7.27,
-      "bowlingAverage": 20.0
+      "bowlingAverage": 20.0,
+      "globalPercentile": 72
     },
     {
       "id": "p-kumar",
@@ -95,7 +102,8 @@
       "strikeRate": 141.3,
       "wickets": 13,
       "economy": 8.07,
-      "bowlingAverage": 30.8
+      "bowlingAverage": 30.8,
+      "globalPercentile": 54
     },
     {
       "id": "r-vinay-kumar",
@@ -108,7 +116,8 @@
       "strikeRate": 106.8,
       "wickets": 9,
       "economy": 8.44,
-      "bowlingAverage": 30.3
+      "bowlingAverage": 30.3,
+      "globalPercentile": 41
     },
     {
       "id": "a-kumble",
@@ -121,7 +130,8 @@
       "strikeRate": 84.2,
       "wickets": 21,
       "economy": 5.97,
-      "bowlingAverage": 16.8
+      "bowlingAverage": 16.8,
+      "globalPercentile": 96
     },
     {
       "id": "jh-kallis",
@@ -134,7 +144,8 @@
       "strikeRate": 109.1,
       "wickets": 6,
       "economy": 7.87,
-      "bowlingAverage": 60.3
+      "bowlingAverage": 60.3,
+      "globalPercentile": 21
     },
     {
       "id": "mv-boucher",
@@ -144,7 +155,8 @@
       "matches": 9,
       "runs": 150,
       "average": 30.0,
-      "strikeRate": 131.6
+      "strikeRate": 131.6,
+      "globalPercentile": 48
     },
     {
       "id": "kp-appanna",
@@ -154,7 +166,8 @@
       "matches": 5,
       "wickets": 2,
       "economy": 7.58,
-      "bowlingAverage": 45.5
+      "bowlingAverage": 45.5,
+      "globalPercentile": 11
     },
     {
       "id": "re-van-der-merwe",
@@ -167,7 +180,8 @@
       "strikeRate": 124.5,
       "wickets": 9,
       "economy": 7.74,
-      "bowlingAverage": 29.2
+      "bowlingAverage": 29.2,
+      "globalPercentile": 32
     }
   ],
   "stats": {

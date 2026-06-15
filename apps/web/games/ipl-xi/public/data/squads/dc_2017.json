@@ -11,7 +11,8 @@
       "matches": 7,
       "runs": 364,
       "average": 22.8,
-      "strikeRate": 135.3
+      "strikeRate": 135.3,
+      "globalPercentile": 55
     },
     {
       "id": "kk-nair",
@@ -21,7 +22,8 @@
       "matches": 14,
       "runs": 1135,
       "average": 26.4,
-      "strikeRate": 129.1
+      "strikeRate": 129.1,
+      "globalPercentile": 58
     },
     {
       "id": "sv-samson",
@@ -31,7 +33,8 @@
       "matches": 15,
       "runs": 1063,
       "average": 29.5,
-      "strikeRate": 132.2
+      "strikeRate": 132.2,
+      "globalPercentile": 65
     },
     {
       "id": "rr-pant",
@@ -41,7 +44,8 @@
       "matches": 15,
       "runs": 3663,
       "average": 34.9,
-      "strikeRate": 151.1
+      "strikeRate": 151.1,
+      "globalPercentile": 84
     },
     {
       "id": "ch-morris",
@@ -54,7 +58,8 @@
       "strikeRate": 161.4,
       "wickets": 53,
       "economy": 8.26,
-      "bowlingAverage": 23.8
+      "bowlingAverage": 23.8,
+      "globalPercentile": 92
     },
     {
       "id": "pj-cummins",
@@ -67,7 +72,8 @@
       "strikeRate": 145.3,
       "wickets": 30,
       "economy": 8.51,
-      "bowlingAverage": 26.2
+      "bowlingAverage": 26.2,
+      "globalPercentile": 86
     },
     {
       "id": "a-mishra",
@@ -80,7 +86,8 @@
       "strikeRate": 87.3,
       "wickets": 116,
       "economy": 7.58,
-      "bowlingAverage": 24.8
+      "bowlingAverage": 24.8,
+      "globalPercentile": 92
     },
     {
       "id": "s-nadeem",
@@ -93,7 +100,8 @@
       "strikeRate": 39.1,
       "wickets": 46,
       "economy": 7.36,
-      "bowlingAverage": 34.9
+      "bowlingAverage": 34.9,
+      "globalPercentile": 78
     },
     {
       "id": "z-khan",
@@ -106,7 +114,8 @@
       "strikeRate": 35.9,
       "wickets": 37,
       "economy": 7.73,
-      "bowlingAverage": 31.0
+      "bowlingAverage": 31.0,
+      "globalPercentile": 86
     },
     {
       "id": "cj-anderson",
@@ -119,7 +128,8 @@
       "strikeRate": 116.4,
       "wickets": 6,
       "economy": 9.93,
-      "bowlingAverage": 62.3
+      "bowlingAverage": 62.3,
+      "globalPercentile": 25
     },
     {
       "id": "ss-iyer",
@@ -129,7 +139,8 @@
       "matches": 13,
       "runs": 2717,
       "average": 32.0,
-      "strikeRate": 126.1
+      "strikeRate": 126.1,
+      "globalPercentile": 60
     },
     {
       "id": "mohammed-shami",
@@ -142,7 +153,8 @@
       "strikeRate": 129.2,
       "wickets": 25,
       "economy": 9.43,
-      "bowlingAverage": 50.9
+      "bowlingAverage": 50.9,
+      "globalPercentile": 60
     },
     {
       "id": "k-rabada",
@@ -155,7 +167,8 @@
       "strikeRate": 97.5,
       "wickets": 85,
       "economy": 8.49,
-      "bowlingAverage": 21.3
+      "bowlingAverage": 21.3,
+      "globalPercentile": 91
     },
     {
       "id": "mn-samuels",
@@ -167,7 +180,8 @@
       "average": 9.7,
       "strikeRate": 93.5,
       "wickets": 0,
-      "economy": 11.33
+      "economy": 11.33,
+      "globalPercentile": 0
     }
   ],
   "stats": {

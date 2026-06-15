@@ -39,8 +39,8 @@
     {
       "id": "ls-livingstone",
       "name": "LS Livingstone",
-      "role": "SPIN_BOWLER",
-      "rating": 62,
+      "role": "MIDDLE_ORDER",
+      "rating": 88,
       "matches": 14,
       "runs": 437,
       "average": 36.4,
@@ -48,7 +48,7 @@
       "wickets": 6,
       "economy": 8.4,
       "bowlingAverage": 31.5,
-      "globalPercentile": 24
+      "globalPercentile": 90
     },
     {
       "id": "m-shahrukh-khan",
@@ -59,7 +59,7 @@
       "runs": 117,
       "average": 16.7,
       "strikeRate": 108.3,
-      "globalPercentile": 12
+      "globalPercentile": 10
     },
     {
       "id": "of-smith",
@@ -73,7 +73,7 @@
       "wickets": 6,
       "economy": 11.93,
       "bowlingAverage": 29.8,
-      "globalPercentile": 30
+      "globalPercentile": 26
     },
     {
       "id": "sandeep-sharma",
@@ -84,7 +84,7 @@
       "wickets": 2,
       "economy": 7.8,
       "bowlingAverage": 78.0,
-      "globalPercentile": 23
+      "globalPercentile": 19
     },
     {
       "id": "arshdeep-singh",
@@ -98,7 +98,7 @@
       "wickets": 10,
       "economy": 8.04,
       "bowlingAverage": 40.2,
-      "globalPercentile": 33
+      "globalPercentile": 29
     },
     {
       "id": "rd-chahar",
@@ -112,7 +112,7 @@
       "wickets": 14,
       "economy": 7.82,
       "bowlingAverage": 26.1,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "harpreet-brar",
@@ -126,7 +126,7 @@
       "wickets": 4,
       "economy": 9.25,
       "bowlingAverage": 37.0,
-      "globalPercentile": 16
+      "globalPercentile": 14
     },
     {
       "id": "k-rabada",
@@ -140,7 +140,7 @@
       "wickets": 23,
       "economy": 8.62,
       "bowlingAverage": 18.0,
-      "globalPercentile": 94
+      "globalPercentile": 92
     },
     {
       "id": "jm-sharma",
@@ -151,7 +151,7 @@
       "runs": 234,
       "average": 29.2,
       "strikeRate": 163.6,
-      "globalPercentile": 83
+      "globalPercentile": 87
     },
     {
       "id": "vg-arora",
@@ -165,7 +165,7 @@
       "wickets": 3,
       "economy": 9.25,
       "bowlingAverage": 55.0,
-      "globalPercentile": 18
+      "globalPercentile": 15
     },
     {
       "id": "jm-bairstow",
@@ -190,12 +190,12 @@
       "wickets": 6,
       "economy": 8.63,
       "bowlingAverage": 27.3,
-      "globalPercentile": 58
+      "globalPercentile": 54
     }
   ],
   "stats": {
     "min": 51,
-    "max": 87,
-    "mean": 65.5
+    "max": 88,
+    "mean": 67.3
   }
 }

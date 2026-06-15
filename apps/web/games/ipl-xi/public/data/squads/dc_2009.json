@@ -23,7 +23,7 @@
       "runs": 198,
       "average": 19.8,
       "strikeRate": 147.8,
-      "globalPercentile": 35
+      "globalPercentile": 37
     },
     {
       "id": "dp-nannes",
@@ -34,7 +34,7 @@
       "wickets": 15,
       "economy": 7.76,
       "bowlingAverage": 25.6,
-      "globalPercentile": 75
+      "globalPercentile": 72
     },
     {
       "id": "am-salvi",
@@ -45,7 +45,7 @@
       "wickets": 4,
       "economy": 8.12,
       "bowlingAverage": 34.5,
-      "globalPercentile": 41
+      "globalPercentile": 38
     },
     {
       "id": "pj-sangwan",
@@ -59,7 +59,7 @@
       "wickets": 15,
       "economy": 8.01,
       "bowlingAverage": 24.9,
-      "globalPercentile": 75
+      "globalPercentile": 72
     },
     {
       "id": "dl-vettori",
@@ -73,7 +73,7 @@
       "wickets": 7,
       "economy": 8.03,
       "bowlingAverage": 26.6,
-      "globalPercentile": 67
+      "globalPercentile": 63
     },
     {
       "id": "ab-de-villiers",
@@ -84,20 +84,20 @@
       "runs": 465,
       "average": 51.7,
       "strikeRate": 131.4,
-      "globalPercentile": 81
+      "globalPercentile": 84
     },
     {
       "id": "tm-dilshan",
       "name": "TM Dilshan",
-      "role": "PACE_BOWLER",
-      "rating": 57,
+      "role": "MIDDLE_ORDER",
+      "rating": 76,
       "matches": 13,
       "runs": 418,
       "average": 41.8,
       "strikeRate": 123.3,
       "wickets": 0,
       "economy": 6.19,
-      "globalPercentile": 23
+      "globalPercentile": 66
     },
     {
       "id": "kd-karthik",
@@ -108,7 +108,7 @@
       "runs": 288,
       "average": 36.0,
       "strikeRate": 132.7,
-      "globalPercentile": 61
+      "globalPercentile": 66
     },
     {
       "id": "a-nehra",
@@ -119,7 +119,7 @@
       "wickets": 19,
       "economy": 6.94,
       "bowlingAverage": 18.6,
-      "globalPercentile": 95
+      "globalPercentile": 94
     },
     {
       "id": "m-manhas",
@@ -130,7 +130,7 @@
       "runs": 75,
       "average": 25.0,
       "strikeRate": 121.0,
-      "globalPercentile": 23
+      "globalPercentile": 22
     },
     {
       "id": "a-mishra",
@@ -144,7 +144,7 @@
       "wickets": 14,
       "economy": 7.11,
       "bowlingAverage": 21.4,
-      "globalPercentile": 85
+      "globalPercentile": 82
     },
     {
       "id": "da-warner",
@@ -169,12 +169,12 @@
       "wickets": 10,
       "economy": 7.06,
       "bowlingAverage": 15.3,
-      "globalPercentile": 96
+      "globalPercentile": 95
     }
   ],
   "stats": {
     "min": 54,
     "max": 89,
-    "mean": 71.3
+    "mean": 72.6
   }
 }

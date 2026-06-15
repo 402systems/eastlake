@@ -23,7 +23,7 @@
       "runs": 183,
       "average": 26.1,
       "strikeRate": 150.0,
-      "globalPercentile": 46
+      "globalPercentile": 49
     },
     {
       "id": "rr-pant",
@@ -34,7 +34,7 @@
       "runs": 446,
       "average": 40.5,
       "strikeRate": 155.4,
-      "globalPercentile": 94
+      "globalPercentile": 96
     },
     {
       "id": "t-stubbs",
@@ -59,7 +59,7 @@
       "wickets": 11,
       "economy": 7.73,
       "bowlingAverage": 30.9,
-      "globalPercentile": 41
+      "globalPercentile": 39
     },
     {
       "id": "abishek-porel",
@@ -70,7 +70,7 @@
       "runs": 327,
       "average": 32.7,
       "strikeRate": 160.3,
-      "globalPercentile": 74
+      "globalPercentile": 77
     },
     {
       "id": "kuldeep-yadav",
@@ -84,7 +84,7 @@
       "wickets": 16,
       "economy": 8.74,
       "bowlingAverage": 23.5,
-      "globalPercentile": 73
+      "globalPercentile": 69
     },
     {
       "id": "kk-ahmed",
@@ -95,7 +95,7 @@
       "wickets": 17,
       "economy": 9.86,
       "bowlingAverage": 29.0,
-      "globalPercentile": 51
+      "globalPercentile": 47
     },
     {
       "id": "i-sharma",
@@ -106,7 +106,7 @@
       "wickets": 10,
       "economy": 9.85,
       "bowlingAverage": 26.6,
-      "globalPercentile": 51
+      "globalPercentile": 47
     },
     {
       "id": "mukesh-kumar",
@@ -117,7 +117,7 @@
       "wickets": 17,
       "economy": 10.68,
       "bowlingAverage": 22.3,
-      "globalPercentile": 75
+      "globalPercentile": 72
     },
     {
       "id": "a-nortje",
@@ -128,7 +128,7 @@
       "wickets": 7,
       "economy": 13.55,
       "bowlingAverage": 42.6,
-      "globalPercentile": 23
+      "globalPercentile": 19
     },
     {
       "id": "pp-shaw",
@@ -153,7 +153,7 @@
       "wickets": 9,
       "economy": 11.06,
       "bowlingAverage": 30.1,
-      "globalPercentile": 35
+      "globalPercentile": 32
     },
     {
       "id": "j-fraser-mcgurk",
@@ -164,7 +164,7 @@
       "runs": 330,
       "average": 41.2,
       "strikeRate": 237.4,
-      "globalPercentile": 89
+      "globalPercentile": 90
     }
   ],
   "stats": {

@@ -12,13 +12,13 @@
       "runs": 534,
       "average": 41.1,
       "strikeRate": 141.3,
-      "globalPercentile": 78
+      "globalPercentile": 79
     },
     {
       "id": "v-sehwag",
       "name": "V Sehwag",
-      "role": "PACE_BOWLER",
-      "rating": 46,
+      "role": "OPENER",
+      "rating": 83,
       "matches": 14,
       "runs": 406,
       "average": 36.9,
@@ -26,7 +26,7 @@
       "wickets": 3,
       "economy": 12.18,
       "bowlingAverage": 44.7,
-      "globalPercentile": 3
+      "globalPercentile": 83
     },
     {
       "id": "s-dhawan",
@@ -37,7 +37,7 @@
       "runs": 340,
       "average": 37.8,
       "strikeRate": 115.3,
-      "globalPercentile": 41
+      "globalPercentile": 42
     },
     {
       "id": "gd-mcgrath",
@@ -48,7 +48,7 @@
       "wickets": 12,
       "economy": 6.78,
       "bowlingAverage": 30.5,
-      "globalPercentile": 67
+      "globalPercentile": 63
     },
     {
       "id": "mf-maharoof",
@@ -62,7 +62,7 @@
       "wickets": 15,
       "economy": 7.08,
       "bowlingAverage": 17.0,
-      "globalPercentile": 96
+      "globalPercentile": 95
     },
     {
       "id": "r-bhatia",
@@ -76,7 +76,7 @@
       "wickets": 6,
       "economy": 8.41,
       "bowlingAverage": 30.8,
-      "globalPercentile": 38
+      "globalPercentile": 35
     },
     {
       "id": "mohammad-asif",
@@ -87,7 +87,7 @@
       "wickets": 8,
       "economy": 9.59,
       "bowlingAverage": 38.4,
-      "globalPercentile": 30
+      "globalPercentile": 26
     },
     {
       "id": "vy-mahesh",
@@ -101,12 +101,12 @@
       "wickets": 16,
       "economy": 9.01,
       "bowlingAverage": 23.8,
-      "globalPercentile": 78
+      "globalPercentile": 74
     },
     {
       "id": "shoaib-malik",
       "name": "Shoaib Malik",
-      "role": "SPIN_BOWLER",
+      "role": "ALL_ROUNDER",
       "rating": 48,
       "matches": 5,
       "runs": 52,
@@ -115,7 +115,7 @@
       "wickets": 2,
       "economy": 10.24,
       "bowlingAverage": 43.5,
-      "globalPercentile": 0
+      "globalPercentile": 6
     },
     {
       "id": "mk-tiwary",
@@ -137,7 +137,7 @@
       "runs": 145,
       "average": 24.2,
       "strikeRate": 135.5,
-      "globalPercentile": 42
+      "globalPercentile": 43
     },
     {
       "id": "ab-de-villiers",
@@ -159,7 +159,7 @@
       "wickets": 5,
       "economy": 9.21,
       "bowlingAverage": 44.2,
-      "globalPercentile": 23
+      "globalPercentile": 19
     },
     {
       "id": "tm-dilshan",
@@ -170,7 +170,7 @@
       "runs": 104,
       "average": 26.0,
       "strikeRate": 133.3,
-      "globalPercentile": 36
+      "globalPercentile": 37
     },
     {
       "id": "a-mishra",
@@ -184,12 +184,12 @@
       "wickets": 11,
       "economy": 7.06,
       "bowlingAverage": 12.7,
-      "globalPercentile": 100
+      "globalPercentile": 99
     }
   ],
   "stats": {
-    "min": 46,
+    "min": 48,
     "max": 94,
-    "mean": 66.5
+    "mean": 69.0
   }
 }

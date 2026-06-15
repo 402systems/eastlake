@@ -23,13 +23,13 @@
       "runs": 359,
       "average": 27.6,
       "strikeRate": 122.1,
-      "globalPercentile": 35
+      "globalPercentile": 37
     },
     {
       "id": "yuvraj-singh",
       "name": "Yuvraj Singh",
-      "role": "SPIN_BOWLER",
-      "rating": 57,
+      "role": "ALL_ROUNDER",
+      "rating": 70,
       "matches": 14,
       "runs": 376,
       "average": 37.6,
@@ -37,7 +37,7 @@
       "wickets": 5,
       "economy": 8.43,
       "bowlingAverage": 38.2,
-      "globalPercentile": 11
+      "globalPercentile": 64
     },
     {
       "id": "ma-starc",
@@ -51,7 +51,7 @@
       "wickets": 14,
       "economy": 7.81,
       "bowlingAverage": 29.9,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "ja-morkel",
@@ -65,7 +65,7 @@
       "wickets": 4,
       "economy": 7.94,
       "bowlingAverage": 31.8,
-      "globalPercentile": 41
+      "globalPercentile": 38
     },
     {
       "id": "vr-aaron",
@@ -79,7 +79,7 @@
       "wickets": 16,
       "economy": 8.43,
       "bowlingAverage": 19.3,
-      "globalPercentile": 90
+      "globalPercentile": 88
     },
     {
       "id": "ys-chahal",
@@ -90,7 +90,7 @@
       "wickets": 12,
       "economy": 7.07,
       "bowlingAverage": 32.4,
-      "globalPercentile": 46
+      "globalPercentile": 44
     },
     {
       "id": "ab-dinda",
@@ -104,7 +104,7 @@
       "wickets": 5,
       "economy": 8.74,
       "bowlingAverage": 54.2,
-      "globalPercentile": 20
+      "globalPercentile": 17
     },
     {
       "id": "ab-de-villiers",
@@ -115,7 +115,7 @@
       "runs": 395,
       "average": 35.9,
       "strikeRate": 159.3,
-      "globalPercentile": 92
+      "globalPercentile": 94
     },
     {
       "id": "yv-takawale",
@@ -137,7 +137,7 @@
       "wickets": 3,
       "economy": 7.81,
       "bowlingAverage": 41.7,
-      "globalPercentile": 20
+      "globalPercentile": 18
     },
     {
       "id": "s-rana",
@@ -148,7 +148,7 @@
       "runs": 73,
       "average": 24.3,
       "strikeRate": 114.1,
-      "globalPercentile": 16
+      "globalPercentile": 14
     },
     {
       "id": "ch-gayle",
@@ -165,6 +165,6 @@
   "stats": {
     "min": 53,
     "max": 85,
-    "mean": 64.0
+    "mean": 65.0
   }
 }

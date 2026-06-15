@@ -53,7 +53,7 @@ export default function HomePage() {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-purple-400 opacity-75" />
             <span className="relative inline-flex h-2 w-2 rounded-full bg-purple-400" />
           </span>
-          18 seasons · 14 franchises
+          19 seasons · 15 franchises
         </div>
 
         {/* Title */}

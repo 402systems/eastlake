@@ -6,7 +6,7 @@
     {
       "id": "ch-gayle",
       "name": "CH Gayle",
-      "role": "PACE_BOWLER",
+      "role": "OPENER",
       "rating": 67,
       "matches": 10,
       "runs": 227,
@@ -15,7 +15,7 @@
       "wickets": 2,
       "economy": 6.5,
       "bowlingAverage": 32.5,
-      "globalPercentile": 48
+      "globalPercentile": 41
     },
     {
       "id": "v-kohli",
@@ -37,13 +37,13 @@
       "runs": 687,
       "average": 52.8,
       "strikeRate": 169.6,
-      "globalPercentile": 99
+      "globalPercentile": 100
     },
     {
       "id": "sr-watson",
       "name": "SR Watson",
-      "role": "PACE_BOWLER",
-      "rating": 75,
+      "role": "MIDDLE_ORDER",
+      "rating": 55,
       "matches": 16,
       "runs": 179,
       "average": 13.8,
@@ -51,7 +51,7 @@
       "wickets": 20,
       "economy": 8.67,
       "bowlingAverage": 24.5,
-      "globalPercentile": 72
+      "globalPercentile": 15
     },
     {
       "id": "hv-patel",
@@ -62,7 +62,7 @@
       "wickets": 1,
       "economy": 10.5,
       "bowlingAverage": 147.0,
-      "globalPercentile": 2
+      "globalPercentile": 1
     },
     {
       "id": "ys-chahal",
@@ -73,7 +73,7 @@
       "wickets": 21,
       "economy": 8.32,
       "bowlingAverage": 19.5,
-      "globalPercentile": 90
+      "globalPercentile": 87
     },
     {
       "id": "s-aravind",
@@ -84,7 +84,7 @@
       "wickets": 11,
       "economy": 7.61,
       "bowlingAverage": 20.2,
-      "globalPercentile": 86
+      "globalPercentile": 82
     },
     {
       "id": "kl-rahul",
@@ -95,7 +95,7 @@
       "runs": 397,
       "average": 44.1,
       "strikeRate": 146.5,
-      "globalPercentile": 84
+      "globalPercentile": 86
     },
     {
       "id": "str-binny",
@@ -109,7 +109,7 @@
       "wickets": 1,
       "economy": 7.88,
       "bowlingAverage": 134.0,
-      "globalPercentile": 11
+      "globalPercentile": 9
     },
     {
       "id": "vr-aaron",
@@ -120,7 +120,7 @@
       "wickets": 2,
       "economy": 9.68,
       "bowlingAverage": 114.5,
-      "globalPercentile": 5
+      "globalPercentile": 4
     },
     {
       "id": "iqbal-abdulla",
@@ -131,7 +131,7 @@
       "wickets": 6,
       "economy": 8.64,
       "bowlingAverage": 36.0,
-      "globalPercentile": 23
+      "globalPercentile": 21
     },
     {
       "id": "sachin-baby",
@@ -142,7 +142,7 @@
       "runs": 119,
       "average": 29.8,
       "strikeRate": 154.5,
-      "globalPercentile": 71
+      "globalPercentile": 76
     },
     {
       "id": "cj-jordan",
@@ -153,12 +153,12 @@
       "wickets": 11,
       "economy": 9.5,
       "bowlingAverage": 24.2,
-      "globalPercentile": 64
+      "globalPercentile": 60
     }
   ],
   "stats": {
     "min": 45,
     "max": 98,
-    "mean": 72.0
+    "mean": 70.5
   }
 }

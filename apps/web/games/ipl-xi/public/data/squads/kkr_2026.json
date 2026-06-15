@@ -23,13 +23,13 @@
       "runs": 349,
       "average": 34.9,
       "strikeRate": 214.1,
-      "globalPercentile": 82
+      "globalPercentile": 83
     },
     {
       "id": "c-green",
       "name": "C Green",
-      "role": "PACE_BOWLER",
-      "rating": 54,
+      "role": "MIDDLE_ORDER",
+      "rating": 76,
       "matches": 14,
       "runs": 322,
       "average": 35.8,
@@ -37,7 +37,7 @@
       "wickets": 7,
       "economy": 10.95,
       "bowlingAverage": 34.4,
-      "globalPercentile": 16
+      "globalPercentile": 66
     },
     {
       "id": "a-raghuvanshi",
@@ -48,7 +48,7 @@
       "runs": 422,
       "average": 52.8,
       "strikeRate": 147.0,
-      "globalPercentile": 90
+      "globalPercentile": 92
     },
     {
       "id": "rk-singh",
@@ -59,7 +59,7 @@
       "runs": 299,
       "average": 59.8,
       "strikeRate": 151.0,
-      "globalPercentile": 87
+      "globalPercentile": 91
     },
     {
       "id": "vg-arora",
@@ -70,7 +70,7 @@
       "wickets": 11,
       "economy": 10.42,
       "bowlingAverage": 36.0,
-      "globalPercentile": 30
+      "globalPercentile": 26
     },
     {
       "id": "cv-varun",
@@ -81,7 +81,7 @@
       "wickets": 11,
       "economy": 8.85,
       "bowlingAverage": 33.0,
-      "globalPercentile": 36
+      "globalPercentile": 34
     },
     {
       "id": "kartik-tyagi",
@@ -95,7 +95,7 @@
       "wickets": 18,
       "economy": 9.88,
       "bowlingAverage": 28.0,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "sp-narine",
@@ -109,7 +109,7 @@
       "wickets": 17,
       "economy": 6.8,
       "bowlingAverage": 20.6,
-      "globalPercentile": 90
+      "globalPercentile": 87
     },
     {
       "id": "as-roy",
@@ -123,7 +123,7 @@
       "wickets": 9,
       "economy": 9.72,
       "bowlingAverage": 29.3,
-      "globalPercentile": 24
+      "globalPercentile": 23
     },
     {
       "id": "r-powell",
@@ -134,12 +134,12 @@
       "runs": 190,
       "average": 47.5,
       "strikeRate": 135.7,
-      "globalPercentile": 80
+      "globalPercentile": 85
     }
   ],
   "stats": {
-    "min": 54,
+    "min": 60,
     "max": 89,
-    "mean": 72.4
+    "mean": 74.4
   }
 }

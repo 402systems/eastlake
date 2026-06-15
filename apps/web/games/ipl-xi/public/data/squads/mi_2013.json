@@ -23,7 +23,7 @@
       "runs": 287,
       "average": 22.1,
       "strikeRate": 124.2,
-      "globalPercentile": 19
+      "globalPercentile": 18
     },
     {
       "id": "kd-karthik",
@@ -34,7 +34,7 @@
       "runs": 510,
       "average": 30.0,
       "strikeRate": 124.7,
-      "globalPercentile": 43
+      "globalPercentile": 44
     },
     {
       "id": "rg-sharma",
@@ -45,7 +45,7 @@
       "runs": 538,
       "average": 38.4,
       "strikeRate": 131.9,
-      "globalPercentile": 62
+      "globalPercentile": 63
     },
     {
       "id": "at-rayudu",
@@ -56,7 +56,7 @@
       "runs": 265,
       "average": 22.1,
       "strikeRate": 115.7,
-      "globalPercentile": 23
+      "globalPercentile": 22
     },
     {
       "id": "harbhajan-singh",
@@ -70,13 +70,13 @@
       "wickets": 24,
       "economy": 6.66,
       "bowlingAverage": 19.4,
-      "globalPercentile": 90
+      "globalPercentile": 87
     },
     {
       "id": "ka-pollard",
       "name": "KA Pollard",
-      "role": "PACE_BOWLER",
-      "rating": 62,
+      "role": "ALL_ROUNDER",
+      "rating": 75,
       "matches": 18,
       "runs": 420,
       "average": 42.0,
@@ -84,7 +84,7 @@
       "wickets": 10,
       "economy": 9.42,
       "bowlingAverage": 29.2,
-      "globalPercentile": 35
+      "globalPercentile": 78
     },
     {
       "id": "mg-johnson",
@@ -98,7 +98,7 @@
       "wickets": 24,
       "economy": 7.36,
       "bowlingAverage": 19.6,
-      "globalPercentile": 92
+      "globalPercentile": 90
     },
     {
       "id": "dr-smith",
@@ -126,7 +126,7 @@
       "wickets": 16,
       "economy": 7.47,
       "bowlingAverage": 24.4,
-      "globalPercentile": 67
+      "globalPercentile": 63
     },
     {
       "id": "sl-malinga",
@@ -140,7 +140,7 @@
       "wickets": 20,
       "economy": 7.41,
       "bowlingAverage": 24.2,
-      "globalPercentile": 83
+      "globalPercentile": 79
     },
     {
       "id": "r-dhawan",
@@ -154,7 +154,7 @@
       "wickets": 2,
       "economy": 7.67,
       "bowlingAverage": 57.5,
-      "globalPercentile": 23
+      "globalPercentile": 19
     },
     {
       "id": "ds-kulkarni",
@@ -165,7 +165,7 @@
       "wickets": 8,
       "economy": 7.83,
       "bowlingAverage": 17.6,
-      "globalPercentile": 94
+      "globalPercentile": 92
     },
     {
       "id": "ap-tare",
@@ -182,6 +182,6 @@
   "stats": {
     "min": 43,
     "max": 87,
-    "mean": 69.4
+    "mean": 70.3
   }
 }

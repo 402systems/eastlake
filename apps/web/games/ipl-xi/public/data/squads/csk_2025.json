@@ -12,7 +12,7 @@
       "runs": 191,
       "average": 27.3,
       "strikeRate": 129.9,
-      "globalPercentile": 34
+      "globalPercentile": 35
     },
     {
       "id": "ra-tripathi",
@@ -34,7 +34,7 @@
       "runs": 122,
       "average": 24.4,
       "strikeRate": 150.6,
-      "globalPercentile": 53
+      "globalPercentile": 54
     },
     {
       "id": "s-dube",
@@ -45,7 +45,7 @@
       "runs": 357,
       "average": 32.5,
       "strikeRate": 133.2,
-      "globalPercentile": 61
+      "globalPercentile": 66
     },
     {
       "id": "dj-hooda",
@@ -61,8 +61,8 @@
     {
       "id": "sm-curran",
       "name": "SM Curran",
-      "role": "PACE_BOWLER",
-      "rating": 43,
+      "role": "MIDDLE_ORDER",
+      "rating": 66,
       "matches": 5,
       "runs": 114,
       "average": 22.8,
@@ -70,7 +70,7 @@
       "wickets": 1,
       "economy": 11.25,
       "bowlingAverage": 135.0,
-      "globalPercentile": 1
+      "globalPercentile": 40
     },
     {
       "id": "ra-jadeja",
@@ -84,7 +84,7 @@
       "wickets": 10,
       "economy": 8.39,
       "bowlingAverage": 31.6,
-      "globalPercentile": 33
+      "globalPercentile": 31
     },
     {
       "id": "kk-ahmed",
@@ -95,7 +95,7 @@
       "wickets": 15,
       "economy": 9.73,
       "bowlingAverage": 30.3,
-      "globalPercentile": 45
+      "globalPercentile": 41
     },
     {
       "id": "r-ashwin",
@@ -109,7 +109,7 @@
       "wickets": 7,
       "economy": 9.23,
       "bowlingAverage": 40.9,
-      "globalPercentile": 11
+      "globalPercentile": 9
     },
     {
       "id": "noor-ahmad",
@@ -123,7 +123,7 @@
       "wickets": 24,
       "economy": 8.32,
       "bowlingAverage": 17.3,
-      "globalPercentile": 94
+      "globalPercentile": 92
     },
     {
       "id": "m-pathirana",
@@ -134,7 +134,7 @@
       "wickets": 13,
       "economy": 10.28,
       "bowlingAverage": 33.1,
-      "globalPercentile": 35
+      "globalPercentile": 32
     },
     {
       "id": "v-shankar",
@@ -145,7 +145,7 @@
       "runs": 118,
       "average": 39.3,
       "strikeRate": 131.1,
-      "globalPercentile": 69
+      "globalPercentile": 74
     },
     {
       "id": "dp-conway",
@@ -170,7 +170,7 @@
       "wickets": 8,
       "economy": 8.05,
       "bowlingAverage": 21.6,
-      "globalPercentile": 72
+      "globalPercentile": 68
     },
     {
       "id": "sk-rasheed",
@@ -192,7 +192,7 @@
       "runs": 240,
       "average": 34.3,
       "strikeRate": 189.0,
-      "globalPercentile": 84
+      "globalPercentile": 85
     },
     {
       "id": "d-brevis",
@@ -209,6 +209,6 @@
   "stats": {
     "min": 42,
     "max": 94,
-    "mean": 65.6
+    "mean": 67.0
   }
 }

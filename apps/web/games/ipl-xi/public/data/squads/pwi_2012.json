@@ -12,7 +12,7 @@
       "runs": 143,
       "average": 20.4,
       "strikeRate": 130.0,
-      "globalPercentile": 18
+      "globalPercentile": 21
     },
     {
       "id": "wd-parnell",
@@ -26,13 +26,13 @@
       "wickets": 5,
       "economy": 6.33,
       "bowlingAverage": 26.6,
-      "globalPercentile": 75
+      "globalPercentile": 72
     },
     {
       "id": "sc-ganguly",
       "name": "SC Ganguly",
-      "role": "PACE_BOWLER",
-      "rating": 52,
+      "role": "MIDDLE_ORDER",
+      "rating": 51,
       "matches": 15,
       "runs": 268,
       "average": 19.1,
@@ -40,7 +40,7 @@
       "wickets": 2,
       "economy": 9.7,
       "bowlingAverage": 48.5,
-      "globalPercentile": 11
+      "globalPercentile": 8
     },
     {
       "id": "rv-uthappa",
@@ -51,7 +51,7 @@
       "runs": 405,
       "average": 28.9,
       "strikeRate": 118.4,
-      "globalPercentile": 30
+      "globalPercentile": 34
     },
     {
       "id": "spd-smith",
@@ -62,13 +62,13 @@
       "runs": 362,
       "average": 40.2,
       "strikeRate": 138.2,
-      "globalPercentile": 78
+      "globalPercentile": 82
     },
     {
       "id": "mn-samuels",
       "name": "MN Samuels",
-      "role": "PACE_BOWLER",
-      "rating": 74,
+      "role": "ALL_ROUNDER",
+      "rating": 61,
       "matches": 8,
       "runs": 124,
       "average": 20.7,
@@ -76,7 +76,7 @@
       "wickets": 8,
       "economy": 7.57,
       "bowlingAverage": 27.1,
-      "globalPercentile": 69
+      "globalPercentile": 34
     },
     {
       "id": "b-kumar",
@@ -90,7 +90,7 @@
       "wickets": 8,
       "economy": 7.51,
       "bowlingAverage": 36.6,
-      "globalPercentile": 41
+      "globalPercentile": 38
     },
     {
       "id": "m-kartik",
@@ -104,7 +104,7 @@
       "wickets": 4,
       "economy": 7.42,
       "bowlingAverage": 66.8,
-      "globalPercentile": 13
+      "globalPercentile": 11
     },
     {
       "id": "ab-dinda",
@@ -115,7 +115,7 @@
       "wickets": 9,
       "economy": 7.12,
       "bowlingAverage": 19.0,
-      "globalPercentile": 90
+      "globalPercentile": 88
     },
     {
       "id": "r-sharma",
@@ -129,7 +129,7 @@
       "wickets": 9,
       "economy": 8.24,
       "bowlingAverage": 33.9,
-      "globalPercentile": 33
+      "globalPercentile": 31
     },
     {
       "id": "jd-ryder",
@@ -154,13 +154,13 @@
       "wickets": 11,
       "economy": 8.56,
       "bowlingAverage": 37.4,
-      "globalPercentile": 35
+      "globalPercentile": 32
     },
     {
       "id": "ad-mathews",
       "name": "AD Mathews",
-      "role": "PACE_BOWLER",
-      "rating": 71,
+      "role": "ALL_ROUNDER",
+      "rating": 61,
       "matches": 9,
       "runs": 127,
       "average": 21.2,
@@ -168,7 +168,7 @@
       "wickets": 7,
       "economy": 7.5,
       "bowlingAverage": 27.9,
-      "globalPercentile": 61
+      "globalPercentile": 34
     },
     {
       "id": "m-manhas",
@@ -184,8 +184,8 @@
     {
       "id": "mj-clarke",
       "name": "MJ Clarke",
-      "role": "PACE_BOWLER",
-      "rating": 64,
+      "role": "MIDDLE_ORDER",
+      "rating": 49,
       "matches": 6,
       "runs": 98,
       "average": 16.3,
@@ -193,12 +193,12 @@
       "wickets": 2,
       "economy": 6.55,
       "bowlingAverage": 36.0,
-      "globalPercentile": 38
+      "globalPercentile": 5
     }
   ],
   "stats": {
-    "min": 52,
+    "min": 49,
     "max": 84,
-    "mean": 66.5
+    "mean": 63.9
   }
 }

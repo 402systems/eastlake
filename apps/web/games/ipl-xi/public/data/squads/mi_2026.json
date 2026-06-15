@@ -12,7 +12,7 @@
       "runs": 448,
       "average": 40.7,
       "strikeRate": 186.7,
-      "globalPercentile": 89
+      "globalPercentile": 90
     },
     {
       "id": "rg-sharma",
@@ -34,7 +34,7 @@
       "runs": 270,
       "average": 20.8,
       "strikeRate": 147.5,
-      "globalPercentile": 41
+      "globalPercentile": 42
     },
     {
       "id": "tilak-varma",
@@ -45,7 +45,7 @@
       "runs": 359,
       "average": 29.9,
       "strikeRate": 145.9,
-      "globalPercentile": 74
+      "globalPercentile": 78
     },
     {
       "id": "hh-pandya",
@@ -70,7 +70,7 @@
       "runs": 318,
       "average": 26.5,
       "strikeRate": 147.2,
-      "globalPercentile": 49
+      "globalPercentile": 51
     },
     {
       "id": "ta-boult",
@@ -81,7 +81,7 @@
       "wickets": 2,
       "economy": 11.63,
       "bowlingAverage": 94.0,
-      "globalPercentile": 3
+      "globalPercentile": 2
     },
     {
       "id": "am-ghazanfar",
@@ -92,7 +92,7 @@
       "wickets": 15,
       "economy": 10.04,
       "bowlingAverage": 26.0,
-      "globalPercentile": 49
+      "globalPercentile": 47
     },
     {
       "id": "jj-bumrah",
@@ -103,7 +103,7 @@
       "wickets": 4,
       "economy": 8.57,
       "bowlingAverage": 105.0,
-      "globalPercentile": 13
+      "globalPercentile": 11
     },
     {
       "id": "sn-thakur",
@@ -117,7 +117,7 @@
       "wickets": 12,
       "economy": 12.27,
       "bowlingAverage": 22.5,
-      "globalPercentile": 72
+      "globalPercentile": 68
     },
     {
       "id": "se-rutherford",
@@ -128,7 +128,7 @@
       "runs": 123,
       "average": 24.6,
       "strikeRate": 166.2,
-      "globalPercentile": 71
+      "globalPercentile": 76
     },
     {
       "id": "c-bosch",
@@ -142,7 +142,7 @@
       "wickets": 12,
       "economy": 9.77,
       "bowlingAverage": 16.4,
-      "globalPercentile": 90
+      "globalPercentile": 88
     },
     {
       "id": "dl-chahar",
@@ -156,13 +156,13 @@
       "wickets": 8,
       "economy": 10.55,
       "bowlingAverage": 33.6,
-      "globalPercentile": 30
+      "globalPercentile": 26
     },
     {
       "id": "wg-jacks",
       "name": "WG Jacks",
-      "role": "PACE_BOWLER",
-      "rating": 46,
+      "role": "ALL_ROUNDER",
+      "rating": 71,
       "matches": 7,
       "runs": 139,
       "average": 27.8,
@@ -170,7 +170,7 @@
       "wickets": 2,
       "economy": 10.88,
       "bowlingAverage": 43.5,
-      "globalPercentile": 3
+      "globalPercentile": 66
     },
     {
       "id": "raghu-sharma",
@@ -181,12 +181,12 @@
       "wickets": 1,
       "economy": 8.67,
       "bowlingAverage": 130.0,
-      "globalPercentile": 9
+      "globalPercentile": 8
     }
   ],
   "stats": {
     "min": 46,
     "max": 88,
-    "mean": 66.5
+    "mean": 68.1
   }
 }

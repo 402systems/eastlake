@@ -34,7 +34,7 @@
       "runs": 424,
       "average": 32.6,
       "strikeRate": 130.9,
-      "globalPercentile": 53
+      "globalPercentile": 54
     },
     {
       "id": "ka-pollard",
@@ -45,7 +45,7 @@
       "runs": 281,
       "average": 35.1,
       "strikeRate": 159.7,
-      "globalPercentile": 84
+      "globalPercentile": 88
     },
     {
       "id": "hh-pandya",
@@ -59,7 +59,7 @@
       "wickets": 14,
       "economy": 9.34,
       "bowlingAverage": 28.4,
-      "globalPercentile": 90
+      "globalPercentile": 93
     },
     {
       "id": "kh-pandya",
@@ -73,7 +73,7 @@
       "wickets": 12,
       "economy": 7.33,
       "bowlingAverage": 28.1,
-      "globalPercentile": 49
+      "globalPercentile": 47
     },
     {
       "id": "mj-mcclenaghan",
@@ -87,7 +87,7 @@
       "wickets": 3,
       "economy": 7.94,
       "bowlingAverage": 47.7,
-      "globalPercentile": 28
+      "globalPercentile": 24
     },
     {
       "id": "jj-bumrah",
@@ -98,7 +98,7 @@
       "wickets": 20,
       "economy": 6.95,
       "bowlingAverage": 21.6,
-      "globalPercentile": 89
+      "globalPercentile": 86
     },
     {
       "id": "sl-malinga",
@@ -109,7 +109,7 @@
       "wickets": 16,
       "economy": 10.08,
       "bowlingAverage": 28.2,
-      "globalPercentile": 55
+      "globalPercentile": 51
     },
     {
       "id": "jp-behrendorff",
@@ -120,7 +120,7 @@
       "wickets": 5,
       "economy": 8.84,
       "bowlingAverage": 33.6,
-      "globalPercentile": 45
+      "globalPercentile": 41
     },
     {
       "id": "rd-chahar",
@@ -134,7 +134,7 @@
       "wickets": 13,
       "economy": 6.6,
       "bowlingAverage": 23.8,
-      "globalPercentile": 73
+      "globalPercentile": 69
     },
     {
       "id": "ishan-kishan",

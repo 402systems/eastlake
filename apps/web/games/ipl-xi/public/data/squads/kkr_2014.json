@@ -17,8 +17,8 @@
     {
       "id": "jh-kallis",
       "name": "JH Kallis",
-      "role": "PACE_BOWLER",
-      "rating": 55,
+      "role": "OPENER",
+      "rating": 60,
       "matches": 8,
       "runs": 151,
       "average": 25.2,
@@ -26,7 +26,7 @@
       "wickets": 4,
       "economy": 8.77,
       "bowlingAverage": 48.2,
-      "globalPercentile": 18
+      "globalPercentile": 21
     },
     {
       "id": "mk-pandey",
@@ -37,7 +37,7 @@
       "runs": 409,
       "average": 31.5,
       "strikeRate": 119.2,
-      "globalPercentile": 35
+      "globalPercentile": 37
     },
     {
       "id": "rv-uthappa",
@@ -48,7 +48,7 @@
       "runs": 660,
       "average": 44.0,
       "strikeRate": 138.1,
-      "globalPercentile": 82
+      "globalPercentile": 83
     },
     {
       "id": "yk-pathan",
@@ -59,7 +59,7 @@
       "runs": 268,
       "average": 29.8,
       "strikeRate": 162.4,
-      "globalPercentile": 80
+      "globalPercentile": 85
     },
     {
       "id": "shakib-al-hasan",
@@ -73,7 +73,7 @@
       "wickets": 11,
       "economy": 6.78,
       "bowlingAverage": 30.8,
-      "globalPercentile": 51
+      "globalPercentile": 49
     },
     {
       "id": "sa-yadav",
@@ -84,7 +84,7 @@
       "runs": 164,
       "average": 27.3,
       "strikeRate": 142.6,
-      "globalPercentile": 50
+      "globalPercentile": 52
     },
     {
       "id": "r-vinay-kumar",
@@ -95,7 +95,7 @@
       "wickets": 7,
       "economy": 9.19,
       "bowlingAverage": 42.0,
-      "globalPercentile": 25
+      "globalPercentile": 21
     },
     {
       "id": "m-morkel",
@@ -106,7 +106,7 @@
       "wickets": 12,
       "economy": 7.83,
       "bowlingAverage": 31.3,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "sp-narine",
@@ -120,7 +120,7 @@
       "wickets": 21,
       "economy": 6.65,
       "bowlingAverage": 20.6,
-      "globalPercentile": 90
+      "globalPercentile": 87
     },
     {
       "id": "pp-chawla",
@@ -134,7 +134,7 @@
       "wickets": 14,
       "economy": 7.7,
       "bowlingAverage": 21.7,
-      "globalPercentile": 78
+      "globalPercentile": 74
     },
     {
       "id": "ut-yadav",
@@ -145,7 +145,7 @@
       "wickets": 11,
       "economy": 8.47,
       "bowlingAverage": 34.6,
-      "globalPercentile": 41
+      "globalPercentile": 38
     },
     {
       "id": "rn-ten-doeschate",
@@ -163,8 +163,8 @@
     }
   ],
   "stats": {
-    "min": 55,
+    "min": 58,
     "max": 85,
-    "mean": 69.1
+    "mean": 69.5
   }
 }

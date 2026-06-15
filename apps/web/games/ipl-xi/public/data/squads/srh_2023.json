@@ -14,7 +14,8 @@
       "strikeRate": 144.9,
       "wickets": 2,
       "economy": 10.58,
-      "bowlingAverage": 63.5
+      "bowlingAverage": 63.5,
+      "globalPercentile": 28
     },
     {
       "id": "ra-tripathi",
@@ -24,7 +25,8 @@
       "matches": 13,
       "runs": 273,
       "average": 22.8,
-      "strikeRate": 128.8
+      "strikeRate": 128.8,
+      "globalPercentile": 29
     },
     {
       "id": "hc-brook",
@@ -34,7 +36,8 @@
       "matches": 11,
       "runs": 190,
       "average": 21.1,
-      "strikeRate": 124.2
+      "strikeRate": 124.2,
+      "globalPercentile": 19
     },
     {
       "id": "ma-agarwal",
@@ -44,7 +47,8 @@
       "matches": 10,
       "runs": 270,
       "average": 27.0,
-      "strikeRate": 129.8
+      "strikeRate": 129.8,
+      "globalPercentile": 44
     },
     {
       "id": "washington-sundar",
@@ -57,7 +61,8 @@
       "strikeRate": 100.0,
       "wickets": 3,
       "economy": 8.26,
-      "bowlingAverage": 48.7
+      "bowlingAverage": 48.7,
+      "globalPercentile": 6
     },
     {
       "id": "gd-phillips",
@@ -67,7 +72,8 @@
       "matches": 5,
       "runs": 39,
       "average": 7.8,
-      "strikeRate": 177.3
+      "strikeRate": 177.3,
+      "globalPercentile": 43
     },
     {
       "id": "b-kumar",
@@ -80,7 +86,8 @@
       "strikeRate": 89.4,
       "wickets": 16,
       "economy": 8.47,
-      "bowlingAverage": 27.0
+      "bowlingAverage": 27.0,
+      "globalPercentile": 63
     },
     {
       "id": "umran-malik",
@@ -90,7 +97,8 @@
       "matches": 8,
       "wickets": 5,
       "economy": 10.95,
-      "bowlingAverage": 43.8
+      "bowlingAverage": 43.8,
+      "globalPercentile": 6
     },
     {
       "id": "t-natarajan",
@@ -100,7 +108,8 @@
       "matches": 12,
       "wickets": 10,
       "economy": 9.24,
-      "bowlingAverage": 41.6
+      "bowlingAverage": 41.6,
+      "globalPercentile": 21
     },
     {
       "id": "ak-markram",
@@ -113,7 +122,8 @@
       "strikeRate": 125.9,
       "wickets": 1,
       "economy": 8.75,
-      "bowlingAverage": 70.0
+      "bowlingAverage": 70.0,
+      "globalPercentile": 24
     },
     {
       "id": "m-jansen",
@@ -126,7 +136,8 @@
       "strikeRate": 90.7,
       "wickets": 10,
       "economy": 10.11,
-      "bowlingAverage": 27.3
+      "bowlingAverage": 27.3,
+      "globalPercentile": 51
     },
     {
       "id": "m-markande",
@@ -139,7 +150,8 @@
       "strikeRate": 161.5,
       "wickets": 12,
       "economy": 7.89,
-      "bowlingAverage": 25.0
+      "bowlingAverage": 25.0,
+      "globalPercentile": 63
     },
     {
       "id": "h-klaasen",
@@ -149,7 +161,8 @@
       "matches": 11,
       "runs": 448,
       "average": 49.8,
-      "strikeRate": 178.5
+      "strikeRate": 178.5,
+      "globalPercentile": 100
     }
   ],
   "stats": {

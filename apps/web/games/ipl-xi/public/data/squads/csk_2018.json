@@ -6,8 +6,8 @@
     {
       "id": "sr-watson",
       "name": "SR Watson",
-      "role": "PACE_BOWLER",
-      "rating": 55,
+      "role": "OPENER",
+      "rating": 85,
       "matches": 15,
       "runs": 555,
       "average": 42.7,
@@ -15,7 +15,7 @@
       "wickets": 6,
       "economy": 9.0,
       "bowlingAverage": 42.0,
-      "globalPercentile": 18
+      "globalPercentile": 86
     },
     {
       "id": "at-rayudu",
@@ -26,7 +26,7 @@
       "runs": 602,
       "average": 46.3,
       "strikeRate": 150.1,
-      "globalPercentile": 91
+      "globalPercentile": 93
     },
     {
       "id": "sk-raina",
@@ -37,7 +37,7 @@
       "runs": 445,
       "average": 37.1,
       "strikeRate": 132.8,
-      "globalPercentile": 62
+      "globalPercentile": 63
     },
     {
       "id": "ms-dhoni",
@@ -48,7 +48,7 @@
       "runs": 455,
       "average": 75.8,
       "strikeRate": 151.2,
-      "globalPercentile": 92
+      "globalPercentile": 94
     },
     {
       "id": "ra-jadeja",
@@ -62,13 +62,13 @@
       "wickets": 11,
       "economy": 7.56,
       "bowlingAverage": 28.2,
-      "globalPercentile": 46
+      "globalPercentile": 44
     },
     {
       "id": "dj-bravo",
       "name": "DJ Bravo",
-      "role": "PACE_BOWLER",
-      "rating": 57,
+      "role": "ALL_ROUNDER",
+      "rating": 69,
       "matches": 16,
       "runs": 141,
       "average": 35.2,
@@ -76,7 +76,7 @@
       "wickets": 14,
       "economy": 10.06,
       "bowlingAverage": 38.4,
-      "globalPercentile": 23
+      "globalPercentile": 61
     },
     {
       "id": "dl-chahar",
@@ -90,7 +90,7 @@
       "wickets": 10,
       "economy": 7.36,
       "bowlingAverage": 28.1,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "harbhajan-singh",
@@ -104,7 +104,7 @@
       "wickets": 7,
       "economy": 8.48,
       "bowlingAverage": 38.6,
-      "globalPercentile": 13
+      "globalPercentile": 11
     },
     {
       "id": "imran-tahir",
@@ -115,7 +115,7 @@
       "wickets": 6,
       "economy": 9.34,
       "bowlingAverage": 32.2,
-      "globalPercentile": 33
+      "globalPercentile": 31
     },
     {
       "id": "sw-billings",
@@ -126,7 +126,7 @@
       "runs": 108,
       "average": 13.5,
       "strikeRate": 138.5,
-      "globalPercentile": 26
+      "globalPercentile": 25
     },
     {
       "id": "sn-thakur",
@@ -137,7 +137,7 @@
       "wickets": 16,
       "economy": 9.28,
       "bowlingAverage": 27.1,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "kv-sharma",
@@ -148,7 +148,7 @@
       "wickets": 4,
       "economy": 9.47,
       "bowlingAverage": 22.5,
-      "globalPercentile": 48
+      "globalPercentile": 44
     },
     {
       "id": "f-du-plessis",
@@ -174,8 +174,8 @@
     }
   ],
   "stats": {
-    "min": 55,
+    "min": 57,
     "max": 94,
-    "mean": 70.3
+    "mean": 73.3
   }
 }

@@ -23,7 +23,7 @@
       "runs": 1569,
       "average": 37.4,
       "strikeRate": 148.3,
-      "globalPercentile": 82
+      "globalPercentile": 83
     },
     {
       "id": "ta-boult",
@@ -34,7 +34,7 @@
       "wickets": 10,
       "economy": 9.31,
       "bowlingAverage": 44.4,
-      "globalPercentile": 48
+      "globalPercentile": 44
     },
     {
       "id": "pp-chawla",
@@ -48,7 +48,7 @@
       "wickets": 72,
       "economy": 8.36,
       "bowlingAverage": 28.2,
-      "globalPercentile": 82
+      "globalPercentile": 78
     },
     {
       "id": "sp-narine",
@@ -62,7 +62,7 @@
       "wickets": 219,
       "economy": 6.93,
       "bowlingAverage": 26.4,
-      "globalPercentile": 96
+      "globalPercentile": 94
     },
     {
       "id": "cr-woakes",
@@ -76,7 +76,7 @@
       "wickets": 34,
       "economy": 8.93,
       "bowlingAverage": 23.1,
-      "globalPercentile": 89
+      "globalPercentile": 86
     },
     {
       "id": "kuldeep-yadav",
@@ -90,13 +90,13 @@
       "wickets": 52,
       "economy": 8.39,
       "bowlingAverage": 30.7,
-      "globalPercentile": 78
+      "globalPercentile": 74
     },
     {
       "id": "yk-pathan",
       "name": "YK Pathan",
-      "role": "PACE_BOWLER",
-      "rating": 82,
+      "role": "ALL_ROUNDER",
+      "rating": 77,
       "matches": 12,
       "runs": 2036,
       "average": 30.4,
@@ -104,7 +104,7 @@
       "wickets": 22,
       "economy": 7.65,
       "bowlingAverage": 33.0,
-      "globalPercentile": 87
+      "globalPercentile": 82
     },
     {
       "id": "rv-uthappa",
@@ -115,7 +115,7 @@
       "runs": 2829,
       "average": 31.4,
       "strikeRate": 139.8,
-      "globalPercentile": 71
+      "globalPercentile": 72
     },
     {
       "id": "mk-pandey",
@@ -126,7 +126,7 @@
       "runs": 1878,
       "average": 36.1,
       "strikeRate": 128.1,
-      "globalPercentile": 66
+      "globalPercentile": 68
     },
     {
       "id": "sa-yadav",
@@ -137,7 +137,7 @@
       "runs": 713,
       "average": 22.3,
       "strikeRate": 130.8,
-      "globalPercentile": 57
+      "globalPercentile": 61
     },
     {
       "id": "as-rajpoot",
@@ -148,7 +148,7 @@
       "wickets": 11,
       "economy": 8.38,
       "bowlingAverage": 29.7,
-      "globalPercentile": 86
+      "globalPercentile": 82
     },
     {
       "id": "ut-yadav",
@@ -162,13 +162,13 @@
       "wickets": 82,
       "economy": 8.74,
       "bowlingAverage": 29.5,
-      "globalPercentile": 84
+      "globalPercentile": 80
     },
     {
       "id": "c-de-grandhomme",
       "name": "C de Grandhomme",
-      "role": "PACE_BOWLER",
-      "rating": 66,
+      "role": "ALL_ROUNDER",
+      "rating": 64,
       "matches": 10,
       "runs": 252,
       "average": 15.8,
@@ -176,7 +176,7 @@
       "wickets": 8,
       "economy": 8.37,
       "bowlingAverage": 33.1,
-      "globalPercentile": 45
+      "globalPercentile": 43
     },
     {
       "id": "nm-coulter-nile",
@@ -194,8 +194,8 @@
     }
   ],
   "stats": {
-    "min": 66,
+    "min": 64,
     "max": 90,
-    "mean": 78.9
+    "mean": 78.5
   }
 }

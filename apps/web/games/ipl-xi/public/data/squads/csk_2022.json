@@ -12,7 +12,7 @@
       "runs": 368,
       "average": 26.3,
       "strikeRate": 127.3,
-      "globalPercentile": 34
+      "globalPercentile": 35
     },
     {
       "id": "rv-uthappa",
@@ -23,7 +23,7 @@
       "runs": 230,
       "average": 20.9,
       "strikeRate": 135.3,
-      "globalPercentile": 28
+      "globalPercentile": 32
     },
     {
       "id": "dp-conway",
@@ -34,7 +34,7 @@
       "runs": 252,
       "average": 42.0,
       "strikeRate": 146.5,
-      "globalPercentile": 80
+      "globalPercentile": 81
     },
     {
       "id": "at-rayudu",
@@ -45,7 +45,7 @@
       "runs": 274,
       "average": 27.4,
       "strikeRate": 122.9,
-      "globalPercentile": 35
+      "globalPercentile": 37
     },
     {
       "id": "ra-jadeja",
@@ -59,7 +59,7 @@
       "wickets": 5,
       "economy": 7.64,
       "bowlingAverage": 50.4,
-      "globalPercentile": 16
+      "globalPercentile": 14
     },
     {
       "id": "s-dube",
@@ -70,7 +70,7 @@
       "runs": 289,
       "average": 32.1,
       "strikeRate": 157.1,
-      "globalPercentile": 84
+      "globalPercentile": 88
     },
     {
       "id": "ms-dhoni",
@@ -81,13 +81,13 @@
       "runs": 232,
       "average": 33.1,
       "strikeRate": 124.7,
-      "globalPercentile": 46
+      "globalPercentile": 48
     },
     {
       "id": "mj-santner",
       "name": "MJ Santner",
-      "role": "SPIN_BOWLER",
-      "rating": 67,
+      "role": "ALL_ROUNDER",
+      "rating": 52,
       "matches": 6,
       "runs": 22,
       "average": 11.0,
@@ -95,7 +95,7 @@
       "wickets": 4,
       "economy": 7.11,
       "bowlingAverage": 33.8,
-      "globalPercentile": 38
+      "globalPercentile": 12
     },
     {
       "id": "dj-bravo",
@@ -109,13 +109,13 @@
       "wickets": 16,
       "economy": 8.83,
       "bowlingAverage": 18.9,
-      "globalPercentile": 89
+      "globalPercentile": 86
     },
     {
       "id": "mm-ali",
       "name": "MM Ali",
-      "role": "PACE_BOWLER",
-      "rating": 78,
+      "role": "MIDDLE_ORDER",
+      "rating": 68,
       "matches": 10,
       "runs": 244,
       "average": 24.4,
@@ -123,7 +123,7 @@
       "wickets": 8,
       "economy": 6.67,
       "bowlingAverage": 19.9,
-      "globalPercentile": 81
+      "globalPercentile": 44
     },
     {
       "id": "d-pretorius",
@@ -137,7 +137,7 @@
       "wickets": 6,
       "economy": 10.14,
       "bowlingAverage": 35.5,
-      "globalPercentile": 30
+      "globalPercentile": 26
     },
     {
       "id": "mukesh-choudhary",
@@ -148,7 +148,7 @@
       "wickets": 16,
       "economy": 9.34,
       "bowlingAverage": 26.6,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "m-theekshana",
@@ -159,7 +159,7 @@
       "wickets": 12,
       "economy": 7.63,
       "bowlingAverage": 22.2,
-      "globalPercentile": 86
+      "globalPercentile": 82
     },
     {
       "id": "simarjeet-singh",
@@ -173,12 +173,12 @@
       "wickets": 4,
       "economy": 7.94,
       "bowlingAverage": 35.8,
-      "globalPercentile": 37
+      "globalPercentile": 34
     }
   ],
   "stats": {
-    "min": 59,
+    "min": 52,
     "max": 83,
-    "mean": 70.1
+    "mean": 68.4
   }
 }

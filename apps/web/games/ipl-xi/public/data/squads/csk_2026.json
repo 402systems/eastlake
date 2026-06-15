@@ -12,7 +12,7 @@
       "runs": 477,
       "average": 43.4,
       "strikeRate": 167.4,
-      "globalPercentile": 88
+      "globalPercentile": 89
     },
     {
       "id": "rd-gaikwad",
@@ -23,7 +23,7 @@
       "runs": 337,
       "average": 28.1,
       "strikeRate": 123.9,
-      "globalPercentile": 30
+      "globalPercentile": 31
     },
     {
       "id": "a-mhatre",
@@ -34,7 +34,7 @@
       "runs": 201,
       "average": 40.2,
       "strikeRate": 179.5,
-      "globalPercentile": 92
+      "globalPercentile": 95
     },
     {
       "id": "sn-khan",
@@ -45,7 +45,7 @@
       "runs": 161,
       "average": 23.0,
       "strikeRate": 171.3,
-      "globalPercentile": 66
+      "globalPercentile": 68
     },
     {
       "id": "kartik-sharma",
@@ -56,7 +56,7 @@
       "runs": 295,
       "average": 32.8,
       "strikeRate": 136.6,
-      "globalPercentile": 71
+      "globalPercentile": 76
     },
     {
       "id": "s-dube",
@@ -70,7 +70,7 @@
       "wickets": 1,
       "economy": 12.8,
       "bowlingAverage": 64.0,
-      "globalPercentile": 87
+      "globalPercentile": 91
     },
     {
       "id": "j-overton",
@@ -84,7 +84,7 @@
       "wickets": 14,
       "economy": 9.07,
       "bowlingAverage": 18.1,
-      "globalPercentile": 84
+      "globalPercentile": 80
     },
     {
       "id": "noor-ahmad",
@@ -98,7 +98,7 @@
       "wickets": 13,
       "economy": 8.69,
       "bowlingAverage": 34.1,
-      "globalPercentile": 33
+      "globalPercentile": 31
     },
     {
       "id": "a-kamboj",
@@ -112,7 +112,7 @@
       "wickets": 21,
       "economy": 10.63,
       "bowlingAverage": 25.5,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "kk-ahmed",
@@ -123,7 +123,7 @@
       "wickets": 2,
       "economy": 8.85,
       "bowlingAverage": 74.5,
-      "globalPercentile": 13
+      "globalPercentile": 11
     },
     {
       "id": "aj-hosein",
@@ -134,7 +134,7 @@
       "wickets": 8,
       "economy": 8.03,
       "bowlingAverage": 24.8,
-      "globalPercentile": 75
+      "globalPercentile": 72
     },
     {
       "id": "gurjapneet-singh",
@@ -145,7 +145,7 @@
       "wickets": 4,
       "economy": 9.26,
       "bowlingAverage": 58.2,
-      "globalPercentile": 13
+      "globalPercentile": 11
     },
     {
       "id": "d-brevis",
@@ -167,7 +167,7 @@
       "wickets": 8,
       "economy": 9.18,
       "bowlingAverage": 32.1,
-      "globalPercentile": 41
+      "globalPercentile": 38
     },
     {
       "id": "urvil-patel",
@@ -178,7 +178,7 @@
       "runs": 129,
       "average": 18.4,
       "strikeRate": 201.6,
-      "globalPercentile": 53
+      "globalPercentile": 54
     }
   ],
   "stats": {

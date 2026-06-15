@@ -23,7 +23,7 @@
       "runs": 497,
       "average": 35.5,
       "strikeRate": 137.3,
-      "globalPercentile": 63
+      "globalPercentile": 62
     },
     {
       "id": "ks-williamson",
@@ -34,7 +34,7 @@
       "runs": 735,
       "average": 52.5,
       "strikeRate": 142.7,
-      "globalPercentile": 90
+      "globalPercentile": 92
     },
     {
       "id": "b-kumar",
@@ -48,7 +48,7 @@
       "wickets": 9,
       "economy": 7.73,
       "bowlingAverage": 39.7,
-      "globalPercentile": 35
+      "globalPercentile": 32
     },
     {
       "id": "shakib-al-hasan",
@@ -62,7 +62,7 @@
       "wickets": 14,
       "economy": 8.04,
       "bowlingAverage": 32.7,
-      "globalPercentile": 36
+      "globalPercentile": 34
     },
     {
       "id": "s-kaul",
@@ -76,7 +76,7 @@
       "wickets": 21,
       "economy": 8.45,
       "bowlingAverage": 26.6,
-      "globalPercentile": 72
+      "globalPercentile": 68
     },
     {
       "id": "rashid-khan",
@@ -90,7 +90,7 @@
       "wickets": 21,
       "economy": 6.85,
       "bowlingAverage": 22.2,
-      "globalPercentile": 85
+      "globalPercentile": 82
     },
     {
       "id": "mk-pandey",
@@ -101,7 +101,7 @@
       "runs": 284,
       "average": 25.8,
       "strikeRate": 115.4,
-      "globalPercentile": 21
+      "globalPercentile": 24
     },
     {
       "id": "dj-hooda",
@@ -112,7 +112,7 @@
       "runs": 87,
       "average": 21.8,
       "strikeRate": 107.4,
-      "globalPercentile": 12
+      "globalPercentile": 10
     },
     {
       "id": "yk-pathan",
@@ -123,7 +123,7 @@
       "runs": 260,
       "average": 28.9,
       "strikeRate": 130.0,
-      "globalPercentile": 46
+      "globalPercentile": 48
     },
     {
       "id": "sandeep-sharma",
@@ -137,7 +137,7 @@
       "wickets": 12,
       "economy": 7.59,
       "bowlingAverage": 27.8,
-      "globalPercentile": 67
+      "globalPercentile": 63
     },
     {
       "id": "ad-hales",

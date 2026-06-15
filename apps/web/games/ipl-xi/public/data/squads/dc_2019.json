@@ -23,7 +23,7 @@
       "runs": 521,
       "average": 34.7,
       "strikeRate": 136.4,
-      "globalPercentile": 63
+      "globalPercentile": 62
     },
     {
       "id": "ss-iyer",
@@ -34,7 +34,7 @@
       "runs": 467,
       "average": 29.2,
       "strikeRate": 121.0,
-      "globalPercentile": 39
+      "globalPercentile": 40
     },
     {
       "id": "ca-ingram",
@@ -45,7 +45,7 @@
       "runs": 184,
       "average": 18.4,
       "strikeRate": 119.5,
-      "globalPercentile": 19
+      "globalPercentile": 17
     },
     {
       "id": "rr-pant",
@@ -56,7 +56,7 @@
       "runs": 494,
       "average": 38.0,
       "strikeRate": 163.6,
-      "globalPercentile": 84
+      "globalPercentile": 86
     },
     {
       "id": "kma-paul",
@@ -70,7 +70,7 @@
       "wickets": 9,
       "economy": 8.8,
       "bowlingAverage": 26.6,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "ar-patel",
@@ -84,7 +84,7 @@
       "wickets": 10,
       "economy": 7.22,
       "bowlingAverage": 36.8,
-      "globalPercentile": 33
+      "globalPercentile": 31
     },
     {
       "id": "ta-boult",
@@ -95,7 +95,7 @@
       "wickets": 5,
       "economy": 8.58,
       "bowlingAverage": 32.6,
-      "globalPercentile": 48
+      "globalPercentile": 44
     },
     {
       "id": "i-sharma",
@@ -106,7 +106,7 @@
       "wickets": 13,
       "economy": 7.91,
       "bowlingAverage": 28.0,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "k-rabada",
@@ -134,7 +134,7 @@
       "wickets": 11,
       "economy": 6.78,
       "bowlingAverage": 24.6,
-      "globalPercentile": 70
+      "globalPercentile": 66
     },
     {
       "id": "s-lamichhane",
@@ -145,7 +145,7 @@
       "wickets": 8,
       "economy": 9.17,
       "bowlingAverage": 26.4,
-      "globalPercentile": 57
+      "globalPercentile": 54
     },
     {
       "id": "ch-morris",
@@ -159,7 +159,7 @@
       "wickets": 13,
       "economy": 9.52,
       "bowlingAverage": 24.2,
-      "globalPercentile": 72
+      "globalPercentile": 68
     },
     {
       "id": "se-rutherford",
@@ -173,7 +173,7 @@
       "wickets": 1,
       "economy": 9.67,
       "bowlingAverage": 58.0,
-      "globalPercentile": 16
+      "globalPercentile": 14
     }
   ],
   "stats": {

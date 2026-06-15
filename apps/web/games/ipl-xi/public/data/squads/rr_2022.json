@@ -12,7 +12,7 @@
       "runs": 863,
       "average": 57.5,
       "strikeRate": 150.3,
-      "globalPercentile": 95
+      "globalPercentile": 96
     },
     {
       "id": "ybk-jaiswal",
@@ -45,7 +45,7 @@
       "runs": 376,
       "average": 22.1,
       "strikeRate": 123.3,
-      "globalPercentile": 23
+      "globalPercentile": 27
     },
     {
       "id": "so-hetmyer",
@@ -56,7 +56,7 @@
       "runs": 314,
       "average": 44.9,
       "strikeRate": 153.9,
-      "globalPercentile": 86
+      "globalPercentile": 90
     },
     {
       "id": "r-parag",
@@ -84,7 +84,7 @@
       "wickets": 16,
       "economy": 8.08,
       "bowlingAverage": 31.3,
-      "globalPercentile": 58
+      "globalPercentile": 54
     },
     {
       "id": "m-prasidh-krishna",
@@ -95,7 +95,7 @@
       "wickets": 19,
       "economy": 8.48,
       "bowlingAverage": 29.7,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "r-ashwin",
@@ -109,7 +109,7 @@
       "wickets": 12,
       "economy": 7.55,
       "bowlingAverage": 42.2,
-      "globalPercentile": 24
+      "globalPercentile": 23
     },
     {
       "id": "ys-chahal",
@@ -120,7 +120,7 @@
       "wickets": 27,
       "economy": 7.88,
       "bowlingAverage": 19.9,
-      "globalPercentile": 92
+      "globalPercentile": 89
     },
     {
       "id": "kr-sen",
@@ -131,7 +131,7 @@
       "wickets": 8,
       "economy": 9.54,
       "bowlingAverage": 30.0,
-      "globalPercentile": 48
+      "globalPercentile": 44
     },
     {
       "id": "oc-mccoy",
@@ -142,7 +142,7 @@
       "wickets": 11,
       "economy": 9.37,
       "bowlingAverage": 22.0,
-      "globalPercentile": 83
+      "globalPercentile": 79
     }
   ],
   "stats": {

@@ -23,7 +23,7 @@
       "runs": 230,
       "average": 23.0,
       "strikeRate": 127.1,
-      "globalPercentile": 25
+      "globalPercentile": 29
     },
     {
       "id": "n-rana",
@@ -34,7 +34,7 @@
       "runs": 352,
       "average": 27.1,
       "strikeRate": 138.6,
-      "globalPercentile": 46
+      "globalPercentile": 49
     },
     {
       "id": "kd-karthik",
@@ -45,7 +45,7 @@
       "runs": 169,
       "average": 14.1,
       "strikeRate": 124.3,
-      "globalPercentile": 12
+      "globalPercentile": 10
     },
     {
       "id": "ejg-morgan",
@@ -56,7 +56,7 @@
       "runs": 419,
       "average": 41.9,
       "strikeRate": 138.3,
-      "globalPercentile": 83
+      "globalPercentile": 87
     },
     {
       "id": "pj-cummins",
@@ -70,7 +70,7 @@
       "wickets": 12,
       "economy": 8.15,
       "bowlingAverage": 35.3,
-      "globalPercentile": 41
+      "globalPercentile": 38
     },
     {
       "id": "lh-ferguson",
@@ -81,7 +81,7 @@
       "wickets": 8,
       "economy": 7.52,
       "bowlingAverage": 19.1,
-      "globalPercentile": 94
+      "globalPercentile": 92
     },
     {
       "id": "m-prasidh-krishna",
@@ -92,7 +92,7 @@
       "wickets": 4,
       "economy": 9.43,
       "bowlingAverage": 41.2,
-      "globalPercentile": 18
+      "globalPercentile": 15
     },
     {
       "id": "cv-varun",
@@ -106,7 +106,7 @@
       "wickets": 17,
       "economy": 6.87,
       "bowlingAverage": 21.0,
-      "globalPercentile": 88
+      "globalPercentile": 85
     },
     {
       "id": "sp-narine",
@@ -120,7 +120,7 @@
       "wickets": 5,
       "economy": 8.11,
       "bowlingAverage": 61.6,
-      "globalPercentile": 11
+      "globalPercentile": 9
     },
     {
       "id": "kl-nagarkoti",
@@ -134,13 +134,13 @@
       "wickets": 5,
       "economy": 8.96,
       "bowlingAverage": 46.6,
-      "globalPercentile": 18
+      "globalPercentile": 15
     },
     {
       "id": "ad-russell",
       "name": "AD Russell",
-      "role": "PACE_BOWLER",
-      "rating": 62,
+      "role": "ALL_ROUNDER",
+      "rating": 61,
       "matches": 9,
       "runs": 117,
       "average": 13.0,
@@ -148,7 +148,7 @@
       "wickets": 6,
       "economy": 9.89,
       "bowlingAverage": 29.7,
-      "globalPercentile": 35
+      "globalPercentile": 34
     },
     {
       "id": "shivam-mavi",
@@ -162,12 +162,12 @@
       "wickets": 9,
       "economy": 8.23,
       "bowlingAverage": 23.8,
-      "globalPercentile": 72
+      "globalPercentile": 68
     }
   ],
   "stats": {
     "min": 51,
     "max": 87,
-    "mean": 67.1
+    "mean": 67.0
   }
 }

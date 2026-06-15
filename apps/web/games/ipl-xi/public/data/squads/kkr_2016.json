@@ -34,13 +34,13 @@
       "runs": 248,
       "average": 31.0,
       "strikeRate": 135.5,
-      "globalPercentile": 45
+      "globalPercentile": 47
     },
     {
       "id": "ad-russell",
       "name": "AD Russell",
-      "role": "PACE_BOWLER",
-      "rating": 79,
+      "role": "ALL_ROUNDER",
+      "rating": 80,
       "matches": 12,
       "runs": 188,
       "average": 26.9,
@@ -48,7 +48,7 @@
       "wickets": 15,
       "economy": 8.25,
       "bowlingAverage": 20.1,
-      "globalPercentile": 83
+      "globalPercentile": 88
     },
     {
       "id": "ut-yadav",
@@ -59,7 +59,7 @@
       "wickets": 10,
       "economy": 9.46,
       "bowlingAverage": 24.6,
-      "globalPercentile": 58
+      "globalPercentile": 54
     },
     {
       "id": "gb-hogg",
@@ -70,7 +70,7 @@
       "wickets": 4,
       "economy": 9.0,
       "bowlingAverage": 36.0,
-      "globalPercentile": 23
+      "globalPercentile": 21
     },
     {
       "id": "pp-chawla",
@@ -84,7 +84,7 @@
       "wickets": 11,
       "economy": 7.73,
       "bowlingAverage": 24.8,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "yk-pathan",
@@ -98,7 +98,7 @@
       "wickets": 1,
       "economy": 5.5,
       "bowlingAverage": 33.0,
-      "globalPercentile": 76
+      "globalPercentile": 80
     },
     {
       "id": "sa-yadav",
@@ -109,7 +109,7 @@
       "runs": 182,
       "average": 26.0,
       "strikeRate": 129.1,
-      "globalPercentile": 36
+      "globalPercentile": 37
     },
     {
       "id": "m-morkel",
@@ -120,7 +120,7 @@
       "wickets": 10,
       "economy": 8.42,
       "bowlingAverage": 29.9,
-      "globalPercentile": 55
+      "globalPercentile": 51
     },
     {
       "id": "shakib-al-hasan",
@@ -134,7 +134,7 @@
       "wickets": 5,
       "economy": 7.97,
       "bowlingAverage": 49.4,
-      "globalPercentile": 16
+      "globalPercentile": 14
     },
     {
       "id": "sp-narine",
@@ -148,12 +148,12 @@
       "wickets": 11,
       "economy": 7.27,
       "bowlingAverage": 28.2,
-      "globalPercentile": 57
+      "globalPercentile": 54
     }
   ],
   "stats": {
     "min": 59,
-    "max": 79,
-    "mean": 69.9
+    "max": 80,
+    "mean": 70.0
   }
 }

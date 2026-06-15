@@ -12,7 +12,7 @@
       "runs": 209,
       "average": 26.1,
       "strikeRate": 114.8,
-      "globalPercentile": 20
+      "globalPercentile": 21
     },
     {
       "id": "ap-tare",
@@ -23,7 +23,7 @@
       "runs": 126,
       "average": 15.8,
       "strikeRate": 129.9,
-      "globalPercentile": 19
+      "globalPercentile": 17
     },
     {
       "id": "at-rayudu",
@@ -34,7 +34,7 @@
       "runs": 361,
       "average": 25.8,
       "strikeRate": 126.2,
-      "globalPercentile": 35
+      "globalPercentile": 37
     },
     {
       "id": "rg-sharma",
@@ -45,13 +45,13 @@
       "runs": 390,
       "average": 30.0,
       "strikeRate": 129.1,
-      "globalPercentile": 45
+      "globalPercentile": 47
     },
     {
       "id": "ka-pollard",
       "name": "KA Pollard",
-      "role": "PACE_BOWLER",
-      "rating": 44,
+      "role": "ALL_ROUNDER",
+      "rating": 60,
       "matches": 15,
       "runs": 273,
       "average": 34.1,
@@ -59,13 +59,13 @@
       "wickets": 2,
       "economy": 10.6,
       "bowlingAverage": 132.5,
-      "globalPercentile": 1
+      "globalPercentile": 32
     },
     {
       "id": "cj-anderson",
       "name": "CJ Anderson",
-      "role": "PACE_BOWLER",
-      "rating": 48,
+      "role": "MIDDLE_ORDER",
+      "rating": 73,
       "matches": 11,
       "runs": 265,
       "average": 29.4,
@@ -73,7 +73,7 @@
       "wickets": 4,
       "economy": 10.44,
       "bowlingAverage": 47.0,
-      "globalPercentile": 5
+      "globalPercentile": 58
     },
     {
       "id": "harbhajan-singh",
@@ -87,7 +87,7 @@
       "wickets": 14,
       "economy": 6.64,
       "bowlingAverage": 26.1,
-      "globalPercentile": 70
+      "globalPercentile": 66
     },
     {
       "id": "cm-gautam",
@@ -112,7 +112,7 @@
       "wickets": 5,
       "economy": 6.99,
       "bowlingAverage": 31.2,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "sl-malinga",
@@ -137,7 +137,7 @@
       "wickets": 4,
       "economy": 8.37,
       "bowlingAverage": 96.2,
-      "globalPercentile": 4
+      "globalPercentile": 3
     },
     {
       "id": "jj-bumrah",
@@ -148,7 +148,7 @@
       "wickets": 5,
       "economy": 7.74,
       "bowlingAverage": 61.4,
-      "globalPercentile": 25
+      "globalPercentile": 21
     },
     {
       "id": "lmp-simmons",
@@ -163,8 +163,8 @@
     }
   ],
   "stats": {
-    "min": 44,
+    "min": 51,
     "max": 91,
-    "mean": 64.0
+    "mean": 67.2
   }
 }

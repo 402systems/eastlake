@@ -12,7 +12,7 @@
       "runs": 403,
       "average": 33.6,
       "strikeRate": 177.5,
-      "globalPercentile": 80
+      "globalPercentile": 81
     },
     {
       "id": "v-kohli",
@@ -45,13 +45,13 @@
       "runs": 312,
       "average": 26.0,
       "strikeRate": 143.8,
-      "globalPercentile": 45
+      "globalPercentile": 47
     },
     {
       "id": "ls-livingstone",
       "name": "LS Livingstone",
-      "role": "PACE_BOWLER",
-      "rating": 56,
+      "role": "ALL_ROUNDER",
+      "rating": 57,
       "matches": 8,
       "runs": 112,
       "average": 16.0,
@@ -59,7 +59,7 @@
       "wickets": 2,
       "economy": 8.44,
       "bowlingAverage": 38.0,
-      "globalPercentile": 20
+      "globalPercentile": 25
     },
     {
       "id": "jr-hazlewood",
@@ -70,7 +70,7 @@
       "wickets": 22,
       "economy": 8.84,
       "bowlingAverage": 17.7,
-      "globalPercentile": 94
+      "globalPercentile": 92
     },
     {
       "id": "yash-dayal",
@@ -84,7 +84,7 @@
       "wickets": 13,
       "economy": 9.78,
       "bowlingAverage": 36.8,
-      "globalPercentile": 28
+      "globalPercentile": 24
     },
     {
       "id": "kh-pandya",
@@ -98,7 +98,7 @@
       "wickets": 17,
       "economy": 8.26,
       "bowlingAverage": 22.4,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "suyash-sharma",
@@ -109,7 +109,7 @@
       "wickets": 8,
       "economy": 9.08,
       "bowlingAverage": 56.8,
-      "globalPercentile": 18
+      "globalPercentile": 15
     },
     {
       "id": "jm-sharma",
@@ -120,7 +120,7 @@
       "runs": 261,
       "average": 37.3,
       "strikeRate": 177.6,
-      "globalPercentile": 96
+      "globalPercentile": 97
     },
     {
       "id": "b-kumar",
@@ -134,7 +134,7 @@
       "wickets": 17,
       "economy": 9.42,
       "bowlingAverage": 28.8,
-      "globalPercentile": 58
+      "globalPercentile": 54
     },
     {
       "id": "r-shepherd",
@@ -148,12 +148,12 @@
       "wickets": 6,
       "economy": 11.14,
       "bowlingAverage": 26.0,
-      "globalPercentile": 33
+      "globalPercentile": 29
     }
   ],
   "stats": {
     "min": 55,
     "max": 91,
-    "mean": 72.3
+    "mean": 72.4
   }
 }

@@ -12,7 +12,7 @@
       "runs": 997,
       "average": 49.9,
       "strikeRate": 143.9,
-      "globalPercentile": 89
+      "globalPercentile": 90
     },
     {
       "id": "m-vohra",
@@ -23,7 +23,7 @@
       "runs": 1186,
       "average": 25.8,
       "strikeRate": 134.9,
-      "globalPercentile": 63
+      "globalPercentile": 62
     },
     {
       "id": "wp-saha",
@@ -34,7 +34,7 @@
       "runs": 1349,
       "average": 25.0,
       "strikeRate": 131.0,
-      "globalPercentile": 53
+      "globalPercentile": 54
     },
     {
       "id": "ar-patel",
@@ -48,13 +48,13 @@
       "wickets": 76,
       "economy": 7.68,
       "bowlingAverage": 28.6,
-      "globalPercentile": 88
+      "globalPercentile": 85
     },
     {
       "id": "gj-maxwell",
       "name": "GJ Maxwell",
-      "role": "SPIN_BOWLER",
-      "rating": 78,
+      "role": "MIDDLE_ORDER",
+      "rating": 81,
       "matches": 14,
       "runs": 1653,
       "average": 24.0,
@@ -62,7 +62,7 @@
       "wickets": 24,
       "economy": 8.28,
       "bowlingAverage": 35.2,
-      "globalPercentile": 70
+      "globalPercentile": 77
     },
     {
       "id": "da-miller",
@@ -73,7 +73,7 @@
       "runs": 1933,
       "average": 34.5,
       "strikeRate": 137.5,
-      "globalPercentile": 80
+      "globalPercentile": 85
     },
     {
       "id": "sandeep-sharma",
@@ -87,7 +87,7 @@
       "wickets": 90,
       "economy": 8.01,
       "bowlingAverage": 24.2,
-      "globalPercentile": 92
+      "globalPercentile": 89
     },
     {
       "id": "mm-sharma",
@@ -101,7 +101,7 @@
       "wickets": 46,
       "economy": 9.22,
       "bowlingAverage": 34.0,
-      "globalPercentile": 75
+      "globalPercentile": 72
     },
     {
       "id": "t-natarajan",
@@ -112,13 +112,13 @@
       "wickets": 4,
       "economy": 9.16,
       "bowlingAverage": 58.0,
-      "globalPercentile": 18
+      "globalPercentile": 15
     },
     {
       "id": "mp-stoinis",
       "name": "MP Stoinis",
-      "role": "PACE_BOWLER",
-      "rating": 67,
+      "role": "ALL_ROUNDER",
+      "rating": 74,
       "matches": 6,
       "runs": 655,
       "average": 25.2,
@@ -126,7 +126,7 @@
       "wickets": 18,
       "economy": 10.66,
       "bowlingAverage": 45.6,
-      "globalPercentile": 48
+      "globalPercentile": 76
     },
     {
       "id": "swapnil-singh",
@@ -140,7 +140,7 @@
       "wickets": 2,
       "economy": 8.88,
       "bowlingAverage": 75.5,
-      "globalPercentile": 13
+      "globalPercentile": 11
     },
     {
       "id": "vr-aaron",
@@ -154,7 +154,7 @@
       "wickets": 14,
       "economy": 8.5,
       "bowlingAverage": 24.3,
-      "globalPercentile": 90
+      "globalPercentile": 88
     },
     {
       "id": "i-sharma",
@@ -178,7 +178,7 @@
       "runs": 130,
       "average": 16.2,
       "strikeRate": 104.8,
-      "globalPercentile": 21
+      "globalPercentile": 19
     },
     {
       "id": "kc-cariappa",
@@ -192,7 +192,7 @@
       "wickets": 11,
       "economy": 8.81,
       "bowlingAverage": 37.6,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "se-marsh",
@@ -203,7 +203,7 @@
       "runs": 2753,
       "average": 39.3,
       "strikeRate": 133.8,
-      "globalPercentile": 83
+      "globalPercentile": 87
     },
     {
       "id": "mj-guptill",
@@ -214,12 +214,12 @@
       "runs": 264,
       "average": 22.0,
       "strikeRate": 151.7,
-      "globalPercentile": 57
+      "globalPercentile": 58
     }
   ],
   "stats": {
     "min": 42,
     "max": 88,
-    "mean": 71.7
+    "mean": 72.3
   }
 }

@@ -37,7 +37,7 @@
       "wickets": 6,
       "economy": 7.32,
       "bowlingAverage": 41.5,
-      "globalPercentile": 33
+      "globalPercentile": 29
     },
     {
       "id": "m-ashwin",
@@ -48,7 +48,7 @@
       "wickets": 7,
       "economy": 8.6,
       "bowlingAverage": 35.0,
-      "globalPercentile": 23
+      "globalPercentile": 21
     },
     {
       "id": "r-ashwin",
@@ -62,7 +62,7 @@
       "wickets": 10,
       "economy": 7.3,
       "bowlingAverage": 32.1,
-      "globalPercentile": 41
+      "globalPercentile": 39
     },
     {
       "id": "spd-smith",
@@ -73,7 +73,7 @@
       "runs": 270,
       "average": 54.0,
       "strikeRate": 154.3,
-      "globalPercentile": 94
+      "globalPercentile": 96
     },
     {
       "id": "ms-dhoni",
@@ -84,13 +84,13 @@
       "runs": 284,
       "average": 40.6,
       "strikeRate": 135.2,
-      "globalPercentile": 74
+      "globalPercentile": 78
     },
     {
       "id": "nltc-perera",
       "name": "NLTC Perera",
-      "role": "PACE_BOWLER",
-      "rating": 58,
+      "role": "ALL_ROUNDER",
+      "rating": 66,
       "matches": 11,
       "runs": 150,
       "average": 21.4,
@@ -98,7 +98,7 @@
       "wickets": 9,
       "economy": 9.83,
       "bowlingAverage": 36.2,
-      "globalPercentile": 25
+      "globalPercentile": 52
     },
     {
       "id": "ab-dinda",
@@ -109,7 +109,7 @@
       "wickets": 11,
       "economy": 7.74,
       "bowlingAverage": 21.5,
-      "globalPercentile": 84
+      "globalPercentile": 80
     },
     {
       "id": "ss-tiwary",
@@ -120,7 +120,7 @@
       "runs": 170,
       "average": 28.3,
       "strikeRate": 122.3,
-      "globalPercentile": 35
+      "globalPercentile": 37
     },
     {
       "id": "ut-khawaja",
@@ -142,7 +142,7 @@
       "runs": 84,
       "average": 21.0,
       "strikeRate": 86.6,
-      "globalPercentile": 9
+      "globalPercentile": 10
     },
     {
       "id": "a-zampa",
@@ -159,6 +159,6 @@
   "stats": {
     "min": 52,
     "max": 95,
-    "mean": 71.0
+    "mean": 71.6
   }
 }

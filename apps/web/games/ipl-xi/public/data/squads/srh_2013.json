@@ -12,7 +12,7 @@
       "runs": 91,
       "average": 13.0,
       "strikeRate": 90.1,
-      "globalPercentile": 2
+      "globalPercentile": 1
     },
     {
       "id": "pa-patel",
@@ -23,7 +23,7 @@
       "runs": 294,
       "average": 24.5,
       "strikeRate": 115.3,
-      "globalPercentile": 19
+      "globalPercentile": 18
     },
     {
       "id": "kc-sangakkara",
@@ -50,8 +50,8 @@
     {
       "id": "nltc-perera",
       "name": "NLTC Perera",
-      "role": "PACE_BOWLER",
-      "rating": 75,
+      "role": "ALL_ROUNDER",
+      "rating": 69,
       "matches": 16,
       "runs": 235,
       "average": 23.5,
@@ -59,7 +59,7 @@
       "wickets": 19,
       "economy": 8.21,
       "bowlingAverage": 25.8,
-      "globalPercentile": 72
+      "globalPercentile": 61
     },
     {
       "id": "gh-vihari",
@@ -87,7 +87,7 @@
       "wickets": 3,
       "economy": 9.33,
       "bowlingAverage": 18.7,
-      "globalPercentile": 55
+      "globalPercentile": 51
     },
     {
       "id": "dw-steyn",
@@ -101,7 +101,7 @@
       "wickets": 19,
       "economy": 5.96,
       "bowlingAverage": 21.6,
-      "globalPercentile": 90
+      "globalPercentile": 88
     },
     {
       "id": "i-sharma",
@@ -112,7 +112,7 @@
       "wickets": 15,
       "economy": 7.89,
       "bowlingAverage": 31.4,
-      "globalPercentile": 55
+      "globalPercentile": 51
     },
     {
       "id": "a-mishra",
@@ -126,7 +126,7 @@
       "wickets": 21,
       "economy": 6.37,
       "bowlingAverage": 18.8,
-      "globalPercentile": 92
+      "globalPercentile": 89
     },
     {
       "id": "kv-sharma",
@@ -140,7 +140,7 @@
       "wickets": 11,
       "economy": 6.75,
       "bowlingAverage": 21.4,
-      "globalPercentile": 70
+      "globalPercentile": 66
     },
     {
       "id": "bb-samantray",
@@ -151,7 +151,7 @@
       "runs": 123,
       "average": 24.6,
       "strikeRate": 110.8,
-      "globalPercentile": 26
+      "globalPercentile": 25
     },
     {
       "id": "s-dhawan",
@@ -167,8 +167,8 @@
     {
       "id": "djg-sammy",
       "name": "DJG Sammy",
-      "role": "PACE_BOWLER",
-      "rating": 76,
+      "role": "ALL_ROUNDER",
+      "rating": 70,
       "matches": 9,
       "runs": 174,
       "average": 29.0,
@@ -176,12 +176,12 @@
       "wickets": 8,
       "economy": 7.57,
       "bowlingAverage": 21.1,
-      "globalPercentile": 75
+      "globalPercentile": 64
     }
   ],
   "stats": {
     "min": 45,
     "max": 86,
-    "mean": 65.8
+    "mean": 64.9
   }
 }

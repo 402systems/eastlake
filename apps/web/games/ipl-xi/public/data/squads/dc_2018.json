@@ -12,7 +12,7 @@
       "runs": 85,
       "average": 21.2,
       "strikeRate": 96.6,
-      "globalPercentile": 6
+      "globalPercentile": 7
     },
     {
       "id": "ss-iyer",
@@ -23,7 +23,7 @@
       "runs": 411,
       "average": 41.1,
       "strikeRate": 133.0,
-      "globalPercentile": 69
+      "globalPercentile": 70
     },
     {
       "id": "v-shankar",
@@ -37,7 +37,7 @@
       "wickets": 1,
       "economy": 11.6,
       "bowlingAverage": 58.0,
-      "globalPercentile": 83
+      "globalPercentile": 87
     },
     {
       "id": "rr-pant",
@@ -48,7 +48,7 @@
       "runs": 684,
       "average": 52.6,
       "strikeRate": 173.6,
-      "globalPercentile": 99
+      "globalPercentile": 100
     },
     {
       "id": "r-tewatia",
@@ -62,7 +62,7 @@
       "wickets": 6,
       "economy": 7.91,
       "bowlingAverage": 29.0,
-      "globalPercentile": 41
+      "globalPercentile": 39
     },
     {
       "id": "ta-boult",
@@ -73,7 +73,7 @@
       "wickets": 18,
       "economy": 9.04,
       "bowlingAverage": 26.4,
-      "globalPercentile": 67
+      "globalPercentile": 63
     },
     {
       "id": "a-mishra",
@@ -84,13 +84,13 @@
       "wickets": 12,
       "economy": 7.16,
       "bowlingAverage": 22.1,
-      "globalPercentile": 78
+      "globalPercentile": 74
     },
     {
       "id": "gj-maxwell",
       "name": "GJ Maxwell",
-      "role": "PACE_BOWLER",
-      "rating": 65,
+      "role": "MIDDLE_ORDER",
+      "rating": 60,
       "matches": 12,
       "runs": 169,
       "average": 16.9,
@@ -98,7 +98,7 @@
       "wickets": 5,
       "economy": 8.25,
       "bowlingAverage": 26.4,
-      "globalPercentile": 41
+      "globalPercentile": 24
     },
     {
       "id": "s-nadeem",
@@ -109,7 +109,7 @@
       "wickets": 3,
       "economy": 10.8,
       "bowlingAverage": 54.0,
-      "globalPercentile": 5
+      "globalPercentile": 4
     },
     {
       "id": "jj-roy",
@@ -131,7 +131,7 @@
       "wickets": 7,
       "economy": 9.66,
       "bowlingAverage": 24.1,
-      "globalPercentile": 69
+      "globalPercentile": 65
     },
     {
       "id": "pp-shaw",
@@ -153,7 +153,7 @@
       "wickets": 4,
       "economy": 9.12,
       "bowlingAverage": 57.0,
-      "globalPercentile": 18
+      "globalPercentile": 15
     },
     {
       "id": "avesh-khan",
@@ -164,12 +164,12 @@
       "wickets": 4,
       "economy": 10.79,
       "bowlingAverage": 51.2,
-      "globalPercentile": 8
+      "globalPercentile": 7
     }
   ],
   "stats": {
     "min": 48,
     "max": 98,
-    "mean": 68.5
+    "mean": 68.1
   }
 }

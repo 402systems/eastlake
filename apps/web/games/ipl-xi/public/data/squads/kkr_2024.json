@@ -12,7 +12,7 @@
       "runs": 435,
       "average": 39.5,
       "strikeRate": 185.1,
-      "globalPercentile": 88
+      "globalPercentile": 89
     },
     {
       "id": "sp-narine",
@@ -26,7 +26,7 @@
       "wickets": 17,
       "economy": 6.84,
       "bowlingAverage": 22.1,
-      "globalPercentile": 82
+      "globalPercentile": 78
     },
     {
       "id": "vr-iyer",
@@ -37,7 +37,7 @@
       "runs": 370,
       "average": 46.2,
       "strikeRate": 158.8,
-      "globalPercentile": 94
+      "globalPercentile": 96
     },
     {
       "id": "ss-iyer",
@@ -48,7 +48,7 @@
       "runs": 351,
       "average": 39.0,
       "strikeRate": 146.9,
-      "globalPercentile": 69
+      "globalPercentile": 70
     },
     {
       "id": "rk-singh",
@@ -59,13 +59,13 @@
       "runs": 168,
       "average": 18.7,
       "strikeRate": 151.4,
-      "globalPercentile": 46
+      "globalPercentile": 48
     },
     {
       "id": "ad-russell",
       "name": "AD Russell",
-      "role": "PACE_BOWLER",
-      "rating": 76,
+      "role": "ALL_ROUNDER",
+      "rating": 86,
       "matches": 14,
       "runs": 222,
       "average": 37.0,
@@ -73,7 +73,7 @@
       "wickets": 19,
       "economy": 10.36,
       "bowlingAverage": 16.0,
-      "globalPercentile": 75
+      "globalPercentile": 95
     },
     {
       "id": "ma-starc",
@@ -87,7 +87,7 @@
       "wickets": 17,
       "economy": 10.76,
       "bowlingAverage": 26.5,
-      "globalPercentile": 51
+      "globalPercentile": 47
     },
     {
       "id": "harshit-rana",
@@ -98,7 +98,7 @@
       "wickets": 19,
       "economy": 9.13,
       "bowlingAverage": 20.3,
-      "globalPercentile": 89
+      "globalPercentile": 86
     },
     {
       "id": "cv-varun",
@@ -109,7 +109,7 @@
       "wickets": 21,
       "economy": 8.22,
       "bowlingAverage": 19.6,
-      "globalPercentile": 85
+      "globalPercentile": 82
     },
     {
       "id": "a-raghuvanshi",
@@ -120,7 +120,7 @@
       "runs": 163,
       "average": 23.3,
       "strikeRate": 155.2,
-      "globalPercentile": 53
+      "globalPercentile": 54
     },
     {
       "id": "vg-arora",
@@ -131,12 +131,12 @@
       "wickets": 11,
       "economy": 9.47,
       "bowlingAverage": 25.8,
-      "globalPercentile": 58
+      "globalPercentile": 54
     }
   ],
   "stats": {
     "min": 65,
     "max": 87,
-    "mean": 77.4
+    "mean": 78.3
   }
 }
