@@ -13,6 +13,7 @@ node_modules
 # --- pnpm ---
 pnpm-debug.log*
 .pnpm-debug.log*
+.pnpm-store/
 
 # --- Turborepo ---
 .turbo
