@@ -17,8 +17,8 @@
     {
       "id": "jr-hopes",
       "name": "JR Hopes",
-      "role": "PACE_BOWLER",
-      "rating": 52,
+      "role": "OPENER",
+      "rating": 64,
       "matches": 11,
       "runs": 221,
       "average": 20.1,
@@ -26,7 +26,7 @@
       "wickets": 7,
       "economy": 10.18,
       "bowlingAverage": 40.7,
-      "globalPercentile": 11
+      "globalPercentile": 31
     },
     {
       "id": "kc-sangakkara",
@@ -37,13 +37,13 @@
       "runs": 320,
       "average": 35.6,
       "strikeRate": 162.4,
-      "globalPercentile": 87
+      "globalPercentile": 89
     },
     {
       "id": "yuvraj-singh",
       "name": "Yuvraj Singh",
-      "role": "PACE_BOWLER",
-      "rating": 59,
+      "role": "MIDDLE_ORDER",
+      "rating": 74,
       "matches": 14,
       "runs": 299,
       "average": 24.9,
@@ -51,13 +51,13 @@
       "wickets": 3,
       "economy": 9.44,
       "bowlingAverage": 28.3,
-      "globalPercentile": 28
+      "globalPercentile": 60
     },
     {
       "id": "ik-pathan",
       "name": "IK Pathan",
-      "role": "PACE_BOWLER",
-      "rating": 79,
+      "role": "ALL_ROUNDER",
+      "rating": 64,
       "matches": 14,
       "runs": 131,
       "average": 26.2,
@@ -65,7 +65,7 @@
       "wickets": 15,
       "economy": 6.81,
       "bowlingAverage": 24.1,
-      "globalPercentile": 83
+      "globalPercentile": 43
     },
     {
       "id": "s-sreesanth",
@@ -76,7 +76,7 @@
       "wickets": 19,
       "economy": 8.81,
       "bowlingAverage": 23.7,
-      "globalPercentile": 72
+      "globalPercentile": 68
     },
     {
       "id": "pp-chawla",
@@ -90,7 +90,7 @@
       "wickets": 17,
       "economy": 8.46,
       "bowlingAverage": 23.3,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "dpmd-jayawardene",
@@ -112,7 +112,7 @@
       "wickets": 11,
       "economy": 8.85,
       "bowlingAverage": 38.6,
-      "globalPercentile": 33
+      "globalPercentile": 29
     },
     {
       "id": "se-marsh",
@@ -134,7 +134,7 @@
       "runs": 152,
       "average": 152.0,
       "strikeRate": 153.5,
-      "globalPercentile": 90
+      "globalPercentile": 92
     },
     {
       "id": "rr-powar",
@@ -145,12 +145,12 @@
       "wickets": 3,
       "economy": 7.75,
       "bowlingAverage": 31.0,
-      "globalPercentile": 41
+      "globalPercentile": 38
     }
   ],
   "stats": {
     "min": 46,
     "max": 90,
-    "mean": 70.1
+    "mean": 71.1
   }
 }

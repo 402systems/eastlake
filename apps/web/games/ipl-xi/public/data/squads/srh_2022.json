@@ -36,7 +36,7 @@
       "runs": 413,
       "average": 34.4,
       "strikeRate": 158.8,
-      "globalPercentile": 77
+      "globalPercentile": 79
     },
     {
       "id": "n-pooran",
@@ -47,7 +47,7 @@
       "runs": 306,
       "average": 38.2,
       "strikeRate": 144.3,
-      "globalPercentile": 78
+      "globalPercentile": 82
     },
     {
       "id": "ak-markram",
@@ -61,7 +61,7 @@
       "wickets": 1,
       "economy": 10.67,
       "bowlingAverage": 64.0,
-      "globalPercentile": 81
+      "globalPercentile": 84
     },
     {
       "id": "washington-sundar",
@@ -75,7 +75,7 @@
       "wickets": 6,
       "economy": 8.54,
       "bowlingAverage": 39.8,
-      "globalPercentile": 20
+      "globalPercentile": 18
     },
     {
       "id": "b-kumar",
@@ -89,7 +89,7 @@
       "wickets": 12,
       "economy": 7.55,
       "bowlingAverage": 32.8,
-      "globalPercentile": 55
+      "globalPercentile": 51
     },
     {
       "id": "umran-malik",
@@ -103,7 +103,7 @@
       "wickets": 22,
       "economy": 9.25,
       "bowlingAverage": 20.7,
-      "globalPercentile": 84
+      "globalPercentile": 80
     },
     {
       "id": "t-natarajan",
@@ -114,7 +114,7 @@
       "wickets": 18,
       "economy": 9.53,
       "bowlingAverage": 22.8,
-      "globalPercentile": 83
+      "globalPercentile": 79
     },
     {
       "id": "m-jansen",
@@ -125,7 +125,7 @@
       "wickets": 7,
       "economy": 8.69,
       "bowlingAverage": 39.7,
-      "globalPercentile": 33
+      "globalPercentile": 29
     },
     {
       "id": "shashank-singh",
@@ -136,7 +136,7 @@
       "runs": 69,
       "average": 17.2,
       "strikeRate": 146.8,
-      "globalPercentile": 36
+      "globalPercentile": 37
     },
     {
       "id": "j-suchith",
@@ -147,7 +147,7 @@
       "wickets": 7,
       "economy": 7.83,
       "bowlingAverage": 20.1,
-      "globalPercentile": 85
+      "globalPercentile": 82
     }
   ],
   "stats": {

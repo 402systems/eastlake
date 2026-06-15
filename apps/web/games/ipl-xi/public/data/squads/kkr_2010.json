@@ -12,7 +12,7 @@
       "runs": 237,
       "average": 26.3,
       "strikeRate": 128.1,
-      "globalPercentile": 30
+      "globalPercentile": 34
     },
     {
       "id": "sc-ganguly",
@@ -36,7 +36,7 @@
       "runs": 122,
       "average": 30.5,
       "strikeRate": 106.1,
-      "globalPercentile": 18
+      "globalPercentile": 21
     },
     {
       "id": "oa-shah",
@@ -47,13 +47,13 @@
       "runs": 115,
       "average": 57.5,
       "strikeRate": 121.1,
-      "globalPercentile": 61
+      "globalPercentile": 66
     },
     {
       "id": "ad-mathews",
       "name": "AD Mathews",
-      "role": "PACE_BOWLER",
-      "rating": 59,
+      "role": "ALL_ROUNDER",
+      "rating": 68,
       "matches": 12,
       "runs": 233,
       "average": 38.8,
@@ -61,7 +61,7 @@
       "wickets": 8,
       "economy": 8.45,
       "bowlingAverage": 39.6,
-      "globalPercentile": 28
+      "globalPercentile": 58
     },
     {
       "id": "i-sharma",
@@ -72,7 +72,7 @@
       "wickets": 7,
       "economy": 9.68,
       "bowlingAverage": 34.6,
-      "globalPercentile": 35
+      "globalPercentile": 32
     },
     {
       "id": "m-kartik",
@@ -83,7 +83,7 @@
       "wickets": 9,
       "economy": 6.69,
       "bowlingAverage": 29.0,
-      "globalPercentile": 57
+      "globalPercentile": 54
     },
     {
       "id": "wp-saha",
@@ -94,7 +94,7 @@
       "runs": 67,
       "average": 22.3,
       "strikeRate": 126.4,
-      "globalPercentile": 23
+      "globalPercentile": 22
     },
     {
       "id": "se-bond",
@@ -105,7 +105,7 @@
       "wickets": 9,
       "economy": 7.26,
       "bowlingAverage": 25.0,
-      "globalPercentile": 81
+      "globalPercentile": 77
     },
     {
       "id": "ab-dinda",
@@ -116,13 +116,13 @@
       "wickets": 9,
       "economy": 6.69,
       "bowlingAverage": 17.2,
-      "globalPercentile": 94
+      "globalPercentile": 92
     },
     {
       "id": "ch-gayle",
       "name": "CH Gayle",
-      "role": "SPIN_BOWLER",
-      "rating": 56,
+      "role": "OPENER",
+      "rating": 78,
       "matches": 9,
       "runs": 292,
       "average": 32.4,
@@ -130,20 +130,20 @@
       "wickets": 4,
       "economy": 9.56,
       "bowlingAverage": 38.2,
-      "globalPercentile": 8
+      "globalPercentile": 73
     },
     {
       "id": "dj-hussey",
       "name": "DJ Hussey",
-      "role": "PACE_BOWLER",
-      "rating": 50,
+      "role": "MIDDLE_ORDER",
+      "rating": 54,
       "matches": 6,
       "runs": 94,
       "average": 23.5,
       "strikeRate": 110.6,
       "wickets": 0,
       "economy": 8.1,
-      "globalPercentile": 8
+      "globalPercentile": 14
     },
     {
       "id": "ab-agarkar",
@@ -157,7 +157,7 @@
       "wickets": 4,
       "economy": 9.41,
       "bowlingAverage": 51.8,
-      "globalPercentile": 16
+      "globalPercentile": 13
     },
     {
       "id": "bb-mccullum",
@@ -168,12 +168,12 @@
       "runs": 114,
       "average": 38.0,
       "strikeRate": 104.6,
-      "globalPercentile": 28
+      "globalPercentile": 32
     }
   ],
   "stats": {
-    "min": 50,
+    "min": 54,
     "max": 87,
-    "mean": 64.7
+    "mean": 67.2
   }
 }

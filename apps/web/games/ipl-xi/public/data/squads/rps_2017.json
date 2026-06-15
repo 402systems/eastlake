@@ -23,13 +23,13 @@
       "runs": 1214,
       "average": 41.9,
       "strikeRate": 127.9,
-      "globalPercentile": 73
+      "globalPercentile": 75
     },
     {
       "id": "ba-stokes",
       "name": "BA Stokes",
-      "role": "PACE_BOWLER",
-      "rating": 86,
+      "role": "ALL_ROUNDER",
+      "rating": 81,
       "matches": 13,
       "runs": 632,
       "average": 31.6,
@@ -37,7 +37,7 @@
       "wickets": 24,
       "economy": 7.43,
       "bowlingAverage": 27.2,
-      "globalPercentile": 92
+      "globalPercentile": 90
     },
     {
       "id": "ms-dhoni",
@@ -48,7 +48,7 @@
       "runs": 864,
       "average": 29.8,
       "strikeRate": 121.7,
-      "globalPercentile": 58
+      "globalPercentile": 64
     },
     {
       "id": "imran-tahir",
@@ -59,7 +59,7 @@
       "wickets": 36,
       "economy": 7.87,
       "bowlingAverage": 20.6,
-      "globalPercentile": 96
+      "globalPercentile": 94
     },
     {
       "id": "a-zampa",
@@ -70,7 +70,7 @@
       "wickets": 26,
       "economy": 7.85,
       "bowlingAverage": 17.1,
-      "globalPercentile": 98
+      "globalPercentile": 96
     },
     {
       "id": "mk-tiwary",
@@ -81,7 +81,7 @@
       "runs": 648,
       "average": 36.0,
       "strikeRate": 137.9,
-      "globalPercentile": 83
+      "globalPercentile": 87
     },
     {
       "id": "dt-christian",
@@ -95,7 +95,7 @@
       "wickets": 22,
       "economy": 7.58,
       "bowlingAverage": 27.5,
-      "globalPercentile": 87
+      "globalPercentile": 84
     },
     {
       "id": "ra-tripathi",
@@ -106,7 +106,7 @@
       "runs": 782,
       "average": 32.6,
       "strikeRate": 146.4,
-      "globalPercentile": 74
+      "globalPercentile": 77
     },
     {
       "id": "sn-thakur",
@@ -120,7 +120,7 @@
       "wickets": 22,
       "economy": 8.36,
       "bowlingAverage": 29.0,
-      "globalPercentile": 84
+      "globalPercentile": 80
     },
     {
       "id": "lh-ferguson",
@@ -131,7 +131,7 @@
       "wickets": 6,
       "economy": 7.38,
       "bowlingAverage": 32.0,
-      "globalPercentile": 72
+      "globalPercentile": 68
     },
     {
       "id": "jd-unadkat",
@@ -156,12 +156,12 @@
       "wickets": 16,
       "economy": 6.3,
       "bowlingAverage": 23.6,
-      "globalPercentile": 94
+      "globalPercentile": 92
     }
   ],
   "stats": {
     "min": 70,
     "max": 94,
-    "mean": 81.9
+    "mean": 81.5
   }
 }

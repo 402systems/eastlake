@@ -45,13 +45,13 @@
       "runs": 432,
       "average": 27.0,
       "strikeRate": 126.7,
-      "globalPercentile": 34
+      "globalPercentile": 35
     },
     {
       "id": "dj-hussey",
       "name": "DJ Hussey",
-      "role": "PACE_BOWLER",
-      "rating": 70,
+      "role": "MIDDLE_ORDER",
+      "rating": 74,
       "matches": 15,
       "runs": 396,
       "average": 39.6,
@@ -59,7 +59,7 @@
       "wickets": 3,
       "economy": 7.44,
       "bowlingAverage": 22.3,
-      "globalPercentile": 58
+      "globalPercentile": 60
     },
     {
       "id": "pp-chawla",
@@ -73,7 +73,7 @@
       "wickets": 16,
       "economy": 7.46,
       "bowlingAverage": 26.6,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "p-kumar",
@@ -87,7 +87,7 @@
       "wickets": 9,
       "economy": 7.06,
       "bowlingAverage": 49.4,
-      "globalPercentile": 35
+      "globalPercentile": 32
     },
     {
       "id": "harmeet-singh",
@@ -98,7 +98,7 @@
       "wickets": 7,
       "economy": 8.78,
       "bowlingAverage": 28.0,
-      "globalPercentile": 55
+      "globalPercentile": 51
     },
     {
       "id": "p-awana",
@@ -109,7 +109,7 @@
       "wickets": 17,
       "economy": 8.13,
       "bowlingAverage": 22.5,
-      "globalPercentile": 86
+      "globalPercentile": 82
     },
     {
       "id": "ba-bhatt",
@@ -120,7 +120,7 @@
       "wickets": 2,
       "economy": 8.67,
       "bowlingAverage": 71.5,
-      "globalPercentile": 16
+      "globalPercentile": 13
     },
     {
       "id": "n-saini",
@@ -142,13 +142,13 @@
       "runs": 98,
       "average": 49.0,
       "strikeRate": 130.7,
-      "globalPercentile": 58
+      "globalPercentile": 64
     },
     {
       "id": "azhar-mahmood",
       "name": "Azhar Mahmood",
-      "role": "PACE_BOWLER",
-      "rating": 79,
+      "role": "ALL_ROUNDER",
+      "rating": 69,
       "matches": 11,
       "runs": 186,
       "average": 23.2,
@@ -156,7 +156,7 @@
       "wickets": 14,
       "economy": 7.76,
       "bowlingAverage": 23.6,
-      "globalPercentile": 83
+      "globalPercentile": 61
     },
     {
       "id": "rj-harris",
@@ -167,12 +167,12 @@
       "wickets": 8,
       "economy": 7.56,
       "bowlingAverage": 17.0,
-      "globalPercentile": 96
+      "globalPercentile": 95
     }
   ],
   "stats": {
     "min": 40,
     "max": 89,
-    "mean": 67.1
+    "mean": 66.6
   }
 }

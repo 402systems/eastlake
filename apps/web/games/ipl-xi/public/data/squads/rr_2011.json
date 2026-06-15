@@ -11,7 +11,8 @@
       "matches": 12,
       "runs": 343,
       "average": 31.2,
-      "strikeRate": 109.9
+      "strikeRate": 109.9,
+      "globalPercentile": 31
     },
     {
       "id": "j-botha",
@@ -24,7 +25,8 @@
       "strikeRate": 116.2,
       "wickets": 7,
       "economy": 6.72,
-      "bowlingAverage": 34.6
+      "bowlingAverage": 34.6,
+      "globalPercentile": 54
     },
     {
       "id": "lrpl-taylor",
@@ -34,7 +36,8 @@
       "matches": 11,
       "runs": 181,
       "average": 36.2,
-      "strikeRate": 120.7
+      "strikeRate": 120.7,
+      "globalPercentile": 43
     },
     {
       "id": "a-singh",
@@ -44,7 +47,8 @@
       "matches": 9,
       "wickets": 9,
       "economy": 7.79,
-      "bowlingAverage": 24.7
+      "bowlingAverage": 24.7,
+      "globalPercentile": 68
     },
     {
       "id": "sk-trivedi",
@@ -54,7 +58,8 @@
       "matches": 12,
       "wickets": 10,
       "economy": 8.61,
-      "bowlingAverage": 30.7
+      "bowlingAverage": 30.7,
+      "globalPercentile": 41
     },
     {
       "id": "sk-warne",
@@ -67,7 +72,8 @@
       "strikeRate": 50.0,
       "wickets": 13,
       "economy": 6.34,
-      "bowlingAverage": 22.9
+      "bowlingAverage": 22.9,
+      "globalPercentile": 78
     },
     {
       "id": "al-menaria",
@@ -80,7 +86,8 @@
       "strikeRate": 118.4,
       "wickets": 2,
       "economy": 8.07,
-      "bowlingAverage": 60.5
+      "bowlingAverage": 60.5,
+      "globalPercentile": 22
     },
     {
       "id": "am-rahane",
@@ -90,7 +97,8 @@
       "matches": 7,
       "runs": 120,
       "average": 24.0,
-      "strikeRate": 122.4
+      "strikeRate": 122.4,
+      "globalPercentile": 30
     },
     {
       "id": "sr-watson",
@@ -103,7 +111,8 @@
       "strikeRate": 131.0,
       "wickets": 6,
       "economy": 6.89,
-      "bowlingAverage": 41.3
+      "bowlingAverage": 41.3,
+      "globalPercentile": 52
     }
   ],
   "stats": {

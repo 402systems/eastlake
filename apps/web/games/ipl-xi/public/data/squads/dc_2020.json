@@ -23,7 +23,7 @@
       "runs": 618,
       "average": 44.1,
       "strikeRate": 145.4,
-      "globalPercentile": 82
+      "globalPercentile": 83
     },
     {
       "id": "so-hetmyer",
@@ -34,7 +34,7 @@
       "runs": 185,
       "average": 23.1,
       "strikeRate": 149.2,
-      "globalPercentile": 53
+      "globalPercentile": 55
     },
     {
       "id": "ss-iyer",
@@ -45,7 +45,7 @@
       "runs": 519,
       "average": 34.6,
       "strikeRate": 123.9,
-      "globalPercentile": 49
+      "globalPercentile": 51
     },
     {
       "id": "rr-pant",
@@ -56,7 +56,7 @@
       "runs": 345,
       "average": 34.5,
       "strikeRate": 115.0,
-      "globalPercentile": 35
+      "globalPercentile": 37
     },
     {
       "id": "ar-patel",
@@ -70,13 +70,13 @@
       "wickets": 9,
       "economy": 6.45,
       "bowlingAverage": 36.6,
-      "globalPercentile": 38
+      "globalPercentile": 36
     },
     {
       "id": "mp-stoinis",
       "name": "MP Stoinis",
-      "role": "PACE_BOWLER",
-      "rating": 70,
+      "role": "ALL_ROUNDER",
+      "rating": 71,
       "matches": 17,
       "runs": 352,
       "average": 25.1,
@@ -84,7 +84,7 @@
       "wickets": 13,
       "economy": 9.67,
       "bowlingAverage": 22.1,
-      "globalPercentile": 58
+      "globalPercentile": 66
     },
     {
       "id": "r-ashwin",
@@ -98,7 +98,7 @@
       "wickets": 13,
       "economy": 7.71,
       "bowlingAverage": 30.2,
-      "globalPercentile": 46
+      "globalPercentile": 44
     },
     {
       "id": "a-nortje",
@@ -112,7 +112,7 @@
       "wickets": 22,
       "economy": 8.67,
       "bowlingAverage": 24.0,
-      "globalPercentile": 78
+      "globalPercentile": 74
     },
     {
       "id": "k-rabada",
@@ -126,7 +126,7 @@
       "wickets": 32,
       "economy": 8.54,
       "bowlingAverage": 17.7,
-      "globalPercentile": 95
+      "globalPercentile": 94
     },
     {
       "id": "am-rahane",
@@ -159,12 +159,12 @@
       "wickets": 3,
       "economy": 9.0,
       "bowlingAverage": 45.0,
-      "globalPercentile": 20
+      "globalPercentile": 17
     }
   ],
   "stats": {
     "min": 48,
     "max": 88,
-    "mean": 66.8
+    "mean": 66.9
   }
 }

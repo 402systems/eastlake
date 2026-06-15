@@ -12,7 +12,7 @@
       "runs": 635,
       "average": 45.4,
       "strikeRate": 137.4,
-      "globalPercentile": 82
+      "globalPercentile": 83
     },
     {
       "id": "f-du-plessis",
@@ -23,13 +23,13 @@
       "runs": 633,
       "average": 45.2,
       "strikeRate": 138.8,
-      "globalPercentile": 82
+      "globalPercentile": 83
     },
     {
       "id": "mm-ali",
       "name": "MM Ali",
-      "role": "PACE_BOWLER",
-      "rating": 72,
+      "role": "MIDDLE_ORDER",
+      "rating": 68,
       "matches": 15,
       "runs": 357,
       "average": 25.5,
@@ -37,7 +37,7 @@
       "wickets": 6,
       "economy": 6.43,
       "bowlingAverage": 27.2,
-      "globalPercentile": 64
+      "globalPercentile": 44
     },
     {
       "id": "sk-raina",
@@ -48,7 +48,7 @@
       "runs": 160,
       "average": 22.9,
       "strikeRate": 126.0,
-      "globalPercentile": 15
+      "globalPercentile": 19
     },
     {
       "id": "at-rayudu",
@@ -59,7 +59,7 @@
       "runs": 257,
       "average": 28.6,
       "strikeRate": 153.9,
-      "globalPercentile": 69
+      "globalPercentile": 74
     },
     {
       "id": "ra-jadeja",
@@ -73,7 +73,7 @@
       "wickets": 13,
       "economy": 7.08,
       "bowlingAverage": 26.7,
-      "globalPercentile": 54
+      "globalPercentile": 51
     },
     {
       "id": "ms-dhoni",
@@ -84,7 +84,7 @@
       "runs": 114,
       "average": 16.3,
       "strikeRate": 106.5,
-      "globalPercentile": 7
+      "globalPercentile": 6
     },
     {
       "id": "sm-curran",
@@ -98,7 +98,7 @@
       "wickets": 9,
       "economy": 10.06,
       "bowlingAverage": 36.9,
-      "globalPercentile": 30
+      "globalPercentile": 26
     },
     {
       "id": "dl-chahar",
@@ -109,7 +109,7 @@
       "wickets": 14,
       "economy": 8.39,
       "bowlingAverage": 32.4,
-      "globalPercentile": 48
+      "globalPercentile": 44
     },
     {
       "id": "sn-thakur",
@@ -123,7 +123,7 @@
       "wickets": 21,
       "economy": 8.87,
       "bowlingAverage": 25.3,
-      "globalPercentile": 72
+      "globalPercentile": 68
     },
     {
       "id": "dj-bravo",
@@ -137,7 +137,7 @@
       "wickets": 14,
       "economy": 7.84,
       "bowlingAverage": 18.9,
-      "globalPercentile": 87
+      "globalPercentile": 84
     },
     {
       "id": "jr-hazlewood",
@@ -148,12 +148,12 @@
       "wickets": 11,
       "economy": 8.63,
       "bowlingAverage": 27.5,
-      "globalPercentile": 67
+      "globalPercentile": 63
     }
   ],
   "stats": {
     "min": 48,
     "max": 83,
-    "mean": 70.6
+    "mean": 70.2
   }
 }

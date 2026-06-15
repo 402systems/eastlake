@@ -34,7 +34,7 @@
       "runs": 71,
       "average": 71,
       "strikeRate": 88.8,
-      "globalPercentile": 42
+      "globalPercentile": 43
     },
     {
       "id": "v-kohli",
@@ -45,7 +45,7 @@
       "runs": 471,
       "average": 42.8,
       "strikeRate": 122.7,
-      "globalPercentile": 62
+      "globalPercentile": 63
     },
     {
       "id": "ch-morris",
@@ -59,7 +59,7 @@
       "wickets": 11,
       "economy": 6.69,
       "bowlingAverage": 19.3,
-      "globalPercentile": 92
+      "globalPercentile": 90
     },
     {
       "id": "mohammed-siraj",
@@ -73,7 +73,7 @@
       "wickets": 11,
       "economy": 8.98,
       "bowlingAverage": 22.2,
-      "globalPercentile": 72
+      "globalPercentile": 68
     },
     {
       "id": "na-saini",
@@ -87,7 +87,7 @@
       "wickets": 7,
       "economy": 8.4,
       "bowlingAverage": 56.0,
-      "globalPercentile": 23
+      "globalPercentile": 19
     },
     {
       "id": "i-udana",
@@ -101,7 +101,7 @@
       "wickets": 8,
       "economy": 9.86,
       "bowlingAverage": 35.8,
-      "globalPercentile": 25
+      "globalPercentile": 21
     },
     {
       "id": "ys-chahal",
@@ -112,7 +112,7 @@
       "wickets": 21,
       "economy": 7.24,
       "bowlingAverage": 19.7,
-      "globalPercentile": 90
+      "globalPercentile": 87
     },
     {
       "id": "washington-sundar",
@@ -126,7 +126,7 @@
       "wickets": 8,
       "economy": 6.0,
       "bowlingAverage": 37.5,
-      "globalPercentile": 38
+      "globalPercentile": 36
     },
     {
       "id": "jr-philippe",
@@ -137,7 +137,7 @@
       "runs": 78,
       "average": 19.5,
       "strikeRate": 101.3,
-      "globalPercentile": 5
+      "globalPercentile": 6
     },
     {
       "id": "ab-de-villiers",
@@ -148,13 +148,13 @@
       "runs": 460,
       "average": 46.0,
       "strikeRate": 160.3,
-      "globalPercentile": 90
+      "globalPercentile": 92
     },
     {
       "id": "s-dube",
       "name": "S Dube",
-      "role": "PACE_BOWLER",
-      "rating": 73,
+      "role": "ALL_ROUNDER",
+      "rating": 61,
       "matches": 9,
       "runs": 129,
       "average": 18.4,
@@ -162,12 +162,12 @@
       "wickets": 4,
       "economy": 8.33,
       "bowlingAverage": 18.8,
-      "globalPercentile": 67
+      "globalPercentile": 34
     }
   ],
   "stats": {
     "min": 50,
     "max": 89,
-    "mean": 69.7
+    "mean": 68.8
   }
 }

@@ -12,7 +12,7 @@
       "runs": 676,
       "average": 48.3,
       "strikeRate": 129.8,
-      "globalPercentile": 84
+      "globalPercentile": 85
     },
     {
       "id": "ma-agarwal",
@@ -23,7 +23,7 @@
       "runs": 432,
       "average": 43.2,
       "strikeRate": 158.8,
-      "globalPercentile": 85
+      "globalPercentile": 86
     },
     {
       "id": "n-pooran",
@@ -34,13 +34,13 @@
       "runs": 353,
       "average": 29.4,
       "strikeRate": 168.9,
-      "globalPercentile": 71
+      "globalPercentile": 72
     },
     {
       "id": "gj-maxwell",
       "name": "GJ Maxwell",
-      "role": "PACE_BOWLER",
-      "rating": 56,
+      "role": "ALL_ROUNDER",
+      "rating": 52,
       "matches": 11,
       "runs": 108,
       "average": 15.4,
@@ -48,7 +48,7 @@
       "wickets": 3,
       "economy": 8.14,
       "bowlingAverage": 57.0,
-      "globalPercentile": 20
+      "globalPercentile": 12
     },
     {
       "id": "cj-jordan",
@@ -62,7 +62,7 @@
       "wickets": 9,
       "economy": 9.85,
       "bowlingAverage": 35.6,
-      "globalPercentile": 33
+      "globalPercentile": 29
     },
     {
       "id": "ss-cottrell",
@@ -73,7 +73,7 @@
       "wickets": 6,
       "economy": 8.85,
       "bowlingAverage": 29.5,
-      "globalPercentile": 51
+      "globalPercentile": 47
     },
     {
       "id": "mohammed-shami",
@@ -84,7 +84,7 @@
       "wickets": 20,
       "economy": 8.76,
       "bowlingAverage": 24.1,
-      "globalPercentile": 81
+      "globalPercentile": 77
     },
     {
       "id": "ravi-bishnoi",
@@ -95,7 +95,7 @@
       "wickets": 12,
       "economy": 7.47,
       "bowlingAverage": 31.8,
-      "globalPercentile": 43
+      "globalPercentile": 41
     },
     {
       "id": "mandeep-singh",
@@ -106,7 +106,7 @@
       "runs": 130,
       "average": 21.7,
       "strikeRate": 119.3,
-      "globalPercentile": 15
+      "globalPercentile": 17
     },
     {
       "id": "ch-gayle",
@@ -117,7 +117,7 @@
       "runs": 295,
       "average": 49.2,
       "strikeRate": 139.2,
-      "globalPercentile": 87
+      "globalPercentile": 89
     },
     {
       "id": "dj-hooda",
@@ -128,7 +128,7 @@
       "runs": 102,
       "average": 102.0,
       "strikeRate": 141.7,
-      "globalPercentile": 74
+      "globalPercentile": 78
     },
     {
       "id": "m-ashwin",
@@ -139,7 +139,7 @@
       "wickets": 10,
       "economy": 7.62,
       "bowlingAverage": 24.0,
-      "globalPercentile": 78
+      "globalPercentile": 74
     },
     {
       "id": "arshdeep-singh",
@@ -150,7 +150,7 @@
       "wickets": 9,
       "economy": 8.82,
       "bowlingAverage": 24.3,
-      "globalPercentile": 67
+      "globalPercentile": 63
     },
     {
       "id": "jds-neesham",
@@ -164,12 +164,12 @@
       "wickets": 2,
       "economy": 9.93,
       "bowlingAverage": 74.5,
-      "globalPercentile": 8
+      "globalPercentile": 7
     }
   ],
   "stats": {
     "min": 50,
     "max": 87,
-    "mean": 71.4
+    "mean": 71.1
   }
 }

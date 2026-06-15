@@ -23,13 +23,13 @@
       "runs": 340,
       "average": 30.9,
       "strikeRate": 153.2,
-      "globalPercentile": 66
+      "globalPercentile": 68
     },
     {
       "id": "lalit-yadav",
       "name": "Lalit Yadav",
-      "role": "PACE_BOWLER",
-      "rating": 57,
+      "role": "ALL_ROUNDER",
+      "rating": 59,
       "matches": 8,
       "runs": 161,
       "average": 26.8,
@@ -37,7 +37,7 @@
       "wickets": 4,
       "economy": 8.44,
       "bowlingAverage": 38.0,
-      "globalPercentile": 23
+      "globalPercentile": 30
     },
     {
       "id": "r-powell",
@@ -48,7 +48,7 @@
       "runs": 250,
       "average": 25.0,
       "strikeRate": 149.7,
-      "globalPercentile": 61
+      "globalPercentile": 66
     },
     {
       "id": "sn-thakur",
@@ -62,7 +62,7 @@
       "wickets": 15,
       "economy": 10.03,
       "bowlingAverage": 32.3,
-      "globalPercentile": 37
+      "globalPercentile": 34
     },
     {
       "id": "ar-patel",
@@ -76,7 +76,7 @@
       "wickets": 6,
       "economy": 7.51,
       "bowlingAverage": 53.8,
-      "globalPercentile": 16
+      "globalPercentile": 14
     },
     {
       "id": "kk-ahmed",
@@ -87,7 +87,7 @@
       "wickets": 16,
       "economy": 8.04,
       "bowlingAverage": 19.7,
-      "globalPercentile": 92
+      "globalPercentile": 90
     },
     {
       "id": "kuldeep-yadav",
@@ -101,7 +101,7 @@
       "wickets": 21,
       "economy": 8.46,
       "bowlingAverage": 20.0,
-      "globalPercentile": 82
+      "globalPercentile": 78
     },
     {
       "id": "mustafizur-rahman",
@@ -112,7 +112,7 @@
       "wickets": 8,
       "economy": 7.75,
       "bowlingAverage": 31.0,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "da-warner",
@@ -123,7 +123,7 @@
       "runs": 432,
       "average": 48.0,
       "strikeRate": 151.6,
-      "globalPercentile": 86
+      "globalPercentile": 88
     },
     {
       "id": "sn-khan",
@@ -134,7 +134,7 @@
       "runs": 91,
       "average": 30.3,
       "strikeRate": 135.8,
-      "globalPercentile": 41
+      "globalPercentile": 42
     },
     {
       "id": "a-nortje",
@@ -145,13 +145,13 @@
       "wickets": 9,
       "economy": 9.81,
       "bowlingAverage": 24.3,
-      "globalPercentile": 72
+      "globalPercentile": 68
     },
     {
       "id": "mr-marsh",
       "name": "MR Marsh",
-      "role": "PACE_BOWLER",
-      "rating": 72,
+      "role": "OPENER",
+      "rating": 73,
       "matches": 8,
       "runs": 251,
       "average": 35.9,
@@ -159,12 +159,12 @@
       "wickets": 4,
       "economy": 8.5,
       "bowlingAverage": 25.5,
-      "globalPercentile": 64
+      "globalPercentile": 59
     }
   ],
   "stats": {
-    "min": 57,
+    "min": 59,
     "max": 86,
-    "mean": 72.2
+    "mean": 72.4
   }
 }

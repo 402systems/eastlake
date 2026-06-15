@@ -23,13 +23,13 @@
       "runs": 445,
       "average": 55.6,
       "strikeRate": 158.4,
-      "globalPercentile": 99
+      "globalPercentile": 98
     },
     {
       "id": "v-shankar",
       "name": "V Shankar",
-      "role": "PACE_BOWLER",
-      "rating": 51,
+      "role": "MIDDLE_ORDER",
+      "rating": 59,
       "matches": 14,
       "runs": 244,
       "average": 22.2,
@@ -37,7 +37,7 @@
       "wickets": 1,
       "economy": 8.75,
       "bowlingAverage": 70.0,
-      "globalPercentile": 9
+      "globalPercentile": 21
     },
     {
       "id": "yk-pathan",
@@ -59,7 +59,7 @@
       "runs": 345,
       "average": 38.3,
       "strikeRate": 130.7,
-      "globalPercentile": 62
+      "globalPercentile": 63
     },
     {
       "id": "b-kumar",
@@ -73,7 +73,7 @@
       "wickets": 13,
       "economy": 7.9,
       "bowlingAverage": 35.8,
-      "globalPercentile": 45
+      "globalPercentile": 41
     },
     {
       "id": "sandeep-sharma",
@@ -84,7 +84,7 @@
       "wickets": 12,
       "economy": 8.32,
       "bowlingAverage": 29.6,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "s-kaul",
@@ -95,7 +95,7 @@
       "wickets": 6,
       "economy": 9.0,
       "bowlingAverage": 40.5,
-      "globalPercentile": 28
+      "globalPercentile": 24
     },
     {
       "id": "rashid-khan",
@@ -109,7 +109,7 @@
       "wickets": 17,
       "economy": 6.55,
       "bowlingAverage": 23.3,
-      "globalPercentile": 82
+      "globalPercentile": 78
     },
     {
       "id": "ks-williamson",
@@ -120,13 +120,13 @@
       "runs": 156,
       "average": 22.3,
       "strikeRate": 120.9,
-      "globalPercentile": 15
+      "globalPercentile": 19
     },
     {
       "id": "mohammad-nabi",
       "name": "Mohammad Nabi",
-      "role": "SPIN_BOWLER",
-      "rating": 77,
+      "role": "ALL_ROUNDER",
+      "rating": 72,
       "matches": 8,
       "runs": 121,
       "average": 20.2,
@@ -134,7 +134,7 @@
       "wickets": 8,
       "economy": 6.89,
       "bowlingAverage": 25.1,
-      "globalPercentile": 67
+      "globalPercentile": 70
     },
     {
       "id": "dj-hooda",
@@ -145,7 +145,7 @@
       "runs": 64,
       "average": 10.7,
       "strikeRate": 101.6,
-      "globalPercentile": 3
+      "globalPercentile": 2
     },
     {
       "id": "kk-ahmed",
@@ -156,7 +156,7 @@
       "wickets": 19,
       "economy": 8.38,
       "bowlingAverage": 15.4,
-      "globalPercentile": 96
+      "globalPercentile": 95
     },
     {
       "id": "wp-saha",
@@ -167,12 +167,12 @@
       "runs": 86,
       "average": 17.2,
       "strikeRate": 162.3,
-      "globalPercentile": 30
+      "globalPercentile": 31
     }
   ],
   "stats": {
     "min": 44,
     "max": 94,
-    "mean": 69.0
+    "mean": 69.2
   }
 }

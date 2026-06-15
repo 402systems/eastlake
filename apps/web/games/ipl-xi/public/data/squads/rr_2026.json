@@ -34,7 +34,7 @@
       "runs": 515,
       "average": 36.8,
       "strikeRate": 154.7,
-      "globalPercentile": 79
+      "globalPercentile": 82
     },
     {
       "id": "r-parag",
@@ -48,7 +48,7 @@
       "wickets": 2,
       "economy": 9.5,
       "bowlingAverage": 19.0,
-      "globalPercentile": 57
+      "globalPercentile": 58
     },
     {
       "id": "jc-archer",
@@ -62,7 +62,7 @@
       "wickets": 25,
       "economy": 9.43,
       "bowlingAverage": 22.6,
-      "globalPercentile": 81
+      "globalPercentile": 77
     },
     {
       "id": "n-burger",
@@ -76,7 +76,7 @@
       "wickets": 14,
       "economy": 10.69,
       "bowlingAverage": 33.2,
-      "globalPercentile": 33
+      "globalPercentile": 29
     },
     {
       "id": "brijesh-sharma",
@@ -87,7 +87,7 @@
       "wickets": 14,
       "economy": 9.93,
       "bowlingAverage": 32.3,
-      "globalPercentile": 38
+      "globalPercentile": 35
     },
     {
       "id": "sandeep-sharma",
@@ -98,7 +98,7 @@
       "wickets": 5,
       "economy": 11.44,
       "bowlingAverage": 45.0,
-      "globalPercentile": 11
+      "globalPercentile": 9
     },
     {
       "id": "ravi-bishnoi",
@@ -109,7 +109,7 @@
       "wickets": 11,
       "economy": 9.96,
       "bowlingAverage": 23.5,
-      "globalPercentile": 49
+      "globalPercentile": 47
     },
     {
       "id": "ra-jadeja",
@@ -123,7 +123,7 @@
       "wickets": 10,
       "economy": 8.58,
       "bowlingAverage": 28.3,
-      "globalPercentile": 38
+      "globalPercentile": 36
     },
     {
       "id": "so-hetmyer",
@@ -134,7 +134,7 @@
       "runs": 78,
       "average": 13.0,
       "strikeRate": 113.0,
-      "globalPercentile": 6
+      "globalPercentile": 4
     },
     {
       "id": "d-ferreira",
@@ -145,7 +145,7 @@
       "runs": 317,
       "average": 35.2,
       "strikeRate": 179.1,
-      "globalPercentile": 96
+      "globalPercentile": 97
     },
     {
       "id": "tu-deshpande",
@@ -156,7 +156,7 @@
       "wickets": 4,
       "economy": 12.26,
       "bowlingAverage": 70.5,
-      "globalPercentile": 5
+      "globalPercentile": 4
     },
     {
       "id": "yash-raj-punja",
@@ -167,7 +167,7 @@
       "wickets": 9,
       "economy": 9.37,
       "bowlingAverage": 31.2,
-      "globalPercentile": 48
+      "globalPercentile": 44
     },
     {
       "id": "md-shanaka",
@@ -181,7 +181,7 @@
       "wickets": 1,
       "economy": 10.33,
       "bowlingAverage": 62.0,
-      "globalPercentile": 4
+      "globalPercentile": 3
     }
   ],
   "stats": {

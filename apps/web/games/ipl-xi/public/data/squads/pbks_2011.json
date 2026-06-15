@@ -23,13 +23,13 @@
       "runs": 504,
       "average": 42.0,
       "strikeRate": 146.9,
-      "globalPercentile": 85
+      "globalPercentile": 87
     },
     {
       "id": "pc-valthaty",
       "name": "PC Valthaty",
-      "role": "PACE_BOWLER",
-      "rating": 69,
+      "role": "OPENER",
+      "rating": 75,
       "matches": 14,
       "runs": 463,
       "average": 35.6,
@@ -37,7 +37,7 @@
       "wickets": 7,
       "economy": 7.9,
       "bowlingAverage": 27.3,
-      "globalPercentile": 55
+      "globalPercentile": 65
     },
     {
       "id": "kd-karthik",
@@ -48,13 +48,13 @@
       "runs": 282,
       "average": 25.6,
       "strikeRate": 128.2,
-      "globalPercentile": 30
+      "globalPercentile": 34
     },
     {
       "id": "am-nayar",
       "name": "AM Nayar",
-      "role": "PACE_BOWLER",
-      "rating": 51,
+      "role": "ALL_ROUNDER",
+      "rating": 46,
       "matches": 9,
       "runs": 61,
       "average": 10.2,
@@ -62,7 +62,7 @@
       "wickets": 2,
       "economy": 9.34,
       "bowlingAverage": 47.5,
-      "globalPercentile": 9
+      "globalPercentile": 3
     },
     {
       "id": "sunny-singh",
@@ -73,13 +73,13 @@
       "runs": 43,
       "average": 10.8,
       "strikeRate": 138.7,
-      "globalPercentile": 16
+      "globalPercentile": 14
     },
     {
       "id": "r-mclaren",
       "name": "R McLaren",
-      "role": "PACE_BOWLER",
-      "rating": 57,
+      "role": "ALL_ROUNDER",
+      "rating": 61,
       "matches": 6,
       "runs": 90,
       "average": 30.0,
@@ -87,7 +87,7 @@
       "wickets": 5,
       "economy": 10.11,
       "bowlingAverage": 36.4,
-      "globalPercentile": 23
+      "globalPercentile": 34
     },
     {
       "id": "pp-chawla",
@@ -101,7 +101,7 @@
       "wickets": 16,
       "economy": 8.23,
       "bowlingAverage": 21.2,
-      "globalPercentile": 76
+      "globalPercentile": 71
     },
     {
       "id": "p-kumar",
@@ -115,7 +115,7 @@
       "wickets": 10,
       "economy": 7.67,
       "bowlingAverage": 35.3,
-      "globalPercentile": 41
+      "globalPercentile": 38
     },
     {
       "id": "rj-harris",
@@ -129,7 +129,7 @@
       "wickets": 16,
       "economy": 8.53,
       "bowlingAverage": 25.1,
-      "globalPercentile": 72
+      "globalPercentile": 68
     },
     {
       "id": "ba-bhatt",
@@ -140,7 +140,7 @@
       "wickets": 9,
       "economy": 8.37,
       "bowlingAverage": 25.9,
-      "globalPercentile": 69
+      "globalPercentile": 65
     },
     {
       "id": "dj-hussey",
@@ -162,7 +162,7 @@
       "wickets": 8,
       "economy": 9.35,
       "bowlingAverage": 23.4,
-      "globalPercentile": 72
+      "globalPercentile": 68
     },
     {
       "id": "mandeep-singh",
@@ -173,12 +173,12 @@
       "runs": 47,
       "average": 11.8,
       "strikeRate": 114.6,
-      "globalPercentile": 4
+      "globalPercentile": 3
     }
   ],
   "stats": {
     "min": 44,
     "max": 86,
-    "mean": 64.7
+    "mean": 65.1
   }
 }

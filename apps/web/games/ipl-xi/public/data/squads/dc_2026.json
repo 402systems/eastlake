@@ -25,7 +25,7 @@
       "strikeRate": 151.0,
       "wickets": 0,
       "economy": 13.75,
-      "globalPercentile": 53
+      "globalPercentile": 54
     },
     {
       "id": "p-nissanka",
@@ -36,7 +36,7 @@
       "runs": 278,
       "average": 27.8,
       "strikeRate": 160.7,
-      "globalPercentile": 63
+      "globalPercentile": 62
     },
     {
       "id": "sameer-rizvi",
@@ -47,7 +47,7 @@
       "runs": 252,
       "average": 36.0,
       "strikeRate": 147.4,
-      "globalPercentile": 71
+      "globalPercentile": 72
     },
     {
       "id": "ar-patel",
@@ -61,7 +61,7 @@
       "wickets": 11,
       "economy": 8.3,
       "bowlingAverage": 33.2,
-      "globalPercentile": 36
+      "globalPercentile": 34
     },
     {
       "id": "t-stubbs",
@@ -72,7 +72,7 @@
       "runs": 275,
       "average": 45.8,
       "strikeRate": 127.3,
-      "globalPercentile": 65
+      "globalPercentile": 70
     },
     {
       "id": "mukesh-kumar",
@@ -83,7 +83,7 @@
       "wickets": 6,
       "economy": 11.29,
       "bowlingAverage": 58.3,
-      "globalPercentile": 8
+      "globalPercentile": 7
     },
     {
       "id": "l-ngidi",
@@ -97,7 +97,7 @@
       "wickets": 13,
       "economy": 8.27,
       "bowlingAverage": 26.3,
-      "globalPercentile": 72
+      "globalPercentile": 68
     },
     {
       "id": "t-natarajan",
@@ -108,7 +108,7 @@
       "wickets": 5,
       "economy": 11.01,
       "bowlingAverage": 69.0,
-      "globalPercentile": 5
+      "globalPercentile": 4
     },
     {
       "id": "kuldeep-yadav",
@@ -122,7 +122,7 @@
       "wickets": 10,
       "economy": 10.38,
       "bowlingAverage": 38.4,
-      "globalPercentile": 8
+      "globalPercentile": 6
     },
     {
       "id": "v-nigam",
@@ -133,7 +133,7 @@
       "wickets": 2,
       "economy": 13.0,
       "bowlingAverage": 58.5,
-      "globalPercentile": 3
+      "globalPercentile": 2
     },
     {
       "id": "da-miller",
@@ -144,7 +144,7 @@
       "runs": 211,
       "average": 35.2,
       "strikeRate": 154.0,
-      "globalPercentile": 80
+      "globalPercentile": 85
     },
     {
       "id": "auqib-nabi",
@@ -165,7 +165,7 @@
       "wickets": 11,
       "economy": 10.23,
       "bowlingAverage": 20.5,
-      "globalPercentile": 84
+      "globalPercentile": 80
     }
   ],
   "stats": {

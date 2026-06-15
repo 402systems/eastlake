@@ -6,8 +6,8 @@
     {
       "id": "jh-kallis",
       "name": "JH Kallis",
-      "role": "PACE_BOWLER",
-      "rating": 62,
+      "role": "OPENER",
+      "rating": 78,
       "matches": 16,
       "runs": 572,
       "average": 47.7,
@@ -15,7 +15,7 @@
       "wickets": 13,
       "economy": 8.49,
       "bowlingAverage": 37.2,
-      "globalPercentile": 35
+      "globalPercentile": 73
     },
     {
       "id": "mk-pandey",
@@ -39,7 +39,7 @@
       "strikeRate": 145.5,
       "wickets": 0,
       "economy": 10.0,
-      "globalPercentile": 65
+      "globalPercentile": 70
     },
     {
       "id": "r-dravid",
@@ -50,7 +50,7 @@
       "runs": 256,
       "average": 28.4,
       "strikeRate": 128.6,
-      "globalPercentile": 39
+      "globalPercentile": 40
     },
     {
       "id": "rv-uthappa",
@@ -61,7 +61,7 @@
       "runs": 374,
       "average": 31.2,
       "strikeRate": 171.6,
-      "globalPercentile": 79
+      "globalPercentile": 82
     },
     {
       "id": "p-kumar",
@@ -75,7 +75,7 @@
       "wickets": 10,
       "economy": 8.71,
       "bowlingAverage": 39.2,
-      "globalPercentile": 33
+      "globalPercentile": 29
     },
     {
       "id": "dw-steyn",
@@ -89,7 +89,7 @@
       "wickets": 15,
       "economy": 7.03,
       "bowlingAverage": 27.7,
-      "globalPercentile": 72
+      "globalPercentile": 68
     },
     {
       "id": "a-kumble",
@@ -103,7 +103,7 @@
       "wickets": 17,
       "economy": 6.66,
       "bowlingAverage": 24.8,
-      "globalPercentile": 73
+      "globalPercentile": 69
     },
     {
       "id": "r-vinay-kumar",
@@ -117,13 +117,13 @@
       "wickets": 16,
       "economy": 8.75,
       "bowlingAverage": 25.2,
-      "globalPercentile": 67
+      "globalPercentile": 63
     },
     {
       "id": "kp-pietersen",
       "name": "KP Pietersen",
-      "role": "PACE_BOWLER",
-      "rating": 67,
+      "role": "MIDDLE_ORDER",
+      "rating": 90,
       "matches": 7,
       "runs": 236,
       "average": 78.7,
@@ -131,7 +131,7 @@
       "wickets": 3,
       "economy": 7.7,
       "bowlingAverage": 25.7,
-      "globalPercentile": 48
+      "globalPercentile": 93
     },
     {
       "id": "cl-white",
@@ -142,7 +142,7 @@
       "runs": 48,
       "average": 24.0,
       "strikeRate": 145.5,
-      "globalPercentile": 36
+      "globalPercentile": 37
     },
     {
       "id": "lrpl-taylor",
@@ -153,12 +153,12 @@
       "runs": 88,
       "average": 22.0,
       "strikeRate": 117.3,
-      "globalPercentile": 16
+      "globalPercentile": 14
     }
   ],
   "stats": {
     "min": 53,
-    "max": 83,
-    "mean": 67.4
+    "max": 90,
+    "mean": 70.7
   }
 }

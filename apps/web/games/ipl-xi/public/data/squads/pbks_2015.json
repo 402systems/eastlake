@@ -12,7 +12,7 @@
       "runs": 99,
       "average": 14.1,
       "strikeRate": 117.9,
-      "globalPercentile": 5
+      "globalPercentile": 6
     },
     {
       "id": "wp-saha",
@@ -23,7 +23,7 @@
       "runs": 249,
       "average": 20.8,
       "strikeRate": 126.4,
-      "globalPercentile": 18
+      "globalPercentile": 21
     },
     {
       "id": "m-vijay",
@@ -41,8 +41,8 @@
     {
       "id": "gj-maxwell",
       "name": "GJ Maxwell",
-      "role": "PACE_BOWLER",
-      "rating": 49,
+      "role": "MIDDLE_ORDER",
+      "rating": 53,
       "matches": 11,
       "runs": 146,
       "average": 13.3,
@@ -50,7 +50,7 @@
       "wickets": 2,
       "economy": 9.7,
       "bowlingAverage": 48.5,
-      "globalPercentile": 6
+      "globalPercentile": 12
     },
     {
       "id": "ar-patel",
@@ -64,7 +64,7 @@
       "wickets": 13,
       "economy": 8.55,
       "bowlingAverage": 30.7,
-      "globalPercentile": 38
+      "globalPercentile": 36
     },
     {
       "id": "da-miller",
@@ -75,7 +75,7 @@
       "runs": 357,
       "average": 29.8,
       "strikeRate": 133.7,
-      "globalPercentile": 58
+      "globalPercentile": 64
     },
     {
       "id": "gj-bailey",
@@ -86,7 +86,7 @@
       "runs": 259,
       "average": 25.9,
       "strikeRate": 136.3,
-      "globalPercentile": 53
+      "globalPercentile": 55
     },
     {
       "id": "mg-johnson",
@@ -100,7 +100,7 @@
       "wickets": 10,
       "economy": 9.52,
       "bowlingAverage": 34.6,
-      "globalPercentile": 38
+      "globalPercentile": 35
     },
     {
       "id": "anureet-singh",
@@ -114,7 +114,7 @@
       "wickets": 15,
       "economy": 9.23,
       "bowlingAverage": 31.8,
-      "globalPercentile": 45
+      "globalPercentile": 41
     },
     {
       "id": "sandeep-sharma",
@@ -128,7 +128,7 @@
       "wickets": 13,
       "economy": 7.18,
       "bowlingAverage": 27.6,
-      "globalPercentile": 69
+      "globalPercentile": 65
     },
     {
       "id": "r-dhawan",
@@ -147,8 +147,8 @@
     {
       "id": "gurkeerat-singh",
       "name": "Gurkeerat Singh",
-      "role": "PACE_BOWLER",
-      "rating": 78,
+      "role": "ALL_ROUNDER",
+      "rating": 55,
       "matches": 5,
       "runs": 35,
       "average": 7.0,
@@ -156,7 +156,7 @@
       "wickets": 3,
       "economy": 7.33,
       "bowlingAverage": 22.0,
-      "globalPercentile": 81
+      "globalPercentile": 19
     },
     {
       "id": "m-vohra",
@@ -172,7 +172,7 @@
   ],
   "stats": {
     "min": 44,
-    "max": 78,
-    "mean": 61.5
+    "max": 74,
+    "mean": 60.0
   }
 }

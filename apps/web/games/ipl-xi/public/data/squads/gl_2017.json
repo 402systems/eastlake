@@ -17,8 +17,8 @@
     {
       "id": "sk-raina",
       "name": "SK Raina",
-      "role": "PACE_BOWLER",
-      "rating": 53,
+      "role": "MIDDLE_ORDER",
+      "rating": 82,
       "matches": 15,
       "runs": 1283,
       "average": 37.7,
@@ -26,7 +26,7 @@
       "wickets": 2,
       "economy": 8.47,
       "bowlingAverage": 144.0,
-      "globalPercentile": 13
+      "globalPercentile": 79
     },
     {
       "id": "aj-finch",
@@ -37,7 +37,7 @@
       "runs": 993,
       "average": 31.0,
       "strikeRate": 150.2,
-      "globalPercentile": 77
+      "globalPercentile": 79
     },
     {
       "id": "kd-karthik",
@@ -48,7 +48,7 @@
       "runs": 1057,
       "average": 34.1,
       "strikeRate": 135.2,
-      "globalPercentile": 78
+      "globalPercentile": 82
     },
     {
       "id": "p-kumar",
@@ -62,7 +62,7 @@
       "wickets": 21,
       "economy": 8.47,
       "bowlingAverage": 34.1,
-      "globalPercentile": 81
+      "globalPercentile": 77
     },
     {
       "id": "ds-kulkarni",
@@ -76,13 +76,13 @@
       "wickets": 24,
       "economy": 8.2,
       "bowlingAverage": 29.6,
-      "globalPercentile": 87
+      "globalPercentile": 84
     },
     {
       "id": "dr-smith",
       "name": "DR Smith",
-      "role": "PACE_BOWLER",
-      "rating": 61,
+      "role": "MIDDLE_ORDER",
+      "rating": 79,
       "matches": 12,
       "runs": 802,
       "average": 25.9,
@@ -90,7 +90,7 @@
       "wickets": 12,
       "economy": 10.36,
       "bowlingAverage": 38.0,
-      "globalPercentile": 33
+      "globalPercentile": 72
     },
     {
       "id": "basil-thampi",
@@ -104,7 +104,7 @@
       "wickets": 22,
       "economy": 9.58,
       "bowlingAverage": 38.9,
-      "globalPercentile": 58
+      "globalPercentile": 54
     },
     {
       "id": "aj-tye",
@@ -132,7 +132,7 @@
       "wickets": 18,
       "economy": 8.81,
       "bowlingAverage": 56.9,
-      "globalPercentile": 41
+      "globalPercentile": 39
     },
     {
       "id": "ishan-kishan",
@@ -143,7 +143,7 @@
       "runs": 596,
       "average": 24.8,
       "strikeRate": 132.2,
-      "globalPercentile": 57
+      "globalPercentile": 58
     },
     {
       "id": "jp-faulkner",
@@ -157,7 +157,7 @@
       "wickets": 18,
       "economy": 10.18,
       "bowlingAverage": 40.3,
-      "globalPercentile": 55
+      "globalPercentile": 51
     },
     {
       "id": "ankit-soni",
@@ -171,7 +171,7 @@
       "wickets": 4,
       "economy": 7.98,
       "bowlingAverage": 72.5,
-      "globalPercentile": 28
+      "globalPercentile": 24
     },
     {
       "id": "pj-sangwan",
@@ -185,12 +185,12 @@
       "wickets": 10,
       "economy": 10.38,
       "bowlingAverage": 41.5,
-      "globalPercentile": 45
+      "globalPercentile": 41
     }
   ],
   "stats": {
-    "min": 53,
+    "min": 59,
     "max": 95,
-    "mean": 72.0
+    "mean": 75.4
   }
 }

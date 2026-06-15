@@ -298,32 +298,56 @@ def _parse_match(content: str, stats: dict):
 
 
 def classify_role(avg_bat_pos, total_innings, total_overs, stumpings, name, matches_bowl=0):
-    # Known batting all-rounders: bypass the bowler check and classify by
-    # batting position only, even if they've accumulated 8+ overs.
-    if name in KNOWN_BATTING_ALLROUNDERS and total_innings >= 3:
+    """Assign one of the five game roles.
+
+    Definition of an ALL_ROUNDER (and the batting roles in general): a player is
+    defined by where they bat. Someone who bats in the top six is a batter —
+    OPENER (1-2), MIDDLE_ORDER (3-4) or ALL_ROUNDER / finisher (5-6) — even if
+    they roll their arm over for a few overs. Only a *frontline* bowler (one who
+    carries a real bowling workload) is classified into a bowling slot. This
+    stops part-time-bowling batters like KA Pollard from being miscast as pace
+    bowlers just because they cleared a low season-overs threshold.
+    """
+    overs_per_bowl_match = total_overs / matches_bowl if matches_bowl else 0.0
+    bats_top_six = total_innings >= 3 and avg_bat_pos <= 6.5
+
+    # A frontline bowler carries a genuine workload — multiple overs every time
+    # they bowl, across a meaningful season total. Part-time bowlers fall short.
+    is_frontline_bowler = total_overs >= 20 and overs_per_bowl_match >= 2.0
+    is_spin = is_spinner(name, stumpings, total_overs)
+    # Named frontline spinners — the only top-six batters we keep as bowlers.
+    # (is_spinner's stumping heuristic would otherwise sweep in part-time
+    # spinners like Raina/Maxwell/Yuvraj who are really batters.)
+    name_l = name.lower()
+    is_named_spinner = any(s.lower() == name_l for s in KNOWN_SPINNERS)
+
+    def position_role():
         if avg_bat_pos <= 2.5:
             return "OPENER"
         if avg_bat_pos <= 4.5:
             return "MIDDLE_ORDER"
-        if avg_bat_pos <= 6.5:
-            return "ALL_ROUNDER"
-
-    # Primary bowler threshold: bowls meaningful overs across the season
-    is_primary_bowler = total_overs >= 8
-
-    if is_primary_bowler:
-        return "SPIN_BOWLER" if is_spinner(name, stumpings, total_overs) else "PACE_BOWLER"
-
-    if avg_bat_pos <= 2.5 and total_innings >= 3:
-        return "OPENER"
-    if avg_bat_pos <= 4.5 and total_innings >= 3:
-        return "MIDDLE_ORDER"
-    if avg_bat_pos <= 6.5 and total_innings >= 3:
         return "ALL_ROUNDER"
 
-    # Lower-order bat who bowls a bit
-    if total_overs >= 4:
-        return "SPIN_BOWLER" if is_spinner(name, stumpings, total_overs) else "PACE_BOWLER"
+    def bowler_role():
+        return "SPIN_BOWLER" if is_spin else "PACE_BOWLER"
+
+    # Known batting all-rounders are always classified by their batting position.
+    if name in KNOWN_BATTING_ALLROUNDERS and total_innings >= 3:
+        return position_role()
+
+    # A top-six batter is defined by their batting role — the part-time overs
+    # they bowl do NOT demote them to a bowler (e.g. Pollard, Gayle, Raina,
+    # Russell, Watson). The sole exception is a frontline *spinner* who bats up
+    # the order (Jadeja, Axar, Narine, Krunal): a team genuinely fields them as
+    # its spinner, and there's no batting-spin-allrounder slot to hold them.
+    if bats_top_six:
+        if is_named_spinner and is_frontline_bowler:
+            return "SPIN_BOWLER"
+        return position_role()
+
+    # Not a top-six bat: classify as a bowler if they bowl enough.
+    if is_frontline_bowler or total_overs >= 8 or total_overs >= 4:
+        return bowler_role()
 
     return None
 
@@ -361,7 +385,7 @@ def aggregate_player(name: str, entries: dict):
     economy = total_bowl_runs / total_overs if total_overs > 0 else 0
     bowl_avg = total_bowl_runs / total_wickets if total_wickets > 0 else 99.0
 
-    role = classify_role(avg_bat_pos, total_innings, total_overs, total_stumpings, name)
+    role = classify_role(avg_bat_pos, total_innings, total_overs, total_stumpings, name, matches_bowl)
     if not role:
         return None
 

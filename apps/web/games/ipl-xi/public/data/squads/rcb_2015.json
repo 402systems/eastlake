@@ -12,7 +12,7 @@
       "runs": 491,
       "average": 40.9,
       "strikeRate": 148.3,
-      "globalPercentile": 78
+      "globalPercentile": 79
     },
     {
       "id": "v-kohli",
@@ -34,7 +34,7 @@
       "runs": 141,
       "average": 15.7,
       "strikeRate": 120.5,
-      "globalPercentile": 9
+      "globalPercentile": 10
     },
     {
       "id": "mandeep-singh",
@@ -45,7 +45,7 @@
       "runs": 157,
       "average": 26.2,
       "strikeRate": 157.0,
-      "globalPercentile": 53
+      "globalPercentile": 54
     },
     {
       "id": "ab-de-villiers",
@@ -56,7 +56,7 @@
       "runs": 513,
       "average": 64.1,
       "strikeRate": 176.3,
-      "globalPercentile": 98
+      "globalPercentile": 99
     },
     {
       "id": "hv-patel",
@@ -70,7 +70,7 @@
       "wickets": 17,
       "economy": 7.73,
       "bowlingAverage": 19.9,
-      "globalPercentile": 86
+      "globalPercentile": 82
     },
     {
       "id": "vr-aaron",
@@ -81,7 +81,7 @@
       "wickets": 3,
       "economy": 10.38,
       "bowlingAverage": 60.0,
-      "globalPercentile": 9
+      "globalPercentile": 8
     },
     {
       "id": "ys-chahal",
@@ -92,13 +92,13 @@
       "wickets": 23,
       "economy": 8.88,
       "bowlingAverage": 18.1,
-      "globalPercentile": 88
+      "globalPercentile": 85
     },
     {
       "id": "d-wiese",
       "name": "D Wiese",
-      "role": "PACE_BOWLER",
-      "rating": 77,
+      "role": "ALL_ROUNDER",
+      "rating": 73,
       "matches": 13,
       "runs": 122,
       "average": 30.5,
@@ -106,7 +106,7 @@
       "wickets": 16,
       "economy": 8.5,
       "bowlingAverage": 22.5,
-      "globalPercentile": 78
+      "globalPercentile": 74
     },
     {
       "id": "iqbal-abdulla",
@@ -117,7 +117,7 @@
       "wickets": 4,
       "economy": 7.89,
       "bowlingAverage": 37.5,
-      "globalPercentile": 29
+      "globalPercentile": 28
     },
     {
       "id": "sn-khan",
@@ -128,7 +128,7 @@
       "runs": 111,
       "average": 27.8,
       "strikeRate": 158.6,
-      "globalPercentile": 65
+      "globalPercentile": 70
     },
     {
       "id": "ma-starc",
@@ -159,6 +159,6 @@
   "stats": {
     "min": 51,
     "max": 97,
-    "mean": 76.2
+    "mean": 75.9
   }
 }

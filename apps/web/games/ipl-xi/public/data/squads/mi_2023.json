@@ -28,8 +28,8 @@
     {
       "id": "c-green",
       "name": "C Green",
-      "role": "PACE_BOWLER",
-      "rating": 50,
+      "role": "MIDDLE_ORDER",
+      "rating": 91,
       "matches": 16,
       "runs": 452,
       "average": 50.2,
@@ -37,7 +37,7 @@
       "wickets": 6,
       "economy": 9.74,
       "bowlingAverage": 61.7,
-      "globalPercentile": 8
+      "globalPercentile": 95
     },
     {
       "id": "sa-yadav",
@@ -48,7 +48,7 @@
       "runs": 605,
       "average": 43.2,
       "strikeRate": 182.2,
-      "globalPercentile": 96
+      "globalPercentile": 97
     },
     {
       "id": "tilak-varma",
@@ -70,7 +70,7 @@
       "runs": 241,
       "average": 26.8,
       "strikeRate": 146.1,
-      "globalPercentile": 65
+      "globalPercentile": 70
     },
     {
       "id": "th-david",
@@ -81,7 +81,7 @@
       "runs": 231,
       "average": 28.9,
       "strikeRate": 159.3,
-      "globalPercentile": 69
+      "globalPercentile": 74
     },
     {
       "id": "hr-shokeen",
@@ -109,7 +109,7 @@
       "wickets": 5,
       "economy": 13.55,
       "bowlingAverage": 38.4,
-      "globalPercentile": 13
+      "globalPercentile": 11
     },
     {
       "id": "jp-behrendorff",
@@ -120,7 +120,7 @@
       "wickets": 14,
       "economy": 9.4,
       "bowlingAverage": 28.2,
-      "globalPercentile": 55
+      "globalPercentile": 51
     },
     {
       "id": "jc-archer",
@@ -145,7 +145,7 @@
       "wickets": 22,
       "economy": 8.18,
       "bowlingAverage": 22.7,
-      "globalPercentile": 76
+      "globalPercentile": 71
     },
     {
       "id": "k-kartikeya",
@@ -156,7 +156,7 @@
       "wickets": 5,
       "economy": 8.88,
       "bowlingAverage": 46.2,
-      "globalPercentile": 8
+      "globalPercentile": 6
     },
     {
       "id": "rp-meredith",
@@ -167,7 +167,7 @@
       "wickets": 7,
       "economy": 10.63,
       "bowlingAverage": 29.9,
-      "globalPercentile": 48
+      "globalPercentile": 44
     },
     {
       "id": "akash-madhwal",
@@ -178,7 +178,7 @@
       "wickets": 14,
       "economy": 8.71,
       "bowlingAverage": 15.9,
-      "globalPercentile": 94
+      "globalPercentile": 92
     },
     {
       "id": "cj-jordan",
@@ -189,12 +189,12 @@
       "wickets": 3,
       "economy": 10.95,
       "bowlingAverage": 80.3,
-      "globalPercentile": 4
+      "globalPercentile": 3
     }
   ],
   "stats": {
     "min": 47,
     "max": 94,
-    "mean": 66.9
+    "mean": 69.4
   }
 }

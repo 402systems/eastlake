@@ -23,7 +23,7 @@
       "runs": 890,
       "average": 59.3,
       "strikeRate": 158.9,
-      "globalPercentile": 99
+      "globalPercentile": 98
     },
     {
       "id": "b-sai-sudharsan",
@@ -34,7 +34,7 @@
       "runs": 362,
       "average": 60.3,
       "strikeRate": 143.1,
-      "globalPercentile": 90
+      "globalPercentile": 92
     },
     {
       "id": "hh-pandya",
@@ -48,7 +48,7 @@
       "wickets": 3,
       "economy": 9.64,
       "bowlingAverage": 80.3,
-      "globalPercentile": 49
+      "globalPercentile": 51
     },
     {
       "id": "v-shankar",
@@ -59,7 +59,7 @@
       "runs": 301,
       "average": 37.6,
       "strikeRate": 161.0,
-      "globalPercentile": 84
+      "globalPercentile": 86
     },
     {
       "id": "rashid-khan",
@@ -73,7 +73,7 @@
       "wickets": 27,
       "economy": 8.31,
       "bowlingAverage": 20.6,
-      "globalPercentile": 88
+      "globalPercentile": 85
     },
     {
       "id": "mohammed-shami",
@@ -84,7 +84,7 @@
       "wickets": 28,
       "economy": 8.18,
       "bowlingAverage": 19.0,
-      "globalPercentile": 92
+      "globalPercentile": 91
     },
     {
       "id": "j-little",
@@ -95,7 +95,7 @@
       "wickets": 7,
       "economy": 8.71,
       "bowlingAverage": 42.3,
-      "globalPercentile": 25
+      "globalPercentile": 21
     },
     {
       "id": "as-joseph",
@@ -106,7 +106,7 @@
       "wickets": 7,
       "economy": 9.42,
       "bowlingAverage": 32.3,
-      "globalPercentile": 38
+      "globalPercentile": 35
     },
     {
       "id": "yash-dayal",
@@ -117,7 +117,7 @@
       "wickets": 2,
       "economy": 11.79,
       "bowlingAverage": 82.5,
-      "globalPercentile": 3
+      "globalPercentile": 2
     },
     {
       "id": "da-miller",
@@ -128,7 +128,7 @@
       "runs": 259,
       "average": 32.4,
       "strikeRate": 145.5,
-      "globalPercentile": 69
+      "globalPercentile": 74
     },
     {
       "id": "a-manohar",
@@ -139,7 +139,7 @@
       "runs": 114,
       "average": 19.0,
       "strikeRate": 137.3,
-      "globalPercentile": 36
+      "globalPercentile": 37
     },
     {
       "id": "mm-sharma",
@@ -164,7 +164,7 @@
       "wickets": 16,
       "economy": 7.95,
       "bowlingAverage": 23.4,
-      "globalPercentile": 70
+      "globalPercentile": 66
     }
   ],
   "stats": {

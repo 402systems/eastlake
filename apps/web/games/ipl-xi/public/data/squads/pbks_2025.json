@@ -23,7 +23,7 @@
       "runs": 599,
       "average": 35.2,
       "strikeRate": 162.8,
-      "globalPercentile": 78
+      "globalPercentile": 79
     },
     {
       "id": "ss-iyer",
@@ -34,7 +34,7 @@
       "runs": 604,
       "average": 50.3,
       "strikeRate": 176.1,
-      "globalPercentile": 98
+      "globalPercentile": 99
     },
     {
       "id": "azmatullah-omarzai",
@@ -48,13 +48,13 @@
       "wickets": 8,
       "economy": 10.44,
       "bowlingAverage": 35.2,
-      "globalPercentile": 28
+      "globalPercentile": 24
     },
     {
       "id": "gj-maxwell",
       "name": "GJ Maxwell",
-      "role": "SPIN_BOWLER",
-      "rating": 65,
+      "role": "ALL_ROUNDER",
+      "rating": 51,
       "matches": 6,
       "runs": 48,
       "average": 8.0,
@@ -62,13 +62,13 @@
       "wickets": 4,
       "economy": 8.54,
       "bowlingAverage": 27.8,
-      "globalPercentile": 33
+      "globalPercentile": 10
     },
     {
       "id": "mp-stoinis",
       "name": "MP Stoinis",
-      "role": "PACE_BOWLER",
-      "rating": 42,
+      "role": "ALL_ROUNDER",
+      "rating": 67,
       "matches": 11,
       "runs": 160,
       "average": 26.7,
@@ -76,7 +76,7 @@
       "wickets": 1,
       "economy": 12.67,
       "bowlingAverage": 171.0,
-      "globalPercentile": 1
+      "globalPercentile": 55
     },
     {
       "id": "shashank-singh",
@@ -87,7 +87,7 @@
       "runs": 350,
       "average": 50.0,
       "strikeRate": 153.5,
-      "globalPercentile": 89
+      "globalPercentile": 92
     },
     {
       "id": "arshdeep-singh",
@@ -98,7 +98,7 @@
       "wickets": 21,
       "economy": 9.03,
       "bowlingAverage": 25.1,
-      "globalPercentile": 72
+      "globalPercentile": 68
     },
     {
       "id": "m-jansen",
@@ -112,7 +112,7 @@
       "wickets": 16,
       "economy": 9.5,
       "bowlingAverage": 28.0,
-      "globalPercentile": 55
+      "globalPercentile": 51
     },
     {
       "id": "ys-chahal",
@@ -123,7 +123,7 @@
       "wickets": 16,
       "economy": 9.58,
       "bowlingAverage": 26.9,
-      "globalPercentile": 46
+      "globalPercentile": 44
     },
     {
       "id": "vijaykumar-vyshak",
@@ -134,7 +134,7 @@
       "wickets": 4,
       "economy": 10.65,
       "bowlingAverage": 45.2,
-      "globalPercentile": 13
+      "globalPercentile": 11
     },
     {
       "id": "n-wadhera",
@@ -145,7 +145,7 @@
       "runs": 369,
       "average": 33.5,
       "strikeRate": 147.0,
-      "globalPercentile": 76
+      "globalPercentile": 80
     },
     {
       "id": "jp-inglis",
@@ -156,7 +156,7 @@
       "runs": 278,
       "average": 30.9,
       "strikeRate": 162.6,
-      "globalPercentile": 71
+      "globalPercentile": 72
     },
     {
       "id": "harpreet-brar",
@@ -167,12 +167,12 @@
       "wickets": 10,
       "economy": 8.64,
       "bowlingAverage": 19.0,
-      "globalPercentile": 86
+      "globalPercentile": 82
     }
   ],
   "stats": {
-    "min": 42,
+    "min": 51,
     "max": 97,
-    "mean": 72.1
+    "mean": 72.9
   }
 }

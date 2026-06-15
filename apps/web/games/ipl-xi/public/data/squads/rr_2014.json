@@ -12,7 +12,7 @@
       "runs": 339,
       "average": 26.1,
       "strikeRate": 124.2,
-      "globalPercentile": 35
+      "globalPercentile": 37
     },
     {
       "id": "am-rahane",
@@ -28,8 +28,8 @@
     {
       "id": "sr-watson",
       "name": "SR Watson",
-      "role": "PACE_BOWLER",
-      "rating": 71,
+      "role": "MIDDLE_ORDER",
+      "rating": 58,
       "matches": 13,
       "runs": 246,
       "average": 20.5,
@@ -37,13 +37,13 @@
       "wickets": 7,
       "economy": 8.05,
       "bowlingAverage": 24.1,
-      "globalPercentile": 61
+      "globalPercentile": 19
     },
     {
       "id": "str-binny",
       "name": "STR Binny",
-      "role": "PACE_BOWLER",
-      "rating": 69,
+      "role": "ALL_ROUNDER",
+      "rating": 55,
       "matches": 11,
       "runs": 123,
       "average": 13.7,
@@ -51,7 +51,7 @@
       "wickets": 3,
       "economy": 7.22,
       "bowlingAverage": 21.7,
-      "globalPercentile": 55
+      "globalPercentile": 19
     },
     {
       "id": "r-bhatia",
@@ -65,7 +65,7 @@
       "wickets": 12,
       "economy": 7.55,
       "bowlingAverage": 23.9,
-      "globalPercentile": 75
+      "globalPercentile": 72
     },
     {
       "id": "jp-faulkner",
@@ -79,7 +79,7 @@
       "wickets": 11,
       "economy": 10.2,
       "bowlingAverage": 40.8,
-      "globalPercentile": 18
+      "globalPercentile": 15
     },
     {
       "id": "ds-kulkarni",
@@ -90,7 +90,7 @@
       "wickets": 6,
       "economy": 8.37,
       "bowlingAverage": 37.7,
-      "globalPercentile": 33
+      "globalPercentile": 29
     },
     {
       "id": "kw-richardson",
@@ -101,7 +101,7 @@
       "wickets": 9,
       "economy": 7.74,
       "bowlingAverage": 23.2,
-      "globalPercentile": 84
+      "globalPercentile": 80
     },
     {
       "id": "pv-tambe",
@@ -112,7 +112,7 @@
       "wickets": 15,
       "economy": 7.45,
       "bowlingAverage": 24.3,
-      "globalPercentile": 70
+      "globalPercentile": 66
     },
     {
       "id": "spd-smith",
@@ -123,7 +123,7 @@
       "runs": 152,
       "average": 38.0,
       "strikeRate": 135.7,
-      "globalPercentile": 65
+      "globalPercentile": 70
     },
     {
       "id": "kk-nair",
@@ -139,8 +139,8 @@
     {
       "id": "kk-cooper",
       "name": "KK Cooper",
-      "role": "PACE_BOWLER",
-      "rating": 64,
+      "role": "ALL_ROUNDER",
+      "rating": 62,
       "matches": 5,
       "runs": 39,
       "average": 13.0,
@@ -148,12 +148,12 @@
       "wickets": 4,
       "economy": 8.11,
       "bowlingAverage": 36.5,
-      "globalPercentile": 38
+      "globalPercentile": 37
     }
   ],
   "stats": {
     "min": 55,
     "max": 80,
-    "mean": 69.2
+    "mean": 66.8
   }
 }

@@ -11,7 +11,8 @@
       "matches": 12,
       "runs": 212,
       "average": 19.3,
-      "strikeRate": 99.5
+      "strikeRate": 99.5,
+      "globalPercentile": 7
     },
     {
       "id": "sa-asnodkar",
@@ -21,7 +22,8 @@
       "matches": 8,
       "runs": 98,
       "average": 12.2,
-      "strikeRate": 105.4
+      "strikeRate": 105.4,
+      "globalPercentile": 2
     },
     {
       "id": "yk-pathan",
@@ -34,33 +36,36 @@
       "strikeRate": 139.6,
       "wickets": 7,
       "economy": 7.09,
-      "bowlingAverage": 35.4
+      "bowlingAverage": 35.4,
+      "globalPercentile": 48
     },
     {
       "id": "ad-mascarenhas",
       "name": "AD Mascarenhas",
-      "role": "PACE_BOWLER",
-      "rating": 82,
+      "role": "ALL_ROUNDER",
+      "rating": 59,
       "matches": 5,
       "runs": 39,
       "average": 9.8,
       "strikeRate": 100.0,
       "wickets": 6,
       "economy": 6.88,
-      "bowlingAverage": 22.2
+      "bowlingAverage": 22.2,
+      "globalPercentile": 30
     },
     {
       "id": "ra-jadeja",
       "name": "RA Jadeja",
-      "role": "ALL_ROUNDER",
-      "rating": 65,
+      "role": "SPIN_BOWLER",
+      "rating": 72,
       "matches": 13,
       "runs": 295,
       "average": 26.8,
       "strikeRate": 111.3,
       "wickets": 6,
       "economy": 6.69,
-      "bowlingAverage": 26.0
+      "bowlingAverage": 26.0,
+      "globalPercentile": 49
     },
     {
       "id": "sk-warne",
@@ -73,7 +78,8 @@
       "strikeRate": 93.1,
       "wickets": 14,
       "economy": 7.38,
-      "bowlingAverage": 26.4
+      "bowlingAverage": 26.4,
+      "globalPercentile": 60
     },
     {
       "id": "mm-patel",
@@ -86,7 +92,8 @@
       "strikeRate": 126.9,
       "wickets": 16,
       "economy": 7.03,
-      "bowlingAverage": 15.3
+      "bowlingAverage": 15.3,
+      "globalPercentile": 95
     },
     {
       "id": "kamran-khan",
@@ -96,7 +103,8 @@
       "matches": 5,
       "wickets": 7,
       "economy": 7.93,
-      "bowlingAverage": 21.1
+      "bowlingAverage": 21.1,
+      "globalPercentile": 84
     },
     {
       "id": "rj-quiney",
@@ -106,7 +114,8 @@
       "matches": 7,
       "runs": 103,
       "average": 14.7,
-      "strikeRate": 101.0
+      "strikeRate": 101.0,
+      "globalPercentile": 3
     },
     {
       "id": "as-raut",
@@ -118,7 +127,8 @@
       "average": 19.5,
       "strikeRate": 127.9,
       "wickets": 0,
-      "economy": 9.25
+      "economy": 9.25,
+      "globalPercentile": 2
     },
     {
       "id": "sk-trivedi",
@@ -131,7 +141,8 @@
       "strikeRate": 52.9,
       "wickets": 6,
       "economy": 7.6,
-      "bowlingAverage": 25.3
+      "bowlingAverage": 25.3,
+      "globalPercentile": 63
     },
     {
       "id": "la-carseldine",
@@ -141,7 +152,8 @@
       "matches": 5,
       "runs": 81,
       "average": 27.0,
-      "strikeRate": 122.7
+      "strikeRate": 122.7,
+      "globalPercentile": 24
     },
     {
       "id": "nv-ojha",
@@ -151,7 +163,8 @@
       "matches": 8,
       "runs": 168,
       "average": 24.0,
-      "strikeRate": 116.7
+      "strikeRate": 116.7,
+      "globalPercentile": 21
     },
     {
       "id": "a-singh",
@@ -161,12 +174,13 @@
       "matches": 5,
       "wickets": 9,
       "economy": 5.71,
-      "bowlingAverage": 11.1
+      "bowlingAverage": 11.1,
+      "globalPercentile": 100
     }
   ],
   "stats": {
     "min": 46,
     "max": 98,
-    "mean": 67.1
+    "mean": 65.9
   }
 }

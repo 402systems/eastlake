@@ -12,7 +12,7 @@
       "runs": 618,
       "average": 47.5,
       "strikeRate": 133.5,
-      "globalPercentile": 84
+      "globalPercentile": 85
     },
     {
       "id": "ss-tiwary",
@@ -23,7 +23,7 @@
       "runs": 419,
       "average": 32.2,
       "strikeRate": 136.5,
-      "globalPercentile": 57
+      "globalPercentile": 58
     },
     {
       "id": "at-rayudu",
@@ -34,13 +34,13 @@
       "runs": 356,
       "average": 29.7,
       "strikeRate": 145.9,
-      "globalPercentile": 57
+      "globalPercentile": 58
     },
     {
       "id": "r-sathish",
       "name": "R Sathish",
-      "role": "PACE_BOWLER",
-      "rating": 50,
+      "role": "ALL_ROUNDER",
+      "rating": 51,
       "matches": 10,
       "runs": 112,
       "average": 18.7,
@@ -48,7 +48,7 @@
       "wickets": 2,
       "economy": 10.12,
       "bowlingAverage": 40.5,
-      "globalPercentile": 8
+      "globalPercentile": 10
     },
     {
       "id": "harbhajan-singh",
@@ -62,7 +62,7 @@
       "wickets": 17,
       "economy": 7.2,
       "bowlingAverage": 22.6,
-      "globalPercentile": 78
+      "globalPercentile": 74
     },
     {
       "id": "r-mclaren",
@@ -76,7 +76,7 @@
       "wickets": 4,
       "economy": 8.26,
       "bowlingAverage": 70.2,
-      "globalPercentile": 18
+      "globalPercentile": 15
     },
     {
       "id": "z-khan",
@@ -90,7 +90,7 @@
       "wickets": 15,
       "economy": 8.03,
       "bowlingAverage": 25.9,
-      "globalPercentile": 69
+      "globalPercentile": 65
     },
     {
       "id": "sl-malinga",
@@ -101,12 +101,12 @@
       "wickets": 15,
       "economy": 7.35,
       "bowlingAverage": 24.0,
-      "globalPercentile": 83
+      "globalPercentile": 79
     },
     {
       "id": "ka-pollard",
       "name": "KA Pollard",
-      "role": "PACE_BOWLER",
+      "role": "ALL_ROUNDER",
       "rating": 83,
       "matches": 14,
       "runs": 273,
@@ -115,13 +115,13 @@
       "wickets": 15,
       "economy": 7.46,
       "bowlingAverage": 18.4,
-      "globalPercentile": 89
+      "globalPercentile": 92
     },
     {
       "id": "dj-bravo",
       "name": "DJ Bravo",
-      "role": "PACE_BOWLER",
-      "rating": 53,
+      "role": "ALL_ROUNDER",
+      "rating": 47,
       "matches": 10,
       "runs": 61,
       "average": 8.7,
@@ -129,7 +129,7 @@
       "wickets": 4,
       "economy": 8.83,
       "bowlingAverage": 57.8,
-      "globalPercentile": 13
+      "globalPercentile": 4
     },
     {
       "id": "s-dhawan",
@@ -154,7 +154,7 @@
       "wickets": 1,
       "economy": 6.73,
       "bowlingAverage": 37.0,
-      "globalPercentile": 57
+      "globalPercentile": 61
     },
     {
       "id": "crd-fernando",
@@ -165,12 +165,12 @@
       "wickets": 7,
       "economy": 7.47,
       "bowlingAverage": 20.3,
-      "globalPercentile": 90
+      "globalPercentile": 88
     }
   ],
   "stats": {
-    "min": 50,
+    "min": 47,
     "max": 84,
-    "mean": 70.2
+    "mean": 69.8
   }
 }

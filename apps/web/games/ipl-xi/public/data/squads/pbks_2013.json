@@ -34,20 +34,20 @@
       "runs": 161,
       "average": 23.0,
       "strikeRate": 137.6,
-      "globalPercentile": 28
+      "globalPercentile": 32
     },
     {
       "id": "dj-hussey",
       "name": "DJ Hussey",
-      "role": "PACE_BOWLER",
-      "rating": 49,
+      "role": "MIDDLE_ORDER",
+      "rating": 58,
       "matches": 11,
       "runs": 235,
       "average": 23.5,
       "strikeRate": 113.0,
       "wickets": 0,
       "economy": 8.45,
-      "globalPercentile": 6
+      "globalPercentile": 19
     },
     {
       "id": "p-kumar",
@@ -61,13 +61,13 @@
       "wickets": 12,
       "economy": 6.99,
       "bowlingAverage": 32.8,
-      "globalPercentile": 58
+      "globalPercentile": 54
     },
     {
       "id": "azhar-mahmood",
       "name": "Azhar Mahmood",
-      "role": "PACE_BOWLER",
-      "rating": 82,
+      "role": "ALL_ROUNDER",
+      "rating": 68,
       "matches": 11,
       "runs": 196,
       "average": 19.6,
@@ -75,7 +75,7 @@
       "wickets": 15,
       "economy": 7.64,
       "bowlingAverage": 22.3,
-      "globalPercentile": 87
+      "globalPercentile": 58
     },
     {
       "id": "p-awana",
@@ -89,7 +89,7 @@
       "wickets": 15,
       "economy": 7.7,
       "bowlingAverage": 27.7,
-      "globalPercentile": 69
+      "globalPercentile": 65
     },
     {
       "id": "pp-chawla",
@@ -103,7 +103,7 @@
       "wickets": 11,
       "economy": 7.42,
       "bowlingAverage": 39.4,
-      "globalPercentile": 27
+      "globalPercentile": 25
     },
     {
       "id": "gurkeerat-singh",
@@ -114,7 +114,7 @@
       "runs": 108,
       "average": 13.5,
       "strikeRate": 113.7,
-      "globalPercentile": 7
+      "globalPercentile": 6
     },
     {
       "id": "r-sathish",
@@ -152,7 +152,7 @@
       "wickets": 7,
       "economy": 9.32,
       "bowlingAverage": 37.3,
-      "globalPercentile": 30
+      "globalPercentile": 26
     },
     {
       "id": "se-marsh",
@@ -163,12 +163,12 @@
       "runs": 300,
       "average": 37.5,
       "strikeRate": 120.5,
-      "globalPercentile": 63
+      "globalPercentile": 62
     }
   ],
   "stats": {
     "min": 48,
     "max": 91,
-    "mean": 65.8
+    "mean": 65.4
   }
 }

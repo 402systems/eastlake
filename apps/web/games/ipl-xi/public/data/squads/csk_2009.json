@@ -17,7 +17,7 @@
     {
       "id": "sk-raina",
       "name": "SK Raina",
-      "role": "PACE_BOWLER",
+      "role": "MIDDLE_ORDER",
       "rating": 76,
       "matches": 14,
       "runs": 434,
@@ -26,7 +26,7 @@
       "wickets": 7,
       "economy": 6.11,
       "bowlingAverage": 24.1,
-      "globalPercentile": 75
+      "globalPercentile": 66
     },
     {
       "id": "ml-hayden",
@@ -53,8 +53,8 @@
     {
       "id": "jdp-oram",
       "name": "JDP Oram",
-      "role": "PACE_BOWLER",
-      "rating": 69,
+      "role": "ALL_ROUNDER",
+      "rating": 56,
       "matches": 8,
       "runs": 88,
       "average": 14.7,
@@ -62,7 +62,7 @@
       "wickets": 5,
       "economy": 8.52,
       "bowlingAverage": 25.0,
-      "globalPercentile": 55
+      "globalPercentile": 22
     },
     {
       "id": "s-badrinath",
@@ -73,7 +73,7 @@
       "runs": 177,
       "average": 19.7,
       "strikeRate": 107.9,
-      "globalPercentile": 16
+      "globalPercentile": 14
     },
     {
       "id": "ms-gony",
@@ -84,13 +84,13 @@
       "wickets": 5,
       "economy": 10.18,
       "bowlingAverage": 34.6,
-      "globalPercentile": 20
+      "globalPercentile": 17
     },
     {
       "id": "ja-morkel",
       "name": "JA Morkel",
-      "role": "PACE_BOWLER",
-      "rating": 74,
+      "role": "ALL_ROUNDER",
+      "rating": 66,
       "matches": 12,
       "runs": 97,
       "average": 24.2,
@@ -98,7 +98,7 @@
       "wickets": 13,
       "economy": 8.25,
       "bowlingAverage": 25.4,
-      "globalPercentile": 69
+      "globalPercentile": 52
     },
     {
       "id": "l-balaji",
@@ -112,7 +112,7 @@
       "wickets": 13,
       "economy": 8.57,
       "bowlingAverage": 24.6,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "m-muralitharan",
@@ -126,7 +126,7 @@
       "wickets": 14,
       "economy": 5.34,
       "bowlingAverage": 19.1,
-      "globalPercentile": 90
+      "globalPercentile": 87
     },
     {
       "id": "s-tyagi",
@@ -137,7 +137,7 @@
       "wickets": 5,
       "economy": 7.53,
       "bowlingAverage": 28.6,
-      "globalPercentile": 51
+      "globalPercentile": 47
     },
     {
       "id": "sb-jakati",
@@ -148,12 +148,12 @@
       "wickets": 13,
       "economy": 7.76,
       "bowlingAverage": 17.3,
-      "globalPercentile": 96
+      "globalPercentile": 94
     }
   ],
   "stats": {
     "min": 52,
     "max": 91,
-    "mean": 71.5
+    "mean": 69.8
   }
 }

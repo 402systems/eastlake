@@ -28,8 +28,8 @@
     {
       "id": "rg-sharma",
       "name": "RG Sharma",
-      "role": "PACE_BOWLER",
-      "rating": 55,
+      "role": "MIDDLE_ORDER",
+      "rating": 75,
       "matches": 17,
       "runs": 6494,
       "average": 29.5,
@@ -37,7 +37,7 @@
       "wickets": 1,
       "economy": 10.86,
       "bowlingAverage": 114.0,
-      "globalPercentile": 18
+      "globalPercentile": 63
     },
     {
       "id": "n-rana",
@@ -48,7 +48,7 @@
       "runs": 770,
       "average": 30.8,
       "strikeRate": 128.3,
-      "globalPercentile": 62
+      "globalPercentile": 63
     },
     {
       "id": "at-rayudu",
@@ -59,7 +59,7 @@
       "runs": 2507,
       "average": 27.9,
       "strikeRate": 126.3,
-      "globalPercentile": 58
+      "globalPercentile": 64
     },
     {
       "id": "kh-pandya",
@@ -73,13 +73,13 @@
       "wickets": 61,
       "economy": 7.4,
       "bowlingAverage": 34.0,
-      "globalPercentile": 82
+      "globalPercentile": 78
     },
     {
       "id": "ka-pollard",
       "name": "KA Pollard",
-      "role": "PACE_BOWLER",
-      "rating": 78,
+      "role": "ALL_ROUNDER",
+      "rating": 77,
       "matches": 17,
       "runs": 3832,
       "average": 28.6,
@@ -87,7 +87,7 @@
       "wickets": 69,
       "economy": 8.93,
       "bowlingAverage": 32.3,
-      "globalPercentile": 81
+      "globalPercentile": 82
     },
     {
       "id": "hh-pandya",
@@ -101,7 +101,7 @@
       "wickets": 77,
       "economy": 9.66,
       "bowlingAverage": 33.2,
-      "globalPercentile": 78
+      "globalPercentile": 82
     },
     {
       "id": "mj-mcclenaghan",
@@ -115,7 +115,7 @@
       "wickets": 90,
       "economy": 8.83,
       "bowlingAverage": 26.1,
-      "globalPercentile": 87
+      "globalPercentile": 84
     },
     {
       "id": "jj-bumrah",
@@ -129,7 +129,7 @@
       "wickets": 210,
       "economy": 7.53,
       "bowlingAverage": 24.0,
-      "globalPercentile": 94
+      "globalPercentile": 92
     },
     {
       "id": "harbhajan-singh",
@@ -143,7 +143,7 @@
       "wickets": 135,
       "economy": 7.06,
       "bowlingAverage": 27.6,
-      "globalPercentile": 94
+      "globalPercentile": 92
     },
     {
       "id": "sl-malinga",
@@ -157,7 +157,7 @@
       "wickets": 181,
       "economy": 7.51,
       "bowlingAverage": 21.4,
-      "globalPercentile": 96
+      "globalPercentile": 95
     },
     {
       "id": "mg-johnson",
@@ -185,7 +185,7 @@
       "wickets": 33,
       "economy": 7.43,
       "bowlingAverage": 17.2,
-      "globalPercentile": 99
+      "globalPercentile": 98
     },
     {
       "id": "lmp-simmons",
@@ -196,12 +196,12 @@
       "runs": 1216,
       "average": 38.0,
       "strikeRate": 126.7,
-      "globalPercentile": 69
+      "globalPercentile": 70
     }
   ],
   "stats": {
-    "min": 55,
+    "min": 70,
     "max": 92,
-    "mean": 79.5
+    "mean": 80.7
   }
 }

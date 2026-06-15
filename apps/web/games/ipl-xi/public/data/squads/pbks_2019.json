@@ -12,7 +12,7 @@
       "runs": 593,
       "average": 53.9,
       "strikeRate": 135.7,
-      "globalPercentile": 89
+      "globalPercentile": 90
     },
     {
       "id": "ma-agarwal",
@@ -23,7 +23,7 @@
       "runs": 332,
       "average": 30.2,
       "strikeRate": 141.9,
-      "globalPercentile": 53
+      "globalPercentile": 54
     },
     {
       "id": "ch-gayle",
@@ -34,7 +34,7 @@
       "runs": 490,
       "average": 40.8,
       "strikeRate": 153.6,
-      "globalPercentile": 84
+      "globalPercentile": 85
     },
     {
       "id": "sn-khan",
@@ -45,7 +45,7 @@
       "runs": 180,
       "average": 45.0,
       "strikeRate": 127.7,
-      "globalPercentile": 74
+      "globalPercentile": 77
     },
     {
       "id": "n-pooran",
@@ -56,7 +56,7 @@
       "runs": 168,
       "average": 28.0,
       "strikeRate": 157.0,
-      "globalPercentile": 66
+      "globalPercentile": 68
     },
     {
       "id": "mandeep-singh",
@@ -67,13 +67,13 @@
       "runs": 165,
       "average": 41.2,
       "strikeRate": 137.5,
-      "globalPercentile": 61
+      "globalPercentile": 66
     },
     {
       "id": "sm-curran",
       "name": "SM Curran",
-      "role": "PACE_BOWLER",
-      "rating": 64,
+      "role": "ALL_ROUNDER",
+      "rating": 70,
       "matches": 9,
       "runs": 95,
       "average": 23.8,
@@ -81,7 +81,7 @@
       "wickets": 10,
       "economy": 9.85,
       "bowlingAverage": 32.5,
-      "globalPercentile": 38
+      "globalPercentile": 64
     },
     {
       "id": "mujeeb-ur-rahman",
@@ -92,7 +92,7 @@
       "wickets": 3,
       "economy": 10.16,
       "bowlingAverage": 64.3,
-      "globalPercentile": 2
+      "globalPercentile": 1
     },
     {
       "id": "mohammed-shami",
@@ -103,7 +103,7 @@
       "wickets": 19,
       "economy": 8.83,
       "bowlingAverage": 25.1,
-      "globalPercentile": 75
+      "globalPercentile": 72
     },
     {
       "id": "r-ashwin",
@@ -117,7 +117,7 @@
       "wickets": 15,
       "economy": 7.27,
       "bowlingAverage": 26.7,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "da-miller",
@@ -128,7 +128,7 @@
       "runs": 213,
       "average": 26.6,
       "strikeRate": 130.7,
-      "globalPercentile": 35
+      "globalPercentile": 37
     },
     {
       "id": "gc-viljoen",
@@ -142,7 +142,7 @@
       "wickets": 7,
       "economy": 9.96,
       "bowlingAverage": 32.7,
-      "globalPercentile": 41
+      "globalPercentile": 38
     },
     {
       "id": "aj-tye",
@@ -167,12 +167,12 @@
       "wickets": 5,
       "economy": 7.56,
       "bowlingAverage": 51.4,
-      "globalPercentile": 28
+      "globalPercentile": 24
     }
   ],
   "stats": {
     "min": 49,
     "max": 88,
-    "mean": 69.9
+    "mean": 70.4
   }
 }

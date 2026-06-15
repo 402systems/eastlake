@@ -34,13 +34,13 @@
       "runs": 140,
       "average": 12.7,
       "strikeRate": 134.6,
-      "globalPercentile": 19
+      "globalPercentile": 17
     },
     {
       "id": "gj-maxwell",
       "name": "GJ Maxwell",
-      "role": "PACE_BOWLER",
-      "rating": 57,
+      "role": "MIDDLE_ORDER",
+      "rating": 85,
       "matches": 14,
       "runs": 400,
       "average": 33.3,
@@ -48,7 +48,7 @@
       "wickets": 3,
       "economy": 9.19,
       "bowlingAverage": 31.7,
-      "globalPercentile": 23
+      "globalPercentile": 86
     },
     {
       "id": "mohammed-siraj",
@@ -59,7 +59,7 @@
       "wickets": 19,
       "economy": 7.9,
       "bowlingAverage": 20.8,
-      "globalPercentile": 87
+      "globalPercentile": 84
     },
     {
       "id": "hv-patel",
@@ -70,7 +70,7 @@
       "wickets": 14,
       "economy": 9.96,
       "bowlingAverage": 33.4,
-      "globalPercentile": 37
+      "globalPercentile": 34
     },
     {
       "id": "kv-sharma",
@@ -81,13 +81,13 @@
       "wickets": 10,
       "economy": 10.65,
       "bowlingAverage": 22.9,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "mg-bracewell",
       "name": "MG Bracewell",
-      "role": "PACE_BOWLER",
-      "rating": 80,
+      "role": "MIDDLE_ORDER",
+      "rating": 61,
       "matches": 5,
       "runs": 58,
       "average": 29.0,
@@ -95,7 +95,7 @@
       "wickets": 6,
       "economy": 8.64,
       "bowlingAverage": 15.8,
-      "globalPercentile": 84
+      "globalPercentile": 27
     },
     {
       "id": "shahbaz-ahmed",
@@ -120,7 +120,7 @@
       "runs": 91,
       "average": 30.3,
       "strikeRate": 128.2,
-      "globalPercentile": 36
+      "globalPercentile": 37
     },
     {
       "id": "wd-parnell",
@@ -131,7 +131,7 @@
       "wickets": 9,
       "economy": 9.42,
       "bowlingAverage": 26.3,
-      "globalPercentile": 64
+      "globalPercentile": 60
     },
     {
       "id": "mk-lomror",
@@ -142,7 +142,7 @@
       "runs": 135,
       "average": 16.9,
       "strikeRate": 140.6,
-      "globalPercentile": 18
+      "globalPercentile": 21
     },
     {
       "id": "vijaykumar-vyshak",
@@ -153,7 +153,7 @@
       "wickets": 9,
       "economy": 10.54,
       "bowlingAverage": 28.1,
-      "globalPercentile": 48
+      "globalPercentile": 44
     },
     {
       "id": "pwh-de-silva",
@@ -167,12 +167,12 @@
       "wickets": 9,
       "economy": 8.93,
       "bowlingAverage": 28.8,
-      "globalPercentile": 46
+      "globalPercentile": 44
     }
   ],
   "stats": {
     "min": 44,
     "max": 93,
-    "mean": 68.9
+    "mean": 69.5
   }
 }

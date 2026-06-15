@@ -11,7 +11,8 @@
       "matches": 14,
       "runs": 311,
       "average": 28.3,
-      "strikeRate": 132.3
+      "strikeRate": 132.3,
+      "globalPercentile": 42
     },
     {
       "id": "sv-samson",
@@ -21,7 +22,8 @@
       "matches": 14,
       "runs": 375,
       "average": 31.2,
-      "strikeRate": 160.3
+      "strikeRate": 160.3,
+      "globalPercentile": 75
     },
     {
       "id": "rv-uthappa",
@@ -31,7 +33,8 @@
       "matches": 12,
       "runs": 196,
       "average": 17.8,
-      "strikeRate": 119.5
+      "strikeRate": 119.5,
+      "globalPercentile": 14
     },
     {
       "id": "r-tewatia",
@@ -44,7 +47,8 @@
       "strikeRate": 140.1,
       "wickets": 10,
       "economy": 7.11,
-      "bowlingAverage": 32.7
+      "bowlingAverage": 32.7,
+      "globalPercentile": 39
     },
     {
       "id": "r-parag",
@@ -54,7 +58,8 @@
       "matches": 8,
       "runs": 86,
       "average": 14.3,
-      "strikeRate": 111.7
+      "strikeRate": 111.7,
+      "globalPercentile": 6
     },
     {
       "id": "tk-curran",
@@ -67,7 +72,8 @@
       "strikeRate": 133.9,
       "wickets": 3,
       "economy": 11.56,
-      "bowlingAverage": 70.0
+      "bowlingAverage": 70.0,
+      "globalPercentile": 6
     },
     {
       "id": "jc-archer",
@@ -80,7 +86,8 @@
       "strikeRate": 188.3,
       "wickets": 20,
       "economy": 6.7,
-      "bowlingAverage": 18.6
+      "bowlingAverage": 18.6,
+      "globalPercentile": 94
     },
     {
       "id": "jd-unadkat",
@@ -90,7 +97,8 @@
       "matches": 7,
       "wickets": 4,
       "economy": 9.96,
-      "bowlingAverage": 57.2
+      "bowlingAverage": 57.2,
+      "globalPercentile": 9
     },
     {
       "id": "s-gopal",
@@ -103,7 +111,8 @@
       "strikeRate": 94.9,
       "wickets": 10,
       "economy": 8.58,
-      "bowlingAverage": 42.9
+      "bowlingAverage": 42.9,
+      "globalPercentile": 14
     },
     {
       "id": "jc-buttler",
@@ -113,7 +122,8 @@
       "matches": 12,
       "runs": 328,
       "average": 32.8,
-      "strikeRate": 144.5
+      "strikeRate": 144.5,
+      "globalPercentile": 66
     },
     {
       "id": "kartik-tyagi",
@@ -123,7 +133,8 @@
       "matches": 10,
       "wickets": 9,
       "economy": 9.75,
-      "bowlingAverage": 41.3
+      "bowlingAverage": 41.3,
+      "globalPercentile": 19
     },
     {
       "id": "as-rajpoot",
@@ -133,7 +144,8 @@
       "matches": 6,
       "wickets": 2,
       "economy": 12.12,
-      "bowlingAverage": 103.0
+      "bowlingAverage": 103.0,
+      "globalPercentile": 1
     },
     {
       "id": "ba-stokes",
@@ -146,7 +158,8 @@
       "strikeRate": 142.5,
       "wickets": 2,
       "economy": 10.6,
-      "bowlingAverage": 79.5
+      "bowlingAverage": 79.5,
+      "globalPercentile": 76
     }
   ],
   "stats": {

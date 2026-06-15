@@ -37,7 +37,7 @@
       "wickets": 8,
       "economy": 7.41,
       "bowlingAverage": 28.2,
-      "globalPercentile": 79
+      "globalPercentile": 82
     },
     {
       "id": "da-miller",
@@ -48,7 +48,7 @@
       "runs": 481,
       "average": 68.7,
       "strikeRate": 143.6,
-      "globalPercentile": 89
+      "globalPercentile": 92
     },
     {
       "id": "r-tewatia",
@@ -61,7 +61,7 @@
       "strikeRate": 147.6,
       "wickets": 0,
       "economy": 12.67,
-      "globalPercentile": 65
+      "globalPercentile": 70
     },
     {
       "id": "a-manohar",
@@ -72,7 +72,7 @@
       "runs": 108,
       "average": 18.0,
       "strikeRate": 144.0,
-      "globalPercentile": 36
+      "globalPercentile": 37
     },
     {
       "id": "mohammed-shami",
@@ -83,7 +83,7 @@
       "wickets": 20,
       "economy": 8.05,
       "bowlingAverage": 24.6,
-      "globalPercentile": 78
+      "globalPercentile": 74
     },
     {
       "id": "lh-ferguson",
@@ -94,7 +94,7 @@
       "wickets": 12,
       "economy": 9.08,
       "bowlingAverage": 36.1,
-      "globalPercentile": 35
+      "globalPercentile": 32
     },
     {
       "id": "rashid-khan",
@@ -108,7 +108,7 @@
       "wickets": 19,
       "economy": 6.7,
       "bowlingAverage": 22.5,
-      "globalPercentile": 82
+      "globalPercentile": 78
     },
     {
       "id": "b-sai-sudharsan",
@@ -119,7 +119,7 @@
       "runs": 145,
       "average": 36.2,
       "strikeRate": 128.3,
-      "globalPercentile": 57
+      "globalPercentile": 58
     },
     {
       "id": "yash-dayal",
@@ -130,7 +130,7 @@
       "wickets": 11,
       "economy": 9.25,
       "bowlingAverage": 26.9,
-      "globalPercentile": 61
+      "globalPercentile": 57
     },
     {
       "id": "wp-saha",
@@ -155,7 +155,7 @@
       "wickets": 7,
       "economy": 8.97,
       "bowlingAverage": 38.4,
-      "globalPercentile": 28
+      "globalPercentile": 24
     },
     {
       "id": "r-sai-kishore",
@@ -166,7 +166,7 @@
       "wickets": 6,
       "economy": 7.62,
       "bowlingAverage": 20.3,
-      "globalPercentile": 78
+      "globalPercentile": 74
     }
   ],
   "stats": {

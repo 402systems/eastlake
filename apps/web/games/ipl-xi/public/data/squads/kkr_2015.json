@@ -34,7 +34,7 @@
       "runs": 225,
       "average": 22.5,
       "strikeRate": 122.3,
-      "globalPercentile": 18
+      "globalPercentile": 21
     },
     {
       "id": "sa-yadav",
@@ -45,13 +45,13 @@
       "runs": 157,
       "average": 17.4,
       "strikeRate": 138.9,
-      "globalPercentile": 28
+      "globalPercentile": 27
     },
     {
       "id": "yk-pathan",
       "name": "YK Pathan",
-      "role": "PACE_BOWLER",
-      "rating": 49,
+      "role": "ALL_ROUNDER",
+      "rating": 68,
       "matches": 12,
       "runs": 312,
       "average": 44.6,
@@ -59,7 +59,7 @@
       "wickets": 2,
       "economy": 10.0,
       "bowlingAverage": 50.0,
-      "globalPercentile": 6
+      "globalPercentile": 58
     },
     {
       "id": "ut-yadav",
@@ -73,7 +73,7 @@
       "wickets": 10,
       "economy": 9.21,
       "bowlingAverage": 38.7,
-      "globalPercentile": 28
+      "globalPercentile": 24
     },
     {
       "id": "m-morkel",
@@ -84,7 +84,7 @@
       "wickets": 10,
       "economy": 7.57,
       "bowlingAverage": 21.2,
-      "globalPercentile": 90
+      "globalPercentile": 88
     },
     {
       "id": "sp-narine",
@@ -95,13 +95,13 @@
       "wickets": 7,
       "economy": 7.69,
       "bowlingAverage": 35.1,
-      "globalPercentile": 38
+      "globalPercentile": 36
     },
     {
       "id": "ad-russell",
       "name": "AD Russell",
-      "role": "PACE_BOWLER",
-      "rating": 75,
+      "role": "ALL_ROUNDER",
+      "rating": 90,
       "matches": 13,
       "runs": 326,
       "average": 46.6,
@@ -109,7 +109,7 @@
       "wickets": 14,
       "economy": 8.16,
       "bowlingAverage": 23.7,
-      "globalPercentile": 72
+      "globalPercentile": 98
     },
     {
       "id": "pp-chawla",
@@ -123,7 +123,7 @@
       "wickets": 11,
       "economy": 7.86,
       "bowlingAverage": 25.0,
-      "globalPercentile": 51
+      "globalPercentile": 49
     },
     {
       "id": "gb-hogg",
@@ -134,7 +134,7 @@
       "wickets": 9,
       "economy": 7.05,
       "bowlingAverage": 16.4,
-      "globalPercentile": 97
+      "globalPercentile": 95
     },
     {
       "id": "rn-ten-doeschate",
@@ -149,8 +149,8 @@
     }
   ],
   "stats": {
-    "min": 49,
-    "max": 89,
-    "mean": 66.8
+    "min": 58,
+    "max": 90,
+    "mean": 69.6
   }
 }

@@ -12,7 +12,7 @@
       "runs": 399,
       "average": 28.5,
       "strikeRate": 120.5,
-      "globalPercentile": 30
+      "globalPercentile": 31
     },
     {
       "id": "bb-mccullum",
@@ -28,8 +28,8 @@
     {
       "id": "sk-raina",
       "name": "SK Raina",
-      "role": "PACE_BOWLER",
-      "rating": 57,
+      "role": "MIDDLE_ORDER",
+      "rating": 63,
       "matches": 17,
       "runs": 374,
       "average": 26.7,
@@ -37,7 +37,7 @@
       "wickets": 2,
       "economy": 7.83,
       "bowlingAverage": 47.0,
-      "globalPercentile": 23
+      "globalPercentile": 32
     },
     {
       "id": "f-du-plessis",
@@ -48,7 +48,7 @@
       "runs": 380,
       "average": 34.5,
       "strikeRate": 125.0,
-      "globalPercentile": 45
+      "globalPercentile": 47
     },
     {
       "id": "ra-jadeja",
@@ -62,7 +62,7 @@
       "wickets": 11,
       "economy": 7.83,
       "bowlingAverage": 30.4,
-      "globalPercentile": 38
+      "globalPercentile": 36
     },
     {
       "id": "ms-dhoni",
@@ -73,13 +73,13 @@
       "runs": 372,
       "average": 31.0,
       "strikeRate": 122.0,
-      "globalPercentile": 46
+      "globalPercentile": 48
     },
     {
       "id": "dj-bravo",
       "name": "DJ Bravo",
-      "role": "PACE_BOWLER",
-      "rating": 86,
+      "role": "ALL_ROUNDER",
+      "rating": 70,
       "matches": 16,
       "runs": 195,
       "average": 24.4,
@@ -87,7 +87,7 @@
       "wickets": 26,
       "economy": 8.45,
       "bowlingAverage": 17.0,
-      "globalPercentile": 92
+      "globalPercentile": 64
     },
     {
       "id": "r-ashwin",
@@ -101,7 +101,7 @@
       "wickets": 10,
       "economy": 5.87,
       "bowlingAverage": 22.9,
-      "globalPercentile": 70
+      "globalPercentile": 66
     },
     {
       "id": "mm-sharma",
@@ -115,7 +115,7 @@
       "wickets": 14,
       "economy": 8.46,
       "bowlingAverage": 34.4,
-      "globalPercentile": 41
+      "globalPercentile": 38
     },
     {
       "id": "a-nehra",
@@ -129,7 +129,7 @@
       "wickets": 22,
       "economy": 7.31,
       "bowlingAverage": 20.6,
-      "globalPercentile": 90
+      "globalPercentile": 88
     },
     {
       "id": "ic-pandey",
@@ -140,7 +140,7 @@
       "wickets": 11,
       "economy": 7.35,
       "bowlingAverage": 20.7,
-      "globalPercentile": 84
+      "globalPercentile": 80
     },
     {
       "id": "p-negi",
@@ -154,12 +154,12 @@
       "wickets": 6,
       "economy": 8.63,
       "bowlingAverage": 43.2,
-      "globalPercentile": 11
+      "globalPercentile": 9
     }
   ],
   "stats": {
     "min": 57,
-    "max": 86,
-    "mean": 70.8
+    "max": 84,
+    "mean": 70.0
   }
 }
