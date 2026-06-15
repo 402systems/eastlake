@@ -29,3 +29,13 @@ export interface BoroughsData {
   viewBox: string;
   boroughs: BoroughPath[];
 }
+
+export interface StreetPath {
+  name: string;
+  path: string;
+}
+
+export interface StreetsData {
+  viewBox: string;
+  streets: StreetPath[];
+}

@@ -1,9 +1,14 @@
 'use client';
 
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { fetchBoroughs, fetchLine, fetchLines } from '@/lib/data';
+import { fetchBoroughs, fetchLine, fetchLines, fetchStreets } from '@/lib/data';
 import { matchGuess } from '@/lib/matchStation';
-import type { BoroughsData, LineData, LineSummary } from '@/lib/types';
+import type {
+  BoroughsData,
+  LineData,
+  LineSummary,
+  StreetsData,
+} from '@/lib/types';
 import { ProgressHeader } from '@/components/ProgressHeader';
 import { GuessInput } from '@/components/GuessInput';
 import { SubwayMap } from '@/components/SubwayMap';
@@ -14,6 +19,7 @@ const ERROR_FLASH_MS = 300;
 export default function GamePage() {
   const [lines, setLines] = useState<LineSummary[] | null>(null);
   const [boroughs, setBoroughs] = useState<BoroughsData | null>(null);
+  const [streets, setStreets] = useState<StreetsData | null>(null);
   const [line, setLine] = useState<LineData | null>(null);
   const [guessedIds, setGuessedIds] = useState<Set<string>>(new Set());
   const [input, setInput] = useState('');
@@ -48,13 +54,15 @@ export default function GamePage() {
   useEffect(() => {
     let cancelled = false;
     (async () => {
-      const [linesData, boroughsData] = await Promise.all([
+      const [linesData, boroughsData, streetsData] = await Promise.all([
         fetchLines(),
         fetchBoroughs(),
+        fetchStreets(),
       ]);
       if (cancelled) return;
       setLines(linesData);
       setBoroughs(boroughsData);
+      setStreets(streetsData);
       await pickLine(linesData);
       if (cancelled) return;
       setLoading(false);
@@ -108,7 +116,7 @@ export default function GamePage() {
     setLoading(false);
   }, [lines, pickLine]);
 
-  if (loading || !line || !boroughs) {
+  if (loading || !line || !boroughs || !streets) {
     return (
       <main className="flex min-h-screen items-center justify-center bg-[#0a0e17]">
         <p className="text-slate-400">Loading...</p>
@@ -136,7 +144,12 @@ export default function GamePage() {
         onGiveUp={handleGiveUp}
       />
       <div className="flex-1 overflow-hidden">
-        <SubwayMap line={line} boroughs={boroughs} guessedIds={guessedIds} />
+        <SubwayMap
+          line={line}
+          boroughs={boroughs}
+          streets={streets}
+          guessedIds={guessedIds}
+        />
       </div>
       <GuessInput
         value={input}

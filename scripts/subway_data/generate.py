@@ -32,6 +32,9 @@ BOROUGHS_PARAMS = {
     "f": "geojson",
 }
 
+STREETS_URL = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer/8/query"
+STREET_MIN_LENGTH = 75.0
+
 EXPRESS_VARIANTS = {"FX", "6X", "7X"}
 
 BASENAME_TO_BOROUGH = {
@@ -76,6 +79,30 @@ def fetch_boroughs_geojson() -> dict:
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
     print("Downloading NYC borough boundaries...")
     url = f"{BOROUGHS_URL}?{urllib.parse.urlencode(BOROUGHS_PARAMS)}"
+    data = _download(url)
+    cache_file.write_bytes(data)
+    return json.loads(data)
+
+
+def fetch_streets_geojson(
+    lon_min: float, lat_min: float, lon_max: float, lat_max: float
+) -> dict:
+    cache_file = CACHE_DIR / "streets.json"
+    if cache_file.exists():
+        return json.loads(cache_file.read_text())
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    print("Downloading NYC street geometry...")
+    params = {
+        "geometry": f"{lon_min},{lat_min},{lon_max},{lat_max}",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "NAME",
+        "returnGeometry": "true",
+        "f": "json",
+    }
+    url = f"{STREETS_URL}?{urllib.parse.urlencode(params)}"
     data = _download(url)
     cache_file.write_bytes(data)
     return json.loads(data)
@@ -294,6 +321,71 @@ def ring_to_path(points: list[tuple[float, float]]) -> str:
     return " ".join(parts)
 
 
+# --- streets -------------------------------------------------------------
+
+
+def in_nyc(
+    x: float, y: float, borough_rings: dict[str, list[list[tuple[float, float]]]]
+) -> bool:
+    return any(
+        point_in_ring(x, y, ring)
+        for rings in borough_rings.values()
+        for ring in rings
+    )
+
+
+def path_length(points: list[tuple[float, float]]) -> float:
+    total = 0.0
+    for i in range(1, len(points)):
+        x1, y1 = points[i - 1]
+        x2, y2 = points[i]
+        total += math.hypot(x2 - x1, y2 - y1)
+    return total
+
+
+def polyline_to_path(segments: list[list[tuple[float, float]]]) -> str:
+    parts = []
+    for seg in segments:
+        parts.append(f"M {seg[0][0]:.1f} {seg[0][1]:.1f}")
+        for x, y in seg[1:]:
+            parts.append(f"L {x:.1f} {y:.1f}")
+    return " ".join(parts)
+
+
+def build_streets(
+    streets_geojson: dict,
+    proj: Projection,
+    borough_rings: dict[str, list[list[tuple[float, float]]]],
+) -> list[dict]:
+    segments_by_name: dict[str, list[list[tuple[float, float]]]] = {}
+    length_by_name: dict[str, float] = {}
+
+    for feat in streets_geojson["features"]:
+        name = feat["attributes"].get("NAME")
+        if not name:
+            continue
+        for path in feat.get("geometry", {}).get("paths", []):
+            proj_path = [proj.project(lat, lon) for lon, lat in path]
+            mx, my = proj_path[len(proj_path) // 2]
+            if not in_nyc(mx, my, borough_rings):
+                continue
+            length_by_name[name] = length_by_name.get(name, 0.0) + path_length(
+                proj_path
+            )
+            segments_by_name.setdefault(name, []).append(
+                [proj_path[0], proj_path[-1]]
+            )
+
+    streets = []
+    for name, total_len in length_by_name.items():
+        if total_len < STREET_MIN_LENGTH:
+            continue
+        streets.append(
+            {"name": name, "path": polyline_to_path(segments_by_name[name])}
+        )
+    return streets
+
+
 # --- main ----------------------------------------------------------------
 
 
@@ -326,6 +418,11 @@ def main() -> None:
         borough_rings.setdefault(name, []).extend(rings)
         for ring in rings:
             borough_paths.append({"name": name, "path": ring_to_path(simplify_ring(ring))})
+
+    print("Fetching street geometry...")
+    streets_geojson = fetch_streets_geojson(lon_min, lat_min, lon_max, lat_max)
+    streets = build_streets(streets_geojson, proj, borough_rings)
+    print(f"Filtered to {len(streets)} major streets (>= {STREET_MIN_LENGTH:.0f} units)")
 
     def borough_for(x: float, y: float) -> str:
         for name, rings in borough_rings.items():
@@ -384,6 +481,9 @@ def main() -> None:
 
     with open(OUT_DIR / "boroughs.json", "w") as f:
         json.dump({"viewBox": proj.view_box, "boroughs": borough_paths}, f, indent=2)
+
+    with open(OUT_DIR / "streets.json", "w") as f:
+        json.dump({"viewBox": proj.view_box, "streets": streets}, f, indent=2)
 
     print(f"\nWrote {len(lines_index)} lines to {OUT_DIR.resolve()}")
 

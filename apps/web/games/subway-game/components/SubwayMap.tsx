@@ -1,7 +1,10 @@
-import type { BoroughsData, LineData } from '@/lib/types';
+import type { BoroughsData, LineData, StreetsData } from '@/lib/types';
 import { computeLineViewBox } from '@/lib/viewBox';
 
 const BOROUGH_STROKE = '#283246';
+const STREET_STROKE = '#283246';
+const STREET_WIDTH = 0.5;
+const STREET_OPACITY = 0.4;
 const TRACK_COLOR = '#475569';
 const BULLET_RADIUS = 4;
 const GUESSED_BULLET_RADIUS = 5;
@@ -10,10 +13,16 @@ const LABEL_OFFSET = 8;
 interface SubwayMapProps {
   line: LineData;
   boroughs: BoroughsData;
+  streets: StreetsData;
   guessedIds: Set<string>;
 }
 
-export function SubwayMap({ line, boroughs, guessedIds }: SubwayMapProps) {
+export function SubwayMap({
+  line,
+  boroughs,
+  streets,
+  guessedIds,
+}: SubwayMapProps) {
   const viewBox = computeLineViewBox(line.stations, boroughs.viewBox);
   const trackPath = line.stations
     .map((s, i) => `${i === 0 ? 'M' : 'L'} ${s.x} ${s.y}`)
@@ -25,6 +34,17 @@ export function SubwayMap({ line, boroughs, guessedIds }: SubwayMapProps) {
       className="h-full w-full"
       preserveAspectRatio="xMidYMid meet"
     >
+      {streets.streets.map((street) => (
+        <path
+          key={street.name}
+          d={street.path}
+          stroke={STREET_STROKE}
+          strokeWidth={STREET_WIDTH}
+          strokeOpacity={STREET_OPACITY}
+          fill="none"
+        />
+      ))}
+
       {boroughs.boroughs.map((borough, i) => (
         <path
           key={`${borough.name}-${i}`}

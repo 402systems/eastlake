@@ -1,4 +1,4 @@
-import type { LineSummary, LineData, BoroughsData } from './types';
+import type { LineSummary, LineData, BoroughsData, StreetsData } from './types';
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
@@ -17,5 +17,11 @@ export async function fetchLine(id: string): Promise<LineData> {
 export async function fetchBoroughs(): Promise<BoroughsData> {
   const res = await fetch(`${BASE}/data/boroughs.json`);
   if (!res.ok) throw new Error('Failed to load boroughs');
+  return res.json();
+}
+
+export async function fetchStreets(): Promise<StreetsData> {
+  const res = await fetch(`${BASE}/data/streets.json`);
+  if (!res.ok) throw new Error('Failed to load streets');
   return res.json();
 }
