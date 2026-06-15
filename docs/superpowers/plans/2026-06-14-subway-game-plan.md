@@ -1684,3 +1684,510 @@ git commit -m "chore: apply prettier formatting"
 Press `Ctrl+C` in the terminal running `pnpm dev`.
 
 ---
+
+## Task 11: Street grid background layer
+
+**Goal:** Overlay a thin, low-opacity layer of major NYC street/avenue
+geometry behind the borough outlines, so players can use real-world city
+clues (e.g. "this line crosses Atlantic Ave") to figure out stations.
+
+**Files:**
+- Modify: `scripts/subway_data/generate.py`
+- Modify: `apps/web/games/subway-game/lib/types.ts`
+- Modify: `apps/web/games/subway-game/lib/data.ts`
+- Modify: `apps/web/games/subway-game/components/SubwayMap.tsx`
+- Modify: `apps/web/games/subway-game/app/game/page.tsx`
+- Create (generated): `apps/web/games/subway-game/public/data/streets.json`
+
+### Background
+
+`generate.py` already projects NYC borough boundaries (from Census
+TIGERweb) into the same 0-1000-wide schematic coordinate space used for
+subway station positions (`boroughs.json`'s `viewBox`). This task adds a
+second TIGERweb query against the **Transportation** service (layer 8,
+"Local Roads" — NAME, MTFCC mostly S1400) for the same NYC bounding box,
+filters it down to "major streets" only, and emits a new `streets.json`
+in the same coordinate space so it can be rendered as a backdrop without
+any extra transforms.
+
+**Filter approach:** TIGER's MTFCC classification doesn't cleanly
+separate major avenues from residential side streets in NYC — the
+S1400 layer alone has 38k+ segments. Instead, group all named segments
+by their `NAME` field, sum each name's total projected length across all
+its segments and boroughs, and keep only names whose total length is
+`>= STREET_MIN_LENGTH = 75.0` (in the same projected units as the
+0-1000-wide viewBox). This is data-driven (no hardcoded street list) and
+has been validated against the live TIGERweb data: it yields **716 named
+streets** (~4,890 segments, ~158 KB of JSON) — includes major avenues
+across all five boroughs (Broadway, Park Ave, 3rd Ave, Atlantic Ave,
+Flatbush Ave, Grand Concourse, Queens Blvd, etc.) plus key crosstown
+streets (14th, 23rd, 34th, 42nd, 57th, 125th St).
+
+Each TIGER segment is collapsed to a straight line between its first and
+last point (no per-segment Douglas-Peucker) — a named street with many
+segments still traces its overall curve at the block level, which is
+plenty of detail for "thin lines, nothing crazy."
+
+- [ ] **Step 1: Add streets fetch constants and function to `generate.py`**
+
+In `scripts/subway_data/generate.py`, find the `BOROUGHS_PARAMS` block:
+
+```python
+BOROUGHS_URL = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query"
+BOROUGHS_PARAMS = {
+    "where": "STATE='36' AND COUNTY IN ('005','047','061','081','085')",
+    "outFields": "STATE,COUNTY,NAME,BASENAME",
+    "f": "geojson",
+}
+```
+
+Add immediately after it:
+
+```python
+
+STREETS_URL = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer/8/query"
+STREET_MIN_LENGTH = 75.0
+```
+
+Then find `fetch_boroughs_geojson` (it ends with `return json.loads(data)`
+just before the `# --- GTFS parsing ---` comment) and add a new function
+right after it:
+
+```python
+def fetch_streets_geojson(
+    lon_min: float, lat_min: float, lon_max: float, lat_max: float
+) -> dict:
+    cache_file = CACHE_DIR / "streets.json"
+    if cache_file.exists():
+        return json.loads(cache_file.read_text())
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    print("Downloading NYC street geometry...")
+    params = {
+        "geometry": f"{lon_min},{lat_min},{lon_max},{lat_max}",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "NAME",
+        "returnGeometry": "true",
+        "f": "json",
+    }
+    url = f"{STREETS_URL}?{urllib.parse.urlencode(params)}"
+    data = _download(url)
+    cache_file.write_bytes(data)
+    return json.loads(data)
+```
+
+Note: this caches the raw ~18MB TIGERweb response to
+`scripts/subway_data/.cache/streets.json` — this is a different file from
+the output `apps/web/games/subway-game/public/data/streets.json` written
+in Step 4. The `.cache/` directory is already gitignored
+(`**/.cache` in `.gitignore`).
+
+- [ ] **Step 2: Add street-processing functions to `generate.py`**
+
+Find the `ring_to_path` function (it ends right before the
+`# --- main ---` comment). Add a new section after it:
+
+```python
+
+# --- streets -----------------------------------------------------------
+
+
+def in_nyc(
+    x: float, y: float, borough_rings: dict[str, list[list[tuple[float, float]]]]
+) -> bool:
+    return any(
+        point_in_ring(x, y, ring)
+        for rings in borough_rings.values()
+        for ring in rings
+    )
+
+
+def path_length(points: list[tuple[float, float]]) -> float:
+    total = 0.0
+    for i in range(1, len(points)):
+        x1, y1 = points[i - 1]
+        x2, y2 = points[i]
+        total += math.hypot(x2 - x1, y2 - y1)
+    return total
+
+
+def polyline_to_path(segments: list[list[tuple[float, float]]]) -> str:
+    parts = []
+    for seg in segments:
+        parts.append(f"M {seg[0][0]:.1f} {seg[0][1]:.1f}")
+        for x, y in seg[1:]:
+            parts.append(f"L {x:.1f} {y:.1f}")
+    return " ".join(parts)
+
+
+def build_streets(
+    streets_geojson: dict,
+    proj: Projection,
+    borough_rings: dict[str, list[list[tuple[float, float]]]],
+) -> list[dict]:
+    segments_by_name: dict[str, list[list[tuple[float, float]]]] = {}
+    length_by_name: dict[str, float] = {}
+
+    for feat in streets_geojson["features"]:
+        name = feat["attributes"].get("NAME")
+        if not name:
+            continue
+        for path in feat.get("geometry", {}).get("paths", []):
+            proj_path = [proj.project(lat, lon) for lon, lat in path]
+            mx, my = proj_path[len(proj_path) // 2]
+            if not in_nyc(mx, my, borough_rings):
+                continue
+            length_by_name[name] = length_by_name.get(name, 0.0) + path_length(
+                proj_path
+            )
+            segments_by_name.setdefault(name, []).append(
+                [proj_path[0], proj_path[-1]]
+            )
+
+    streets = []
+    for name, total_len in length_by_name.items():
+        if total_len < STREET_MIN_LENGTH:
+            continue
+        streets.append(
+            {"name": name, "path": polyline_to_path(segments_by_name[name])}
+        )
+    return streets
+```
+
+`in_nyc` reuses the existing `point_in_ring` helper (defined earlier in
+the "borough polygons" section) to test whether a projected point falls
+inside any borough polygon — segments outside the 5 boroughs (e.g. New
+Jersey, within the bounding box but across the Hudson) are dropped.
+
+- [ ] **Step 3: Wire street fetching/building into `main()`**
+
+In `main()`, find this block (the loop that builds `borough_rings` and
+`borough_paths`):
+
+```python
+    borough_rings: dict[str, list[list[tuple[float, float]]]] = {}
+    borough_paths: list[dict] = []
+    for feat in boroughs_geojson["features"]:
+        name = BASENAME_TO_BOROUGH[feat["properties"]["BASENAME"]]
+        geom = feat["geometry"]
+        polys = (
+            [geom["coordinates"]] if geom["type"] == "Polygon" else geom["coordinates"]
+        )
+        rings: list[list[tuple[float, float]]] = []
+        for poly in polys:
+            ring = [proj.project(lat, lon) for lon, lat in poly[0]]
+            rings.append(ring)
+        borough_rings.setdefault(name, []).extend(rings)
+        for ring in rings:
+            borough_paths.append({"name": name, "path": ring_to_path(simplify_ring(ring))})
+
+    def borough_for(x: float, y: float) -> str:
+```
+
+Insert a blank line and the streets fetch/build between the loop and
+`def borough_for`:
+
+```python
+    borough_rings: dict[str, list[list[tuple[float, float]]]] = {}
+    borough_paths: list[dict] = []
+    for feat in boroughs_geojson["features"]:
+        name = BASENAME_TO_BOROUGH[feat["properties"]["BASENAME"]]
+        geom = feat["geometry"]
+        polys = (
+            [geom["coordinates"]] if geom["type"] == "Polygon" else geom["coordinates"]
+        )
+        rings: list[list[tuple[float, float]]] = []
+        for poly in polys:
+            ring = [proj.project(lat, lon) for lon, lat in poly[0]]
+            rings.append(ring)
+        borough_rings.setdefault(name, []).extend(rings)
+        for ring in rings:
+            borough_paths.append({"name": name, "path": ring_to_path(simplify_ring(ring))})
+
+    print("Fetching street geometry...")
+    streets_geojson = fetch_streets_geojson(lon_min, lat_min, lon_max, lat_max)
+    streets = build_streets(streets_geojson, proj, borough_rings)
+    print(f"Filtered to {len(streets)} major streets (>= {STREET_MIN_LENGTH:.0f} units)")
+
+    def borough_for(x: float, y: float) -> str:
+```
+
+- [ ] **Step 4: Write `streets.json`**
+
+Find the `boroughs.json` write near the end of `main()`:
+
+```python
+    with open(OUT_DIR / "boroughs.json", "w") as f:
+        json.dump({"viewBox": proj.view_box, "boroughs": borough_paths}, f, indent=2)
+```
+
+Add immediately after it:
+
+```python
+
+    with open(OUT_DIR / "streets.json", "w") as f:
+        json.dump({"viewBox": proj.view_box, "streets": streets}, f, indent=2)
+```
+
+- [ ] **Step 5: Run the generator and verify output**
+
+```bash
+python3 scripts/subway_data/generate.py
+```
+
+This downloads ~18MB of TIGERweb street geometry on first run (cached to
+`scripts/subway_data/.cache/streets.json`); subsequent runs reuse the
+cache. Expect a new line of output: `Filtered to 716 major streets (>= 75
+units)`.
+
+Verify the output:
+
+```bash
+python3 -c "
+import json
+data = json.load(open('apps/web/games/subway-game/public/data/streets.json'))
+print('viewBox', data['viewBox'])
+print('num streets', len(data['streets']))
+print(data['streets'][0])
+"
+```
+
+Expected: `viewBox` matches `boroughs.json`'s viewBox (`0 0 1000.0
+1041.5`), `num streets` is `716`, and the first entry has a `name` and a
+`path` string starting with `M `.
+
+- [ ] **Step 6: Add `StreetPath`/`StreetsData` types**
+
+In `apps/web/games/subway-game/lib/types.ts`, add at the end of the file:
+
+```typescript
+
+export interface StreetPath {
+  name: string;
+  path: string;
+}
+
+export interface StreetsData {
+  viewBox: string;
+  streets: StreetPath[];
+}
+```
+
+- [ ] **Step 7: Add `fetchStreets` to `lib/data.ts`**
+
+In `apps/web/games/subway-game/lib/data.ts`, change the import:
+
+```typescript
+import type { LineSummary, LineData, BoroughsData } from './types';
+```
+
+to:
+
+```typescript
+import type { LineSummary, LineData, BoroughsData, StreetsData } from './types';
+```
+
+Then add at the end of the file:
+
+```typescript
+
+export async function fetchStreets(): Promise<StreetsData> {
+  const res = await fetch(`${BASE}/data/streets.json`);
+  if (!res.ok) throw new Error('Failed to load streets');
+  return res.json();
+}
+```
+
+- [ ] **Step 8: Render the street layer in `SubwayMap.tsx`**
+
+In `apps/web/games/subway-game/components/SubwayMap.tsx`, change the
+type import:
+
+```typescript
+import type { BoroughsData, LineData } from '@/lib/types';
+```
+
+to:
+
+```typescript
+import type { BoroughsData, LineData, StreetsData } from '@/lib/types';
+```
+
+Add new constants alongside the existing ones:
+
+```typescript
+const BOROUGH_STROKE = '#283246';
+const STREET_STROKE = '#283246';
+const STREET_WIDTH = 0.5;
+const STREET_OPACITY = 0.4;
+const TRACK_COLOR = '#475569';
+```
+
+Add `streets` to the props interface and destructure it:
+
+```typescript
+interface SubwayMapProps {
+  line: LineData;
+  boroughs: BoroughsData;
+  streets: StreetsData;
+  guessedIds: Set<string>;
+}
+
+export function SubwayMap({ line, boroughs, streets, guessedIds }: SubwayMapProps) {
+```
+
+Render the street layer first, before the borough outlines, so it sits
+underneath everything else:
+
+```tsx
+      {streets.streets.map((street) => (
+        <path
+          key={street.name}
+          d={street.path}
+          stroke={STREET_STROKE}
+          strokeWidth={STREET_WIDTH}
+          strokeOpacity={STREET_OPACITY}
+          fill="none"
+        />
+      ))}
+
+      {boroughs.boroughs.map((borough, i) => (
+        <path
+          key={`${borough.name}-${i}`}
+          d={borough.path}
+          stroke={BOROUGH_STROKE}
+          strokeWidth={1}
+          fill="none"
+        />
+      ))}
+```
+
+- [ ] **Step 9: Fetch and pass streets data in `app/game/page.tsx`**
+
+In `apps/web/games/subway-game/app/game/page.tsx`, update the imports:
+
+```typescript
+import { fetchBoroughs, fetchLine, fetchLines } from '@/lib/data';
+import { matchGuess } from '@/lib/matchStation';
+import type { BoroughsData, LineData, LineSummary } from '@/lib/types';
+```
+
+to:
+
+```typescript
+import { fetchBoroughs, fetchLine, fetchLines, fetchStreets } from '@/lib/data';
+import { matchGuess } from '@/lib/matchStation';
+import type { BoroughsData, LineData, LineSummary, StreetsData } from '@/lib/types';
+```
+
+Add state alongside `boroughs`:
+
+```typescript
+  const [boroughs, setBoroughs] = useState<BoroughsData | null>(null);
+  const [streets, setStreets] = useState<StreetsData | null>(null);
+```
+
+Update the initial data-loading effect:
+
+```typescript
+      const [linesData, boroughsData] = await Promise.all([
+        fetchLines(),
+        fetchBoroughs(),
+      ]);
+      if (cancelled) return;
+      setLines(linesData);
+      setBoroughs(boroughsData);
+      await pickLine(linesData);
+```
+
+to:
+
+```typescript
+      const [linesData, boroughsData, streetsData] = await Promise.all([
+        fetchLines(),
+        fetchBoroughs(),
+        fetchStreets(),
+      ]);
+      if (cancelled) return;
+      setLines(linesData);
+      setBoroughs(boroughsData);
+      setStreets(streetsData);
+      await pickLine(linesData);
+```
+
+Update the loading guard:
+
+```typescript
+  if (loading || !line || !boroughs) {
+```
+
+to:
+
+```typescript
+  if (loading || !line || !boroughs || !streets) {
+```
+
+Update the `<SubwayMap>` usage:
+
+```tsx
+        <SubwayMap line={line} boroughs={boroughs} guessedIds={guessedIds} />
+```
+
+to:
+
+```tsx
+        <SubwayMap
+          line={line}
+          boroughs={boroughs}
+          streets={streets}
+          guessedIds={guessedIds}
+        />
+```
+
+- [ ] **Step 10: Manual verification**
+
+```bash
+pnpm --filter @eastlake/app-games-subway-game dev
+```
+
+Open `/game` in a browser. Confirm:
+
+- The map renders without console errors.
+- A faint grid of thin gray lines (the street layer) is visible behind
+  the borough outlines and subway track, roughly aligned with the city
+  shape — it should read as subtle background texture, not compete with
+  the track/stations for attention.
+- Reload a few times to check different lines/boroughs (e.g. a
+  Brooklyn-heavy line like `L` and a Bronx-heavy line like `2`) — the
+  street grid should be visible in the relevant area each time.
+
+Stop the dev server with `Ctrl+C`.
+
+- [ ] **Step 11: Lint, format, and commit**
+
+```bash
+pnpm --filter @eastlake/app-games-subway-game lint
+pnpm --filter @eastlake/app-games-subway-game format:check
+```
+
+If `format:check` flags files, run:
+
+```bash
+pnpm --filter @eastlake/app-games-subway-game format:fix
+```
+
+Then commit everything:
+
+```bash
+git add scripts/subway_data/generate.py \
+  apps/web/games/subway-game/lib/types.ts \
+  apps/web/games/subway-game/lib/data.ts \
+  apps/web/games/subway-game/components/SubwayMap.tsx \
+  apps/web/games/subway-game/app/game/page.tsx \
+  apps/web/games/subway-game/public/data/streets.json
+git commit -m "feat: add major street grid background layer to subway map"
+```
+
+---
