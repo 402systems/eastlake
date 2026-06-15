@@ -1,0 +1,217 @@
+{
+  "id": "J",
+  "name": "Nassau St Local",
+  "color": "#8E5C33",
+  "stations": [
+    {
+      "id": "G05",
+      "name": "Jamaica Center-Parsons/Archer",
+      "x": 819.3,
+      "y": 508.9,
+      "borough": "Queens"
+    },
+    {
+      "id": "G06",
+      "name": "Sutphin Blvd-Archer Av-JFK Airport",
+      "x": 806.4,
+      "y": 508.9,
+      "borough": "Queens"
+    },
+    {
+      "id": "J12",
+      "name": "121 St",
+      "x": 770.1,
+      "y": 508.9,
+      "borough": "Queens"
+    },
+    {
+      "id": "J13",
+      "name": "111 St",
+      "x": 758.6,
+      "y": 520.3,
+      "borough": "Queens"
+    },
+    {
+      "id": "J14",
+      "name": "104 St",
+      "x": 742.9,
+      "y": 522.1,
+      "borough": "Queens"
+    },
+    {
+      "id": "J15",
+      "name": "Woodhaven Blvd",
+      "x": 729.6,
+      "y": 522.1,
+      "borough": "Queens"
+    },
+    {
+      "id": "J16",
+      "name": "85 St-Forest Pkwy",
+      "x": 714.1,
+      "y": 522.1,
+      "borough": "Queens"
+    },
+    {
+      "id": "J17",
+      "name": "75 St-Elderts Ln",
+      "x": 701.1,
+      "y": 522.1,
+      "borough": "Queens"
+    },
+    {
+      "id": "J19",
+      "name": "Cypress Hills",
+      "x": 689.9,
+      "y": 527.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "J20",
+      "name": "Crescent St",
+      "x": 689.9,
+      "y": 543.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "J21",
+      "name": "Norwood Av",
+      "x": 677.9,
+      "y": 543.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "J22",
+      "name": "Cleveland St",
+      "x": 669.4,
+      "y": 552.1,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "J23",
+      "name": "Van Siclen Av",
+      "x": 656.4,
+      "y": 556.9,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "J24",
+      "name": "Alabama Av",
+      "x": 643.7,
+      "y": 556.9,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "J27",
+      "name": "Broadway Junction",
+      "x": 635.2,
+      "y": 548.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "J28",
+      "name": "Chauncey St",
+      "x": 625.8,
+      "y": 539.0,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "J29",
+      "name": "Halsey St",
+      "x": 614.9,
+      "y": 535.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "J30",
+      "name": "Gates Av",
+      "x": 605.9,
+      "y": 526.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "J31",
+      "name": "Kosciuszko St",
+      "x": 595.5,
+      "y": 515.8,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "M11",
+      "name": "Myrtle Av",
+      "x": 584.7,
+      "y": 505.0,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "M12",
+      "name": "Flushing Av",
+      "x": 573.5,
+      "y": 502.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "M13",
+      "name": "Lorimer St",
+      "x": 563.5,
+      "y": 492.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "M14",
+      "name": "Hewes St",
+      "x": 554.4,
+      "y": 483.3,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "M16",
+      "name": "Marcy Av",
+      "x": 545.9,
+      "y": 474.8,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "M18",
+      "name": "Delancey St-Essex St",
+      "x": 498.2,
+      "y": 446.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "M19",
+      "name": "Bowery",
+      "x": 485.7,
+      "y": 446.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "M20",
+      "name": "Canal St",
+      "x": 477.2,
+      "y": 455.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "M21",
+      "name": "Chambers St",
+      "x": 468.0,
+      "y": 464.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "M22",
+      "name": "Fulton St",
+      "x": 456.1,
+      "y": 478.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "M23",
+      "name": "Broad St",
+      "x": 447.6,
+      "y": 487.2,
+      "borough": "Manhattan"
+    }
+  ]
+}

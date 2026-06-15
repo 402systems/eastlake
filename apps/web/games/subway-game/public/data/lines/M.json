@@ -1,0 +1,259 @@
+{
+  "id": "M",
+  "name": "Queens Blvd Local/6 Av Local",
+  "color": "#EB6800",
+  "stations": [
+    {
+      "id": "G08",
+      "name": "Forest Hills-71 Av",
+      "x": 741.6,
+      "y": 462.8,
+      "borough": "Queens"
+    },
+    {
+      "id": "G09",
+      "name": "67 Av",
+      "x": 728.5,
+      "y": 449.6,
+      "borough": "Queens"
+    },
+    {
+      "id": "G10",
+      "name": "63 Dr-Rego Park",
+      "x": 715.9,
+      "y": 437.1,
+      "borough": "Queens"
+    },
+    {
+      "id": "G11",
+      "name": "Woodhaven Blvd",
+      "x": 704.9,
+      "y": 426.0,
+      "borough": "Queens"
+    },
+    {
+      "id": "G12",
+      "name": "Grand Av-Newtown",
+      "x": 689.4,
+      "y": 418.4,
+      "borough": "Queens"
+    },
+    {
+      "id": "G13",
+      "name": "Elmhurst Av",
+      "x": 678.5,
+      "y": 407.5,
+      "borough": "Queens"
+    },
+    {
+      "id": "G14",
+      "name": "Jackson Hts-Roosevelt Av",
+      "x": 664.8,
+      "y": 393.7,
+      "borough": "Queens"
+    },
+    {
+      "id": "G15",
+      "name": "65 St",
+      "x": 654.4,
+      "y": 383.4,
+      "borough": "Queens"
+    },
+    {
+      "id": "G16",
+      "name": "Northern Blvd",
+      "x": 639.3,
+      "y": 378.3,
+      "borough": "Queens"
+    },
+    {
+      "id": "G18",
+      "name": "46 St",
+      "x": 628.4,
+      "y": 367.4,
+      "borough": "Queens"
+    },
+    {
+      "id": "G19",
+      "name": "Steinway St",
+      "x": 615.1,
+      "y": 367.4,
+      "borough": "Queens"
+    },
+    {
+      "id": "G20",
+      "name": "36 St",
+      "x": 602.1,
+      "y": 380.4,
+      "borough": "Queens"
+    },
+    {
+      "id": "B04",
+      "name": "21 St-Queensbridge",
+      "x": 572.6,
+      "y": 382.4,
+      "borough": "Queens"
+    },
+    {
+      "id": "B06",
+      "name": "Roosevelt Island",
+      "x": 557.1,
+      "y": 366.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "B08",
+      "name": "Lexington Av/63 St",
+      "x": 538.4,
+      "y": 348.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "B10",
+      "name": "57 St",
+      "x": 518.1,
+      "y": 348.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D15",
+      "name": "47-50 Sts-Rockefeller Ctr",
+      "x": 504.0,
+      "y": 364.3,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D16",
+      "name": "42 St-Bryant Pk",
+      "x": 495.5,
+      "y": 372.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D17",
+      "name": "34 St-Herald Sq",
+      "x": 487.0,
+      "y": 381.3,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D18",
+      "name": "23 St",
+      "x": 473.9,
+      "y": 394.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D19",
+      "name": "14 St",
+      "x": 466.8,
+      "y": 410.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D20",
+      "name": "W 4 St-Wash Sq",
+      "x": 455.6,
+      "y": 421.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D21",
+      "name": "Broadway-Lafayette St",
+      "x": 468.5,
+      "y": 434.6,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "M18",
+      "name": "Delancey St-Essex St",
+      "x": 484.6,
+      "y": 450.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "M16",
+      "name": "Marcy Av",
+      "x": 530.3,
+      "y": 492.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "M14",
+      "name": "Hewes St",
+      "x": 538.8,
+      "y": 501.1,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "M13",
+      "name": "Lorimer St",
+      "x": 547.9,
+      "y": 510.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "M12",
+      "name": "Flushing Av",
+      "x": 557.9,
+      "y": 520.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "M11",
+      "name": "Myrtle Av",
+      "x": 570.7,
+      "y": 525.9,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "M10",
+      "name": "Central Av",
+      "x": 585.6,
+      "y": 525.9,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "M09",
+      "name": "Knickerbocker Av",
+      "x": 599.5,
+      "y": 525.9,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "M08",
+      "name": "Myrtle-Wyckoff Avs",
+      "x": 612.7,
+      "y": 525.9,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "M06",
+      "name": "Seneca Av",
+      "x": 623.7,
+      "y": 514.0,
+      "borough": "Queens"
+    },
+    {
+      "id": "M05",
+      "name": "Forest Av",
+      "x": 632.2,
+      "y": 505.5,
+      "borough": "Queens"
+    },
+    {
+      "id": "M04",
+      "name": "Fresh Pond Rd",
+      "x": 645.8,
+      "y": 505.5,
+      "borough": "Queens"
+    },
+    {
+      "id": "M01",
+      "name": "Middle Village-Metropolitan Av",
+      "x": 657.5,
+      "y": 493.7,
+      "borough": "Queens"
+    }
+  ]
+}

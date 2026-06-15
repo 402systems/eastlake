@@ -1,0 +1,245 @@
+{
+  "id": "Q",
+  "name": "Broadway Express",
+  "color": "#F6BC26",
+  "stations": [
+    {
+      "id": "Q05",
+      "name": "96 St",
+      "x": 557.9,
+      "y": 314.9,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "Q04",
+      "name": "86 St",
+      "x": 545.7,
+      "y": 327.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "Q03",
+      "name": "72 St",
+      "x": 528.3,
+      "y": 344.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "B08",
+      "name": "Lexington Av/63 St",
+      "x": 516.4,
+      "y": 356.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R14",
+      "name": "57 St-7 Av",
+      "x": 493.0,
+      "y": 358.2,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R15",
+      "name": "49 St",
+      "x": 483.9,
+      "y": 367.2,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R16",
+      "name": "Times Sq-42 St",
+      "x": 483.9,
+      "y": 380.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R17",
+      "name": "34 St-Herald Sq",
+      "x": 483.9,
+      "y": 392.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R18",
+      "name": "28 St",
+      "x": 483.8,
+      "y": 405.3,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R19",
+      "name": "23 St",
+      "x": 483.8,
+      "y": 417.3,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R20",
+      "name": "14 St-Union Sq",
+      "x": 483.8,
+      "y": 430.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R21",
+      "name": "8 St-NYU",
+      "x": 483.8,
+      "y": 444.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R22",
+      "name": "Prince St",
+      "x": 470.3,
+      "y": 456.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "Q01",
+      "name": "Canal St",
+      "x": 470.3,
+      "y": 471.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R30",
+      "name": "DeKalb Av",
+      "x": 522.3,
+      "y": 523.0,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D24",
+      "name": "Atlantic Av-Barclays Ctr",
+      "x": 534.4,
+      "y": 535.0,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D25",
+      "name": "7 Av",
+      "x": 535.7,
+      "y": 555.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D26",
+      "name": "Prospect Park",
+      "x": 564.4,
+      "y": 584.3,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D27",
+      "name": "Parkside Av",
+      "x": 564.4,
+      "y": 599.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D28",
+      "name": "Church Av",
+      "x": 564.4,
+      "y": 611.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D29",
+      "name": "Beverley Rd",
+      "x": 551.3,
+      "y": 633.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D30",
+      "name": "Cortelyou Rd",
+      "x": 551.3,
+      "y": 645.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D31",
+      "name": "Newkirk Plaza",
+      "x": 551.3,
+      "y": 659.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D32",
+      "name": "Avenue H",
+      "x": 551.3,
+      "y": 673.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D33",
+      "name": "Avenue J",
+      "x": 545.1,
+      "y": 687.3,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D34",
+      "name": "Avenue M",
+      "x": 545.1,
+      "y": 705.0,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D35",
+      "name": "Kings Hwy",
+      "x": 545.1,
+      "y": 726.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D37",
+      "name": "Avenue U",
+      "x": 545.1,
+      "y": 748.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D38",
+      "name": "Neck Rd",
+      "x": 544.5,
+      "y": 760.9,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D39",
+      "name": "Sheepshead Bay",
+      "x": 544.5,
+      "y": 780.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D40",
+      "name": "Brighton Beach",
+      "x": 526.6,
+      "y": 798.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D41",
+      "name": "Ocean Pkwy",
+      "x": 513.4,
+      "y": 798.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D42",
+      "name": "W 8 St-NY Aquarium",
+      "x": 502.3,
+      "y": 801.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D43",
+      "name": "Coney Island-Stillwell Av",
+      "x": 490.3,
+      "y": 801.4,
+      "borough": "Brooklyn"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "id": "C",
+  "name": "8 Avenue Local",
+  "color": "#0062CF",
+  "stations": [
+    {
+      "id": "A09",
+      "name": "168 St",
+      "x": 571.5,
+      "y": 181.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A10",
+      "name": "163 St-Amsterdam Av",
+      "x": 571.5,
+      "y": 193.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A11",
+      "name": "155 St",
+      "x": 571.5,
+      "y": 207.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A12",
+      "name": "145 St",
+      "x": 571.5,
+      "y": 221.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A14",
+      "name": "135 St",
+      "x": 566.4,
+      "y": 237.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A15",
+      "name": "125 St",
+      "x": 553.6,
+      "y": 250.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A16",
+      "name": "116 St",
+      "x": 553.6,
+      "y": 265.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A17",
+      "name": "Cathedral Pkwy (110 St)",
+      "x": 545.1,
+      "y": 274.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A18",
+      "name": "103 St",
+      "x": 535.0,
+      "y": 284.2,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A19",
+      "name": "96 St",
+      "x": 526.5,
+      "y": 292.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A20",
+      "name": "86 St",
+      "x": 515.5,
+      "y": 303.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A21",
+      "name": "81 St-Museum of Natural History",
+      "x": 507.0,
+      "y": 312.2,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A22",
+      "name": "72 St",
+      "x": 499.3,
+      "y": 327.6,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A24",
+      "name": "59 St-Columbus Circle",
+      "x": 485.3,
+      "y": 341.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A25",
+      "name": "50 St",
+      "x": 474.2,
+      "y": 352.6,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A27",
+      "name": "42 St-Port Authority Bus Terminal",
+      "x": 464.4,
+      "y": 362.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A28",
+      "name": "34 St-Penn Station",
+      "x": 461.9,
+      "y": 378.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A30",
+      "name": "23 St",
+      "x": 449.8,
+      "y": 390.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A31",
+      "name": "14 St",
+      "x": 440.2,
+      "y": 400.2,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A32",
+      "name": "W 4 St-Wash Sq",
+      "x": 440.2,
+      "y": 420.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A33",
+      "name": "Spring St",
+      "x": 445.9,
+      "y": 441.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A34",
+      "name": "Canal St",
+      "x": 445.9,
+      "y": 454.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A36",
+      "name": "Chambers St",
+      "x": 445.9,
+      "y": 471.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A38",
+      "name": "Fulton St",
+      "x": 445.9,
+      "y": 483.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A40",
+      "name": "High St",
+      "x": 476.3,
+      "y": 513.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "A41",
+      "name": "Jay St-MetroTech",
+      "x": 476.3,
+      "y": 530.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "A42",
+      "name": "Hoyt-Schermerhorn Sts",
+      "x": 484.8,
+      "y": 539.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "A43",
+      "name": "Lafayette Av",
+      "x": 505.4,
+      "y": 539.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "A44",
+      "name": "Clinton-Washington Avs",
+      "x": 519.4,
+      "y": 551.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "A45",
+      "name": "Franklin Av",
+      "x": 536.1,
+      "y": 551.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "A46",
+      "name": "Nostrand Av",
+      "x": 548.1,
+      "y": 551.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "A47",
+      "name": "Kingston-Throop Avs",
+      "x": 565.3,
+      "y": 551.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "A48",
+      "name": "Utica Av",
+      "x": 584.8,
+      "y": 555.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "A49",
+      "name": "Ralph Av",
+      "x": 602.7,
+      "y": 555.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "A50",
+      "name": "Rockaway Av",
+      "x": 618.5,
+      "y": 555.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "A51",
+      "name": "Broadway Junction",
+      "x": 630.5,
+      "y": 555.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "A52",
+      "name": "Liberty Av",
+      "x": 645.1,
+      "y": 570.3,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "A53",
+      "name": "Van Siclen Av",
+      "x": 657.1,
+      "y": 570.3,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "A54",
+      "name": "Shepherd Av",
+      "x": 674.6,
+      "y": 570.3,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "A55",
+      "name": "Euclid Av",
+      "x": 690.4,
+      "y": 570.3,
+      "borough": "Brooklyn"
+    }
+  ]
+}

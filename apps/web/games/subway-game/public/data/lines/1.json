@@ -1,0 +1,273 @@
+{
+  "id": "1",
+  "name": "Broadway - 7 Avenue Local",
+  "color": "#D82233",
+  "stations": [
+    {
+      "id": "101",
+      "name": "Van Cortlandt Park-242 St",
+      "x": 644.8,
+      "y": 67.2,
+      "borough": "Bronx"
+    },
+    {
+      "id": "103",
+      "name": "238 St",
+      "x": 644.8,
+      "y": 79.2,
+      "borough": "Bronx"
+    },
+    {
+      "id": "104",
+      "name": "231 St",
+      "x": 633.9,
+      "y": 90.1,
+      "borough": "Bronx"
+    },
+    {
+      "id": "106",
+      "name": "Marble Hill-225 St",
+      "x": 624.4,
+      "y": 99.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "107",
+      "name": "215 St",
+      "x": 613.9,
+      "y": 111.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "108",
+      "name": "207 St",
+      "x": 604.7,
+      "y": 121.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "109",
+      "name": "Dyckman St",
+      "x": 593.8,
+      "y": 131.9,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "110",
+      "name": "191 St",
+      "x": 583.7,
+      "y": 142.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "111",
+      "name": "181 St",
+      "x": 576.1,
+      "y": 155.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "112",
+      "name": "168 St-Washington Hts",
+      "x": 559.0,
+      "y": 172.9,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "113",
+      "name": "157 St",
+      "x": 546.6,
+      "y": 185.3,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "114",
+      "name": "145 St",
+      "x": 532.3,
+      "y": 199.6,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "115",
+      "name": "137 St-City College",
+      "x": 531.5,
+      "y": 214.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "116",
+      "name": "125 St",
+      "x": 519.3,
+      "y": 226.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "117",
+      "name": "116 St-Columbia University",
+      "x": 504.3,
+      "y": 241.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "118",
+      "name": "Cathedral Pkwy (110 St)",
+      "x": 495.8,
+      "y": 250.2,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "119",
+      "name": "103 St",
+      "x": 504.2,
+      "y": 268.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "120",
+      "name": "96 St",
+      "x": 493.7,
+      "y": 278.6,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "121",
+      "name": "86 St",
+      "x": 483.6,
+      "y": 288.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "122",
+      "name": "79 St",
+      "x": 474.5,
+      "y": 297.9,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "123",
+      "name": "72 St",
+      "x": 481.9,
+      "y": 317.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "124",
+      "name": "66 St-Lincoln Center",
+      "x": 481.9,
+      "y": 329.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "125",
+      "name": "59 St-Columbus Circle",
+      "x": 481.9,
+      "y": 341.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "126",
+      "name": "50 St",
+      "x": 481.9,
+      "y": 357.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "127",
+      "name": "Times Sq-42 St",
+      "x": 475.6,
+      "y": 374.2,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "128",
+      "name": "34 St-Penn Station",
+      "x": 466.2,
+      "y": 383.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "129",
+      "name": "28 St",
+      "x": 457.8,
+      "y": 392.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "130",
+      "name": "23 St",
+      "x": 449.3,
+      "y": 400.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "131",
+      "name": "18 St",
+      "x": 450.0,
+      "y": 411.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "132",
+      "name": "14 St",
+      "x": 441.5,
+      "y": 420.3,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "133",
+      "name": "Christopher St-Stonewall",
+      "x": 433.0,
+      "y": 428.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "134",
+      "name": "Houston St",
+      "x": 433.0,
+      "y": 441.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "135",
+      "name": "Canal St",
+      "x": 439.7,
+      "y": 456.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "136",
+      "name": "Franklin St",
+      "x": 439.7,
+      "y": 468.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "137",
+      "name": "Chambers St",
+      "x": 431.2,
+      "y": 477.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "138",
+      "name": "WTC Cortlandt",
+      "x": 422.7,
+      "y": 485.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "139",
+      "name": "Rector St",
+      "x": 428.3,
+      "y": 497.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "142",
+      "name": "South Ferry",
+      "x": 428.3,
+      "y": 509.9,
+      "borough": "Manhattan"
+    }
+  ]
+}

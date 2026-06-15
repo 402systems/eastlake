@@ -1,0 +1,161 @@
+{
+  "id": "7",
+  "name": "Flushing Local",
+  "color": "#9A38A1",
+  "stations": [
+    {
+      "id": "701",
+      "name": "Flushing-Main St",
+      "x": 767.6,
+      "y": 373.3,
+      "borough": "Queens"
+    },
+    {
+      "id": "702",
+      "name": "Mets-Willets Point",
+      "x": 746.1,
+      "y": 394.7,
+      "borough": "Queens"
+    },
+    {
+      "id": "705",
+      "name": "111 St",
+      "x": 727.5,
+      "y": 394.7,
+      "borough": "Queens"
+    },
+    {
+      "id": "706",
+      "name": "103 St-Corona Plaza",
+      "x": 713.6,
+      "y": 394.7,
+      "borough": "Queens"
+    },
+    {
+      "id": "707",
+      "name": "Junction Blvd",
+      "x": 699.7,
+      "y": 395.8,
+      "borough": "Queens"
+    },
+    {
+      "id": "708",
+      "name": "90 St-Elmhurst Av",
+      "x": 686.9,
+      "y": 395.8,
+      "borough": "Queens"
+    },
+    {
+      "id": "709",
+      "name": "82 St-Jackson Hts",
+      "x": 674.1,
+      "y": 395.8,
+      "borough": "Queens"
+    },
+    {
+      "id": "710",
+      "name": "74 St-Broadway",
+      "x": 660.2,
+      "y": 395.8,
+      "borough": "Queens"
+    },
+    {
+      "id": "711",
+      "name": "69 St",
+      "x": 648.4,
+      "y": 398.9,
+      "borough": "Queens"
+    },
+    {
+      "id": "712",
+      "name": "61 St-Woodside",
+      "x": 636.4,
+      "y": 398.9,
+      "borough": "Queens"
+    },
+    {
+      "id": "713",
+      "name": "52 St",
+      "x": 618.9,
+      "y": 398.9,
+      "borough": "Queens"
+    },
+    {
+      "id": "714",
+      "name": "46 St-Bliss St",
+      "x": 606.9,
+      "y": 398.9,
+      "borough": "Queens"
+    },
+    {
+      "id": "715",
+      "name": "40 St-Lowery St",
+      "x": 596.5,
+      "y": 403.0,
+      "borough": "Queens"
+    },
+    {
+      "id": "716",
+      "name": "33 St-Rawson St",
+      "x": 583.8,
+      "y": 403.0,
+      "borough": "Queens"
+    },
+    {
+      "id": "718",
+      "name": "Queensboro Plaza",
+      "x": 568.5,
+      "y": 387.6,
+      "borough": "Queens"
+    },
+    {
+      "id": "719",
+      "name": "Court Sq",
+      "x": 559.7,
+      "y": 396.4,
+      "borough": "Queens"
+    },
+    {
+      "id": "720",
+      "name": "Hunters Point Av",
+      "x": 552.0,
+      "y": 408.7,
+      "borough": "Queens"
+    },
+    {
+      "id": "721",
+      "name": "Vernon Blvd-Jackson Av",
+      "x": 540.0,
+      "y": 408.7,
+      "borough": "Queens"
+    },
+    {
+      "id": "723",
+      "name": "Grand Central-42 St",
+      "x": 508.0,
+      "y": 376.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "724",
+      "name": "5 Av",
+      "x": 499.5,
+      "y": 368.2,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "725",
+      "name": "Times Sq-42 St",
+      "x": 486.7,
+      "y": 373.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "726",
+      "name": "34 St-Hudson Yards",
+      "x": 461.3,
+      "y": 373.4,
+      "borough": "Manhattan"
+    }
+  ]
+}

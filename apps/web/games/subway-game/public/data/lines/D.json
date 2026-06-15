@@ -1,0 +1,294 @@
+{
+  "id": "D",
+  "name": "6 Avenue Express",
+  "color": "#EB6800",
+  "stations": [
+    {
+      "id": "D01",
+      "name": "Norwood-205 St",
+      "x": 680.2,
+      "y": 101.3,
+      "borough": "Bronx"
+    },
+    {
+      "id": "D03",
+      "name": "Bedford Park Blvd",
+      "x": 664.9,
+      "y": 101.3,
+      "borough": "Bronx"
+    },
+    {
+      "id": "D04",
+      "name": "Kingsbridge Rd",
+      "x": 651.7,
+      "y": 114.5,
+      "borough": "Bronx"
+    },
+    {
+      "id": "D05",
+      "name": "Fordham Rd",
+      "x": 640.8,
+      "y": 125.4,
+      "borough": "Bronx"
+    },
+    {
+      "id": "D06",
+      "name": "182-183 Sts",
+      "x": 634.7,
+      "y": 138.6,
+      "borough": "Bronx"
+    },
+    {
+      "id": "D07",
+      "name": "Tremont Av",
+      "x": 623.6,
+      "y": 149.6,
+      "borough": "Bronx"
+    },
+    {
+      "id": "D08",
+      "name": "174-175 Sts",
+      "x": 613.9,
+      "y": 159.4,
+      "borough": "Bronx"
+    },
+    {
+      "id": "D09",
+      "name": "170 St",
+      "x": 613.9,
+      "y": 176.0,
+      "borough": "Bronx"
+    },
+    {
+      "id": "D10",
+      "name": "167 St",
+      "x": 605.0,
+      "y": 191.1,
+      "borough": "Bronx"
+    },
+    {
+      "id": "D11",
+      "name": "161 St-Yankee Stadium",
+      "x": 591.6,
+      "y": 204.4,
+      "borough": "Bronx"
+    },
+    {
+      "id": "D12",
+      "name": "155 St",
+      "x": 568.5,
+      "y": 204.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D13",
+      "name": "145 St",
+      "x": 556.8,
+      "y": 216.2,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A15",
+      "name": "125 St",
+      "x": 537.6,
+      "y": 244.9,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "A24",
+      "name": "59 St-Columbus Circle",
+      "x": 457.1,
+      "y": 325.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D14",
+      "name": "7 Av",
+      "x": 457.1,
+      "y": 338.3,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D15",
+      "name": "47-50 Sts-Rockefeller Ctr",
+      "x": 457.1,
+      "y": 350.3,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D16",
+      "name": "42 St-Bryant Pk",
+      "x": 463.4,
+      "y": 368.3,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D17",
+      "name": "34 St-Herald Sq",
+      "x": 454.8,
+      "y": 376.9,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D20",
+      "name": "W 4 St-Wash Sq",
+      "x": 421.7,
+      "y": 410.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D21",
+      "name": "Broadway-Lafayette St",
+      "x": 434.6,
+      "y": 423.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D22",
+      "name": "Grand St",
+      "x": 448.6,
+      "y": 450.9,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R30",
+      "name": "DeKalb Av",
+      "x": 448.6,
+      "y": 519.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R31",
+      "name": "Atlantic Av-Barclays Ctr",
+      "x": 448.6,
+      "y": 536.8,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R32",
+      "name": "Union St",
+      "x": 436.7,
+      "y": 548.8,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R33",
+      "name": "4 Av-9 St",
+      "x": 445.1,
+      "y": 568.9,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R34",
+      "name": "Prospect Av",
+      "x": 434.3,
+      "y": 579.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R35",
+      "name": "25 St",
+      "x": 423.7,
+      "y": 590.3,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R36",
+      "name": "36 St",
+      "x": 412.5,
+      "y": 601.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "B12",
+      "name": "9 Av",
+      "x": 446.1,
+      "y": 627.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "B13",
+      "name": "Fort Hamilton Pkwy",
+      "x": 446.1,
+      "y": 640.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "B14",
+      "name": "50 St",
+      "x": 446.1,
+      "y": 652.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "B15",
+      "name": "55 St",
+      "x": 446.1,
+      "y": 664.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "B16",
+      "name": "62 St",
+      "x": 454.1,
+      "y": 680.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "B17",
+      "name": "71 St",
+      "x": 454.1,
+      "y": 696.8,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "B18",
+      "name": "79 St",
+      "x": 454.1,
+      "y": 711.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "B19",
+      "name": "18 Av",
+      "x": 454.1,
+      "y": 724.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "B20",
+      "name": "20 Av",
+      "x": 464.0,
+      "y": 735.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "B21",
+      "name": "Bay Pkwy",
+      "x": 472.5,
+      "y": 743.8,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "B22",
+      "name": "25 Av",
+      "x": 483.6,
+      "y": 755.0,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "B23",
+      "name": "Bay 50 St",
+      "x": 483.6,
+      "y": 776.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D43",
+      "name": "Coney Island-Stillwell Av",
+      "x": 488.3,
+      "y": 803.8,
+      "borough": "Brooklyn"
+    }
+  ]
+}

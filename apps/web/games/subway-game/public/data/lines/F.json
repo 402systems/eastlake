@@ -1,0 +1,392 @@
+{
+  "id": "F",
+  "name": "Queens Blvd Express/6 Av Local",
+  "color": "#EB6800",
+  "stations": [
+    {
+      "id": "F01",
+      "name": "Jamaica-179 St",
+      "x": 850.3,
+      "y": 484.1,
+      "borough": "Queens"
+    },
+    {
+      "id": "F02",
+      "name": "169 St",
+      "x": 832.0,
+      "y": 484.1,
+      "borough": "Queens"
+    },
+    {
+      "id": "F03",
+      "name": "Parsons Blvd",
+      "x": 813.3,
+      "y": 484.1,
+      "borough": "Queens"
+    },
+    {
+      "id": "F04",
+      "name": "Sutphin Blvd",
+      "x": 799.2,
+      "y": 484.1,
+      "borough": "Queens"
+    },
+    {
+      "id": "F05",
+      "name": "Briarwood",
+      "x": 785.0,
+      "y": 477.9,
+      "borough": "Queens"
+    },
+    {
+      "id": "F06",
+      "name": "Kew Gardens-Union Tpke",
+      "x": 769.1,
+      "y": 462.1,
+      "borough": "Queens"
+    },
+    {
+      "id": "F07",
+      "name": "75 Av",
+      "x": 758.8,
+      "y": 451.8,
+      "borough": "Queens"
+    },
+    {
+      "id": "G08",
+      "name": "Forest Hills-71 Av",
+      "x": 748.1,
+      "y": 441.1,
+      "borough": "Queens"
+    },
+    {
+      "id": "G09",
+      "name": "67 Av",
+      "x": 732.2,
+      "y": 436.1,
+      "borough": "Queens"
+    },
+    {
+      "id": "G10",
+      "name": "63 Dr-Rego Park",
+      "x": 719.6,
+      "y": 423.6,
+      "borough": "Queens"
+    },
+    {
+      "id": "G11",
+      "name": "Woodhaven Blvd",
+      "x": 708.5,
+      "y": 412.5,
+      "borough": "Queens"
+    },
+    {
+      "id": "G12",
+      "name": "Grand Av-Newtown",
+      "x": 696.5,
+      "y": 400.5,
+      "borough": "Queens"
+    },
+    {
+      "id": "G13",
+      "name": "Elmhurst Av",
+      "x": 681.7,
+      "y": 398.0,
+      "borough": "Queens"
+    },
+    {
+      "id": "G14",
+      "name": "Jackson Hts-Roosevelt Av",
+      "x": 668.0,
+      "y": 384.3,
+      "borough": "Queens"
+    },
+    {
+      "id": "G15",
+      "name": "65 St",
+      "x": 657.7,
+      "y": 374.0,
+      "borough": "Queens"
+    },
+    {
+      "id": "G16",
+      "name": "Northern Blvd",
+      "x": 646.7,
+      "y": 363.0,
+      "borough": "Queens"
+    },
+    {
+      "id": "G18",
+      "name": "46 St",
+      "x": 629.7,
+      "y": 362.2,
+      "borough": "Queens"
+    },
+    {
+      "id": "G19",
+      "name": "Steinway St",
+      "x": 616.4,
+      "y": 362.2,
+      "borough": "Queens"
+    },
+    {
+      "id": "G20",
+      "name": "36 St",
+      "x": 603.4,
+      "y": 375.2,
+      "borough": "Queens"
+    },
+    {
+      "id": "B04",
+      "name": "21 St-Queensbridge",
+      "x": 577.7,
+      "y": 375.2,
+      "borough": "Queens"
+    },
+    {
+      "id": "B06",
+      "name": "Roosevelt Island",
+      "x": 556.9,
+      "y": 364.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "B08",
+      "name": "Lexington Av/63 St",
+      "x": 538.2,
+      "y": 346.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "B10",
+      "name": "57 St",
+      "x": 517.8,
+      "y": 346.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D15",
+      "name": "47-50 Sts-Rockefeller Ctr",
+      "x": 507.7,
+      "y": 356.3,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D16",
+      "name": "42 St-Bryant Pk",
+      "x": 496.3,
+      "y": 372.2,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D17",
+      "name": "34 St-Herald Sq",
+      "x": 487.8,
+      "y": 380.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D18",
+      "name": "23 St",
+      "x": 474.7,
+      "y": 393.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D19",
+      "name": "14 St",
+      "x": 465.8,
+      "y": 402.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D20",
+      "name": "W 4 St-Wash Sq",
+      "x": 457.3,
+      "y": 422.2,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "D21",
+      "name": "Broadway-Lafayette St",
+      "x": 470.3,
+      "y": 435.2,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "F14",
+      "name": "2 Av",
+      "x": 482.4,
+      "y": 435.2,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "F15",
+      "name": "Delancey St-Essex St",
+      "x": 482.4,
+      "y": 447.2,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "F16",
+      "name": "East Broadway",
+      "x": 481.9,
+      "y": 467.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "F18",
+      "name": "York St",
+      "x": 481.9,
+      "y": 496.8,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "A41",
+      "name": "Jay St-MetroTech",
+      "x": 481.9,
+      "y": 518.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F20",
+      "name": "Bergen St",
+      "x": 470.6,
+      "y": 529.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F21",
+      "name": "Carroll St",
+      "x": 463.9,
+      "y": 547.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F22",
+      "name": "Smith-9 Sts",
+      "x": 463.9,
+      "y": 563.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F23",
+      "name": "4 Av-9 St",
+      "x": 473.5,
+      "y": 573.1,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F24",
+      "name": "7 Av",
+      "x": 487.2,
+      "y": 586.8,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F25",
+      "name": "15 St-Prospect Park",
+      "x": 491.7,
+      "y": 603.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F26",
+      "name": "Fort Hamilton Pkwy",
+      "x": 491.7,
+      "y": 626.8,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F27",
+      "name": "Church Av",
+      "x": 479.4,
+      "y": 639.1,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F29",
+      "name": "Ditmas Av",
+      "x": 479.4,
+      "y": 657.9,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F30",
+      "name": "18 Av",
+      "x": 488.2,
+      "y": 675.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F31",
+      "name": "Avenue I",
+      "x": 488.2,
+      "y": 687.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F32",
+      "name": "Bay Pkwy",
+      "x": 488.2,
+      "y": 699.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F33",
+      "name": "Avenue N",
+      "x": 488.2,
+      "y": 712.9,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F34",
+      "name": "Avenue P",
+      "x": 496.4,
+      "y": 728.1,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F35",
+      "name": "Kings Hwy",
+      "x": 496.4,
+      "y": 741.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F36",
+      "name": "Avenue U",
+      "x": 496.4,
+      "y": 758.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F38",
+      "name": "Avenue X",
+      "x": 496.4,
+      "y": 774.0,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F39",
+      "name": "Neptune Av",
+      "x": 500.8,
+      "y": 794.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D42",
+      "name": "W 8 St-NY Aquarium",
+      "x": 500.8,
+      "y": 806.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D43",
+      "name": "Coney Island-Stillwell Av",
+      "x": 488.8,
+      "y": 806.5,
+      "borough": "Brooklyn"
+    }
+  ]
+}

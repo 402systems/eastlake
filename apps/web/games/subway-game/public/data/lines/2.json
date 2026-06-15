@@ -1,0 +1,434 @@
+{
+  "id": "2",
+  "name": "7 Avenue Express",
+  "color": "#D82233",
+  "stations": [
+    {
+      "id": "201",
+      "name": "Wakefield-241 St",
+      "x": 730.7,
+      "y": 34.4,
+      "borough": "Bronx"
+    },
+    {
+      "id": "204",
+      "name": "Nereid Av",
+      "x": 721.5,
+      "y": 43.7,
+      "borough": "Bronx"
+    },
+    {
+      "id": "205",
+      "name": "233 St",
+      "x": 712.0,
+      "y": 53.2,
+      "borough": "Bronx"
+    },
+    {
+      "id": "206",
+      "name": "225 St",
+      "x": 702.6,
+      "y": 62.5,
+      "borough": "Bronx"
+    },
+    {
+      "id": "207",
+      "name": "219 St",
+      "x": 699.4,
+      "y": 74.1,
+      "borough": "Bronx"
+    },
+    {
+      "id": "208",
+      "name": "Gun Hill Rd",
+      "x": 688.3,
+      "y": 85.2,
+      "borough": "Bronx"
+    },
+    {
+      "id": "209",
+      "name": "Burke Av",
+      "x": 688.3,
+      "y": 100.6,
+      "borough": "Bronx"
+    },
+    {
+      "id": "210",
+      "name": "Allerton Av",
+      "x": 688.3,
+      "y": 114.5,
+      "borough": "Bronx"
+    },
+    {
+      "id": "211",
+      "name": "Pelham Pkwy",
+      "x": 692.5,
+      "y": 137.1,
+      "borough": "Bronx"
+    },
+    {
+      "id": "212",
+      "name": "Bronx Park East",
+      "x": 692.5,
+      "y": 156.9,
+      "borough": "Bronx"
+    },
+    {
+      "id": "213",
+      "name": "E 180 St",
+      "x": 679.3,
+      "y": 170.2,
+      "borough": "Bronx"
+    },
+    {
+      "id": "214",
+      "name": "West Farms Sq-E Tremont Av",
+      "x": 666.9,
+      "y": 170.2,
+      "borough": "Bronx"
+    },
+    {
+      "id": "215",
+      "name": "174 St",
+      "x": 658.9,
+      "y": 184.2,
+      "borough": "Bronx"
+    },
+    {
+      "id": "216",
+      "name": "Freeman St",
+      "x": 645.6,
+      "y": 197.4,
+      "borough": "Bronx"
+    },
+    {
+      "id": "217",
+      "name": "Simpson St",
+      "x": 645.6,
+      "y": 211.6,
+      "borough": "Bronx"
+    },
+    {
+      "id": "218",
+      "name": "Intervale Av",
+      "x": 637.2,
+      "y": 220.0,
+      "borough": "Bronx"
+    },
+    {
+      "id": "219",
+      "name": "Prospect Av",
+      "x": 632.3,
+      "y": 229.6,
+      "borough": "Bronx"
+    },
+    {
+      "id": "220",
+      "name": "Jackson Av",
+      "x": 623.1,
+      "y": 238.8,
+      "borough": "Bronx"
+    },
+    {
+      "id": "221",
+      "name": "3 Av-149 St",
+      "x": 605.3,
+      "y": 238.8,
+      "borough": "Bronx"
+    },
+    {
+      "id": "222",
+      "name": "149 St-Grand Concourse",
+      "x": 588.3,
+      "y": 238.8,
+      "borough": "Bronx"
+    },
+    {
+      "id": "224",
+      "name": "135 St",
+      "x": 564.1,
+      "y": 240.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "225",
+      "name": "125 St",
+      "x": 551.8,
+      "y": 253.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "226",
+      "name": "116 St",
+      "x": 541.0,
+      "y": 263.9,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "227",
+      "name": "110 St-Malcolm X Plaza",
+      "x": 532.5,
+      "y": 272.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "120",
+      "name": "96 St",
+      "x": 500.5,
+      "y": 279.3,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "121",
+      "name": "86 St",
+      "x": 490.4,
+      "y": 289.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "122",
+      "name": "79 St",
+      "x": 481.2,
+      "y": 298.6,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "123",
+      "name": "72 St",
+      "x": 481.2,
+      "y": 312.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "124",
+      "name": "66 St-Lincoln Center",
+      "x": 486.1,
+      "y": 329.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "125",
+      "name": "59 St-Columbus Circle",
+      "x": 486.1,
+      "y": 342.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "126",
+      "name": "50 St",
+      "x": 486.1,
+      "y": 357.9,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "127",
+      "name": "Times Sq-42 St",
+      "x": 474.4,
+      "y": 369.6,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "128",
+      "name": "34 St-Penn Station",
+      "x": 470.1,
+      "y": 384.6,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "129",
+      "name": "28 St",
+      "x": 461.6,
+      "y": 393.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "130",
+      "name": "23 St",
+      "x": 453.1,
+      "y": 401.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "131",
+      "name": "18 St",
+      "x": 444.6,
+      "y": 410.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "132",
+      "name": "14 St",
+      "x": 445.5,
+      "y": 420.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "133",
+      "name": "Christopher St-Stonewall",
+      "x": 437.0,
+      "y": 429.2,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "134",
+      "name": "Houston St",
+      "x": 437.0,
+      "y": 442.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "135",
+      "name": "Canal St",
+      "x": 437.0,
+      "y": 455.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "136",
+      "name": "Franklin St",
+      "x": 441.9,
+      "y": 467.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "137",
+      "name": "Chambers St",
+      "x": 433.4,
+      "y": 476.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "228",
+      "name": "Park Place",
+      "x": 433.4,
+      "y": 488.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "229",
+      "name": "Fulton St",
+      "x": 441.9,
+      "y": 496.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "230",
+      "name": "Wall St",
+      "x": 438.2,
+      "y": 502.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "231",
+      "name": "Clark St",
+      "x": 463.8,
+      "y": 528.0,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "232",
+      "name": "Borough Hall",
+      "x": 472.3,
+      "y": 536.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "233",
+      "name": "Hoyt St",
+      "x": 480.7,
+      "y": 545.0,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "234",
+      "name": "Nevins St",
+      "x": 492.4,
+      "y": 549.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "235",
+      "name": "Atlantic Av-Barclays Ctr",
+      "x": 500.9,
+      "y": 557.9,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "236",
+      "name": "Bergen St",
+      "x": 509.4,
+      "y": 566.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "237",
+      "name": "Grand Army Plaza",
+      "x": 520.0,
+      "y": 577.0,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "238",
+      "name": "Eastern Pkwy-Brooklyn Museum",
+      "x": 529.0,
+      "y": 584.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "239",
+      "name": "Franklin Av-Medgar Evers College",
+      "x": 541.0,
+      "y": 584.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "241",
+      "name": "President St-Medgar Evers College",
+      "x": 551.5,
+      "y": 595.1,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "242",
+      "name": "Sterling St",
+      "x": 551.5,
+      "y": 607.3,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "243",
+      "name": "Winthrop St",
+      "x": 551.9,
+      "y": 619.8,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "244",
+      "name": "Church Av",
+      "x": 551.9,
+      "y": 633.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "245",
+      "name": "Beverly Rd",
+      "x": 551.9,
+      "y": 647.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "246",
+      "name": "Newkirk Av-Little Haiti",
+      "x": 551.9,
+      "y": 659.3,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "247",
+      "name": "Flatbush Av-Brooklyn College",
+      "x": 553.7,
+      "y": 674.9,
+      "borough": "Brooklyn"
+    }
+  ]
+}
