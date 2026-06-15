@@ -9,7 +9,7 @@ import type {
   IplTeam,
   Lineup,
 } from '@/lib/types';
-import { SLOTS } from '@/lib/constants';
+import { SLOTS, BALL_KNOWLEDGE_KEY } from '@/lib/constants';
 import { fetchTeams, fetchSquad, fetchSeasons } from '@/lib/data';
 import type { SeasonTeam } from '@/lib/types';
 import { computePercentile, getRoleEligible } from '@/lib/scoring';
@@ -169,9 +169,13 @@ export default function GamePage() {
 
   useEffect(() => {
     // "Ball knowledge" mode (ratings hidden) is chosen on the home page and
-    // passed through the URL so the game starts immediately, no extra screen.
-    const ball =
-      new URLSearchParams(window.location.search).get('ball') === '1';
+    // read from localStorage so the game starts immediately, no extra screen.
+    let ball = false;
+    try {
+      ball = localStorage.getItem(BALL_KNOWLEDGE_KEY) === '1';
+    } catch {
+      // ignore storage being unavailable
+    }
     fetchTeams().then((teams) => {
       teamsRef.current = teams;
       setBlind(ball);
