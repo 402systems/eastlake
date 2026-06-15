@@ -373,7 +373,7 @@ def build_streets(
                 proj_path
             )
             segments_by_name.setdefault(name, []).append(
-                [proj_path[0], proj_path[-1]]
+                douglas_peucker(proj_path, DP_EPSILON)
             )
 
     streets = []
