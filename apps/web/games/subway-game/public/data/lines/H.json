@@ -1,0 +1,70 @@
+{
+  "id": "H",
+  "name": "Rockaway Park Shuttle",
+  "color": "#7C858C",
+  "stations": [
+    {
+      "id": "H15",
+      "name": "Rockaway Park-Beach 116 St",
+      "x": 757.6,
+      "y": 795.2,
+      "borough": "Queens"
+    },
+    {
+      "id": "H14",
+      "name": "Beach 105 St",
+      "x": 773.0,
+      "y": 795.2,
+      "borough": "Queens"
+    },
+    {
+      "id": "H13",
+      "name": "Beach 98 St",
+      "x": 786.4,
+      "y": 795.2,
+      "borough": "Queens"
+    },
+    {
+      "id": "H12",
+      "name": "Beach 90 St",
+      "x": 796.3,
+      "y": 785.3,
+      "borough": "Queens"
+    },
+    {
+      "id": "H04",
+      "name": "Broad Channel",
+      "x": 795.1,
+      "y": 734.7,
+      "borough": "Queens"
+    },
+    {
+      "id": "H03",
+      "name": "Howard Beach-JFK Airport",
+      "x": 795.1,
+      "y": 609.0,
+      "borough": "Queens"
+    },
+    {
+      "id": "H02",
+      "name": "Aqueduct-N Conduit Av",
+      "x": 795.1,
+      "y": 589.5,
+      "borough": "Queens"
+    },
+    {
+      "id": "H01",
+      "name": "Aqueduct Racetrack",
+      "x": 795.1,
+      "y": 577.5,
+      "borough": "Queens"
+    },
+    {
+      "id": "A61",
+      "name": "Rockaway Blvd",
+      "x": 765.6,
+      "y": 560.3,
+      "borough": "Queens"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "GS",
+  "name": "42 St Shuttle",
+  "color": "#7C858C",
+  "stations": [
+    {
+      "id": "901",
+      "name": "Grand Central-42 St",
+      "x": 500.6,
+      "y": 389.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "902",
+      "name": "Times Sq-42 St",
+      "x": 490.2,
+      "y": 379.0,
+      "borough": "Manhattan"
+    }
+  ]
+}

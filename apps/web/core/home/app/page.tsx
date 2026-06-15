@@ -8,7 +8,14 @@ import {
   CardContent,
 } from '@eastlake/core-ui/components/ui/card';
 import { Badge } from '@eastlake/core-ui/components/ui/badge';
-import { Gamepad2, Wrench, Target, PartyPopper, Trophy } from 'lucide-react';
+import {
+  Gamepad2,
+  Wrench,
+  Target,
+  PartyPopper,
+  Trophy,
+  TrainFront,
+} from 'lucide-react';
 import { AuthHeader } from './components/AuthHeader';
 
 interface AppTile {
@@ -37,6 +44,15 @@ const apps: AppTile[] = [
     href: '/games/ipl-xi',
     icon: <Trophy className="h-8 w-8" />,
     gradient: 'from-blue-500 to-indigo-600',
+    category: 'games',
+  },
+  {
+    name: 'Subway Game',
+    description:
+      'Name every stop on a random NYC subway line — fuzzy match station names against a live schematic map',
+    href: '/games/subway-game',
+    icon: <TrainFront className="h-8 w-8" />,
+    gradient: 'from-amber-500 to-red-600',
     category: 'games',
   },
   {

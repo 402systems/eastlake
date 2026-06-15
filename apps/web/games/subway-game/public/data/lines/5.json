@@ -1,0 +1,280 @@
+{
+  "id": "5",
+  "name": "Lexington Avenue Express",
+  "color": "#009952",
+  "stations": [
+    {
+      "id": "257",
+      "name": "New Lots Av",
+      "x": 670.8,
+      "y": 593.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "256",
+      "name": "Van Siclen Av",
+      "x": 658.8,
+      "y": 593.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "255",
+      "name": "Pennsylvania Av",
+      "x": 646.8,
+      "y": 593.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "254",
+      "name": "Junius St",
+      "x": 633.0,
+      "y": 593.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "253",
+      "name": "Rockaway Av",
+      "x": 622.9,
+      "y": 596.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "252",
+      "name": "Saratoga Av",
+      "x": 609.4,
+      "y": 596.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "251",
+      "name": "Sutter Av-Rutland Rd",
+      "x": 599.8,
+      "y": 587.1,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "250",
+      "name": "Crown Hts-Utica Av",
+      "x": 585.0,
+      "y": 572.3,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "249",
+      "name": "Kingston Av",
+      "x": 567.9,
+      "y": 577.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "248",
+      "name": "Nostrand Av",
+      "x": 553.0,
+      "y": 577.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "239",
+      "name": "Franklin Av-Medgar Evers College",
+      "x": 539.1,
+      "y": 577.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "235",
+      "name": "Atlantic Av-Barclays Ctr",
+      "x": 505.4,
+      "y": 543.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "234",
+      "name": "Nevins St",
+      "x": 497.4,
+      "y": 537.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "423",
+      "name": "Borough Hall",
+      "x": 483.3,
+      "y": 523.3,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "420",
+      "name": "Bowling Green",
+      "x": 446.7,
+      "y": 486.6,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "419",
+      "name": "Wall St",
+      "x": 455.1,
+      "y": 478.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "418",
+      "name": "Fulton St",
+      "x": 457.6,
+      "y": 476.6,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "640",
+      "name": "Brooklyn Bridge-City Hall",
+      "x": 466.1,
+      "y": 468.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "635",
+      "name": "14 St-Union Sq",
+      "x": 506.3,
+      "y": 427.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "631",
+      "name": "Grand Central-42 St",
+      "x": 539.4,
+      "y": 394.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "629",
+      "name": "59 St",
+      "x": 546.6,
+      "y": 371.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "626",
+      "name": "86 St",
+      "x": 578.9,
+      "y": 338.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "621",
+      "name": "125 St",
+      "x": 626.0,
+      "y": 291.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "416",
+      "name": "138 St-Grand Concourse",
+      "x": 644.0,
+      "y": 273.6,
+      "borough": "Bronx"
+    },
+    {
+      "id": "222",
+      "name": "149 St-Grand Concourse",
+      "x": 632.9,
+      "y": 253.7,
+      "borough": "Bronx"
+    },
+    {
+      "id": "221",
+      "name": "3 Av-149 St",
+      "x": 649.8,
+      "y": 253.7,
+      "borough": "Bronx"
+    },
+    {
+      "id": "220",
+      "name": "Jackson Av",
+      "x": 667.6,
+      "y": 253.7,
+      "borough": "Bronx"
+    },
+    {
+      "id": "219",
+      "name": "Prospect Av",
+      "x": 676.9,
+      "y": 244.5,
+      "borough": "Bronx"
+    },
+    {
+      "id": "218",
+      "name": "Intervale Av",
+      "x": 672.3,
+      "y": 232.3,
+      "borough": "Bronx"
+    },
+    {
+      "id": "217",
+      "name": "Simpson St",
+      "x": 680.8,
+      "y": 223.9,
+      "borough": "Bronx"
+    },
+    {
+      "id": "216",
+      "name": "Freeman St",
+      "x": 680.8,
+      "y": 209.7,
+      "borough": "Bronx"
+    },
+    {
+      "id": "215",
+      "name": "174 St",
+      "x": 694.1,
+      "y": 196.5,
+      "borough": "Bronx"
+    },
+    {
+      "id": "214",
+      "name": "West Farms Sq-E Tremont Av",
+      "x": 695.6,
+      "y": 184.6,
+      "borough": "Bronx"
+    },
+    {
+      "id": "213",
+      "name": "E 180 St",
+      "x": 707.9,
+      "y": 184.6,
+      "borough": "Bronx"
+    },
+    {
+      "id": "505",
+      "name": "Morris Park",
+      "x": 734.4,
+      "y": 158.0,
+      "borough": "Bronx"
+    },
+    {
+      "id": "504",
+      "name": "Pelham Pkwy",
+      "x": 744.5,
+      "y": 147.9,
+      "borough": "Bronx"
+    },
+    {
+      "id": "503",
+      "name": "Gun Hill Rd",
+      "x": 756.0,
+      "y": 122.4,
+      "borough": "Bronx"
+    },
+    {
+      "id": "502",
+      "name": "Baychester Av",
+      "x": 774.1,
+      "y": 104.2,
+      "borough": "Bronx"
+    },
+    {
+      "id": "501",
+      "name": "Eastchester-Dyre Av",
+      "x": 793.0,
+      "y": 85.3,
+      "borough": "Bronx"
+    }
+  ]
+}

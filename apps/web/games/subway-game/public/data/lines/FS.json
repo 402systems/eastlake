@@ -1,0 +1,35 @@
+{
+  "id": "FS",
+  "name": "Franklin Avenue Shuttle",
+  "color": "#7C858C",
+  "stations": [
+    {
+      "id": "S01",
+      "name": "Franklin Av",
+      "x": 542.4,
+      "y": 559.8,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "S03",
+      "name": "Park Pl",
+      "x": 542.4,
+      "y": 573.9,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "S04",
+      "name": "Botanic Garden",
+      "x": 542.4,
+      "y": 585.9,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "D26",
+      "name": "Prospect Park",
+      "x": 542.4,
+      "y": 607.2,
+      "borough": "Brooklyn"
+    }
+  ]
+}

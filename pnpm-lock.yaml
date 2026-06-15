@@ -493,6 +493,49 @@ importers:
         specifier: latest
         version: 6.0.3
 
+  apps/web/games/subway-game:
+    dependencies:
+      '@eastlake/lib-core-ui':
+        specifier: workspace:*
+        version: link:../../../../libs/core/ui
+      '@tailwindcss/postcss':
+        specifier: ^4.1.18
+        version: 4.2.2
+      next:
+        specifier: latest
+        version: 16.2.9(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+      postcss:
+        specifier: ^8.5.6
+        version: 8.5.8
+      react:
+        specifier: latest
+        version: 19.2.7
+      react-dom:
+        specifier: latest
+        version: 19.2.7(react@19.2.7)
+      tailwindcss:
+        specifier: ^4.1.18
+        version: 4.2.2
+    devDependencies:
+      '@eastlake/lib-core-eslint':
+        specifier: workspace:*
+        version: link:../../../../libs/core/eslint
+      '@eastlake/lib-core-tsconfig':
+        specifier: workspace:*
+        version: link:../../../../libs/core/tsconfig
+      '@types/node':
+        specifier: latest
+        version: 25.9.3
+      '@types/react':
+        specifier: ^19.2.7
+        version: 19.2.14
+      '@types/react-dom':
+        specifier: latest
+        version: 19.2.3(@types/react@19.2.14)
+      typescript:
+        specifier: latest
+        version: 6.0.3
+
   apps/web/misc/bingo:
     dependencies:
       '@eastlake/lib-core-supabase-auth':

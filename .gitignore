@@ -13,6 +13,7 @@ node_modules
 # --- pnpm ---
 pnpm-debug.log*
 .pnpm-debug.log*
+.pnpm-store/
 
 # --- Turborepo ---
 .turbo
@@ -45,6 +46,9 @@ next-env.d.ts
 
 # --- act (github actions testing)
 .secrets
+
+# --- Superpowers brainstorming companion
+.superpowers/
 
 # --- Wrangler
 **/.wrangler/

@@ -1,0 +1,175 @@
+{
+  "id": "L",
+  "name": "14 St-Canarsie Local",
+  "color": "#7C858C",
+  "stations": [
+    {
+      "id": "L29",
+      "name": "Canarsie-Rockaway Pkwy",
+      "x": 639.0,
+      "y": 639.9,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "L28",
+      "name": "East 105 St",
+      "x": 647.5,
+      "y": 631.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "L27",
+      "name": "New Lots Av",
+      "x": 647.5,
+      "y": 612.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "L26",
+      "name": "Livonia Av",
+      "x": 647.5,
+      "y": 599.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "L25",
+      "name": "Sutter Av",
+      "x": 644.4,
+      "y": 586.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "L24",
+      "name": "Atlantic Av",
+      "x": 644.4,
+      "y": 572.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "L22",
+      "name": "Broadway Junction",
+      "x": 644.4,
+      "y": 560.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "L21",
+      "name": "Bushwick Av-Aberdeen St",
+      "x": 644.4,
+      "y": 548.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "L20",
+      "name": "Wilson Av",
+      "x": 641.2,
+      "y": 536.3,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "L19",
+      "name": "Halsey St",
+      "x": 641.2,
+      "y": 520.2,
+      "borough": "Queens"
+    },
+    {
+      "id": "L17",
+      "name": "Myrtle-Wyckoff Avs",
+      "x": 629.3,
+      "y": 508.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "L16",
+      "name": "DeKalb Av",
+      "x": 618.4,
+      "y": 497.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "L15",
+      "name": "Jefferson St",
+      "x": 606.9,
+      "y": 492.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "L14",
+      "name": "Morgan Av",
+      "x": 588.6,
+      "y": 492.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "L13",
+      "name": "Montrose Av",
+      "x": 576.0,
+      "y": 492.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "L12",
+      "name": "Grand St",
+      "x": 576.0,
+      "y": 480.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "L11",
+      "name": "Graham Av",
+      "x": 566.1,
+      "y": 474.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "L10",
+      "name": "Lorimer St",
+      "x": 554.1,
+      "y": 474.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "L08",
+      "name": "Bedford Av",
+      "x": 544.1,
+      "y": 464.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "L06",
+      "name": "1 Av",
+      "x": 505.4,
+      "y": 425.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "L05",
+      "name": "3 Av",
+      "x": 493.8,
+      "y": 424.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "L03",
+      "name": "14 St-Union Sq",
+      "x": 485.4,
+      "y": 415.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "L02",
+      "name": "6 Av",
+      "x": 476.6,
+      "y": 406.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "L01",
+      "name": "8 Av",
+      "x": 468.1,
+      "y": 398.3,
+      "borough": "Manhattan"
+    }
+  ]
+}

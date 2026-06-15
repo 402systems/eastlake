@@ -1,0 +1,154 @@
+{
+  "id": "G",
+  "name": "Brooklyn-Queens Crosstown",
+  "color": "#799534",
+  "stations": [
+    {
+      "id": "G22",
+      "name": "Court Sq",
+      "x": 563.9,
+      "y": 404.1,
+      "borough": "Queens"
+    },
+    {
+      "id": "G24",
+      "name": "21 St",
+      "x": 555.3,
+      "y": 412.6,
+      "borough": "Queens"
+    },
+    {
+      "id": "G26",
+      "name": "Greenpoint Av",
+      "x": 555.3,
+      "y": 443.8,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "G28",
+      "name": "Nassau Av",
+      "x": 555.3,
+      "y": 460.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "G29",
+      "name": "Metropolitan Av",
+      "x": 553.6,
+      "y": 486.9,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "G30",
+      "name": "Broadway",
+      "x": 553.6,
+      "y": 502.9,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "G31",
+      "name": "Flushing Av",
+      "x": 553.6,
+      "y": 516.3,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "G32",
+      "name": "Myrtle-Willoughby Avs",
+      "x": 553.6,
+      "y": 530.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "G33",
+      "name": "Bedford-Nostrand Avs",
+      "x": 544.6,
+      "y": 539.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "G34",
+      "name": "Classon Av",
+      "x": 532.6,
+      "y": 539.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "G35",
+      "name": "Clinton-Washington Avs",
+      "x": 520.3,
+      "y": 539.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "G36",
+      "name": "Fulton St",
+      "x": 504.9,
+      "y": 539.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "A42",
+      "name": "Hoyt-Schermerhorn Sts",
+      "x": 488.3,
+      "y": 540.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F20",
+      "name": "Bergen St",
+      "x": 479.8,
+      "y": 548.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F21",
+      "name": "Carroll St",
+      "x": 468.7,
+      "y": 559.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F22",
+      "name": "Smith-9 Sts",
+      "x": 468.7,
+      "y": 575.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F23",
+      "name": "4 Av-9 St",
+      "x": 479.5,
+      "y": 584.9,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F24",
+      "name": "7 Av",
+      "x": 493.2,
+      "y": 598.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F25",
+      "name": "15 St-Prospect Park",
+      "x": 493.2,
+      "y": 612.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F26",
+      "name": "Fort Hamilton Pkwy",
+      "x": 493.2,
+      "y": 636.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "F27",
+      "name": "Church Av",
+      "x": 487.5,
+      "y": 647.7,
+      "borough": "Brooklyn"
+    }
+  ]
+}

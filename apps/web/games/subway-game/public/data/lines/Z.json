@@ -1,0 +1,154 @@
+{
+  "id": "Z",
+  "name": "Nassau St Express",
+  "color": "#8E5C33",
+  "stations": [
+    {
+      "id": "G05",
+      "name": "Jamaica Center-Parsons/Archer",
+      "x": 819.3,
+      "y": 508.9,
+      "borough": "Queens"
+    },
+    {
+      "id": "G06",
+      "name": "Sutphin Blvd-Archer Av-JFK Airport",
+      "x": 806.4,
+      "y": 508.9,
+      "borough": "Queens"
+    },
+    {
+      "id": "J12",
+      "name": "121 St",
+      "x": 770.1,
+      "y": 508.9,
+      "borough": "Queens"
+    },
+    {
+      "id": "J14",
+      "name": "104 St",
+      "x": 747.9,
+      "y": 531.1,
+      "borough": "Queens"
+    },
+    {
+      "id": "J15",
+      "name": "Woodhaven Blvd",
+      "x": 732.6,
+      "y": 530.1,
+      "borough": "Queens"
+    },
+    {
+      "id": "J17",
+      "name": "75 St-Elderts Ln",
+      "x": 704.1,
+      "y": 530.1,
+      "borough": "Queens"
+    },
+    {
+      "id": "J20",
+      "name": "Crescent St",
+      "x": 688.1,
+      "y": 546.1,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "J21",
+      "name": "Norwood Av",
+      "x": 676.1,
+      "y": 546.1,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "J23",
+      "name": "Van Siclen Av",
+      "x": 655.0,
+      "y": 553.0,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "J24",
+      "name": "Alabama Av",
+      "x": 642.3,
+      "y": 553.0,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "J27",
+      "name": "Broadway Junction",
+      "x": 633.8,
+      "y": 544.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "J28",
+      "name": "Chauncey St",
+      "x": 624.4,
+      "y": 535.1,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "J30",
+      "name": "Gates Av",
+      "x": 604.5,
+      "y": 524.1,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "M11",
+      "name": "Myrtle Av",
+      "x": 583.4,
+      "y": 503.0,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "M16",
+      "name": "Marcy Av",
+      "x": 549.8,
+      "y": 469.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "M18",
+      "name": "Delancey St-Essex St",
+      "x": 508.7,
+      "y": 428.3,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "M19",
+      "name": "Bowery",
+      "x": 488.5,
+      "y": 441.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "M20",
+      "name": "Canal St",
+      "x": 480.0,
+      "y": 450.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "M21",
+      "name": "Chambers St",
+      "x": 470.8,
+      "y": 459.2,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "M22",
+      "name": "Fulton St",
+      "x": 462.3,
+      "y": 467.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "M23",
+      "name": "Broad St",
+      "x": 450.2,
+      "y": 484.1,
+      "borough": "Manhattan"
+    }
+  ]
+}

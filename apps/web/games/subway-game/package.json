@@ -1,0 +1,31 @@
+{
+  "name": "@eastlake/app-games-subway-game",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md,css}\" --ignore-path ../../../../.prettierignore",
+    "format:fix": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,css}\" --ignore-path ../../../../.prettierignore"
+  },
+  "dependencies": {
+    "@eastlake/lib-core-ui": "workspace:*",
+    "@tailwindcss/postcss": "^4.1.18",
+    "next": "latest",
+    "postcss": "^8.5.6",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "@eastlake/lib-core-eslint": "workspace:*",
+    "@eastlake/lib-core-tsconfig": "workspace:*",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}

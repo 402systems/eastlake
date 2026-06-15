@@ -1,0 +1,322 @@
+{
+  "id": "R",
+  "name": "Broadway Local",
+  "color": "#F6BC26",
+  "stations": [
+    {
+      "id": "G08",
+      "name": "Forest Hills-71 Av",
+      "x": 741.6,
+      "y": 462.8,
+      "borough": "Queens"
+    },
+    {
+      "id": "G09",
+      "name": "67 Av",
+      "x": 728.5,
+      "y": 449.6,
+      "borough": "Queens"
+    },
+    {
+      "id": "G10",
+      "name": "63 Dr-Rego Park",
+      "x": 715.9,
+      "y": 437.1,
+      "borough": "Queens"
+    },
+    {
+      "id": "G11",
+      "name": "Woodhaven Blvd",
+      "x": 704.9,
+      "y": 426.0,
+      "borough": "Queens"
+    },
+    {
+      "id": "G12",
+      "name": "Grand Av-Newtown",
+      "x": 689.4,
+      "y": 418.4,
+      "borough": "Queens"
+    },
+    {
+      "id": "G13",
+      "name": "Elmhurst Av",
+      "x": 678.5,
+      "y": 407.5,
+      "borough": "Queens"
+    },
+    {
+      "id": "G14",
+      "name": "Jackson Hts-Roosevelt Av",
+      "x": 664.8,
+      "y": 393.7,
+      "borough": "Queens"
+    },
+    {
+      "id": "G15",
+      "name": "65 St",
+      "x": 654.4,
+      "y": 383.4,
+      "borough": "Queens"
+    },
+    {
+      "id": "G16",
+      "name": "Northern Blvd",
+      "x": 639.3,
+      "y": 378.3,
+      "borough": "Queens"
+    },
+    {
+      "id": "G18",
+      "name": "46 St",
+      "x": 628.4,
+      "y": 367.4,
+      "borough": "Queens"
+    },
+    {
+      "id": "G19",
+      "name": "Steinway St",
+      "x": 615.1,
+      "y": 367.4,
+      "borough": "Queens"
+    },
+    {
+      "id": "G20",
+      "name": "36 St",
+      "x": 602.1,
+      "y": 380.4,
+      "borough": "Queens"
+    },
+    {
+      "id": "G21",
+      "name": "Queens Plaza",
+      "x": 585.1,
+      "y": 394.4,
+      "borough": "Queens"
+    },
+    {
+      "id": "R11",
+      "name": "Lexington Av/59 St",
+      "x": 540.8,
+      "y": 350.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R13",
+      "name": "5 Av/59 St",
+      "x": 532.3,
+      "y": 341.6,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R14",
+      "name": "57 St-7 Av",
+      "x": 519.2,
+      "y": 341.6,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R15",
+      "name": "49 St",
+      "x": 503.7,
+      "y": 358.3,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R16",
+      "name": "Times Sq-42 St",
+      "x": 503.7,
+      "y": 371.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R17",
+      "name": "34 St-Herald Sq",
+      "x": 503.7,
+      "y": 383.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R18",
+      "name": "28 St",
+      "x": 503.7,
+      "y": 395.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R19",
+      "name": "23 St",
+      "x": 496.2,
+      "y": 410.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R20",
+      "name": "14 St-Union Sq",
+      "x": 496.2,
+      "y": 424.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R21",
+      "name": "8 St-NYU",
+      "x": 496.2,
+      "y": 437.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R22",
+      "name": "Prince St",
+      "x": 484.3,
+      "y": 449.3,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R23",
+      "name": "Canal St",
+      "x": 469.7,
+      "y": 462.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R24",
+      "name": "City Hall",
+      "x": 457.3,
+      "y": 474.3,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R25",
+      "name": "Cortlandt St",
+      "x": 448.8,
+      "y": 482.8,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R26",
+      "name": "Rector St",
+      "x": 440.4,
+      "y": 491.3,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R27",
+      "name": "Whitehall St-South Ferry",
+      "x": 440.3,
+      "y": 504.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "R28",
+      "name": "Court St",
+      "x": 471.0,
+      "y": 535.3,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R29",
+      "name": "Jay St-MetroTech",
+      "x": 479.5,
+      "y": 543.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R30",
+      "name": "DeKalb Av",
+      "x": 488.0,
+      "y": 552.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R31",
+      "name": "Atlantic Av-Barclays Ctr",
+      "x": 492.6,
+      "y": 563.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R32",
+      "name": "Union St",
+      "x": 480.7,
+      "y": 575.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R33",
+      "name": "4 Av-9 St",
+      "x": 468.1,
+      "y": 588.1,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R34",
+      "name": "Prospect Av",
+      "x": 457.3,
+      "y": 598.9,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R35",
+      "name": "25 St",
+      "x": 453.7,
+      "y": 608.8,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R36",
+      "name": "36 St",
+      "x": 442.5,
+      "y": 620.0,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R39",
+      "name": "45 St",
+      "x": 429.3,
+      "y": 633.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R40",
+      "name": "53 St",
+      "x": 420.8,
+      "y": 641.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R41",
+      "name": "59 St",
+      "x": 419.0,
+      "y": 651.0,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R42",
+      "name": "Bay Ridge Av",
+      "x": 406.2,
+      "y": 663.7,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R43",
+      "name": "77 St",
+      "x": 406.2,
+      "y": 676.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R44",
+      "name": "86 St",
+      "x": 406.2,
+      "y": 694.1,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "R45",
+      "name": "Bay Ridge-95 St",
+      "x": 406.9,
+      "y": 709.7,
+      "borough": "Brooklyn"
+    }
+  ]
+}

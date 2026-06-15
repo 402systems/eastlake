@@ -1,0 +1,152 @@
+[
+  {
+    "id": "A",
+    "name": "8 Avenue Express",
+    "color": "#0062CF",
+    "stationCount": 59
+  },
+  {
+    "id": "C",
+    "name": "8 Avenue Local",
+    "color": "#0062CF",
+    "stationCount": 40
+  },
+  {
+    "id": "E",
+    "name": "8 Avenue Local",
+    "color": "#0062CF",
+    "stationCount": 32
+  },
+  {
+    "id": "B",
+    "name": "6 Avenue Express",
+    "color": "#EB6800",
+    "stationCount": 37
+  },
+  {
+    "id": "D",
+    "name": "6 Avenue Express",
+    "color": "#EB6800",
+    "stationCount": 41
+  },
+  {
+    "id": "F",
+    "name": "Queens Blvd Express/6 Av Local",
+    "color": "#EB6800",
+    "stationCount": 55
+  },
+  {
+    "id": "M",
+    "name": "Queens Blvd Local/6 Av Local",
+    "color": "#EB6800",
+    "stationCount": 36
+  },
+  {
+    "id": "G",
+    "name": "Brooklyn-Queens Crosstown",
+    "color": "#799534",
+    "stationCount": 21
+  },
+  {
+    "id": "J",
+    "name": "Nassau St Local",
+    "color": "#8E5C33",
+    "stationCount": 30
+  },
+  {
+    "id": "Z",
+    "name": "Nassau St Express",
+    "color": "#8E5C33",
+    "stationCount": 21
+  },
+  {
+    "id": "L",
+    "name": "14 St-Canarsie Local",
+    "color": "#7C858C",
+    "stationCount": 24
+  },
+  {
+    "id": "N",
+    "name": "Broadway Local",
+    "color": "#F6BC26",
+    "stationCount": 45
+  },
+  {
+    "id": "Q",
+    "name": "Broadway Express",
+    "color": "#F6BC26",
+    "stationCount": 34
+  },
+  {
+    "id": "R",
+    "name": "Broadway Local",
+    "color": "#F6BC26",
+    "stationCount": 45
+  },
+  {
+    "id": "W",
+    "name": "Broadway Local",
+    "color": "#F6BC26",
+    "stationCount": 44
+  },
+  {
+    "id": "GS",
+    "name": "42 St Shuttle",
+    "color": "#7C858C",
+    "stationCount": 2
+  },
+  {
+    "id": "FS",
+    "name": "Franklin Avenue Shuttle",
+    "color": "#7C858C",
+    "stationCount": 4
+  },
+  {
+    "id": "H",
+    "name": "Rockaway Park Shuttle",
+    "color": "#7C858C",
+    "stationCount": 9
+  },
+  {
+    "id": "1",
+    "name": "Broadway - 7 Avenue Local",
+    "color": "#D82233",
+    "stationCount": 38
+  },
+  {
+    "id": "2",
+    "name": "7 Avenue Express",
+    "color": "#D82233",
+    "stationCount": 61
+  },
+  {
+    "id": "3",
+    "name": "7 Avenue Express",
+    "color": "#D82233",
+    "stationCount": 34
+  },
+  {
+    "id": "4",
+    "name": "Lexington Avenue Express",
+    "color": "#009952",
+    "stationCount": 54
+  },
+  {
+    "id": "5",
+    "name": "Lexington Avenue Express",
+    "color": "#009952",
+    "stationCount": 39
+  },
+  {
+    "id": "6",
+    "name": "Lexington Avenue Local",
+    "color": "#009952",
+    "stationCount": 38
+  },
+  {
+    "id": "7",
+    "name": "Flushing Local",
+    "color": "#9A38A1",
+    "stationCount": 22
+  }
+]

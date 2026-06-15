@@ -1,0 +1,245 @@
+{
+  "id": "3",
+  "name": "7 Avenue Express",
+  "color": "#D82233",
+  "stations": [
+    {
+      "id": "301",
+      "name": "Harlem-148 St",
+      "x": 577.0,
+      "y": 221.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "302",
+      "name": "145 St",
+      "x": 577.0,
+      "y": 233.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "224",
+      "name": "135 St",
+      "x": 565.2,
+      "y": 245.3,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "225",
+      "name": "125 St",
+      "x": 552.9,
+      "y": 257.7,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "226",
+      "name": "116 St",
+      "x": 546.1,
+      "y": 270.0,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "227",
+      "name": "110 St-Malcolm X Plaza",
+      "x": 537.6,
+      "y": 278.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "120",
+      "name": "96 St",
+      "x": 498.9,
+      "y": 278.5,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "123",
+      "name": "72 St",
+      "x": 470.4,
+      "y": 307.1,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "127",
+      "name": "Times Sq-42 St",
+      "x": 475.7,
+      "y": 369.9,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "128",
+      "name": "34 St-Penn Station",
+      "x": 466.4,
+      "y": 379.3,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "132",
+      "name": "14 St",
+      "x": 442.4,
+      "y": 403.2,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "137",
+      "name": "Chambers St",
+      "x": 442.4,
+      "y": 458.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "228",
+      "name": "Park Place",
+      "x": 444.2,
+      "y": 474.9,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "229",
+      "name": "Fulton St",
+      "x": 452.7,
+      "y": 483.4,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "230",
+      "name": "Wall St",
+      "x": 444.2,
+      "y": 491.9,
+      "borough": "Manhattan"
+    },
+    {
+      "id": "231",
+      "name": "Clark St",
+      "x": 469.8,
+      "y": 517.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "232",
+      "name": "Borough Hall",
+      "x": 479.3,
+      "y": 527.3,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "233",
+      "name": "Hoyt St",
+      "x": 487.8,
+      "y": 535.8,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "234",
+      "name": "Nevins St",
+      "x": 496.3,
+      "y": 544.3,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "235",
+      "name": "Atlantic Av-Barclays Ctr",
+      "x": 504.8,
+      "y": 552.8,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "236",
+      "name": "Bergen St",
+      "x": 511.4,
+      "y": 560.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "237",
+      "name": "Grand Army Plaza",
+      "x": 522.0,
+      "y": 571.2,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "238",
+      "name": "Eastern Pkwy-Brooklyn Museum",
+      "x": 532.1,
+      "y": 581.3,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "239",
+      "name": "Franklin Av-Medgar Evers College",
+      "x": 544.1,
+      "y": 581.3,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "248",
+      "name": "Nostrand Av",
+      "x": 555.8,
+      "y": 582.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "249",
+      "name": "Kingston Av",
+      "x": 570.8,
+      "y": 582.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "250",
+      "name": "Crown Hts-Utica Av",
+      "x": 587.3,
+      "y": 582.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "251",
+      "name": "Sutter Av-Rutland Rd",
+      "x": 602.1,
+      "y": 597.5,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "252",
+      "name": "Saratoga Av",
+      "x": 612.2,
+      "y": 606.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "253",
+      "name": "Rockaway Av",
+      "x": 625.7,
+      "y": 606.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "254",
+      "name": "Junius St",
+      "x": 637.7,
+      "y": 606.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "255",
+      "name": "Pennsylvania Av",
+      "x": 651.5,
+      "y": 606.4,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "256",
+      "name": "Van Siclen Av",
+      "x": 662.7,
+      "y": 602.6,
+      "borough": "Brooklyn"
+    },
+    {
+      "id": "257",
+      "name": "New Lots Av",
+      "x": 674.7,
+      "y": 602.6,
+      "borough": "Brooklyn"
+    }
+  ]
+}
