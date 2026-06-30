@@ -233,7 +233,9 @@ export function AppProvider({ children }: { children: ReactNode }) {
       })
       .catch((err) => {
         if (!cancelled && !isNetworkError(err)) {
-          setError(err instanceof Error ? err.message : 'Failed to load friends');
+          setError(
+            err instanceof Error ? err.message : 'Failed to load friends'
+          );
         }
       });
 
@@ -258,7 +260,9 @@ export function AppProvider({ children }: { children: ReactNode }) {
       })
       .catch((err) => {
         if (!cancelled && !isNetworkError(err)) {
-          setError(err instanceof Error ? err.message : 'Failed to load events');
+          setError(
+            err instanceof Error ? err.message : 'Failed to load events'
+          );
         }
       });
 
@@ -275,21 +279,18 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
   // ── Friend actions ──
 
-  const addFriend = useCallback(
-    async (f: NewFriend) => {
-      try {
-        const data = await api.post<Friend>('/friends', f);
-        if (data) setFriends((prev) => [...(prev ?? []), data]);
-      } catch (err: unknown) {
-        if (isNetworkError(err)) {
-          setError("You're offline. Connect to the internet to add new friends.");
-        } else {
-          setError(err instanceof Error ? err.message : 'Failed to add friend');
-        }
+  const addFriend = useCallback(async (f: NewFriend) => {
+    try {
+      const data = await api.post<Friend>('/friends', f);
+      if (data) setFriends((prev) => [...(prev ?? []), data]);
+    } catch (err: unknown) {
+      if (isNetworkError(err)) {
+        setError("You're offline. Connect to the internet to add new friends.");
+      } else {
+        setError(err instanceof Error ? err.message : 'Failed to add friend');
       }
-    },
-    []
-  );
+    }
+  }, []);
 
   const addFriends = useCallback(async (fs: NewFriend[]) => {
     const failed: string[] = [];
@@ -332,7 +333,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
               f.id === friendId ? { ...f, last_action: today } : f
             )
           );
-          await enqueue(user.id, { type: 'recordHangout', friendId, date: today });
+          await enqueue(user.id, {
+            type: 'recordHangout',
+            friendId,
+            date: today,
+          });
           setPendingSyncCount((c) => c + 1);
         } else {
           setError(
