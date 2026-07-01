@@ -121,7 +121,7 @@ export function EventDetailModal({
                   color: colors.primary,
                 }}
               >
-                Event Details
+                Edit Event
               </Text>
               <Pressable onPress={onClose} style={{ padding: 4 }}>
                 <Text style={{ fontSize: 20, color: colors.textMuted }}>✕</Text>
