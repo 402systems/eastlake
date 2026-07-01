@@ -36,12 +36,14 @@ jobs:
       - name: Build APK via EAS
         working-directory: apps/mobile/misc/friend-tracker
         run: |
-          eas build \
+          BUILD_JSON=$(eas build \
             --platform android \
             --profile preview \
             --non-interactive \
             --wait \
-            --output /tmp/friend-tracker.apk
+            --json)
+          BUILD_URL=$(echo "$BUILD_JSON" | jq -r '.artifacts.buildUrl')
+          curl -fsSL "$BUILD_URL" -o /tmp/friend-tracker.apk
 
       - name: Publish to GitHub Releases
         env:
