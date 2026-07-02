@@ -42,7 +42,7 @@ jobs:
             --non-interactive \
             --wait \
             --json)
-          BUILD_URL=$(echo "$BUILD_JSON" | jq -r '.artifacts.buildUrl')
+          BUILD_URL=$(echo "$BUILD_JSON" | jq -r 'if type == "array" then .[0] else . end | .artifacts.buildUrl')
           curl -fsSL "$BUILD_URL" -o /tmp/quote-break.apk
 
       - name: Publish to GitHub Releases
