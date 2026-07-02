@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Quote Break",
+    "slug": "quote-break",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "quote-break",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.fourzerotwo.quotebreak",
+      "adaptiveIcon": {
+        "backgroundColor": "#f8fafc"
+      }
+    },
+    "plugins": ["expo-router", "expo-notifications"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
