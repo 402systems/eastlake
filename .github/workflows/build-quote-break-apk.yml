@@ -1,0 +1,57 @@
+name: Build Quote Break APK
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'apps/mobile/misc/quote-break/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build Android APK
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.26.2
+
+      - uses: actions/setup-node@v4
+        with:
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+
+      - name: Build APK via EAS
+        working-directory: apps/mobile/misc/quote-break
+        run: |
+          BUILD_JSON=$(eas build \
+            --platform android \
+            --profile preview \
+            --non-interactive \
+            --wait \
+            --json)
+          BUILD_URL=$(echo "$BUILD_JSON" | jq -r '.artifacts.buildUrl')
+          curl -fsSL "$BUILD_URL" -o /tmp/quote-break.apk
+
+      - name: Publish to GitHub Releases
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release delete quote-break-latest --yes 2>/dev/null || true
+          git push origin :refs/tags/quote-break-latest 2>/dev/null || true
+          gh release create quote-break-latest /tmp/quote-break.apk \
+            --title "Quote Break – Latest Build" \
+            --notes "**Install:** download the APK, open it on your Android device (you may need Settings → Install unknown apps enabled for your browser)." \
+            --prerelease
