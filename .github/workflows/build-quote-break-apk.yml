@@ -33,25 +33,6 @@ jobs:
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
 
-      - name: Ensure EAS project is linked
-        working-directory: apps/mobile/misc/quote-break
-        run: |
-          if ! grep -q '"projectId"' app.json 2>/dev/null; then
-            eas init --non-interactive --force
-          fi
-
-      - name: Persist EAS project link
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          if ! git diff --quiet -- apps/mobile/misc/quote-break/app.json; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add apps/mobile/misc/quote-break/app.json
-            git commit -m "chore(quote-break): link EAS project [skip ci]"
-            git push origin HEAD:main
-          fi
-
       - name: Build APK via EAS
         working-directory: apps/mobile/misc/quote-break
         run: |
