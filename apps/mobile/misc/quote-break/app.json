@@ -6,10 +6,12 @@
     "orientation": "portrait",
     "scheme": "quote-break",
     "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
     "android": {
       "package": "com.fourzerotwo.quotebreak",
       "adaptiveIcon": {
-        "backgroundColor": "#f8fafc"
+        "backgroundColor": "#f8fafc",
+        "foregroundImage": "./assets/adaptive-icon.png"
       }
     },
     "plugins": ["expo-router", "expo-notifications"],
