@@ -33,6 +33,13 @@ jobs:
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
 
+      - name: Ensure EAS project is linked
+        working-directory: apps/mobile/misc/friend-tracker
+        run: |
+          if ! grep -q '"projectId"' app.json 2>/dev/null; then
+            eas init --non-interactive --force
+          fi
+
       - name: Build APK via EAS
         working-directory: apps/mobile/misc/friend-tracker
         run: |
@@ -42,7 +49,7 @@ jobs:
             --non-interactive \
             --wait \
             --json)
-          BUILD_URL=$(echo "$BUILD_JSON" | jq -r '.artifacts.buildUrl')
+          BUILD_URL=$(echo "$BUILD_JSON" | jq -r 'if type == "array" then .[0] else . end | .artifacts.buildUrl')
           curl -fsSL "$BUILD_URL" -o /tmp/friend-tracker.apk
 
       - name: Publish to GitHub Releases
