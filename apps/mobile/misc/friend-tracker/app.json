@@ -6,6 +6,7 @@
     "orientation": "portrait",
     "scheme": "friend-tracker",
     "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.402systems.friendtracker"
@@ -13,7 +14,8 @@
     "android": {
       "package": "com.fourzerotwo.friendtracker",
       "adaptiveIcon": {
-        "backgroundColor": "#f8fafc"
+        "backgroundColor": "#f8fafc",
+        "foregroundImage": "./assets/adaptive-icon.png"
       }
     },
     "plugins": ["expo-router", "expo-notifications"],
