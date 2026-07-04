@@ -68,6 +68,7 @@ export function FriendPickerModal({
         data={filtered}
         keyExtractor={(f) => f.id}
         style={styles.list}
+        keyboardShouldPersistTaps="handled"
         renderItem={({ item }) => {
           const checked = selected.has(item.id);
           return (

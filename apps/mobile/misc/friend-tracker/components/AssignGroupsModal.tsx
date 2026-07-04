@@ -63,6 +63,7 @@ export function AssignGroupsModal({
       <FlatList
         data={groups}
         keyExtractor={(name) => name}
+        keyboardShouldPersistTaps="handled"
         renderItem={({ item }) => {
           const isMember = friendGroups.includes(item);
           return (
