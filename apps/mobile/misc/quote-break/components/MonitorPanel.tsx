@@ -1,5 +1,6 @@
-import { View, Text, Switch, Pressable, StyleSheet } from 'react-native';
+import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { Card } from '@eastlake/lib-core-ui/native/components/Card';
+import { OnOffToggle } from './OnOffToggle';
 import { colors } from '../utils/colors';
 
 interface MonitorPanelProps {
@@ -36,12 +37,7 @@ export function MonitorPanel({
             Get a quote after {thresholdMinutes} min of screen-on time
           </Text>
         </View>
-        <Switch
-          value={enabled}
-          onValueChange={onToggle}
-          disabled={disabled}
-          trackColor={{ true: colors.indigo }}
-        />
+        <OnOffToggle value={enabled} onChange={onToggle} disabled={disabled} />
       </View>
 
       <View style={styles.thresholdRow}>

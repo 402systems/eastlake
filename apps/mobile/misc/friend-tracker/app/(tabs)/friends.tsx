@@ -253,6 +253,7 @@ export default function FriendsScreen() {
           showsVerticalScrollIndicator={false}
           initialNumToRender={10}
           windowSize={5}
+          keyboardShouldPersistTaps="handled"
         />
       )}
 
