@@ -34,7 +34,9 @@ export default function EventsScreen() {
   const [selectedEvent, setSelectedEvent] = useState<AppEvent | null>(null);
 
   const upcoming = events.filter((e) => !isPast(e.date));
-  const past = events.filter((e) => isPast(e.date));
+  const past = events
+    .filter((e) => isPast(e.date))
+    .sort((a, b) => b.date.localeCompare(a.date));
 
   const sections = [
     ...(upcoming.length > 0
