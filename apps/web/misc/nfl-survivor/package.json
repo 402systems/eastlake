@@ -1,0 +1,30 @@
+{
+  "name": "@eastlake/app-misc-nfl-survivor",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md,css}\" --ignore-path ../../../../.prettierignore",
+    "format:fix": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,css}\" --ignore-path ../../../../.prettierignore"
+  },
+  "dependencies": {
+    "@eastlake/lib-core-ui": "workspace:*",
+    "@eastlake/lib-core-supabase-auth": "workspace:*",
+    "@supabase/supabase-js": "^2.95.3",
+    "lucide-react": "^0.562.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@eastlake/lib-core-eslint": "workspace:*",
+    "@eastlake/lib-core-tsconfig": "workspace:*",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}

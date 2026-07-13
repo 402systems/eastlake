@@ -20,6 +20,10 @@
     {
       "binding": "FRIEND_TRACKER_API",
       "service": "friend-tracker-api"
+    },
+    {
+      "binding": "NFL_SURVIVOR_API",
+      "service": "nfl-survivor-api"
     }
   ]
 }
