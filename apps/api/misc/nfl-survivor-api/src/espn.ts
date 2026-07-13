@@ -1,5 +1,5 @@
-import type { Env, GameStatus } from './types';
-import { createServiceClient } from './supabase';
+import type { GameStatus } from './types';
+import type { createSupabaseClient } from './supabase';
 
 const ESPN_SCOREBOARD_URL =
   'https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard';
@@ -82,18 +82,19 @@ export async function fetchScoreboard(
 }
 
 /**
- * Refreshes scores/status/winner for games belonging to weeks that are still in play,
- * across every non-simulation league. Safe to call repeatedly (upserts by espn_event_id).
+ * Refreshes scores/status/winner for a single league's weeks that are still in play.
+ * Runs as the calling commissioner's own JWT — `games_update_commissioner` RLS is what
+ * actually authorizes the write, so this only ever touches leagues the caller commissions.
+ * Safe to call repeatedly (upserts by espn_event_id).
  */
-export async function syncScores(env: Env): Promise<void> {
-  const service = createServiceClient(env);
-
-  const { data: weeks, error } = await service
+export async function syncScores(
+  supabase: ReturnType<typeof createSupabaseClient>,
+  leagueId: string
+): Promise<void> {
+  const { data: weeks, error } = await supabase
     .from('weeks')
-    .select(
-      'id, season_year, espn_week_number, espn_season_type, leagues!inner(is_simulation)'
-    )
-    .eq('leagues.is_simulation', false)
+    .select('id, season_year, espn_week_number, espn_season_type')
+    .eq('league_id', leagueId)
     .not('espn_week_number', 'is', null);
 
   if (error || !weeks) return;
@@ -106,9 +107,7 @@ export async function syncScores(env: Env): Promise<void> {
     );
     if (games.length === 0) continue;
 
-    // Only touch games that aren't already final (a final result is immutable once
-    // set by ESPN, except via the commissioner's explicit simulate-week override).
-    await service.from('games').upsert(
+    await supabase.from('games').upsert(
       games.map((g) => ({
         week_id: week.id,
         espn_event_id: g.espnEventId,

@@ -1,19 +1,23 @@
 import { Router, type IRequest } from 'itty-router';
 import type { Env, JoinLeagueBody } from './types';
 import { getUserId } from './auth';
-import { createSupabaseClient, createServiceClient } from './supabase';
+import { createSupabaseClient } from './supabase';
 import { requireCommissioner } from './leagues';
 
 export const membersRouter = Router({ base: '/leagues' });
 
 /**
  * POST /leagues/join — claim an unclaimed seat matching `username`, or create a new
- * seat, in the league identified by `invite_code`. No league_members INSERT policy
- * exists for `authenticated`, and the caller isn't a member yet (can't read the league
- * by code under RLS either), so this whole flow runs through the service client.
+ * seat, in the league identified by `invite_code`. The caller isn't a member yet (so
+ * can't read the league by code under `leagues_select` RLS), so the lookup/claim/create
+ * logic runs inside the `join_league` SECURITY DEFINER function, scoped to auth.uid().
  */
 membersRouter.post('/join', async (request: IRequest, env: Env) => {
-  const userId = await getUserId(request, env);
+  await getUserId(request, env);
+  const supabase = createSupabaseClient(
+    env,
+    request.headers.get('Authorization')!.slice(7)
+  );
   const body: JoinLeagueBody = await request.json();
 
   if (!body.invite_code || !body.username) {
@@ -23,70 +27,32 @@ membersRouter.post('/join', async (request: IRequest, env: Env) => {
     );
   }
 
-  const service = createServiceClient(env);
+  const { data: member, error: joinError } = await supabase.rpc('join_league', {
+    p_invite_code: body.invite_code,
+    p_username: body.username,
+  });
 
-  const { data: league, error: leagueError } = await service
-    .from('leagues')
-    .select('id, name, is_simulation, season_year')
-    .eq('invite_code', body.invite_code.toUpperCase())
-    .single();
-
-  if (leagueError || !league) {
-    return Response.json({ error: 'Invalid invite code' }, { status: 404 });
-  }
-
-  // Idempotent: already a member of this league? Return the existing seat.
-  const { data: existing } = await service
-    .from('league_members')
-    .select('*')
-    .eq('league_id', league.id)
-    .eq('user_id', userId)
-    .maybeSingle();
-
-  if (existing) {
-    return Response.json({ league, member: existing });
-  }
-
-  // Claim an unclaimed seat with a matching username (commissioner pre-seeded it), if any.
-  const { data: unclaimed } = await service
-    .from('league_members')
-    .select('*')
-    .eq('league_id', league.id)
-    .eq('username', body.username)
-    .is('user_id', null)
-    .maybeSingle();
-
-  if (unclaimed) {
-    const { data: claimed, error: claimError } = await service
-      .from('league_members')
-      .update({ user_id: userId })
-      .eq('id', unclaimed.id)
-      .select()
-      .single();
-
-    if (claimError)
-      return Response.json({ error: claimError.message }, { status: 500 });
-    return Response.json({ league, member: claimed });
-  }
-
-  // Otherwise create a brand new seat.
-  const { data: created, error: createError } = await service
-    .from('league_members')
-    .insert({ league_id: league.id, user_id: userId, username: body.username })
-    .select()
-    .single();
-
-  if (createError) {
-    const message = createError.message.includes('duplicate')
-      ? 'That username is already taken in this league'
-      : createError.message;
+  if (joinError) {
+    const message = joinError.message.includes('Invalid invite code')
+      ? 'Invalid invite code'
+      : joinError.message.includes('duplicate')
+        ? 'That username is already taken in this league'
+        : joinError.message;
     return Response.json({ error: message }, { status: 400 });
   }
 
-  return Response.json({ league, member: created }, { status: 201 });
+  const { data: league, error: leagueError } = await supabase
+    .from('leagues')
+    .select('id, name, is_simulation, season_year')
+    .eq('id', member.league_id)
+    .single();
+  if (leagueError)
+    return Response.json({ error: leagueError.message }, { status: 500 });
+
+  return Response.json({ league, member });
 });
 
-/** GET /leagues/:id/members — list the league roster (RLS-safe, no service client needed) */
+/** GET /leagues/:id/members — list the league roster (RLS-safe) */
 membersRouter.get('/:id/members', async (request: IRequest, env: Env) => {
   await getUserId(request, env);
   const supabase = createSupabaseClient(
@@ -125,8 +91,7 @@ membersRouter.post(
       );
     }
 
-    const service = createServiceClient(env);
-    const { data, error } = await service
+    const { data, error } = await supabase
       .from('league_members')
       .insert(
         body.usernames.map((username) => ({
@@ -154,8 +119,7 @@ membersRouter.delete(
     const { id, memberId } = request.params;
     await requireCommissioner(supabase, id, userId);
 
-    const service = createServiceClient(env);
-    const { error } = await service
+    const { error } = await supabase
       .from('league_members')
       .delete()
       .eq('id', memberId)

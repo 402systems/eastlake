@@ -63,7 +63,7 @@ CREATE TABLE public.teams (
 );
 
 -- ============================================================
--- GAMES (schedule + live/final results; write-privileged only)
+-- GAMES (schedule + live/final results; writable only by the owning league's commissioner)
 -- ============================================================
 CREATE TABLE public.games (
   id uuid NOT NULL DEFAULT gen_random_uuid(),
@@ -216,20 +216,41 @@ CREATE OR REPLACE FUNCTION public.is_league_commissioner(p_league_id uuid) RETUR
   );
 $$ LANGUAGE sql STABLE SECURITY DEFINER;
 
--- teams: public read for any authenticated user; writes are service-role only
+-- teams: public read for any authenticated user; static reference data, no writes needed via the API
 CREATE POLICY teams_select ON public.teams FOR SELECT TO authenticated USING (true);
 
--- leagues: members (or the commissioner) can read; create/update goes through the worker (service-role)
+-- leagues: members (or the commissioner) can read
 CREATE POLICY leagues_select ON public.leagues FOR SELECT TO authenticated
   USING (public.is_league_member(id) OR commissioner_id = auth.uid());
 
--- weeks: readable by league members; writes are service-role only (ESPN sync / simulate / advance)
+-- leagues: any authenticated user can create a league naming themselves commissioner
+CREATE POLICY leagues_insert_self ON public.leagues FOR INSERT TO authenticated
+  WITH CHECK (commissioner_id = auth.uid());
+
+-- leagues: the commissioner can update their own league (invite code regen, current_week_id advance)
+CREATE POLICY leagues_update_commissioner ON public.leagues FOR UPDATE TO authenticated
+  USING (commissioner_id = auth.uid()) WITH CHECK (commissioner_id = auth.uid());
+
+-- weeks: readable by league members
 CREATE POLICY weeks_select ON public.weeks FOR SELECT TO authenticated
   USING (public.is_league_member(league_id));
 
--- games: readable by members of the owning league; writes are service-role only
+-- weeks: the commissioner can create/update weeks in their own league (ESPN sync, playoff generation)
+CREATE POLICY weeks_insert_commissioner ON public.weeks FOR INSERT TO authenticated
+  WITH CHECK (public.is_league_commissioner(league_id));
+CREATE POLICY weeks_update_commissioner ON public.weeks FOR UPDATE TO authenticated
+  USING (public.is_league_commissioner(league_id)) WITH CHECK (public.is_league_commissioner(league_id));
+
+-- games: readable by members of the owning league
 CREATE POLICY games_select ON public.games FOR SELECT TO authenticated
   USING (public.is_league_member((SELECT league_id FROM public.weeks WHERE id = games.week_id)));
+
+-- games: the commissioner can create/update games in their own league's weeks (ESPN sync, simulate-week)
+CREATE POLICY games_insert_commissioner ON public.games FOR INSERT TO authenticated
+  WITH CHECK (public.is_league_commissioner((SELECT league_id FROM public.weeks WHERE id = games.week_id)));
+CREATE POLICY games_update_commissioner ON public.games FOR UPDATE TO authenticated
+  USING (public.is_league_commissioner((SELECT league_id FROM public.weeks WHERE id = games.week_id)))
+  WITH CHECK (public.is_league_commissioner((SELECT league_id FROM public.weeks WHERE id = games.week_id)));
 
 -- league_members: members can see the roster of their own league
 CREATE POLICY league_members_select ON public.league_members FOR SELECT TO authenticated
@@ -238,6 +259,56 @@ CREATE POLICY league_members_select ON public.league_members FOR SELECT TO authe
 -- league_members: a user may only update their own seat (e.g. change username)
 CREATE POLICY league_members_update_self ON public.league_members FOR UPDATE TO authenticated
   USING (user_id = auth.uid()) WITH CHECK (user_id = auth.uid());
+
+-- league_members: the commissioner can seed simulated seats, and can seat themselves
+-- when a league they just created doesn't have a member row yet
+CREATE POLICY league_members_insert_commissioner ON public.league_members FOR INSERT TO authenticated
+  WITH CHECK (
+    EXISTS (SELECT 1 FROM public.leagues WHERE id = league_id AND commissioner_id = auth.uid())
+  );
+
+-- league_members: the commissioner can remove/reset a seat in their own league
+CREATE POLICY league_members_delete_commissioner ON public.league_members FOR DELETE TO authenticated
+  USING (
+    EXISTS (SELECT 1 FROM public.leagues WHERE id = league_id AND commissioner_id = auth.uid())
+  );
+
+-- Joining a league by invite code needs to look up a league before the caller is a member
+-- (leagues_select can't allow that — it would expose every league to every user). This
+-- SECURITY DEFINER function is the one narrow, purpose-built bypass instead of a blanket
+-- service-role key: it can only create/claim a seat for the CALLING user (auth.uid()),
+-- nothing else.
+CREATE OR REPLACE FUNCTION public.join_league(p_invite_code text, p_username text)
+RETURNS public.league_members AS $$
+DECLARE
+  v_league_id uuid;
+  v_member public.league_members;
+BEGIN
+  SELECT id INTO v_league_id FROM public.leagues WHERE invite_code = upper(p_invite_code);
+  IF v_league_id IS NULL THEN
+    RAISE EXCEPTION 'Invalid invite code';
+  END IF;
+
+  SELECT * INTO v_member FROM public.league_members
+    WHERE league_id = v_league_id AND user_id = auth.uid();
+  IF FOUND THEN
+    RETURN v_member;
+  END IF;
+
+  UPDATE public.league_members
+    SET user_id = auth.uid()
+    WHERE league_id = v_league_id AND username = p_username AND user_id IS NULL
+    RETURNING * INTO v_member;
+  IF FOUND THEN
+    RETURN v_member;
+  END IF;
+
+  INSERT INTO public.league_members (league_id, user_id, username)
+    VALUES (v_league_id, auth.uid(), p_username)
+    RETURNING * INTO v_member;
+  RETURN v_member;
+END;
+$$ LANGUAGE plpgsql SECURITY DEFINER;
 
 -- picks: a member can always read their own picks
 CREATE POLICY picks_select_own ON public.picks FOR SELECT TO authenticated

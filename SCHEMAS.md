@@ -101,8 +101,12 @@ CREATE TABLE public.games (
   CONSTRAINT games_pkey PRIMARY KEY (id),
   CONSTRAINT games_week_espn_event_unique UNIQUE (week_id, espn_event_id)
 );
--- games/weeks/teams: SELECT-only RLS for league members; writes are service-role only
--- (ESPN sync + commissioner simulate/advance actions in the nfl-survivor-api worker).
+-- games/weeks: SELECT for league members; INSERT/UPDATE restricted to the owning
+-- league's commissioner via is_league_commissioner() RLS policies — no service-role
+-- key involved (nfl-survivor-api only ever forwards the caller's own JWT, same as
+-- friend-tracker-api). Joining a league by invite code (before the caller is a member,
+-- so can't be expressed as a normal RLS-gated SELECT) goes through one narrow
+-- SECURITY DEFINER function, join_league(), rather than a broader bypass credential.
 
 CREATE TABLE public.league_members (
   id uuid NOT NULL DEFAULT gen_random_uuid(),

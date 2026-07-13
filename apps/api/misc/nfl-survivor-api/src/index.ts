@@ -4,7 +4,6 @@ import { leaguesRouter } from './leagues';
 import { membersRouter } from './members';
 import { adminRouter } from './sync';
 import { simulateRouter } from './simulate';
-import { syncScores } from './espn';
 
 const router = Router();
 
@@ -83,14 +82,5 @@ export default {
         { status, headers: corsHeaders }
       );
     }
-  },
-
-  /** Cron Trigger: refresh live scores for all non-simulation leagues during game windows. */
-  async scheduled(
-    _controller: ScheduledController,
-    env: Env,
-    ctx: ExecutionContext
-  ): Promise<void> {
-    ctx.waitUntil(syncScores(env));
   },
 } satisfies ExportedHandler<Env>;

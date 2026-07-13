@@ -1,7 +1,7 @@
 import { Router, type IRequest } from 'itty-router';
 import type { Env, NewLeague } from './types';
 import { getUserId } from './auth';
-import { createSupabaseClient, createServiceClient } from './supabase';
+import { createSupabaseClient } from './supabase';
 
 export const leaguesRouter = Router({ base: '/leagues' });
 
@@ -35,6 +35,10 @@ export async function requireCommissioner(
 /** POST /leagues — create a league; creator becomes commissioner with their own seat */
 leaguesRouter.post('/', async (request: IRequest, env: Env) => {
   const userId = await getUserId(request, env);
+  const supabase = createSupabaseClient(
+    env,
+    request.headers.get('Authorization')!.slice(7)
+  );
   const body: NewLeague & { username: string } = await request.json();
 
   if (!body.name || !body.season_year || !body.username) {
@@ -44,12 +48,10 @@ leaguesRouter.post('/', async (request: IRequest, env: Env) => {
     );
   }
 
-  // League creation happens before the creator has a league_members row, so RLS on
-  // `leagues` (which checks membership) can't cover the INSERT — use the service client,
-  // but the actor is the authenticated user themselves creating their own league.
-  const service = createServiceClient(env);
-
-  const { data: league, error: leagueError } = await service
+  // `leagues_insert_self` allows any authenticated user to create a league naming
+  // themselves commissioner; `league_members_insert_commissioner` then lets them seat
+  // themselves once that league row exists. No elevated credential needed.
+  const { data: league, error: leagueError } = await supabase
     .from('leagues')
     .insert({
       name: body.name,
@@ -64,7 +66,7 @@ leaguesRouter.post('/', async (request: IRequest, env: Env) => {
   if (leagueError)
     return Response.json({ error: leagueError.message }, { status: 500 });
 
-  const { data: member, error: memberError } = await service
+  const { data: member, error: memberError } = await supabase
     .from('league_members')
     .insert({
       league_id: league.id,
@@ -113,8 +115,7 @@ leaguesRouter.post('/:id/invite', async (request: IRequest, env: Env) => {
 
   await requireCommissioner(supabase, id, userId);
 
-  const service = createServiceClient(env);
-  const { data, error } = await service
+  const { data, error } = await supabase
     .from('leagues')
     .update({ invite_code: randomInviteCode() })
     .eq('id', id)

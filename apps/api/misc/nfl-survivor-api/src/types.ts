@@ -1,8 +1,6 @@
 export interface Env {
   SUPABASE_URL: string;
   SUPABASE_PUBLISHABLE_KEY: string;
-  /** Bypasses RLS — only used for game/schedule writes and commissioner-privileged actions. */
-  SUPABASE_SERVICE_ROLE_KEY: string;
 }
 
 export type WeekPhase = 'regular' | 'playoff';

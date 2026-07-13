@@ -78,9 +78,12 @@ export function useCommissionerActions(leagueId: string) {
   const syncScores = useCallback(
     () =>
       run(() =>
-        apiFetch<{ synced: boolean }>('/admin/sync-scores', { method: 'POST' })
+        apiFetch<{ synced: boolean }>('/admin/sync-scores', {
+          method: 'POST',
+          body: JSON.stringify({ league_id: leagueId }),
+        })
       ),
-    [run]
+    [leagueId, run]
   );
 
   const simulateWeek = useCallback(

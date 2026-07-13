@@ -5,10 +5,5 @@
   "compatibility_date": "2025-04-18",
   "observability": {
     "enabled": true
-  },
-  "triggers": {
-    // Every 15 min during typical NFL windows: Sun 13:00-02:00 UTC, Mon/Thu 00:00-05:00 UTC.
-    // Refine once real game-time coverage is confirmed; scheduled() no-ops for simulation leagues.
-    "crons": ["*/15 * * * 0,1,4"]
   }
 }

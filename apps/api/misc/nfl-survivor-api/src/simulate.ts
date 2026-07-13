@@ -1,7 +1,7 @@
 import { Router, type IRequest } from 'itty-router';
 import type { Env, PlayoffRound } from './types';
 import { getUserId } from './auth';
-import { createSupabaseClient, createServiceClient } from './supabase';
+import { createSupabaseClient } from './supabase';
 import { requireCommissioner } from './leagues';
 import { fetchScoreboard, ESPN_SEASON_TYPE } from './espn';
 
@@ -11,7 +11,8 @@ export const simulateRouter = Router({ base: '/leagues' });
  * POST /leagues/:id/simulate-week — commissioner-only, simulation leagues only.
  * Randomly resolves any game in the league's current week that doesn't have a
  * result yet. Safe to re-run: only touches games where winner_team_code IS NULL,
- * so it never clobbers an already-simulated or ESPN-final result.
+ * so it never clobbers an already-simulated or ESPN-final result. Runs under the
+ * caller's own JWT — `games_update_commissioner` RLS authorizes the write.
  */
 simulateRouter.post(
   '/:id/simulate-week',
@@ -24,8 +25,7 @@ simulateRouter.post(
     const { id } = request.params;
     await requireCommissioner(supabase, id, userId);
 
-    const service = createServiceClient(env);
-    const { data: league, error: leagueError } = await service
+    const { data: league, error: leagueError } = await supabase
       .from('leagues')
       .select('id, is_simulation, current_week_id')
       .eq('id', id)
@@ -46,7 +46,7 @@ simulateRouter.post(
       );
     }
 
-    const { data: games, error: gamesError } = await service
+    const { data: games, error: gamesError } = await supabase
       .from('games')
       .select('id, home_team_code, away_team_code')
       .eq('week_id', league.current_week_id)
@@ -72,7 +72,7 @@ simulateRouter.post(
         away_score: homeWins ? loserScore : winnerScore,
       };
 
-      const { error } = await service
+      const { error } = await supabase
         .from('games')
         .update(update)
         .eq('id', game.id);
@@ -97,8 +97,7 @@ simulateRouter.post(
     const { id } = request.params;
     await requireCommissioner(supabase, id, userId);
 
-    const service = createServiceClient(env);
-    const { data: league, error: leagueError } = await service
+    const { data: league, error: leagueError } = await supabase
       .from('leagues')
       .select('id, current_week_id')
       .eq('id', id)
@@ -106,7 +105,7 @@ simulateRouter.post(
     if (leagueError || !league)
       return Response.json({ error: 'League not found' }, { status: 404 });
 
-    const { data: currentWeek, error: currentWeekError } = await service
+    const { data: currentWeek, error: currentWeekError } = await supabase
       .from('weeks')
       .select('sort_order')
       .eq('id', league.current_week_id)
@@ -117,7 +116,7 @@ simulateRouter.post(
         { status: 404 }
       );
 
-    const { data: nextWeek, error: nextWeekError } = await service
+    const { data: nextWeek, error: nextWeekError } = await supabase
       .from('weeks')
       .select('id, phase, week_number, playoff_round')
       .eq('league_id', id)
@@ -138,7 +137,7 @@ simulateRouter.post(
       );
     }
 
-    const { error: updateError } = await service
+    const { error: updateError } = await supabase
       .from('leagues')
       .update({ current_week_id: nextWeek.id })
       .eq('id', id);
@@ -175,8 +174,7 @@ simulateRouter.post(
     const { id } = request.params;
     await requireCommissioner(supabase, id, userId);
 
-    const service = createServiceClient(env);
-    const { data: league, error: leagueError } = await service
+    const { data: league, error: leagueError } = await supabase
       .from('leagues')
       .select('id, season_year')
       .eq('id', id)
@@ -188,7 +186,7 @@ simulateRouter.post(
     for (const [index, { round, espnWeek }] of PLAYOFF_ROUNDS.entries()) {
       const sortOrder = 18 + index + 1;
 
-      const { data: existingWeek } = await service
+      const { data: existingWeek } = await supabase
         .from('weeks')
         .select('id')
         .eq('league_id', id)
@@ -198,7 +196,7 @@ simulateRouter.post(
 
       let weekId = existingWeek?.id as string | undefined;
       if (!weekId) {
-        const { data: week, error: weekError } = await service
+        const { data: week, error: weekError } = await supabase
           .from('weeks')
           .insert({
             league_id: id,
@@ -222,7 +220,7 @@ simulateRouter.post(
         espnWeek
       );
       if (games.length > 0) {
-        await service.from('games').upsert(
+        await supabase.from('games').upsert(
           games.map((g) => ({
             week_id: weekId,
             espn_event_id: g.espnEventId,
