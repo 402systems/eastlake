@@ -73,41 +73,36 @@ function CommissionerContent() {
               isBusy={actions.isBusy}
             />
 
-            {league.is_simulation ? (
-              <SimulateWeekPanel
-                simulateWeek={actions.simulateWeek}
-                advanceWeek={actions.advanceWeek}
-                generatePlayoffs={actions.generatePlayoffs}
-                isBusy={actions.isBusy}
-                onChanged={reloadMembers}
-              />
-            ) : (
-              <div className="rounded-lg border border-slate-200 bg-white p-4">
-                <h3 className="mb-1 font-semibold text-slate-900">
-                  Live schedule sync
-                </h3>
-                <p className="mb-3 text-sm text-slate-600">
-                  Pull the regular season schedule from ESPN (run once), then
-                  refresh scores as games go final.
-                </p>
-                {syncMessage && (
-                  <Alert className="mb-3">
-                    <AlertDescription>{syncMessage}</AlertDescription>
-                  </Alert>
-                )}
-                <div className="flex gap-2">
-                  <Button
-                    disabled={actions.isBusy}
-                    onClick={async () => {
-                      const res = await actions.syncSchedule();
-                      if (res)
-                        setSyncMessage(
-                          `Synced schedule — ${res.weeks_created} new week(s) created.`
-                        );
-                    }}
-                  >
-                    Sync schedule
-                  </Button>
+            <div className="rounded-lg border border-slate-200 bg-white p-4">
+              <h3 className="mb-1 font-semibold text-slate-900">
+                Schedule sync
+              </h3>
+              <p className="mb-3 text-sm text-slate-600">
+                Pull the regular season schedule (teams, matchups, kickoff
+                times) from ESPN — run this once before picks or simulation can
+                work, even for a simulation league (simulate-week randomizes the{' '}
+                <em>results</em> of these real games, it doesn&apos;t invent a
+                schedule from scratch).
+              </p>
+              {syncMessage && (
+                <Alert className="mb-3">
+                  <AlertDescription>{syncMessage}</AlertDescription>
+                </Alert>
+              )}
+              <div className="flex gap-2">
+                <Button
+                  disabled={actions.isBusy}
+                  onClick={async () => {
+                    const res = await actions.syncSchedule();
+                    if (res)
+                      setSyncMessage(
+                        `Synced schedule — ${res.weeks_created} new week(s) created.`
+                      );
+                  }}
+                >
+                  Sync schedule
+                </Button>
+                {!league.is_simulation && (
                   <Button
                     variant="outline"
                     disabled={actions.isBusy}
@@ -118,17 +113,30 @@ function CommissionerContent() {
                   >
                     Refresh scores
                   </Button>
-                  <Button
-                    variant="ghost"
-                    disabled={actions.isBusy}
-                    onClick={async () => {
-                      const res = await actions.generatePlayoffs();
-                      if (res) setSyncMessage('Playoff weeks generated.');
-                    }}
-                  >
-                    Generate playoffs
-                  </Button>
-                </div>
+                )}
+              </div>
+            </div>
+
+            {league.is_simulation ? (
+              <SimulateWeekPanel
+                simulateWeek={actions.simulateWeek}
+                advanceWeek={actions.advanceWeek}
+                generatePlayoffs={actions.generatePlayoffs}
+                isBusy={actions.isBusy}
+                onChanged={reloadMembers}
+              />
+            ) : (
+              <div className="rounded-lg border border-slate-200 bg-white p-4">
+                <Button
+                  variant="ghost"
+                  disabled={actions.isBusy}
+                  onClick={async () => {
+                    const res = await actions.generatePlayoffs();
+                    if (res) setSyncMessage('Playoff weeks generated.');
+                  }}
+                >
+                  Generate playoffs
+                </Button>
               </div>
             )}
 
