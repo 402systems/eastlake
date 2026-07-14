@@ -256,6 +256,17 @@ CREATE POLICY games_update_commissioner ON public.games FOR UPDATE TO authentica
 CREATE POLICY league_members_select ON public.league_members FOR SELECT TO authenticated
   USING (public.is_league_member(league_id));
 
+-- league_members: a user can always see their own row directly, checked against the
+-- row's own user_id column rather than via is_league_member()'s self-query against this
+-- same table. Needed because INSERT ... RETURNING (what supabase-js's .insert().select()
+-- always does) re-checks SELECT visibility on the row it just wrote — for the very first
+-- member inserted into a brand-new league (the commissioner seating themselves), that
+-- self-query can't see the row it's in the middle of creating, so without this policy
+-- league creation fails with "new row violates row-level security policy" even though
+-- the INSERT itself was authorized.
+CREATE POLICY league_members_select_own ON public.league_members FOR SELECT TO authenticated
+  USING (user_id = auth.uid());
+
 -- league_members: a user may only update their own seat (e.g. change username)
 CREATE POLICY league_members_update_self ON public.league_members FOR UPDATE TO authenticated
   USING (user_id = auth.uid()) WITH CHECK (user_id = auth.uid());
