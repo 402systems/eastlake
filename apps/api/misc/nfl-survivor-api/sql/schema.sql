@@ -343,6 +343,22 @@ CREATE POLICY picks_insert_own ON public.picks FOR INSERT TO authenticated
     AND EXISTS (SELECT 1 FROM public.games g WHERE g.id = picks.game_id AND g.kickoff_time > now())
   );
 
+-- picks: the commissioner of a SIMULATION league can insert a pick on behalf of any
+-- member of that league (needed so "Simulate week" can auto-generate random picks for
+-- simulated members, who have no real user_id and can never submit their own via
+-- picks_insert_own). Scoped to is_simulation = true so this has no effect on real
+-- leagues, and to leagues this specific caller commissions — not a blanket bypass.
+CREATE POLICY picks_insert_commissioner_simulation ON public.picks FOR INSERT TO authenticated
+  WITH CHECK (
+    EXISTS (
+      SELECT 1 FROM public.league_members lm
+      JOIN public.leagues l ON l.id = lm.league_id
+      WHERE lm.id = picks.league_member_id
+      AND l.commissioner_id = auth.uid()
+      AND l.is_simulation = true
+    )
+  );
+
 -- picks: edit only your own pick, and only if BOTH the currently-picked game and the
 -- newly-picked game haven't kicked off yet — USING guards the old row (so a pick tied
 -- to an already-started game can never be touched again, even to switch to a later
