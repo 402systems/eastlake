@@ -14,6 +14,7 @@ const ALLOWED_ORIGINS = [
 interface Env {
   DB_DEMO_API: Fetcher;
   FRIEND_TRACKER_API: Fetcher;
+  NFL_SURVIVOR_API: Fetcher;
 }
 
 export default {
@@ -45,6 +46,11 @@ export default {
       const targetUrl = `${url.origin}${newPath}${url.search}`;
       const newRequest = new Request(targetUrl, request);
       response = await env.FRIEND_TRACKER_API.fetch(newRequest);
+    } else if (url.pathname.startsWith('/nfl-survivor')) {
+      const newPath = url.pathname.replace('/nfl-survivor', '');
+      const targetUrl = `${url.origin}${newPath}${url.search}`;
+      const newRequest = new Request(targetUrl, request);
+      response = await env.NFL_SURVIVOR_API.fetch(newRequest);
     } else {
       response = new Response('Not found', { status: 404 });
     }
