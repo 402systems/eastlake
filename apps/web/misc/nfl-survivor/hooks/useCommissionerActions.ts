@@ -89,7 +89,7 @@ export function useCommissionerActions(leagueId: string) {
   const simulateWeek = useCallback(
     () =>
       run(() =>
-        apiFetch<{ resolved: unknown[] }>(
+        apiFetch<{ resolved: unknown[]; picks_generated: number }>(
           `/leagues/${leagueId}/simulate-week`,
           { method: 'POST' }
         )

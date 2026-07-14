@@ -9,10 +9,15 @@ export const simulateRouter = Router({ base: '/leagues' });
 
 /**
  * POST /leagues/:id/simulate-week — commissioner-only, simulation leagues only.
- * Randomly resolves any game in the league's current week that doesn't have a
- * result yet. Safe to re-run: only touches games where winner_team_code IS NULL,
- * so it never clobbers an already-simulated or ESPN-final result. Runs under the
- * caller's own JWT — `games_update_commissioner` RLS authorizes the write.
+ * Auto-generates a random (unused-this-phase) pick for any member who doesn't have
+ * one yet for the current week — mainly for simulated members, who have no real user
+ * to click pick buttons, but also covers the commissioner's own seat as a convenience
+ * for fast-forwarding through weeks solo — then randomly resolves any game in the
+ * week that doesn't have a result yet. Safe to re-run: only touches games where
+ * winner_team_code IS NULL and members who don't already have a pick, so it never
+ * clobbers an already-simulated/ESPN-final result or a pick someone already made.
+ * Runs under the caller's own JWT — `games_update_commissioner` and
+ * `picks_insert_commissioner_simulation` RLS authorize the writes.
  */
 simulateRouter.post(
   '/:id/simulate-week',
@@ -45,15 +50,111 @@ simulateRouter.post(
         { status: 400 }
       );
     }
+    const weekId = league.current_week_id;
+
+    const { data: week, error: weekError } = await supabase
+      .from('weeks')
+      .select('phase')
+      .eq('id', weekId)
+      .single();
+    if (weekError || !week)
+      return Response.json(
+        { error: 'Current week not found' },
+        { status: 404 }
+      );
 
     const { data: games, error: gamesError } = await supabase
       .from('games')
       .select('id, home_team_code, away_team_code')
-      .eq('week_id', league.current_week_id)
+      .eq('week_id', weekId)
       .is('winner_team_code', null);
 
     if (gamesError)
       return Response.json({ error: gamesError.message }, { status: 500 });
+
+    const { data: members, error: membersError } = await supabase
+      .from('league_members')
+      .select('id')
+      .eq('league_id', id);
+    if (membersError)
+      return Response.json({ error: membersError.message }, { status: 500 });
+
+    const { data: existingPicks, error: existingPicksError } = await supabase
+      .from('picks')
+      .select('league_member_id')
+      .eq('week_id', weekId);
+    if (existingPicksError)
+      return Response.json(
+        { error: existingPicksError.message },
+        { status: 500 }
+      );
+
+    const membersWithPicks = new Set(
+      (existingPicks ?? []).map((p) => p.league_member_id)
+    );
+    const membersNeedingPicks = (members ?? []).filter(
+      (m) => !membersWithPicks.has(m.id)
+    );
+
+    let picksGenerated = 0;
+
+    if (membersNeedingPicks.length > 0 && (games ?? []).length > 0) {
+      const { data: usedTeamRows, error: usedTeamsError } = await supabase
+        .from('picks')
+        .select('league_member_id, team_code')
+        .eq('phase', week.phase)
+        .in(
+          'league_member_id',
+          membersNeedingPicks.map((m) => m.id)
+        );
+      if (usedTeamsError)
+        return Response.json(
+          { error: usedTeamsError.message },
+          { status: 500 }
+        );
+
+      const usedTeamsByMember = new Map<string, Set<string>>();
+      for (const row of usedTeamRows ?? []) {
+        if (!usedTeamsByMember.has(row.league_member_id)) {
+          usedTeamsByMember.set(row.league_member_id, new Set());
+        }
+        usedTeamsByMember.get(row.league_member_id)!.add(row.team_code);
+      }
+
+      const teamGamePairs = (games ?? []).flatMap((g) => [
+        { gameId: g.id, teamCode: g.home_team_code },
+        { gameId: g.id, teamCode: g.away_team_code },
+      ]);
+
+      const generatedPicks = membersNeedingPicks
+        .map((member) => {
+          const used = usedTeamsByMember.get(member.id) ?? new Set<string>();
+          const available = teamGamePairs.filter((p) => !used.has(p.teamCode));
+          if (available.length === 0) return null; // no unused team left this phase
+          const choice =
+            available[Math.floor(Math.random() * available.length)];
+          return {
+            league_member_id: member.id,
+            week_id: weekId,
+            game_id: choice.gameId,
+            team_code: choice.teamCode,
+            phase: week.phase,
+          };
+        })
+        .filter((p): p is NonNullable<typeof p> => p !== null);
+
+      if (generatedPicks.length > 0) {
+        const { error: insertPicksError } = await supabase
+          .from('picks')
+          .insert(generatedPicks);
+        if (insertPicksError)
+          return Response.json(
+            { error: insertPicksError.message },
+            { status: 500 }
+          );
+        picksGenerated = generatedPicks.length;
+      }
+    }
 
     const resolved = [];
     for (const game of games ?? []) {
@@ -81,7 +182,7 @@ simulateRouter.post(
       resolved.push({ game_id: game.id, ...update });
     }
 
-    return Response.json({ resolved });
+    return Response.json({ resolved, picks_generated: picksGenerated });
   }
 );
 
