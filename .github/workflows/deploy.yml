@@ -40,9 +40,12 @@ jobs:
       - name: Build and deploy single app
         if: ${{ github.event.inputs.app_path != 'all' }}
         run: |
-          TEAM_NAME=$(echo "${{ github.event.inputs.app_path }}" | cut -d'/' -f1)
-          APP_NAME=$(echo "${{ github.event.inputs.app_path }}" | cut -d'/' -f2)
-          DEPLOY_ID="${TEAM_NAME}/${APP_NAME}"
+          # app_path is "web/<category>/<app>" (matching apps/web/<category>/<app>);
+          # DEPLOY_ID must be "<category>/<app>" (matches the R2 layout the dispatcher
+          # and the "all apps" branch below both use) — so skip the leading "web/" segment.
+          CATEGORY=$(echo "${{ github.event.inputs.app_path }}" | cut -d'/' -f2)
+          APP_NAME=$(echo "${{ github.event.inputs.app_path }}" | cut -d'/' -f3)
+          DEPLOY_ID="${CATEGORY}/${APP_NAME}"
           NEXT_PUBLIC_BASE_PATH="/$DEPLOY_ID" pnpm --filter "./apps/${{ github.event.inputs.app_path }}" build
 
           R2_ENDPOINT="https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com"
