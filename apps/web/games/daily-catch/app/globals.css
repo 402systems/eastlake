@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --gba-ink: #303030;
+  --gba-shadow: #d0d0c8;
+  --gba-paper: #f8f8f0;
+  --gba-box: #f8f8d8;
+  --gba-box-edge: #404840;
+  --gba-text-bg: #283848;
+  --gba-text-edge: #c85848;
+  --hp-green: #70f8a8;
+  --hp-green-dark: #58d080;
+  --hp-yellow: #f8e038;
+  --hp-yellow-dark: #c8a808;
+  --hp-red: #f85838;
+  --hp-red-dark: #a84048;
+  --hp-empty: #506858;
+}
+
+body {
+  font-family: 'Tiny5', ui-monospace, monospace;
+  /* Tiny5 has a single weight; don't smear it with synthetic bold. */
+  font-synthesis: none;
+}
+
+/* ---- Battle scene: a 240x160 GBA screen scaled to its container ---------- */
+
+.scene-wrap {
+  container-type: inline-size;
+  width: 100%;
+}
+
+.scene {
+  --px: calc(100cqw / 240);
+  position: relative;
+  width: 100cqw;
+  aspect-ratio: 240 / 160;
+  overflow: hidden;
+  image-rendering: pixelated;
+  background: linear-gradient(
+    to bottom,
+    #b8e0f8 0%,
+    #d8f0f8 38%,
+    #b0e090 38.2%,
+    #90d070 60%,
+    #78c060 100%
+  );
+  font-size: calc(var(--px) * 9.5);
+  line-height: 1.25;
+  color: var(--gba-ink);
+  user-select: none;
+}
+
+.gba {
+  position: absolute;
+  left: calc(var(--px) * var(--x));
+  top: calc(var(--px) * var(--y));
+  width: calc(var(--px) * var(--w));
+  height: calc(var(--px) * var(--h));
+}
+
+.platform {
+  border-radius: 50%;
+  background: radial-gradient(
+    ellipse at center,
+    #a8d878 0%,
+    #88c060 55%,
+    #70a850 100%
+  );
+  box-shadow: inset 0 calc(var(--px) * -2) 0 #68a048;
+}
+
+.sprite-box {
+  overflow: hidden;
+}
+
+.sprite {
+  width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+  transform-origin: 50% 70%;
+  pointer-events: none;
+}
+
+/* ---- Health boxes --------------------------------------------------------- */
+
+.healthbox {
+  background: var(--gba-box);
+  border: calc(var(--px) * 1.5) solid var(--gba-box-edge);
+  border-radius: calc(var(--px) * 3) calc(var(--px) * 3) calc(var(--px) * 3)
+    calc(var(--px) * 10);
+  padding: calc(var(--px) * 2) calc(var(--px) * 5);
+  box-shadow: calc(var(--px) * 2) calc(var(--px) * 2) 0 rgb(0 0 0 / 0.2);
+}
+
+.hp-track {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--px) * 2);
+}
+
+.hp-label {
+  font-size: calc(var(--px) * 6);
+  font-weight: 700;
+  color: #f8b010;
+  background: #484848;
+  border-radius: calc(var(--px) * 1.5);
+  padding: 0 calc(var(--px) * 1.5);
+  line-height: 1.2;
+}
+
+.hp-bar {
+  position: relative;
+  width: calc(var(--px) * 48);
+  height: calc(var(--px) * 3.5);
+  background: var(--hp-empty);
+  border: calc(var(--px) * 0.75) solid #404040;
+  border-radius: calc(var(--px) * 1);
+  overflow: hidden;
+}
+
+.hp-fill {
+  height: 100%;
+}
+
+.hp-fill.green {
+  background: linear-gradient(
+    to bottom,
+    var(--hp-green) 60%,
+    var(--hp-green-dark) 60%
+  );
+}
+.hp-fill.yellow {
+  background: linear-gradient(
+    to bottom,
+    var(--hp-yellow) 60%,
+    var(--hp-yellow-dark) 60%
+  );
+}
+.hp-fill.red {
+  background: linear-gradient(
+    to bottom,
+    var(--hp-red) 60%,
+    var(--hp-red-dark) 60%
+  );
+}
+
+.status-badge {
+  font-size: calc(var(--px) * 6);
+  font-weight: 700;
+  color: white;
+  border-radius: calc(var(--px) * 1.5);
+  padding: 0 calc(var(--px) * 1.5);
+  line-height: 1.25;
+}
+.status-slp {
+  background: #8c8c70;
+}
+.status-psn,
+.status-tox {
+  background: #b058b0;
+}
+.status-brn {
+  background: #e06040;
+}
+.status-frz {
+  background: #70a0e0;
+}
+.status-par {
+  background: #c0a020;
+}
+
+/* ---- Text box & menus ----------------------------------------------------- */
+
+.textbox {
+  background: var(--gba-text-bg);
+  border: calc(var(--px) * 2) solid var(--gba-text-edge);
+  border-radius: calc(var(--px) * 3);
+  color: white;
+  text-shadow: calc(var(--px) * 0.75) calc(var(--px) * 0.75) 0 #58606a;
+  padding: calc(var(--px) * 4) calc(var(--px) * 7);
+  font-size: calc(var(--px) * 10);
+  line-height: 1.45;
+  cursor: pointer;
+}
+
+.menu {
+  background: var(--gba-paper);
+  border: calc(var(--px) * 2) solid #707880;
+  border-radius: calc(var(--px) * 3);
+  color: var(--gba-ink);
+  text-shadow: calc(var(--px) * 0.75) calc(var(--px) * 0.75) 0 var(--gba-shadow);
+  font-size: calc(var(--px) * 10);
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--px) * 2);
+  padding: calc(var(--px) * 1) calc(var(--px) * 3);
+  text-align: left;
+  white-space: nowrap;
+  border-radius: calc(var(--px) * 2);
+}
+.menu-item::before {
+  content: '▶';
+  visibility: hidden;
+  font-size: 0.7em;
+}
+.menu-item:hover:not(:disabled)::before,
+.menu-item:focus-visible::before {
+  visibility: visible;
+}
+.menu-item:focus-visible {
+  outline: calc(var(--px) * 1) solid #58a0f0;
+}
+.menu-item:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: #a8c8e8;
+  padding: calc(var(--px) * 6);
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--px) * 3);
+  overflow-y: auto;
+}
+
+/* ---- Ball ------------------------------------------------------------------ */
+
+.ball {
+  border-radius: 50%;
+  border: calc(var(--px) * 1) solid #202020;
+  background:
+    radial-gradient(
+      circle at 50% 50%,
+      #f8f8f8 0 18%,
+      #202020 18% 28%,
+      transparent 28%
+    ),
+    linear-gradient(
+      to bottom,
+      var(--ball-top) 0 44%,
+      #202020 44% 56%,
+      var(--ball-bottom, #f8f8f8) 56%
+    );
+  transform-origin: 50% 90%;
+}
+
+.flash {
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgb(255 255 255 / 0.95) 0 35%,
+    rgb(255 255 255 / 0) 70%
+  );
+  opacity: 0;
+  pointer-events: none;
+}
+
+.stars,
+.sparkle {
+  opacity: 0;
+  pointer-events: none;
+  color: #f8f050;
+  text-shadow: 0 0 calc(var(--px) * 2) #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: calc(var(--px) * 4);
+  font-size: calc(var(--px) * 9);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hp-fill {
+    transition: none !important;
+  }
+}
