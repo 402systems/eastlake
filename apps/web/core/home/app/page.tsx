@@ -15,6 +15,7 @@ import {
   PartyPopper,
   Trophy,
   TrainFront,
+  CircleDot,
 } from 'lucide-react';
 import { AuthHeader } from './components/AuthHeader';
 
@@ -53,6 +54,15 @@ const apps: AppTile[] = [
     href: '/games/subway-game',
     icon: <TrainFront className="h-8 w-8" />,
     gradient: 'from-amber-500 to-red-600',
+    category: 'games',
+  },
+  {
+    name: 'Daily Catch',
+    description:
+      'One wild Gen 3 Pokémon a day — battle it with real Emerald mechanics and try to catch it',
+    href: '/games/daily-catch',
+    icon: <CircleDot className="h-8 w-8" />,
+    gradient: 'from-red-500 to-rose-600',
     category: 'games',
   },
   {

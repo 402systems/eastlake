@@ -1,0 +1,2318 @@
+{
+  "bulbasaur": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Overgrow"],
+    "friendship": 70
+  },
+  "ivysaur": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Overgrow"],
+    "friendship": 70
+  },
+  "venusaur": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Overgrow"],
+    "friendship": 70
+  },
+  "charmander": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Blaze"],
+    "friendship": 70
+  },
+  "charmeleon": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Blaze"],
+    "friendship": 70
+  },
+  "charizard": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Blaze"],
+    "friendship": 70
+  },
+  "squirtle": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Torrent"],
+    "friendship": 70
+  },
+  "wartortle": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Torrent"],
+    "friendship": 70
+  },
+  "blastoise": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Torrent"],
+    "friendship": 70
+  },
+  "caterpie": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Shield Dust"],
+    "friendship": 70
+  },
+  "metapod": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Shed Skin"],
+    "friendship": 70
+  },
+  "butterfree": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Compound Eyes"],
+    "friendship": 70
+  },
+  "weedle": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Shield Dust"],
+    "friendship": 70
+  },
+  "kakuna": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Shed Skin"],
+    "friendship": 70
+  },
+  "beedrill": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Swarm"],
+    "friendship": 70
+  },
+  "pidgey": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Keen Eye"],
+    "friendship": 70
+  },
+  "pidgeotto": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Keen Eye"],
+    "friendship": 70
+  },
+  "pidgeot": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Keen Eye"],
+    "friendship": 70
+  },
+  "rattata": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Run Away", "Guts"],
+    "friendship": 70
+  },
+  "raticate": {
+    "catchRate": 127,
+    "genderRatio": 127,
+    "abilities": ["Run Away", "Guts"],
+    "friendship": 70
+  },
+  "spearow": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Keen Eye"],
+    "friendship": 70
+  },
+  "fearow": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Keen Eye"],
+    "friendship": 70
+  },
+  "ekans": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Intimidate", "Shed Skin"],
+    "friendship": 70
+  },
+  "arbok": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Intimidate", "Shed Skin"],
+    "friendship": 70
+  },
+  "pikachu": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Static"],
+    "friendship": 70
+  },
+  "raichu": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Static"],
+    "friendship": 70
+  },
+  "sandshrew": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Sand Veil"],
+    "friendship": 70
+  },
+  "sandslash": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Sand Veil"],
+    "friendship": 70
+  },
+  "nidoranf": {
+    "catchRate": 235,
+    "genderRatio": 254,
+    "abilities": ["Poison Point"],
+    "friendship": 70
+  },
+  "nidorina": {
+    "catchRate": 120,
+    "genderRatio": 254,
+    "abilities": ["Poison Point"],
+    "friendship": 70
+  },
+  "nidoqueen": {
+    "catchRate": 45,
+    "genderRatio": 254,
+    "abilities": ["Poison Point"],
+    "friendship": 70
+  },
+  "nidoranm": {
+    "catchRate": 235,
+    "genderRatio": 0,
+    "abilities": ["Poison Point"],
+    "friendship": 70
+  },
+  "nidorino": {
+    "catchRate": 120,
+    "genderRatio": 0,
+    "abilities": ["Poison Point"],
+    "friendship": 70
+  },
+  "nidoking": {
+    "catchRate": 45,
+    "genderRatio": 0,
+    "abilities": ["Poison Point"],
+    "friendship": 70
+  },
+  "clefairy": {
+    "catchRate": 150,
+    "genderRatio": 191,
+    "abilities": ["Cute Charm"],
+    "friendship": 140
+  },
+  "clefable": {
+    "catchRate": 25,
+    "genderRatio": 191,
+    "abilities": ["Cute Charm"],
+    "friendship": 140
+  },
+  "vulpix": {
+    "catchRate": 190,
+    "genderRatio": 191,
+    "abilities": ["Flash Fire"],
+    "friendship": 70
+  },
+  "ninetales": {
+    "catchRate": 75,
+    "genderRatio": 191,
+    "abilities": ["Flash Fire"],
+    "friendship": 70
+  },
+  "jigglypuff": {
+    "catchRate": 170,
+    "genderRatio": 191,
+    "abilities": ["Cute Charm"],
+    "friendship": 70
+  },
+  "wigglytuff": {
+    "catchRate": 50,
+    "genderRatio": 191,
+    "abilities": ["Cute Charm"],
+    "friendship": 70
+  },
+  "zubat": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Inner Focus"],
+    "friendship": 70
+  },
+  "golbat": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Inner Focus"],
+    "friendship": 70
+  },
+  "oddish": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll"],
+    "friendship": 70
+  },
+  "gloom": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll"],
+    "friendship": 70
+  },
+  "vileplume": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll"],
+    "friendship": 70
+  },
+  "paras": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Effect Spore"],
+    "friendship": 70
+  },
+  "parasect": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Effect Spore"],
+    "friendship": 70
+  },
+  "venonat": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Compound Eyes"],
+    "friendship": 70
+  },
+  "venomoth": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Shield Dust"],
+    "friendship": 70
+  },
+  "diglett": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Sand Veil", "Arena Trap"],
+    "friendship": 70
+  },
+  "dugtrio": {
+    "catchRate": 50,
+    "genderRatio": 127,
+    "abilities": ["Sand Veil", "Arena Trap"],
+    "friendship": 70
+  },
+  "meowth": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Pickup"],
+    "friendship": 70
+  },
+  "persian": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Limber"],
+    "friendship": 70
+  },
+  "psyduck": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Damp", "Cloud Nine"],
+    "friendship": 70
+  },
+  "golduck": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Damp", "Cloud Nine"],
+    "friendship": 70
+  },
+  "mankey": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Vital Spirit"],
+    "friendship": 70
+  },
+  "primeape": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Vital Spirit"],
+    "friendship": 70
+  },
+  "growlithe": {
+    "catchRate": 190,
+    "genderRatio": 63,
+    "abilities": ["Intimidate", "Flash Fire"],
+    "friendship": 70
+  },
+  "arcanine": {
+    "catchRate": 75,
+    "genderRatio": 63,
+    "abilities": ["Intimidate", "Flash Fire"],
+    "friendship": 70
+  },
+  "poliwag": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Water Absorb", "Damp"],
+    "friendship": 70
+  },
+  "poliwhirl": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Water Absorb", "Damp"],
+    "friendship": 70
+  },
+  "poliwrath": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Water Absorb", "Damp"],
+    "friendship": 70
+  },
+  "abra": {
+    "catchRate": 200,
+    "genderRatio": 63,
+    "abilities": ["Synchronize", "Inner Focus"],
+    "friendship": 70
+  },
+  "kadabra": {
+    "catchRate": 100,
+    "genderRatio": 63,
+    "abilities": ["Synchronize", "Inner Focus"],
+    "friendship": 70
+  },
+  "alakazam": {
+    "catchRate": 50,
+    "genderRatio": 63,
+    "abilities": ["Synchronize", "Inner Focus"],
+    "friendship": 70
+  },
+  "machop": {
+    "catchRate": 180,
+    "genderRatio": 63,
+    "abilities": ["Guts"],
+    "friendship": 70
+  },
+  "machoke": {
+    "catchRate": 90,
+    "genderRatio": 63,
+    "abilities": ["Guts"],
+    "friendship": 70
+  },
+  "machamp": {
+    "catchRate": 45,
+    "genderRatio": 63,
+    "abilities": ["Guts"],
+    "friendship": 70
+  },
+  "bellsprout": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll"],
+    "friendship": 70
+  },
+  "weepinbell": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll"],
+    "friendship": 70
+  },
+  "victreebel": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll"],
+    "friendship": 70
+  },
+  "tentacool": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Clear Body", "Liquid Ooze"],
+    "friendship": 70
+  },
+  "tentacruel": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Clear Body", "Liquid Ooze"],
+    "friendship": 70
+  },
+  "geodude": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Rock Head", "Sturdy"],
+    "friendship": 70
+  },
+  "graveler": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Rock Head", "Sturdy"],
+    "friendship": 70
+  },
+  "golem": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Rock Head", "Sturdy"],
+    "friendship": 70
+  },
+  "ponyta": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Run Away", "Flash Fire"],
+    "friendship": 70
+  },
+  "rapidash": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Run Away", "Flash Fire"],
+    "friendship": 70
+  },
+  "slowpoke": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Oblivious", "Own Tempo"],
+    "friendship": 70
+  },
+  "slowbro": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Oblivious", "Own Tempo"],
+    "friendship": 70
+  },
+  "magnemite": {
+    "catchRate": 190,
+    "genderRatio": 255,
+    "abilities": ["Magnet Pull", "Sturdy"],
+    "friendship": 70
+  },
+  "magneton": {
+    "catchRate": 60,
+    "genderRatio": 255,
+    "abilities": ["Magnet Pull", "Sturdy"],
+    "friendship": 70
+  },
+  "farfetchd": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Keen Eye", "Inner Focus"],
+    "friendship": 70
+  },
+  "doduo": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Run Away", "Early Bird"],
+    "friendship": 70
+  },
+  "dodrio": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Run Away", "Early Bird"],
+    "friendship": 70
+  },
+  "seel": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Thick Fat"],
+    "friendship": 70
+  },
+  "dewgong": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Thick Fat"],
+    "friendship": 70
+  },
+  "grimer": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Stench", "Sticky Hold"],
+    "friendship": 70
+  },
+  "muk": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Stench", "Sticky Hold"],
+    "friendship": 70
+  },
+  "shellder": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Shell Armor"],
+    "friendship": 70
+  },
+  "cloyster": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Shell Armor"],
+    "friendship": 70
+  },
+  "gastly": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Levitate"],
+    "friendship": 70
+  },
+  "haunter": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Levitate"],
+    "friendship": 70
+  },
+  "gengar": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Levitate"],
+    "friendship": 70
+  },
+  "onix": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Rock Head", "Sturdy"],
+    "friendship": 70
+  },
+  "drowzee": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Insomnia"],
+    "friendship": 70
+  },
+  "hypno": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Insomnia"],
+    "friendship": 70
+  },
+  "krabby": {
+    "catchRate": 225,
+    "genderRatio": 127,
+    "abilities": ["Hyper Cutter", "Shell Armor"],
+    "friendship": 70
+  },
+  "kingler": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Hyper Cutter", "Shell Armor"],
+    "friendship": 70
+  },
+  "voltorb": {
+    "catchRate": 190,
+    "genderRatio": 255,
+    "abilities": ["Soundproof", "Static"],
+    "friendship": 70
+  },
+  "electrode": {
+    "catchRate": 60,
+    "genderRatio": 255,
+    "abilities": ["Soundproof", "Static"],
+    "friendship": 70
+  },
+  "exeggcute": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll"],
+    "friendship": 70
+  },
+  "exeggutor": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll"],
+    "friendship": 70
+  },
+  "cubone": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Rock Head", "Lightning Rod"],
+    "friendship": 70
+  },
+  "marowak": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Rock Head", "Lightning Rod"],
+    "friendship": 70
+  },
+  "hitmonlee": {
+    "catchRate": 45,
+    "genderRatio": 0,
+    "abilities": ["Limber"],
+    "friendship": 70
+  },
+  "hitmonchan": {
+    "catchRate": 45,
+    "genderRatio": 0,
+    "abilities": ["Keen Eye"],
+    "friendship": 70
+  },
+  "lickitung": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Own Tempo", "Oblivious"],
+    "friendship": 70
+  },
+  "koffing": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Levitate"],
+    "friendship": 70
+  },
+  "weezing": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Levitate"],
+    "friendship": 70
+  },
+  "rhyhorn": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Lightning Rod", "Rock Head"],
+    "friendship": 70
+  },
+  "rhydon": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Lightning Rod", "Rock Head"],
+    "friendship": 70
+  },
+  "chansey": {
+    "catchRate": 30,
+    "genderRatio": 254,
+    "abilities": ["Natural Cure", "Serene Grace"],
+    "friendship": 140
+  },
+  "tangela": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll"],
+    "friendship": 70
+  },
+  "kangaskhan": {
+    "catchRate": 45,
+    "genderRatio": 254,
+    "abilities": ["Early Bird"],
+    "friendship": 70
+  },
+  "horsea": {
+    "catchRate": 225,
+    "genderRatio": 127,
+    "abilities": ["Swift Swim"],
+    "friendship": 70
+  },
+  "seadra": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Poison Point"],
+    "friendship": 70
+  },
+  "goldeen": {
+    "catchRate": 225,
+    "genderRatio": 127,
+    "abilities": ["Swift Swim", "Water Veil"],
+    "friendship": 70
+  },
+  "seaking": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Swift Swim", "Water Veil"],
+    "friendship": 70
+  },
+  "staryu": {
+    "catchRate": 225,
+    "genderRatio": 255,
+    "abilities": ["Illuminate", "Natural Cure"],
+    "friendship": 70
+  },
+  "starmie": {
+    "catchRate": 60,
+    "genderRatio": 255,
+    "abilities": ["Illuminate", "Natural Cure"],
+    "friendship": 70
+  },
+  "mrmime": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Soundproof"],
+    "friendship": 70
+  },
+  "scyther": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Swarm"],
+    "friendship": 70
+  },
+  "jynx": {
+    "catchRate": 45,
+    "genderRatio": 254,
+    "abilities": ["Oblivious"],
+    "friendship": 70
+  },
+  "electabuzz": {
+    "catchRate": 45,
+    "genderRatio": 63,
+    "abilities": ["Static"],
+    "friendship": 70
+  },
+  "magmar": {
+    "catchRate": 45,
+    "genderRatio": 63,
+    "abilities": ["Flame Body"],
+    "friendship": 70
+  },
+  "pinsir": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Hyper Cutter"],
+    "friendship": 70
+  },
+  "tauros": {
+    "catchRate": 45,
+    "genderRatio": 0,
+    "abilities": ["Intimidate"],
+    "friendship": 70
+  },
+  "magikarp": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Swift Swim"],
+    "friendship": 70
+  },
+  "gyarados": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Intimidate"],
+    "friendship": 70
+  },
+  "lapras": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Water Absorb", "Shell Armor"],
+    "friendship": 70
+  },
+  "ditto": {
+    "catchRate": 35,
+    "genderRatio": 255,
+    "abilities": ["Limber"],
+    "friendship": 70
+  },
+  "eevee": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Run Away"],
+    "friendship": 70
+  },
+  "vaporeon": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Water Absorb"],
+    "friendship": 70
+  },
+  "jolteon": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Volt Absorb"],
+    "friendship": 70
+  },
+  "flareon": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Flash Fire"],
+    "friendship": 70
+  },
+  "porygon": {
+    "catchRate": 45,
+    "genderRatio": 255,
+    "abilities": ["Trace"],
+    "friendship": 70
+  },
+  "omanyte": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Swift Swim", "Shell Armor"],
+    "friendship": 70
+  },
+  "omastar": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Swift Swim", "Shell Armor"],
+    "friendship": 70
+  },
+  "kabuto": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Swift Swim", "Battle Armor"],
+    "friendship": 70
+  },
+  "kabutops": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Swift Swim", "Battle Armor"],
+    "friendship": 70
+  },
+  "aerodactyl": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Rock Head", "Pressure"],
+    "friendship": 70
+  },
+  "snorlax": {
+    "catchRate": 25,
+    "genderRatio": 31,
+    "abilities": ["Immunity", "Thick Fat"],
+    "friendship": 70
+  },
+  "articuno": {
+    "catchRate": 3,
+    "genderRatio": 255,
+    "abilities": ["Pressure"],
+    "friendship": 35
+  },
+  "zapdos": {
+    "catchRate": 3,
+    "genderRatio": 255,
+    "abilities": ["Pressure"],
+    "friendship": 35
+  },
+  "moltres": {
+    "catchRate": 3,
+    "genderRatio": 255,
+    "abilities": ["Pressure"],
+    "friendship": 35
+  },
+  "dratini": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Shed Skin"],
+    "friendship": 35
+  },
+  "dragonair": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Shed Skin"],
+    "friendship": 35
+  },
+  "dragonite": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Inner Focus"],
+    "friendship": 35
+  },
+  "mewtwo": {
+    "catchRate": 3,
+    "genderRatio": 255,
+    "abilities": ["Pressure"],
+    "friendship": 0
+  },
+  "mew": {
+    "catchRate": 45,
+    "genderRatio": 255,
+    "abilities": ["Synchronize"],
+    "friendship": 100
+  },
+  "chikorita": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Overgrow"],
+    "friendship": 70
+  },
+  "bayleef": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Overgrow"],
+    "friendship": 70
+  },
+  "meganium": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Overgrow"],
+    "friendship": 70
+  },
+  "cyndaquil": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Blaze"],
+    "friendship": 70
+  },
+  "quilava": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Blaze"],
+    "friendship": 70
+  },
+  "typhlosion": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Blaze"],
+    "friendship": 70
+  },
+  "totodile": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Torrent"],
+    "friendship": 70
+  },
+  "croconaw": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Torrent"],
+    "friendship": 70
+  },
+  "feraligatr": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Torrent"],
+    "friendship": 70
+  },
+  "sentret": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Run Away", "Keen Eye"],
+    "friendship": 70
+  },
+  "furret": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Run Away", "Keen Eye"],
+    "friendship": 70
+  },
+  "hoothoot": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Insomnia", "Keen Eye"],
+    "friendship": 70
+  },
+  "noctowl": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Insomnia", "Keen Eye"],
+    "friendship": 70
+  },
+  "ledyba": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Swarm", "Early Bird"],
+    "friendship": 70
+  },
+  "ledian": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Swarm", "Early Bird"],
+    "friendship": 70
+  },
+  "spinarak": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Swarm", "Insomnia"],
+    "friendship": 70
+  },
+  "ariados": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Swarm", "Insomnia"],
+    "friendship": 70
+  },
+  "crobat": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Inner Focus"],
+    "friendship": 70
+  },
+  "chinchou": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Volt Absorb", "Illuminate"],
+    "friendship": 70
+  },
+  "lanturn": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Volt Absorb", "Illuminate"],
+    "friendship": 70
+  },
+  "pichu": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Static"],
+    "friendship": 70
+  },
+  "cleffa": {
+    "catchRate": 150,
+    "genderRatio": 191,
+    "abilities": ["Cute Charm"],
+    "friendship": 140
+  },
+  "igglybuff": {
+    "catchRate": 170,
+    "genderRatio": 191,
+    "abilities": ["Cute Charm"],
+    "friendship": 70
+  },
+  "togepi": {
+    "catchRate": 190,
+    "genderRatio": 31,
+    "abilities": ["Hustle", "Serene Grace"],
+    "friendship": 70
+  },
+  "togetic": {
+    "catchRate": 75,
+    "genderRatio": 31,
+    "abilities": ["Hustle", "Serene Grace"],
+    "friendship": 70
+  },
+  "natu": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Synchronize", "Early Bird"],
+    "friendship": 70
+  },
+  "xatu": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Synchronize", "Early Bird"],
+    "friendship": 70
+  },
+  "mareep": {
+    "catchRate": 235,
+    "genderRatio": 127,
+    "abilities": ["Static"],
+    "friendship": 70
+  },
+  "flaaffy": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Static"],
+    "friendship": 70
+  },
+  "ampharos": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Static"],
+    "friendship": 70
+  },
+  "bellossom": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll"],
+    "friendship": 70
+  },
+  "marill": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Thick Fat", "Huge Power"],
+    "friendship": 70
+  },
+  "azumarill": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Thick Fat", "Huge Power"],
+    "friendship": 70
+  },
+  "sudowoodo": {
+    "catchRate": 65,
+    "genderRatio": 127,
+    "abilities": ["Sturdy", "Rock Head"],
+    "friendship": 70
+  },
+  "politoed": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Water Absorb", "Damp"],
+    "friendship": 70
+  },
+  "hoppip": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll"],
+    "friendship": 70
+  },
+  "skiploom": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll"],
+    "friendship": 70
+  },
+  "jumpluff": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll"],
+    "friendship": 70
+  },
+  "aipom": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Run Away", "Pickup"],
+    "friendship": 70
+  },
+  "sunkern": {
+    "catchRate": 235,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll"],
+    "friendship": 70
+  },
+  "sunflora": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll"],
+    "friendship": 70
+  },
+  "yanma": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Speed Boost", "Compound Eyes"],
+    "friendship": 70
+  },
+  "wooper": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Damp", "Water Absorb"],
+    "friendship": 70
+  },
+  "quagsire": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Damp", "Water Absorb"],
+    "friendship": 70
+  },
+  "espeon": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Synchronize"],
+    "friendship": 70
+  },
+  "umbreon": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Synchronize"],
+    "friendship": 35
+  },
+  "murkrow": {
+    "catchRate": 30,
+    "genderRatio": 127,
+    "abilities": ["Insomnia"],
+    "friendship": 35
+  },
+  "slowking": {
+    "catchRate": 70,
+    "genderRatio": 127,
+    "abilities": ["Oblivious", "Own Tempo"],
+    "friendship": 70
+  },
+  "misdreavus": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Levitate"],
+    "friendship": 35
+  },
+  "unown": {
+    "catchRate": 225,
+    "genderRatio": 255,
+    "abilities": ["Levitate"],
+    "friendship": 70
+  },
+  "wobbuffet": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Shadow Tag"],
+    "friendship": 70
+  },
+  "girafarig": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Inner Focus", "Early Bird"],
+    "friendship": 70
+  },
+  "pineco": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Sturdy"],
+    "friendship": 70
+  },
+  "forretress": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Sturdy"],
+    "friendship": 70
+  },
+  "dunsparce": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Serene Grace", "Run Away"],
+    "friendship": 70
+  },
+  "gligar": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Hyper Cutter", "Sand Veil"],
+    "friendship": 70
+  },
+  "steelix": {
+    "catchRate": 25,
+    "genderRatio": 127,
+    "abilities": ["Rock Head", "Sturdy"],
+    "friendship": 70
+  },
+  "snubbull": {
+    "catchRate": 190,
+    "genderRatio": 191,
+    "abilities": ["Intimidate", "Run Away"],
+    "friendship": 70
+  },
+  "granbull": {
+    "catchRate": 75,
+    "genderRatio": 191,
+    "abilities": ["Intimidate"],
+    "friendship": 70
+  },
+  "qwilfish": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Poison Point", "Swift Swim"],
+    "friendship": 70
+  },
+  "scizor": {
+    "catchRate": 25,
+    "genderRatio": 127,
+    "abilities": ["Swarm"],
+    "friendship": 70
+  },
+  "shuckle": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Sturdy"],
+    "friendship": 70
+  },
+  "heracross": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Swarm", "Guts"],
+    "friendship": 70
+  },
+  "sneasel": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Inner Focus", "Keen Eye"],
+    "friendship": 35
+  },
+  "teddiursa": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Pickup"],
+    "friendship": 70
+  },
+  "ursaring": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Guts"],
+    "friendship": 70
+  },
+  "slugma": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Magma Armor", "Flame Body"],
+    "friendship": 70
+  },
+  "magcargo": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Magma Armor", "Flame Body"],
+    "friendship": 70
+  },
+  "swinub": {
+    "catchRate": 225,
+    "genderRatio": 127,
+    "abilities": ["Oblivious"],
+    "friendship": 70
+  },
+  "piloswine": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Oblivious"],
+    "friendship": 70
+  },
+  "corsola": {
+    "catchRate": 60,
+    "genderRatio": 191,
+    "abilities": ["Hustle", "Natural Cure"],
+    "friendship": 70
+  },
+  "remoraid": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Hustle"],
+    "friendship": 70
+  },
+  "octillery": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Suction Cups"],
+    "friendship": 70
+  },
+  "delibird": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Vital Spirit", "Hustle"],
+    "friendship": 70
+  },
+  "mantine": {
+    "catchRate": 25,
+    "genderRatio": 127,
+    "abilities": ["Swift Swim", "Water Absorb"],
+    "friendship": 70
+  },
+  "skarmory": {
+    "catchRate": 25,
+    "genderRatio": 127,
+    "abilities": ["Keen Eye", "Sturdy"],
+    "friendship": 70
+  },
+  "houndour": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Early Bird", "Flash Fire"],
+    "friendship": 35
+  },
+  "houndoom": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Early Bird", "Flash Fire"],
+    "friendship": 35
+  },
+  "kingdra": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Swift Swim"],
+    "friendship": 70
+  },
+  "phanpy": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Pickup"],
+    "friendship": 70
+  },
+  "donphan": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Sturdy"],
+    "friendship": 70
+  },
+  "porygon2": {
+    "catchRate": 45,
+    "genderRatio": 255,
+    "abilities": ["Trace"],
+    "friendship": 70
+  },
+  "stantler": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Intimidate"],
+    "friendship": 70
+  },
+  "smeargle": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Own Tempo"],
+    "friendship": 70
+  },
+  "tyrogue": {
+    "catchRate": 75,
+    "genderRatio": 0,
+    "abilities": ["Guts"],
+    "friendship": 70
+  },
+  "hitmontop": {
+    "catchRate": 45,
+    "genderRatio": 0,
+    "abilities": ["Intimidate"],
+    "friendship": 70
+  },
+  "smoochum": {
+    "catchRate": 45,
+    "genderRatio": 254,
+    "abilities": ["Oblivious"],
+    "friendship": 70
+  },
+  "elekid": {
+    "catchRate": 45,
+    "genderRatio": 63,
+    "abilities": ["Static"],
+    "friendship": 70
+  },
+  "magby": {
+    "catchRate": 45,
+    "genderRatio": 63,
+    "abilities": ["Flame Body"],
+    "friendship": 70
+  },
+  "miltank": {
+    "catchRate": 45,
+    "genderRatio": 254,
+    "abilities": ["Thick Fat"],
+    "friendship": 70
+  },
+  "blissey": {
+    "catchRate": 30,
+    "genderRatio": 254,
+    "abilities": ["Natural Cure", "Serene Grace"],
+    "friendship": 140
+  },
+  "raikou": {
+    "catchRate": 3,
+    "genderRatio": 255,
+    "abilities": ["Pressure"],
+    "friendship": 35
+  },
+  "entei": {
+    "catchRate": 3,
+    "genderRatio": 255,
+    "abilities": ["Pressure"],
+    "friendship": 35
+  },
+  "suicune": {
+    "catchRate": 3,
+    "genderRatio": 255,
+    "abilities": ["Pressure"],
+    "friendship": 35
+  },
+  "larvitar": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Guts"],
+    "friendship": 35
+  },
+  "pupitar": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Shed Skin"],
+    "friendship": 35
+  },
+  "tyranitar": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Sand Stream"],
+    "friendship": 35
+  },
+  "lugia": {
+    "catchRate": 3,
+    "genderRatio": 255,
+    "abilities": ["Pressure"],
+    "friendship": 0
+  },
+  "hooh": {
+    "catchRate": 3,
+    "genderRatio": 255,
+    "abilities": ["Pressure"],
+    "friendship": 0
+  },
+  "celebi": {
+    "catchRate": 45,
+    "genderRatio": 255,
+    "abilities": ["Natural Cure"],
+    "friendship": 100
+  },
+  "treecko": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Overgrow"],
+    "friendship": 70
+  },
+  "grovyle": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Overgrow"],
+    "friendship": 70
+  },
+  "sceptile": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Overgrow"],
+    "friendship": 70
+  },
+  "torchic": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Blaze"],
+    "friendship": 70
+  },
+  "combusken": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Blaze"],
+    "friendship": 70
+  },
+  "blaziken": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Blaze"],
+    "friendship": 70
+  },
+  "mudkip": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Torrent"],
+    "friendship": 70
+  },
+  "marshtomp": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Torrent"],
+    "friendship": 70
+  },
+  "swampert": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Torrent"],
+    "friendship": 70
+  },
+  "poochyena": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Run Away"],
+    "friendship": 70
+  },
+  "mightyena": {
+    "catchRate": 127,
+    "genderRatio": 127,
+    "abilities": ["Intimidate"],
+    "friendship": 70
+  },
+  "zigzagoon": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Pickup"],
+    "friendship": 70
+  },
+  "linoone": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Pickup"],
+    "friendship": 70
+  },
+  "wurmple": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Shield Dust"],
+    "friendship": 70
+  },
+  "silcoon": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Shed Skin"],
+    "friendship": 70
+  },
+  "beautifly": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Swarm"],
+    "friendship": 70
+  },
+  "cascoon": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Shed Skin"],
+    "friendship": 70
+  },
+  "dustox": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Shield Dust"],
+    "friendship": 70
+  },
+  "lotad": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Swift Swim", "Rain Dish"],
+    "friendship": 70
+  },
+  "lombre": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Swift Swim", "Rain Dish"],
+    "friendship": 70
+  },
+  "ludicolo": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Swift Swim", "Rain Dish"],
+    "friendship": 70
+  },
+  "seedot": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll", "Early Bird"],
+    "friendship": 70
+  },
+  "nuzleaf": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll", "Early Bird"],
+    "friendship": 70
+  },
+  "shiftry": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll", "Early Bird"],
+    "friendship": 70
+  },
+  "taillow": {
+    "catchRate": 200,
+    "genderRatio": 127,
+    "abilities": ["Guts"],
+    "friendship": 70
+  },
+  "swellow": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Guts"],
+    "friendship": 70
+  },
+  "wingull": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Keen Eye"],
+    "friendship": 70
+  },
+  "pelipper": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Keen Eye"],
+    "friendship": 70
+  },
+  "ralts": {
+    "catchRate": 235,
+    "genderRatio": 127,
+    "abilities": ["Synchronize", "Trace"],
+    "friendship": 35
+  },
+  "kirlia": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Synchronize", "Trace"],
+    "friendship": 35
+  },
+  "gardevoir": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Synchronize", "Trace"],
+    "friendship": 35
+  },
+  "surskit": {
+    "catchRate": 200,
+    "genderRatio": 127,
+    "abilities": ["Swift Swim"],
+    "friendship": 70
+  },
+  "masquerain": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Intimidate"],
+    "friendship": 70
+  },
+  "shroomish": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Effect Spore"],
+    "friendship": 70
+  },
+  "breloom": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Effect Spore"],
+    "friendship": 70
+  },
+  "slakoth": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Truant"],
+    "friendship": 70
+  },
+  "vigoroth": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Vital Spirit"],
+    "friendship": 70
+  },
+  "slaking": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Truant"],
+    "friendship": 70
+  },
+  "nincada": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Compound Eyes"],
+    "friendship": 70
+  },
+  "ninjask": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Speed Boost"],
+    "friendship": 70
+  },
+  "shedinja": {
+    "catchRate": 45,
+    "genderRatio": 255,
+    "abilities": ["Wonder Guard"],
+    "friendship": 70
+  },
+  "whismur": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Soundproof"],
+    "friendship": 70
+  },
+  "loudred": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Soundproof"],
+    "friendship": 70
+  },
+  "exploud": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Soundproof"],
+    "friendship": 70
+  },
+  "makuhita": {
+    "catchRate": 180,
+    "genderRatio": 63,
+    "abilities": ["Thick Fat", "Guts"],
+    "friendship": 70
+  },
+  "hariyama": {
+    "catchRate": 200,
+    "genderRatio": 63,
+    "abilities": ["Thick Fat", "Guts"],
+    "friendship": 70
+  },
+  "azurill": {
+    "catchRate": 150,
+    "genderRatio": 191,
+    "abilities": ["Thick Fat", "Huge Power"],
+    "friendship": 70
+  },
+  "nosepass": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Sturdy", "Magnet Pull"],
+    "friendship": 70
+  },
+  "skitty": {
+    "catchRate": 255,
+    "genderRatio": 191,
+    "abilities": ["Cute Charm"],
+    "friendship": 70
+  },
+  "delcatty": {
+    "catchRate": 60,
+    "genderRatio": 191,
+    "abilities": ["Cute Charm"],
+    "friendship": 70
+  },
+  "sableye": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Keen Eye"],
+    "friendship": 35
+  },
+  "mawile": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Hyper Cutter", "Intimidate"],
+    "friendship": 70
+  },
+  "aron": {
+    "catchRate": 180,
+    "genderRatio": 127,
+    "abilities": ["Sturdy", "Rock Head"],
+    "friendship": 35
+  },
+  "lairon": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Sturdy", "Rock Head"],
+    "friendship": 35
+  },
+  "aggron": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Sturdy", "Rock Head"],
+    "friendship": 35
+  },
+  "meditite": {
+    "catchRate": 180,
+    "genderRatio": 127,
+    "abilities": ["Pure Power"],
+    "friendship": 70
+  },
+  "medicham": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Pure Power"],
+    "friendship": 70
+  },
+  "electrike": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Static", "Lightning Rod"],
+    "friendship": 70
+  },
+  "manectric": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Static", "Lightning Rod"],
+    "friendship": 70
+  },
+  "plusle": {
+    "catchRate": 200,
+    "genderRatio": 127,
+    "abilities": ["Plus"],
+    "friendship": 70
+  },
+  "minun": {
+    "catchRate": 200,
+    "genderRatio": 127,
+    "abilities": ["Minus"],
+    "friendship": 70
+  },
+  "volbeat": {
+    "catchRate": 150,
+    "genderRatio": 0,
+    "abilities": ["Illuminate", "Swarm"],
+    "friendship": 70
+  },
+  "illumise": {
+    "catchRate": 150,
+    "genderRatio": 254,
+    "abilities": ["Oblivious"],
+    "friendship": 70
+  },
+  "roselia": {
+    "catchRate": 150,
+    "genderRatio": 127,
+    "abilities": ["Natural Cure", "Poison Point"],
+    "friendship": 70
+  },
+  "gulpin": {
+    "catchRate": 225,
+    "genderRatio": 127,
+    "abilities": ["Liquid Ooze", "Sticky Hold"],
+    "friendship": 70
+  },
+  "swalot": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Liquid Ooze", "Sticky Hold"],
+    "friendship": 70
+  },
+  "carvanha": {
+    "catchRate": 225,
+    "genderRatio": 127,
+    "abilities": ["Rough Skin"],
+    "friendship": 35
+  },
+  "sharpedo": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Rough Skin"],
+    "friendship": 35
+  },
+  "wailmer": {
+    "catchRate": 125,
+    "genderRatio": 127,
+    "abilities": ["Water Veil", "Oblivious"],
+    "friendship": 70
+  },
+  "wailord": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Water Veil", "Oblivious"],
+    "friendship": 70
+  },
+  "numel": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Oblivious"],
+    "friendship": 70
+  },
+  "camerupt": {
+    "catchRate": 150,
+    "genderRatio": 127,
+    "abilities": ["Magma Armor"],
+    "friendship": 70
+  },
+  "torkoal": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["White Smoke"],
+    "friendship": 70
+  },
+  "spoink": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Thick Fat", "Own Tempo"],
+    "friendship": 70
+  },
+  "grumpig": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Thick Fat", "Own Tempo"],
+    "friendship": 70
+  },
+  "spinda": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Own Tempo"],
+    "friendship": 70
+  },
+  "trapinch": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Hyper Cutter", "Arena Trap"],
+    "friendship": 70
+  },
+  "vibrava": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Levitate"],
+    "friendship": 70
+  },
+  "flygon": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Levitate"],
+    "friendship": 70
+  },
+  "cacnea": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Sand Veil"],
+    "friendship": 35
+  },
+  "cacturne": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Sand Veil"],
+    "friendship": 35
+  },
+  "swablu": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Natural Cure"],
+    "friendship": 70
+  },
+  "altaria": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Natural Cure"],
+    "friendship": 70
+  },
+  "zangoose": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Immunity"],
+    "friendship": 70
+  },
+  "seviper": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Shed Skin"],
+    "friendship": 70
+  },
+  "lunatone": {
+    "catchRate": 45,
+    "genderRatio": 255,
+    "abilities": ["Levitate"],
+    "friendship": 70
+  },
+  "solrock": {
+    "catchRate": 45,
+    "genderRatio": 255,
+    "abilities": ["Levitate"],
+    "friendship": 70
+  },
+  "barboach": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Oblivious"],
+    "friendship": 70
+  },
+  "whiscash": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Oblivious"],
+    "friendship": 70
+  },
+  "corphish": {
+    "catchRate": 205,
+    "genderRatio": 127,
+    "abilities": ["Hyper Cutter", "Shell Armor"],
+    "friendship": 70
+  },
+  "crawdaunt": {
+    "catchRate": 155,
+    "genderRatio": 127,
+    "abilities": ["Hyper Cutter", "Shell Armor"],
+    "friendship": 70
+  },
+  "baltoy": {
+    "catchRate": 255,
+    "genderRatio": 255,
+    "abilities": ["Levitate"],
+    "friendship": 70
+  },
+  "claydol": {
+    "catchRate": 90,
+    "genderRatio": 255,
+    "abilities": ["Levitate"],
+    "friendship": 70
+  },
+  "lileep": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Suction Cups"],
+    "friendship": 70
+  },
+  "cradily": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Suction Cups"],
+    "friendship": 70
+  },
+  "anorith": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Battle Armor"],
+    "friendship": 70
+  },
+  "armaldo": {
+    "catchRate": 45,
+    "genderRatio": 31,
+    "abilities": ["Battle Armor"],
+    "friendship": 70
+  },
+  "feebas": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Swift Swim"],
+    "friendship": 70
+  },
+  "milotic": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Marvel Scale"],
+    "friendship": 70
+  },
+  "castform": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Forecast"],
+    "friendship": 70
+  },
+  "kecleon": {
+    "catchRate": 200,
+    "genderRatio": 127,
+    "abilities": ["Color Change"],
+    "friendship": 70
+  },
+  "shuppet": {
+    "catchRate": 225,
+    "genderRatio": 127,
+    "abilities": ["Insomnia"],
+    "friendship": 35
+  },
+  "banette": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Insomnia"],
+    "friendship": 35
+  },
+  "duskull": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Levitate"],
+    "friendship": 35
+  },
+  "dusclops": {
+    "catchRate": 90,
+    "genderRatio": 127,
+    "abilities": ["Pressure"],
+    "friendship": 35
+  },
+  "tropius": {
+    "catchRate": 200,
+    "genderRatio": 127,
+    "abilities": ["Chlorophyll"],
+    "friendship": 70
+  },
+  "chimecho": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Levitate"],
+    "friendship": 70
+  },
+  "absol": {
+    "catchRate": 30,
+    "genderRatio": 127,
+    "abilities": ["Pressure"],
+    "friendship": 35
+  },
+  "wynaut": {
+    "catchRate": 125,
+    "genderRatio": 127,
+    "abilities": ["Shadow Tag"],
+    "friendship": 70
+  },
+  "snorunt": {
+    "catchRate": 190,
+    "genderRatio": 127,
+    "abilities": ["Inner Focus"],
+    "friendship": 70
+  },
+  "glalie": {
+    "catchRate": 75,
+    "genderRatio": 127,
+    "abilities": ["Inner Focus"],
+    "friendship": 70
+  },
+  "spheal": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Thick Fat"],
+    "friendship": 70
+  },
+  "sealeo": {
+    "catchRate": 120,
+    "genderRatio": 127,
+    "abilities": ["Thick Fat"],
+    "friendship": 70
+  },
+  "walrein": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Thick Fat"],
+    "friendship": 70
+  },
+  "clamperl": {
+    "catchRate": 255,
+    "genderRatio": 127,
+    "abilities": ["Shell Armor"],
+    "friendship": 70
+  },
+  "huntail": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Swift Swim"],
+    "friendship": 70
+  },
+  "gorebyss": {
+    "catchRate": 60,
+    "genderRatio": 127,
+    "abilities": ["Swift Swim"],
+    "friendship": 70
+  },
+  "relicanth": {
+    "catchRate": 25,
+    "genderRatio": 31,
+    "abilities": ["Swift Swim", "Rock Head"],
+    "friendship": 70
+  },
+  "luvdisc": {
+    "catchRate": 225,
+    "genderRatio": 191,
+    "abilities": ["Swift Swim"],
+    "friendship": 70
+  },
+  "bagon": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Rock Head"],
+    "friendship": 35
+  },
+  "shelgon": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Rock Head"],
+    "friendship": 35
+  },
+  "salamence": {
+    "catchRate": 45,
+    "genderRatio": 127,
+    "abilities": ["Intimidate"],
+    "friendship": 35
+  },
+  "beldum": {
+    "catchRate": 3,
+    "genderRatio": 255,
+    "abilities": ["Clear Body"],
+    "friendship": 35
+  },
+  "metang": {
+    "catchRate": 3,
+    "genderRatio": 255,
+    "abilities": ["Clear Body"],
+    "friendship": 35
+  },
+  "metagross": {
+    "catchRate": 3,
+    "genderRatio": 255,
+    "abilities": ["Clear Body"],
+    "friendship": 35
+  },
+  "regirock": {
+    "catchRate": 3,
+    "genderRatio": 255,
+    "abilities": ["Clear Body"],
+    "friendship": 35
+  },
+  "regice": {
+    "catchRate": 3,
+    "genderRatio": 255,
+    "abilities": ["Clear Body"],
+    "friendship": 35
+  },
+  "registeel": {
+    "catchRate": 3,
+    "genderRatio": 255,
+    "abilities": ["Clear Body"],
+    "friendship": 35
+  },
+  "latias": {
+    "catchRate": 3,
+    "genderRatio": 254,
+    "abilities": ["Levitate"],
+    "friendship": 90
+  },
+  "latios": {
+    "catchRate": 3,
+    "genderRatio": 0,
+    "abilities": ["Levitate"],
+    "friendship": 90
+  },
+  "kyogre": {
+    "catchRate": 5,
+    "genderRatio": 255,
+    "abilities": ["Drizzle"],
+    "friendship": 0
+  },
+  "groudon": {
+    "catchRate": 5,
+    "genderRatio": 255,
+    "abilities": ["Drought"],
+    "friendship": 0
+  },
+  "rayquaza": {
+    "catchRate": 3,
+    "genderRatio": 255,
+    "abilities": ["Air Lock"],
+    "friendship": 0
+  },
+  "jirachi": {
+    "catchRate": 3,
+    "genderRatio": 255,
+    "abilities": ["Serene Grace"],
+    "friendship": 100
+  },
+  "deoxys": {
+    "catchRate": 3,
+    "genderRatio": 255,
+    "abilities": ["Pressure"],
+    "friendship": 0
+  }
+}
